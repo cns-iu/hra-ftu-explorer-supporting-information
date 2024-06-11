@@ -1,1 +1,1 @@
-# Supporting information for paper titled "Explore data for FTU in Human Reference Atlas" (WORK IN PROGRESS)
+# Supporting information for paper titled "Data exploration of FTUs in Human Reference Atlas" (WORK IN PROGRESS)
