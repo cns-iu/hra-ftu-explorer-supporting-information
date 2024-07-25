@@ -1,4 +1,4 @@
-cell_id,cell_label,annotation_method,modality,cell_source_label,sex,aggregated_summaries,#datasets
+CL_ID,cell_label,annotation_method,modality,cell_source_label,sex,datasets,#datasets
 CL:0009080,intestinal tuft cell,popv,sc_transcriptomics,jejunum,Female,"['https://entity.api.hubmapconsortium.org/entities/3de525fe3e5718f297e8d62e037a042d', 'https://entity.api.hubmapconsortium.org/entities/69ede86e15f4c129ca8eff2bb9940b36']",2
 CL:0000057,fibroblast,popv,sc_transcriptomics,jejunum,Female,"['https://entity.api.hubmapconsortium.org/entities/3de525fe3e5718f297e8d62e037a042d', 'https://entity.api.hubmapconsortium.org/entities/69ede86e15f4c129ca8eff2bb9940b36']",2
 CL:0000775,neutrophil,popv,sc_transcriptomics,jejunum,Female,"['https://entity.api.hubmapconsortium.org/entities/3de525fe3e5718f297e8d62e037a042d', 'https://entity.api.hubmapconsortium.org/entities/69ede86e15f4c129ca8eff2bb9940b36']",2
