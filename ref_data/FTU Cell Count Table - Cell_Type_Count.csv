@@ -1,7 +1,3 @@
-,,,,,,,
-Total ASs,111,,,,,,
-Total CTs,3632,,,,,,
-,,,,,,,
 Organ,FTU Label in Uberon,FTU ID in Uberon,CT Label in CL,CT ID in CL,CT Label in 2D Object,#AS,#CT
 Kidney,Cortical Collecting Duct,UBERON:0004203,kidney collecting duct beta-intercalated cell,CL:4030005,Cortical Collecting Duct Intercalated Cell Type B,0,2
 Kidney,Cortical Collecting Duct,UBERON:0004203,kidney collecting duct alpha-intercalated cell,CL:4030015,Cortical Collecting Duct Intercalated Cell Type A,0,4
