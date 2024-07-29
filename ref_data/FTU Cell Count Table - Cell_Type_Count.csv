@@ -78,7 +78,7 @@ Pancreas,Acinus,UBERON:0001263,pancreatic acinar cell,CL:0002064,Pancreatic Acin
 Pancreas,Acinus,UBERON:0001263,pancreatic goblet cell,CL:1000322,Pancreatic Goblet Cell,0,1
 Pancreas,Acinus,UBERON:0001263,epithelial cell of exocrine pancreas,CL:1001433,Ductal Epithelial Cell,0,14
 Pancreas,Acinus,UBERON:0001263,pancreatic centro-acinar cell,CL:0002080,Centroacinar Cell,0,2
-Pancreas,Acinus,UBERON:0001263,intestinal tuft cell,CL:0019032,Tuft Cell,0,1
+Pancreas,Acinus,UBERON:0001263,,,Tuft Cell,0,1
 Pancreas,Acinus,UBERON:0001263,intercalated duct of pancreas,UBERON:0014726,Intercalated Duct,1,0
 Pancreas,Islet of Langerhans,UBERON:0000006,pancreatic A cell,CL:0000171,Pancreatic A Cell,0,65
 Pancreas,Islet of Langerhans,UBERON:0000006,type B pancreatic cell,CL:0000169,Pancreatic B Cell,0,116
