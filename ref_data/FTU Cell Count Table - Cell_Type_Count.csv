@@ -86,7 +86,7 @@ Pancreas,Islet of Langerhans,UBERON:0000006,pancreatic D cell,CL:0000173,Pancrea
 Pancreas,Islet of Langerhans,UBERON:0000006,pancreatic PP cell,CL:0002275,Pancreatic PP Cell,0,11
 Pancreas,Islet of Langerhans,UBERON:0000006,capillary endothelial cell,CL:0002144,Capillary Endothelial Cell,0,7
 Pancreas,Islet of Langerhans,UBERON:0000006,macrophage,CL:0000235,Macrophage,0,4
-Pancreas,Islet of Langerhans,UBERON:0000006,pericyte,,Pericyte,0,1
+Pancreas,Islet of Langerhans,UBERON:0000006,,,Pericyte,0,1
 Prostate,Prostate Glandular Acinus,UBERON:0004179,fibroblast of subepithelial connective tissue of prostatic gland,CL:1000301,Fibroblast Of Subepithelial Connective Tissue Of Prostatic Gland,0,101
 Prostate,Prostate Glandular Acinus,UBERON:0004179,smooth muscle cell of prostate,CL:1000487,Smooth Muscle Cell Of Prostate,0,76
 Prostate,Prostate Glandular Acinus,UBERON:0004179,fibroblast of connective tissue of prostate,CL:1000299,Fibroblast Of Connective Tissue Of Prostate,0,20
@@ -127,8 +127,8 @@ Spleen,Red Pulp,UBERON:0001250,"dendritic cell, human",CL:0001056,Dendritic Cell
 Spleen,Red Pulp,UBERON:0001250,hematopoetic stem cell,CL:0000037,Hematopoetic Stem Cell,0,9
 Spleen,Red Pulp,UBERON:0001250,reticular cell of splenic sinusoid,,Reticular Cell Of Splenic Sinusoid,0,31
 Spleen,White Pulp,UBERON:0001959,splenic white pulp macrophage,CL:0000876,Splenic Marginal Zone Macrophage,0,19
-Spleen,White Pulp,UBERON:0001959,T cell (outer PALS),,T Cells Outer Pals,0,94
-Spleen,White Pulp,UBERON:0001959,T cell (inner PALS),,T Cells Inner Pals,0,385
+Spleen,White Pulp,UBERON:0001959,,,T Cells Outer Pals,0,94
+Spleen,White Pulp,UBERON:0001959,,,T Cells Inner Pals,0,385
 Spleen,White Pulp,UBERON:0001959,smooth muscle cell,CL:0000192,Smooth Muscle Cell,0,11
 Spleen,White Pulp,UBERON:0001959,splenic endothelial cell,CL:2000053,Splenic Endothelial Cell,0,21
 Spleen,White Pulp,UBERON:0001959,stromal cell,CL:0000499,Stromal Cell,0,6
@@ -145,7 +145,7 @@ Thymus,Thymus Lobule,UBERON:0002125,thymic cortical macrophage,CL:0000883,Thymic
 Thymus,Thymus Lobule,UBERON:0002125,subcapsular cortical epithelial cell,CL:0009077,Subcapsular Cortical Epithelial Cell,0,11
 Thymus,Thymus Lobule,UBERON:0002125,beige adipocyte,CL:0001070,Beige Adipocyte,0,2
 Thymus,Thymus Lobule,UBERON:0002125,T cell,CL:0000084,T Cells,0,29
-Thymus,Thymus Lobule,UBERON:0002125,medullary thymocyte,,Medullary Thymocytes,0,123
+Thymus,Thymus Lobule,UBERON:0002125,,,Medullary Thymocytes,0,123
 Thymus,Thymus Lobule,UBERON:0002125,medullary thymic epithelial cell type 1,CL:0009071,Medullary Thymic Epithelial Cell,0,16
 Thymus,Thymus Lobule,UBERON:0002125,Hassall's corpuscle,UBERON:0003987,Hassalls Corpuscle,1,0
 Thymus,Thymus Lobule,UBERON:0002125,memory B cell,CL:0000787,B Cell,0,8
