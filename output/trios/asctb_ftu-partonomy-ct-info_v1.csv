@@ -1,0 +1,341 @@
+FTU Partonomy	Cell Type	CT ID	CT Label	Biomarker - Gene	Biomarker - Protein
+kidney-->cortex of kidney-->outer cortex of kidney-->Glomerular Epithelium-->visceral epithelial layer	glomerular visceral epithelial cell	CL:0000653	Podocyte	NPHS2;PODXL;NPHS1;PTPRQ	
+kidney-->cortex of kidney-->juxtamedullary cortex-->Glomerular Epithelium-->visceral epithelial layer	glomerular visceral epithelial cell	CL:0000653	Podocyte	NPHS2;PODXL;NPHS1;PTPRQ	PODXL
+kidney-->cortex of kidney-->medullary ray-->Collecting Duct (Cortex)	kidney cortex collecting duct principal cell	CL:1000714	Cortical Collecting Duct Principal Cell	AQP2;AQP3;FXYD4	AQP2
+kidney-->cortex of kidney-->medullary ray-->Collecting Duct (Cortex)	kidney cortex collecting duct principal cell	CL:1000714	Cortical Collecting Duct Principal Cell	AQP2;AQP3;FXYD4	AQP2
+kidney-->renal medulla-->inner medulla of kidney-->Descending Vasa Recta	vasa recta descending limb cell	CL:1001285	Descending Vasa Recta Endothelial Cell	SERPINE2;TM4SF1;PALMD;ADAMTS6	UMOD
+kidney-->renal medulla-->inner medulla of kidney-->renal papilla-->papillary tip	kidney inner medulla collecting duct principal cell	CL:1000718	Inner Medullary Collecting Duct Cell	AQP2;SLC14A2	AQP2
+kidney-->renal medulla-->inner medulla of kidney-->renal papilla-->papillary tip	kidney inner medulla collecting duct	CL:1000718	Inner Medullary Collecting Duct Cell	AQP2;SLC14A2	AQP2
+kidney-->renal cortex-->renal column (column of Bertin)-->Glomerular Epithelium-->visceral epithelial layer	glomerular visceral epithelial cell	CL:0000653	Podocyte	NPHS2;PODXL;NPHS1;PTPRQ	PODXL
+kidney-->renal medulla-->renal pyramid-->Descending Vasa Recta	vasa recta descending limb cell	CL:1001285	Descending Vasa Recta Endothelial Cell	SERPINE2;TM4SF1;PALMD;ADAMTS6	
+kidney-->nephron-->Renal Corpuscle-->Glomerular Epithelium-->parietal epithelial layer	parietal epithelial cell	CL:1000452	Parietal Epithelial Cell	VCAM1;CFH;CRB2;ALDH1A2	VIM
+kidney-->nephron-->Renal Corpuscle-->Glomerular Epithelium-->visceral epithelial layer	glomerular visceral epithelial cell	CL:0000653	Podocyte	NPHS2;PODXL;NPHS1;PTPRQ;NTNG1;CLIC5	PODXL
+kidney-->nephron-->Renal Corpuscle-->renal glomerulus-->Glomerulus Vasculature-->glomerular capillary endothelium	glomerular capillary endothelial cell	CL:1001005	Glomerular Capillary Endothelial Cell	EHD3;EMCN;HECW2;FLT1;AQP1;PLAT	AQP1
+kidney-->nephron-->Renal Corpuscle-->Interstitium-->Proximal Tubule-->glomerular mesangium	glomerular mesangial cell	CL:1000742	Mesangial Cell	POSTN;PIEZO2;ROBO1;ITGA8;PDGFRB;SYNPO2	
+kidney-->nephron-->Tubules-->proximal tubule	epithelial cell of proximal tubule	CL:0002306	Proximal Tubule Epithelial Cell	CUBN;LRP2;SLC13A1;ALDOB;GATM	LRP2
+kidney-->nephron-->Tubules-->Proximal Tubule-->proximal convoluted tubule segment 1	epithelial cell of proximal tubule segment 1	CL:4030009	Proximal Tubule Epithelial Cell Segment 1	SLC5A12;SLC5A2;SLC34A1;SLC22A6;SLC22A8;PRODH2	
+kidney-->nephron-->Tubules-->Loop of Henle (Thin Limb)-->descending thin limb of loop of Henle	kidney loop of Henle thin descending limb epithelial cell	CL:1001111	Descending Thin Limb Cell	CRYAB;SPP1;SATB2;VCAM1;SLC44A5;CDH1	VIM;OSTP;CDH1
+kidney-->nephron-->Tubules-->Loop of Henle (Thin Limb)-->descending thin limb of loop of Henle	kidney loop of Henle thin descending limb epithelial cell	CL:1001111	Descending Thin Limb Cell	CRYAB;SPP1;SATB2;VCAM1;SLC44A5;CDH1	VIM;OSTP;CDH1
+kidney-->nephron-->Tubules-->Loop of Henle (Thin Limb)	kidney loop of Henle thin ascending limb epithelial cell	CL:1001107	Ascending Thin Limb Cell	CRYAB;TACSTD2;CLDN3;SH3GL3;PROX1;CLCNKA;CDH1	CDH1
+kidney-->nephron-->Tubules-->Loop of Henle (Thin Limb)	kidney loop of Henle thin ascending limb epithelial cell	CL:1001107	Ascending Thin Limb Cell	CRYAB;TACSTD2;CLDN3;SH3GL3;PROX1;CLCNKA;CDH1	CDH1
+kidney-->nephron-->Tubules-->Loop of Henle (Thick Limb)	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106	Thick Ascending Limb Cell	SLC12A1;UMOD;CASR;ATP1A1;CDH1	ATP1A1;CDH1;UMOD
+kidney-->nephron-->Tubules-->Loop of Henle (Thick Limb)	kidney loop of Henle thick ascending limb epithelial cell	CL:1001106	Thick Ascending Limb Cell	SLC12A1;UMOD;CASR;ATP1A1;CDH1	ATP1A1;CDH1;UMOD
+kidney-->nephron-->Tubules-->Loop of Henle (Thick Limb/ Cortex)-->Macula Densa	macula densa epithelial cell	CL:1000850	Macula Densa cell	SLC12A1;NOS1;ROBO2;ATP1A1;CDH1	ATP1A1;CDH1
+kidney-->nephron-->Tubules-->Loop of Henle (Thick Limb/ Cortex)-->Macula Densa	macula densa epithelial cell	CL:1000850	Macula Densa cell	SLC12A1;NOS1;ROBO2;ATP1A1;CDH1	ATP1A1;CDH1
+kidney-->nephron-->Tubules-->Distal Convolution	kidney distal convoluted tubule epithelial cell	CL:1000849	Distal Convoluted Tubule Cell	SLC12A3;TRPM6;CALB1;SALL3;ATP1A1;CDH1	SLC12A3;ATP1A1;CDH1
+kidney-->nephron-->Tubules-->Connecting Tubule	kidney connecting tubule epithelial cell	CL:1000768	Connecting Tubule Cell	SLC8A1;CALB1;TRPV5;GATA3;HSD11B2;SCNN1G;SCN2A;CDH1	GATA3;CDH1
+kidney-->renal collecting system-->Tubules-->Collecting Duct (Cortex)	kidney cortex collecting duct principal cell	CL:1000714	Cortical Collecting Duct Principal Cell	AQP2;AQP3;FXYD4;SCNN1G;GATA3	AQP2
+kidney-->renal collecting system-->Tubules-->Collecting Duct (Cortex)	kidney cortex collecting duct principal cell	CL:1000714	Cortical Collecting Duct Principal Cell	AQP2;AQP3;FXYD4;SCNN1G;GATA3	AQP2
+kidney-->renal collecting system-->Tubules-->Collecting Duct (Outer Medulla)	kidney outer medulla collecting duct principal cell	CL:1000716	Outer Medullary Collecting Duct Principal Cell	AQP2;AQP3;FXYD4;SCNN1G;GATA3	AQP2
+kidney-->renal collecting system-->Tubules-->Collecting Duct (Outer Medulla)	kidney outer medulla collecting duct principal cell	CL:1000716	Outer Medullary Collecting Duct Principal Cell	AQP2;AQP3;FXYD4;SCNN1G;GATA3	AQP2
+kidney-->renal collecting system-->Tubules-->Collecting Duct (Inner Medulla)	kidney inner medulla collecting duct principal cell	CL:1000718	Inner Medullary Collecting Duct Cell	AQP2;SLC14A2	AQP2
+kidney-->renal collecting system-->Tubules-->Collecting Duct (Inner Medulla)	kidney inner medulla collecting duct	CL:1000718	Inner Medullary Collecting Duct Cell	AQP2;SLC14A2	AQP2
+kidney-->renal collecting system-->Tubules-->Collecting Duct	kidney collecting duct alpha-intercalated cell	CL:4030015	Collecting Duct Intercalated Cell Type A	SLC4A1;SLC26A7;TMEM213;KIT;AQP6	
+kidney-->renal collecting system-->Tubules-->Collecting Duct (Cortex)	kidney cortex collecting duct intercalated cell	CL:1000715	Cortical Collecting Duct Intercalated Cell Type A	SLC26A7;SLC4A1;KIT;AQP6	
+kidney-->renal collecting system-->Tubules-->Collecting Duct (Medulla)	kidney outer medulla collecting duct intercalated cell	CL:1000717	Outer Medullary Collecting Duct Intercalated Cell Type A	SLC26A7;SLC4A1;KIT;CALCA	
+kidney-->renal collecting system-->Tubules-->Collecting Duct	kidney cortex collecting duct intercalated cell	CL:1000715	Cortical Collecting Duct Intercalated Cell Type B	SLC4A9;SLC26A4	
+kidney-->Vessels-->Juxtaglomerular Arteriole-->Afferent Arteriole	afferent arteriole endothelial cell	CL:1001096	Afferent Arteriole Endothelial Cell	SERPINE2;TM4SF1;PALMD;ADAMTS6;SLC14A1;SOX17	CD31
+kidney-->Vessels-->Juxtaglomerular Arteriole-->Efferent Arteriole	efferent arteriole endothelial cell	CL:1001099	Efferent Arteriole Endothelial cell	SERPINE2;TM4SF1;PALMD;ADAMTS6;SLC14A1;SOX17	CD31
+kidney-->Vessels-->Kidney Capillary-->Peritubular Capillary-->Endothelium (non glomerular)	peritubular capillary endothelial cell	CL:1001033	Peritubular Capillary Endothelial Cell	RAMP3;PLVAP;DNASE1L3	CD31
+kidney-->Vessels-->Kidney Capillary-->Peritubular Capillary-->Endothelium (non glomerular)	peritubular capillary endothelial cell	CL:1001033	Peritubular Capillary Endothelial Cell	RAMP3;PLVAP;DNASE1L3	CD31
+kidney-->Vessels-->Kidney Capillary-->Peritubular Capillary-->Endothelium (non glomerular)	peritubular capillary endothelial cell	CL:1001033	Peritubular Capillary Endothelial Cell	RAMP3;PLVAP;DNASE1L3	CD31
+kidney-->Vessels-->Kidney Capillary-->Peritubular Capillary-->Endothelium (non glomerular)	peritubular capillary endothelial cell	CL:1001033	Peritubular Capillary Endothelial Cell	RAMP3;PLVAP;DNASE1L3	CD31
+kidney-->Vessels-->Vasa Recta-->Descending Vasa Recta-->Endothelium (non glomerular)	vasa recta descending limb cell	CL:1001285	Descending Vasa Recta Endothelial Cell	MCTP1;SLC14A1;SERPINE2;TM4SF1;PALMD;ADAMTS6	CD31
+kidney-->Vessels-->Vasa Recta-->Ascending Vasa Recta-->Endothelium (non glomerular)	vasa recta ascending limb cell	CL:1001131	Ascending Vasa Recta Endothelial Cell	NR2F2;GPM6A;PLVAP;DNASE1L3	CD31
+large intestine-->ileocecal valve-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->ileocecal valve-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->ileocecal valve-->mucosa-->epithelium	intestinal crypt stem cell of large intestine	CL:0009016	epithelial stem cell	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2
+large intestine-->ileocecal valve-->mucosa-->epithelium	neuroendocrine cell	CL:0000165	neuroendocrine	chromogranin A;synaptophysin;INSM1;INSL5	chromogranin A;synaptophysin;INSM1;INSL5
+large intestine-->ileocecal valve-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->ileocecal valve-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->ileocecal valve-->mucosa-->epithelium	intestinal tuft cell	CL:0019032	tuft cell	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1
+large intestine-->ileocecal valve-->mucosa-->lamina propria	neuroendocrine cell	CL:0000165	neuroendocrine cell	chromogranin A;synaptophysin;INSM1	chromogranin A;synaptophysin;INSM1
+large intestine-->cecum-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->cecum-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->cecum-->mucosa-->epithelium	intestinal crypt stem cell of large intestine	CL:0009016	epithelial stem cell	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2
+large intestine-->cecum-->mucosa-->epithelium	neuroendocrine cell	CL:0000165	neuroendocrine	chromogranin A;synaptophysin;INSM1;INSL5	chromogranin A;synaptophysin;INSM1;INSL5
+large intestine-->cecum-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->cecum-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->cecum-->mucosa-->epithelium	intestinal tuft cell	CL:0019032	tuft cell	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1
+large intestine-->cecum-->mucosa-->lamina propria	neuroendocrine cell	CL:0000165	neuroendocrine cell	chromogranin A;synaptophysin;INSM1	chromogranin A;synaptophysin;INSM1
+large intestine-->appendix-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->appendix-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->appendix-->mucosa-->epithelium	intestinal crypt stem cell of large intestine	CL:0009016	epithelial stem cell	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2
+large intestine-->appendix-->mucosa-->epithelium	neuroendocrine cell	CL:0000165	neuroendocrine	chromogranin A;synaptophysin;INSM1;INSL5	chromogranin A;synaptophysin;INSM1;INSL5
+large intestine-->appendix-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->appendix-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->appendix-->mucosa-->epithelium	intestinal tuft cell	CL:0019032	tuft cell	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1
+large intestine-->appendix-->mucosa-->lamina propria	neuroendocrine cell	CL:0000165	neuroendocrine cell	chromogranin A;synaptophysin;INSM1	chromogranin A;synaptophysin;INSM1
+large intestine-->ascending colon-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->ascending colon-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->ascending colon-->mucosa-->epithelium	intestinal crypt stem cell of large intestine	CL:0009016	epithelial stem cell	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2
+large intestine-->ascending colon-->mucosa-->epithelium	neuroendocrine cell	CL:0000165	neuroendocrine	chromogranin A;synaptophysin;INSM1;INSL5	chromogranin A;synaptophysin;INSM1;INSL5
+large intestine-->ascending colon-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->ascending colon-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->ascending colon-->mucosa-->epithelium	intestinal tuft cell	CL:0019032	tuft cell	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1
+large intestine-->ascending colon-->mucosa-->lamina propria	neuroendocrine cell	CL:0000165	neuroendocrine cell	chromogranin A;synaptophysin;INSM1	chromogranin A;synaptophysin;INSM1
+large intestine-->hepatic flexure-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->hepatic flexure-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->hepatic flexure-->mucosa-->epithelium	intestinal crypt stem cell of large intestine	CL:0009016	epithelial stem cell	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2
+large intestine-->hepatic flexure-->mucosa-->epithelium	neuroendocrine cell	CL:0000165	neuroendocrine	chromogranin A;synaptophysin;INSM1;INSL5	chromogranin A;synaptophysin;INSM1;INSL5
+large intestine-->hepatic flexure-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->hepatic flexure-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->hepatic flexure-->mucosa-->epithelium	intestinal tuft cell	CL:0019032	tuft cell	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1
+large intestine-->hepatic flexure-->mucosa-->lamina propria	neuroendocrine cell	CL:0000165	neuroendocrine cell	chromogranin A;synaptophysin;INSM1	chromogranin A;synaptophysin;INSM1
+large intestine-->transverse colon-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->transverse colon-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->transverse colon-->mucosa-->epithelium	intestinal crypt stem cell of large intestine	CL:0009016	epithelial stem cell	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2
+large intestine-->transverse colon-->mucosa-->epithelium	neuroendocrine cell	CL:0000165	neuroendocrine	chromogranin A;synaptophysin;INSM1;INSL5	chromogranin A;synaptophysin;INSM1;INSL5
+large intestine-->transverse colon-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->transverse colon-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->transverse colon-->mucosa-->epithelium	intestinal tuft cell	CL:0019032	tuft cell	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1
+large intestine-->transverse colon-->mucosa-->lamina propria	neuroendocrine cell	CL:0000165	neuroendocrine cell	chromogranin A;synaptophysin;INSM1	chromogranin A;synaptophysin;INSM1
+large intestine-->splenic flexure-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->splenic flexure-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->splenic flexure-->mucosa-->epithelium	intestinal crypt stem cell of large intestine	CL:0009016	epithelial stem cell	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2
+large intestine-->splenic flexure-->mucosa-->epithelium	neuroendocrine cell	CL:0000165	neuroendocrine	chromogranin A;synaptophysin;INSM1;INSL5	chromogranin A;synaptophysin;INSM1;INSL5
+large intestine-->splenic flexure-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->splenic flexure-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->splenic flexure-->mucosa-->epithelium	intestinal tuft cell	CL:0019032	tuft cell	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1
+large intestine-->splenic flexure-->mucosa-->lamina propria	neuroendocrine cell	CL:0000165	neuroendocrine cell	chromogranin A;synaptophysin;INSM1	chromogranin A;synaptophysin;INSM1
+large intestine-->descending colon-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->descending colon-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->descending colon-->mucosa-->epithelium	intestinal crypt stem cell of large intestine	CL:0009016	epithelial stem cell	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2
+large intestine-->descending colon-->mucosa-->epithelium	neuroendocrine cell	CL:0000165	neuroendocrine	chromogranin A;synaptophysin;INSM1;INSL5	chromogranin A;synaptophysin;INSM1;INSL5
+large intestine-->descending colon-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->descending colon-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->descending colon-->mucosa-->epithelium	intestinal tuft cell	CL:0019032	tuft cell	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1
+large intestine-->descending colon-->mucosa-->lamina propria	neuroendocrine cell	CL:0000165	neuroendocrine cell	chromogranin A;synaptophysin;INSM1	chromogranin A;synaptophysin;INSM1
+large intestine-->sigmoid colon-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->sigmoid colon-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->sigmoid colon-->mucosa-->epithelium	intestinal crypt stem cell of large intestine	CL:0009016	epithelial stem cell	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2
+large intestine-->sigmoid colon-->mucosa-->epithelium	neuroendocrine cell	CL:0000165	neuroendocrine	chromogranin A;synaptophysin;INSM1;INSL5	chromogranin A;synaptophysin;INSM1;INSL5
+large intestine-->sigmoid colon-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->sigmoid colon-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->sigmoid colon-->mucosa-->epithelium	intestinal tuft cell	CL:0019032	tuft cell	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1
+large intestine-->sigmoid colon-->mucosa-->lamina propria	neuroendocrine cell	CL:0000165	neuroendocrine cell	chromogranin A;synaptophysin;INSM1	chromogranin A;synaptophysin;INSM1
+large intestine-->rectum-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->rectum-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->rectum-->mucosa-->epithelium	intestinal crypt stem cell of large intestine	CL:0009016	epithelial stem cell	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2
+large intestine-->rectum-->mucosa-->epithelium	neuroendocrine cell	CL:0000165	neuroendocrine	chromogranin A;synaptophysin;INSM1;INSL5	chromogranin A;synaptophysin;INSM1;INSL5
+large intestine-->rectum-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->rectum-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->rectum-->mucosa-->epithelium	intestinal tuft cell	CL:0019032	tuft cell	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1
+large intestine-->rectum-->mucosa-->lamina propria	neuroendocrine cell	CL:0000165	neuroendocrine cell	chromogranin A;synaptophysin;INSM1	chromogranin A;synaptophysin;INSM1
+large intestine-->proximal anal canal-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->proximal anal canal-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->proximal anal canal-->mucosa-->epithelium	intestinal crypt stem cell of large intestine	CL:0009016	epithelial stem cell	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2	RGMB;SOX9;CD44;Lgr5;LRIG1;SMOC2
+large intestine-->proximal anal canal-->mucosa-->epithelium	neuroendocrine cell	CL:0000165	neuroendocrine	chromogranin A;synaptophysin;INSM1;INSL5	chromogranin A;synaptophysin;INSM1;INSL5
+large intestine-->proximal anal canal-->mucosa-->epithelium	enterocyte of epithelium of large intestine	CL:0002071	absorptive	keratin 20;BEST4	keratin 20;BEST4
+large intestine-->proximal anal canal-->mucosa-->epithelium	large intestine crypt goblet cell	CL:1000321	goblet	keratin 20;MUC2	keratin 20;MUC2
+large intestine-->proximal anal canal-->mucosa-->epithelium	intestinal tuft cell	CL:0019032	tuft cell	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1	keratin 20;DCLK1;TRPM5;POU2F3;PTGS1
+large intestine-->proximal anal canal-->mucosa-->lamina propria	neuroendocrine cell	CL:0000165	neuroendocrine cell	chromogranin A;synaptophysin;INSM1	chromogranin A;synaptophysin;INSM1
+liver-->hepatic Lobule-->hepatic sinusoid	endothelial cell of hepatic sinusoid	CL:1000398	liver sinusoid endothelial cell	CD31;endoglin	CD34;CD31;CD105
+liver-->hepatic Lobule-->hepatic sinusoid	Kupffer Cell	CL:0000091	Kupffer cell	CD68	CD68;CD68
+liver-->hepatic Lobule-->Disse's space	hepatic stellate cell	CL:0000632	quiescent hepatic stellate cell	PDGFRB;GFAP;DES	PDGFRb;;desmin
+liver-->hepatic Lobule-->hepatic plate	hepatocyte	CL:0000182	hepatocyte		CYP2D6;CD10;BSEP
+liver-->hepatic Lobule-->central vein	vein endothelial cell	CL:0002543	endothelial cell	PECAM1;CD34	PECAM1;CD34
+liver-->hepatic Lobule-->portal triad/tract-->bile duct/ule	stratified cuboidal epithelial cell	CL:0000241	cuboidal cell (Small cholangiocytes are cuboidal)	KRT19;KRT7	KRT19;KRT7
+liver-->hepatic Lobule-->portal triad/tract-->bile duct/ule	columnar/cuboidal epithelial cell	CL:0000075	columnar cell (larger cholangiocytes are more columnar) has ciliae	CFTR	
+liver-->hepatic Lobule-->portal triad/tract-->portal vein	vein endothelial cell	CL:0002543	endothelial cell		E-Selectin;CD34;vWF;Pal-E antigen
+liver-->hepatic Lobule-->portal triad/tract-->hepatic artery	endothelial cell of artery	CL:1000413	endothelial cell	PECAM1;CD34	PECAM1;CD34
+liver-->hepatic Lobule-->portal triad/tract-->hepatic artery	blood vessel smooth muscle cell	CL:0019018	smooth muscle cell	ACTA2	ACTA2
+liver-->hepatic Lobule-->portal triad/tract-->interstitial	hepatic portal fibroblast	CL:0009100	portal fibroblast	CTGF	THY1
+liver-->hepatic Lobule-->Canals of Hering	Hepatic oval stem cell	CL:0002196	hepatic oval cell	OV-6 ANTIGEN;THY1;KIT	
+liver-->hepatic Lobule-->Canals of Hering	Hepatic oval stem cell	CL:0002196	hepatic progenitor cell	LGR5;PROM1;OPN1;SOx9	EPCAM
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->secondary bronchus-->bronchial submucosal gland-->ciliated ducts of bronchial submucosal gland	airway submucosal gland duct ciliated cell	CL:4033055	airway submucosal gland ciliated duct cell	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;FOXJ1;TUBA1A;DYNLRB2;TUBB4B;RSPH1	FOXJ1;TUBA1A
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->secondary bronchus-->bronchial submucosal gland-->submucosal gland collecting duct	airway submucosal gland duct basal cell	CL:4033024	airway submucosal gland duct basal cell	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;TP63;KRT5;FOXC1;KRT14;CTNNB1	TP63;KRT5;FOXC1;KRT14
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->secondary bronchus-->bronchial submucosal gland-->submucosal gland collecting duct	airway submucosal gland collecting duct epithelial cell	CL:4033023	airway submucosal gland collecting duct epithelial cell	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;PLUNC;MIA;ALDH1A3;RARRES1	PLUNC
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->secondary bronchus-->bronchial submucosal gland-->submucosal gland collecting duct	serous secreting cell of bronchus submucosal gland	CL:4033023	airway submucosal gland collecting duct epithelial cell	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;PLUNC;MIA;ALDH1A3;RARRES1	PLUNC
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->secondary bronchus-->bronchial submucosal gland-->submucosal gland acinus	mucus secreting cell of bronchus submucosal gland	CL:4033022	mucus secreting cell of bronchus submucosal gland	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;MUC5B;SPDEF;AGR2	MUC5B;SPDEF
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->secondary bronchus-->bronchial submucosal gland-->submucosal gland acinus	myoepithelial cell of bronchus submucosal gland	CL:4033003	myoepithelial cell of bronchus submucosal gland	CDH1;EPCAM;ELF3;FXYD3;ACTA2;MYH11;KRT14;KRT5;CNN1	ACTA2;TP63
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->tertiary bronchus-->bronchial submucosal gland-->ciliated ducts of bronchial submucosal gland	airway submucosal gland duct ciliated cell	CL:4033055	airway submucosal gland ciliated duct cells	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;FOXJ1;TUBA1A;DYNLRB2;TUBB4B;RSPH1	FOXJ1;TUBA1A
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->tertiary bronchus-->bronchial submucosal gland-->submucosal gland collecting duct	airway submucosal gland duct basal cell	CL:4033024	airway submucosal gland duct basal cell	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;TP63;KRT5;FOXC1;KRT14;CTNNB1	TP63;KRT5;FOXC1;KRT14
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->tertiary bronchus-->bronchial submucosal gland-->submucosal gland collecting duct	airway submucosal gland collecting duct epithelial cell	CL:4033023	airway submucosal gland collecting duct epithelial cell	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;PLUNC;MIA;ALDH1A3;RARRES1	PLUNC
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->tertiary bronchus-->bronchial submucosal gland-->submucosal gland collecting duct	serous secreting cell of bronchus submucosal gland	CL:4033023	airway submucosal gland collecting duct epithelial cell	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;PLUNC;MIA;ALDH1A3;RARRES1	PLUNC
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->tertiary bronchus-->bronchial submucosal gland-->submucosal gland acinus	mucus secreting cell of bronchus submucosal gland	CL:4033022	mucus secreting cell of bronchus submucosal gland	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;MUC5B;SPDEF;AGR2	MUC5B;SPDEF
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->tertiary bronchus-->bronchial submucosal gland-->submucosal gland acinus	myoepithelial cell of bronchus submucosal gland	CL:4033003	myoepithelial cell of bronchus submucosal gland	CDH1;EPCAM;ELF3;FXYD3;ACTA2;MYH11;KRT14;KRT5;CNN1	ACTA2;TP63
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->bronchopulmonary segment-->subsegmental bronchus-->bronchial submucosal gland-->ciliated ducts of bronchial submucosal gland	airway submucosal gland duct ciliated cell	CL:4033055	airway submucosal gland ciliated duct cells	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;FOXJ1;TUBA1A;DYNLRB2;TUBB4B;RSPH1	FOXJ1;TUBA1A
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->bronchopulmonary segment-->subsegmental bronchus-->bronchial submucosal gland-->submucosal gland collecting duct	airway submucosal gland duct basal cell	CL:4033024	airway submucosal gland duct basal cell	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;TP63;KRT5;NGFR;KRT14;CTNNB1	TP63;KRT5;FOXC1;KRT14
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->bronchopulmonary segment-->subsegmental bronchus-->bronchial submucosal gland-->submucosal gland collecting duct	airway submucosal gland collecting duct epithelial cell	CL:4033023	airway submucosal gland collecting duct epithelial cell	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;PLUNC;MIA;ALDH1A3;RARRES1	PLUNC
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->bronchopulmonary segment-->subsegmental bronchus-->bronchial submucosal gland-->submucosal gland collecting duct	serous secreting cell of bronchus submucosal gland	CL:4033023	airway submucosal gland collecting duct epithelial cell	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;PLUNC;MIA;ALDH1A3;RARRES1	PLUNC
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->bronchopulmonary segment-->subsegmental bronchus-->bronchial submucosal gland-->submucosal gland acinus	mucus secreting cell of bronchus submucosal gland	CL:4033022	mucus secreting cell of bronchus submucosal gland	CDH1;EPCAM;ELF3;FXYD3;TSPAN1;MUC5B;SPDEF;AGR2	MUC5B;SPDEF
+respiratory system-->respiratory tract-->lower respiratory tract-->tracheobronchial tree-->bronchopulmonary segment-->subsegmental bronchus-->bronchial submucosal gland-->submucosal gland acinus	myoepithelial cell of bronchus submucosal gland	CL:4033003	myoepithelial cell of bronchus submucosal gland	CDH1;FXYD3;EPCAM;ELF3;ACTA2;MYH11;KRT14;KRT5;CNN1	ACTA2;TP63
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->respiratory bronchiole-->alveolus of lung on respiratory bronchiole-->pulmonary capillary	alveolar capillary type 1 endothelial cell	CL:4028002	CAP1 general capillary gCap	CLDN5;NOTCH4;CLEC14A;ECSCR;DTL;IL7R;APLNR;PLVAP;GPIHBP1	PECAM1;IL7R;APLNR
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->respiratory bronchiole-->alveolus of lung on respiratory bronchiole	type II pneumocyte	CL:0002063	alveolar type II cell	CDH1;EPCAM;ELF3;FXYD3;SFTA2;SLC39A8;HOPX;MFSD2A;ABCA3;SFTPA2;LAMP3;BMP1	Cytokeratin 1;SFTPC;ABCA3
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->respiratory bronchiole-->alveolus of lung on respiratory bronchiole	type I pneumocyte	CL:0002062	alveolar type I cell	CDH1;EPCAM;ELF3;FXYD3;SFTA2;SLC39A8;HOPX;AGER;CLIC5;RTKN2;AQP4;SCEL;GRAMD2A	Cytokeratin 1;AGER;HOPX;SEMA3B
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->respiratory bronchiole-->alveolus of lung on respiratory bronchiole	lung pericyte	CL:0009089	lung pericyte	COL1A2;DCN;LAMC3;HIGD1B;COX4I2;TRPC6;PDGFRB	CSPG4;PDGFRB;TRPC6
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->respiratory bronchiole-->alveolus of lung on respiratory bronchiole	alveolar type 1 fibroblast cell	CL:4028004	alveolar type 1 fibroblast cell	COL1A2;DCN;MFAP4;COL6A3;FBLN1;LUM;WNT2;TCF21;FGFR4	FBLN1;PCDH15;PLIN2
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->respiratory bronchiole-->pulmonary alveolar duct-->pulmonary capillary	alveolar capillary type 1 endothelial cell	CL:4028002	CAP1 general capillary gCap	CLDN5;NOTCH4;CLEC14A;ECSCR;DTL;IL7R;APLNR;PLVAP;GPIHBP1	PECAM1;IL7R;APLNR
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->respiratory bronchiole-->pulmonary alveolar duct	type II pneumocyte	CL:0002063	alveolar type II cell	CDH1;EPCAM;ELF3;FXYD3;SFTA2;SLC39A8;HOPX;MFSD2A;ABCA3;SFTPA2;LAMP3;BMP1	Cytokeratin 1;SFTPC;ABCA3
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->respiratory bronchiole-->pulmonary alveolar duct	type I pneumocyte	CL:0002062	alveolar type I cell	CDH1;EPCAM;ELF3;FXYD3;SFTA2;SLC39A8;HOPX;AGER;CLIC5;RTKN2;AQP4;SCEL;GRAMD2A	Cytokeratin 1;AGER;HOPX;SEMA3B
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->respiratory bronchiole-->pulmonary alveolar duct	lung pericyte	CL:0009089	lung pericyte	COL1A2;DCN;LAMC3;HIGD1B;COX4I2;TRPC6;PDGFRB	CSPG4;PDGFRB;TRPC6
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->respiratory bronchiole-->pulmonary alveolar duct	alveolar type 1 fibroblast cell	CL:4028004	alveolar type 1 fibroblast cell	COL1A2;DCN;MFAP4;COL6A3;FBLN1;LUM;WNT2;TCF21;FGFR4;INMT;CES1;SAA1;VEGFD	FBLN1;PCDH15;PLIN2
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->alveolus of lung-->pulmonary alveolar parenchyma-->pulmonary capillary	alveolar capillary type 1 endothelial cell	CL:4028002	CAP1 general capillary gCap	CLDN5;NOTCH4;CLEC14A;ECSCR;DTL;IL7R;APLNR;PLVAP;GPIHBP1	PECAM1;IL7R;APLNR
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->alveolus of lung-->pulmonary alveolar parenchyma	type II pneumocyte	CL:0002063	alveolar type II cell	CDH1;EPCAM;ELF3;FXYD3;SFTA2;SLC39A8;HOPX;MFSD2A;ABCA3;SFTPA2;LAMP3;BMP1	Cytokeratin 1;SFTPC;ABCA3
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->alveolus of lung-->pulmonary alveolar parenchyma	type I pneumocyte	CL:0002062	alveolar type I cell	CDH1;EPCAM;ELF3;FXYD3;SFTA2;SLC39A8;HOPX;AGER;CLIC5;RTKN2;AQP4;SCEL;GRAMD2A	Cytokeratin 1;AGER;HOPX;SEMA3B
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->alveolus of lung-->pulmonary alveolar parenchyma	lung pericyte	CL:0009089	lung pericyte	COL1A2;DCN;LAMC3;HIGD1B;COX4I2;TRPC6;PDGFRB	CSPG4;PDGFRB;TRPC6
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->secondary pulmonary lobule-->terminal/ transitional bronchiole-->pulmonary acinus-->alveolus of lung-->pulmonary alveolar parenchyma	alveolar type 1 fibroblast cell	CL:4028004	alveolar type 1 fibroblast cell	COL1A2;DCN;MFAP4;COL6A3;FBLN1;LUM;WNT2;TCF21;FGFR4;INMT;CES1;SAA1;VEGFD	FBLN1;PCDH15;PLIN2
+respiratory system-->respiratory tract-->lower respiratory tract-->lung-->lung connective tissue	secondary crest myofibroblast	CL:4033016	secondary crest myofibroblast	COL1A2;DCN;MFAP4;LTBP2;PDGFRA;ACTA2;C1QTNF7;MYH11	alpha smooth muscle actin;ACTA2
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Pancreatic acinus	pancreatic acinar cell	CL:0002064	Acinar cell	Pancreatic alpha-amylase;Serine protease 1;Chymotrypsinogen B1;Chymotrypsin like elastase 3A;Keratin 18;Keratin 8	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Pancreatic ductal tree-->Main pancreatic duct (Duct of Wirsung)-->Major duodenal papilla	epithelial cell of exocrine pancreas	CL:1001433	Ductal epithelial cell	CFTR;Keratin 19;Keratin 7;PDX1	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Pancreatic ductal tree-->Main pancreatic duct (Duct of Wirsung)-->Major duodenal papilla	epithelial cell of exocrine pancreas	CL:1001433	Ductal epithelial cell	CFTR;Keratin 19;Keratin 7;PDX1	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Pancreatic ductal tree-->Main pancreatic duct (Duct of Wirsung)-->Major duodenal papilla	epithelial cell of exocrine pancreas	CL:1001433	Ductal epithelial cell	Keratin 19;PDX1	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Pancreatic ductal tree-->Main pancreatic duct (Duct of Wirsung)-->Major duodenal papilla	epithelial cell of exocrine pancreas	CL:1001433	Ductal epithelial cell	Keratin 19;PDX1	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Pancreatic ductal tree-->Main pancreatic duct (Duct of Wirsung)-->Hepatopancreatic ampulla	epithelial cell of exocrine pancreas	CL:1001433	Ductal epithelial cell	Keratin 19	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Pancreatic ductal tree-->Main pancreatic duct (Duct of Wirsung)-->Hepatopancreatic ampulla	epithelial cell of exocrine pancreas	CL:1001433	Ductal epithelial cell	Keratin 19	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Pancreatic ductal tree-->Main pancreatic duct (Duct of Wirsung)-->Interlobular duct-->Intralobular duct-->Intercalated duct	epithelial cell of exocrine pancreas	CL:1001433	Ductal epithelial cell	Keratin 19	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Pancreatic ductal tree-->Main pancreatic duct (Duct of Wirsung)-->Interlobular duct-->Intralobular duct-->Intercalated duct	epithelial cell of exocrine pancreas	CL:1001433	Ductal epithelial cell	Keratin 19	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Pancreatic ductal tree-->Main pancreatic duct (Duct of Wirsung)-->Interlobular duct-->Intralobular duct-->Intercalated duct	epithelial cell of exocrine pancreas	CL:1001433	Ductal epithelial cell	Keratin 19	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Pancreatic ductal tree-->Main pancreatic duct (Duct of Wirsung)-->Interlobular duct-->Intralobular duct-->Intercalated duct	epithelial cell of exocrine pancreas	CL:1001433	Ductal epithelial cell	Keratin 19	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Pancreatic ductal tree-->Main pancreatic duct (Duct of Wirsung)-->Interlobular duct-->Intralobular duct-->Intercalated duct	pancreatic centro-acinar cell	CL:0002080	Centroacinar cell	Carbonic anhydrase 2	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Pancreatic ductal tree-->Main pancreatic duct (Duct of Wirsung)-->Interlobular duct-->Intralobular duct-->Intercalated duct	pancreatic centro-acinar cell	CL:0002080	Centroacinar cell	Carbonic anhydrase 2	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Pancreatic ductal tree-->Main pancreatic duct (Duct of Wirsung)-->Interlobular duct-->Intralobular duct-->Intercalated duct	pancreatic goblet cell	CL:1000322	Pancreatic goblet cell	Mucin 2	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Extrapancreatic duct-->Common bile duct	epithelial cell of exocrine pancreas	CL:1001433	Ductal epithelial cell		
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas-->Extrapancreatic duct-->Common bile duct	epithelial cell of exocrine pancreas	CL:1001433	Ductal epithelial cell		
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Exocrine pancreas	macrophage	CL:0000235	Macrophage	CD68;IBA1;CD163;CD206	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Endocrine pancreas-->Islet of Langerhans	pancreatic A cell	CL:0000171	Alpha cell	Glucagon;ARX;IRX2;Chromogranin A;Synaptophysin;PGP9.5	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Endocrine pancreas-->Islet of Langerhans	type B pancreatic cell	CL:0000169	Beta cell	Insulin;NTPDase3;PDX1;MAFA;Chromogranin A;Synaptophysin;PGP9.5;NKX6-1	Insulin
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Endocrine pancreas-->Islet of Langerhans	pancreatic D cell	CL:0000173	Delta cell	Somatostatin;HHEX;Chromogranin A;Synaptophysin;PGP9.5	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Endocrine pancreas-->Islet of Langerhans	pancreatic PP cell	CL:0002275	PP cell	Pancreatic polypeptide;Chromogranin A;Synaptophysin;Chromogranin A;Synaptophysin;PGP9.5	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Endocrine pancreas-->Islet of Langerhans	macrophage	CL:0000235	Macrophage	CD68;IBA1	
+Pancreas-->Dorsal pancreas-->Head of pancreas-->Pancreas lobule-->Parenchyma of pancreas-->Endocrine pancreas-->Islet of Langerhans	macrophage	CL:0000235	Macrophage	CD68;IBA1;CD163;CD206	
+prostate gland-->prostate epithelium-->Prostate Glandular Acinus	luminal cell of prostate epithelium	CL:0002340	luminal epithelia	MSMB;KLK3;ACPP	
+prostate gland-->prostate epithelium-->Prostate Glandular Acinus	basal cell of prostate epithelium	CL:0002341	basal epithelia	KRT5;KRT14;S100A2	
+prostate gland-->prostate stroma-->prostate gland smooth muscle	smooth muscle cell of prostate	CL:1000487	prostate smooth muscle	DES;ACTG2;ACTA2	
+prostate gland-->prostate stroma	fibroblast of subepithelial connective tissue of prostatic gland	CL:1000301	periprostatic fibroblast	APOD;PTGDS;DCN	
+prostate gland-->prostate stroma	fibroblast of connective tissue of prostate	CL:1000299	interstitial fibroblast	C7;MFAP4;DCN	
+prostate gland-->vascular system-->blood vessel-->vascular smooth muscle	vascular associated smooth muscle cell	CL:0000359	vascular associated smooth muscle cell	ACTA2;MCAM;CD36	
+prostate gland-->vascular system-->blood vessel	pericyte	CL:0000669	perictye	ACTA2;NDUFA4L2;GJA4	
+skin-->Epidermis-->Stratum granulosum (SG)	epidermal Langerhans cell	CL:0002457	Langerhans cell		CD1a molecule;CD207 molecule;class II major histocompatibility complex transactivator
+skin-->Epidermis-->Stratum spinosum (SS)	prickle cell	CL:0000649	Keratinocytes (Spinous)		keratin 1;keratin 10
+skin-->Epidermis-->Stratum spinosum (SS)	epidermal Langerhans cell	CL:0002457	Langerhans cell		CD1a molecule;CD207 molecule
+skin-->Epidermis-->Stratum spinosum (SS)	Merkel cell	CL:0000242	Merkel cell		Keratin 20;synaptophysin
+skin-->Epidermis-->Stratum basale (SB)	basal cell	CL:0000646	Keratinocyte (Basal)		keratin 5;keratin 14;tumor protein p53;marker of proliferation Ki-67;damage specific DNA binding protein 2
+skin-->Epidermis-->Stratum basale (SB)	epidermal Langerhans cell	CL:0002457	Langerhans cell		CD1a molecule;CD207 molecule
+skin-->Epidermis-->Stratum basale (SB)	Merkel cell	CL:0000242	Merkel cell		synaptophysin;chromogranin A;keratin 20
+skin-->Epidermis-->Stratum basale (SB)	melanocyte of skin	CL:1000458	Melanocyte		SRY-box transcription factor 10;S100 calcium binding protein A2;melan-A
+skin-->Dermis	skin fibroblast	CL:0002620	Fibroblast		Factor XIIIa;vimentin;CD34 molecule
+skin-->Dermis-->Blood vessels	endothelial cell	CL:0000115	Endothelial cell		platelet and endothelial cell adhesion molecule 1;ETS transcription factor ERG
+skin-->Subcutaneous	skin fibroblast	CL:0002620	Fibroblast		Factor XIIIa;vimentin;CD34 molecule
+skin-->Subcutaneous-->Blood vessels	endothelial cell	CL:0000115	Endothelial cell		platelet and endothelial cell adhesion molecule 1;ETS transcription factor ERG
+Small Intestine-->duodenum-->superior duodenum-->mucosa-->Epithelium	duodenal goblet cell	CL:1000324	goblet cell	MUC2;ITLN1;SLC26A2;CLCA4	
+Small Intestine-->duodenum-->superior duodenum-->mucosa-->Epithelium	tuft cell of small intestine	CL:0009080	tuft cell	DCLK1;IRF7;SELENBP1	
+Small Intestine-->duodenum-->superior duodenum-->mucosa-->Epithelium	enterocyte	CL:0000584	enterocyte	BEST4;CA7;NEURL1;HES1	
+Small Intestine-->duodenum-->superior duodenum-->mucosa-->Epithelium	endocrine cell	CL:0000163	endocrine lineage cell	CRYBA2	
+Small Intestine-->duodenum-->superior duodenum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	myofibroblast	CL:0000186	myofibroblast	TP53I3;DES;ACTG2;CNN1	
+Small Intestine-->duodenum-->superior duodenum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	fibroblast	CL:0000057	fibroblast	COL6A1;COL6A2	
+Small Intestine-->duodenum-->superior duodenum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	B cell	CL:0000236	B cell	MKI67;MS4A1;PAX5	CD21;CD19
+Small Intestine-->duodenum-->superior duodenum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	plasma cell	CL:0000786	plasma	IGLL5	CD138
+Small Intestine-->duodenum-->superior duodenum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	eosinophil	CL:0000771	eosinophil		CD11b;CD294
+Small Intestine-->duodenum-->superior duodenum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	mast cell	CL:0000097	mast cell	HDC	CD117;MCT
+Small Intestine-->duodenum-->superior duodenum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	neutrophil	CL:0000775	neutrophil		CD15;CD16
+Small Intestine-->duodenum-->superior duodenum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	natural killer cell	CL:0000623	natural killer (NK) cell		CD56;CD57;CD11c;NKG2D
+Small Intestine-->duodenum-->superior duodenum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	dendritic cell	CL:0000451	dendritic cell (DC)		HLA-DR;CD11c;CD123
+Small Intestine-->duodenum-->superior duodenum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	innate lymphoid cell	CL:0001065	innate lyphoid cell (ILC)		CD127;CD117;CD161
+Small Intestine-->duodenum-->superior duodenum-->serosa	fibroblast	CL:0000057	fibroblasts	COL6A1;COL6A2	
+Small Intestine-->jejunum-->mucosa-->Epithelium	endocrine cell	CL:0000163	endocrine		Chromogranin;Synaptophysin
+Small Intestine-->jejunum-->mucosa-->Epithelium	enterocyte	CL:0000584	enterocytes		
+Small Intestine-->jejunum-->mucosa-->Epithelium	tuft cell of small intestine	CL:0009080	Tuft cells		
+Small Intestine-->jejunum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	myofibroblast	CL:0000186	myofibroblasts		
+Small Intestine-->jejunum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	fibroblast	CL:0000057	fibroblasts		Col6A1;Col6A2
+Small Intestine-->jejunum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	B cell	CL:0000236	B cell		CD21;CD19
+Small Intestine-->jejunum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	plasma cell	CL:0000786	plasma		CD138
+Small Intestine-->jejunum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	eosinophil	CL:0000771	eosinophils		CD11b;CD294
+Small Intestine-->jejunum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	mast cell	CL:0000097	mast cells		CD117;MCT
+Small Intestine-->jejunum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	neutrophil	CL:0000775	neutrophils		CD15;CD16
+Small Intestine-->jejunum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	natural killer cell	CL:0000623	NK cells		CD56;CD57;CD11c;NKG2D
+Small Intestine-->jejunum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	dendritic cell	CL:0000451	DCs		HLA-DR;CD11c;CD123
+Small Intestine-->jejunum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	innate lymphoid cell	CL:0001065	ILCs		CD127;CD117;CD161
+Small Intestine-->jejunum-->muscularis externa	fibroblast	CL:0000057	fibroblasts		Col6A1;Col6A2
+Small Intestine-->jejunum-->serosa-->connective tissue	fibroblast	CL:0000057	fibroblasts		
+Small Intestine-->terminal ileum-->mucosa-->Epithelium	endocrine cell	CL:0000163	endocrine		Chromogranin;Synaptophysin
+Small Intestine-->terminal ileum-->mucosa-->Epithelium	enterocyte	CL:0000584	enterocytes		
+Small Intestine-->terminal ileum-->mucosa-->Epithelium	tuft cell of small intestine	CL:0009080	Tuft cells		
+Small Intestine-->terminal ileum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	myofibroblast	CL:0000186	myofibroblasts		
+Small Intestine-->terminal ileum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	fibroblast	CL:0000057	fibroblasts		Col6A1;Col6A2
+Small Intestine-->terminal ileum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	B cell	CL:0000236	B cell		CD21;CD19
+Small Intestine-->terminal ileum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	plasma cell	CL:0000786	plasma		CD138
+Small Intestine-->terminal ileum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	eosinophil	CL:0000771	eosinophils		CD11b;CD294
+Small Intestine-->terminal ileum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	mast cell	CL:0000097	mast cells		CD117;MCT
+Small Intestine-->terminal ileum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	neutrophil	CL:0000775	neutrophils		CD15;CD16
+Small Intestine-->terminal ileum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	natural killer cell	CL:0000623	NK cells		CD56;CD57;CD11c;NKG2D
+Small Intestine-->terminal ileum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	dendritic cell	CL:0000451	DCs		HLA-DR;CD11c;CD123
+Small Intestine-->terminal ileum-->mucosa-->Lamina propria/Gut associated lymphoid tissue (GALT)	innate lymphoid cell	CL:0001065	ILCs		CD127;CD117;CD161
+Small Intestine-->terminal ileum-->muscularis externa-->circular/longitudinal muscle	fibroblast	CL:0000057	fibroblasts		Col6A1;Col6A2
+Small Intestine-->terminal ileum-->serosa	fibroblast	CL:0000057	fibroblasts		
+spleen-->Splenic Pulp-->Splenic Artery	splenic endothelial cell	CL:2000053	Splenic endothelial cell	CD34+;PECAM1+;vWF+	CD34;CD141;CD31
+spleen-->Splenic Pulp-->Spleen central arteriole-->Penicillar Arteriole	splenic endothelial cell	CL:2000053	Splenic endothelial cell	CD34+;PECAM1+;vWF+	CD34;CD141;CD31
+spleen-->Splenic Pulp-->Spleen central arteriole-->Penicillar Arteriole	stromal cell	CL:0000499	Splenic Stromal Cell (non-FRC/non-FDC)		CD271;CK8/18;MAd-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->Spleen central arteriole-->Penicillar Arteriole	smooth muscle cell	CL:0000192	Splenic Smooth Muscle Cell		Smooth Muscle Actin
+spleen-->Splenic Pulp-->Red Pulp-->Arterial Capillary	splenic endothelial cell	CL:2000053	Splenic endothelial cell	CD34+;PECAM1+;vWF+	CD34;CD141
+spleen-->Splenic Pulp-->Red Pulp-->Sheathed Capillary	splenic endothelial cell	CL:2000053	Splenic endothelial cell	CD34+;PECAM1+;vWF+	CD31;CD34;CD106;vWF
+spleen-->Splenic Pulp-->Red Pulp-->Sheathed Capillary	splenic red pulp macrophage	CL:0000874	Macrophage	APOE+;CD5L+	CD68;CD163;CD169-/+;CD271
+spleen-->Splenic Pulp-->Red Pulp-->Splenic Vein	splenic endothelial cell	CL:2000053	Splenic endothelial cell	CD34+;PECAM1+;vWF+	CD34;CD141;CD31
+spleen-->Splenic Pulp-->Red Pulp-->Splenic venules	splenic endothelial cell	CL:2000053	Splenic endothelial cell	CD34+;PECAM1+;vWF+	CD34;CD141;CD31;CD8
+spleen-->Splenic Pulp-->Red Pulp-->Splenic Cord	splenic red pulp macrophage	CL:0000874	Red Pulp Macrophage	APOE+;CD5L+	CD68;CD163
+spleen-->Splenic Pulp-->Red Pulp-->Splenic Cord	hematopoetic stem cell	CL:0000037	Hematopoetic Stem Cell	CPA3+;HPGDS+;IGLL1+;SOX4+	CD19;CD34;CD38;CD45RA;CD90
+spleen-->Splenic Pulp-->Red Pulp-->Splenic Cord	CD14-positive, CD16-low monocyte	CL:0001055	Monocytes	CD14+;FCN1+;VCAN+	CD11b;CD14+;CD16;CD64
+spleen-->Splenic Pulp-->Red Pulp-->Splenic Cord	CD14-positive, CD16-low monocyte	CL:0001055	Monocytes	CD14+;FCN1+;VCAN+	CD11b;CD14+;CD16;CD64
+spleen-->Splenic Pulp-->Red Pulp-->Splenic Cord	plasmablast	CL:0000980	Plasmablast	IGHG1+;IGHM+;JCHAIN+;SDC1+;XBP1+	CD20;CD27;CD38+;CD79a;CD138;CXCR4;IRF4
+spleen-->Splenic Pulp-->Red Pulp-->Splenic Cord	plasmablast	CL:0000980	Plasmablast	IGHG1+;IGHM+;JCHAIN+;SDC1+;XBP1+	CD20;CD27;CD38+;CD79a;CD138;CXCR4;IRF4
+spleen-->Splenic Pulp-->Red Pulp-->Splenic Cord	dendritic cell, human	CL:0001056	Dendritic Cell		CD11c
+spleen-->Splenic Pulp-->Red Pulp-->Splenic Cord	stromal cell	CL:0000499	Splenic Stromal Cell (non-FRC/non-FDC)		CD271;MAd-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->Red Pulp-->Splenic Cord	reticular cell of splenic cord	CL:1000489	Red Pulp Reticular Cell		CD54;CXCL12;Desmin;Integrin a3;Integrin a4;Integrin a5;Integrin b1;PDGFRa;PDGFRb
+spleen-->Splenic Pulp-->Red Pulp-White Pulp Border-->Perifollicular Zone	CD14-positive, CD16-low monocyte	CL:0001055	Monocytes	CD14+;FCN1+;VCAN+	CD11b;CD14+;CD16;CD64
+spleen-->Splenic Pulp-->Red Pulp-White Pulp Border-->Perifollicular Zone	CD14-positive, CD16-low monocyte	CL:0001055	Monocytes	CD14+;FCN1+;VCAN+	CD11b;CD14+;CD16;CD64
+spleen-->Splenic Pulp-->Red Pulp-White Pulp Border-->Perifollicular Zone	neutrophil	CL:0000775	Neutrophil		CD15;CD66;Elastase;Myeloperoxidase
+spleen-->Splenic Pulp-->Red Pulp-White Pulp Border-->Perifollicular Zone	neutrophil	CL:0000775	Neutrophil		CD15;CD66;Elastase;Myeloperoxidase
+spleen-->Splenic Pulp-->Red Pulp-White Pulp Border-->Perifollicular Zone-->Sheathed Capillary	stromal cell	CL:0000499	Stromal Cell		CD90;CD105;CD169
+spleen-->Splenic Pulp-->White Pulp-->Central arteries	splenic endothelial cell	CL:2000053	Splenic endothelial cell	CD34+;PECAM1+;vWF+	CD31;CD34
+spleen-->Splenic Pulp-->White Pulp-->Primary Follicle	follicular dendritic cell	CL:0000442	Follicular Dendritic Cell (FDC)	CR2+;CXCL13+;FCGR2B+;FNBP1+;KLF6+;MADCAM1+;MFGE8+;POSTN+;PTHLH+;SOX9+	CD21;CD23;CD35;CD90;CD105;CD141;CD271;CXCL13;MAd-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->White Pulp-->Primary Follicle	follicular dendritic cell	CL:0000442	Follicular Dendritic Cell (FDC)	CR2+;CXCL13+;FCGR2B+;FNBP1+;KLF6+;MADCAM1+;MFGE8+;POSTN+;PTHLH+;SOX9+	CD21;CD23;CD35;CD90;CD105;CD141;CD271;CXCL13;MAd-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->White Pulp-->Primary Follicle	splenic white pulp macrophage	CL:0000876	Macrophage	APOE+;CD5L+	CD68
+spleen-->Splenic Pulp-->White Pulp-->Secondary Follicle-->Germinal Center	follicular dendritic cell	CL:0000442	Follicular Dendritic Cell (FDC)	CR2+;CXCL13+;FCGR2B+;FNBP1+;KLF6+;MADCAM1+;MFGE8+;POSTN+;PTHLH+;SOX9+	CD21;CD23;CD35;CD90;CD105;CD141;CD271;CXCL13;MAd-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->White Pulp-->Secondary Follicle-->Germinal Center	follicular dendritic cell	CL:0000442	Follicular Dendritic Cell (FDC)	CR2+;CXCL13+;FCGR2B+;FNBP1+;KLF6+;MADCAM1+;MFGE8+;POSTN+;PTHLH+;SOX9+	CD21;CD23;CD35;CD90;CD105;CD141;CD271;CXCL13;MAd-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->White Pulp-->Secondary Follicle-->Germinal Center	splenic tingible body macrophage	CL:0000877	Tingible Body Macrophage	APOE+;CD5L+	CD68
+spleen-->Splenic Pulp-->White Pulp-->Secondary Follicle-->Germinal Center	plasmablast	CL:0000980	Plasmablast	IGHG1+;IGHM+;JCHAIN+;SDC1+;XBP1+	CD20;CD27;CD38+;CD79a;CD138;CXCR4;IRF4
+spleen-->Splenic Pulp-->White Pulp-->Secondary Follicle-->Germinal Center	plasmablast	CL:0000980	Plasmablast	IGHG1+;IGHM+;JCHAIN+;SDC1+;XBP1+	CD20;CD27;CD38+;CD79a;CD138;CXCR4;IRF4
+spleen-->Splenic Pulp-->White Pulp-->Secondary Follicle-->Mantle Zone-->Inner Mantle Zone	follicular dendritic cell	CL:0000442	Follicular Dendritic Cell (FDC)	CR2+;CXCL13+;FCGR2B+;FNBP1+;KLF6+;MADCAM1+;MFGE8+;POSTN+;PTHLH+;SOX9+	CD90;CD105;CD141;CD271;Mad-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->White Pulp-->Secondary Follicle-->Mantle Zone-->Inner Mantle Zone	follicular dendritic cell	CL:0000442	Follicular Dendritic Cell (FDC)	CR2+;CXCL13+;FCGR2B+;FNBP1+;KLF6+;MADCAM1+;MFGE8+;POSTN+;PTHLH+;SOX9+	CD90;CD105;CD141;CD271;Mad-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->White Pulp-->Secondary Follicle-->Mantle Zone-->Inner Mantle Zone	splenic endothelial cell	CL:2000053	Splenic endothelial cell	CD34+;PECAM1+;vWF+	CD34;CD141;CD31
+spleen-->Splenic Pulp-->White Pulp-->Secondary Follicle-->Mantle Zone-->Superficial Mantle Zone	follicular dendritic cell	CL:0000442	Follicular Dendritic Cell (FDC)	CR2+;CXCL13+;FCGR2B+;FNBP1+;KLF6+;MADCAM1+;MFGE8+;POSTN+;PTHLH+;SOX9+	CD21;CD35;CD90;CD105;CD141;CD271;Mad-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->White Pulp-->Secondary Follicle-->Mantle Zone-->Superficial Mantle Zone	follicular dendritic cell	CL:0000442	Follicular Dendritic Cell (FDC)	CR2+;CXCL13+;FCGR2B+;FNBP1+;KLF6+;MADCAM1+;MFGE8+;POSTN+;PTHLH+;SOX9+	CD21;CD35;CD90;CD105;CD141;CD271;Mad-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->White Pulp-->Secondary Follicle-->Mantle Zone-->Superficial Mantle Zone	splenic endothelial cell	CL:2000053	Splenic endothelial cell	CD34+;PECAM1+;vWF+	CD34;CD141;CD31
+spleen-->Splenic Pulp-->Red Pulp-White Pulp Border-->Superficial Zone	follicular dendritic cell	CL:0000442	Follicular Dendritic Cell (FDC)	CR2+;CXCL13+;FCGR2B+;FNBP1+;KLF6+;MADCAM1+;MFGE8+;POSTN+;PTHLH+;SOX9+	CD21;CD35;CD90;CD105;CD141;CD271;Mad-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->Red Pulp-White Pulp Border-->Superficial Zone	follicular dendritic cell	CL:0000442	Follicular Dendritic Cell (FDC)	CR2+;CXCL13+;FCGR2B+;FNBP1+;KLF6+;MADCAM1+;MFGE8+;POSTN+;PTHLH+;SOX9+	CD21;CD35;CD90;CD105;CD141;CD271;Mad-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->Red Pulp-White Pulp Border-->Superficial Zone	splenic marginal zone macrophage	CL:0000872	Macrophage	APOE+;CD5L+	CD68;CD163
+spleen-->Splenic Pulp-->Red Pulp-White Pulp Border-->Superficial Zone	stromal cell	CL:0000499	Splenic Stromal Cell (non-FRC/non-FDC)		CCL21;CD35;CD90;CD105;CD141;CD271;CXCL13;MAd-CAM-1;Podoplanin;RANKL;Smooth Muscle Actin
+spleen-->Splenic Pulp-->Red Pulp-White Pulp Border-->Superficial Zone	neutrophil	CL:0000775	Neutrophil		CD15;CD66;Elastase;Myeloperoxidase
+spleen-->Splenic Pulp-->Red Pulp-White Pulp Border-->Superficial Zone	neutrophil	CL:0000775	Neutrophil		CD15;CD66;Elastase;Myeloperoxidase
+spleen-->Splenic Pulp-->Red Pulp-White Pulp Border-->Superficial Zone	splenic endothelial cell	CL:2000053	Splenic endothelial cell	CD34+;PECAM1+;vWF+	CD34;CD31
+spleen-->Splenic Pulp-->Red Pulp-White Pulp Border-->Superficial Zone	reticular cell of splenic cord	CL:1000489	Fibroblastic Reticular Cell (FRC)	BST1+;C3+;CCL21+;CFB+;CTSS+;CXCL9+;CXCL13+;ENPP2+;MADCAM1+;MFGE8+	CXCL13;MAd-CAM-1
+spleen-->Splenic Pulp-->White Pulp-->Periarteriolar Lymphoid Sheath (PALS)-->Inner PALS	splenic endothelial cell	CL:2000053	Splenic endothelial cell	CD34+;PECAM1+;vWF+	CD34;CD141;CD31
+spleen-->Splenic Pulp-->White Pulp-->Periarteriolar Lymphoid Sheath (PALS)-->Inner PALS	reticular cell of splenic cord	CL:1000489	Fibroblastic Reticular Cell (FRC)	BST1+;C3+;CCL19+;CCL21+;CD74+;CLU+;DCN+;DSC2+;ENPP2+;IL7+	CCL19;CCL21;CD90;CD105;CD141;CD271;MAd-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->White Pulp-->Periarteriolar Lymphoid Sheath (PALS)-->Inner PALS	splenic white pulp macrophage	CL:0000876	Macrophages	APOE+;CD5L+	CD68;CD163
+spleen-->Splenic Pulp-->White Pulp-->Periarteriolar Lymphoid Sheath (PALS)-->Outer PALS	reticular cell of splenic cord	CL:1000489	Fibroblastic Reticular Cell (FRC)	BST1+;C3+;CCL19+;CCL21+;CD74+;CLU+;DCN+;DSC2+;ENPP2+;IL7+	CCL19;CCL21;CD90;CD105;CD141;CD271;MAd-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->White Pulp-->Periarteriolar Lymphoid Sheath (PALS)	stromal cell	CL:0000499	Splenic Stromal Cell (non-FRC/non-FDC)		CD271;MAd-CAM-1;Smooth Muscle Actin
+spleen-->Splenic Pulp-->White Pulp-->Periarteriolar Lymphoid Sheath (PALS)	plasmablast	CL:0000980	Plasmablast	IGHG1+;IGHM+;JCHAIN+;SDC1+;XBP1+	CD20;CD27;CD38+;CD79a;CD138;CXCR4;IgM;IRF4
+spleen-->Splenic Pulp-->White Pulp-->Periarteriolar Lymphoid Sheath (PALS)	plasmablast	CL:0000980	Plasmablast	IGHG1+;IGHM+;JCHAIN+;SDC1+;XBP1+	CD20;CD27;CD38+;CD79a;CD138;CXCR4;IgM;IRF4
+spleen-->Capsule-->Trabeculae-->Spleen Trabecular Artery	splenic endothelial cell	CL:2000053	Splenic endothelial cell	CD34+;PECAM1+;vWF+	CD34;CD141
+spleen-->Capsule-->Trabeculae-->Spleen Trabecular Vein	splenic endothelial cell	CL:2000053	Splenic endothelial cell	CD34+;PECAM1+;vWF+	CD34;CD141
+thoracic thymus-->capsule of thymus-->thymus trabecula-->thymic artery	blood vessel endothelial cell	CL:0000071	blood endothelial cell	A2M;AQP1;BCAM;IFI27;NPDC1;PLVAP;RAMP2;RNASE1;SPARCL1;TM4SF1	CD31
+thoracic thymus-->capsule of thymus-->thymus trabecula-->adipose tissue	beige adipocyte	CL:0001070	beige adipocyte		TBX-1
+thoracic thymus-->capsule of thymus-->thymus trabecula-->thymic artery	blood vessel endothelial cell	CL:0000071	blood endothelial cell	A2M;AQP1;BCAM;IFI27;NPDC1;PLVAP;RAMP2;RNASE1;SPARCL1;TM4SF1	CD31
+thoracic thymus-->thymus lobe-->thymus lobule-->thymus epithelium-->thymus subcapsular epithelium	subcapsular cortical epithelial cell	CL:0009077	subcapsular cortical epithelial cell		Thymosin alpha-1;Thymosin beta-4
+thoracic thymus-->thymus lobe-->thymus lobule-->thymus epithelium-->thymus subcapsular epithelium	thymic cortical macrophage	CL:0000883	macrophage	APOE;C1QA;C1QB;C1QC;LGMN;MS4A7;RNASE1;SELENOP;SLC40A1;STAB1	Thymosin beta-4
+thoracic thymus-->thymus lobe-->thymus lobule-->thymus epithelium-->thymus subcapsular epithelium-->thymic artery	blood vessel endothelial cell	CL:0000071	blood endothelial cell	A2M;AQP1;BCAM;IFI27;NPDC1;PLVAP;RAMP2;RNASE1;SPARCL1;TM4SF1	CD31
+thoracic thymus-->thymus lobe-->thymus lobule-->cortex of thymus	double-positive, alpha-beta thymocyte	CL:0000809	double positive thymocyte	CD1A;CD1B;CD1E;CD8A;CD8B;ELOVL4;SH3TC1;SMPD3;UHRF1	CD1a;CD4;CD5;CD7;CD8;CD27;CD69
+thoracic thymus-->thymus lobe-->thymus lobule-->cortex of thymus	thymic plasmacytoid dendritic cell	CL:0000942	plasmacytoid dendritic cell	CCDC50;GZMB;IL3RA;IRF7;IRF8;JCHAIN;LILRA4;PLAC8;PLD4;UGCG	Beta5t;CD11c;CD13;CD33(lo);CD45RA;CD123;CD303
+thoracic thymus-->thymus lobe-->thymus lobule-->cortex of thymus-->thymic artery	blood vessel endothelial cell	CL:0000071	blood endothelial cell	A2M;AQP1;BCAM;IFI27;NPDC1;PLVAP;RAMP2;RNASE1;SPARCL1;TM4SF1	CD31
+thoracic thymus-->thymus lobe-->thymus lobule-->corticomedullary boundary of thymus	beige adipocyte	CL:0001070	beige adipocyte		TBX-1
+thoracic thymus-->thymus lobe-->thymus lobule-->corticomedullary boundary of thymus-->thymic artery	blood vessel endothelial cell	CL:0000071	blood endothelial cell	A2M;AQP1;BCAM;IFI27;NPDC1;PLVAP;RAMP2;RNASE1;SPARCL1;TM4SF1	CD31
+thoracic thymus-->thymus lobe-->thymus lobule-->corticomedullary boundary of thymus-->thymic vein	blood vessel endothelial cell	CL:0000071	blood endothelial cell	A2M;AQP1;BCAM;IFI27;NPDC1;PLVAP;RAMP2;RNASE1;SPARCL1;TM4SF1	CD31
+thoracic thymus-->thymus lobe-->thymus lobule-->corticomedullary boundary of thymus-->thymic artery	blood vessel endothelial cell	CL:0000071	blood endothelial cell	A2M;AQP1;BCAM;IFI27;NPDC1;PLVAP;RAMP2;RNASE1;SPARCL1;TM4SF1	CD31
+thoracic thymus-->thymus lobe-->thymus lobule-->corticomedullary boundary of thymus-->thymic vein	blood vessel endothelial cell	CL:0000071	blood endothelial cell	A2M;AQP1;BCAM;IFI27;NPDC1;PLVAP;RAMP2;RNASE1;SPARCL1;TM4SF1	CD31
+thoracic thymus-->thymus lobe-->thymus lobule-->corticomedullary boundary of thymus	corticomedullary thymic epithelial cell	CL:0009070	corticomedullary thymic epithelial cell	CCL2;CCL25;CTSV;CYR61;HCFC1R1;KRT5;P3H2;PLTP;TDGF1;TFPI2	
+thoracic thymus-->thymus lobe-->thymus lobule-->medulla of thymus	thymic plasmacytoid dendritic cell	CL:0000942	plasmacytoid dendritic cell	CCDC50;GZMB;IL3RA;IRF7;IRF8;JCHAIN;LILRA4;PLAC8;PLD4;UGCG	CD11c;CD13;CD33(lo);CD45RA;CD123;CD303
+thoracic thymus-->thymus lobe-->thymus lobule-->medulla of thymus	thymic medullary macrophage	CL:0000882	macrophage	APOE;C1QA;C1QB;C1QC;LGMN;MS4A7;RNASE1;SELENOP;SLC40A1;STAB1	CD11b;CD11c;CD54;CD68;CD163;CD209;Lysozyme
+thoracic thymus-->thymus lobe-->thymus lobule-->medulla of thymus	naive B cell	CL:0000788	naive B cell	BIRC3;CD22;CD79A;FCER2;HLA-DQB1;HLA-DRA;IGHD;IGHM;MS4A1;TCL1A	CD19;CD20;IgD;IgM
+thoracic thymus-->thymus lobe-->thymus lobule-->medulla of thymus-->thymic vein	blood vessel endothelial cell	CL:0000071	blood endothelial cell	A2M;AQP1;BCAM;IFI27;NPDC1;PLVAP;RAMP2;RNASE1;SPARCL1;TM4SF1	CD31
+thoracic thymus-->thymus lobe-->thymus lobule-->medulla of thymus-->thymus epithelium	medullary thymic epithelial cell type 1	CL:0009071	medullary thymic epithelial cell type 1	CCL19;CH25H;CLU;FN1;KRT5;KRT14;KRT15;KRT19;PTGDS;SAA1	ASCL1;CD45;CDR2;EpCAM(hi);KRT15
