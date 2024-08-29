@@ -1,4 +1,4 @@
-FTU Partonomy	Cell Type	CT ID	CT Label	Biomarker - Gene	Biomarker - Protein
+FTU_partonomy	cell_type	CT_ID	CT_label	biomarker-gene	biomarker-protein
 kidney-->cortex of kidney-->outer cortex of kidney-->Glomerular Epithelium-->visceral epithelial layer	glomerular visceral epithelial cell	CL:0000653	Podocyte	NPHS2;PODXL;NPHS1;PTPRQ	
 kidney-->cortex of kidney-->juxtamedullary cortex-->Glomerular Epithelium-->visceral epithelial layer	glomerular visceral epithelial cell	CL:0000653	Podocyte	NPHS2;PODXL;NPHS1;PTPRQ	PODXL
 kidney-->cortex of kidney-->medullary ray-->Collecting Duct (Cortex)	kidney cortex collecting duct principal cell	CL:1000714	Cortical Collecting Duct Principal Cell	AQP2;AQP3;FXYD4	AQP2
