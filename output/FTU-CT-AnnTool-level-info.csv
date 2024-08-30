@@ -1,4 +1,4 @@
-Organ,FTU Label in Uberon,FTU ID in Uberon,CL_ID,CL_Label_FTU,popv,celltypist_pkl,celltypist_L1,azimuth_L2,azimuth_L5,azimuth_L4,azimuth_L3,azimuth_finest,azimuth_L1
+Organ,FTU Label in Uberon,FTU ID in Uberon,CL_ID,CL_Label_FTU,popv,celltypist_L1,celltypist_pkl,azimuth_L5,azimuth_L2,azimuth_L1,azimuth_L3,azimuth_finest,azimuth_L4
 Kidney,Cortical Collecting Duct,UBERON:0004203,CL:1000715,kidney cortex collecting duct intercalated cell,0,0,0,0,0,0,0,0,0
 Kidney,Cortical Collecting Duct,UBERON:0004203,CL:4030015,kidney collecting duct alpha-intercalated cell,0,0,0,0,0,0,0,0,0
 Kidney,Cortical Collecting Duct,UBERON:0004203,CL:1001033,peritubular capillary endothelial cell,0,0,0,0,0,0,0,0,0
