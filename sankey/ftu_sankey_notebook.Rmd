@@ -1,0 +1,28 @@
+---
+title: "Sankey Diagram for FTU Explorer Paper"
+author: "Andreas Bueckle"
+date: "2024-09-12"
+output: html_document
+---
+
+## Load libraries
+
+```{r load libraries}
+library(tidyverse)
+```
+
+## Load data
+
+We need the `sankey.csv` file to then preprocess it into nodes and links.
+
+```{r load data}
+sankey = read_csv("../ref_data/sankey.csv", quote = "\'")
+```
+
+
+```{r}
+
+```
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
