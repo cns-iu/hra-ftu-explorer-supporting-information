@@ -32,7 +32,7 @@ sankey
 ```{r echo=FALSE}
 add_bin = function(original_column, bins, labels){
   # Create new column with bins
-  result <- cut(original_column, breaks = bins, labels = labels, include.lowest = TRUE)
+  result <- cut(as.numeric(original_column), breaks = bins, labels = labels, include.lowest = TRUE)
   
   return(as.character(result))
 }
@@ -95,7 +95,7 @@ sankey_with_bins$donor_bmi_binned = add_bin(sankey_with_bins
 organ_not_supported_text = "Organ Not Supported"
 
 subset_sankey = sankey_with_bins %>% 
-  select(portal, donor_sex, organ_name, dataset_id, unique_dataset_id, cell_type_annotation_tool, donor_race, donor_bmi_binned, donor_age_binned, is_rui_registered, is_atlas_dataset) %>% 
+  select(portal, donor_sex, organ_name, dataset_id, unique_dataset_id, FTU, cell_type_annotation_tool, donor_race, donor_bmi_binned, donor_age_binned, is_rui_registered, is_atlas_dataset) %>% 
   
   # replace NAs
   replace_na(list(donor_sex = "Unknown Sex")) %>% 
@@ -120,6 +120,9 @@ subset_sankey = sankey_with_bins %>%
   subset_sankey$donor_race[subset_sankey$donor_race == tolower("Unknown")] <- "Unknown Race"
   subset_sankey$donor_race[subset_sankey$donor_race == "na"] <- "Unknown Race"
   subset_sankey$donor_sex[subset_sankey$donor_sex == "Unknown"] <- "Unknown Sex"
+  
+  # unify FTU values
+  subset_sankey$FTU[is.na(subset_sankey$FTU)] <- "Unknown"
   
   # fix portal names
   subset_sankey$portal[subset_sankey$portal == "HCA"] <- "CZ CELLxGENE"
@@ -358,65 +361,6 @@ p
 
 ```{r echo=FALSE}
 
-if (only_atlas == TRUE) {
-  saveNetwork(p, "../docs/sankey_atlas.html")
-} else {
-  saveNetwork(p, "../docs/sankey_universe.html")
-}
+saveNetwork(p, "../docs/ftu_sankey_atlas.html")
 
 ```
-
-## Check numbers
-Number of unique dataset IDs that are part of the atlas
-```{r atlas, echo=FALSE}
-
-atlas = sankey_universe %>% filter(is_atlas_dataset == TRUE)
-
-atlas$unique_dataset_id %>% unique() %>% length()
-```
-
-# Report numbers for Highlights
-```{r non-atlas datasets highlights}
-# all datasets downloaded
-all = sankey_universe$unique_dataset_id %>% unique() %>% length()
-print(glue("All datasets: {all}"))
-
-# all sc-proteomics
-all_sc_proteomics = sankey_universe %>% select(dataset_id, cell_type_annotation_tool) %>% filter(cell_type_annotation_tool == "sc_proteomics") %>% distinct() %>% count()
-print(glue("Datasets sc-proteomics: {all_sc_proteomics}"))
-
-# datasets with cell summary 
-sc_transcriptomics_with_cell_summary = subset_sankey %>% filter(cell_type_annotation_tool != "No Cell Summary", cell_type_annotation_tool != "sc_proteomics") %>% .$unique_dataset_id %>% length()
-print(glue("Datasets sc-transcriptomics with cell summary: {sc_transcriptomics_with_cell_summary}"))
-```
-
-
-# Report numbers for Sankey/experimental data
-```{r non-atlas datasets experimental data}
-# FOR EXPERIMENTAL Data
-
-# datasets with extraction site but without cell summary
-no_ctann = sankey_universe %>% filter(is_rui_registered==TRUE, is.na(cell_type_annotation_tool))
-print(glue("Datasets with extraction site but without cell summary: {no_ctann$unique_dataset_id %>% unique() %>% length()}")) 
-
-# datasets that are RUI-registered but have have no cell summary but are still atlas
-still_atlas = sankey_universe %>% filter(is_rui_registered==TRUE, is.na(cell_type_annotation_tool), is_atlas_dataset == TRUE)
-print(glue("Datasets with extraction site but without cell summary that are still atlas for some reason: {still_atlas$unique_dataset_id %>% unique() %>% length()}")) 
-print(glue("Dataset IDs:"))
-print(glue("{still_atlas$unique_dataset_id}"))
-
-# datasets with cell summary but without extraction site
-no_rui = sankey_universe %>% filter(is_rui_registered==FALSE, !is.na(cell_type_annotation_tool))
-print(glue("Datasets with cell summary but without extraction site: {no_rui$unique_dataset_id %>% unique() %>% length()}")) 
-
-# datasets with neither
-neither = sankey_universe %>% filter(is_rui_registered == FALSE, is.na(cell_type_annotation_tool))
-print(glue("Datasets with neither: {neither$unique_dataset_id %>% unique() %>% length()}")) 
-
-# number of non-atlas datasets
-not_atlas = sankey_universe %>% filter(is_atlas_dataset == FALSE)
-print(glue("Non-atlas datasets total: {not_atlas$unique_dataset_id %>% unique() %>% length()}")) 
-
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
