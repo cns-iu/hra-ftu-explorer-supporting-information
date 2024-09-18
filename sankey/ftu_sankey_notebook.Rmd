@@ -212,6 +212,9 @@ r = subset_sankey %>%
 o = subset_sankey %>% 
   group_by(organ_name) %>% summarize()
 
+f = subset_sankey %>% 
+  group_by(FTU) %>% summarize()
+
 c = subset_sankey %>% 
   group_by(cell_type_annotation_tool) %>% summarize()
 
@@ -222,7 +225,7 @@ atlas = subset_sankey %>%
   group_by(is_atlas_dataset) %>% summarize()
 
 unique_name=list()
-unique_name = unlist(append(unique_name, c(p, d, a, b, r, o, c, rui, atlas)))
+unique_name = unlist(append(unique_name, c(p, d, a, b, r, o, f, c, rui, atlas)))
 unique_name = list(unique_name)
 
 nodes = as.data.frame(tibble(name = character()))
@@ -297,11 +300,20 @@ race_organ = subset_sankey %>%
     value=count
   )
 
-organ_ctann = subset_sankey %>% 
-  group_by(organ_name, cell_type_annotation_tool) %>% 
+organ_ftu = subset_sankey %>% 
+  group_by(organ_name, FTU) %>% 
   summarize(count=n()) %>% 
   rename(
     source = organ_name,
+    target = FTU,
+    value=count
+  )
+
+ftu_ctann = subset_sankey %>% 
+  group_by(FTU, cell_type_annotation_tool) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = FTU,
     target = cell_type_annotation_tool,
     value=count
   )
@@ -325,8 +337,7 @@ rui_atlas = subset_sankey %>%
   )
 
 
-prep_links = as.data.frame(bind_rows(portal_sex, sex_age, age_bmi, race_bmi
-                                     , race_organ, organ_ctann, ctann_rui, rui_atlas))
+prep_links = as.data.frame(bind_rows(portal_sex, sex_age, age_bmi, race_bmi, race_organ, organ_ftu, ftu_ctann, ctann_rui, rui_atlas))
 prep_links 
 
 links = prep_links 
@@ -352,7 +363,7 @@ names(nodes)[1] = "name"
 ```{r echo=FALSE}
 p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
                    Target = "target", Value = "value", NodeID = "name", 
-                   units = "occurrences", fontSize = 10, nodeWidth = 20, width=1500, height = 650)
+                   units = "occurrences", fontSize = 10, nodeWidth = 20, width=1000, height = 650)
 
 p
 ```
