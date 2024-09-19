@@ -121,7 +121,7 @@ subset_sankey = sankey_with_bins %>%
   
   mutate(
     # unify left and right kidney
-    organ_name = ifelse(organ_name == "left kidney" | organ_name == "right kidney", "Kidney", organ_name))
+    organ_name = ifelse(organ_name == "left kidney" | organ_name == "right kidney"| organ_name == "Left kidney"| organ_name == "Right kidney", "Kidney", organ_name))
   
   # unify unknown values in race and sex
   subset_sankey$donor_race[subset_sankey$donor_race == tolower("Unknown")] <- "Unknown Race"
@@ -142,11 +142,13 @@ subset_sankey = sankey_with_bins %>%
   
   # turn LGL into meaningful CHAR for rui and atlas
   subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == TRUE] <- "RUI-registered"
+  subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == "True"] <- "RUI-registered"
   subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == FALSE] <- "Not RUI-registered"
   subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == "no"] <- "Not RUI-registered"
   
   subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == TRUE] <- "Atlas Dataset"
   subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == FALSE] <- "Not Atlas Dataset"
+  subset_sankey$is_atlas_dataset[is.na(subset_sankey$is_atlas_dataset)] <- "Not Atlas Dataset"
     
 ```
 
@@ -374,7 +376,7 @@ names(nodes)[1] = "name"
 ```{r echo=FALSE}
 p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
                    Target = "target", Value = "value", NodeID = "name", 
-                   units = "occurrences", fontSize = 10, nodeWidth = 20, width=1000, height = 650)
+                   units = "occurrences", fontSize = 15, nodeWidth = 20, width=2500, height = 900)
 
 p
 ```
