@@ -102,17 +102,21 @@ subset_sankey = sankey_with_bins %>%
   replace_na(list(donor_race = "Unknown Race")) %>% 
   replace_na(list(organ_name = organ_not_supported_text)) %>% 
   replace_na(list(cell_type_annotation_tool = "No Cell Summary")) %>%
+  replace_na(list(dataset_id = "No Known Dataset ID")) %>% 
+  replace_na(list(unique_dataset_id = "No Known Unique Dataset ID")) %>% 
   
   # replace NAs for binned variables
   replace_na(list(donor_bmi_binned = "Unknown BMI")) %>%
   replace_na(list(donor_age_binned = "Unknown Age")) %>%
   
+  # fix value for is_rui_registered
+  
   mutate(
   # make organs lower case
-  organ_name = str_to_title(organ_name),
+  organ_name = str_to_sentence(organ_name),
   
   # make sex lower case
-  donor_sex = toupper(donor_sex)
+  donor_sex = str_to_sentence(donor_sex)
   ) %>%
   
   mutate(
@@ -122,6 +126,7 @@ subset_sankey = sankey_with_bins %>%
   # unify unknown values in race and sex
   subset_sankey$donor_race[subset_sankey$donor_race == tolower("Unknown")] <- "Unknown Race"
   subset_sankey$donor_race[subset_sankey$donor_race == "na"] <- "Unknown Race"
+  subset_sankey$donor_race[subset_sankey$donor_race == "n/a"] <- "Unknown Race"
   subset_sankey$donor_sex[subset_sankey$donor_sex == "Unknown"] <- "Unknown Sex"
   
   # unify FTU values
@@ -138,6 +143,8 @@ subset_sankey = sankey_with_bins %>%
   # turn LGL into meaningful CHAR for rui and atlas
   subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == TRUE] <- "RUI-registered"
   subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == FALSE] <- "Not RUI-registered"
+  subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == "no"] <- "Not RUI-registered"
+  
   subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == TRUE] <- "Atlas Dataset"
   subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == FALSE] <- "Not Atlas Dataset"
     
@@ -152,6 +159,7 @@ tool_replacement = "sc_transcriptomics with Cell Summary"
 subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "azimuth"] <- tool_replacement
 subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "celltypist"] <- tool_replacement
 subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "popv"] <- tool_replacement
+subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "n/a"] <- tool_replacement
 
 duplicates <- subset_sankey[duplicated(subset_sankey),]
 duplicates
