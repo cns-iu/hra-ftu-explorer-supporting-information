@@ -108,8 +108,11 @@ subset_sankey = sankey_with_bins %>%
   replace_na(list(donor_age_binned = "Unknown Age")) %>%
   
   mutate(
-  # make organs lowercase
-  organ_name = str_to_title(organ_name)
+  # make organs lower case
+  organ_name = str_to_title(organ_name),
+  
+  # make sex lower case
+  donor_sex = toupper(donor_sex)
   ) %>%
   
   mutate(
@@ -274,28 +277,28 @@ sex_age = subset_sankey %>%
   )
 
 age_bmi = subset_sankey %>% 
-  group_by(donor_age_binned, donor_race) %>% 
+  group_by(donor_age_binned, donor_bmi_binned) %>% 
   summarize(count=n()) %>% 
   rename(
     source = donor_age_binned,
-    target = donor_race,
-    value=count
-  )
-
-race_bmi = subset_sankey %>% 
-  group_by(donor_race, donor_bmi_binned) %>% 
-  summarize(count=n()) %>% 
-  rename(
-    source = donor_race,
     target = donor_bmi_binned,
     value=count
   )
 
-race_organ = subset_sankey %>%
-  group_by(donor_bmi_binned, organ_name) %>%
-  summarize(count=n()) %>%
+bmi_race = subset_sankey %>% 
+  group_by(donor_bmi_binned, donor_race) %>% 
+  summarize(count=n()) %>% 
   rename(
     source = donor_bmi_binned,
+    target = donor_race,
+    value=count
+  )
+
+race_organ = subset_sankey %>%
+  group_by(donor_race, organ_name) %>%
+  summarize(count=n()) %>%
+  rename(
+    source = donor_race,
     target = organ_name,
     value=count
   )
@@ -337,7 +340,7 @@ rui_atlas = subset_sankey %>%
   )
 
 
-prep_links = as.data.frame(bind_rows(portal_sex, sex_age, age_bmi, race_bmi, race_organ, organ_ftu, ftu_ctann, ctann_rui, rui_atlas))
+prep_links = as.data.frame(bind_rows(portal_sex, sex_age, age_bmi, bmi_race, race_organ, organ_ftu, ftu_ctann, ctann_rui, rui_atlas))
 prep_links 
 
 links = prep_links 
