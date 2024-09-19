@@ -1,0 +1,380 @@
+---
+title: "Sankey Diagram for FTU Explorer Paper"
+author: "Andreas Bueckle"
+date: "2024-09-12"
+output: html_document
+---
+
+## Load libraries
+
+```{r load libraries}
+library(tidyverse)
+library(networkD3) #for Sankey
+library(RColorBrewer) # for plots
+```
+
+## Load data
+
+We need the `sankey.csv` file to then preprocess it into nodes and links.
+
+```{r load data}
+sankey = read_csv("../output/sankey_for_FTU.csv", locale=locale(decimal_mark = ",", grouping_mark = "."))
+```
+
+
+```{r}
+sankey
+```
+
+## Create bins for donor age and BMI
+
+### Define functions 
+```{r echo=FALSE}
+add_bin = function(original_column, bins, labels){
+  # Create new column with bins
+  result <- cut(as.numeric(original_column), breaks = bins, labels = labels, include.lowest = TRUE)
+  
+  return(as.character(result))
+}
+```
+
+### Handle CxG age
+
+### Load CxG developmental stage (not in hra-pop graph yet)
+```{r echo=FALSE}
+
+# load sheet with CxG age values
+cxg_age = read_csv("data/cxg-development-stage.csv")
+
+# add column headers
+names(cxg_age) <- c('unique_dataset_id','donor_developmental_stage_cxg')
+```
+
+### Extract numbers and assign as age
+```{r echo=FALSE}
+
+# extract age using {stringr}
+cxg_age= cxg_age %>% 
+  mutate(
+    contains_number = str_detect(donor_developmental_stage_cxg, "\\d"),
+     extracted_age_number = as.numeric(str_extract(donor_developmental_stage_cxg, "\\d+"))
+         ) 
+
+# join main tibble with cxG-age tibble with extracted age numbers, replace donor_age if new age value provided
+sankey <- sankey %>%
+  left_join(cxg_age, by = "unique_dataset_id") %>% 
+  mutate(donor_age = if_else(is.na(extracted_age_number) | contains_number == FALSE, donor_age, extracted_age_number)) %>%
+  select(-extracted_age_number, -contains_number)
+```
+
+### Add bins
+```{r message=FALSE, echo=FALSE}
+
+# create new tibble
+sankey_with_bins= sankey 
+
+# Create bins and labels
+# age bins see WHO at https://apps.who.int/gho/data/node.searo-metadata.AGEGROUP
+bins_age = c(0,1,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100)  # Define bin edges
+labels_age = c("<1 Year", "1-4 Years", "5-9 Years", "10-14 Years", "15-19 years", "20-24 Years", "25-29 Years", "30-34 Years", "35-39 Years", "40-44 Years", "45-49 Years", "50-54 Years", "55-59 Years", "60-64 Years", "65-69 Years", "70-74 Years", "75-79 Years", "80-84 Years", "85-89 Years", "90-94 Years", "95-99 Years") 
+
+# BMI bins
+bins_bmi = c(0,18.5, 24.9, 29.9, 30.0)
+labels_bmi = c("underweight", "healthy", "overweight", "obese")
+
+sankey_with_bins$donor_age_binned = add_bin(sankey_with_bins
+                                          $donor_age, bins_age, labels_age)
+sankey_with_bins$donor_bmi_binned = add_bin(sankey_with_bins
+                                          $donor_bmi, bins_bmi, labels_bmi)
+
+```
+
+## Create subset and replace NAs, unify unknown values, adjust portal values
+```{r echo=FALSE}
+
+organ_not_supported_text = "Organ Not Supported"
+
+subset_sankey = sankey_with_bins %>% 
+  select(portal, donor_sex, organ_name, dataset_id, unique_dataset_id, FTU, cell_type_annotation_tool, donor_race, donor_bmi_binned, donor_age_binned, is_rui_registered, is_atlas_dataset) %>% 
+  
+  # replace NAs
+  replace_na(list(donor_sex = "Unknown Sex")) %>% 
+  replace_na(list(donor_race = "Unknown Race")) %>% 
+  replace_na(list(organ_name = organ_not_supported_text)) %>% 
+  replace_na(list(cell_type_annotation_tool = "No Cell Summary")) %>%
+  
+  # replace NAs for binned variables
+  replace_na(list(donor_bmi_binned = "Unknown BMI")) %>%
+  replace_na(list(donor_age_binned = "Unknown Age")) %>%
+  
+  mutate(
+  # make organs lower case
+  organ_name = str_to_title(organ_name),
+  
+  # make sex lower case
+  donor_sex = toupper(donor_sex)
+  ) %>%
+  
+  mutate(
+    # unify left and right kidney
+    organ_name = ifelse(organ_name == "left kidney" | organ_name == "right kidney", "Kidney", organ_name))
+  
+  # unify unknown values in race and sex
+  subset_sankey$donor_race[subset_sankey$donor_race == tolower("Unknown")] <- "Unknown Race"
+  subset_sankey$donor_race[subset_sankey$donor_race == "na"] <- "Unknown Race"
+  subset_sankey$donor_sex[subset_sankey$donor_sex == "Unknown"] <- "Unknown Sex"
+  
+  # unify FTU values
+  subset_sankey$FTU[is.na(subset_sankey$FTU)] <- "Unknown"
+  
+  # fix portal names
+  subset_sankey$portal[subset_sankey$portal == "HCA"] <- "CZ CELLxGENE"
+  subset_sankey$portal[subset_sankey$portal == "NHLBI/LungMap"] <- "LungMap"
+  subset_sankey$portal[subset_sankey$portal == "CxG"] <- "CZ CELLxGENE"
+  
+  # replace portal==HRA with HRA-OMAP
+  subset_sankey$portal[subset_sankey$portal == "HRA"] <- "HRA-OMAP"
+  
+  # turn LGL into meaningful CHAR for rui and atlas
+  subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == TRUE] <- "RUI-registered"
+  subset_sankey$is_rui_registered[subset_sankey$is_rui_registered == FALSE] <- "Not RUI-registered"
+  subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == TRUE] <- "Atlas Dataset"
+  subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == FALSE] <- "Not Atlas Dataset"
+    
+```
+
+##Remove duplictate rows
+```{r echo=FALSE}
+ 
+# replace tool with sc-transcriptomics, no cell summary, sc-proteomics
+tool_replacement = "sc_transcriptomics with Cell Summary"
+
+subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "azimuth"] <- tool_replacement
+subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "celltypist"] <- tool_replacement
+subset_sankey$cell_type_annotation_tool[subset_sankey$cell_type_annotation_tool == "popv"] <- tool_replacement
+
+duplicates <- subset_sankey[duplicated(subset_sankey),]
+duplicates
+
+subset_sankey <- distinct(subset_sankey)
+print(subset_sankey)
+
+```
+
+## Temporary fix for SenNet atlas datasets
+``` {r echo=FALSE}
+
+subset_sankey$cell_type_annotation_tool[subset_sankey$portal == "SenNet" & subset_sankey$is_atlas_dataset == "Atlas Dataset"] <- tool_replacement
+```
+
+## Map race/ethnicity values to race values
+```{r echo=FALSE}
+# export donor_race as CSV
+donor_race = as_tibble(subset_sankey$donor_race %>% unique())
+
+# set header
+donor_race = donor_race %>% rename(donor_race = value)
+
+# export
+write_csv(donor_race, "output/donor_race.csv")
+
+# read manually mapped CSV file back in
+race_mapped = read_csv("data/donor_race_mapped.csv")
+
+# replace race values in Sankey with mapped values
+subset_sankey <- subset_sankey %>%
+  left_join(race_mapped, by = "donor_race")
+
+# replace donor_race with mapped values
+subset_sankey$donor_race = subset_sankey$mapped_donor_race
+```
+
+## OPTIONAL: Filter for only atlas data
+``` {r OnlyAtlas, echo=FALSE} 
+# if(only_atlas) {subset_sankey = subset_sankey %>% filter(is_atlas_dataset == "Atlas Dataset")}
+
+```
+
+## Create nodes
+```{r echo=FALSE}
+p = subset_sankey %>% 
+  group_by(portal) %>% summarize()
+
+d = subset_sankey %>% 
+  group_by(donor_sex) %>% summarize()
+
+a = subset_sankey %>% 
+  group_by(donor_age_binned) %>% summarize()
+
+b = subset_sankey %>%
+  group_by(donor_bmi_binned) %>% summarize()
+
+r = subset_sankey %>% 
+  group_by(donor_race) %>% summarize()
+
+o = subset_sankey %>% 
+  group_by(organ_name) %>% summarize()
+
+f = subset_sankey %>% 
+  group_by(FTU) %>% summarize()
+
+c = subset_sankey %>% 
+  group_by(cell_type_annotation_tool) %>% summarize()
+
+rui = subset_sankey %>% 
+  group_by(is_rui_registered) %>% summarize()
+
+atlas = subset_sankey %>% 
+  group_by(is_atlas_dataset) %>% summarize()
+
+unique_name=list()
+unique_name = unlist(append(unique_name, c(p, d, a, b, r, o, f, c, rui, atlas)))
+unique_name = list(unique_name)
+
+nodes = as.data.frame(tibble(name = character()))
+```
+
+## Create links
+ Use this order: 
+  * sources
+  * donor sex
+  * donor age
+  * donor BMI
+  * donor ethnicity
+  * organ
+  * cell type annotation tool used
+  * RUI registered or not
+  * ‘atlas’ dataset or not 
+```{r echo=FALSE}
+
+for(u in unique_name){
+  nodes = nodes %>% 
+    add_row(name=u)
+}
+
+nodes$index <- 1:nrow (nodes) 
+nodes
+
+nodes$index = nodes$index-1
+nodes
+
+portal_sex = subset_sankey %>% 
+  group_by(portal, donor_sex) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = portal,
+    target = donor_sex,
+    value=count
+  )
+
+sex_age = subset_sankey %>% 
+  group_by(donor_sex, donor_age_binned) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = donor_sex,
+    target = donor_age_binned,
+    value=count
+  )
+
+age_bmi = subset_sankey %>% 
+  group_by(donor_age_binned, donor_bmi_binned) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = donor_age_binned,
+    target = donor_bmi_binned,
+    value=count
+  )
+
+bmi_race = subset_sankey %>% 
+  group_by(donor_bmi_binned, donor_race) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = donor_bmi_binned,
+    target = donor_race,
+    value=count
+  )
+
+race_organ = subset_sankey %>%
+  group_by(donor_race, organ_name) %>%
+  summarize(count=n()) %>%
+  rename(
+    source = donor_race,
+    target = organ_name,
+    value=count
+  )
+
+organ_ftu = subset_sankey %>% 
+  group_by(organ_name, FTU) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = organ_name,
+    target = FTU,
+    value=count
+  )
+
+ftu_ctann = subset_sankey %>% 
+  group_by(FTU, cell_type_annotation_tool) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = FTU,
+    target = cell_type_annotation_tool,
+    value=count
+  )
+
+ctann_rui = subset_sankey %>% 
+  group_by(cell_type_annotation_tool, is_rui_registered) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = cell_type_annotation_tool,
+    target = is_rui_registered,
+    value=count
+  )
+
+rui_atlas = subset_sankey %>% 
+  group_by(is_rui_registered, is_atlas_dataset) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = is_rui_registered,
+    target = is_atlas_dataset,
+    value=count
+  )
+
+
+prep_links = as.data.frame(bind_rows(portal_sex, sex_age, age_bmi, bmi_race, race_organ, organ_ftu, ftu_ctann, ctann_rui, rui_atlas))
+prep_links 
+
+links = prep_links 
+```
+
+
+## Rename node and link tables
+```{r echo=FALSE}
+names(nodes)[1] = "source"
+prep_links = left_join(prep_links, nodes,by="source")
+
+names(nodes)[1] = "target"
+prep_links = left_join(prep_links, nodes,by="target")
+prep_links
+
+prep_links = prep_links[,c(4,5,3)]
+names(prep_links)[1:2] = c("source", "target")
+names(nodes)[1] = "name"
+```
+
+## Draw the Sankey diagram
+
+```{r echo=FALSE}
+p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
+                   Target = "target", Value = "value", NodeID = "name", 
+                   units = "occurrences", fontSize = 10, nodeWidth = 20, width=1000, height = 650)
+
+p
+```
+
+## Export the Sankey diagram as HTML
+
+```{r echo=FALSE}
+
+saveNetwork(p, "../docs/ftu_sankey_atlas.html")
+
+```
