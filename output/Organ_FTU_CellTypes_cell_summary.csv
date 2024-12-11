@@ -1,0 +1,175 @@
+Organ,FTU_Label,cell_label,cell_id
+Small Intestine,Villus,Enterocyte,ASCTB-TEMP:enterocyte
+Thymus,Thymus Lobule,Stem cells,ASCTB-TEMP:stem-cells
+Small Intestine,Villus,Goblet cell,ASCTB-TEMP:goblet-cell
+Small Intestine,Villus,myofibroblast,ASCTB-TEMP:myofibroblast
+Thymus,Thymus Lobule,Memory B,ASCTB-TEMP:memory-b
+Pancreas,Islet of Langerhans,LYVE1+ Macrophage,ASCTB-TEMP:lyve1-macrophage
+Small Intestine,Villus,myofibroblast (RSPO2+),ASCTB-TEMP:myofibroblast-rspo2-
+Small Intestine,Villus,Cycling plasma cell,ASCTB-TEMP:cycling-plasma-cell
+Small Intestine,Villus,MAIT cell,ASCTB-TEMP:mait-cell
+Small Intestine,Villus,NK cell,ASCTB-TEMP:nk-cell
+Pancreas,Islet of Langerhans,Macrophages,ASCTB-TEMP:macrophages
+Small Intestine,Villus,Mast cell,ASCTB-TEMP:mast-cell
+Kidney,Renal Corpuscle,Monocytes,ASCTB-TEMP:monocytes
+Thymus,Thymus Lobule,NK T cell,ASCTB-TEMP:nk-t-cell
+Prostate,Prostate Glandular Acinus,Pericyte,ASCTB-TEMP:pericyte
+Small Intestine,Villus,GC B cell,ASCTB-TEMP:gc-b-cell
+Thymus,Thymus Lobule,Naive B,ASCTB-TEMP:naive-b
+Small Intestine,Villus,BEST2+ Goblet cell,ASCTB-TEMP:best2-goblet-cell
+Small Intestine,Villus,CLC+ Mast cell,ASCTB-TEMP:clc-mast-cell
+Small Intestine,Villus,IgA plasma cell,ASCTB-TEMP:iga-plasma-cell
+Small Intestine,Villus,IgG plasma cell,ASCTB-TEMP:igg-plasma-cell
+Large Intestine,Crypt Of Lieberkuhn,enterocyte of epithelium of small intestine,CL:1000334
+Large Intestine,Crypt Of Lieberkuhn,paneth cell of epithelium of small intestine,CL:1000343
+Large Intestine,Crypt Of Lieberkuhn,small intestine goblet cell,CL:1000495
+Large Intestine,Crypt Of Lieberkuhn,intestinal enteroendocrine cell,CL:0009006
+Large Intestine,Crypt Of Lieberkuhn,intestinal tuft cell,CL:0009080
+Small Intestine,Villus,fibroblast,CL:0000057
+Skin,Dermal Papilla,gut endothelial cell,CL:0000131
+Small Intestine,Villus,neutrophil,CL:0000775
+Small Intestine,Villus,mast cell,CL:0000097
+Small Intestine,Villus,transit amplifying cell of small intestine,CL:0009012
+Small Intestine,Villus,plasma cell,CL:0000786
+Thymus,Thymus Lobule,"CD8-positive, alpha-beta T cell",CL:0000625
+Kidney,Renal Corpuscle,monocyte,CL:0000576
+Thymus,Thymus Lobule,"CD4-positive, alpha-beta T cell",CL:0000624
+Large Intestine,Crypt Of Lieberkuhn,intestinal crypt stem cell of small intestine,CL:0009017
+Small Intestine,Villus,B cell,CL:0000236
+Large Intestine,Crypt Of Lieberkuhn,enterocyte of epithelium of large intestine,CL:0002071
+Large Intestine,Crypt Of Lieberkuhn,large intestine goblet cell,CL:1000320
+Large Intestine,Crypt Of Lieberkuhn,intestinal tuft cell,CL:0019032
+Large Intestine,Crypt Of Lieberkuhn,intestinal enteroendocrine cell,CL:1001516
+Large Intestine,Crypt Of Lieberkuhn,epithelial cell of large intestine,ASCTB-TEMP:epithelial-cell-of-large-intestine
+Kidney,Outer Medullary Collecting Duct,Outer Medullary Collecting Duct Principal,CL:1000716
+Kidney,Nephron,Connecting Tubule,CL:1000768
+Pancreas,Islet of Langerhans,M2 Macrophage,CL:0000890
+Kidney,Nephron,Descending Thin Limb Type 2,CL:4030013
+Kidney,Nephron,Descending Thin Limb Type 1,CL:4030012
+Small Intestine,Villus,Fibroblast,CL:1000692
+Small Intestine,Villus,Medullary Fibroblast,CL:4030022
+Kidney,Renal Corpuscle,Parietal Epithelial,CL:1000452
+Kidney,Nephron,Descending Thin Limb Type 3,CL:4030014
+Kidney,Cortical Collecting Duct,Peritubular Capilary Endothelial ,ASCTB-TEMP:peritubular-capilary-endothelial
+Kidney,Nephron,Ascending Thin Limb,CL:1001107
+Kidney,Nephron,Inner Medullary Collecting Duct,CL:1000718
+Kidney,Nephron,Cortical Collecting Duct Principal,CL:1000714
+Kidney,Nephron,Distal Convoluted Tubule Type 1,CL:4030016
+Kidney,Outer Medullary Collecting Duct,Outer Medullary Collecting Duct Intercalated Type A,CL:1000717
+Kidney,Renal Corpuscle,Glomerular Capillary Endothelial,CL:1001005
+Kidney,Renal Corpuscle,Podocyte,CL:0000653
+Small Intestine,Villus,Plasma,CL:0000786
+Small Intestine,Villus,Natural Killer T,CL:0000814
+Kidney,Cortical Collecting Duct,Cortical Collecting Duct Intercalated Type A,CL:1000715
+Kidney,Renal Corpuscle,Afferent / Efferent Arteriole Endothelial,CL:1000412
+Small Intestine,Villus,Neutrophil,CL:0000775
+Thymus,Thymus Lobule,Plasmacytoid Dendritic,CL:0001058
+Kidney,Nephron,Distal Convoluted Tubule Type 2,CL:4030017
+Small Intestine,Villus,Fol B cells,ASCTB-TEMP:fol-b-cells
+Thymus,Thymus Lobule,CD8 Memory T cells,ASCTB-TEMP:cd8-memory-t-cells
+Thymus,Thymus Lobule,CD4 Memory T cells,ASCTB-TEMP:cd4-memory-t-cells
+Skin,Dermal Papilla,Endothelial,ASCTB-TEMP:endothelial
+Thymus,Thymus Lobule,naive B cell,CL:0000788
+Thymus,Thymus Lobule,memory B cell,CL:0000787
+Pancreas,Islet of Langerhans,macrophage,CL:0000235
+Thymus,Thymus Lobule,"CD4-positive, alpha-beta memory T cell",CL:0000897
+Thymus,Thymus Lobule,"CD8-positive, alpha-beta memory T cell",CL:0000909
+Small Intestine,Villus,erythrocyte,CL:0000232
+Small Intestine,Villus,innate lymphoid cell,CL:0001065
+Skin,Dermal Papilla,endothelial cell,CL:0000115
+Spleen,Red Pulp,hematopoietic stem cell,CL:0000037
+Thymus,Thymus Lobule,plasmacytoid dendritic cell,CL:0000784
+Small Intestine,Villus,Fibroblast,CL:0000057
+Pancreas,Islet of Langerhans,Macrophage,CL:0000235
+Pancreas,Islet of Langerhans,Capillary Endothelial,CL:0002144
+Prostate,Prostate Glandular Acinus,Pericyte,CL:0000669
+Liver,Liver Lobule,Venous Endothelial,CL:1000414
+Thymus,Thymus Lobule,Adipocyte,CL:0000136
+Spleen,White Pulp,Smooth Muscle,CL:0000192
+Skin,Dermal Papilla,Endothelial,CL:0000115
+Thymus,Thymus Lobule,CD4+ T cell,ASCTB-TEMP:cd4-t-cell
+Spleen,White Pulp,Smooth muscle,ASCTB-TEMP:smooth-muscle
+Pancreas,Islet of Langerhans,M2 Macrophage,ASCTB-TEMP:m2-macrophage
+Small Intestine,Villus,Plasma,ASCTB-TEMP:plasma
+Small Intestine,Villus,CD66+ Enterocyte,ASCTB-TEMP:cd66-enterocyte
+Pancreas,Islet of Langerhans,M1 Macrophage,ASCTB-TEMP:m1-macrophage
+Large Intestine,Crypt Of Lieberkuhn,Neuroendocrine,ASCTB-TEMP:neuroendocrine
+Small Intestine,Villus,Neutrophil,ASCTB-TEMP:neutrophil
+Small Intestine,Villus,MUC1+ Enterocyte,ASCTB-TEMP:muc1-enterocyte
+Small Intestine,Villus,CD57+ Enterocyte,ASCTB-TEMP:cd57-enterocyte
+Small Intestine,Villus,IgM plasma cell,ASCTB-TEMP:igm-plasma-cell
+Large Intestine,Crypt Of Lieberkuhn,intestinal crypt stem cell of large intestine,CL:0009016
+Small Intestine,Villus,Muscle/Fibroblast,ASCTB-TEMP:muscle-fibroblast
+Thymus,Thymus Lobule,Tc cell,ASCTB-TEMP:tc-cell
+Pancreas,Islet of Langerhans,Macrophage(III),ASCTB-TEMP:macrophage-iii-
+Small Intestine,Villus,B cells,ASCTB-TEMP:b-cells
+Pancreas,Islet of Langerhans,Macrophage(IV),ASCTB-TEMP:macrophage-iv-
+Pancreas,Islet of Langerhans,Macrophage(II),ASCTB-TEMP:macrophage-ii-
+Pancreas,Islet of Langerhans,PDL1+ Macrophage,ASCTB-TEMP:pdl1-macrophage
+Pancreas,Islet of Langerhans,Macrophage(I),ASCTB-TEMP:macrophage-i-
+Spleen,White Pulp,smooth muscle cell,CL:0000192
+Small Intestine,Villus,myofibroblast cell,CL:0000186
+Skin,Dermal Papilla,bladder urothelial cell,CL:1001428
+Liver,Liver Lobule,endothelial cell of lymphatic vessel,CL:0002138
+Prostate,Prostate Glandular Acinus,pericyte,CL:0000669
+Pancreas,Islet of Langerhans,capillary endothelial cell,CL:0002144
+Liver,Liver Lobule,vein endothelial cell,CL:0002543
+Thymus,Thymus Lobule,T cell,CL:0000084
+Thymus,Thymus Lobule,CD8 T cells,CL:0000625
+Lung,Alveolus of Lung,Alveolar fibroblasts,CL:4028004
+Kidney,Renal Corpuscle,Ionocyte,CL:0017000
+Spleen,White Pulp,Smooth muscle,CL:0000192
+Thymus,Thymus Lobule,CD4 T cells,CL:0000624
+Liver,Liver Lobule,Adventitial fibroblasts,CL:4028006
+Small Intestine,Villus,Myofibroblasts,CL:0000186
+Prostate,Prostate Glandular Acinus,Pericytes,CL:0009089
+Small Intestine,Villus,B cells,CL:0000236
+Small Intestine,Villus,Mast cells,CL:0000097
+Small Intestine,Villus,NK cells,CL:0000623
+Small Intestine,Villus,Plasma cells,CL:0000786
+Thymus,Thymus Lobule,CD4 T cells,CL:0000492
+Prostate,Prostate Glandular Acinus,Pericytes,CL:0000669
+Thymus,Thymus Lobule,CD8 T cells,CL:0000913
+Large Intestine,Crypt Of Lieberkuhn,Neuroendocrine,CL:0000165
+Kidney,Renal Corpuscle,Ionocyte,CL:0005006
+Spleen,Red Pulp,Hematopoietic stem cells,CL:0000037
+Lung,Alveolus of Lung,type II pneumocyte,CL:0002063
+Small Intestine,Villus,club cell,CL:0000158
+Lung,Alveolus of Lung,type I pneumocyte,CL:0002062
+Pancreas,Acinus,respiratory goblet cell,CL:0002370
+Skin,Epidermal Ridge,basal cell,CL:0000646
+Spleen,White Pulp,bronchial smooth muscle cell,CL:0002598
+Liver,Liver Lobule,endothelial cell of artery,CL:1000413
+Spleen,White Pulp,lung microvascular endothelial cell,CL:2000016
+Small Intestine,Villus,adventitial cell,CL:4028006
+Prostate,Prostate Glandular Acinus,vascular associated smooth muscle cell,CL:0000359
+Small Intestine,Villus,dendritic cell,CL:0000451
+Thymus,Thymus Lobule,blood vessel endothelial cell,CL:0000071
+Kidney,Nephron,colon epithelial cell,ASCTB-TEMP:colon-epithelial-cell
+Pancreas,Islet of Langerhans,Macrophages,CL:0000235
+Liver,Liver Lobule,Hepatocytes,CL:0000182
+Thymus,Thymus Lobule,T cells,CL:0000084
+Small Intestine,Villus,Fibroblasts,CL:0000057
+Skin,Dermal Papilla,Endothelial cells,CL:0000115
+Small Intestine,Villus,Neutrophils,CL:0000775
+Liver,Liver Lobule,hepatocyte,CL:0000182
+Liver,Liver Lobule,endothelial cell of hepatic sinusoid,CL:1000398
+Small Intestine,Villus,liver dendritic cell,CL:2000055
+Skin,Dermal Papilla,mesothelial cell,CL:0000077
+Pancreas,Islet of Langerhans,CD68+ Macrophage,ASCTB-TEMP:cd68-macrophage
+Spleen,White Pulp,Smooth Muscle Cell,ASCTB-TEMP:smooth-muscle-cell
+Thymus,Thymus Lobule,CD4+ T Cell,ASCTB-TEMP:cd4-t-cell
+Small Intestine,Villus,Mast Cell,ASCTB-TEMP:mast-cell
+Thymus,Thymus Lobule,CD8+ T Cell,ASCTB-TEMP:cd8-t-cell
+Kidney,Renal Corpuscle,Basal Epithelial Cell,ASCTB-TEMP:basal-epithelial-cell
+Small Intestine,Villus,B Cell,ASCTB-TEMP:b-cell
+Prostate,Prostate Glandular Acinus,luminal cell of prostate epithelium,CL:0002340
+Prostate,Prostate Glandular Acinus,basal cell of prostate epithelium,CL:0002341
+Spleen,White Pulp,stromal cell,CL:0000499
+Skin,Dermal Papilla,epithelial cell,CL:0000066
+Prostate,Prostate Glandular Acinus,Pericyte_1,CL:0000669
+Skin,Epidermal Ridge,Melanocyte,CL:1000458
+Small Intestine,Villus,Mast_cell,CL:0000097
+Skin,Epidermal Ridge,melanocyte,CL:0000148
+Spleen,White Pulp,muscle cell,CL:0000187
+Skin,Epidermal Ridge,Langerhans cell,CL:0000453
