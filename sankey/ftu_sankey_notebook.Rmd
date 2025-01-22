@@ -136,6 +136,7 @@ subset_sankey = sankey_with_bins %>%
   subset_sankey$portal[subset_sankey$portal == "HCA"] <- "CZ CELLxGENE"
   subset_sankey$portal[subset_sankey$portal == "NHLBI/LungMap"] <- "LungMap"
   subset_sankey$portal[subset_sankey$portal == "CxG"] <- "CZ CELLxGENE"
+  subset_sankey$portal[grepl("EBI", subset_sankey$portal)] <- "EBI"
   
   # replace portal==HRA with HRA-OMAP
   subset_sankey$portal[subset_sankey$portal == "HRA"] <- "HRA-OMAP"
@@ -238,7 +239,7 @@ atlas = subset_sankey %>%
   group_by(is_atlas_dataset) %>% summarize()
 
 unique_name=list()
-unique_name = unlist(append(unique_name, c(p, d, a, b, r, o, f, c, rui, atlas)))
+unique_name = unlist(append(unique_name, c(p, d, a, b, r, o, f, rui)))
 unique_name = list(unique_name)
 
 nodes = as.data.frame(tibble(name = character()))
@@ -322,35 +323,19 @@ organ_ftu = subset_sankey %>%
     value=count
   )
 
-ftu_ctann = subset_sankey %>% 
-  group_by(FTU, cell_type_annotation_tool) %>% 
+ftu_rui = subset_sankey %>% 
+  group_by(FTU, is_rui_registered) %>% 
   summarize(count=n()) %>% 
   rename(
     source = FTU,
-    target = cell_type_annotation_tool,
-    value=count
-  )
-
-ctann_rui = subset_sankey %>% 
-  group_by(cell_type_annotation_tool, is_rui_registered) %>% 
-  summarize(count=n()) %>% 
-  rename(
-    source = cell_type_annotation_tool,
     target = is_rui_registered,
     value=count
   )
 
-rui_atlas = subset_sankey %>% 
-  group_by(is_rui_registered, is_atlas_dataset) %>% 
-  summarize(count=n()) %>% 
-  rename(
-    source = is_rui_registered,
-    target = is_atlas_dataset,
-    value=count
-  )
 
 
-prep_links = as.data.frame(bind_rows(portal_sex, sex_age, age_bmi, bmi_race, race_organ, organ_ftu, ftu_ctann, ctann_rui, rui_atlas))
+
+prep_links = as.data.frame(bind_rows(portal_sex, sex_age, age_bmi, bmi_race, race_organ, organ_ftu, ftu_rui))
 prep_links 
 
 links = prep_links 
