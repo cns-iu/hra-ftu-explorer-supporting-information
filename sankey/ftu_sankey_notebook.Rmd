@@ -109,7 +109,6 @@ subset_sankey = sankey_with_bins %>%
   replace_na(list(donor_bmi_binned = "Unknown BMI")) %>%
   replace_na(list(donor_age_binned = "Unknown Age")) %>%
   
-  # fix value for is_rui_registered
   
   mutate(
   # make organs lower case
@@ -137,6 +136,16 @@ subset_sankey = sankey_with_bins %>%
   subset_sankey$portal[subset_sankey$portal == "NHLBI/LungMap"] <- "LungMap"
   subset_sankey$portal[subset_sankey$portal == "CxG"] <- "CZ CELLxGENE"
   subset_sankey$portal[grepl("EBI", subset_sankey$portal)] <- "EBI"
+  
+  # fix FTU names for anatomogram
+  subset_sankey <- subset_sankey %>%
+    mutate(
+      FTU = if_else(
+        str_detect(FTU, "ebi"),
+        sapply(str_split(FTU, "/"), function(x) if(length(x) >= 2) x[length(x) - 1] else NA_character_),
+        FTU
+      )
+    )
   
   # replace portal==HRA with HRA-OMAP
   subset_sankey$portal[subset_sankey$portal == "HRA"] <- "HRA-OMAP"
@@ -361,7 +370,7 @@ names(nodes)[1] = "name"
 ```{r echo=FALSE}
 p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
                    Target = "target", Value = "value", NodeID = "name", 
-                   units = "occurrences", fontSize = 15, nodeWidth = 20, width=2500, height = 900)
+                   units = "occurrences", fontSize = 15, nodeWidth = 20, width=1000, height = 900)
 
 p
 ```
@@ -373,3 +382,53 @@ p
 saveNetwork(p, "../docs/ftu_sankey_atlas.html")
 
 ```
+
+```{r}
+# Define nodes (6 nodes across 4 levels)
+nodes <- data.frame(name = c(
+  "A",      # Level 1
+  "B",      # Level 2
+  "C",      # Level 2
+  "D",      # Level 3
+  "E",      # Level 3
+  "F"       # Level 4
+))
+
+# Define links (specific strand and others)
+links <- data.frame(
+  source = c(0, 0, 1, 2, 3, 4),  # Indices of source nodes
+  target = c(1, 2, 3, 4, 5, 5),  # Indices of target nodes
+  value = c(10, 5, 10, 5, 15, 5), # Link values (widths)
+  group = c("highlight", "default", "highlight", "default", "highlight", "default") # Group for highlighting
+)
+
+# Define the color of each link
+links$color <- "gray"  # Default color for all links
+
+# Highlight the specific strand A → B → D → F in red
+highlighted_indices <- which(
+  (links$source == 0 & links$target == 1) |  # A → B
+  (links$source == 1 & links$target == 3) |  # B → D
+  (links$source == 0 & links$target == 5)    # D → F
+)
+
+# Set the color of the highlighted links to red
+links$color[highlighted_indices] <- "#FF0000"
+
+# Create Sankey diagram
+sankey <- sankeyNetwork(
+  Links = links,
+  Nodes = nodes,
+  Source = "source",
+  Target = "target",
+  Value = "value",
+  NodeID = "name",
+  units = "TWh",
+  fontSize = 14,
+  nodeWidth = 30
+)
+
+# View the diagram
+sankey
+```
+
