@@ -410,7 +410,7 @@ p
 ## Export the Sankey diagram as HTML
 
 ```{r echo=FALSE}
-
+# save
 saveNetwork(p, "../docs/ftu_sankey_atlas.html")
 
 ```
