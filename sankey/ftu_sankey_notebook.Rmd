@@ -25,6 +25,11 @@ sankey = read_csv("../output/sankey_for_FTU.csv", locale=locale(decimal_mark = "
 ```{r}
 sankey
 ```
+## Fix age
+```{r}
+sankey$donor_age = sankey$donor_age/10
+```
+
 
 ## Create bins for donor age and BMI
 
@@ -109,7 +114,6 @@ subset_sankey = sankey_with_bins %>%
   replace_na(list(donor_bmi_binned = "Unknown BMI")) %>%
   replace_na(list(donor_age_binned = "Unknown Age")) %>%
   
-  # fix value for is_rui_registered
   
   mutate(
   # make organs lower case
@@ -136,6 +140,17 @@ subset_sankey = sankey_with_bins %>%
   subset_sankey$portal[subset_sankey$portal == "HCA"] <- "CZ CELLxGENE"
   subset_sankey$portal[subset_sankey$portal == "NHLBI/LungMap"] <- "LungMap"
   subset_sankey$portal[subset_sankey$portal == "CxG"] <- "CZ CELLxGENE"
+  subset_sankey$portal[grepl("EBI", subset_sankey$portal)] <- "EBI"
+  
+  # fix FTU names for anatomogram
+  subset_sankey <- subset_sankey %>%
+    mutate(
+      FTU = if_else(
+        str_detect(FTU, "ebi"),
+        sapply(str_split(FTU, "/"), function(x) if(length(x) >= 2) x[length(x) - 1] else NA_character_),
+        FTU
+      )
+    )
   
   # replace portal==HRA with HRA-OMAP
   subset_sankey$portal[subset_sankey$portal == "HRA"] <- "HRA-OMAP"
@@ -150,6 +165,21 @@ subset_sankey = sankey_with_bins %>%
   subset_sankey$is_atlas_dataset[subset_sankey$is_atlas_dataset == FALSE] <- "Not Atlas Dataset"
   subset_sankey$is_atlas_dataset[is.na(subset_sankey$is_atlas_dataset)] <- "Not Atlas Dataset"
     
+```
+
+## Add new column for first ctann
+```{r}
+# Add the new column
+subset_sankey <- subset_sankey %>%
+  group_by(unique_dataset_id) %>%
+  mutate(first_ctann_tool = case_when(
+    "azimuth" %in% cell_type_annotation_tool ~ "azimuth",
+    "celltypist" %in% cell_type_annotation_tool ~ "celltypist",
+    "popv" %in% cell_type_annotation_tool ~ "popv",
+    "n/a" %in% cell_type_annotation_tool ~ "No Cell Summary"
+  )) %>%
+  ungroup() %>% distinct(unique_dataset_id, .keep_all = TRUE)
+
 ```
 
 ##Remove duplictate rows
@@ -170,6 +200,8 @@ subset_sankey <- distinct(subset_sankey)
 print(subset_sankey)
 
 ```
+
+
 
 ## Temporary fix for SenNet atlas datasets
 ``` {r echo=FALSE}
@@ -237,8 +269,11 @@ rui = subset_sankey %>%
 atlas = subset_sankey %>% 
   group_by(is_atlas_dataset) %>% summarize()
 
+first_ctann = subset_sankey %>% 
+  group_by(first_ctann_tool) %>% summarize()
+
 unique_name=list()
-unique_name = unlist(append(unique_name, c(p, d, a, b, r, o, f, c, rui, atlas)))
+unique_name = unlist(append(unique_name, c(p, d, a, b, r, o, f, rui, first_ctann)))
 unique_name = list(unique_name)
 
 nodes = as.data.frame(tibble(name = character()))
@@ -322,35 +357,26 @@ organ_ftu = subset_sankey %>%
     value=count
   )
 
-ftu_ctann = subset_sankey %>% 
-  group_by(FTU, cell_type_annotation_tool) %>% 
+ftu_rui = subset_sankey %>% 
+  group_by(FTU, first_ctann_tool) %>% 
   summarize(count=n()) %>% 
   rename(
     source = FTU,
-    target = cell_type_annotation_tool,
+    target = first_ctann_tool,
     value=count
   )
 
-ctann_rui = subset_sankey %>% 
-  group_by(cell_type_annotation_tool, is_rui_registered) %>% 
+rui_first = subset_sankey %>% 
+  group_by(first_ctann_tool, is_rui_registered) %>% 
   summarize(count=n()) %>% 
   rename(
-    source = cell_type_annotation_tool,
+    source = first_ctann_tool,
     target = is_rui_registered,
     value=count
   )
 
-rui_atlas = subset_sankey %>% 
-  group_by(is_rui_registered, is_atlas_dataset) %>% 
-  summarize(count=n()) %>% 
-  rename(
-    source = is_rui_registered,
-    target = is_atlas_dataset,
-    value=count
-  )
 
-
-prep_links = as.data.frame(bind_rows(portal_sex, sex_age, age_bmi, bmi_race, race_organ, organ_ftu, ftu_ctann, ctann_rui, rui_atlas))
+prep_links = as.data.frame(bind_rows(portal_sex, sex_age, age_bmi, bmi_race, race_organ, organ_ftu, ftu_rui, rui_first))
 prep_links 
 
 links = prep_links 
@@ -376,7 +402,7 @@ names(nodes)[1] = "name"
 ```{r echo=FALSE}
 p <- sankeyNetwork(Links = prep_links, Nodes = nodes, Source = "source",
                    Target = "target", Value = "value", NodeID = "name", 
-                   units = "occurrences", fontSize = 15, nodeWidth = 20, width=2500, height = 900)
+                   units = "occurrences", fontSize = 15, nodeWidth = 20, width=1000, height = 900)
 
 p
 ```
@@ -388,3 +414,5 @@ p
 saveNetwork(p, "../docs/ftu_sankey_atlas.html")
 
 ```
+
+
