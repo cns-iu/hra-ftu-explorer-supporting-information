@@ -1,7 +1,7 @@
 ---
 title: "Sankey Diagram for FTU Explorer Paper"
 author: "Andreas Bueckle"
-date: "2024-09-12"
+date: "2025-02-19"
 output: html_document
 ---
 
@@ -304,28 +304,28 @@ nodes$index = nodes$index-1
 nodes
 
 portal_sex = subset_sankey %>% 
-  group_by(portal, donor_sex) %>% 
+  group_by(portal, donor_age_binned) %>% 
   summarize(count=n()) %>% 
   rename(
     source = portal,
-    target = donor_sex,
-    value=count
-  )
-
-sex_age = subset_sankey %>% 
-  group_by(donor_sex, donor_age_binned) %>% 
-  summarize(count=n()) %>% 
-  rename(
-    source = donor_sex,
     target = donor_age_binned,
     value=count
   )
 
-age_bmi = subset_sankey %>% 
-  group_by(donor_age_binned, donor_bmi_binned) %>% 
+sex_age = subset_sankey %>% 
+  group_by(donor_age_binned, donor_sex) %>% 
   summarize(count=n()) %>% 
   rename(
     source = donor_age_binned,
+    target = donor_sex,
+    value=count
+  )
+
+age_bmi = subset_sankey %>% 
+  group_by(donor_sex, donor_bmi_binned) %>% 
+  summarize(count=n()) %>% 
+  rename(
+    source = donor_sex,
     target = donor_bmi_binned,
     value=count
   )
@@ -410,7 +410,7 @@ p
 ## Export the Sankey diagram as HTML
 
 ```{r echo=FALSE}
-
+# save
 saveNetwork(p, "../docs/ftu_sankey_atlas.html")
 
 ```
