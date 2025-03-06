@@ -130,8 +130,6 @@ Heart,heart left ventricle,NK_CD56hi,CL:0000938
 Heart,heart left ventricle,CD8+T_cytox,CL:0000794
 Heart,heart left ventricle,MAIT-like,CL:0000791
 Heart,heart left ventricle,B_plasma,CL:0000786
-Heart,heart right ventricle,FB4_activated,CL:0000057
-Heart,heart right ventricle,CD8+T_cytox,CL:0000794
 Heart,interventricular septum,Ventricular Cardiomycoyte,CL:0002131
 Heart,interventricular septum,Monocyte/cDC,CL:0011031
 Heart,interventricular septum,Fibroblast,CL:0000057
@@ -178,6 +176,8 @@ Heart,interventricular septum,NK_CD56hi,CL:0000938
 Heart,interventricular septum,CD8+T_cytox,CL:0000794
 Heart,interventricular septum,MAIT-like,CL:0000791
 Heart,interventricular septum,B_plasma,CL:0000786
+Heart,heart right ventricle,FB4_activated,CL:0000057
+Heart,heart right ventricle,CD8+T_cytox,CL:0000794
 Heart,heart left ventricle,CD8+T_te,CL:0001050
 Colon,descending colon,Cycling plasma cell,ASCTB-TEMP:cycling-plasma-cell
 Colon,descending colon,Mesoderm 1 (HAND1+),ASCTB-TEMP:mesoderm-1-hand1-
