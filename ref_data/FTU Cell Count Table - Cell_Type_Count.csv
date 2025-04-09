@@ -58,12 +58,12 @@ Liver	http://purl.obolibrary.org/obo/UBERON_0002107	Liver Lobule	UBERON:0004647	
 Liver	http://purl.obolibrary.org/obo/UBERON_0002107	Liver Lobule	UBERON:0004647	hepatic stellate cell	CL:0000632	Hepatic Stellate Cell
 Liver	http://purl.obolibrary.org/obo/UBERON_0002107	Liver Lobule	UBERON:0004647	Kupffer Cell	CL:0000091	Kupffer Cell
 Liver	http://purl.obolibrary.org/obo/UBERON_0002107	Liver Lobule	UBERON:0004647	hepatocyte	CL:0000182	Hepatocyte
-Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Bronchial Submucosal Gland	UBERON 8410043	airway submucosal gland duct ciliated cell	CL:4033055	Ciliated Cell Of Submucosal Gland
-Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Bronchial Submucosal Gland	UBERON 8410043	airway submucosal gland duct basal cell	CL:4033024	Basal Cell Of Submucosal Gland
-Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Bronchial Submucosal Gland	UBERON 8410043	mucus secreting cell of bronchus submucosal gland	CL:4033022	Mucus Cell
-Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Bronchial Submucosal Gland	UBERON 8410043	airway submucosal gland collecting duct epithelial cell	CL:4033023	Epithelial cell Of Submucosal Gland
-Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Bronchial Submucosal Gland	UBERON 8410043	serous secreting cell of bronchus submucosal gland	CL:4033005	Serous Cell
-Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Bronchial Submucosal Gland	UBERON 8410043	myoepithelial cell of bronchus submucosal gland	CL:4033003	Myoepithelial cell
+Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Bronchial Submucosal Gland	UBERON:8410043	airway submucosal gland duct ciliated cell	CL:4033055	Ciliated Cell Of Submucosal Gland
+Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Bronchial Submucosal Gland	UBERON:8410043	airway submucosal gland duct basal cell	CL:4033024	Basal Cell Of Submucosal Gland
+Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Bronchial Submucosal Gland	UBERON:8410043	mucus secreting cell of bronchus submucosal gland	CL:4033022	Mucus Cell
+Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Bronchial Submucosal Gland	UBERON:8410043	airway submucosal gland collecting duct epithelial cell	CL:4033023	Epithelial cell Of Submucosal Gland
+Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Bronchial Submucosal Gland	UBERON:8410043	serous secreting cell of bronchus submucosal gland	CL:4033005	Serous Cell
+Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Bronchial Submucosal Gland	UBERON:8410043	myoepithelial cell of bronchus submucosal gland	CL:4033003	Myoepithelial cell
 Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Alveolus of Lung	UBERON:0002299	type II pneumocyte	CL:0002063	Type II Pneumocyte
 Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Alveolus of Lung	UBERON:0002299	lung pericyte	CL:0009089	Pericyte
 Lung	http://purl.obolibrary.org/obo/UBERON_0002048	Alveolus of Lung	UBERON:0002299	type I pneumocyte	CL:0002062	Type I Pneumocyte
@@ -102,22 +102,22 @@ Skin	http://purl.obolibrary.org/obo/UBERON_0002097	Epidermal Ridge	UBERON:001348
 Skin	http://purl.obolibrary.org/obo/UBERON_0002097	Epidermal Ridge	UBERON:0013487	basal cell	CL:0000646	Basal Cell
 Skin	http://purl.obolibrary.org/obo/UBERON_0002097	Epidermal Ridge	UBERON:0013487	Merkel cell	CL:0000242	Merkel Cell
 Skin	http://purl.obolibrary.org/obo/UBERON_0002097	Epidermal Ridge	UBERON:0013487	melanocyte of skin	CL:1000458	Melanocyte
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	natural killer cell	CL:0000623	Natural Killer Cell
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	fibroblast	CL:0000057	Fibroblast
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	tuft cell of small intestine	CL:0009080	Tuft Cell
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	enterocyte	CL:0000584	Enterocyte
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	mast cell	CL:0000097	Mast Cell
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	duodenal goblet cell	CL:1000324	Goblet Cell
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	ileal goblet cell	CL:1000326	Goblet Cell
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	jejunal goblet cell	CL:1000325	Goblet Cell
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	myofibroblast	CL:0000186	Myofibroblast
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	plasma cell	CL:0000786	Plasma Cell
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	dendritic cell	CL:0000451	Dendritic Cell
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	B cell	CL:0000236	B Cell
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	eosinophil	CL:0000771	Eosinophil
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	innate lymphoid cell	CL:0001065	Innate Lymphoid Cell
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	endocrine cell	CL:0000163	Endocrine Cell
-Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON 0001213	neutrophil	CL:0000775	Neutrophil
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	natural killer cell	CL:0000623	Natural Killer Cell
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	fibroblast	CL:0000057	Fibroblast
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	tuft cell of small intestine	CL:0009080	Tuft Cell
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	enterocyte	CL:0000584	Enterocyte
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	mast cell	CL:0000097	Mast Cell
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	duodenal goblet cell	CL:1000324	Goblet Cell
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	ileal goblet cell	CL:1000326	Goblet Cell
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	jejunal goblet cell	CL:1000325	Goblet Cell
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	myofibroblast	CL:0000186	Myofibroblast
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	plasma cell	CL:0000786	Plasma Cell
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	dendritic cell	CL:0000451	Dendritic Cell
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	B cell	CL:0000236	B Cell
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	eosinophil	CL:0000771	Eosinophil
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	innate lymphoid cell	CL:0001065	Innate Lymphoid Cell
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	endocrine cell	CL:0000163	Endocrine Cell
+Small Intestine	http://purl.obolibrary.org/obo/UBERON_0002108	Villus	UBERON:0001213	neutrophil	CL:0000775	Neutrophil
 Spleen	http://purl.obolibrary.org/obo/UBERON_0002106	Red Pulp	UBERON:0001250	CD14-positive, CD16-low monocyte	CL:0001055	CD14 Positive
 Spleen	http://purl.obolibrary.org/obo/UBERON_0002106	Red Pulp	UBERON:0001250	follicular dendritic cell	CL:0000442	Follicular Dendritic Cell
 Spleen	http://purl.obolibrary.org/obo/UBERON_0002106	Red Pulp	UBERON:0001250	plasmablast	CL:0000980	plasmablast
