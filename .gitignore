@@ -1,6 +1,2 @@
-# Large files
-kidney.zip
-liver.zip
-pancreas.zip
-lung.zip
-*.mtx
+# Data folder
+data
