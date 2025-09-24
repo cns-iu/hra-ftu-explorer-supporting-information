@@ -32,6 +32,9 @@ Needs to also use universe data that has right CTs even if not RUI and ALL skin 
 6. `05-combine-all.py` takes cell type populations and metadata from anatomogram and HRApop and makes them available for the [assets folder](https://github.com/hubmapconsortium/hra-ui/tree/main/apps/ftu-ui/src/assets/TEMP) of the FTU Explorer. 
 
 ## Pseudocode
+
+### `00-shared.py`
+
 ### `01-anatomogram-preprcossing-cell-type-population.py`
 
 The `organ_metadata` list contains dictionaries with downloads links and IDs for kidney, liver, lung, and pancreas. 
@@ -628,7 +631,7 @@ Then, we convert the dataframe for each organ to `anndata` for analysis to suppo
 ```python
 
 ```
-Next, the mean gene ecpression per cell type and dataset needs to be computed:
+Next, the mean gene ecression per cell type and dataset needs to be computed:
 
 
 Then, we repeat that for the other three organs.
@@ -639,6 +642,22 @@ Then, we repeat that for the other three organs.
 ### `03-hra-pop-preprocessing-cell-type-population.py`
 
 Here, we first get cell type populations from the the HRApop Universe at [https://github.com/x-atlas-consortia/hra-pop/tree/main/input-data/v1.0](https://github.com/x-atlas-consortia/hra-pop/tree/main/input-data/v1.0) and from the HRApop Atlas at [https://apps.humanatlas.io/kg-explorer/graph/hra-pop/latest](https://apps.humanatlas.io/kg-explorer/graph/hra-pop/latest). 
+
+MUST be from HRApop Atlas OR for proteomics that has cut-outs for FTUs
+Use https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/cell-types-per-dataset 
+Or https://cdn.humanatlas.io/digital-objects/graph/hra-pop/v1.0/assets/atlas-enriched-dataset-graph.jsonld 
+
+MUST be from an organ for which we have 2d-ftu
+Can also use https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ftu
+Check for AS collisions, check if FTUs are children
+Or https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-maybe-ftu (has optional clause but former should be subset of latter)
+Also queries at https://apps.humanatlas.io/api/grlc/hra-scratch.html 
+
+Then: 
+- Get a data frame of FTUs and cells that are only found in these from ASCTB+ tables via HRA KG
+- Get datasets with FTUs in them from [https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ftu](https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ftu)
+- Check for CTs, check if those only occur in FTUs (via ASCT+B table)
+- Can use [https://apps.humanatlas.io/kg-explorer/graph/2d-ftu-illustrations/latest](https://apps.humanatlas.io/kg-explorer/graph/2d-ftu-illustrations/latest) to tell which CTs are in FTU. Also check for children in AS partonomy that are NOT FTUs whether those have the CT
 
 These are ds-graph DOs and look like:
 ```json
@@ -701,3 +720,11 @@ These are ds-graph DOs and look like:
 
 
 ### `05-combine-all.py`
+
+Deploys:
+- Cell summaries: https://github.com/hubmapconsortium/hra-ui/blob/main/apps/ftu-ui/src/assets/TEMP/ftu-cell-summaries.jsonld 
+- Metadata: https://github.com/hubmapconsortium/hra-ui/blob/main/apps/ftu-ui/src/assets/TEMP/ftu-datasets.jsonld 
+- Might build FTU explorer ds-graph, could be delivered via HRA API. Like https://apps.humanatlas.io/kg-explorer/ds-graph/hubmap/latest 
+
+For testing, generate as format: https://github.com/hubmapconsortium/hra-ui/blob/main/apps/ftu-ui/src/assets/TEMP/ftu-cell-summaries.jsonld 
+Web component/widget has two input, one for cell summaries (https://github.com/hubmapconsortium/hra-ui/blob/main/apps/ftu-ui/src/assets/TEMP/ftu-cell-summaries.jsonld) and one for datasets (https://github.com/hubmapconsortium/hra-ui/blob/main/apps/ftu-ui/src/assets/TEMP/ftu-datasets.jsonld) 
