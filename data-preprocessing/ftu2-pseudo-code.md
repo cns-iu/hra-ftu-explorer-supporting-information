@@ -5,6 +5,10 @@ This document outlines the code pieces that are needed to source high-quality ce
 ## Open questions
 
 - How should we handle cell summaries in the FTU Explorer for which we have no associated paper? This applies to many HuBMAP and SenNet datasets. The Explorer needs to display metadata in the bottom right corner. Can we invent new table headers that work for cell summaries and papers?
+- `output` for usage, raw-data` folder for downloaded data
+- Use `gitgnore` for big files
+- Rename scripts
+- Also list run_all right away
 
 ## What the FTU Explorer Needs
 
