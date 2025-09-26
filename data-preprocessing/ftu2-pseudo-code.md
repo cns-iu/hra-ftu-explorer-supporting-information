@@ -12,6 +12,18 @@ This document outlines the code pieces that are needed to source high-quality ce
   - It has to be RUI registered, unless it is from the skin, which only has 1 AS. The query at [https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ftu](https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ftu) returns datasets that collide with an AS that has an FTU in it. 
   - The CT has to be crosswalked. We can only use cell type populations for crosswalked CTs for the FTU Explorer, because all the CTs in the FTU illustrations are crosswalked. 
 
+## Code overview
+
+The FTU2 code consists of Python scripts and a `bash` driver script called `run_all.sh` that runs them in sequence. `shared.py` defines common functions (e.g., making web requests) and sets variables used across the workflow. It is not run but imported as a module:
+
+1. `00-identify-cell-types-ftu-only.py` compiles a list of cell types only found in FTUs, validated against ASCT+B tables.
+2. `10-hra-pop-preprocessing-cell-type-population.py`
+3. `20-hra-pop-preprocessing-metadata.py`
+4. `30-anatomogram-preprcossing-cell-type-population.py` downloads anatomogram data from the [Single-Cell Expression Atlas (SCEA)](https://www.ebi.ac.uk/gxa/sc/home), extracts cells and biomarkers expressions from cells, ad transforms them into a ds-graph format (see "ds-graph" entry in [HRA KG paper](https://www.nature.com/articles/s41597-025-05183-6/tables/1)).
+5. `40-anatomogram-preprocessing-metadata.py` extracts donor data from experimental design files obtained from the SCEA.
+
+6. `50-combine-all.py` (driver script) takes cell type populations and metadata from anatomogram and HRApop and makes them available for the [assets folder](https://github.com/hubmapconsortium/hra-ui/tree/main/apps/ftu-ui/src/assets/TEMP) of the FTU Explorer.
+
 ## What the FTU Explorer Needs
 
 The FTU Explorer needs two data products to display cell by gene data for its FTU illustrations:
@@ -76,23 +88,9 @@ The FTU Explorer needs two data products to display cell by gene data for its FT
     },
 ```
 
-## Code overview
-
-The FTU2 code consists of six Python scripts that are run in sequence via a `bash` script callded `run_all.sh`:
-
-1. `00-shared.py` defines common functions (e.g., making web requests) and sets variables used across the workflow. It also compiles a list of cell types only found in FTUs, validated against ASCT+B tables.
-2. `10-hra-pop-preprocessing-cell-type-population.py`
-3. `20-hra-pop-preprocessing-metadata.py`
-4. `30-anatomogram-preprcossing-cell-type-population.py` downloads anatomogram data from the [Single-Cell Expression Atlas (SCEA)](https://www.ebi.ac.uk/gxa/sc/home), extracts cells and biomarkers expressions from cells, ad transforms them into a ds-graph format (see "ds-graph" entry in [HRA KG paper](https://www.nature.com/articles/s41597-025-05183-6/tables/1)).
-5. `50-anatomogram-preprocessing-metadata.py` extracts donor data from experimental design files obtained from the SCEA.
-
-6. `60-combine-all.py` (driver script) takes cell type populations and metadata from anatomogram and HRApop and makes them available for the [assets folder](https://github.com/hubmapconsortium/hra-ui/tree/main/apps/ftu-ui/src/assets/TEMP) of the FTU Explorer.
-
-7. `run_all` executes all scripts in sequence.
-
 ## Pseudocode
 
-### `10-shared.py`
+### `shared.py`
 
 ```python
 
@@ -101,7 +99,11 @@ import requests
 
 def download(url:str):
   # add implementation
+```
 
+### `00-identify-cell-types-ftu-only.py`
+
+```python
 def get_organs_with_ftus():
   # ADD IMPLEMENTATION
   # uses SPARQL query at https://apps.humanatlas.io/api/grlc/hra.html#get-/2d-ftu-parts to get a list of organs and FTUs, like:
@@ -214,7 +216,7 @@ At the end, we should have something like the below, which can then be used to m
   ]
 ```
 
-### `20-hra-pop-preprocessing-cell-type-population.py`
+### `10-hra-pop-preprocessing-cell-type-population.py`
 
 Here, we first get cell type populations from the the HRApop Universe at [https://github.com/x-atlas-consortia/hra-pop/tree/main/input-data/v1.0](https://github.com/x-atlas-consortia/hra-pop/tree/main/input-data/v1.0) and from the HRApop Atlas at [https://apps.humanatlas.io/kg-explorer/graph/hra-pop/latest](https://apps.humanatlas.io/kg-explorer/graph/hra-pop/latest).
 
@@ -363,9 +365,9 @@ These are ds-graph DOs and look like:
 
 ```
 
-### `30-hra-pop-preprocessing-metadata.py`
+### `20-hra-pop-preprocessing-metadata.py`
 
-### `40-anatomogram-preprcossing-cell-type-population.py`
+### `30-anatomogram-preprcossing-cell-type-population.py`
 
 The `organ_metadata` list contains dictionaries with downloads links and IDs for kidney, liver, lung, and pancreas.
 
@@ -981,9 +983,9 @@ Next, the mean gene ecression per cell type and dataset needs to be computed:
 
 Then, we repeat that for the other three organs.
 
-### `50-anatomogram-preprocessing-metadata.py`
+### `40-anatomogram-preprocessing-metadata.py`
 
-### `60-combine-all.py`
+### `50-combine-all.py`
 
 Deploys:
 
@@ -993,9 +995,6 @@ Deploys:
 
 For testing, generate as format: https://github.com/hubmapconsortium/hra-ui/blob/main/apps/ftu-ui/src/assets/TEMP/ftu-cell-summaries.jsonld
 Web component/widget has two input, one for cell summaries (https://github.com/hubmapconsortium/hra-ui/blob/main/apps/ftu-ui/src/assets/TEMP/ftu-cell-summaries.jsonld) and one for datasets (https://github.com/hubmapconsortium/hra-ui/blob/main/apps/ftu-ui/src/assets/TEMP/ftu-datasets.jsonld)
-
-### `run_all.sh`
-Runs all Pythons scripts.
 
 # Implementation details
 - How should we handle cell summaries in the FTU Explorer for which we have no associated paper? This applies to many HuBMAP and SenNet datasets. The Explorer needs to display metadata in the bottom right corner. Can we invent new table headers that work for cell summaries and papers?

@@ -1,1 +1,5 @@
-print('1')
+from shared import *
+
+
+print_shared()
+print(a)
