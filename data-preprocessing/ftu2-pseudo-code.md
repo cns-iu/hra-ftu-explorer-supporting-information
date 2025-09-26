@@ -29,7 +29,7 @@ The FTU2 code consists of Python scripts and a `bash` driver script called `run_
 4. `40-anatomogram-preprcossing-cell-type-population.py` downloads anatomogram data from the [Single-Cell Expression Atlas (SCEA)](https://www.ebi.ac.uk/gxa/sc/home), extracts cells and biomarkers expressions from cells, ad transforms them into a ds-graph format (see "ds-graph" entry in [HRA KG paper](https://www.nature.com/articles/s41597-025-05183-6/tables/1)).
 5. `50-anatomogram-preprocessing-metadata.py` extracts donor data from experimental design files obtained from the SCEA.
 
-6. `60-combine-all.py` (driver script) takes cell type populations and metadata from anatomogram and HRApop and makes them available for the [assets folder](https://github.com/hubmapconsortium/hra-ui/tree/main/apps/ftu-ui/src/assets/TEMP) of the FTU Explorer.
+6. `60-combine-all.py` takes cell type populations and metadata from anatomogram and HRApop and makes them available for the [assets folder](https://github.com/hubmapconsortium/hra-ui/tree/main/apps/ftu-ui/src/assets/TEMP) of the FTU Explorer.
 
 ## What the FTU Explorer Needs
 

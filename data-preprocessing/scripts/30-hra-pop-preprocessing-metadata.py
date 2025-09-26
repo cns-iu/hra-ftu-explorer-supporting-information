@@ -1,5 +1,5 @@
 from shared import *
 
+print('3')
 
-print_shared()
-print(a)
+foo_bar()
