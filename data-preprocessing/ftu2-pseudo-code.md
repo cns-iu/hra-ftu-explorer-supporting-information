@@ -4,13 +4,20 @@ This document outlines the code pieces that are needed to source high-quality ce
 
 ## Open questions and notes
 
-- To be added to the FTU Explorer, a cell type populations have to fulfill these criteria:
+- To be added to the FTU Explorer, a cell type population has to fulfill these criteria:
   - It has to be from a dataset from an organ with an FTU.
-  - The CT has to exclusive to an FTU, i.e., it must be:
+  - The CT has to exclusive to the FTU, i.e., it must be:
     - in the FTU illustration and
-    - only be connected to the FTU or a child of the FTU in the ASCT+B table for the organ from where the dataset comes
-  - It has to be RUI registered, unless it is from the skin, which only has 1 AS. The query at [https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ftu](https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ftu) returns datasets that collide with an AS that has an FTU in it. 
-  - The CT has to be crosswalked. We can only use cell type populations for crosswalked CTs for the FTU Explorer, because all the CTs in the FTU illustrations are crosswalked. 
+    - only be connected to the FTU or a child of the FTU in the ASCT+B table for the organ from where the dataset comes from
+  - The CT has to be crosswalked. We can only use cell type populations for crosswalked CTs for the FTU Explorer, because all the CTs in the FTU illustrations are crosswalked.
+- We keep all the CTs and Bs that match these criteria.  
+- We need the top 100 Bs per CT. Compute it from raw data. Use Zotero data product. 
+- Need to check if all FTUs are listed in the ASCT+B table for the organ as an AS.  
+- The FTU column in the ASCT+B table marks that the CT in that column is in the FTU named in the cell. This is unreliable as of HRA v2.3. 
+- First use organ-specific Azimuth, then CellTypist, then popV. 
+- The nephron has five smaller FTU inside of it (cortical collecting duct). As a result, in its crosswalk, there are illustration nodes that AS and NOT CTs.
+- For nested FTUs, when the user hovers over a nested FTU, we show the average of B expressions for CTs. 
+- Show that we can expand to non-healhy with anatomogram. 
 
 ## What the FTU Explorer Needs
 
@@ -86,9 +93,9 @@ The FTU2 code consists of six Python scripts that are run in sequence via a `bas
 4. `30-anatomogram-preprcossing-cell-type-population.py` downloads anatomogram data from the [Single-Cell Expression Atlas (SCEA)](https://www.ebi.ac.uk/gxa/sc/home), extracts cells and biomarkers expressions from cells, ad transforms them into a ds-graph format (see "ds-graph" entry in [HRA KG paper](https://www.nature.com/articles/s41597-025-05183-6/tables/1)).
 5. `50-anatomogram-preprocessing-metadata.py` extracts donor data from experimental design files obtained from the SCEA.
 
-6. `60-combine-all.py` (driver script) takes cell type populations and metadata from anatomogram and HRApop and makes them available for the [assets folder](https://github.com/hubmapconsortium/hra-ui/tree/main/apps/ftu-ui/src/assets/TEMP) of the FTU Explorer.
+6. `60-combine-all.py` takes cell type populations and metadata from anatomogram and HRApop and makes them available for the [assets folder](https://github.com/hubmapconsortium/hra-ui/tree/main/apps/ftu-ui/src/assets/TEMP) of the FTU Explorer.
 
-7. `run_all` executes all scripts in sequence.
+7. `run_all.sh` executes all scripts in sequence.
 
 ## Pseudocode
 
