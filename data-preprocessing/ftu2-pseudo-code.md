@@ -4,13 +4,20 @@ This document outlines the code pieces that are needed to source high-quality ce
 
 ## Open questions and notes
 
-- To be added to the FTU Explorer, a cell type populations have to fulfill these criteria:
+- To be added to the FTU Explorer, a cell type population has to fulfill these criteria:
   - It has to be from a dataset from an organ with an FTU.
-  - The CT has to exclusive to an FTU, i.e., it must be:
+  - The CT has to exclusive to the FTU, i.e., it must be:
     - in the FTU illustration and
-    - only be connected to the FTU or a child of the FTU in the ASCT+B table for the organ from where the dataset comes
-  - It has to be RUI registered, unless it is from the skin, which only has 1 AS. The query at [https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ftu](https://apps.humanatlas.io/api/grlc/hra-pop.html#get-/datasets-with-ftu) returns datasets that collide with an AS that has an FTU in it. 
-  - The CT has to be crosswalked. We can only use cell type populations for crosswalked CTs for the FTU Explorer, because all the CTs in the FTU illustrations are crosswalked. 
+    - only be connected to the FTU or a child of the FTU in the ASCT+B table for the organ from where the dataset comes from
+  - The CT has to be crosswalked. We can only use cell type populations for crosswalked CTs for the FTU Explorer, because all the CTs in the FTU illustrations are crosswalked.
+- We keep all the CTs and Bs that match these criteria.  
+- We need the top 100 Bs per CT. Compute it from raw data. Use Zotero data product. 
+- Need to check if all FTUs are listed in the ASCT+B table for the organ as an AS.  
+- The FTU column in the ASCT+B table marks that the CT in that column is in the FTU named in the cell. This is unreliable as of HRA v2.3. 
+- First use organ-specific Azimuth, then CellTypist, then popV. 
+- The nephron has five smaller FTU inside of it (cortical collecting duct). As a result, in its crosswalk, there are illustration nodes that AS and NOT CTs.
+- For nested FTUs, when the user hovers over a nested FTU, we show the average of B expressions for CTs. 
+- Show that we can expand to non-healhy with anatomogram. 
 
 ## Code overview
 
