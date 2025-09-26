@@ -23,13 +23,13 @@ This document outlines the code pieces that are needed to source high-quality ce
 
 The FTU2 code consists of Python scripts and a `bash` driver script called `run_all.sh` that runs them in sequence. `shared.py` defines common functions (e.g., making web requests) and sets variables used across the workflow. It is not run but imported as a module:
 
-1. `00-identify-cell-types-ftu-only.py` compiles a list of cell types only found in FTUs, validated against ASCT+B tables.
-2. `10-hra-pop-preprocessing-cell-type-population.py`
-3. `20-hra-pop-preprocessing-metadata.py`
-4. `30-anatomogram-preprcossing-cell-type-population.py` downloads anatomogram data from the [Single-Cell Expression Atlas (SCEA)](https://www.ebi.ac.uk/gxa/sc/home), extracts cells and biomarkers expressions from cells, ad transforms them into a ds-graph format (see "ds-graph" entry in [HRA KG paper](https://www.nature.com/articles/s41597-025-05183-6/tables/1)).
-5. `40-anatomogram-preprocessing-metadata.py` extracts donor data from experimental design files obtained from the SCEA.
+1. `10-identify-cell-types-ftu-only.py` compiles a list of cell types only found in FTUs, validated against ASCT+B tables.
+2. `20-hra-pop-preprocessing-cell-type-population.py`
+3. `30-hra-pop-preprocessing-metadata.py`
+4. `40-anatomogram-preprcossing-cell-type-population.py` downloads anatomogram data from the [Single-Cell Expression Atlas (SCEA)](https://www.ebi.ac.uk/gxa/sc/home), extracts cells and biomarkers expressions from cells, ad transforms them into a ds-graph format (see "ds-graph" entry in [HRA KG paper](https://www.nature.com/articles/s41597-025-05183-6/tables/1)).
+5. `50-anatomogram-preprocessing-metadata.py` extracts donor data from experimental design files obtained from the SCEA.
 
-6. `50-combine-all.py` (driver script) takes cell type populations and metadata from anatomogram and HRApop and makes them available for the [assets folder](https://github.com/hubmapconsortium/hra-ui/tree/main/apps/ftu-ui/src/assets/TEMP) of the FTU Explorer.
+6. `60-combine-all.py` (driver script) takes cell type populations and metadata from anatomogram and HRApop and makes them available for the [assets folder](https://github.com/hubmapconsortium/hra-ui/tree/main/apps/ftu-ui/src/assets/TEMP) of the FTU Explorer.
 
 ## What the FTU Explorer Needs
 
@@ -108,7 +108,7 @@ def download(url:str):
   # add implementation
 ```
 
-### `00-identify-cell-types-ftu-only.py`
+### `10-identify-cell-types-ftu-only.py`
 
 ```python
 def get_organs_with_ftus():
@@ -223,7 +223,7 @@ At the end, we should have something like the below, which can then be used to m
   ]
 ```
 
-### `10-hra-pop-preprocessing-cell-type-population.py`
+### `20-hra-pop-preprocessing-cell-type-population.py`
 
 Here, we first get cell type populations from the the HRApop Universe at [https://github.com/x-atlas-consortia/hra-pop/tree/main/input-data/v1.0](https://github.com/x-atlas-consortia/hra-pop/tree/main/input-data/v1.0) and from the HRApop Atlas at [https://apps.humanatlas.io/kg-explorer/graph/hra-pop/latest](https://apps.humanatlas.io/kg-explorer/graph/hra-pop/latest).
 
@@ -372,9 +372,9 @@ These are ds-graph DOs and look like:
 
 ```
 
-### `20-hra-pop-preprocessing-metadata.py`
+### `30-hra-pop-preprocessing-metadata.py`
 
-### `30-anatomogram-preprcossing-cell-type-population.py`
+### `40-anatomogram-preprcossing-cell-type-population.py`
 
 The `organ_metadata` list contains dictionaries with downloads links and IDs for kidney, liver, lung, and pancreas.
 
@@ -990,9 +990,9 @@ Next, the mean gene ecression per cell type and dataset needs to be computed:
 
 Then, we repeat that for the other three organs.
 
-### `40-anatomogram-preprocessing-metadata.py`
+### `50-anatomogram-preprocessing-metadata.py`
 
-### `50-combine-all.py`
+### `60-combine-all.py`
 
 Deploys:
 
