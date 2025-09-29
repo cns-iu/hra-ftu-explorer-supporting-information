@@ -1,3 +1,3 @@
-print('2')
+from shared import *
 
-a = 'fjeiowjfeiowj'
+print('2')

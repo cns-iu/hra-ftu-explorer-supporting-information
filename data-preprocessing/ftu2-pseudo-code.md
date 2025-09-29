@@ -121,11 +121,11 @@ def get_organs_with_ftus():
       'ftu':[
         {
           'ftu_iri':'http://purl.obolibrary.org/obo/UBERON_0001285',
-          'ftu_digital_object','https://purl.humanatlas.io/2d-ftu/kidney-nephron'
+          'ftu_digital_object':'https://purl.humanatlas.io/2d-ftu/kidney-nephron'
         },
         {
           'ftu_iri':'http://purl.obolibrary.org/obo/UBERON_0004204',
-          'ftu_digital_object','https://purl.humanatlas.io/2d-ftu/kidney-outer-medullary-collecting-duct'
+          'ftu_digital_object':'https://purl.humanatlas.io/2d-ftu/kidney-outer-medullary-collecting-duct'
         },
 
         # ADD OTHER ORGANS AND THEIR FTUs
