@@ -8,16 +8,16 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/kidney-outer-medullary-collecting-duct",
     "cell_types_in_illustration": [
       [
+        "Outer_Medullary_Collecting_Duct_Intercalated_Cell_Type_A",
+        "CL:1000717"
+      ],
+      [
         "Outer_Medullary_Collecting_Duct_Principal_Cell",
         "CL:1000716"
       ],
       [
         "Endothelium_Peritubular_Capillary",
         "CL:1001033"
-      ],
-      [
-        "Outer_Medullary_Collecting_Duct_Intercalated_Cell_Type_A",
-        "CL:1000717"
       ]
     ],
     "cell_types_in_ftu_only": []
@@ -31,20 +31,20 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle",
     "cell_types_in_illustration": [
       [
-        "Glomerular_Mesangial_Cell",
-        "CL:1000742"
-      ],
-      [
         "Glomerular_Capillary_Endothelial_Cell",
         "CL:1001005"
       ],
       [
-        "Parietal_Epithelial_Cell",
-        "CL:1000452"
+        "Glomerular_Mesangial_Cell",
+        "CL:1000742"
       ],
       [
-        "Epithelial_Cell_Proximal_Tubule",
-        "CL:0002306"
+        "Glomerular_Visceral_Epithelial_Cell",
+        "CL:0000653"
+      ],
+      [
+        "Macula_Densa_Epithelial_Cell",
+        "CL:1000850"
       ],
       [
         "Efferent_Arteriole_Endothelial_Cell",
@@ -55,12 +55,12 @@
         "CL:1001096"
       ],
       [
-        "Glomerular_Visceral_Epithelial_Cell",
-        "CL:0000653"
+        "Epithelial_Cell_Proximal_Tubule",
+        "CL:0002306"
       ],
       [
-        "Macula_Densa_Epithelial_Cell",
-        "CL:1000850"
+        "Parietal_Epithelial_Cell",
+        "CL:1000452"
       ]
     ],
     "cell_types_in_ftu_only": []
@@ -74,64 +74,94 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/kidney-nephron",
     "cell_types_in_illustration": [
       [
-        "Collecting_Duct",
-        "UBERON:0004203"
-      ],
-      [
-        "Connecting_Tubule",
-        "CL:1000768"
-      ],
-      [
-        "Distal_Convulated_Tubule",
-        "UBERON:0001292"
-      ],
-      [
-        "Renal_Corpuscle",
-        "UBERON:0001229"
-      ],
-      [
         "Distal_Convulated_Tubule",
         "CL:1000849"
-      ],
-      [
-        "Thick_Ascending_Limb_Of_Loop_Of_Henle",
-        "UBERON:0001291"
-      ],
-      [
-        "Collecting_Duct",
-        "CL:1000714"
-      ],
-      [
-        "Collecting_Duct",
-        "CL:1000716"
-      ],
-      [
-        "Ascending_Thin_Limb_Of_Loop_Of_Henle",
-        "UBERON:0004193"
-      ],
-      [
-        "Descending_Thin_Limb_Of_Loop_Of_Henle",
-        "CL:1001111"
-      ],
-      [
-        "Proximal_Tubule",
-        "UBERON:0004197"
-      ],
-      [
-        "Proximal_Tubule",
-        "CL:4030009"
-      ],
-      [
-        "Ascending_Thin_Limb_Of_Loop_Of_Henle",
-        "CL:1001107"
       ],
       [
         "Collecting_Duct",
         "CL:1000718"
       ],
       [
+        "Collecting_Duct",
+        "CL:1000716"
+      ],
+      [
+        "Proximal_Tubule",
+        "CL:4030009"
+      ],
+      [
+        "Collecting_Duct",
+        "CL:1000714"
+      ],
+      [
+        "Proximal_Tubule",
+        "UBERON:0004197"
+      ],
+      [
         "Proximal_Tubule",
         "UBERON:0004196"
+      ],
+      [
+        "Collecting_Duct",
+        "UBERON:0004203"
+      ],
+      [
+        "Descending_Thin_Limb_Of_Loop_Of_Henle",
+        "UBERON:0005096"
+      ],
+      [
+        "Ascending_Thin_Limb_Of_Loop_Of_Henle",
+        "CL:1001107"
+      ],
+      [
+        "Connecting_Tubule",
+        "UBERON:0005097"
+      ],
+      [
+        "Thick_Ascending_Limb_Of_Loop_Of_Henle",
+        "UBERON:0001291"
+      ],
+      [
+        "Ascending_Thin_Limb_Of_Loop_Of_Henle",
+        "UBERON:0004193"
+      ],
+      [
+        "Connecting_Tubule",
+        "CL:1000768"
+      ],
+      [
+        "Descending_Thin_Limb_Of_Loop_Of_Henle",
+        "CL:1001111"
+      ],
+      [
+        "Renal_Corpuscle",
+        "UBERON:0001229"
+      ],
+      [
+        "Thick_Ascending_Limb_Of_Loop_Of_Henle",
+        "CL:1001106"
+      ],
+      [
+        "Proximal_Tubule",
+        "UBERON:0001290"
+      ],
+      [
+        "Distal_Convulated_Tubule",
+        "UBERON:0001292"
+      ],
+      [
+        "Macula_Densa",
+        "CL:1000850"
+      ]
+    ],
+    "cell_types_in_ftu_only": [
+      [
+        "Proximal_Tubule",
+        "UBERON:0004196"
+      ],
+      [
+        "Collecting_Duct",
+        "UBERON:0004203"
       ],
       [
         "Connecting_Tubule",
@@ -143,29 +173,7 @@
       ],
       [
         "Thick_Ascending_Limb_Of_Loop_Of_Henle",
-        "CL:1001106"
-      ],
-      [
-        "Macula_Densa",
-        "CL:1000850"
-      ],
-      [
-        "Descending_Thin_Limb_Of_Loop_Of_Henle",
-        "UBERON:0005096"
-      ]
-    ],
-    "cell_types_in_ftu_only": [
-      [
-        "Collecting_Duct",
-        "UBERON:0004203"
-      ],
-      [
-        "Distal_Convulated_Tubule",
-        "UBERON:0001292"
-      ],
-      [
-        "Renal_Corpuscle",
-        "UBERON:0001229"
+        "UBERON:0001291"
       ],
       [
         "Descending_Thin_Limb_Of_Loop_Of_Henle",
@@ -176,24 +184,16 @@
         "UBERON:0004193"
       ],
       [
+        "Renal_Corpuscle",
+        "UBERON:0001229"
+      ],
+      [
+        "Distal_Convulated_Tubule",
+        "UBERON:0001292"
+      ],
+      [
         "Proximal_Tubule",
         "UBERON:0004197"
-      ],
-      [
-        "Thick_Ascending_Limb_Of_Loop_Of_Henle",
-        "UBERON:0001291"
-      ],
-      [
-        "Proximal_Tubule",
-        "UBERON:0004196"
-      ],
-      [
-        "Connecting_Tubule",
-        "UBERON:0005097"
-      ],
-      [
-        "Proximal_Tubule",
-        "UBERON:0001290"
       ]
     ]
   },
@@ -244,20 +244,20 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/kidney-cortical-collecting-duct",
     "cell_types_in_illustration": [
       [
-        "Cortical_Collecting_Duct_Intercalated_Cell_Type_A",
-        "CL:4030020"
+        "Endothelium_Peritubular_Capillary",
+        "CL:1001033"
       ],
       [
         "Cortical_Collecting_Duct_Principal_Cell",
         "CL:1000714"
       ],
       [
-        "Endothelium_Peritubular_Capillary",
-        "CL:1001033"
-      ],
-      [
         "Cortical_Collecting_Duct_Intercalated_Cell_Type_B",
         "CL:4030021"
+      ],
+      [
+        "Cortical_Collecting_Duct_Intercalated_Cell_Type_A",
+        "CL:4030020"
       ]
     ],
     "cell_types_in_ftu_only": []
@@ -290,12 +290,12 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/kidney-thick-ascending-loop-of-henle",
     "cell_types_in_illustration": [
       [
-        "Thick_Ascending_Limb_Cell",
-        "CL:1001106"
-      ],
-      [
         "Endothelium_Peritubular_Capillary",
         "CL:1001033"
+      ],
+      [
+        "Thick_Ascending_Limb_Cell",
+        "CL:1001106"
       ]
     ],
     "cell_types_in_ftu_only": []
@@ -313,16 +313,16 @@
         "CL:0009016"
       ],
       [
-        "Absorptive_Cells",
-        "CL:0002071"
+        "Goblet_Cells",
+        "CL:1000321"
       ],
       [
         "Tuft_Cell",
         "CL:0019032"
       ],
       [
-        "Goblet_Cells",
-        "CL:1000321"
+        "Absorptive_Cells",
+        "CL:0002071"
       ],
       [
         "Enteroendocrine_Cells",
@@ -340,40 +340,32 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule",
     "cell_types_in_illustration": [
       [
-        "Columnar_Cuboidal_epithelial_Cell",
-        "CL:0000075"
-      ],
-      [
-        "Hepatic_Portal_Fibroblast",
-        "CL:0009100"
-      ],
-      [
         "Kupffer_Cell",
         "CL:0000091"
-      ],
-      [
-        "Endothelial_Cell",
-        "CL:1000413"
-      ],
-      [
-        "Hepatic_Stellate_Cell",
-        "CL:0000632"
-      ],
-      [
-        "Hepatic_Progenitor_Cell",
-        "CL:0002196"
-      ],
-      [
-        "Blood_Vessel_Smooth_Muscle_Cell",
-        "CL:0019018"
       ],
       [
         "Stratified_Cuboidal_Epithelial_Cell",
         "CL:0000241"
       ],
       [
+        "Endothelial_Cell",
+        "CL:1000413"
+      ],
+      [
+        "Blood_Vessel_Smooth_Muscle_Cell",
+        "CL:0019018"
+      ],
+      [
+        "Hepatic_Progenitor_Cell",
+        "CL:0002196"
+      ],
+      [
         "Vein_Endothelial_Cell",
         "CL:0002543"
+      ],
+      [
+        "Hepatic_Stellate_Cell",
+        "CL:0000632"
       ],
       [
         "Endothelial_Cell_Of_Hepatic_Sinusoid",
@@ -382,6 +374,14 @@
       [
         "Hepatocyte",
         "CL:0000182"
+      ],
+      [
+        "Hepatic_Portal_Fibroblast",
+        "CL:0009100"
+      ],
+      [
+        "Columnar_Cuboidal_epithelial_Cell",
+        "CL:0000075"
       ]
     ],
     "cell_types_in_ftu_only": []
@@ -395,12 +395,12 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/lung-bronchial-submucosal-gland",
     "cell_types_in_illustration": [
       [
-        "Ciliated_Cell_Of_Submucosal_Gland",
-        "CL:4033055"
-      ],
-      [
         "Serous_Cell",
         "CL:4033005"
+      ],
+      [
+        "Mucus_Cell",
+        "CL:4033022"
       ],
       [
         "Epithelial_cell_Of_Submucosal_Gland",
@@ -411,12 +411,12 @@
         "CL:4033024"
       ],
       [
-        "Myoepithelial_cell",
-        "CL:4033003"
+        "Ciliated_Cell_Of_Submucosal_Gland",
+        "CL:4033055"
       ],
       [
-        "Mucus_Cell",
-        "CL:4033022"
+        "Myoepithelial_cell",
+        "CL:4033003"
       ]
     ],
     "cell_types_in_ftu_only": []
@@ -430,16 +430,8 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/lung-pulmonary-alveolus",
     "cell_types_in_illustration": [
       [
-        "Type_II_Pneumocyte",
-        "CL:0002063"
-      ],
-      [
         "Pericyte",
         "CL:0009089"
-      ],
-      [
-        "Capillary_Endothelial_Cell",
-        "CL:4028002"
       ],
       [
         "Type_I_Pneumocyte",
@@ -448,6 +440,14 @@
       [
         "Secondary_Crest_Myofibroblast",
         "CL:4033016"
+      ],
+      [
+        "Capillary_Endothelial_Cell",
+        "CL:4028002"
+      ],
+      [
+        "Type_II_Pneumocyte",
+        "CL:0002063"
       ],
       [
         "Lung_Matrix_Fibroblast",
@@ -465,40 +465,40 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/mouth-parotid-gland",
     "cell_types_in_illustration": [
       [
-        "Pericyte",
-        "CL:0000669"
+        "Mast_Cell",
+        "CL:0000097"
       ],
       [
         "Macrophage",
         "CL:0000235"
       ],
       [
-        "Mast_Cell",
-        "CL:0000097"
+        "Intercalated_Duct_Epithelial_Cell",
+        "CL:4052048"
       ],
       [
         "Endothelial_Cell",
         "CL:0000115"
       ],
       [
-        "Intercalated_Duct_Epithelial_Cell",
-        "CL:4052048"
-      ],
-      [
-        "Adipocyte",
-        "CL:0000136"
+        "Helper_T_Cell",
+        "CL:0000912"
       ],
       [
         "Dendritic_Cell",
         "CL:0000451"
       ],
       [
-        "Smooth_Muscle_Cell",
-        "CL:0000192"
+        "Pericyte",
+        "CL:0000669"
       ],
       [
-        "Helper_T_Cell",
-        "CL:0000912"
+        "Adipocyte",
+        "CL:0000136"
+      ],
+      [
+        "Smooth_Muscle_Cell",
+        "CL:0000192"
       ],
       [
         "Straited_Ductal_Epithelial_Cell",
@@ -525,36 +525,36 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/mouth-submandibular-gland",
     "cell_types_in_illustration": [
       [
-        "Pericyte",
-        "CL:0000669"
+        "Mast_Cell",
+        "CL:0000097"
       ],
       [
         "Macrophage",
         "CL:0000235"
       ],
       [
-        "Mast_Cell",
-        "CL:0000097"
+        "Intercalated_Duct_Epithelial_Cell",
+        "CL:4052048"
       ],
       [
         "Endothelial_Cell",
         "CL:0000115"
       ],
       [
-        "Intercalated_Duct_Epithelial_Cell",
-        "CL:4052048"
+        "Helper_T_Cell",
+        "CL:0000912"
       ],
       [
         "Dendritic_Cell",
         "CL:0000451"
       ],
       [
-        "Smooth_Muscle_Cell",
-        "CL:0000192"
+        "Pericyte",
+        "CL:0000669"
       ],
       [
-        "Helper_T_Cell",
-        "CL:0000912"
+        "Smooth_Muscle_Cell",
+        "CL:0000192"
       ],
       [
         "Straited_Ductal_Epithelial_Cell",
@@ -581,36 +581,36 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/mouth-sublingual-gland",
     "cell_types_in_illustration": [
       [
-        "Pericyte",
-        "CL:0000669"
+        "Mast_Cell",
+        "CL:0000097"
       ],
       [
         "Macrophage",
         "CL:0000235"
       ],
       [
-        "Mast_Cell",
-        "CL:0000097"
+        "Intercalated_Duct_Epithelial_Cell",
+        "CL:4052048"
       ],
       [
         "Endothelial_Cell",
         "CL:0000115"
       ],
       [
-        "Intercalated_Duct_Epithelial_Cell",
-        "CL:4052048"
+        "Helper_T_Cell",
+        "CL:0000912"
       ],
       [
         "Dendritic_Cell",
         "CL:0000451"
       ],
       [
-        "Smooth_Muscle_Cell",
-        "CL:0000192"
+        "Pericyte",
+        "CL:0000669"
       ],
       [
-        "Helper_T_Cell",
-        "CL:0000912"
+        "Smooth_Muscle_Cell",
+        "CL:0000192"
       ],
       [
         "IgA_Secreting_Plasma_Cell",
@@ -633,32 +633,32 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans",
     "cell_types_in_illustration": [
       [
-        "Pericyte",
-        "CL:0000669"
-      ],
-      [
         "Pancreatic_B_Cell",
         "CL:0000169"
-      ],
-      [
-        "Macrophage",
-        "CL:0000235"
       ],
       [
         "Pancreatic_A_Cell",
         "CL:0000171"
       ],
       [
+        "Capillary_Endothelial_Cell",
+        "CL:0002144"
+      ],
+      [
         "Pancreatic_D_Cell",
         "CL:0000173"
       ],
       [
-        "Pancreatic_PP_Cell",
-        "CL:0002275"
+        "Macrophage",
+        "CL:0000235"
       ],
       [
-        "Capillary_Endothelial_Cell",
-        "CL:0002144"
+        "Pericyte",
+        "CL:0000669"
+      ],
+      [
+        "Pancreatic_PP_Cell",
+        "CL:0002275"
       ]
     ],
     "cell_types_in_ftu_only": [
@@ -681,30 +681,30 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/pancreas-intercalated-duct",
     "cell_types_in_illustration": [
       [
+        "Pancreatic_Acinar_Cell",
+        "UBERON:0001263"
+      ],
+      [
         "Ductal_Epithelial_Cell",
         "CL:1001433"
       ],
       [
-        "Centroacinar_Cell",
-        "CL:0002080"
-      ],
-      [
-        "Pancreatic_Acinar_Cell",
-        "UBERON:0001263"
-      ],
-      [
         "intercalated_duct",
         "UBERON:0014726"
+      ],
+      [
+        "Centroacinar_Cell",
+        "CL:0002080"
       ]
     ],
     "cell_types_in_ftu_only": [
       [
-        "Pancreatic_Acinar_Cell",
-        "UBERON:0001263"
-      ],
-      [
         "intercalated_duct",
         "UBERON:0014726"
+      ],
+      [
+        "Pancreatic_Acinar_Cell",
+        "UBERON:0001263"
       ]
     ]
   },
@@ -725,16 +725,16 @@
         "UBERON:0014726"
       ],
       [
-        "Pancreatic_Goblet_Cell",
-        "CL:1000322"
+        "Pancreatic_Acinar_Cell",
+        "CL:0002064"
       ],
       [
         "Tuft_Cell",
         "CL:0019032"
       ],
       [
-        "Pancreatic_Acinar_Cell",
-        "CL:0002064"
+        "Pancreatic_Goblet_Cell",
+        "CL:1000322"
       ],
       [
         "Centroacinar_Cell",
@@ -743,12 +743,12 @@
     ],
     "cell_types_in_ftu_only": [
       [
-        "Intercalated_Duct",
-        "UBERON:0014726"
-      ],
-      [
         "Tuft_Cell",
         "CL:0019032"
+      ],
+      [
+        "Intercalated_Duct",
+        "UBERON:0014726"
       ]
     ]
   },
@@ -761,36 +761,36 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus",
     "cell_types_in_illustration": [
       [
+        "Prostate_Pericyte",
+        "CL:0000669"
+      ],
+      [
         "Basal_Cell_Of_Prostate_Epithelium",
         "CL:0002341"
-      ],
-      [
-        "Fibroblast_Of_Connective_Tissue_Of_Prostate",
-        "CL:1000299"
-      ],
-      [
-        "Fibroblast_Of_Subepithelial_Connective_Tissue_Of_Prostatic_Gland",
-        "CL:1000301"
       ],
       [
         "Vascular_Smooth_Muscle_Cell",
         "CL:0000359"
       ],
       [
-        "Smooth_Muscle_Cell_Of_Prostate",
-        "CL:1000487"
+        "Fibroblast_Of_Connective_Tissue_Of_Prostate",
+        "CL:1000299"
       ],
       [
-        "Prostate_Gland_Microvascular_Endothelial_Cell",
-        "CL:2000059"
+        "Smooth_Muscle_Cell_Of_Prostate",
+        "CL:1000487"
       ],
       [
         "Luminal_Cell_Of_Prostate_Epithelium",
         "CL:0002340"
       ],
       [
-        "Prostate_Pericyte",
-        "CL:0000669"
+        "Fibroblast_Of_Subepithelial_Connective_Tissue_Of_Prostatic_Gland",
+        "CL:1000301"
+      ],
+      [
+        "Prostate_Gland_Microvascular_Endothelial_Cell",
+        "CL:2000059"
       ]
     ],
     "cell_types_in_ftu_only": [
@@ -809,20 +809,20 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge",
     "cell_types_in_illustration": [
       [
-        "Merkel_Cell",
-        "CL:0000242"
-      ],
-      [
         "Epidermal_Langerhans_Cell",
         "CL:0002457"
       ],
       [
-        "Prickle_Cell",
-        "CL:0000649"
-      ],
-      [
         "Melanocyte",
         "CL:1000458"
+      ],
+      [
+        "Merkel_Cell",
+        "CL:0000242"
+      ],
+      [
+        "Prickle_Cell",
+        "CL:0000649"
       ],
       [
         "Basal_Cell",
@@ -840,28 +840,36 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/skin-hair-follicle",
     "cell_types_in_illustration": [
       [
-        "Myoepithelial_Cell",
-        "CL:1000417"
+        "Keratinocyte_Stem_Cell",
+        "CL:0002337"
+      ],
+      [
+        "Cuticle_Of_Hair",
+        "UBERON:0002076"
+      ],
+      [
+        "Hair_Inner_Root_Sheath",
+        "UBERON:0005941"
       ],
       [
         "Sebum_Secreting_Cell",
         "CL:0000317"
       ],
       [
-        "Cortex_Of_Hair",
-        "UBERON:0002077"
+        "Hair_Outer_Root_Sheath",
+        "UBERON:0005942"
       ],
       [
         "Hair_Germinal_Matrix_Cell",
         "CL:0002562"
       ],
       [
-        "Keratinocyte_Stem_Cell",
-        "CL:0002337"
+        "Myoepithelial_Cell",
+        "CL:1000417"
       ],
       [
-        "Hair_Inner_Root_Sheath",
-        "UBERON:0005941"
+        "Cortex_Of_Hair",
+        "UBERON:0002077"
       ],
       [
         "Hair_Medulla",
@@ -872,23 +880,11 @@
         "CL:0002483"
       ],
       [
-        "Cuticle_Of_Hair",
-        "UBERON:0002076"
-      ],
-      [
         "Arrector_Pili",
         "UBERON:0002033"
-      ],
-      [
-        "Hair_Outer_Root_Sheath",
-        "UBERON:0005942"
       ]
     ],
     "cell_types_in_ftu_only": [
-      [
-        "Cortex_Of_Hair",
-        "UBERON:0002077"
-      ],
       [
         "Hair_Inner_Root_Sheath",
         "UBERON:0005941"
@@ -898,16 +894,20 @@
         "UBERON:0002076"
       ],
       [
-        "Arrector_Pili",
-        "UBERON:0002033"
+        "Hair_Outer_Root_Sheath",
+        "UBERON:0005942"
+      ],
+      [
+        "Cortex_Of_Hair",
+        "UBERON:0002077"
       ],
       [
         "Hair_Medulla",
         "UBERON:0005184"
       ],
       [
-        "Hair_Outer_Root_Sheath",
-        "UBERON:0005942"
+        "Arrector_Pili",
+        "UBERON:0002033"
       ]
     ]
   },
@@ -939,48 +939,24 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/small-intestine-villus",
     "cell_types_in_illustration": [
       [
-        "Natural_Killer_Cell",
-        "CL:0000623"
-      ],
-      [
-        "Innate_Lymphoid_Cell",
-        "CL:0001065"
-      ],
-      [
-        "B_Cell",
-        "CL:0000236"
-      ],
-      [
         "Fibroblast",
         "CL:0000057"
-      ],
-      [
-        "Myofibroblast",
-        "CL:0000186"
-      ],
-      [
-        "Macrophage",
-        "CL:0000235"
-      ],
-      [
-        "Endocrine_Cell",
-        "CL:0000163"
-      ],
-      [
-        "Tuft_Cell",
-        "CL:0009080"
       ],
       [
         "Mast_Cell",
         "CL:0000097"
       ],
       [
-        "Goblet_Cell",
-        "CL:1000324"
+        "Enterocyte",
+        "CL:0000584"
       ],
       [
-        "Plasma_Cell",
-        "CL:0000786"
+        "Macrophage",
+        "CL:0000235"
+      ],
+      [
+        "B_Cell",
+        "CL:0000236"
       ],
       [
         "Dendritic_Cell",
@@ -991,12 +967,36 @@
         "CL:0000771"
       ],
       [
+        "Innate_Lymphoid_Cell",
+        "CL:0001065"
+      ],
+      [
+        "Endocrine_Cell",
+        "CL:0000163"
+      ],
+      [
+        "Plasma_Cell",
+        "CL:0000786"
+      ],
+      [
+        "Tuft_Cell",
+        "CL:0009080"
+      ],
+      [
+        "Myofibroblast",
+        "CL:0000186"
+      ],
+      [
         "Neutrophil",
         "CL:0000775"
       ],
       [
-        "Enterocyte",
-        "CL:0000584"
+        "Goblet_Cell",
+        "CL:1000324"
+      ],
+      [
+        "Natural_Killer_Cell",
+        "CL:0000623"
       ],
       [
         "Goblet_Cell",
@@ -1014,28 +1014,24 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/spleen-white-pulp",
     "cell_types_in_illustration": [
       [
-        "Reticular_Cell_Of_Splenic_Cord",
-        "CL:1000489"
+        "Plasmablast",
+        "CL:0000980"
       ],
       [
-        "CD14_Positive",
-        "CL:0001055"
-      ],
-      [
-        "Follicular_Dendritic_Cell",
-        "CL:0000442"
-      ],
-      [
-        "Stromal_Cell",
-        "CL:0000499"
+        "Splenic_White_Pulp_Macrophage",
+        "CL:0000876"
       ],
       [
         "Splenic_Marginal_Zone_Macrophage",
         "CL:0000876"
       ],
       [
-        "Plasmablast",
-        "CL:0000980"
+        "CD14_Positive",
+        "CL:0001055"
+      ],
+      [
+        "Stromal_Cell",
+        "CL:0000499"
       ],
       [
         "Neutrophil",
@@ -1046,12 +1042,16 @@
         "CL:0000192"
       ],
       [
-        "Splenic_White_Pulp_Macrophage",
-        "CL:0000876"
+        "Follicular_Dendritic_Cell",
+        "CL:0000442"
       ],
       [
         "Splenic_Endothelial_Cell",
         "CL:2000053"
+      ],
+      [
+        "Reticular_Cell_Of_Splenic_Cord",
+        "CL:1000489"
       ]
     ],
     "cell_types_in_ftu_only": []
@@ -1073,16 +1073,20 @@
         "CL:0000980"
       ],
       [
-        "Splenic_Red_Pulp_Macrophage",
-        "CL:0000874"
+        "CD14_Positive",
+        "CL:0001055"
       ],
       [
         "Splenic_Tingible_Body_Macrophage",
         "CL:0000877"
       ],
       [
-        "CD14_Positive",
-        "CL:0001055"
+        "Splenic_Red_Pulp_Macrophage",
+        "CL:0000874"
+      ],
+      [
+        "Neutrophil",
+        "CL:0000775"
       ],
       [
         "Follicular_Dendritic_Cell",
@@ -1091,10 +1095,6 @@
       [
         "Dendritic_Cell",
         "CL:0001056"
-      ],
-      [
-        "Neutrophil",
-        "CL:0000775"
       ],
       [
         "Hematopoetic_Stem_Cell",
@@ -1112,18 +1112,6 @@
     "iri": "https://purl.humanatlas.io/2d-ftu/thymus-thymus-lobule",
     "cell_types_in_illustration": [
       [
-        "Thymic_Medullary_Macrophage",
-        "CL:0000882"
-      ],
-      [
-        "White_Blood_Cell",
-        "CL:0000738"
-      ],
-      [
-        "Hassalls_Corpuscle",
-        "UBERON:0003987"
-      ],
-      [
         "Beige_Adipocyte",
         "CL:0001070"
       ],
@@ -1132,40 +1120,20 @@
         "CL:0000942"
       ],
       [
+        "Corticomedullary_Thymic_Epithelial_Cell",
+        "CL:0009070"
+      ],
+      [
         "T_Cells",
         "CL:0000084"
       ],
       [
-        "Blood_Vessel_Endothelial_Cell-2",
-        "CL:0000071"
-      ],
-      [
-        "Thymic_Plasmacytoid_Dendritic_Cell",
-        "CL:0000942"
-      ],
-      [
-        "Subcapsular_Cortical_Epithelial_Cell",
-        "CL:0009077"
-      ],
-      [
-        "Medullary_Thymic_Epithelial_Cell",
-        "CL:0009071"
-      ],
-      [
-        "B_Cell",
-        "CL:0000787"
-      ],
-      [
-        "Blood_Vessel_Endothelial_Cell",
-        "CL:0000071"
+        "Hassalls_Corpuscle",
+        "UBERON:0003987"
       ],
       [
         "Thymic_Cortical_Macrophage",
         "CL:0000883"
-      ],
-      [
-        "Medullary_thymic_epithelial_Cell",
-        "CL:0009071"
       ],
       [
         "Double_Positive_Alpha_Beta_Thymocyte",
@@ -1176,30 +1144,62 @@
         "UBERON:0006936"
       ],
       [
-        "Corticomedullary_Thymic_Epithelial_Cell",
-        "CL:0009070"
-      ]
-    ],
-    "cell_types_in_ftu_only": [
-      [
         "White_Blood_Cell",
         "CL:0000738"
       ],
       [
-        "Hassalls_Corpuscle",
-        "UBERON:0003987"
+        "Thymic_Medullary_Macrophage",
+        "CL:0000882"
       ],
       [
-        "T_Cells",
-        "CL:0000084"
+        "Medullary_thymic_epithelial_Cell",
+        "CL:0009071"
+      ],
+      [
+        "Subcapsular_Cortical_Epithelial_Cell",
+        "CL:0009077"
+      ],
+      [
+        "Blood_Vessel_Endothelial_Cell-2",
+        "CL:0000071"
+      ],
+      [
+        "Blood_Vessel_Endothelial_Cell",
+        "CL:0000071"
       ],
       [
         "B_Cell",
         "CL:0000787"
       ],
       [
+        "Thymic_Plasmacytoid_Dendritic_Cell",
+        "CL:0000942"
+      ],
+      [
+        "Medullary_Thymic_Epithelial_Cell",
+        "CL:0009071"
+      ]
+    ],
+    "cell_types_in_ftu_only": [
+      [
+        "T_Cells",
+        "CL:0000084"
+      ],
+      [
+        "Hassalls_Corpuscle",
+        "UBERON:0003987"
+      ],
+      [
         "Subcapsular_Thymocytes",
         "UBERON:0006936"
+      ],
+      [
+        "White_Blood_Cell",
+        "CL:0000738"
+      ],
+      [
+        "B_Cell",
+        "CL:0000787"
       ]
     ]
   }
