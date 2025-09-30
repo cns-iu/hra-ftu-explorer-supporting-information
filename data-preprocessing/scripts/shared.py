@@ -3,6 +3,19 @@ from pprint import pprint
 import requests
 import pandas as pd
 from io import StringIO
+import json
+from pathlib import Path
+
+# Make folder for shared data
+OUTPUT_DIR = Path(__file__).parent / "output"
+OUTPUT_DIR.mkdir(exist_ok=True)  # create the folder if it doesn't exist
+
+# Set up JSON file to capture data structures for FTUs and cell types
+CELL_TYPES_IN_FTUS = OUTPUT_DIR / "cell-types-in-ftus.json"
+
+# Commonly used HTTP Accept headers for API requests
+accept_json = {"Accept": "application/json"}
+accept_csv = {"Accept": "text/csv"}
 
 def get_csv_pandas(url: str, timeout: int = 10) -> pd.DataFrame:
     """
@@ -38,18 +51,3 @@ def get_csv_pandas(url: str, timeout: int = 10) -> pd.DataFrame:
         raise RuntimeError(f"Failed to fetch CSV from {url}") from e
     except pd.errors.ParserError as e:
         raise ValueError(f"Failed to parse CSV from {url}") from e
-
-
-a = "This is shared variable"
-
-
-def print_shared():
-    print("This is a shared function.")
-
-
-def foo_bar():
-    print("AND I AM ALSO SHARED!")
-
-# Commonly used HTTP Accept headers for API requests
-accept_json = {"Accept": "application/json"}
-accept_csv = {"Accept": "text/csv"}
