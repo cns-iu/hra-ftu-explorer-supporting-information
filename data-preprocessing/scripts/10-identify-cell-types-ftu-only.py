@@ -83,18 +83,27 @@ def compile_cell_types_per_ftu(organs_with_ftus: list):
                 "organ_id_short": organ["organ_id"].split("/")[-1].replace("_", ":"),
                 "representation_of": do_json["data"][0]["representation_of"],
                 "iri": do_json["iri"],
-                "cell_types_in_illustration": set(),  # note that this is a set, captures cell types in FTU illustration
-                "cell_types_in_ftu_only": set(),  # note that this is also set, captures cell types that occur only in the FTU and not any other anatomical structures
+                "cell_types_in_illustration": [],  # note that this is a set, captures cell types in FTU illustration
+                "cell_types_in_ftu_only": [],  # note that this is also set, captures cell types that occur only in the FTU and not any other anatomical structures
             }
-
+    
             # Create listing of unique cell types in the FTU illustration
             for node in do_json["data"][0]["illustration_node"]:
-                data_to_add["cell_types_in_illustration"].add(
-                    (
-                        node["node_group"],
-                        node["representation_of"],
-                    )  # a tuple to capture cell types per FTU illustration. Tuples are hashable.
-                )
+                existing = {
+                    d.get("representation_of")
+                    for d in data_to_add["cell_types_in_illustration"]
+                }
+                if node['representation_of'] not in existing:
+                    data_to_add["cell_types_in_illustration"].append(
+                        # (
+                        #     node["node_group"],
+                        #     node["representation_of"],
+                        # )  # a tuple to capture cell types per FTU illustration. Tuples are hashable.
+                        {
+                            'node_group':node["node_group"],
+                            'representation_of': node["representation_of"],
+                        }
+                    )
 
             ftu_cell_types.append(data_to_add)
 
@@ -189,7 +198,7 @@ def validate_against_asctb(ftu_cell_types: list):
 
                     # Check if the CT is associated with any other AS in the table
                     for cell_type_table in asctb_table["data"]["cell_types"]:
-                        if cell_type_table["id"] == cell_type_ftu[1]:
+                        if cell_type_table["id"] == cell_type_ftu['representation_of']:
                             if "ccf_located_in" in cell_type_table:
                                 other_as_ids = [
                                     item
@@ -198,14 +207,16 @@ def validate_against_asctb(ftu_cell_types: list):
                                 ]
                                 if other_as_ids:
                                     is_only_associated_with_ftu = False
-                                    print(f"{cell_type_ftu[1]} was also found in:")
+                                    print(
+                                        f"{cell_type_ftu['representation_of']} was also found in:"
+                                    )
                                     pprint(other_as_ids)
                                     print()
                                 else:
-                                    print(f"{cell_type_ftu[1]} was only found in FTU")
+                                    print(f"{cell_type_ftu['representation_of']} was only found in FTU")
 
                     if is_only_associated_with_ftu:
-                        ftu["cell_types_in_ftu_only"].add(cell_type_ftu)
+                        ftu["cell_types_in_ftu_only"].append(cell_type_ftu)
 
     with_exclusive_cts = []
     without_exclusive_cts = []
