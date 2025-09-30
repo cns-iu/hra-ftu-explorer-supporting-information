@@ -83,10 +83,10 @@ def compile_cell_types_per_ftu(organs_with_ftus: list):
                 "organ_id_short": organ["organ_id"].split("/")[-1].replace("_", ":"),
                 "representation_of": do_json["data"][0]["representation_of"],
                 "iri": do_json["iri"],
-                "cell_types_in_illustration": [],  # note that this is a set, captures cell types in FTU illustration
-                "cell_types_in_ftu_only": [],  # note that this is also set, captures cell types that occur only in the FTU and not any other anatomical structures
+                "cell_types_in_illustration": [],  # Captures cell types in FTU illustration
+                "cell_types_in_ftu_only": [],  # Captures cell types that occur only in the FTU and not any other anatomical structures
             }
-    
+
             # Create listing of unique cell types in the FTU illustration
             for node in do_json["data"][0]["illustration_node"]:
                 existing = {
@@ -95,14 +95,10 @@ def compile_cell_types_per_ftu(organs_with_ftus: list):
                 }
                 if node['representation_of'] not in existing:
                     data_to_add["cell_types_in_illustration"].append(
-                        # (
-                        #     node["node_group"],
-                        #     node["representation_of"],
-                        # )  # a tuple to capture cell types per FTU illustration. Tuples are hashable.
                         {
-                            'node_group':node["node_group"],
-                            'representation_of': node["representation_of"],
-                        }
+                            "node_group": node["node_group"],
+                            "representation_of": node["representation_of"],
+                        }  # a dict to capture cell types per FTU illustration. Tuples are hashable.
                     )
 
             ftu_cell_types.append(data_to_add)
@@ -222,10 +218,6 @@ def validate_against_asctb(ftu_cell_types: list):
     without_exclusive_cts = []
 
     for ftu in ftu_cell_types:
-        # convert sets to lists
-        ftu["cell_types_in_ftu_only"] = list(ftu["cell_types_in_ftu_only"])
-        ftu["cell_types_in_illustration"] = list(ftu["cell_types_in_illustration"])
-
         # identify exclusive and non-exclusive cell types
         (
             with_exclusive_cts
