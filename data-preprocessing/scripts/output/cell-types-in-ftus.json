@@ -797,6 +797,14 @@
       {
         "node_group": "Prostate_Gland_Microvascular_Endothelial_Cell",
         "representation_of": "CL:2000059"
+      },
+      {
+        "node_group": "Luminal_Cell_Of_Prostate_Epithelium",
+        "representation_of": "CL:0002340"
+      },
+      {
+        "node_group": "Basal_Cell_Of_Prostate_Epithelium",
+        "representation_of": "CL:0002341"
       }
     ]
   },
@@ -885,6 +893,10 @@
       }
     ],
     "cell_types_in_ftu_only": [
+      {
+        "node_group": "Keratinocyte_Stem_Cell",
+        "representation_of": "CL:0002337"
+      },
       {
         "node_group": "Cortex_Of_Hair",
         "representation_of": "UBERON:0002077"
