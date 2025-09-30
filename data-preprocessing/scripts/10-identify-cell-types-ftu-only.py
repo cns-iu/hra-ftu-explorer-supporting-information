@@ -163,8 +163,8 @@ def validate_against_asctb(ftu_cell_types: list):
             f"{asctb_table['iri']} has {len(asctb_table['data']['asctb_record'])} records."
         )
         print()
-        # find FTUs for that organ
 
+        # find FTUs for the organ of the ASCT+B table
         for ftu in ftu_cell_types:
             target = ftu["organ_id_short"]
             if any(item["id"] == target for item in asctb_table["data"]["anatomical_structures"]):
@@ -186,6 +186,7 @@ def validate_against_asctb(ftu_cell_types: list):
                 pprint(ignore_uberon_ids)
                 print()
 
+                # Dynamically ignore Uberon IDs that the FTU is `ccf_part_of`, depending on the ASCT+B table/FTU at hand
                 ignore_uberon_ids += [
                     id_
                     for as_record in asctb_table["data"]["anatomical_structures"]
