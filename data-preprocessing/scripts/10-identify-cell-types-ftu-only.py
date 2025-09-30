@@ -167,10 +167,7 @@ def validate_against_asctb(ftu_cell_types: list):
 
         for ftu in ftu_cell_types:
             target = ftu["organ_id_short"]
-            if any(
-                item["id"] == target
-                for item in asctb_table["data"]["anatomical_structures"]
-            ):
+            if any(item["id"] == target for item in asctb_table["data"]["anatomical_structures"]):
                 ftu["asctb_purl"] = asctb_table["iri"]
                 pprint(ftu)
                 print()
@@ -185,9 +182,25 @@ def validate_against_asctb(ftu_cell_types: list):
                     "UBERON:0001062",  # UBERON anatomical structure
                 ]
 
+                print('Ignore these Uberon IDs:')
+                pprint(ignore_uberon_ids)
+                print()
+
+                ignore_uberon_ids += [
+                    id_
+                    for as_record in asctb_table["data"]["anatomical_structures"]
+                    if as_record["id"] == ftu["representation_of"]
+                    and "ccf_part_of" in as_record
+                    for id_ in as_record["ccf_part_of"]
+                ]
+                print('Ignore these Uberon IDs that the FTU is `ccf_part_of`:')
+                pprint(ignore_uberon_ids)
+                print()
+
                 # Loop through cell types in FTU illustration and check if they are associated with only the FTU or one of its children in the ASCT+B table
                 for cell_type_ftu in ftu["cell_types_in_illustration"]:
-                    pprint(f"Now checking {cell_type_ftu}.")
+                    print("Now checking:")
+                    pprint(cell_type_ftu)
 
                     # Set flags for checking if the cell type is only associated with the FTU in this organ
                     is_only_associated_with_ftu = True
@@ -225,16 +238,16 @@ def validate_against_asctb(ftu_cell_types: list):
             else without_exclusive_cts
         ).append(ftu["iri"])
 
-    print("FTUs with CTs unique to them:")
+    print("✅ FTUs with CTs unique to them:")
     print("\n".join(with_exclusive_cts))
     print()
-    print("FTUs without CTs unique to them:")
+    print("⚠️ FTUs without CTs unique to them:")
     print("\n".join(without_exclusive_cts))
 
     with open(CELL_TYPES_IN_FTUS, "w") as f:
         json.dump(ftu_cell_types, f, indent=2)
 
-    print(f"Saved data to {CELL_TYPES_IN_FTUS}")
+    print(f"✅ Saved data to {CELL_TYPES_IN_FTUS}")
 
     ftu_cell_types_validated = ftu_cell_types
 
