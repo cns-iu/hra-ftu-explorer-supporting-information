@@ -1,2 +1,8 @@
 # Data folder
 data
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
