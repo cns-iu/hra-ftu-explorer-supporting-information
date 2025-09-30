@@ -17,6 +17,7 @@ CELL_TYPES_IN_FTUS = OUTPUT_DIR / "cell-types-in-ftus.json"
 accept_json = {"Accept": "application/json"}
 accept_csv = {"Accept": "text/csv"}
 
+
 def get_csv_pandas(url: str, timeout: int = 10) -> pd.DataFrame:
     """
     Fetch a CSV file from a URL and return it as a pandas DataFrame.

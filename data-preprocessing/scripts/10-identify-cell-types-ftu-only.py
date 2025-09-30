@@ -250,5 +250,6 @@ def main():
     # Compare the cell types in the FTUs against ASCT+B tables and capture which appear only in the FTUs and not in other AS
     cell_types_per_ftu_validated = validate_against_asctb(cell_types_per_ftu)
 
+
 if __name__ == "__main__":
     main()
