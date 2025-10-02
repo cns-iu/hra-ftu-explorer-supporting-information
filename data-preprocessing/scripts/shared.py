@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 
 # Make folder for shared data
-OUTPUT_DIR = Path(__file__).parent.parent / "output"
+OUTPUT_DIR = Path(__file__).parent.parent / 'output'
 OUTPUT_DIR.mkdir(exist_ok=True)  # create the folder if it doesn't exist
 
 # Set up JSON file to capture data structures for FTUs and cell types

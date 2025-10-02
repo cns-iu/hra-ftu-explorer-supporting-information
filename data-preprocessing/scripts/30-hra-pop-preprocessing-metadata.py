@@ -1,3 +1,11 @@
 from shared import *
 
-print('3')
+
+def main():
+    # Driver code
+
+    print("3")
+
+
+if __name__ == "__main__":
+    main()
