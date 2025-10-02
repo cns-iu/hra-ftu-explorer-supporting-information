@@ -22,8 +22,12 @@ REPORTS_DIR.mkdir(exist_ok=True)  # create the folder if it doesn't exist
 # Capture script folder
 SCRIPT_DIR = Path(__file__).parent
 
+# Set file names
 # Set up JSON file to capture data structures for FTUs and cell types
 CELL_TYPES_IN_FTUS = OUTPUT_DIR / "cell-types-in-ftus.json"
+UNIVERSE_FILE_FILENAME = INPUT_DIR / "sc-transcriptomics-cell-summaries.jsonl.gz"
+UNIVERSE_METADATA_FILENAME = INPUT_DIR / "sc-transcriptomics-dataset-metadata.csv"
+ATLAS_FILE_FILENAME = INPUT_DIR / "atlas-enriched-dataset-graph.jsonld"
 
 # Commonly used HTTP Accept headers for API requests
 accept_json = {"Accept": "application/json"}
@@ -66,7 +70,7 @@ def get_csv_pandas(url: str, timeout: int = 10) -> pd.DataFrame:
         raise ValueError(f"Failed to parse CSV from {url}") from e
 
 
-def download_from_url(url: str = "", output_file: str = ""):
+def download_from_url(url: str, output_file: str):
     """
     Download a gzipped JSONL file or a CSV and save it locally,
     but only if it does not already exist.
@@ -179,3 +183,46 @@ def is_gzipped(path_or_url: str) -> bool:
         file_path = Path(path_or_url)
         with open(file_path, "rb") as f:
             return f.read(2) == b"\x1f\x8b"
+
+
+def get_organs_with_ftus():
+    """Retrieves a list of FTUs and their parts via the HRA API and a SPARQL query
+
+    Returns:
+        organs_with_ftus (list): A list of organs with their FTUs
+    """
+
+    df = get_csv_pandas("https://apps.humanatlas.io/api/grlc/hra/2d-ftu-parts.csv")
+
+    # Loop through df and identify organs and their FTUs
+    organs_with_ftus = []
+
+    for (organ_label, organ_id), group in df.groupby(["organ_label", "organ_iri"]):
+        organ_dict = {
+            "organ_label": organ_label,
+            "organ_id": organ_id,
+            "ftu": group[["ftu_iri", "ftu_digital_object"]]
+            .drop_duplicates()
+            .to_dict(orient="records"),  # list of dicts
+        }
+        organs_with_ftus.append(organ_dict)
+
+    return organs_with_ftus
+
+
+def comes_from_organ_with_ftu(check_organ_id: str) -> bool:
+    """
+    Check whether a given organ ID corresponds to an organ that has FTUs (Functional Tissue Units).
+
+    Args:
+        check_organ_id (str): The short organ ID to check.
+
+    Returns:
+        bool: True if the organ has FTUs, False otherwise.
+    """
+    # Load cell types in FTUs
+    with open(CELL_TYPES_IN_FTUS, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        print(f"✅ Loaded {CELL_TYPES_IN_FTUS}")
+
+    return check_organ_id in {ftu["organ_id_short"] for ftu in data}

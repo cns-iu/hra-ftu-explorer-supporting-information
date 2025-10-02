@@ -1,31 +1,6 @@
 from shared import *
 
 
-def get_organs_with_ftus():
-    """Retrieves a list of FTUs and their parts via the HRA API and a SPARQL query
-
-    Returns:
-        organs_with_ftus (list): A list of organs with their FTUs
-    """
-
-    df = get_csv_pandas("https://apps.humanatlas.io/api/grlc/hra/2d-ftu-parts.csv")
-
-    # Loop through df and identify organs and their FTUs
-    organs_with_ftus = []
-
-    for (organ_label, organ_id), group in df.groupby(["organ_label", "organ_iri"]):
-        organ_dict = {
-            "organ_label": organ_label,
-            "organ_id": organ_id,
-            "ftu": group[["ftu_iri", "ftu_digital_object"]]
-            .drop_duplicates()
-            .to_dict(orient="records"),  # list of dicts
-        }
-        organs_with_ftus.append(organ_dict)
-
-    return organs_with_ftus
-
-
 def compile_cell_types_per_ftu(organs_with_ftus: list):
     """
     Compiles a list of cell types associated with FTUs across a set of organs, by retrieving and parsing metadata from DO URLs.
@@ -93,7 +68,7 @@ def compile_cell_types_per_ftu(organs_with_ftus: list):
                     d.get("representation_of")
                     for d in data_to_add["cell_types_in_illustration"]
                 }
-                if node['representation_of'] not in existing:
+                if node["representation_of"] not in existing:
                     data_to_add["cell_types_in_illustration"].append(
                         {
                             "node_group": node["node_group"],
@@ -167,7 +142,10 @@ def validate_against_asctb(ftu_cell_types: list):
         # find FTUs for the organ of the ASCT+B table
         for ftu in ftu_cell_types:
             target = ftu["organ_id_short"]
-            if any(item["id"] == target for item in asctb_table["data"]["anatomical_structures"]):
+            if any(
+                item["id"] == target
+                for item in asctb_table["data"]["anatomical_structures"]
+            ):
                 ftu["asctb_purl"] = asctb_table["iri"]
                 pprint(ftu)
                 print()
@@ -182,7 +160,7 @@ def validate_against_asctb(ftu_cell_types: list):
                     "UBERON:0001062",  # UBERON anatomical structure
                 ]
 
-                print('Ignore these Uberon IDs:')
+                print("Ignore these Uberon IDs:")
                 pprint(ignore_uberon_ids)
                 print()
 
@@ -194,7 +172,7 @@ def validate_against_asctb(ftu_cell_types: list):
                     and "ccf_part_of" in as_record
                     for id_ in as_record["ccf_part_of"]
                 ]
-                print('Ignore these Uberon IDs that the FTU is `ccf_part_of`:')
+                print("Ignore these Uberon IDs that the FTU is `ccf_part_of`:")
                 pprint(ignore_uberon_ids)
                 print()
 
@@ -208,7 +186,7 @@ def validate_against_asctb(ftu_cell_types: list):
 
                     # Check if the CT is associated with any other AS in the table
                     for cell_type_table in asctb_table["data"]["cell_types"]:
-                        if cell_type_table["id"] == cell_type_ftu['representation_of']:
+                        if cell_type_table["id"] == cell_type_ftu["representation_of"]:
                             if "ccf_located_in" in cell_type_table:
                                 other_as_ids = [
                                     item
@@ -223,7 +201,9 @@ def validate_against_asctb(ftu_cell_types: list):
                                     pprint(other_as_ids)
                                     print()
                                 else:
-                                    print(f"{cell_type_ftu['representation_of']} was only found in FTU")
+                                    print(
+                                        f"{cell_type_ftu['representation_of']} was only found in FTU"
+                                    )
 
                     if is_only_associated_with_ftu:
                         ftu["cell_types_in_ftu_only"].append(cell_type_ftu)
