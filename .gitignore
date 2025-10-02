@@ -1,5 +1,5 @@
-# Data folder
-data
+# Input folder
+input
 
 # Virtual environment
 .venv/
