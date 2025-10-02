@@ -41,6 +41,10 @@ def generate_ftu_report():
     df["cell_types_in_illustration"] = df["cell_types_in_illustration"].apply(len)
     df["cell_types_in_ftu_only"] = df["cell_types_in_ftu_only"].apply(len)
 
+    # Add columns as placeholders
+    df["#CTs in HRApop – unique to colliding AS"] = "TBD"
+    df["#CTs in iFTU – unique to FTU"] = "TBD"
+
     # Print result
     pprint(df)
 

@@ -33,6 +33,7 @@ scripts = [
     "40-anatomogram-preprcossing-cell-type-population.py",
     "50-anatomogram-preprocessing-metadata.py",
     "60-combine-all.py",
+    "70-run-reports.py"
 ]
 
 for script in scripts:
