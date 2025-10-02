@@ -39,7 +39,7 @@ def download_data():
 def filter_cell_type_populations():
     """_summary_"""
     
-    # Load cell type populations for Universe datasets
+    # Load cell type populations for Atlas datasets
     
 
     # atlas = open_cell_type_populations(f"{INPUT_DIR}/{ATLAS_FILE_NAME}")
