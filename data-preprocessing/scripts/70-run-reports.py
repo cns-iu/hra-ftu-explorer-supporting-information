@@ -79,6 +79,7 @@ def main():
     # generate_ftu_report()
 
     get_unique_cts_for_colliding_as()
+    generate_ftu_report()
 
 
 if __name__ == "__main__":

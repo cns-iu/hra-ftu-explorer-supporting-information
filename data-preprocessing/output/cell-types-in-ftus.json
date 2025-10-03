@@ -136,44 +136,6 @@
     "organ_label": "kidney",
     "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
     "organ_id_short": "UBERON:0002113",
-    "representation_of": "UBERON:0001289",
-    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-descending-thin-loop-of-henle",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Descending_Thin_Limb_Cell",
-        "representation_of": "CL:1001111"
-      },
-      {
-        "node_group": "Descending_Vasa_Recta",
-        "representation_of": "CL:1001285"
-      }
-    ],
-    "cell_types_in_ftu_only": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
-    "organ_label": "kidney",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
-    "organ_id_short": "UBERON:0002113",
-    "representation_of": "UBERON:0004205",
-    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-inner-medullary-collecting-duct",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Inner_Medullary_Collecting_Duct_Cell",
-        "representation_of": "CL:1000718"
-      },
-      {
-        "node_group": "Endothelium_Peritubular_Capillary",
-        "representation_of": "CL:1001033"
-      }
-    ],
-    "cell_types_in_ftu_only": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
-    "organ_label": "kidney",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
-    "organ_id_short": "UBERON:0002113",
     "representation_of": "UBERON:0004203",
     "iri": "https://purl.humanatlas.io/2d-ftu/kidney-cortical-collecting-duct",
     "cell_types_in_illustration": [
@@ -211,6 +173,44 @@
       {
         "node_group": "Ascending_Vasa_Recta",
         "representation_of": "CL:1001131"
+      }
+    ],
+    "cell_types_in_ftu_only": []
+  },
+  {
+    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
+    "organ_label": "kidney",
+    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
+    "organ_id_short": "UBERON:0002113",
+    "representation_of": "UBERON:0001289",
+    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-descending-thin-loop-of-henle",
+    "cell_types_in_illustration": [
+      {
+        "node_group": "Descending_Thin_Limb_Cell",
+        "representation_of": "CL:1001111"
+      },
+      {
+        "node_group": "Descending_Vasa_Recta",
+        "representation_of": "CL:1001285"
+      }
+    ],
+    "cell_types_in_ftu_only": []
+  },
+  {
+    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
+    "organ_label": "kidney",
+    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
+    "organ_id_short": "UBERON:0002113",
+    "representation_of": "UBERON:0004205",
+    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-inner-medullary-collecting-duct",
+    "cell_types_in_illustration": [
+      {
+        "node_group": "Inner_Medullary_Collecting_Duct_Cell",
+        "representation_of": "CL:1000718"
+      },
+      {
+        "node_group": "Endothelium_Peritubular_Capillary",
+        "representation_of": "CL:1001033"
       }
     ],
     "cell_types_in_ftu_only": []
@@ -461,58 +461,6 @@
     "organ_label": "mouth",
     "organ_id": "http://purl.obolibrary.org/obo/UBERON_0000165",
     "organ_id_short": "UBERON:0000165",
-    "representation_of": "UBERON:0001832",
-    "iri": "https://purl.humanatlas.io/2d-ftu/mouth-sublingual-gland",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Macrophage",
-        "representation_of": "CL:0000235"
-      },
-      {
-        "node_group": "Mast_Cell",
-        "representation_of": "CL:0000097"
-      },
-      {
-        "node_group": "Endothelial_Cell",
-        "representation_of": "CL:0000115"
-      },
-      {
-        "node_group": "Intercalated_Duct_Epithelial_Cell",
-        "representation_of": "CL:4052048"
-      },
-      {
-        "node_group": "Smooth_Muscle_Cell",
-        "representation_of": "CL:0000192"
-      },
-      {
-        "node_group": "Pericyte",
-        "representation_of": "CL:0000669"
-      },
-      {
-        "node_group": "Dendritic_Cell",
-        "representation_of": "CL:0000451"
-      },
-      {
-        "node_group": "Helper_T_Cell",
-        "representation_of": "CL:0000912"
-      },
-      {
-        "node_group": "IgA_Secreting_Plasma_Cell",
-        "representation_of": "CL:0000987"
-      }
-    ],
-    "cell_types_in_ftu_only": [
-      {
-        "node_group": "Helper_T_Cell",
-        "representation_of": "CL:0000912"
-      }
-    ]
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/mouth",
-    "organ_label": "mouth",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0000165",
-    "organ_id_short": "UBERON:0000165",
     "representation_of": "UBERON:0001831",
     "iri": "https://purl.humanatlas.io/2d-ftu/mouth-parotid-gland",
     "cell_types_in_illustration": [
@@ -559,6 +507,58 @@
       {
         "node_group": "Straited_Ductal_Epithelial_Cell",
         "representation_of": "CL:4052049"
+      }
+    ],
+    "cell_types_in_ftu_only": [
+      {
+        "node_group": "Helper_T_Cell",
+        "representation_of": "CL:0000912"
+      }
+    ]
+  },
+  {
+    "asctb_purl": "https://purl.humanatlas.io/asct-b/mouth",
+    "organ_label": "mouth",
+    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0000165",
+    "organ_id_short": "UBERON:0000165",
+    "representation_of": "UBERON:0001832",
+    "iri": "https://purl.humanatlas.io/2d-ftu/mouth-sublingual-gland",
+    "cell_types_in_illustration": [
+      {
+        "node_group": "Macrophage",
+        "representation_of": "CL:0000235"
+      },
+      {
+        "node_group": "Mast_Cell",
+        "representation_of": "CL:0000097"
+      },
+      {
+        "node_group": "Endothelial_Cell",
+        "representation_of": "CL:0000115"
+      },
+      {
+        "node_group": "Intercalated_Duct_Epithelial_Cell",
+        "representation_of": "CL:4052048"
+      },
+      {
+        "node_group": "Smooth_Muscle_Cell",
+        "representation_of": "CL:0000192"
+      },
+      {
+        "node_group": "Pericyte",
+        "representation_of": "CL:0000669"
+      },
+      {
+        "node_group": "Dendritic_Cell",
+        "representation_of": "CL:0000451"
+      },
+      {
+        "node_group": "Helper_T_Cell",
+        "representation_of": "CL:0000912"
+      },
+      {
+        "node_group": "IgA_Secreting_Plasma_Cell",
+        "representation_of": "CL:0000987"
       }
     ],
     "cell_types_in_ftu_only": [
@@ -677,6 +677,42 @@
     "organ_label": "pancreas",
     "organ_id": "http://purl.obolibrary.org/obo/UBERON_0001264",
     "organ_id_short": "UBERON:0001264",
+    "representation_of": "UBERON:0014726",
+    "iri": "https://purl.humanatlas.io/2d-ftu/pancreas-intercalated-duct",
+    "cell_types_in_illustration": [
+      {
+        "node_group": "Ductal_Epithelial_Cell",
+        "representation_of": "CL:1001433"
+      },
+      {
+        "node_group": "Centroacinar_Cell",
+        "representation_of": "CL:0002080"
+      },
+      {
+        "node_group": "intercalated_duct",
+        "representation_of": "UBERON:0014726"
+      },
+      {
+        "node_group": "Pancreatic_Acinar_Cell",
+        "representation_of": "UBERON:0001263"
+      }
+    ],
+    "cell_types_in_ftu_only": [
+      {
+        "node_group": "intercalated_duct",
+        "representation_of": "UBERON:0014726"
+      },
+      {
+        "node_group": "Pancreatic_Acinar_Cell",
+        "representation_of": "UBERON:0001263"
+      }
+    ]
+  },
+  {
+    "asctb_purl": "https://purl.humanatlas.io/asct-b/pancreas",
+    "organ_label": "pancreas",
+    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0001264",
+    "organ_id_short": "UBERON:0001264",
     "representation_of": "UBERON:0001263",
     "iri": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus",
     "cell_types_in_illustration": [
@@ -713,42 +749,6 @@
       {
         "node_group": "Intercalated_Duct",
         "representation_of": "UBERON:0014726"
-      }
-    ]
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/pancreas",
-    "organ_label": "pancreas",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0001264",
-    "organ_id_short": "UBERON:0001264",
-    "representation_of": "UBERON:0014726",
-    "iri": "https://purl.humanatlas.io/2d-ftu/pancreas-intercalated-duct",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Ductal_Epithelial_Cell",
-        "representation_of": "CL:1001433"
-      },
-      {
-        "node_group": "Centroacinar_Cell",
-        "representation_of": "CL:0002080"
-      },
-      {
-        "node_group": "intercalated_duct",
-        "representation_of": "UBERON:0014726"
-      },
-      {
-        "node_group": "Pancreatic_Acinar_Cell",
-        "representation_of": "UBERON:0001263"
-      }
-    ],
-    "cell_types_in_ftu_only": [
-      {
-        "node_group": "intercalated_duct",
-        "representation_of": "UBERON:0014726"
-      },
-      {
-        "node_group": "Pancreatic_Acinar_Cell",
-        "representation_of": "UBERON:0001263"
       }
     ]
   },
