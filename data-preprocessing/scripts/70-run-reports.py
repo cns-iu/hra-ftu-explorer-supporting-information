@@ -1,8 +1,26 @@
 from shared import *
 
-# Make folder for reports
-REPORTS_DIR = Path(__file__).parent.parent / "reports"
-REPORTS_DIR.mkdir(exist_ok=True)  # create the folder if it doesn't exist
+
+def get_unique_cts_for_colliding_as():
+    """_summary_"""
+
+    # Get list of organs, AS, and CTs for them from HRApop via SPARQL/HRA API
+    df = get_csv_pandas(
+        "https://apps.humanatlas.io/api/grlc/hra-pop/cell_types_in_anatomical_structurescts_per_as.csv"
+    )
+
+    # Get uniquecombinations of organs, AS, and cells
+    df_unique = df.drop_duplicates(
+        subset=["organ", "as_label", "cell_id", "cell_label"]
+    )
+
+    # Get allowed organ labels (normalized to lowercase)
+    organs_with_ftus_labels = {o["organ_label"].lower() for o in get_organs_with_ftus()}
+
+    # Filter DataFrame by those labels
+    df_filtered = df[df["organ"].str.lower().isin(organs_with_ftus_labels)]
+
+    pprint(df_filtered)
 
 
 def generate_ftu_report():
@@ -58,7 +76,9 @@ def generate_ftu_report():
 def main():
     # Driver code
 
-    generate_ftu_report()
+    # generate_ftu_report()
+
+    get_unique_cts_for_colliding_as()
 
 
 if __name__ == "__main__":

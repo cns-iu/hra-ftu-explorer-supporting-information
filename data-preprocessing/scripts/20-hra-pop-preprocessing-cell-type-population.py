@@ -1,10 +1,5 @@
 from shared import *
 
-# Set file names
-UNIVERSE_FILE_FILENAME = "sc-transcriptomics-cell-summaries.jsonl.gz"
-UNIVERSE_METADATA_FILENAME = "sc-transcriptomics-dataset-metadata.csv"
-ATLAS_FILE_FILENAME = "atlas-enriched-dataset-graph.jsonld"
-
 
 def download_data():
     """
@@ -36,26 +31,52 @@ def download_data():
     )
 
 
+def get_organ_from_metadata(check_dataset_id: str) -> str | None:
+    """
+    Get the organ label for a given dataset ID from the metadata.
+
+    Args:
+        check_dataset_id (str): The dataset ID to look up.
+
+    Returns:
+        str | None: The corresponding organ label, or None if not found.
+    """
+    metadata = pd.read_csv(UNIVERSE_METADATA_FILENAME)
+    match = metadata.loc[metadata["dataset_id"] == check_dataset_id, "organ"]
+
+    return match.iloc[0] if not match.empty else None
+
+
 def filter_cell_type_populations():
     """_summary_"""
-    
-    # Load cell type populations for Atlas datasets
-    
 
-    # atlas = open_cell_type_populations(f"{INPUT_DIR}/{ATLAS_FILE_NAME}")
-    # for donor in atlas["@graph"]:
-    #     print(donor['@id'])
+    # First, we need to check if any cell type population has is from an organ that has an FTU
+    # If yes, we need to check if any cell type population contains cell types only found in any FTUs for that organ
 
-    # load cell types in FTUs
-    # with open(CELL_TYPES_IN_FTUS) as f:
-    #     data = json.load(f)
-    #     print(f"✅ Loaded {CELL_TYPES_IN_FTUS}")
+    print(comes_from_organ_with_ftu("UBERON:0002370"))
+    print(
+        get_organ_from_metadata(
+            "https://entity.api.hubmapconsortium.org/entities/9457860c1b69f7ec3e51a6b648eabf13"
+        )
+    )
+
+    # Load HRApop Universe cell type populations and filter out all that are not from FTU organs
+
+    with gzip.open(UNIVERSE_FILE_FILENAME, "rt", encoding="utf-8") as f:
+        for line in f:
+            if line.strip():
+                cell_summary = json.loads(line)
+                print(cell_summary['cell_source'])
+                # discard if not from an organ with FTU
+                # pprint(cell_summary['summary'])
+                # do something with obj here
 
 
 def main():
     # Driver code
 
     download_data()
+    filter_cell_type_populations()
 
 
 if __name__ == "__main__":
