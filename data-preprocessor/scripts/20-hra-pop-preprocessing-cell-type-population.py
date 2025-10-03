@@ -26,6 +26,7 @@ def download_data():
 
     # Download Universe metadata with 10k cells from Zenodo
     # THEN MOVE TO RAW-DATA, make local file for input?
+    # For gzip 36 GB, create an intermediate file, save locally.
 
     download_from_url(
         "https://zenodo.org/records/15786154/files/sc-transcriptomics-cell-summaries.top10k.jsonl.gz?download=1",
@@ -55,6 +56,21 @@ def get_organ_from_metadata(check_dataset_id: str) -> str | None:
     return match.iloc[0] if not match.empty else None
 
 
+def preprocess_10k_data():
+    """_summary_"""
+    
+    with gzip.open(UNIVERSE_10K_FILENAME, "rt", encoding="utf-8") as f:
+        for line in f:
+            if line.strip():
+                cell_summary = json.loads(line)
+                print(cell_summary["cell_source"])
+                # discard if not from an organ with FTU
+                # pprint(cell_summary['summary'])
+                # do something with obj here
+    
+    
+
+
 def filter_cell_type_populations():
     """_summary_"""
 
@@ -74,7 +90,7 @@ def filter_cell_type_populations():
         for line in f:
             if line.strip():
                 cell_summary = json.loads(line)
-                print(cell_summary['cell_source'])
+                # print(cell_summary["cell_source"])
                 # discard if not from an organ with FTU
                 # pprint(cell_summary['summary'])
                 # do something with obj here
@@ -84,6 +100,7 @@ def main():
     # Driver code
 
     download_data()
+    preprocess_10k_data()
     filter_cell_type_populations()
 
 
