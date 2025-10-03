@@ -1,8 +1,8 @@
 # Supporting information
 
-## Instructions for running the `data-preprocessing` workflow
+## Instructions for running the `data-preprocessor` workflow
 
-1. In your terminal, navigate to [/data-preprocessing](/data-preprocessing/).
+1. In your terminal, navigate to [/data-preprocessor](/data-preprocessor/).
 
 2. Run:
 ```
