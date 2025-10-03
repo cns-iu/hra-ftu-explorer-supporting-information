@@ -27,6 +27,11 @@ def download_data():
     # Download Universe metadata with 10k cells from Zenodo
     # THEN MOVE TO RAW-DATA, make local file for input?
 
+    download_from_url(
+        "https://zenodo.org/records/15786154/files/sc-transcriptomics-cell-summaries.top10k.jsonl.gz?download=1",
+        UNIVERSE_10K_FILENAME,
+    )
+
     # Download Atlas data
     download_from_url(
         "https://cdn.humanatlas.io/digital-objects/graph/hra-pop/v1.0/assets/atlas-enriched-dataset-graph.jsonld",

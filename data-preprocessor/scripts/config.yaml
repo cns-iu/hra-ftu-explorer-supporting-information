@@ -3,3 +3,4 @@ CELL_TYPES_IN_FTUS : cell-types-in-ftus.json
 UNIVERSE_FILE_FILENAME : sc-transcriptomics-cell-summaries.jsonl.gz
 UNIVERSE_METADATA_FILENAME : sc-transcriptomics-dataset-metadata.csv
 ATLAS_FILE_FILENAME : atlas-enriched-dataset-graph.jsonld
+UNIVERSE_10K_FILENAME : sc-transcriptomics-cell-summaries.top10k.jsonl.gz

@@ -7,6 +7,7 @@ from io import StringIO
 import json
 from pathlib import Path
 import gzip
+from tqdm import tqdm
 
 # Make folder for input data
 INPUT_DIR = Path(__file__).parent.parent / "input"
@@ -35,6 +36,7 @@ with open(Path(__file__).parent / "config.yaml", "r", encoding="utf-8") as f:
 CELL_TYPES_IN_FTUS = OUTPUT_DIR / config["CELL_TYPES_IN_FTUS"]
 UNIVERSE_FILE_FILENAME = INPUT_DIR / config["UNIVERSE_FILE_FILENAME"]
 UNIVERSE_METADATA_FILENAME = INPUT_DIR / config["UNIVERSE_METADATA_FILENAME"]
+UNIVERSE_10K_FILENAME = RAW_DATA_DIR / config["UNIVERSE_10K_FILENAME"]
 ATLAS_FILE_FILENAME = INPUT_DIR / config["ATLAS_FILE_FILENAME"]
 
 # Commonly used HTTP Accept headers for API requests
@@ -78,22 +80,22 @@ def get_csv_pandas(url: str, timeout: int = 10) -> pd.DataFrame:
         raise ValueError(f"Failed to parse CSV from {url}") from e
 
 
+import requests
+from pathlib import Path
+from tqdm import tqdm
+
+
 def download_from_url(url: str, output_file: str):
     """
     Download a gzipped JSONL file or a CSV and save it locally,
-    but only if it does not already exist.
-
-    This function streams the file from the provided URL in chunks to avoid loading
-    the entire file into memory, and writes it to the specified output location
-    inside the configured INPUT_DIR.
+    showing a progress bar while streaming.
 
     Args:
         url (str): The URL of the file to download.
         output_file (str): The filename to save the downloaded file as (relative to INPUT_DIR).
 
-    Side effects:
-        - Saves the file to disk at INPUT_DIR/output_file if it does not exist yet.
-        - Prints a confirmation message if the file is downloaded or already exists.
+    Returns:
+        Path: The path to the downloaded (or existing) file.
 
     Raises:
         HTTPError: If the HTTP request for the URL fails.
@@ -105,12 +107,21 @@ def download_from_url(url: str, output_file: str):
         print(f"ℹ️ File already exists at {file_path}, skipping download.")
         return file_path
 
-    # stream download to avoid loading whole file in memory
     with requests.get(url, stream=True) as r:
         r.raise_for_status()
-        with open(file_path, "wb") as f:
+        total_size = int(r.headers.get("content-length", 0))
+
+        with open(file_path, "wb") as f, tqdm(
+            total=total_size,
+            unit="B",
+            unit_scale=True,
+            desc=file_path.name,  # show just the filename
+            ascii=True,
+        ) as pbar:
             for chunk in r.iter_content(chunk_size=8192):
-                f.write(chunk)
+                if chunk:
+                    f.write(chunk)
+                    pbar.update(len(chunk))
 
     print(f"✅ File with URL {url} saved to {file_path}")
     return file_path
