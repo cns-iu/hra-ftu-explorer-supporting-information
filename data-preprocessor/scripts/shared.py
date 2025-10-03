@@ -1,5 +1,6 @@
 # commonly used packages in this workflow
 from pprint import pprint
+import yaml
 import requests
 import pandas as pd
 from io import StringIO
@@ -26,12 +27,15 @@ RAW_DATA_DIR.mkdir(exist_ok=True)  # create the folder if it doesn't exist
 # Capture script folder
 SCRIPT_DIR = Path(__file__).parent
 
-# Set file names
-# Set up JSON file to capture data structures for FTUs and cell types
-CELL_TYPES_IN_FTUS = OUTPUT_DIR / "cell-types-in-ftus.json"
-UNIVERSE_FILE_FILENAME = INPUT_DIR / "sc-transcriptomics-cell-summaries.jsonl.gz"
-UNIVERSE_METADATA_FILENAME = INPUT_DIR / "sc-transcriptomics-dataset-metadata.csv"
-ATLAS_FILE_FILENAME = INPUT_DIR / "atlas-enriched-dataset-graph.jsonld"
+
+# Assign file paths to constants
+with open(Path(__file__).parent / "config.yaml", "r", encoding="utf-8") as f:
+    config = yaml.safe_load(f)
+
+CELL_TYPES_IN_FTUS = OUTPUT_DIR / config["CELL_TYPES_IN_FTUS"]
+UNIVERSE_FILE_FILENAME = INPUT_DIR / config["UNIVERSE_FILE_FILENAME"]
+UNIVERSE_METADATA_FILENAME = INPUT_DIR / config["UNIVERSE_METADATA_FILENAME"]
+ATLAS_FILE_FILENAME = INPUT_DIR / config["ATLAS_FILE_FILENAME"]
 
 # Commonly used HTTP Accept headers for API requests
 accept_json = {"Accept": "application/json"}

@@ -30,7 +30,6 @@ scripts_to_run = sorted([
     for file in os.listdir(SCRIPTS_DIR)
     if file.split(".")[-1] == "py" and file.split(".")[-2] != 'shared'
 ])
-print(scripts_to_run)
 
 for script in scripts_to_run:
     script_path = SCRIPTS_DIR / script
