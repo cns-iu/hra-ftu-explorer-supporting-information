@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 import gzip
 from tqdm import tqdm
+# from ijson import ijson
 
 # Make folder for input data
 INPUT_DIR = Path(__file__).parent.parent / "input"
@@ -22,7 +23,9 @@ REPORTS_DIR = Path(__file__).parent.parent / "reports"
 REPORTS_DIR.mkdir(exist_ok=True)  # create the folder if it doesn't exist
 
 # Make folder for raw data
-RAW_DATA_DIR = Path(__file__).parent.parent / "raw-data" # for files larger than 100 MB, move HRApop data here as needed
+RAW_DATA_DIR = (
+    Path(__file__).parent.parent / "raw-data"
+)  # for files larger than 100 MB, move HRApop data here as needed
 RAW_DATA_DIR.mkdir(exist_ok=True)  # create the folder if it doesn't exist
 
 # Capture script folder
@@ -38,6 +41,11 @@ UNIVERSE_FILE_FILENAME = INPUT_DIR / config["UNIVERSE_FILE_FILENAME"]
 UNIVERSE_METADATA_FILENAME = INPUT_DIR / config["UNIVERSE_METADATA_FILENAME"]
 UNIVERSE_10K_FILENAME = RAW_DATA_DIR / config["UNIVERSE_10K_FILENAME"]
 ATLAS_FILE_FILENAME = INPUT_DIR / config["ATLAS_FILE_FILENAME"]
+FTU_DATASETS_RAW_FILENAME = OUTPUT_DIR / config["FTU_DATASETS_RAW_FILENAME"]
+FTU_CELL_SUMMARIES_RAW_FILENAME = OUTPUT_DIR / config["FTU_CELL_SUMMARIES_RAW_FILENAME"]
+FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME = (
+    RAW_DATA_DIR / config["FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME"]
+)
 
 # Commonly used HTTP Accept headers for API requests
 accept_json = {"Accept": "application/json"}
@@ -229,19 +237,57 @@ def get_organs_with_ftus():
     return organs_with_ftus
 
 
-def comes_from_organ_with_ftu(check_organ_id: str) -> bool:
+def comes_from_organ_with_ftu(
+    dataset_id_to_check: str | None, cell_types_in_ftu: list
+) -> bool:
     """
-    Check whether a given organ ID corresponds to an organ that has FTUs (Functional Tissue Units).
+    Determine whether a given organ ID corresponds to an organ that has
+    FTUs (Functional Tissue Units).
 
     Args:
-        check_organ_id (str): The short organ ID to check.
+        check_organ_id (str | None): The short organ ID to check. If None, the function returns False.
+        cell_types_in_ftu (list): A list of dictionaries describing cell types in FTUs,
+            where each dictionary is expected to contain an 'organ_id_short' key.
 
     Returns:
-        bool: True if the organ has FTUs, False otherwise.
+        bool: True if the provided organ ID corresponds to an organ that has FTUs,
+        False otherwise.
     """
-    # Load cell types in FTUs
-    with open(CELL_TYPES_IN_FTUS, "r", encoding="utf-8") as f:
-        data = json.load(f)
-        print(f"✅ Loaded {CELL_TYPES_IN_FTUS}")
+    if dataset_id_to_check is None:
+        return False
 
-    return check_organ_id in {ftu["organ_id_short"] for ftu in data}
+    return dataset_id_to_check in {ftu["organ_id_short"] for ftu in cell_types_in_ftu}
+
+
+def is_cell_type_exclusive_to_ftu(
+    cell_id_to_check: str | None, organ_id_to_check: str, cell_types_in_ftu: list[dict]
+) -> bool:
+    """
+    Determine whether a given cell type (by ID) is exclusive to Functional Tissue Units (FTUs).
+
+    Args:
+        cell_id_to_check (str | None): The cell type ID to check. If None, returns False.
+        cell_types_in_ftu (list[dict]): A list of FTU dictionaries, each containing a
+            'cell_types_in_ftu_only' key with a list of cell type dictionaries.
+            Each cell type dictionary must contain a 'representation_of' key.
+
+    Returns:
+        bool: True if the given cell type appears in any 'cell_types_in_ftu_only' list,
+        False otherwise.
+    """
+    if cell_id_to_check is None:
+        return False
+
+    # print(f"Checking {cell_id_to_check} in {organ_id_to_check}")
+
+    # Iterate over all FTUs and collect all "representation_of" IDs for CTs in "cell_types_in_ftu_only"
+    ftu_only_cell_ids = {
+        ct["representation_of"]
+        for ftu in cell_types_in_ftu
+        for ct in ftu.get("cell_types_in_ftu_only", [])
+        if ftu["organ_id_short"] == organ_id_to_check
+    }
+    if cell_id_to_check in ftu_only_cell_ids:
+        print("FOUND")
+
+    return cell_id_to_check in ftu_only_cell_ids
