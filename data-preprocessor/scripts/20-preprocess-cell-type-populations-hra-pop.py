@@ -58,82 +58,68 @@ def get_organ_from_dataset_metadata(dataset_id_to_check: str) -> str | None:
 
 
 def filter_raw_data():
-    """_summary_"""
+    """
+    Stream and filter the massive gzipped JSONL HRApop Universe file (≈36 GB),
+    keeping only datasets and cell type populations related to organs that
+    have Functional Tissue Units (FTUs).
 
-    # First, we need to check if any cell type population has is from an organ that has an FTU
-    # If yes, we need to check if any cell type population contains cell types only found in any FTUs for that organ
-
-    # initialize lists to capture the raw data for display in the FTU Explorer
+    Shows a live progress bar while processing.
+    """
     ftu_datasets_raw = []
     ftu_cell_summaries_raw = []
 
+    # Load FTU reference (assuming it's reasonably sized — otherwise use ijson)
     with open(CELL_TYPES_IN_FTUS, "r", encoding="utf-8") as cell_types_f:
         cell_types_in_ftus = json.load(cell_types_f)
 
-    # Make intermediary file to hold cell type populations (ONLY CTs in FTUs) for datasets form organs with FTU
-    # Load HRApop Universe cell type populations and filter out all that are not from FTU organs
-    with open(
+    # Stream through the gzipped JSONL file
+    with gzip.open(UNIVERSE_10K_FILENAME, "rt", encoding="utf-8") as f, open(
         FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME, "w", encoding="utf-8"
-    ) as intermediary_file, gzip.open(
-        UNIVERSE_10K_FILENAME, "rt", encoding="utf-8"
-    ) as f:
-        # total_lines = sum(1 for _ in f)
-        for line in f:
-            if line.strip():
-                # load cell type population
+    ) as intermediary_file:
+
+        # ✅ tqdm with no total (dynamic progress)
+        for line in tqdm(f, desc="Processing JSONL lines", unit="line"):
+            if not line.strip():
+                continue
+
+            try:
                 cell_summary = json.loads(line)
+            except json.JSONDecodeError as e:
+                tqdm.write(f"⚠️ Skipping invalid JSON line: {e}")
+                continue
 
-                # First check: Get dataset ID and check if it comes form an organ with FTUs
-                dataset_id = cell_summary["cell_source"]
-                organ_id = get_organ_from_dataset_metadata(dataset_id)
-                organ_has_ftus = comes_from_organ_with_ftu(organ_id, cell_types_in_ftus)
+            dataset_id = cell_summary["cell_source"]
+            organ_id = get_organ_from_dataset_metadata(dataset_id)
+            organ_has_ftus = comes_from_organ_with_ftu(organ_id, cell_types_in_ftus)
 
-                # Print result
-                print()
-                print(
-                    f"Dataset {cell_summary['cell_source']} has organ {organ_id}, which has FTUs: {organ_has_ftus}"
-                )
+            tqdm.write(
+                f"Dataset {cell_summary['cell_source']} has organ {organ_id}, which has FTUs: {organ_has_ftus}"
+            )
 
-                # Second check: Get the cell types found exclusiveely within the FTU, then keep the populations for these cell types in a JSONL file (to be exported later for use in)
-                if organ_has_ftus:
+            if organ_has_ftus:
+                keep_summaries = []
+                for cell_type in cell_summary.get("summary", []):
 
-                    # Make empty list to hold what we need to keep
-                    keep_summaries = []
+                    tqdm.write(f"Now checking {cell_type['cell_id']}.")
 
-                    # Check if cell type for dataset is unique to FTU. If yes, grab it.
-                    for cell_type in cell_summary["summary"]:
+                    if is_cell_type_exclusive_to_ftu(
+                        cell_type.get("cell_id"), organ_id, cell_types_in_ftus
+                    ):
+                        keep_summaries.append(cell_type)
+                        tqdm.write(f"{cell_type['cell_id']} is exclusive to FTU.")
 
-                        print(f"Now checking {cell_type['cell_id']}.")
+                if keep_summaries:
+                    tqdm.write(
+                        f"Found at least one CT in dataset {dataset_id} that is exclusive to FTU."
+                    )
 
-                        if is_cell_type_exclusive_to_ftu(
-                            cell_type["cell_id"], organ_id, cell_types_in_ftus
-                        ):
-                            print()
-                            pprint(f"{cell_type['cell_id']} is exclusive to FTU.")
-                            print()
-                            print(f"Keeping cell type population for {cell_type['cell_id']}")
-                            keep_summaries.append(cell_type)
-
-                    # If there are suitable cell types, add the cell type population with only that and other potential CTs to the intermediary file
-                    if keep_summaries:
-
-                        print(f"Found at least one CT in dataset {dataset_id} that is exclusive to FTU.")
-
-                        # Make new dict to hold data and add summaries to keep
-                        keep_cell_type_population = {
-                            k: v for k, v in cell_summary.items() if k != "summary"
-                        }
-
-                        # Replace summary with what we need to keep
-                        keep_cell_type_population["summary"] = keep_summaries
-
-                        pprint(keep_cell_type_population)
-
-                        # Write one JSON object per line
-                        intermediary_file.write(
-                            json.dumps(keep_cell_type_population) + "\n"
-                        )
-
+                    keep_cell_type_population = {
+                        k: v for k, v in cell_summary.items() if k != "summary"
+                    }
+                    keep_cell_type_population["summary"] = keep_summaries
+                    intermediary_file.write(
+                        json.dumps(keep_cell_type_population) + "\n"
+                    )
 
 def build_jsonld_from_preprocessed():
     """_summary_"""

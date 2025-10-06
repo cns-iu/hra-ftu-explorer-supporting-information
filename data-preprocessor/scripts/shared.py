@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 import gzip
 from tqdm import tqdm
-# from ijson import ijson
+import os
 
 # Make folder for input data
 INPUT_DIR = Path(__file__).parent.parent / "input"
