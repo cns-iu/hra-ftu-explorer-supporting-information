@@ -96,6 +96,10 @@ def filter_raw_data():
 
                 # Second check: Get the cell types found exclusiveely within the FTU, then keep the populations for these cell types in a JSONL file (to be exported later for use in)
                 if organ_has_ftus:
+
+                    # Make empty list to hold what we need to keep
+                    keep_summaries = []
+
                     # Check if cell type for dataset is unique to FTU. If yes, grab it.
                     for cell_type in cell_summary["summary"]:
 
@@ -104,12 +108,31 @@ def filter_raw_data():
                         if is_cell_type_exclusive_to_ftu(
                             cell_type["cell_id"], organ_id, cell_types_in_ftus
                         ):
+                            print()
                             pprint(f"{cell_type['cell_id']} is exclusive to FTU.")
+                            print()
+                            print(f"Keeping cell type population for {cell_type['cell_id']}")
+                            keep_summaries.append(cell_type)
 
-                            # Write one JSON object per line
-                            intermediary_file.write(
-                                json.dumps(cell_summary) + "\n"
-                            )
+                    # If there are suitable cell types, add the cell type population with only that and other potential CTs to the intermediary file
+                    if keep_summaries:
+
+                        print(f"Found at least one CT in dataset {dataset_id} that is exclusive to FTU.")
+
+                        # Make new dict to hold data and add summaries to keep
+                        keep_cell_type_population = {
+                            k: v for k, v in cell_summary.items() if k != "summary"
+                        }
+
+                        # Replace summary with what we need to keep
+                        keep_cell_type_population["summary"] = keep_summaries
+
+                        pprint(keep_cell_type_population)
+
+                        # Write one JSON object per line
+                        intermediary_file.write(
+                            json.dumps(keep_cell_type_population) + "\n"
+                        )
 
 
 def build_jsonld_from_preprocessed():
@@ -123,7 +146,14 @@ def main():
 
     download_data()
     filter_raw_data()
-    # build_jsonld_from_preprocessed()
+    build_jsonld_from_preprocessed()
+
+    # with gzip.open(UNIVERSE_10K_FILENAME, "rt", encoding="utf-8") as f:
+    #     # total_lines = sum(1 for _ in f)
+    #     for line in f:
+    #         if line.strip():
+    #             cell_summary = json.loads(line)
+    #             pprint(cell_summary.keys())
 
 
 if __name__ == "__main__":
