@@ -66,13 +66,10 @@ def build_dataset_metadata_jsonld(metadata: pd.DataFrame):
 
         new_data_source["@id"] = id + "#CellSummary_" + new_ftu["@id"].split("/")[-1]
         new_data_source["label"] = metadata_instance.iloc[0]["handler"]
-        new_data_source["link"] = metadata_instance.iloc[0]["dataset_link"]
-        new_data_source["description"] = (
-            f"Dataset handled by {metadata_instance.iloc[0]['handler']}"
-        )
+        new_data_source["link"] = id
+        new_data_source["description"] = id
         new_data_source["authors"] = [
-            metadata_instance.iloc[0]["consortium_name"],
-            metadata_instance.iloc[0]["provider_name"],
+            metadata_instance.iloc[0]["provider_name"]
         ]
 
         new_ftu["data_sources"].append(new_data_source)

@@ -33,11 +33,10 @@
                     "@id": "https://doi.org/10.1126/science.abl4290#GTEX-1HSMQ-5014-SM-GKSJI#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "gtex",
-                    "link": "https://gtexportal.org/home/singleCellOverviewPage",
-                    "description": "Dataset handled by gtex",
+                    "link": "https://doi.org/10.1126/science.abl4290#GTEX-1HSMQ-5014-SM-GKSJI",
+                    "description": "https://doi.org/10.1126/science.abl4290#GTEX-1HSMQ-5014-SM-GKSJI",
                     "year": 0,
                     "authors": [
-                        "GTEx",
                         "GTEx"
                     ]
                 },
@@ -45,11 +44,10 @@
                     "@id": "https://doi.org/10.1126/science.abl4290#GTEX-15CHR-5014-SM-H5JDU#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "gtex",
-                    "link": "https://gtexportal.org/home/singleCellOverviewPage",
-                    "description": "Dataset handled by gtex",
+                    "link": "https://doi.org/10.1126/science.abl4290#GTEX-15CHR-5014-SM-H5JDU",
+                    "description": "https://doi.org/10.1126/science.abl4290#GTEX-15CHR-5014-SM-H5JDU",
                     "year": 0,
                     "authors": [
-                        "GTEx",
                         "GTEx"
                     ]
                 },
@@ -57,11 +55,10 @@
                     "@id": "https://doi.org/10.1126/science.abl4290#GTEX-1I1GU-5006-SM-G8XQC#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "gtex",
-                    "link": "https://gtexportal.org/home/singleCellOverviewPage",
-                    "description": "Dataset handled by gtex",
+                    "link": "https://doi.org/10.1126/science.abl4290#GTEX-1I1GU-5006-SM-G8XQC",
+                    "description": "https://doi.org/10.1126/science.abl4290#GTEX-1I1GU-5006-SM-G8XQC",
                     "year": 0,
                     "authors": [
-                        "GTEx",
                         "GTEx"
                     ]
                 },
@@ -69,11 +66,10 @@
                     "@id": "https://doi.org/10.1126/science.abl4290#GTEX-12BJ1-5007-SM-H8L6U#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "gtex",
-                    "link": "https://gtexportal.org/home/singleCellOverviewPage",
-                    "description": "Dataset handled by gtex",
+                    "link": "https://doi.org/10.1126/science.abl4290#GTEX-12BJ1-5007-SM-H8L6U",
+                    "description": "https://doi.org/10.1126/science.abl4290#GTEX-12BJ1-5007-SM-H8L6U",
                     "year": 0,
                     "authors": [
-                        "GTEx",
                         "GTEx"
                     ]
                 },
@@ -81,11 +77,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-1HSMQ$prostate%20gland#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-1HSMQ$prostate%20gland",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-1HSMQ$prostate%20gland",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -93,11 +88,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-15CHR$prostate%20gland#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-15CHR$prostate%20gland",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-15CHR$prostate%20gland",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -105,11 +99,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-1I1GU$prostate%20gland#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-1I1GU$prostate%20gland",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-1I1GU$prostate%20gland",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -117,11 +110,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-12BJ1$prostate%20gland#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-12BJ1$prostate%20gland",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-12BJ1$prostate%20gland",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -129,11 +121,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor31$prostate%20gland#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/38833785-fac5-48fd-944a-0f62a4c23ed1",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor31$prostate%20gland",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor31$prostate%20gland",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -141,11 +132,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D17$peripheral%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D17$peripheral%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D17$peripheral%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -153,11 +143,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D17$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D17$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D17$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -165,11 +154,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D27$peripheral%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D27$peripheral%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D27$peripheral%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -177,11 +165,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D27$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D27$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D27$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -189,11 +176,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D35$peripheral%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D35$peripheral%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D35$peripheral%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -201,11 +187,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D35$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D35$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D35$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -213,11 +198,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH283$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH283$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH283$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -225,11 +209,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH327$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH327$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH327$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -237,11 +220,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH340$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH340$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH340$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -249,11 +231,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH389$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH389$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH389$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -261,11 +242,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH511$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH511$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH511$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -273,11 +253,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH556$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH556$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH556$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -285,11 +264,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D17$peripheral%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D17$peripheral%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D17$peripheral%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -297,11 +275,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D17$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D17$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D17$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -309,11 +286,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D27$peripheral%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D27$peripheral%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D27$peripheral%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -321,11 +297,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D27$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D27$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D27$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -333,11 +308,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D35$peripheral%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D35$peripheral%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D35$peripheral%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -345,11 +319,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D35$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D35$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D35$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -357,11 +330,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$prostate%20gland#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/e5f58829-1a66-40b5-a624-9046778e74f5",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$prostate%20gland",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$prostate%20gland",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -369,11 +341,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$prostate%20gland#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/e5f58829-1a66-40b5-a624-9046778e74f5",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$prostate%20gland",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$prostate%20gland",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -381,11 +352,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP8$prostate%20gland#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/e5f58829-1a66-40b5-a624-9046778e74f5",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP8$prostate%20gland",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP8$prostate%20gland",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -393,11 +363,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D17$peripheral%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D17$peripheral%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D17$peripheral%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -405,11 +374,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D17$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D17$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D17$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -417,11 +385,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D27$peripheral%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D27$peripheral%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D27$peripheral%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -429,11 +396,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D27$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D27$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D27$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -441,11 +407,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D35$peripheral%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D35$peripheral%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D35$peripheral%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -453,11 +418,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D35$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D35$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D35$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -465,11 +429,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#BPH327$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#BPH327$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#BPH327$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -477,11 +440,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#BPH340$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#BPH340$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#BPH340$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 },
@@ -489,11 +451,10 @@
                     "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#BPH342$transition%20zone%20of%20prostate#CellSummary_prostate-prostate-glandular-acinus",
                     "@type": "Dataset",
                     "label": "cellxgene",
-                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
-                    "description": "Dataset handled by cellxgene",
+                    "link": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#BPH342$transition%20zone%20of%20prostate",
+                    "description": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#BPH342$transition%20zone%20of%20prostate",
                     "year": 0,
                     "authors": [
-                        "CxG",
                         "CxG"
                     ]
                 }
