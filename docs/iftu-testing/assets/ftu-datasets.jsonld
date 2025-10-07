@@ -1,210 +1,503 @@
 {
-  "@context": [
-    "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data-processor/ccf-context.jsonld",
-    {
-      "UBERON": {
-        "@id": "http://purl.obolibrary.org/obo/UBERON_",
-        "@prefix": true
-      },
-      "illustration_files": {
-        "@id": "ccf:has_illustration_file",
-        "@type": "@id"
-      },
-      "mapping": {
-        "@id": "ccf:has_illustration_node",
-        "@type": "@id"
-      },
-      "organ_id": {
-        "@id": "ccf:organ_id",
-        "@type": "@id"
-      },
-      "data_sources": {
-        "@id": "ccf:has_data_source",
-        "@type": "@id"
-      }
-    }
-  ],
-  "@graph": [
-    {
-      "@id": "https://purl.humanatlas.io/2d-ftu/kidney-nephron",
-      "@type": "FtuIllustration",
-      "data_sources": [
+    "@context": [
+        "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data-processor/ccf-context.jsonld",
         {
-          "@id": "https://doi.org/10.1038/s41467-021-22368-w#CellSummary_kidney-nephron",
-          "@type": "Dataset",
-          "label": "snRNA-seq of Three Healthy Human Kidney Tissue",
-          "link": "https://doi.org/10.1038/s41467-021-22368-w",
-          "description": "Single cell transcriptional and chromatin accessibility profiling redefine cellular heterogeneity in the adult human kidney",
-          "year": 2021,
-          "authors": [
-            "Yoshiharu Muto",
-            "Parker C. Wilson",
-            "Nicolas Ledru",
-            "Haojia Wu",
-            "Henrik Dimke",
-            "Sushrut S. Waikar",
-            "Benjamin D .Humphreys"
-          ]
+            "UBERON": {
+                "@id": "http://purl.obolibrary.org/obo/UBERON_",
+                "@prefix": true
+            },
+            "illustration_files": {
+                "@id": "ccf:has_illustration_file",
+                "@type": "@id"
+            },
+            "mapping": {
+                "@id": "ccf:has_illustration_node",
+                "@type": "@id"
+            },
+            "organ_id": {
+                "@id": "ccf:organ_id",
+                "@type": "@id"
+            },
+            "data_sources": {
+                "@id": "ccf:has_data_source",
+                "@type": "@id"
+            }
         }
-      ]
-    },
-    {
-      "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle",
-      "@type": "FtuIllustration",
-      "data_sources": [
+    ],
+    "@graph": [
         {
-          "@id": "https://doi.org/10.1038/s41467-021-22368-w#CellSummary_kidney-renal-corpuscle",
-          "@type": "Dataset",
-          "label": "snRNA-seq of Three Healthy Human Kidney Tissue",
-          "link": "https://doi.org/10.1038/s41467-021-22368-w",
-          "description": "Single cell transcriptional and chromatin accessibility profiling redefine cellular heterogeneity in the adult human kidney",
-          "year": 2021,
-          "authors": [
-            "Yoshiharu Muto",
-            "Parker C. Wilson",
-            "Nicolas Ledru",
-            "Haojia Wu",
-            "Henrik Dimke",
-            "Sushrut S. Waikar",
-            "Benjamin D .Humphreys"
-          ]
+            "@id": "ttps://lod.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus",
+            "@type": "FtuIllustration",
+            "data_sources": [
+                {
+                    "@id": "https://doi.org/10.1126/science.abl4290#GTEX-1HSMQ-5014-SM-GKSJI",
+                    "@type": "Dataset",
+                    "label": "gtex",
+                    "link": "https://gtexportal.org/home/singleCellOverviewPage",
+                    "description": "Dataset handled by gtex",
+                    "year": 0,
+                    "authors": [
+                        "GTEx",
+                        "GTEx"
+                    ]
+                },
+                {
+                    "@id": "https://doi.org/10.1126/science.abl4290#GTEX-15CHR-5014-SM-H5JDU",
+                    "@type": "Dataset",
+                    "label": "gtex",
+                    "link": "https://gtexportal.org/home/singleCellOverviewPage",
+                    "description": "Dataset handled by gtex",
+                    "year": 0,
+                    "authors": [
+                        "GTEx",
+                        "GTEx"
+                    ]
+                },
+                {
+                    "@id": "https://doi.org/10.1126/science.abl4290#GTEX-1I1GU-5006-SM-G8XQC",
+                    "@type": "Dataset",
+                    "label": "gtex",
+                    "link": "https://gtexportal.org/home/singleCellOverviewPage",
+                    "description": "Dataset handled by gtex",
+                    "year": 0,
+                    "authors": [
+                        "GTEx",
+                        "GTEx"
+                    ]
+                },
+                {
+                    "@id": "https://doi.org/10.1126/science.abl4290#GTEX-12BJ1-5007-SM-H8L6U",
+                    "@type": "Dataset",
+                    "label": "gtex",
+                    "link": "https://gtexportal.org/home/singleCellOverviewPage",
+                    "description": "Dataset handled by gtex",
+                    "year": 0,
+                    "authors": [
+                        "GTEx",
+                        "GTEx"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-1HSMQ$prostate%20gland",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-15CHR$prostate%20gland",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-1I1GU$prostate%20gland",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-12BJ1$prostate%20gland",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor31$prostate%20gland",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/38833785-fac5-48fd-944a-0f62a4c23ed1",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D17$peripheral%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D17$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D27$peripheral%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D27$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D35$peripheral%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D35$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH283$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH327$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH340$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH389$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH511$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#BPH556$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/4b54248f-2165-477c-a027-dd55082e8818",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D17$peripheral%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D17$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D27$peripheral%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D27$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D35$peripheral%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D35$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$prostate%20gland",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/e5f58829-1a66-40b5-a624-9046778e74f5",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$prostate%20gland",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/e5f58829-1a66-40b5-a624-9046778e74f5",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP8$prostate%20gland",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/e5f58829-1a66-40b5-a624-9046778e74f5",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D17$peripheral%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D17$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D27$peripheral%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D27$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D35$peripheral%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D35$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#BPH327$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#BPH340$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                },
+                {
+                    "@id": "https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#BPH342$transition%20zone%20of%20prostate",
+                    "@type": "Dataset",
+                    "label": "cellxgene",
+                    "link": "https://cellxgene.cziscience.com/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc",
+                    "description": "Dataset handled by cellxgene",
+                    "year": 0,
+                    "authors": [
+                        "CxG",
+                        "CxG"
+                    ]
+                }
+            ]
         }
-      ]
-    },
-    {
-      "@id": "https://purl.humanatlas.io/2d-ftu/kidney-cortical-collecting-duct",
-      "@type": "FtuIllustration",
-      "data_sources": [
-        {
-          "@id": "https://doi.org/10.1038/s41467-021-22368-w#CellSummary_kidney-cortical-collecting-duct",
-          "@type": "Dataset",
-          "label": "snRNA-seq of Three Healthy Human Kidney Tissue",
-          "link": "https://doi.org/10.1038/s41467-021-22368-w",
-          "description": "Single cell transcriptional and chromatin accessibility profiling redefine cellular heterogeneity in the adult human kidney",
-          "year": 2021,
-          "authors": [
-            "Yoshiharu Muto",
-            "Parker C. Wilson",
-            "Nicolas Ledru",
-            "Haojia Wu",
-            "Henrik Dimke",
-            "Sushrut S. Waikar",
-            "Benjamin D .Humphreys"
-          ]
-        }
-      ]
-    },
-    {
-      "@id": "https://purl.humanatlas.io/2d-ftu/kidney-ascending-thin-loop-of-henle",
-      "@type": "FtuIllustration",
-      "data_sources": [
-        {
-          "@id": "https://doi.org/10.1038/s41467-021-22368-w#CellSummary_kidney-ascending-thin-loop-of-henle",
-          "@type": "Dataset",
-          "label": "snRNA-seq of Three Healthy Human Kidney Tissue",
-          "link": "https://doi.org/10.1038/s41467-021-22368-w",
-          "description": "Single cell transcriptional and chromatin accessibility profiling redefine cellular heterogeneity in the adult human kidney",
-          "year": 2021,
-          "authors": [
-            "Yoshiharu Muto",
-            "Parker C. Wilson",
-            "Nicolas Ledru",
-            "Haojia Wu",
-            "Henrik Dimke",
-            "Sushrut S. Waikar",
-            "Benjamin D .Humphreys"
-          ]
-        }
-      ]
-    },
-    {
-      "@id": "https://purl.humanatlas.io/2d-ftu/lung-bronchial-submucosal-gland",
-      "@type": "FtuIllustration",
-      "data_sources": [
-        {
-          "@id": "https://doi.org/10.1038/s41467-021-22368-w#CellSummary_lung-bronchial-submucosal-gland",
-          "@type": "Dataset",
-          "label": "scRNA Seq of Resected Human Lung Tissue",
-          "link": "https://doi.org/10.1038/s41591-019-0468-5",
-          "description": "A cellular census of human lungs identifies novel cell states in health and in asthma",
-          "year": 2019,
-          "authors": [
-            "Felipe A.",
-            "Vieira Braga",
-            "Gozde Kar",
-            "Marijn Berg",
-            "Orestes A. Carpaij",
-            "Krzysztof Polanski",
-            "Lukas M. Simon",
-            "Sharon Brouwer",
-            "Tomas Gomes",
-            "Laura Hesse",
-            "Jian Jiang"
-          ]
-        }
-      ]
-    },
-    {
-      "@id": "https://purl.humanatlas.io/2d-ftu/lung-pulmonary-alveolus",
-      "@type": "FtuIllustration",
-      "data_sources": [
-        {
-          "@id": "https://doi.org/10.1038/s41467-021-22368-w#CellSummary_lung-pulmonary-alveolus",
-          "@type": "Dataset",
-          "label": "scRNA Seq of Resected Human Lung Tissue",
-          "link": "https://doi.org/10.1038/s41591-019-0468-5",
-          "description": "A cellular census of human lungs identifies novel cell states in health and in asthma",
-          "year": 2019,
-          "authors": [
-            "Felipe A.",
-            "Vieira Braga",
-            "Gozde Kar",
-            "Marijn Berg",
-            "Orestes A. Carpaij",
-            "Krzysztof Polanski",
-            "Lukas M. Simon",
-            "Sharon Brouwer",
-            "Tomas Gomes",
-            "Laura Hesse",
-            "Jian Jiang"
-          ]
-        }
-      ]
-    },
-    {
-      "@id": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule",
-      "@type": "FtuIllustration",
-      "data_sources": [
-        {
-          "@id": "https://doi.org/10.1038/s41467-021-22368-w#CellSummary_liver-liver-lobule",
-          "@type": "Dataset",
-          "label": "sc Bulk Transcriptomics of Liver Data",
-          "link": "https://doi.org/10.1038/s41598-021-98806-y",
-          "description": "Single-cell and bulk transcriptomics of the liver reveals potential targets of NASH with fibrosis",
-          "year": 2021,
-          "authors": [
-            "Zhong Yi Wang",
-            "Adrian Keogh",
-            "Annick Waldt",
-            "Rachel Cuttat",
-            "Marilisa Neri",
-            "Shanshan Zhu",
-            "Sven Schuierer",
-            "Alexandra Ruchti",
-            "Christophe Crochemore",
-            "Judith Knehr",
-            "Julie Bastien",
-            "Iwona Ksiazek",
-            "Daniel Sánchez Taltavull",
-            "Hui Ge",
-            "Jing Wu",
-            "Guglielmo Roma",
-            "Stephen B. Helliwell",
-            "Deborah Stroka",
-            "Florian Nigsch"
-          ]
-        }
-      ]
-    }
-  ]
+    ]
 }

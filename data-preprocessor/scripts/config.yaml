@@ -7,3 +7,6 @@ UNIVERSE_10K_FILENAME : sc-transcriptomics-cell-summaries.top10k.jsonl.gz
 FTU_DATASETS_RAW_FILENAME : ftu-datasets-raw.jsonld
 FTU_CELL_SUMMARIES_RAW_FILENAME : ftu-cell-summaries-raw.jsonld
 FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME : cell_type_populations_intermediary.jsonl
+FILTERED_DATASET_METADATA_FILENAME : filtered-dataset-metadata.json
+FTU_DATASETS : ftu-datasets.jsonld
+FTU_CELL_SUMMARIES : ftu_cell_summaries.jsonld
