@@ -132,14 +132,6 @@ def main():
 
     download_data()
     filter_raw_data()
-    build_jsonld_from_preprocessed()
-
-    # with gzip.open(UNIVERSE_10K_FILENAME, "rt", encoding="utf-8") as f:
-    #     # total_lines = sum(1 for _ in f)
-    #     for line in f:
-    #         if line.strip():
-    #             cell_summary = json.loads(line)
-    #             pprint(cell_summary.keys())
 
 
 if __name__ == "__main__":
