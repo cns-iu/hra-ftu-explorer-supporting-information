@@ -8,7 +8,8 @@ import json
 from pathlib import Path
 import gzip
 from tqdm import tqdm
-# from ijson import ijson
+import os
+import copy
 
 # Make folder for input data
 INPUT_DIR = Path(__file__).parent.parent / "input"
@@ -31,6 +32,9 @@ RAW_DATA_DIR.mkdir(exist_ok=True)  # create the folder if it doesn't exist
 # Capture script folder
 SCRIPT_DIR = Path(__file__).parent
 
+# Capture TEMP folder
+TEMP_DIR = Path(__file__).parent.parent.parent / "docs" / "iftu-testing" / "assets"
+
 
 # Assign file paths to constants
 with open(Path(__file__).parent / "config.yaml", "r", encoding="utf-8") as f:
@@ -46,6 +50,15 @@ FTU_CELL_SUMMARIES_RAW_FILENAME = OUTPUT_DIR / config["FTU_CELL_SUMMARIES_RAW_FI
 FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME = (
     RAW_DATA_DIR / config["FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME"]
 )
+FILTERED_DATASET_METADATA_FILENAME = (
+    OUTPUT_DIR / config["FILTERED_DATASET_METADATA_FILENAME"]
+)
+
+FTU_DATASETS = OUTPUT_DIR / config["FTU_DATASETS"]
+FTU_CELL_SUMMARIES = OUTPUT_DIR / config["FTU_CELL_SUMMARIES"]
+
+FTU_DATASETS_OUTPUT = TEMP_DIR / config["FTU_DATASETS"]
+FTU_CELL_SUMMARIES_OUTPUT = TEMP_DIR / config["FTU_CELL_SUMMARIES"]
 
 # Commonly used HTTP Accept headers for API requests
 accept_json = {"Accept": "application/json"}
@@ -291,3 +304,41 @@ def is_cell_type_exclusive_to_ftu(
         print("FOUND")
 
     return cell_id_to_check in ftu_only_cell_ids
+
+
+def iterate_through_json_lines(filename: str, print_line: bool = False):
+    """Iterate through a JSON Lines (JSONL) file and yield each JSON object.
+
+    This function reads a JSONL file line by line, parsing each line into a
+    Python dictionary (or list, depending on the JSON content). It uses `tqdm`
+    to display a progress bar and optionally prints each parsed object.
+
+    Args:
+        filename (str): Path to the JSONL file to read.
+        print_line (bool, optional): If True, pretty-prints each parsed JSON object.
+            Defaults to False.
+
+    Yields:
+        dict | list: The JSON object from each line of the file.
+
+    Example:
+        >>> for obj in iterate_through_json_lines('data.jsonl'):
+        ...     print(obj['id'])
+    """
+    total_lines = sum(1 for _ in open(filename, "r", encoding="utf-8"))
+
+    print(
+        f"Now processing {filename} with {total_lines} lines and printing {'enabled' if print_line else 'not enabled'}."
+    )
+
+    with open(filename, "r", encoding="utf-8") as f:
+        for line in tqdm(
+            f, total=total_lines, desc="Processing JSONL lines", unit="line"
+        ):
+            line = line.strip()
+            if not line:
+                continue
+            line_json = json.loads(line)
+            if print_line:
+                pprint(line_json)
+            yield line_json
