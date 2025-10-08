@@ -55,6 +55,13 @@ def get_organ_from_dataset_metadata(dataset_id_to_check: str, metadata:pd.DataFr
 
     return match.iloc[0] if not match.empty else None
 
+def identify_datasets_of_interest(cell_types_in_ftu:dict):
+    """_summary_
+    """
+    
+    
+    
+    
 
 def filter_raw_data():
     """
