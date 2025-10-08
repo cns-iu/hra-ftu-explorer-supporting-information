@@ -10,6 +10,7 @@ import gzip
 from tqdm import tqdm
 import os
 import copy
+import shutil
 
 # Make folder for input data
 INPUT_DIR = Path(__file__).parent.parent / "input"
@@ -59,6 +60,8 @@ FTU_CELL_SUMMARIES = OUTPUT_DIR / config["FTU_CELL_SUMMARIES"]
 
 FTU_DATASETS_OUTPUT = TEMP_DIR / config["FTU_DATASETS"]
 FTU_CELL_SUMMARIES_OUTPUT = TEMP_DIR / config["FTU_CELL_SUMMARIES"]
+ANATOMOGRAMN_METADATA = INPUT_DIR / config["ANATOMOGRAMN_METADATA"]
+ANATOMOGRAMN_RAW_DATA = RAW_DATA_DIR / config["ANATOMOGRAMN_RAW_DATA"]
 
 # Commonly used HTTP Accept headers for API requests
 accept_json = {"Accept": "application/json"}
@@ -101,19 +104,18 @@ def get_csv_pandas(url: str, timeout: int = 10) -> pd.DataFrame:
         raise ValueError(f"Failed to parse CSV from {url}") from e
 
 
-import requests
-from pathlib import Path
-from tqdm import tqdm
-
-
-def download_from_url(url: str, output_file: str):
+def download_from_url(
+    url: str, base_dir: str | Path = None, output_file: str = ""
+) -> Path:
     """
     Download a gzipped JSONL file or a CSV and save it locally,
     showing a progress bar while streaming.
 
     Args:
         url (str): The URL of the file to download.
-        output_file (str): The filename to save the downloaded file as (relative to INPUT_DIR).
+        base_dir (str | Path, optional): The base directory where the file should be stored.
+            Defaults to INPUT_DIR if not provided. Can be RAW_DIR, INPUT_DIR, or any other folder.
+        output_file (str): The filename or relative path to save the downloaded file as.
 
     Returns:
         Path: The path to the downloaded (or existing) file.
@@ -122,7 +124,10 @@ def download_from_url(url: str, output_file: str):
         HTTPError: If the HTTP request for the URL fails.
         OSError: If writing to the local file path fails.
     """
-    file_path = Path(INPUT_DIR) / output_file
+    base_dir = Path(base_dir or INPUT_DIR)
+    file_path = base_dir / output_file
+
+    file_path.parent.mkdir(parents=True, exist_ok=True)
 
     if file_path.exists():
         print(f"ℹ️ File already exists at {file_path}, skipping download.")
@@ -136,7 +141,7 @@ def download_from_url(url: str, output_file: str):
             total=total_size,
             unit="B",
             unit_scale=True,
-            desc=file_path.name,  # show just the filename
+            desc=file_path.name,
             ascii=True,
         ) as pbar:
             for chunk in r.iter_content(chunk_size=8192):
@@ -342,3 +347,27 @@ def iterate_through_json_lines(filename: str, print_line: bool = False):
             if print_line:
                 pprint(line_json)
             yield line_json
+
+
+def unzip_to_folder(file_path: str, target_folder: str):
+    """
+    Unzip the file at the specified file_path into target_folder,
+    but only if the folder is empty.
+
+    Args:
+        file_path (str): Path to the .zip (or other archive) file.
+        target_folder (str): Path where the archive should be extracted.
+    """
+    target = Path(target_folder)
+
+    # Exclude the archive itself when checking contents
+    if target.exists() and any(
+        p.is_file() and p.suffix != ".zip" and ".tsv" not in p.name
+        for p in target.iterdir()
+    ):
+        print(f"Skipped: {target} already contains extracted files.")
+        return
+
+    # Otherwise, unzip
+    shutil.unpack_archive(file_path, target)
+    print(f"Unzipped {file_path} → {target}")

@@ -68,12 +68,22 @@ def filter_raw_data():
 
     # Create a dictionary to hold data from the run
     filtered_dataset_metadata = {
-        "datasets_with_ftu" : set()
-    } ## or add to cell_types_in_ftu?
+        "datasets_with_ftu": set()
+    }  ## or add to cell_types_in_ftu?
 
     # Load FTU reference (assuming it's reasonably sized — otherwise use ijson)
     with open(CELL_TYPES_IN_FTUS, "r", encoding="utf-8") as cell_types_f:
         cell_types_in_ftus = json.load(cell_types_f)
+
+    # You should be able to determine which datasets you are targeting 
+    # before you the loop, the organ it corresponds to, and the cell 
+    # types you want to check for (in a set). Then when you go through 
+    # the file, you only need to check if the dataset_id is in a 
+    # dictionary you created and at least one cell type is in the 
+    # set associated with the organ the dataset is associated with. 
+    # Those should all be quick lookups rather than reading/iterating, 
+    # which should improve the speed quite a bit. Still gonna take a 
+    # while to get through the gz file, but probably < 1hr.
 
     # Stream through the gzipped JSONL file
     with gzip.open(UNIVERSE_10K_FILENAME, "rt", encoding="utf-8") as f, open(
@@ -125,11 +135,16 @@ def filter_raw_data():
                     )
 
                     # Add dataset to dict
-                    filtered_dataset_metadata['datasets_with_ftu'].add(dataset_id)
+                    filtered_dataset_metadata["datasets_with_ftu"].add(dataset_id)
 
-    # save filtered dataset metadata dict to file
+    # Convert set to list, then save filtered dataset metadata dict to file
+    filtered_dataset_metadata["datasets_with_ftu"] = list(
+        filtered_dataset_metadata["datasets_with_ftu"]
+    )
+
     with open(FILTERED_DATASET_METADATA_FILENAME, "w") as f:
         json.dump(filtered_dataset_metadata, f, indent=4)  # indent=4 makes it pretty
+
 
 def main():
     # Driver code
