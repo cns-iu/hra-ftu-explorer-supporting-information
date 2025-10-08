@@ -11,6 +11,7 @@ from tqdm import tqdm
 import os
 import copy
 import shutil
+import ujson
 
 # Make folder for input data
 INPUT_DIR = Path(__file__).parent.parent / "input"
@@ -256,7 +257,7 @@ def get_organs_with_ftus():
 
 
 def comes_from_organ_with_ftu(
-    dataset_id_to_check: str | None, cell_types_in_ftu: list
+    organ_id_to_check: str | None, cell_types_in_ftus: list
 ) -> bool:
     """
     Determine whether a given organ ID corresponds to an organ that has
@@ -271,10 +272,10 @@ def comes_from_organ_with_ftu(
         bool: True if the provided organ ID corresponds to an organ that has FTUs,
         False otherwise.
     """
-    if dataset_id_to_check is None:
+    if organ_id_to_check is None:
         return False
 
-    return dataset_id_to_check in {ftu["organ_id_short"] for ftu in cell_types_in_ftu}
+    return organ_id_to_check in {ftu["organ_id_short"] for ftu in cell_types_in_ftus}
 
 
 def is_cell_type_exclusive_to_ftu(

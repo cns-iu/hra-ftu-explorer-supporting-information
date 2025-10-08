@@ -1,7 +1,7 @@
 from shared import *
 
 
-def download_data():
+def download_hra_pop_data_data():
     """
     Download and load the sc-transcriptomics cell summaries dataset.
 
@@ -14,33 +14,21 @@ def download_data():
     """
 
     # Download Universe metadata
-    download_from_url(
-        "https://github.com/x-atlas-consortia/hra-pop/raw/refs/heads/main/input-data/v1.0/sc-transcriptomics-cell-summaries.jsonl.gz",
-        UNIVERSE_FILE_FILENAME,
-    )
 
     download_from_url(
         "https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/refs/heads/main/input-data/v1.0/sc-transcriptomics-dataset-metadata.csv",
         UNIVERSE_METADATA_FILENAME,
     )
 
-    # Download Universe metadata with 10k cells from Zenodo
-    # THEN MOVE TO RAW-DATA, make local file for input?
-    # For gzip 36 GB, create an intermediate file, save locally.
-
     download_from_url(
         "https://zenodo.org/records/15786154/files/sc-transcriptomics-cell-summaries.top10k.jsonl.gz?download=1",
         UNIVERSE_10K_FILENAME,
     )
 
-    # Download Atlas data
-    download_from_url(
-        "https://cdn.humanatlas.io/digital-objects/graph/hra-pop/v1.0/assets/atlas-enriched-dataset-graph.jsonld",
-        ATLAS_FILE_FILENAME,
-    )
 
-
-def get_organ_from_dataset_metadata(dataset_id_to_check: str, metadata:pd.DataFrame) -> str | None:
+def get_organ_from_dataset_metadata(
+    dataset_id_to_check: str, metadata: pd.DataFrame
+) -> str | None:
     """
     Get the organ label for a given dataset ID from the metadata.
 
@@ -55,15 +43,30 @@ def get_organ_from_dataset_metadata(dataset_id_to_check: str, metadata:pd.DataFr
 
     return match.iloc[0] if not match.empty else None
 
-def identify_datasets_of_interest(cell_types_in_ftu:dict):
-    """_summary_
-    """
-    
-    
-    
-    
 
-def filter_raw_data():
+def identify_datasets_of_interest(
+    cell_types_in_ftus: list, metadata: pd.DataFrame
+) -> list:
+    """_summary_"""
+
+    result = []
+
+    for dataset_id in metadata["dataset_id"].unique():
+        organ_id = get_organ_from_dataset_metadata(dataset_id, metadata)
+        organ_has_ftus = comes_from_organ_with_ftu(organ_id, cell_types_in_ftus)
+        print(
+            f"Dataset {dataset_id} has organ {organ_id}, which has FTUs: {organ_has_ftus}"
+        )
+
+        if organ_has_ftus:
+            result.append({"dataset_id": dataset_id, "organ_id": organ_id})
+
+    return list(result)
+
+
+def filter_raw_data(
+    datasets_of_interest: list, cell_types_in_ftus: list, metadata: pd.DataFrame
+):
     """
     Stream and filter the massive gzipped JSONL HRApop Universe file (≈36 GB),
     keeping only datasets and cell type populations related to organs that
@@ -75,9 +78,8 @@ def filter_raw_data():
     # Create a dictionary to hold data from the run
     datasets_with_ftus = []
 
-    # Load FTU reference (assuming it's reasonably sized — otherwise use ijson)
-    with open(CELL_TYPES_IN_FTUS, "r", encoding="utf-8") as cell_types_f:
-        cell_types_in_ftus = json.load(cell_types_f)
+    # Perform list comprehension once
+    unique_dataset_ids_of_interest = [d["dataset_id"] for d in datasets_of_interest]
 
     # You should be able to determine which datasets you are targeting
     # before you the loop, the organ it corresponds to, and the cell
@@ -96,9 +98,6 @@ def filter_raw_data():
 
     # In the future, use duckdb and https://duckdb.org/docs/stable/data/json/loading_json to read the JSON-lines file?
 
-    # Load HRApop Universe metdata
-    metadata = pd.read_csv(UNIVERSE_METADATA_FILENAME)
-
     # Stream through the gzipped JSONL file
     with gzip.open(UNIVERSE_10K_FILENAME, "rt", encoding="utf-8") as f, open(
         FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME, "w", encoding="utf-8"
@@ -110,24 +109,30 @@ def filter_raw_data():
                 continue
 
             try:
-                cell_summary = json.loads(line)
-            except json.JSONDecodeError as e:
+                cell_summary = ujson.loads(line)
+            except ujson.JSONDecodeError as e:
                 tqdm.write(f"⚠️ Skipping invalid JSON line: {e}")
                 continue
 
-            dataset_id = cell_summary["cell_source"]
-            organ_id = get_organ_from_dataset_metadata(dataset_id, metadata)
-            organ_has_ftus = comes_from_organ_with_ftu(organ_id, cell_types_in_ftus)
+            curent_dataset_id = cell_summary["cell_source"]
 
-            tqdm.write(
-                f"Dataset {cell_summary['cell_source']} has organ {organ_id}, which has FTUs: {organ_has_ftus}"
-            )
-
-            if organ_has_ftus:
+            if curent_dataset_id in unique_dataset_ids_of_interest:
+                tqdm.write(
+                    f"Dataset {curent_dataset_id} is of interest, now checking its cell types."
+                )
                 keep_summaries = []
                 for cell_type in cell_summary.get("summary", []):
 
-                    tqdm.write(f"Now checking {cell_type['cell_id']}.")
+                    tqdm.write(f"Now checking cell type: {cell_type['cell_id']}.")
+
+                    organ_id = next(
+                        (
+                            d.get("organ_id")
+                            for d in datasets_of_interest
+                            if d.get("dataset_id") == curent_dataset_id
+                        ),
+                        "NOT FOUND",
+                    )
 
                     if is_cell_type_exclusive_to_ftu(
                         cell_type.get("cell_id"), organ_id, cell_types_in_ftus
@@ -137,7 +142,7 @@ def filter_raw_data():
 
                 if keep_summaries:
                     tqdm.write(
-                        f"Found at least one CT in dataset {dataset_id} that is exclusive to FTU."
+                        f"Found at least one CT in dataset {curent_dataset_id} that is exclusive to FTU."
                     )
 
                     keep_cell_type_population = {
@@ -148,15 +153,6 @@ def filter_raw_data():
                         json.dumps(keep_cell_type_population) + "\n"
                     )
 
-                    # Add dataset to dict
-                    # datasets_with_ftus.append(
-                    #     {
-                    #         "dataset_id": dataset_id,
-                    #         "ftu": "",
-                    #         "cell_type": cell_type
-                    #     }
-                    # )
-
     with open(FILTERED_DATASET_METADATA_FILENAME, "w") as f:
         json.dump(datasets_with_ftus, f, indent=4)  # indent=4 makes it pretty
 
@@ -164,8 +160,21 @@ def filter_raw_data():
 def main():
     # Driver code
 
-    download_data()
-    filter_raw_data()
+    # Load list of dictionaries with cell types in FTUs
+    with open(CELL_TYPES_IN_FTUS, "r", encoding="utf-8") as cell_types_f:
+        cell_types_in_ftus = json.load(cell_types_f)
+
+    # Load HRApop Universe metdata
+    metadata = pd.read_csv(UNIVERSE_METADATA_FILENAME)
+
+    # Get HRApop Universe data from GitHub
+    download_hra_pop_data_data()
+
+    # Identify datasets of interest before iterating through big ZIP file
+    datasets_of_interest = identify_datasets_of_interest(cell_types_in_ftus, metadata)
+
+    # Filter raw data with datasets of interest in mind
+    filter_raw_data(datasets_of_interest, cell_types_in_ftus, metadata)
 
 
 if __name__ == "__main__":
