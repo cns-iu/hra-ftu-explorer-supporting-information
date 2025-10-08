@@ -40,7 +40,7 @@ def download_data():
     )
 
 
-def get_organ_from_dataset_metadata(dataset_id_to_check: str) -> str | None:
+def get_organ_from_dataset_metadata(dataset_id_to_check: str, metadata:pd.DataFrame) -> str | None:
     """
     Get the organ label for a given dataset ID from the metadata.
 
@@ -51,7 +51,6 @@ def get_organ_from_dataset_metadata(dataset_id_to_check: str) -> str | None:
         str | None: The corresponding organ label, or None if not found.
     """
 
-    metadata = pd.read_csv(UNIVERSE_METADATA_FILENAME)
     match = metadata.loc[metadata["dataset_id"] == dataset_id_to_check, "organ"]
 
     return match.iloc[0] if not match.empty else None
@@ -67,23 +66,31 @@ def filter_raw_data():
     """
 
     # Create a dictionary to hold data from the run
-    filtered_dataset_metadata = {
-        "datasets_with_ftu": set()
-    }  ## or add to cell_types_in_ftu?
+    datasets_with_ftus = []
 
     # Load FTU reference (assuming it's reasonably sized — otherwise use ijson)
     with open(CELL_TYPES_IN_FTUS, "r", encoding="utf-8") as cell_types_f:
         cell_types_in_ftus = json.load(cell_types_f)
 
-    # You should be able to determine which datasets you are targeting 
-    # before you the loop, the organ it corresponds to, and the cell 
-    # types you want to check for (in a set). Then when you go through 
-    # the file, you only need to check if the dataset_id is in a 
-    # dictionary you created and at least one cell type is in the 
-    # set associated with the organ the dataset is associated with. 
-    # Those should all be quick lookups rather than reading/iterating, 
-    # which should improve the speed quite a bit. Still gonna take a 
+    # You should be able to determine which datasets you are targeting
+    # before you the loop, the organ it corresponds to, and the cell
+    # types you want to check for (in a set). Then when you go through
+    # the file, you only need to check if the dataset_id is in a
+    # dictionary you created and at least one cell type is in the
+    # set associated with the organ the dataset is associated with.
+    # Those should all be quick lookups rather than reading/iterating,
+    # which should improve the speed quite a bit. Still gonna take a
     # while to get through the gz file, but probably < 1hr.
+
+    # USE metadata.csv to get inventory of dataset IDs of interest
+    # Pass cell-types-in-ftu.json as argument
+    # maybe use regex?
+    # not needed to save
+
+    # In the future, use duckdb and https://duckdb.org/docs/stable/data/json/loading_json to read the JSON-lines file?
+
+    # Load HRApop Universe metdata
+    metadata = pd.read_csv(UNIVERSE_METADATA_FILENAME)
 
     # Stream through the gzipped JSONL file
     with gzip.open(UNIVERSE_10K_FILENAME, "rt", encoding="utf-8") as f, open(
@@ -102,7 +109,7 @@ def filter_raw_data():
                 continue
 
             dataset_id = cell_summary["cell_source"]
-            organ_id = get_organ_from_dataset_metadata(dataset_id)
+            organ_id = get_organ_from_dataset_metadata(dataset_id, metadata)
             organ_has_ftus = comes_from_organ_with_ftu(organ_id, cell_types_in_ftus)
 
             tqdm.write(
@@ -135,15 +142,16 @@ def filter_raw_data():
                     )
 
                     # Add dataset to dict
-                    filtered_dataset_metadata["datasets_with_ftu"].add(dataset_id)
-
-    # Convert set to list, then save filtered dataset metadata dict to file
-    filtered_dataset_metadata["datasets_with_ftu"] = list(
-        filtered_dataset_metadata["datasets_with_ftu"]
-    )
+                    # datasets_with_ftus.append(
+                    #     {
+                    #         "dataset_id": dataset_id,
+                    #         "ftu": "",
+                    #         "cell_type": cell_type
+                    #     }
+                    # )
 
     with open(FILTERED_DATASET_METADATA_FILENAME, "w") as f:
-        json.dump(filtered_dataset_metadata, f, indent=4)  # indent=4 makes it pretty
+        json.dump(datasets_with_ftus, f, indent=4)  # indent=4 makes it pretty
 
 
 def main():
