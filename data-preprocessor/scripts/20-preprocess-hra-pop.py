@@ -16,7 +16,7 @@ def download_hra_pop_data_data():
     # Download Universe metadata
 
     download_from_url(
-        "https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/refs/heads/main/input-data/v1.0/sc-transcriptomics-dataset-metadata.csv",
+        f"https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/refs/heads/{hra_pop_branch}/input-data/{hra_pop_version}/sc-transcriptomics-dataset-metadata.csv",
         UNIVERSE_METADATA_FILENAME,
     )
 
@@ -59,7 +59,7 @@ def identify_datasets_of_interest(
         )
 
         if organ_has_ftus:
-            result.append({"dataset_id": dataset_id, "organ_id": organ_id})
+            result.append({dataset_id : organ_id})
 
     return list(result)
 
@@ -79,7 +79,7 @@ def filter_raw_data(
     datasets_with_ftus = []
 
     # Perform list comprehension once
-    unique_dataset_ids_of_interest = [d["dataset_id"] for d in datasets_of_interest]
+    unique_dataset_ids_of_interest = set([list(d.keys())[0] for d in datasets_of_interest])
 
     # You should be able to determine which datasets you are targeting
     # before you the loop, the organ it corresponds to, and the cell
@@ -152,6 +152,8 @@ def filter_raw_data(
                     intermediary_file.write(
                         json.dumps(keep_cell_type_population) + "\n"
                     )
+
+                    tqdm.write(f"Saving dataset ID {curent_dataset_id} and FTU TBD to {FILTERED_DATASET_METADATA_FILENAME}.")
 
     with open(FILTERED_DATASET_METADATA_FILENAME, "w") as f:
         json.dump(datasets_with_ftus, f, indent=4)  # indent=4 makes it pretty

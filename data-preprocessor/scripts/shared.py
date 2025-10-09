@@ -14,7 +14,7 @@ import shutil
 import ujson
 
 # Make folder for input data
-INPUT_DIR = Path(__file__).parent.parent / "input"
+INPUT_DIR = Path(__file__).parent.parent / "input" 
 INPUT_DIR.mkdir(exist_ok=True)  # create the folder if it doesn't exist
 
 # Make folder for output data
@@ -37,11 +37,15 @@ SCRIPT_DIR = Path(__file__).parent
 # Capture TEMP folder
 TEMP_DIR = Path(__file__).parent.parent.parent / "docs" / "iftu-testing" / "assets"
 
-
-# Assign file paths to constants
+# Load config file
 with open(Path(__file__).parent / "config.yaml", "r", encoding="utf-8") as f:
     config = yaml.safe_load(f)
 
+# Get HRApop metadata
+hra_pop_version = config["HRA_POP_VERSION"]
+hra_pop_branch = config["HRA_POP_BRANCH"]
+
+# Assign file paths to constants
 CELL_TYPES_IN_FTUS = OUTPUT_DIR / config["CELL_TYPES_IN_FTUS"]
 UNIVERSE_FILE_FILENAME = INPUT_DIR / config["UNIVERSE_FILE_FILENAME"]
 UNIVERSE_METADATA_FILENAME = INPUT_DIR / config["UNIVERSE_METADATA_FILENAME"]
