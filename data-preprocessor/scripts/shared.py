@@ -12,9 +12,10 @@ import os
 import copy
 import shutil
 import ujson
+import re
 
 # Make folder for input data
-INPUT_DIR = Path(__file__).parent.parent / "input" 
+INPUT_DIR = Path(__file__).parent.parent / "input"
 INPUT_DIR.mkdir(exist_ok=True)  # create the folder if it doesn't exist
 
 # Make folder for output data
@@ -284,7 +285,7 @@ def comes_from_organ_with_ftu(
 
 def is_cell_type_exclusive_to_ftu(
     cell_id_to_check: str | None, organ_id_to_check: str, cell_types_in_ftu: list[dict]
-) -> bool:
+) -> list:
     """
     Determine whether a given cell type (by ID) is exclusive to Functional Tissue Units (FTUs).
 
@@ -299,21 +300,20 @@ def is_cell_type_exclusive_to_ftu(
         False otherwise.
     """
     if cell_id_to_check is None:
-        return False
+        return []
 
-    # print(f"Checking {cell_id_to_check} in {organ_id_to_check}")
-
+    print(f"Now checking {cell_id_to_check} in {organ_id_to_check}.")
+    
     # Iterate over all FTUs and collect all "representation_of" IDs for CTs in "cell_types_in_ftu_only"
-    ftu_only_cell_ids = {
-        ct["representation_of"]
+    matches = [
+        (ct["representation_of"], ftu["iri"])
         for ftu in cell_types_in_ftu
         for ct in ftu.get("cell_types_in_ftu_only", [])
         if ftu["organ_id_short"] == organ_id_to_check
-    }
-    if cell_id_to_check in ftu_only_cell_ids:
-        print("FOUND")
+        and ct["representation_of"] == cell_id_to_check
+    ]
 
-    return cell_id_to_check in ftu_only_cell_ids
+    return matches
 
 
 def iterate_through_json_lines(filename: str, print_line: bool = False):

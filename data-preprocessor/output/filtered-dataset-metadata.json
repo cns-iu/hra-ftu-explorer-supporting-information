@@ -1,1 +1,16 @@
-[]
+{
+    "https://doi.org/10.1126/science.abl4290#GTEX-1HSMQ-5014-SM-GKSJI": [
+        [
+            [
+                "CL:0002340",
+                "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus"
+            ]
+        ],
+        [
+            [
+                "CL:0002341",
+                "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus"
+            ]
+        ]
+    ]
+}

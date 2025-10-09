@@ -59,7 +59,7 @@ def identify_datasets_of_interest(
         )
 
         if organ_has_ftus:
-            result.append({dataset_id : organ_id})
+            result.append({dataset_id: organ_id})
 
     return list(result)
 
@@ -75,38 +75,41 @@ def filter_raw_data(
     Shows a live progress bar while processing.
     """
 
-    # Create a dictionary to hold data from the run
-    datasets_with_ftus = []
+    # Create a dictionary to hold datasets and confirmed CTs in FTUs from the run
+    datasets_with_ftus = {}
 
-    # Perform list comprehension once
-    unique_dataset_ids_of_interest = set([list(d.keys())[0] for d in datasets_of_interest])
+    # Perform list comprehension to create a list of unique dataset IDs of interest
+    # unique_dataset_ids_of_interest = set(
+    #     [list(d.keys())[0] for d in datasets_of_interest]
+    # )
 
-    # You should be able to determine which datasets you are targeting
-    # before you the loop, the organ it corresponds to, and the cell
-    # types you want to check for (in a set). Then when you go through
-    # the file, you only need to check if the dataset_id is in a
-    # dictionary you created and at least one cell type is in the
-    # set associated with the organ the dataset is associated with.
-    # Those should all be quick lookups rather than reading/iterating,
-    # which should improve the speed quite a bit. Still gonna take a
-    # while to get through the gz file, but probably < 1hr.
-
-    # USE metadata.csv to get inventory of dataset IDs of interest
-    # Pass cell-types-in-ftu.json as argument
-    # maybe use regex?
-    # not needed to save
+    # Remove this and uncomment statement above once testing is done
+    unique_dataset_ids_of_interest = [
+        "https://doi.org/10.1126/science.abl4290#GTEX-1HSMQ-5014-SM-GKSJI"
+    ]
 
     # In the future, use duckdb and https://duckdb.org/docs/stable/data/json/loading_json to read the JSON-lines file?
+
+    # Precompile one regex for all dataset IDs of interest
+    pattern = re.compile("|".join(map(re.escape, unique_dataset_ids_of_interest)))
+
+    # Numbers of characters to search in line before loading to JSON
+    N = 500
 
     # Stream through the gzipped JSONL file
     with gzip.open(UNIVERSE_10K_FILENAME, "rt", encoding="utf-8") as f, open(
         FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME, "w", encoding="utf-8"
     ) as intermediary_file:
 
-        # ✅ tqdm with no total (dynamic progress)
+        # tqdm with no total (dynamic progress)
         for line in tqdm(f, desc="Processing JSONL lines", unit="line"):
+
+            # Guard clauses
             if not line.strip():
                 continue
+            # Quick text pre-filter — skips most lines cheaply
+            if not pattern.search(line[:N]):
+                continue  # no dataset ID → skip
 
             try:
                 cell_summary = ujson.loads(line)
@@ -114,46 +117,60 @@ def filter_raw_data(
                 tqdm.write(f"⚠️ Skipping invalid JSON line: {e}")
                 continue
 
-            curent_dataset_id = cell_summary["cell_source"]
+            current_dataset_id = cell_summary["cell_source"]
 
-            if curent_dataset_id in unique_dataset_ids_of_interest:
+            if current_dataset_id in unique_dataset_ids_of_interest:
                 tqdm.write(
-                    f"Dataset {curent_dataset_id} is of interest, now checking its cell types."
+                    f"Dataset {current_dataset_id} is of interest, now checking its cell types."
                 )
                 keep_summaries = []
-                for cell_type in cell_summary.get("summary", []):
 
-                    tqdm.write(f"Now checking cell type: {cell_type['cell_id']}.")
+                for cell_type in cell_summary.get("summary", []):
 
                     organ_id = next(
                         (
-                            d.get("organ_id")
+                            v
                             for d in datasets_of_interest
-                            if d.get("dataset_id") == curent_dataset_id
+                            for k, v in d.items()
+                            if k == current_dataset_id
                         ),
-                        "NOT FOUND",
+                        "ORGAN NOT FOUND",  # default if not found
                     )
 
-                    if is_cell_type_exclusive_to_ftu(
+                    matches = is_cell_type_exclusive_to_ftu(
                         cell_type.get("cell_id"), organ_id, cell_types_in_ftus
-                    ):
+                    )
+
+                    if matches:
                         keep_summaries.append(cell_type)
-                        tqdm.write(f"{cell_type['cell_id']} is exclusive to FTU.")
+                        tqdm.write(
+                            f"{cell_type['cell_id']} is exclusive to FTU. Matches: "
+                        )
+                        tqdm.write(str(matches))
+
+                        # datasets_with_ftus.append({curent_dataset_id: matches})
+
+                        if current_dataset_id not in datasets_with_ftus:
+                            datasets_with_ftus[current_dataset_id] = []
+                        datasets_with_ftus[current_dataset_id].append(matches)
 
                 if keep_summaries:
                     tqdm.write(
-                        f"Found at least one CT in dataset {curent_dataset_id} that is exclusive to FTU."
+                        f"Found {len(datasets_with_ftus[datasets_with_ftus])} CT(s) in dataset {current_dataset_id} that is exclusive to FTU."
                     )
 
                     keep_cell_type_population = {
                         k: v for k, v in cell_summary.items() if k != "summary"
                     }
                     keep_cell_type_population["summary"] = keep_summaries
+
                     intermediary_file.write(
                         json.dumps(keep_cell_type_population) + "\n"
                     )
 
-                    tqdm.write(f"Saving dataset ID {curent_dataset_id} and FTU TBD to {FILTERED_DATASET_METADATA_FILENAME}.")
+                    tqdm.write(
+                        f"Datasets with confirmed FTUs is now: {datasets_with_ftus}."
+                    )
 
     with open(FILTERED_DATASET_METADATA_FILENAME, "w") as f:
         json.dump(datasets_with_ftus, f, indent=4)  # indent=4 makes it pretty
