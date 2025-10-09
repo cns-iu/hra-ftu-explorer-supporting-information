@@ -294,6 +294,22 @@ def build_ftu_index(cell_types_in_ftus):
 
 
 def is_cell_type_exclusive_to_ftu(cell_id_to_check, organ_id_to_check, index):
+    """
+    Retrieve all FTU IRIs where a given cell type is exclusive within a specific organ.
+
+    Args:
+        cell_id_to_check (str): The cell type identifier to look up (e.g., a CL or UBERON ID).
+        organ_id_to_check (str): The short-form organ ID (e.g., 'UBERON:0002107') corresponding
+            to the organ being checked.
+        index (dict[tuple[str, str], list[str]]): A precomputed lookup mapping
+            (organ_id_short, cell_id) tuples to lists of FTU IRIs, typically built by
+            `build_ftu_index()`.
+
+    Returns:
+        list[tuple[str, str]]: A list of (cell_id_to_check, ftu_iri) tuples for all matching FTUs.
+        Returns an empty list if no matches are found.
+    """
+    
     return [
         (cell_id_to_check, iri)
         for iri in index.get((organ_id_to_check, cell_id_to_check), ())
