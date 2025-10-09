@@ -283,71 +283,71 @@ def comes_from_organ_with_ftu(
 
     return organ_id_to_check in {ftu["organ_id_short"] for ftu in cell_types_in_ftus}
 
-def build_ftu_index(cell_types_in_ftus):
-    index = defaultdict(list)
-    for ftu in cell_types_in_ftus:
-        organ = ftu["organ_id_short"]
-        iri = ftu["iri"]
-        for ct in ftu.get("cell_types_in_ftu_only", ()):
-            index[(organ, ct["representation_of"])].append(iri)
-    return index
+# def build_ftu_index(cell_types_in_ftus):
+#     index = defaultdict(list)
+#     for ftu in cell_types_in_ftus:
+#         organ = ftu["organ_id_short"]
+#         iri = ftu["iri"]
+#         for ct in ftu.get("cell_types_in_ftu_only", ()):
+#             index[(organ, ct["representation_of"])].append(iri)
+#     return index
 
 
-def is_cell_type_exclusive_to_ftu(cell_id_to_check, organ_id_to_check, index):
-    """
-    Retrieve all FTU IRIs where a given cell type is exclusive within a specific organ.
+# def is_cell_type_exclusive_to_ftu(cell_id_to_check, organ_id_to_check, index):
+#     """
+#     Retrieve all FTU IRIs where a given cell type is exclusive within a specific organ.
 
-    Args:
-        cell_id_to_check (str): The cell type identifier to look up (e.g., a CL or UBERON ID).
-        organ_id_to_check (str): The short-form organ ID (e.g., 'UBERON:0002107') corresponding
-            to the organ being checked.
-        index (dict[tuple[str, str], list[str]]): A precomputed lookup mapping
-            (organ_id_short, cell_id) tuples to lists of FTU IRIs, typically built by
-            `build_ftu_index()`.
+#     Args:
+#         cell_id_to_check (str): The cell type identifier to look up (e.g., a CL or UBERON ID).
+#         organ_id_to_check (str): The short-form organ ID (e.g., 'UBERON:0002107') corresponding
+#             to the organ being checked.
+#         index (dict[tuple[str, str], list[str]]): A precomputed lookup mapping
+#             (organ_id_short, cell_id) tuples to lists of FTU IRIs, typically built by
+#             `build_ftu_index()`.
 
-    Returns:
-        list[tuple[str, str]]: A list of (cell_id_to_check, ftu_iri) tuples for all matching FTUs.
-        Returns an empty list if no matches are found.
-    """
+#     Returns:
+#         list[tuple[str, str]]: A list of (cell_id_to_check, ftu_iri) tuples for all matching FTUs.
+#         Returns an empty list if no matches are found.
+#     """
     
-    return [
-        (cell_id_to_check, iri)
-        for iri in index.get((organ_id_to_check, cell_id_to_check), ())
-    ]
+#     return [
+#         (cell_id_to_check, iri)
+#         for iri in index.get((organ_id_to_check, cell_id_to_check), ())
+#     ]
 
 # slower alternative:
 
-# def is_cell_type_exclusive_to_ftu(
-#     cell_id_to_check: str | None, organ_id_to_check: str, cell_types_in_ftu: list[dict]
-# ) -> list:
-#     """
-#     Determine whether a given cell type (by ID) is exclusive to Functional Tissue Units (FTUs).
+def is_cell_type_exclusive_to_ftu(
+    cell_id_to_check: str | None, organ_id_to_check: str, cell_types_in_ftu: list[dict]
+) -> list:
+    """
+    Determine whether a given cell type (by ID) is exclusive to Functional Tissue Units (FTUs).
 
-#     Args:
-#         cell_id_to_check (str | None): The cell type ID to check. If None, returns False.
-#         cell_types_in_ftu (list[dict]): A list of FTU dictionaries, each containing a
-#             'cell_types_in_ftu_only' key with a list of cell type dictionaries.
-#             Each cell type dictionary must contain a 'representation_of' key.
+    Args:
+        cell_id_to_check (str | None): The cell type ID to check. If None, returns False.
+        cell_types_in_ftu (list[dict]): A list of FTU dictionaries, each containing a
+            'cell_types_in_ftu_only' key with a list of cell type dictionaries.
+            Each cell type dictionary must contain a 'representation_of' key.
 
-#     Returns:
-#         bool: True if the given cell type appears in any 'cell_types_in_ftu_only' list,
-#         False otherwise.
-#     """
-#     if cell_id_to_check is None:
-#         return []
+    Returns:
+        bool: True if the given cell type appears in any 'cell_types_in_ftu_only' list,
+        False otherwise.
+    """
+    if cell_id_to_check is None:
+        return []
 
-#     # print(f"Now checking {cell_id_to_check} in {organ_id_to_check}.")
+    # print(f"Now checking {cell_id_to_check} in {organ_id_to_check}.")
     
-#     # Iterate over all FTUs and collect all "representation_of" IDs for CTs in "cell_types_in_ftu_only"
-#     matches = [
-#         (ct["representation_of"], ftu["iri"])
-#         for ftu in cell_types_in_ftu
-#         for ct in ftu.get("cell_types_in_ftu_only", [])
-#         if ftu["organ_id_short"] == organ_id_to_check
-#         and ct["representation_of"] == cell_id_to_check
-#     ]
+    # Iterate over all FTUs and collect all "representation_of" IDs for CTs in "cell_types_in_ftu_only"
+    matches = [
+        (ct["representation_of"], ftu["iri"])
+        for ftu in cell_types_in_ftu
+        for ct in ftu.get("cell_types_in_ftu_only", [])
+        if ftu["organ_id_short"] == organ_id_to_check
+        and ct["representation_of"] == cell_id_to_check
+    ]
 
-#     return matches
+    return matches
 
 
 def iterate_through_json_lines(filename: str, print_line: bool = False):

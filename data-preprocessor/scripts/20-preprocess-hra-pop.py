@@ -77,7 +77,7 @@ def filter_raw_data(
 
     # Precompute a fast lookup index that maps (organ_id_short, cell_id) → [ftu_iris]
     # This should be built once and reused for all subsequent lookups
-    index = build_ftu_index(cell_types_in_ftus)
+    # index = build_ftu_index(cell_types_in_ftus)
 
     # Create a dictionary to hold datasets and confirmed CTs in FTUs from the run
     datasets_with_ftus = {}
@@ -143,7 +143,7 @@ def filter_raw_data(
                     )
 
                     matches = is_cell_type_exclusive_to_ftu(
-                        cell_type.get("cell_id"), organ_id, index
+                        cell_type.get("cell_id"), organ_id, cell_types_in_ftus
                     )
 
                     if matches:
