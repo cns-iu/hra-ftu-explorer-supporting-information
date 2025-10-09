@@ -13,6 +13,7 @@ import copy
 import shutil
 import ujson
 import re
+from collections import defaultdict
 
 # Make folder for input data
 INPUT_DIR = Path(__file__).parent.parent / "input"
@@ -302,7 +303,7 @@ def is_cell_type_exclusive_to_ftu(
     if cell_id_to_check is None:
         return []
 
-    print(f"Now checking {cell_id_to_check} in {organ_id_to_check}.")
+    # print(f"Now checking {cell_id_to_check} in {organ_id_to_check}.")
     
     # Iterate over all FTUs and collect all "representation_of" IDs for CTs in "cell_types_in_ftu_only"
     matches = [

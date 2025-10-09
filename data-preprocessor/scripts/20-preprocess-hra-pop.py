@@ -79,14 +79,15 @@ def filter_raw_data(
     datasets_with_ftus = {}
 
     # Perform list comprehension to create a list of unique dataset IDs of interest
-    # unique_dataset_ids_of_interest = set(
-    #     [list(d.keys())[0] for d in datasets_of_interest]
-    # )
 
-    # Remove this and uncomment statement above once testing is done
-    unique_dataset_ids_of_interest = [
-        "https://doi.org/10.1126/science.abl4290#GTEX-1HSMQ-5014-SM-GKSJI"
-    ]
+    # Remove this and uncomment statement below once testing is done
+    # unique_dataset_ids_of_interest = [
+    #     "https://doi.org/10.1126/science.abl4290#GTEX-1HSMQ-5014-SM-GKSJI"
+    # ]
+
+    unique_dataset_ids_of_interest = set(
+        [list(d.keys())[0] for d in datasets_of_interest]
+    )
 
     # In the future, use duckdb and https://duckdb.org/docs/stable/data/json/loading_json to read the JSON-lines file?
 
@@ -120,9 +121,9 @@ def filter_raw_data(
             current_dataset_id = cell_summary["cell_source"]
 
             if current_dataset_id in unique_dataset_ids_of_interest:
-                tqdm.write(
-                    f"Dataset {current_dataset_id} is of interest, now checking its cell types."
-                )
+                # tqdm.write(
+                #     f"Dataset {current_dataset_id} is of interest, now checking its cell types."
+                # )
                 keep_summaries = []
 
                 for cell_type in cell_summary.get("summary", []):
@@ -148,15 +149,13 @@ def filter_raw_data(
                         )
                         tqdm.write(str(matches))
 
-                        # datasets_with_ftus.append({curent_dataset_id: matches})
-
                         if current_dataset_id not in datasets_with_ftus:
                             datasets_with_ftus[current_dataset_id] = []
                         datasets_with_ftus[current_dataset_id].append(matches)
 
                 if keep_summaries:
                     tqdm.write(
-                        f"Found {len(datasets_with_ftus[datasets_with_ftus])} CT(s) in dataset {current_dataset_id} that is exclusive to FTU."
+                        f"Found {len(datasets_with_ftus[current_dataset_id])} CT(s) in dataset {current_dataset_id} that is exclusive to FTU."
                     )
 
                     keep_cell_type_population = {
