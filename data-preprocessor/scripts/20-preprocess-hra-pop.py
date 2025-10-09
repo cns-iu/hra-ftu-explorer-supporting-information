@@ -54,9 +54,9 @@ def identify_datasets_of_interest(
     for dataset_id in metadata["dataset_id"].unique():
         organ_id = get_organ_from_dataset_metadata(dataset_id, metadata)
         organ_has_ftus = comes_from_organ_with_ftu(organ_id, cell_types_in_ftus)
-        print(
-            f"Dataset {dataset_id} has organ {organ_id}, which has FTUs: {organ_has_ftus}"
-        )
+        # print(
+        #     f"Dataset {dataset_id} has organ {organ_id}, which has FTUs: {organ_has_ftus}"
+        # )
 
         if organ_has_ftus:
             result.append({dataset_id: organ_id})
@@ -74,6 +74,9 @@ def filter_raw_data(
 
     Shows a live progress bar while processing.
     """
+
+    # Build index
+    index = build_ftu_index(cell_types_in_ftus)
 
     # Create a dictionary to hold datasets and confirmed CTs in FTUs from the run
     datasets_with_ftus = {}
@@ -139,7 +142,7 @@ def filter_raw_data(
                     )
 
                     matches = is_cell_type_exclusive_to_ftu(
-                        cell_type.get("cell_id"), organ_id, cell_types_in_ftus
+                        cell_type.get("cell_id"), organ_id, index
                     )
 
                     if matches:
@@ -167,9 +170,9 @@ def filter_raw_data(
                         json.dumps(keep_cell_type_population) + "\n"
                     )
 
-                    tqdm.write(
-                        f"Datasets with confirmed FTUs is now: {datasets_with_ftus}."
-                    )
+                    # tqdm.write(
+                    #     f"Datasets with confirmed FTUs is now: {datasets_with_ftus}."
+                    # )
 
     with open(FILTERED_DATASET_METADATA_FILENAME, "w") as f:
         json.dump(datasets_with_ftus, f, indent=4)  # indent=4 makes it pretty
