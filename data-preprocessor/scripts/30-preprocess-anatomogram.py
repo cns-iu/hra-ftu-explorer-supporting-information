@@ -87,6 +87,13 @@ def handle_anatomogram_data():
             "experiment_id": "E-MTAB-5061",
         },
     ]
+    
+    
+    
+    # FROM BRUCE VIA SLACK
+    # Yeah, same old scanpy function
+    # https://github.com/hubmapconsortium/hra-workflows/blob/main/containers/gene-expression/context/main.py#L43 where n_genes=10000
+    
 
     for organ in metadata_json:
         download_and_unzip_anatomogram_data(
