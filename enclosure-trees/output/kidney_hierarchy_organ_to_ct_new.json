@@ -1,0 +1,349 @@
+{
+  "id": "UBERON:0002113",
+  "label": "kidney",
+  "type": "AS",
+  "children": [
+    {
+      "id": "UBERON:00012191",
+      "label": "UBERON:00012191",
+      "type": "FTU"
+    },
+    {
+      "id": "UBERON:0001285",
+      "label": "nephron",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0001229",
+          "label": "Renal Corpuscle",
+          "type": "FTU",
+          "children": [
+            {
+              "id": "CL:0000653",
+              "label": "Podocyte",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:1000452",
+              "label": "Parietal Epithelial Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:1000742",
+              "label": "Mesangial Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:1001005",
+              "label": "Glomerular Capillary Endothelial Cell",
+              "type": "CellType"
+            }
+          ]
+        },
+        {
+          "id": "CL:0000653",
+          "label": "Podocyte",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0002306",
+          "label": "Proximal Tubule Epithelial Cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:1000452",
+          "label": "Parietal Epithelial Cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:1000742",
+          "label": "Mesangial Cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:1000768",
+          "label": "Connecting Tubule Cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:1000849",
+          "label": "Distal Convoluted Tubule Cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:1000850",
+          "label": "Macula Densa cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:1001005",
+          "label": "Glomerular Capillary Endothelial Cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:1001106",
+          "label": "Thick Ascending Limb Cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:1001107",
+          "label": "Ascending Thin Limb Cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:1001108",
+          "label": "Medullary Thick Ascending Limb Cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:1001109",
+          "label": "Cortical Thick Ascending Limb Cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:1001111",
+          "label": "Descending Thin Limb Cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:4030009",
+          "label": "Proximal Tubule Epithelial Cell Segment 1",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:4030010",
+          "label": "Proximal Tubule Epithelial Cell Segment 2",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:4030011",
+          "label": "Proximal Tubule Cell Epithelial Segment 3",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:4030012",
+          "label": "Descending Thin Limb Cell Type 1",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:4030013",
+          "label": "Descending Thin Limb Cell Type 2",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:4030014",
+          "label": "Descending Thin Limb Cell Type 3",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:4030016",
+          "label": "Distal Convoluted Tubule Cell Type 1",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:4030017",
+          "label": "Distal Convoluted Tubule Cell Type 2",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:4030018",
+          "label": "Connecting Tubule Principal Cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:4030019",
+          "label": "Connecting Tubule Intercalated Cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:4030020",
+          "label": "Connecting Tubule Intercalated Cell Type A",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:4030021",
+          "label": "Intercalated Cell Type B",
+          "type": "CellType"
+        },
+        {
+          "id": "UBERON:0001231",
+          "label": "Tubules",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001289",
+              "label": "Loop of Henle (Thin Limb)",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:1001111",
+                  "label": "Descending Thin Limb Cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:4030012",
+                  "label": "Descending Thin Limb Cell Type 1",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:4030013",
+                  "label": "Descending Thin Limb Cell Type 2",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:4030014",
+                  "label": "Descending Thin Limb Cell Type 3",
+                  "type": "CellType"
+                }
+              ]
+            },
+            {
+              "id": "UBERON:0004193",
+              "label": "Loop of Henle (Thin Limb)",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:1001107",
+                  "label": "Ascending Thin Limb Cell",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0000362",
+      "label": "renal medulla",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0004201",
+          "label": "kidney outer medulla inner stripe",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001289",
+              "label": "Loop of Henle (Thin Limb)",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:1001111",
+                  "label": "Descending Thin Limb Cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:4030012",
+                  "label": "Descending Thin Limb Cell Type 1",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:4030013",
+                  "label": "Descending Thin Limb Cell Type 2",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:4030014",
+                  "label": "Descending Thin Limb Cell Type 3",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0001225",
+      "label": "cortex of kidney",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0009883",
+          "label": "medullary ray",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0004203",
+              "label": "Collecting Duct (Cortex)",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:1000714",
+                  "label": "Cortical Collecting Duct Principal Cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000715",
+                  "label": "Cortical Collecting Duct Intercalated Cell Type A",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0004100",
+      "label": "renal collecting system",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0001232",
+          "label": "Tubules",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0004203",
+              "label": "Collecting Duct (Cortex)",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:1000714",
+                  "label": "Cortical Collecting Duct Principal Cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000715",
+                  "label": "Cortical Collecting Duct Intercalated Cell Type A",
+                  "type": "CellType"
+                }
+              ]
+            },
+            {
+              "id": "UBERON:0004204",
+              "label": "Collecting Duct (Outer Medulla)",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:1000716",
+                  "label": "Outer Medullary Collecting Duct Principal Cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000717",
+                  "label": "Outer Medullary Collecting Duct Intercalated Cell Type A",
+                  "type": "CellType"
+                }
+              ]
+            },
+            {
+              "id": "UBERON:0004205",
+              "label": "Collecting Duct (Inner Medulla)",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:1000718",
+                  "label": "Inner Medullary Collecting Duct Cell",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
