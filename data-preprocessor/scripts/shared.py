@@ -14,6 +14,8 @@ import shutil
 import ujson
 import re
 from collections import defaultdict
+import scanpy as sc
+import anndata as ad
 
 # Make folder for input data
 INPUT_DIR = Path(__file__).parent.parent / "input"
@@ -73,6 +75,64 @@ ANATOMOGRAMN_RAW_DATA = RAW_DATA_DIR / config["ANATOMOGRAMN_RAW_DATA"]
 # Commonly used HTTP Accept headers for API requests
 accept_json = {"Accept": "application/json"}
 accept_csv = {"Accept": "text/csv"}
+
+# Metadata for anatomogram datasets
+anatomogram_files_json = [
+    {
+        "name": "kidney",
+        "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
+        "url_counts": "https://www.ebi.ac.uk/gxa/sc/experiment/E-CURD-119/download/zip?fileType=normalised",
+        "url_experimental_design": "https://www.ebi.ac.uk/gxa/sc/experiment/E-CURD-119/download?fileType=experiment-design",
+        "experiment_id": "E-CURD-119",
+        "paper_doi": "https://doi.org/10.1038/s41467-021-22368-w",
+        "dataset_link": "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119/downloads",
+    },
+    {
+        "name": "liver",
+        "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002107",
+        "url_counts": "https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-10553/download/zip?fileType=normalised",
+        "url_experimental_design": "https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-10553/download?fileType=experiment-design",
+        "experiment_id": "E-MTAB-10553",
+        "paper_doi": "https://doi.org/10.1038/s41598-021-98806-y",
+        "dataset_link": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553/downloads",
+    },
+    {
+        "name": "lung",
+        "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002048",
+        "url_counts": "https://www.ebi.ac.uk/gxa/sc/experiment/E-GEOD-130148/download/zip?fileType=normalised",
+        "url_experimental_design": "https://www.ebi.ac.uk/gxa/sc/experiment/E-GEOD-130148/download?fileType=experiment-design",
+        "experiment_id": "E-GEOD-130148",
+        "paper_doi": "https://doi.org/10.1038/s41591-019-0468-5",
+        "dataset_link": "https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148/downloads",
+    },
+    {
+        "name": "pancreas",
+        "organ_id": "http://purl.obolibrary.org/obo/UBERON_0001264",
+        "url_counts": "https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-5061/download/zip?fileType=normalised",
+        "url_experimental_design": "https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-5061/download?fileType=experiment-design",
+        "experiment_id": "E-MTAB-5061",
+        "paper_doi": "https://doi.org/10.1016/j.cmet.2016.08.020",
+        "dataset_link": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061/downloads",
+    },
+]
+
+# Download links for anatomogram data:
+# 1. Kidney: https://www.ebi.ac.uk/gxa/sc/experiment/E-CURD-119/download/zip?fileType=normalised
+# 2. Liver: https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-10553/download/zip?fileType=normalised
+# 3. Lung: https://www.ebi.ac.uk/gxa/sc/experiment/E-GEOD-130148/download/zip?fileType=normalised
+# 4. Pancreas: https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-5061/download/zip?fileType=normalised
+
+# Experimental design files:
+# 1. Kidney: https://www.ebi.ac.uk/gxa/sc/experiment/E-CURD-119/download?fileType=experiment-design
+# 2. Liver: https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-10553/download?fileType=experiment-design
+# 3. Lung: https://www.ebi.ac.uk/gxa/sc/experiment/E-GEOD-130148/download?fileType=experiment-design
+# 4. Pancreas: https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-5061/download?fileType=experiment-design
+
+# SCEA websites:
+# 1. Kidney: https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119/downloads
+# 2. Liver: https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553/downloads
+# 3. Lung: https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148/downloads
+# 4. Pancreas: https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061/downloads
 
 
 def get_csv_pandas(url: str, timeout: int = 10) -> pd.DataFrame:
@@ -283,6 +343,7 @@ def comes_from_organ_with_ftu(
 
     return organ_id_to_check in {ftu["organ_id_short"] for ftu in cell_types_in_ftus}
 
+
 # def build_ftu_index(cell_types_in_ftus):
 #     index = defaultdict(list)
 #     for ftu in cell_types_in_ftus:
@@ -309,13 +370,14 @@ def comes_from_organ_with_ftu(
 #         list[tuple[str, str]]: A list of (cell_id_to_check, ftu_iri) tuples for all matching FTUs.
 #         Returns an empty list if no matches are found.
 #     """
-    
+
 #     return [
 #         (cell_id_to_check, iri)
 #         for iri in index.get((organ_id_to_check, cell_id_to_check), ())
 #     ]
 
 # slower alternative:
+
 
 def is_cell_type_exclusive_to_ftu(
     cell_id_to_check: str | None, organ_id_to_check: str, cell_types_in_ftu: list[dict]
@@ -337,7 +399,7 @@ def is_cell_type_exclusive_to_ftu(
         return []
 
     # print(f"Now checking {cell_id_to_check} in {organ_id_to_check}.")
-    
+
     # Iterate over all FTUs and collect all "representation_of" IDs for CTs in "cell_types_in_ftu_only"
     matches = [
         (ct["representation_of"], ftu["iri"])

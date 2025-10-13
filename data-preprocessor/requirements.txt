@@ -5,3 +5,5 @@ requests
 pyyaml
 tqdm 
 ujson
+scanpy
+anndata

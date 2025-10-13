@@ -54,9 +54,6 @@ def identify_datasets_of_interest(
     for dataset_id in metadata["dataset_id"].unique():
         organ_id = get_organ_from_dataset_metadata(dataset_id, metadata)
         organ_has_ftus = comes_from_organ_with_ftu(organ_id, cell_types_in_ftus)
-        # print(
-        #     f"Dataset {dataset_id} has organ {organ_id}, which has FTUs: {organ_has_ftus}"
-        # )
 
         if organ_has_ftus:
             result.append({dataset_id: organ_id})
@@ -64,9 +61,7 @@ def identify_datasets_of_interest(
     return list(result)
 
 
-def filter_raw_data(
-    datasets_of_interest: list, cell_types_in_ftus: list, metadata: pd.DataFrame
-):
+def filter_raw_data(datasets_of_interest: list, cell_types_in_ftus: list):
     """
     Stream and filter the massive gzipped JSONL HRApop Universe file (≈36 GB),
     keeping only datasets and cell type populations related to organs that
@@ -196,7 +191,7 @@ def main():
     datasets_of_interest = identify_datasets_of_interest(cell_types_in_ftus, metadata)
 
     # Filter raw data with datasets of interest in mind
-    filter_raw_data(datasets_of_interest, cell_types_in_ftus, metadata)
+    filter_raw_data(datasets_of_interest, cell_types_in_ftus)
 
 
 if __name__ == "__main__":

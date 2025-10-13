@@ -38,7 +38,7 @@ def download_and_unzip_anatomogram_data(
     )
 
 
-def handle_anatomogram_data():
+def download_anatomogram_data(metadata_anatomogram_json: list):
     """
     Download and extract anatomogram datasets for all organs defined in the metadata file.
 
@@ -61,41 +61,11 @@ def handle_anatomogram_data():
     """
     # Download anatomogram data
 
-    metadata_json = [
-        {
-            "name": "kidney",
-            "url_counts": "https://www.ebi.ac.uk/gxa/sc/experiment/E-CURD-119/download/zip?fileType=normalised",
-            "url_experimental_design": "https://www.ebi.ac.uk/gxa/sc/experiment/E-CURD-119/download?fileType=experiment-design",
-            "experiment_id": "E-CURD-119",
-        },
-        {
-            "name": "liver",
-            "url_counts": "https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-10553/download/zip?fileType=normalised",
-            "url_experimental_design": "https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-10553/download?fileType=experiment-design",
-            "experiment_id": "E-MTAB-10553",
-        },
-        {
-            "name": "lung",
-            "url_counts": "https://www.ebi.ac.uk/gxa/sc/experiment/E-GEOD-130148/download/zip?fileType=normalised",
-            "url_experimental_design": "https://www.ebi.ac.uk/gxa/sc/experiment/E-GEOD-130148/download?fileType=experiment-design",
-            "experiment_id": "E-GEOD-130148",
-        },
-        {
-            "name": "pancreas",
-            "url_counts": "https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-5061/download/zip?fileType=normalised",
-            "url_experimental_design": "https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-5061/download?fileType=experiment-design",
-            "experiment_id": "E-MTAB-5061",
-        },
-    ]
-    
-    
-    
     # FROM BRUCE VIA SLACK
     # Yeah, same old scanpy function
     # https://github.com/hubmapconsortium/hra-workflows/blob/main/containers/gene-expression/context/main.py#L43 where n_genes=10000
-    
 
-    for organ in metadata_json:
+    for organ in metadata_anatomogram_json:
         download_and_unzip_anatomogram_data(
             organ["url_counts"],
             organ["url_experimental_design"],
@@ -104,10 +74,84 @@ def handle_anatomogram_data():
         )
 
 
+def extract_cell_type_population(organ_metadata: dict):
+    """_summary_
+
+    Args:
+        organ_name (str): _description_
+    """
+    ad = sc.read_mtx(
+        ANATOMOGRAMN_RAW_DATA
+        / organ_metadata["name"]
+        / f"{organ_metadata['experiment_id']}.aggregated_filtered_normalised_counts.mtx"
+    )
+
+    df_kidney = ad.to_df()
+    pprint(df_kidney.head())
+
+    # Load genes and cell type information
+    index_kidney = pd.read_csv(
+        ANATOMOGRAMN_RAW_DATA
+        / organ_metadata["name"]
+        / f"{organ_metadata['experiment_id']}.aggregated_filtered_normalised_counts.mtx_rows",
+        names=["col1", "col2"],
+        sep="\t",
+    )
+    cols_kidney = pd.read_csv(
+        ANATOMOGRAMN_RAW_DATA
+        / organ_metadata["name"]
+        / f"{organ_metadata['experiment_id']}.aggregated_filtered_normalised_counts.mtx_cols",
+        names=["col1"],
+    )
+
+    index_kidney = index_kidney.drop(["col2"], axis=1)
+    pprint(index_kidney.head())
+
+    pprint(cols_kidney.head())
+
+    # Load reference data
+    ref_data_kidney = pd.read_csv(
+        ANATOMOGRAMN_RAW_DATA
+        / organ_metadata["name"]
+        / f"{organ_metadata['experiment_id']}.tsv",
+        sep="\t",
+    )
+    pprint(ref_data_kidney.head())
+
+    pprint(ref_data_kidney.columns)
+
+    ref_data_kidney = ref_data_kidney.rename(
+        columns={
+            "Factor Value[inferred cell type - authors labels]": "Cell_Type",
+            "Factor Value Ontology Term[inferred cell type - authors labels]": "CL_ID",
+        }
+    )
+
+    ref_data_mod_kidney = ref_data_kidney[["Assay", "Cell_Type", "CL_ID"]]
+
+    ref_data_mod_kidney["CL_ID"] = ref_data_mod_kidney["CL_ID"].str.split("/").str[-1]
+
+    ref_data_mod_kidney["CL_ID"] = ref_data_mod_kidney["CL_ID"].str.replace("_", ":")
+
+    pprint(ref_data_mod_kidney)
+
+    # Create a mapping using dataframe2
+    mapping = ref_data_mod_kidney.set_index("Assay")["Cell_Type"]
+
+    # Use the map function to replace values in dataframe1
+    cols_kidney["col1"] = cols_kidney["col1"].map(mapping)
+
+    # Display the modified dataframe1
+    print(cols_kidney)
+
+    print(cols_kidney.value_counts())
+
+
 def main():
     # Driver code
 
-    handle_anatomogram_data()
+    download_anatomogram_data(anatomogram_files_json)
+    extract_cell_type_population(anatomogram_files_json[0])
 
 
 # You may want to use/crib off of the summary generator in the DCTA workflow:
