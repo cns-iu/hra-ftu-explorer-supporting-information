@@ -1,0 +1,978 @@
+{
+  "id": "UBERON:0001264",
+  "label": "pancreas",
+  "type": "AS",
+  "children": [
+    {
+      "id": "UBERON:0009708",
+      "label": "Dorsal pancreas",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0001069",
+          "label": "Head of pancreas",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0007324",
+              "label": "Pancreas lobule",
+              "type": "AS",
+              "children": [
+                {
+                  "id": "UBERON:0001978",
+                  "label": "Parenchyma of pancreas",
+                  "type": "AS",
+                  "children": [
+                    {
+                      "id": "UBERON:0000016",
+                      "label": "Endocrine pancreas",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:0000006",
+                          "label": "Islet of Langerhans",
+                          "type": "FTU",
+                          "children": [
+                            {
+                              "id": "CL:0000084",
+                              "label": "T lymphocyte",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000169",
+                              "label": "Beta cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000171",
+                              "label": "Alpha cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000173",
+                              "label": "Delta cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000235",
+                              "label": "Macrophage",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000236",
+                              "label": "B lymphocyte",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000451",
+                              "label": "Dendritic cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000509",
+                              "label": "Gastrin cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000542",
+                              "label": "Lymphocyte",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0002275",
+                              "label": "PP cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0005019",
+                              "label": "Epsilon cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0008024",
+                              "label": "Endocrine cell",
+                              "type": "CellType"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "UBERON:0000017",
+                      "label": "Exocrine pancreas",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:0001263",
+                          "label": "Pancreatic acinus",
+                          "type": "FTU",
+                          "children": [
+                            {
+                              "id": "CL:0002064",
+                              "label": "Acinar cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:1001599",
+                              "label": "Pancreas exocrine glandular cell",
+                              "type": "CellType"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "FMA:14517",
+              "label": "Neck of pancreas",
+              "type": "AS",
+              "children": [
+                {
+                  "id": "UBERON:0007324",
+                  "label": "Pancreas lobule",
+                  "type": "AS",
+                  "children": [
+                    {
+                      "id": "UBERON:0001978",
+                      "label": "Parenchyma of pancreas",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:0000016",
+                          "label": "Endocrine pancreas",
+                          "type": "AS",
+                          "children": [
+                            {
+                              "id": "UBERON:0000006",
+                              "label": "Islet of Langerhans",
+                              "type": "FTU",
+                              "children": [
+                                {
+                                  "id": "CL:0000084",
+                                  "label": "T lymphocyte",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000169",
+                                  "label": "Beta cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000171",
+                                  "label": "Alpha cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000173",
+                                  "label": "Delta cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000235",
+                                  "label": "Macrophage",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000236",
+                                  "label": "B lymphocyte",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000451",
+                                  "label": "Dendritic cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000509",
+                                  "label": "Gastrin cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000542",
+                                  "label": "Lymphocyte",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0002275",
+                                  "label": "PP cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0005019",
+                                  "label": "Epsilon cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0008024",
+                                  "label": "Endocrine cell",
+                                  "type": "CellType"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "UBERON:0000017",
+                          "label": "Exocrine pancreas",
+                          "type": "AS",
+                          "children": [
+                            {
+                              "id": "UBERON:0001263",
+                              "label": "Pancreatic acinus",
+                              "type": "FTU",
+                              "children": [
+                                {
+                                  "id": "CL:0002064",
+                                  "label": "Acinar cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:1001599",
+                                  "label": "Pancreas exocrine glandular cell",
+                                  "type": "CellType"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UBERON:0010373",
+              "label": "Uncinate process of pancreas",
+              "type": "AS",
+              "children": [
+                {
+                  "id": "UBERON:0007324",
+                  "label": "Pancreas lobule",
+                  "type": "AS",
+                  "children": [
+                    {
+                      "id": "UBERON:0001978",
+                      "label": "Parenchyma of pancreas",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:0000016",
+                          "label": "Endocrine pancreas",
+                          "type": "AS",
+                          "children": [
+                            {
+                              "id": "UBERON:0000006",
+                              "label": "Islet of Langerhans",
+                              "type": "FTU",
+                              "children": [
+                                {
+                                  "id": "CL:0000084",
+                                  "label": "T lymphocyte",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000169",
+                                  "label": "Beta cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000171",
+                                  "label": "Alpha cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000173",
+                                  "label": "Delta cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000235",
+                                  "label": "Macrophage",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000236",
+                                  "label": "B lymphocyte",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000451",
+                                  "label": "Dendritic cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000509",
+                                  "label": "Gastrin cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000542",
+                                  "label": "Lymphocyte",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0002275",
+                                  "label": "PP cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0005019",
+                                  "label": "Epsilon cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0008024",
+                                  "label": "Endocrine cell",
+                                  "type": "CellType"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "UBERON:0000017",
+                          "label": "Exocrine pancreas",
+                          "type": "AS",
+                          "children": [
+                            {
+                              "id": "UBERON:0001263",
+                              "label": "Pancreatic acinus",
+                              "type": "FTU",
+                              "children": [
+                                {
+                                  "id": "CL:0002064",
+                                  "label": "Acinar cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:1001599",
+                                  "label": "Pancreas exocrine glandular cell",
+                                  "type": "CellType"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "UBERON:0001150",
+          "label": "Body of pancreas",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0007324",
+              "label": "Pancreas lobule",
+              "type": "AS",
+              "children": [
+                {
+                  "id": "UBERON:0001978",
+                  "label": "Parenchyma of pancreas",
+                  "type": "AS",
+                  "children": [
+                    {
+                      "id": "UBERON:0000016",
+                      "label": "Endocrine pancreas",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:0000006",
+                          "label": "Islet of Langerhans",
+                          "type": "FTU",
+                          "children": [
+                            {
+                              "id": "CL:0000084",
+                              "label": "T lymphocyte",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000169",
+                              "label": "Beta cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000171",
+                              "label": "Alpha cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000173",
+                              "label": "Delta cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000235",
+                              "label": "Macrophage",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000236",
+                              "label": "B lymphocyte",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000451",
+                              "label": "Dendritic cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000509",
+                              "label": "Gastrin cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000542",
+                              "label": "Lymphocyte",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0002275",
+                              "label": "PP cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0005019",
+                              "label": "Epsilon cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0008024",
+                              "label": "Endocrine cell",
+                              "type": "CellType"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "UBERON:0000017",
+                      "label": "Exocrine pancreas",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:0001263",
+                          "label": "Pancreatic acinus",
+                          "type": "FTU",
+                          "children": [
+                            {
+                              "id": "CL:0002064",
+                              "label": "Acinar cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:1001599",
+                              "label": "Pancreas exocrine glandular cell",
+                              "type": "CellType"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "UBERON:0001151",
+          "label": "Tail of pancreas",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0007324",
+              "label": "Pancreas lobule",
+              "type": "AS",
+              "children": [
+                {
+                  "id": "UBERON:0001978",
+                  "label": "Parenchyma of pancreas",
+                  "type": "AS",
+                  "children": [
+                    {
+                      "id": "UBERON:0000016",
+                      "label": "Endocrine pancreas",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:0000006",
+                          "label": "Islet of Langerhans",
+                          "type": "FTU",
+                          "children": [
+                            {
+                              "id": "CL:0000084",
+                              "label": "T lymphocyte",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000169",
+                              "label": "Beta cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000171",
+                              "label": "Alpha cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000173",
+                              "label": "Delta cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000235",
+                              "label": "Macrophage",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000236",
+                              "label": "B lymphocyte",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000451",
+                              "label": "Dendritic cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000509",
+                              "label": "Gastrin cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000542",
+                              "label": "Lymphocyte",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0002275",
+                              "label": "PP cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0005019",
+                              "label": "Epsilon cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0008024",
+                              "label": "Endocrine cell",
+                              "type": "CellType"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "UBERON:0000017",
+                      "label": "Exocrine pancreas",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:0001263",
+                          "label": "Pancreatic acinus",
+                          "type": "FTU",
+                          "children": [
+                            {
+                              "id": "CL:0002064",
+                              "label": "Acinar cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:1001599",
+                              "label": "Pancreas exocrine glandular cell",
+                              "type": "CellType"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0009709",
+      "label": "Ventral pancreas",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0001069",
+          "label": "Head of pancreas",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0007324",
+              "label": "Pancreas lobule",
+              "type": "AS",
+              "children": [
+                {
+                  "id": "UBERON:0001978",
+                  "label": "Parenchyma of pancreas",
+                  "type": "AS",
+                  "children": [
+                    {
+                      "id": "UBERON:0000016",
+                      "label": "Endocrine pancreas",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:0000006",
+                          "label": "Islet of Langerhans",
+                          "type": "FTU",
+                          "children": [
+                            {
+                              "id": "CL:0000084",
+                              "label": "T lymphocyte",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000169",
+                              "label": "Beta cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000171",
+                              "label": "Alpha cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000173",
+                              "label": "Delta cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000235",
+                              "label": "Macrophage",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000236",
+                              "label": "B lymphocyte",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000451",
+                              "label": "Dendritic cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000509",
+                              "label": "Gastrin cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0000542",
+                              "label": "Lymphocyte",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0002275",
+                              "label": "PP cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0005019",
+                              "label": "Epsilon cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:0008024",
+                              "label": "Endocrine cell",
+                              "type": "CellType"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "UBERON:0000017",
+                      "label": "Exocrine pancreas",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:0001263",
+                          "label": "Pancreatic acinus",
+                          "type": "FTU",
+                          "children": [
+                            {
+                              "id": "CL:0002064",
+                              "label": "Acinar cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:1001599",
+                              "label": "Pancreas exocrine glandular cell",
+                              "type": "CellType"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "FMA:14517",
+              "label": "Neck of pancreas",
+              "type": "AS",
+              "children": [
+                {
+                  "id": "UBERON:0007324",
+                  "label": "Pancreas lobule",
+                  "type": "AS",
+                  "children": [
+                    {
+                      "id": "UBERON:0001978",
+                      "label": "Parenchyma of pancreas",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:0000016",
+                          "label": "Endocrine pancreas",
+                          "type": "AS",
+                          "children": [
+                            {
+                              "id": "UBERON:0000006",
+                              "label": "Islet of Langerhans",
+                              "type": "FTU",
+                              "children": [
+                                {
+                                  "id": "CL:0000084",
+                                  "label": "T lymphocyte",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000169",
+                                  "label": "Beta cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000171",
+                                  "label": "Alpha cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000173",
+                                  "label": "Delta cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000235",
+                                  "label": "Macrophage",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000236",
+                                  "label": "B lymphocyte",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000451",
+                                  "label": "Dendritic cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000509",
+                                  "label": "Gastrin cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000542",
+                                  "label": "Lymphocyte",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0002275",
+                                  "label": "PP cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0005019",
+                                  "label": "Epsilon cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0008024",
+                                  "label": "Endocrine cell",
+                                  "type": "CellType"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "UBERON:0000017",
+                          "label": "Exocrine pancreas",
+                          "type": "AS",
+                          "children": [
+                            {
+                              "id": "UBERON:0001263",
+                              "label": "Pancreatic acinus",
+                              "type": "FTU",
+                              "children": [
+                                {
+                                  "id": "CL:0002064",
+                                  "label": "Acinar cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:1001599",
+                                  "label": "Pancreas exocrine glandular cell",
+                                  "type": "CellType"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UBERON:0010373",
+              "label": "Uncinate process of pancreas",
+              "type": "AS",
+              "children": [
+                {
+                  "id": "UBERON:0007324",
+                  "label": "Pancreas lobule",
+                  "type": "AS",
+                  "children": [
+                    {
+                      "id": "UBERON:0001978",
+                      "label": "Parenchyma of pancreas",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:0000016",
+                          "label": "Endocrine pancreas",
+                          "type": "AS",
+                          "children": [
+                            {
+                              "id": "UBERON:0000006",
+                              "label": "Islet of Langerhans",
+                              "type": "FTU",
+                              "children": [
+                                {
+                                  "id": "CL:0000084",
+                                  "label": "T lymphocyte",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000169",
+                                  "label": "Beta cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000171",
+                                  "label": "Alpha cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000173",
+                                  "label": "Delta cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000235",
+                                  "label": "Macrophage",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000236",
+                                  "label": "B lymphocyte",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000451",
+                                  "label": "Dendritic cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000509",
+                                  "label": "Gastrin cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0000542",
+                                  "label": "Lymphocyte",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0002275",
+                                  "label": "PP cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0005019",
+                                  "label": "Epsilon cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:0008024",
+                                  "label": "Endocrine cell",
+                                  "type": "CellType"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "UBERON:0000017",
+                          "label": "Exocrine pancreas",
+                          "type": "AS",
+                          "children": [
+                            {
+                              "id": "UBERON:0001263",
+                              "label": "Pancreatic acinus",
+                              "type": "FTU",
+                              "children": [
+                                {
+                                  "id": "CL:0002064",
+                                  "label": "Acinar cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:1001599",
+                                  "label": "Pancreas exocrine glandular cell",
+                                  "type": "CellType"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0014725",
+      "label": "UBERON:0014725",
+      "type": "FTU"
+    }
+  ]
+}

@@ -1,0 +1,671 @@
+{
+  "id": "UBERON:0000059",
+  "label": "large-intestine",
+  "type": "AS",
+  "children": [
+    {
+      "id": "UBERON:0000569",
+      "label": "ileocecal valve",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0000317",
+          "label": "mucosa",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001984",
+              "label": "crypt of Lieberkuhn of large intestine",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:0000041",
+                  "label": "eosinophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000165",
+                  "label": "neuroendocrine",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0002071",
+                  "label": "absorptive",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009009",
+                  "label": "Paneth",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009011",
+                  "label": "transient amplifying cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009016",
+                  "label": "epithelial stem cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0019032",
+                  "label": "tuft cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000321",
+                  "label": "goblet",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0001156",
+      "label": "ascending colon",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0000317",
+          "label": "mucosa",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001984",
+              "label": "crypt of Lieberkuhn of large intestine",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:0000041",
+                  "label": "eosinophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000165",
+                  "label": "neuroendocrine",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0002071",
+                  "label": "absorptive",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009009",
+                  "label": "Paneth",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009011",
+                  "label": "transient amplifying cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009016",
+                  "label": "epithelial stem cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0019032",
+                  "label": "tuft cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000321",
+                  "label": "goblet",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "UBERON:0004990",
+          "label": "mucosa",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001984",
+              "label": "crypt of Lieberkuhn of large intestine",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:0000041",
+                  "label": "eosinophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000165",
+                  "label": "neuroendocrine",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0002071",
+                  "label": "absorptive",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009009",
+                  "label": "Paneth",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009011",
+                  "label": "transient amplifying cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009016",
+                  "label": "epithelial stem cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0019032",
+                  "label": "tuft cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000321",
+                  "label": "goblet",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0022277",
+      "label": "hepatic flexure",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0000317",
+          "label": "mucosa",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001984",
+              "label": "crypt of Lieberkuhn of large intestine",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:0000041",
+                  "label": "eosinophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000165",
+                  "label": "neuroendocrine",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0002071",
+                  "label": "absorptive",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009009",
+                  "label": "Paneth",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009011",
+                  "label": "transient amplifying cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009016",
+                  "label": "epithelial stem cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0019032",
+                  "label": "tuft cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000321",
+                  "label": "goblet",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0022276",
+      "label": "splenic flexure",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0000317",
+          "label": "mucosa",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001984",
+              "label": "crypt of Lieberkuhn of large intestine",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:0000041",
+                  "label": "eosinophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000165",
+                  "label": "neuroendocrine",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0002071",
+                  "label": "absorptive",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009009",
+                  "label": "Paneth",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009011",
+                  "label": "transient amplifying cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009016",
+                  "label": "epithelial stem cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0019032",
+                  "label": "tuft cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000321",
+                  "label": "goblet",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0001153",
+      "label": "cecum",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0000314",
+          "label": "mucosa",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001984",
+              "label": "crypt of Lieberkuhn of large intestine",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:0000041",
+                  "label": "eosinophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000165",
+                  "label": "neuroendocrine",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0002071",
+                  "label": "absorptive",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009009",
+                  "label": "Paneth",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009011",
+                  "label": "transient amplifying cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009016",
+                  "label": "epithelial stem cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0019032",
+                  "label": "tuft cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000321",
+                  "label": "goblet",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0001154",
+      "label": "appendix",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0004989",
+          "label": "mucosa",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001984",
+              "label": "crypt of Lieberkuhn of large intestine",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:0000041",
+                  "label": "eosinophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000165",
+                  "label": "neuroendocrine",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0002071",
+                  "label": "absorptive",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009009",
+                  "label": "Paneth",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009011",
+                  "label": "transient amplifying cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009016",
+                  "label": "epithelial stem cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0019032",
+                  "label": "tuft cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000321",
+                  "label": "goblet",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0001157",
+      "label": "transverse colon",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0004991",
+          "label": "mucosa",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001984",
+              "label": "crypt of Lieberkuhn of large intestine",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:0000041",
+                  "label": "eosinophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000165",
+                  "label": "neuroendocrine",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0002071",
+                  "label": "absorptive",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009009",
+                  "label": "Paneth",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009011",
+                  "label": "transient amplifying cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009016",
+                  "label": "epithelial stem cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0019032",
+                  "label": "tuft cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000321",
+                  "label": "goblet",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0001158",
+      "label": "descending colon",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0004992",
+          "label": "mucosa",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001984",
+              "label": "crypt of Lieberkuhn of large intestine",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:0000041",
+                  "label": "eosinophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000165",
+                  "label": "neuroendocrine",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0002071",
+                  "label": "absorptive",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009009",
+                  "label": "Paneth",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009011",
+                  "label": "transient amplifying cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009016",
+                  "label": "epithelial stem cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0019032",
+                  "label": "tuft cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000321",
+                  "label": "goblet",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0001159",
+      "label": "sigmoid colon",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0004993",
+          "label": "mucosa",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001984",
+              "label": "crypt of Lieberkuhn of large intestine",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:0000041",
+                  "label": "eosinophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000165",
+                  "label": "neuroendocrine",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0002071",
+                  "label": "absorptive",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009009",
+                  "label": "Paneth",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009011",
+                  "label": "transient amplifying cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009016",
+                  "label": "epithelial stem cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0019032",
+                  "label": "tuft cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000321",
+                  "label": "goblet",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0001052",
+      "label": "rectum",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0003346",
+          "label": "mucosa",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001984",
+              "label": "crypt of Lieberkuhn of large intestine",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:0000041",
+                  "label": "eosinophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000165",
+                  "label": "neuroendocrine",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0002071",
+                  "label": "absorptive",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009009",
+                  "label": "Paneth",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009011",
+                  "label": "transient amplifying cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009016",
+                  "label": "epithelial stem cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0019032",
+                  "label": "tuft cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000321",
+                  "label": "goblet",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

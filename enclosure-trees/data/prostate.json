@@ -1,0 +1,2877 @@
+{
+    "$schema": "https://cdn.humanatlas.io/digital-objects/schema/asct-b/latest/assets/schema.json",
+    "@context": "https://cdn.humanatlas.io/digital-objects/schema/asct-b/latest/assets/schema.context.jsonld",
+    "@type": "Container",
+    "iri": "https://purl.humanatlas.io/asct-b/prostate",
+    "metadata": {
+        "title": "prostate (v1.1) graph data",
+        "description": "The graph representation of the Anatomical Structures, Cell Types, plus Biomarkers (ASCT+B) table for Prostate dataset.",
+        "created_by": [
+            "https://github.com/hubmapconsortium/hra-do-processor"
+        ],
+        "creation_date": "2025-08-23",
+        "version": "v1.1",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": "HuBMAP",
+        "see_also": "https://lod.humanatlas.io/asct-b/prostate/v1.1",
+        "derived_from": "https://lod.humanatlas.io/asct-b/prostate/v1.1#raw-data"
+    },
+    "data": {
+        "anatomical_structures": [
+            {
+                "id": "UBERON:0001062",
+                "ccf_pref_label": "UBERON anatomical structure",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "parent_class": "ccf:AnatomicalStructure"
+            },
+            {
+                "id": "FMA:62955",
+                "ccf_pref_label": "FMA anatomical structure",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "parent_class": "ccf:AnatomicalStructure"
+            },
+            {
+                "id": "FMA:29733",
+                "ccf_pref_label": "General anatomical term",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "parent_class": "ccf:AnatomicalStructure"
+            },
+            {
+                "id": "UBERON:0013702",
+                "ccf_pref_label": "body proper",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure"
+            },
+            {
+                "id": "UBERON:0002367",
+                "ccf_pref_label": "prostate gland",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "ccf_part_of": [
+                    "UBERON:0013702"
+                ]
+            },
+            {
+                "id": "UBERON:0000428",
+                "ccf_pref_label": "prostate epithelium",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "ccf_part_of": [
+                    "UBERON:0002367"
+                ]
+            },
+            {
+                "id": "UBERON:0004179",
+                "ccf_pref_label": "Prostate Glandular Acinus",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "ccf_part_of": [
+                    "UBERON:0000428"
+                ]
+            },
+            {
+                "id": "UBERON:0004184",
+                "ccf_pref_label": "prostate stroma",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "ccf_part_of": [
+                    "UBERON:0002367"
+                ]
+            },
+            {
+                "id": "UBERON:0004243",
+                "ccf_pref_label": "prostate gland smooth muscle",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "ccf_part_of": [
+                    "UBERON:0004184"
+                ]
+            },
+            {
+                "id": "UBERON:0004537",
+                "ccf_pref_label": "vascular system",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "ccf_part_of": [
+                    "UBERON:0002367"
+                ]
+            },
+            {
+                "id": "UBERON:0001981",
+                "ccf_pref_label": "blood vessel",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "ccf_part_of": [
+                    "UBERON:0004537",
+                    "UBERON:0007798"
+                ]
+            },
+            {
+                "id": "UBERON:0004638",
+                "ccf_pref_label": "blood vessel endothelium",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "ccf_part_of": [
+                    "UBERON:0001981"
+                ]
+            },
+            {
+                "id": "UBERON:0004536",
+                "ccf_pref_label": "lymph vasculature",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "ccf_part_of": [
+                    "UBERON:0002367"
+                ]
+            },
+            {
+                "id": "UBERON:0001473",
+                "ccf_pref_label": "lymph vessel",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "ccf_part_of": [
+                    "UBERON:0004536"
+                ]
+            },
+            {
+                "id": "UBERON:0007798",
+                "ccf_pref_label": "vascular system",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "ccf_part_of": [
+                    "UBERON:0002367"
+                ]
+            },
+            {
+                "id": "UBERON:0004237",
+                "ccf_pref_label": "vascular smooth muscle",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "ccf_part_of": [
+                    "UBERON:0001981"
+                ]
+            },
+            {
+                "id": "UBERON:0001335",
+                "ccf_pref_label": "prostatic urethra",
+                "ccf_asctb_type": "AS",
+                "ccf_is_provisional": false,
+                "conforms_to": "AnatomicalStructure",
+                "ccf_part_of": [
+                    "UBERON:0002367"
+                ]
+            }
+        ],
+        "cell_types": [
+            {
+                "id": "CL:0000000",
+                "ccf_pref_label": "CL cell type",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "parent_class": "ccf:CellType"
+            },
+            {
+                "id": "LMHA:00135",
+                "ccf_pref_label": "LMHA cell type",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "parent_class": "ccf:CellType"
+            },
+            {
+                "id": "CL:0002340",
+                "ccf_pref_label": "luminal epithelia",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000000"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0000428",
+                    "UBERON:0004179"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:7372",
+                            "HGNC:6364",
+                            "HGNC:125"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:0002341",
+                "ccf_pref_label": "basal epithelia",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000000"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0000428",
+                    "UBERON:0004179"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:6442",
+                            "HGNC:6416",
+                            "HGNC:10492"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:0017002",
+                "ccf_pref_label": "neuroendocrine epithelia",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000000"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0000428"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:1929",
+                            "HGNC:4605",
+                            "HGNC:10575"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:0005006",
+                "ccf_pref_label": "ionocyte epithelia",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000000"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0000428"
+                ]
+            },
+            {
+                "id": "https://purl.org/ccf/ASCTB-TEMP_ionocyte-epithelia",
+                "ccf_pref_label": "ionocyte epithelia",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": true,
+                "label": "ionocyte epithelia",
+                "conforms_to": "CellType",
+                "parent_class": "ccf:CellType",
+                "ccf_ct_isa": [
+                    "CL:0005006"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0000428"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:3815",
+                            "HGNC:866",
+                            "HGNC:2855"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:1000487",
+                "ccf_pref_label": "prostate smooth muscle",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000000"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0004184",
+                    "UBERON:0004243"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:2770",
+                            "HGNC:145",
+                            "HGNC:130"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:1000301",
+                "ccf_pref_label": "periprostatic fibroblast",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000000"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0004184"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:612",
+                            "HGNC:9592",
+                            "HGNC:2705"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:1000299",
+                "ccf_pref_label": "interstitial fibroblast",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000000"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0004184"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:1346",
+                            "HGNC:7035",
+                            "HGNC:2705"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:0000071",
+                "ccf_pref_label": "blood vessel endothelial cell",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000000"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0004537",
+                    "UBERON:0001981",
+                    "UBERON:0004638"
+                ]
+            },
+            {
+                "id": "CL:1000413",
+                "ccf_pref_label": "endothelial cell of artery",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000071"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0004537",
+                    "UBERON:0001981",
+                    "UBERON:0004638"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:4278",
+                            "HGNC:5472",
+                            "HGNC:8823"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:0002144",
+                "ccf_pref_label": "capillary endothelial cell",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000071"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0004537",
+                    "UBERON:0001981",
+                    "UBERON:0004638"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:4274",
+                            "HGNC:1375",
+                            "HGNC:8823"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:0002543",
+                "ccf_pref_label": "vein endothelial cell",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000071"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0004537",
+                    "UBERON:0001981",
+                    "UBERON:0004638"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:10721",
+                            "HGNC:2438",
+                            "HGNC:8823"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:0002138",
+                "ccf_pref_label": "endothelial cell of lymphatic vessel",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000000"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0004536",
+                    "UBERON:0001473"
+                ]
+            },
+            {
+                "id": "CL:0009115",
+                "ccf_pref_label": "lymph node lymphatic vessel endothelial cell",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0002138"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0004536",
+                    "UBERON:0001473"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:14687",
+                            "HGNC:3767",
+                            "HGNC:8823"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:0000359",
+                "ccf_pref_label": "vascular associated smooth muscle cell",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000000"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0007798",
+                    "UBERON:0001981",
+                    "UBERON:0004237"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:130",
+                            "HGNC:6934",
+                            "HGNC:1663"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:0000669",
+                "ccf_pref_label": "perictye",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000000"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0007798",
+                    "UBERON:0001981"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:130",
+                            "HGNC:29836",
+                            "HGNC:4278"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:1000486",
+                "ccf_pref_label": "basal cell of urothelium",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000000"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0001335"
+                ]
+            },
+            {
+                "id": "https://purl.org/ccf/ASCTB-TEMP_basal-cell-of-prostatic-urethra",
+                "ccf_pref_label": "basal cell of prostatic urethra",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": true,
+                "label": "basal cell of prostatic urethra",
+                "conforms_to": "CellType",
+                "parent_class": "ccf:CellType",
+                "ccf_ct_isa": [
+                    "CL:1000486"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0001335"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:6442",
+                            "HGNC:10492",
+                            "HGNC:6421"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:4032000",
+                "ccf_pref_label": "club epithelia",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000000"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0001335"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:18384",
+                            "HGNC:8968",
+                            "HGNC:13572"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "CL:0017011",
+                "ccf_pref_label": "hillock epithelia",
+                "ccf_asctb_type": "CT",
+                "ccf_is_provisional": false,
+                "conforms_to": "CellType",
+                "ccf_ct_isa": [
+                    "CL:0000000"
+                ],
+                "ccf_located_in": [
+                    "UBERON:0002367",
+                    "UBERON:0001335"
+                ],
+                "has_characterizing_marker_set": [
+                    {
+                        "members": [
+                            "HGNC:6415",
+                            "HGNC:24880",
+                            "HGNC:384"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "biomarkers": [
+            {
+                "id": "HGNCO:gene",
+                "ccf_pref_label": "gene",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "parent_class": "ccf:Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:7372",
+                "ccf_pref_label": "MSMB",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:6364",
+                "ccf_pref_label": "KLK3",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:125",
+                "ccf_pref_label": "ACPP",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:6442",
+                "ccf_pref_label": "KRT5",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:6416",
+                "ccf_pref_label": "KRT14",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:10492",
+                "ccf_pref_label": "S100A2",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:1929",
+                "ccf_pref_label": "CHGA",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:4605",
+                "ccf_pref_label": "GRP",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:10575",
+                "ccf_pref_label": "SCG2",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:3815",
+                "ccf_pref_label": "FOXI1",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:866",
+                "ccf_pref_label": "ATP6V0A4",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:2855",
+                "ccf_pref_label": "DGKI",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:2770",
+                "ccf_pref_label": "DES",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:145",
+                "ccf_pref_label": "ACTG2",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:130",
+                "ccf_pref_label": "ACTA2",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:612",
+                "ccf_pref_label": "APOD",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:9592",
+                "ccf_pref_label": "PTGDS",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:2705",
+                "ccf_pref_label": "DCN",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:1346",
+                "ccf_pref_label": "C7",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:7035",
+                "ccf_pref_label": "MFAP4",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:4278",
+                "ccf_pref_label": "GJA4",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:5472",
+                "ccf_pref_label": "IGFBP3",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:8823",
+                "ccf_pref_label": "PECAM1",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:4274",
+                "ccf_pref_label": "GJA1",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:1375",
+                "ccf_pref_label": "CA4",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:10721",
+                "ccf_pref_label": "SELP",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:2438",
+                "ccf_pref_label": "CSF3",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:14687",
+                "ccf_pref_label": "LYVE1",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:3767",
+                "ccf_pref_label": "FLT4",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:6934",
+                "ccf_pref_label": "MCAM",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:1663",
+                "ccf_pref_label": "CD36",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:29836",
+                "ccf_pref_label": "NDUFA4L2",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:6421",
+                "ccf_pref_label": "KRT15",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:18384",
+                "ccf_pref_label": "SCGB3A1",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:8968",
+                "ccf_pref_label": "PIGR",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:13572",
+                "ccf_pref_label": "FCGBP",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:6415",
+                "ccf_pref_label": "KRT13",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:24880",
+                "ccf_pref_label": "LYPD3",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            },
+            {
+                "id": "HGNC:384",
+                "ccf_pref_label": "AKR1C1",
+                "ccf_asctb_type": "BM",
+                "ccf_is_provisional": false,
+                "conforms_to": "Biomarker",
+                "ccf_biomarker_type": "gene"
+            }
+        ],
+        "asctb_record": [
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R1",
+                "record_number": 1,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R1-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 1,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 1, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R1-AS2",
+                        "ccf_pref_label": "prostate epithelium",
+                        "source_concept": "UBERON:0000428",
+                        "record_number": 1,
+                        "order_number": 2,
+                        "label": "prostate epithelium (Table prostate, Record 1, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R1-AS3",
+                        "ccf_pref_label": "Prostate Glandular Acinus",
+                        "source_concept": "UBERON:0004179",
+                        "record_number": 1,
+                        "order_number": 3,
+                        "label": "Prostate Glandular Acinus (Table prostate, Record 1, Column AS/3)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R1-CT1",
+                        "ccf_pref_label": "luminal epithelia",
+                        "source_concept": "CL:0002340",
+                        "record_number": 1,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "luminal epithelia (Table prostate, Record 1, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R1-BG1",
+                        "ccf_pref_label": "MSMB",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:7372",
+                        "record_number": 1,
+                        "order_number": 1,
+                        "label": "MSMB (Table prostate, Record 1, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R1-BG2",
+                        "ccf_pref_label": "KLK3",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:6364",
+                        "record_number": 1,
+                        "order_number": 2,
+                        "label": "KLK3 (Table prostate, Record 1, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R1-BG3",
+                        "ccf_pref_label": "ACPP",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:125",
+                        "record_number": 1,
+                        "order_number": 3,
+                        "label": "ACPP (Table prostate, Record 1, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "ftu_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R1-FTU1",
+                        "ccf_pref_label": "Prostate Glandular Acinus",
+                        "source_concept": "UBERON:0004179",
+                        "record_number": 1,
+                        "order_number": 1,
+                        "label": "Prostate Glandular Acinus (Table prostate, Record 1, Column FTU/1)",
+                        "type_of": [
+                            "ccf:FtuRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 1",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R2",
+                "record_number": 2,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R2-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 2,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 2, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R2-AS2",
+                        "ccf_pref_label": "prostate epithelium",
+                        "source_concept": "UBERON:0000428",
+                        "record_number": 2,
+                        "order_number": 2,
+                        "label": "prostate epithelium (Table prostate, Record 2, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R2-AS3",
+                        "ccf_pref_label": "Prostate Glandular Acinus",
+                        "source_concept": "UBERON:0004179",
+                        "record_number": 2,
+                        "order_number": 3,
+                        "label": "Prostate Glandular Acinus (Table prostate, Record 2, Column AS/3)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R2-CT1",
+                        "ccf_pref_label": "basal epithelia",
+                        "source_concept": "CL:0002341",
+                        "record_number": 2,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "basal epithelia (Table prostate, Record 2, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R2-BG1",
+                        "ccf_pref_label": "KRT5",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:6442",
+                        "record_number": 2,
+                        "order_number": 1,
+                        "label": "KRT5 (Table prostate, Record 2, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R2-BG2",
+                        "ccf_pref_label": "KRT14",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:6416",
+                        "record_number": 2,
+                        "order_number": 2,
+                        "label": "KRT14 (Table prostate, Record 2, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R2-BG3",
+                        "ccf_pref_label": "S100A2",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:10492",
+                        "record_number": 2,
+                        "order_number": 3,
+                        "label": "S100A2 (Table prostate, Record 2, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "ftu_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R2-FTU1",
+                        "ccf_pref_label": "Prostate Glandular Acinus",
+                        "source_concept": "UBERON:0004179",
+                        "record_number": 2,
+                        "order_number": 1,
+                        "label": "Prostate Glandular Acinus (Table prostate, Record 2, Column FTU/1)",
+                        "type_of": [
+                            "ccf:FtuRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 2",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R3",
+                "record_number": 3,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R3-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 3,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 3, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R3-AS2",
+                        "ccf_pref_label": "prostate epithelium",
+                        "source_concept": "UBERON:0000428",
+                        "record_number": 3,
+                        "order_number": 2,
+                        "label": "prostate epithelium (Table prostate, Record 3, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R3-CT1",
+                        "ccf_pref_label": "neuroendocrine epithelia",
+                        "source_concept": "CL:0017002",
+                        "record_number": 3,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "neuroendocrine epithelia (Table prostate, Record 3, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R3-BG1",
+                        "ccf_pref_label": "CHGA",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:1929",
+                        "record_number": 3,
+                        "order_number": 1,
+                        "label": "CHGA (Table prostate, Record 3, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R3-BG2",
+                        "ccf_pref_label": "GRP",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:4605",
+                        "record_number": 3,
+                        "order_number": 2,
+                        "label": "GRP (Table prostate, Record 3, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R3-BG3",
+                        "ccf_pref_label": "SCG2",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:10575",
+                        "record_number": 3,
+                        "order_number": 3,
+                        "label": "SCG2 (Table prostate, Record 3, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 3",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R4",
+                "record_number": 4,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R4-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 4,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 4, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R4-AS2",
+                        "ccf_pref_label": "prostate epithelium",
+                        "source_concept": "UBERON:0000428",
+                        "record_number": 4,
+                        "order_number": 2,
+                        "label": "prostate epithelium (Table prostate, Record 4, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R4-CT1",
+                        "ccf_pref_label": "ionocyte epithelia",
+                        "source_concept": "CL:0005006",
+                        "record_number": 4,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "ionocyte epithelia (Table prostate, Record 4, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R4-CT2",
+                        "ccf_pref_label": "ionocyte epithelia",
+                        "source_concept": "https://purl.org/ccf/ASCTB-TEMP_ionocyte-epithelia",
+                        "record_number": 4,
+                        "order_number": 2,
+                        "notes": "need to add to CL",
+                        "label": "ionocyte epithelia (Table prostate, Record 4, Column CT/2)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R4-BG1",
+                        "ccf_pref_label": "FOXI1",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:3815",
+                        "record_number": 4,
+                        "order_number": 1,
+                        "label": "FOXI1 (Table prostate, Record 4, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R4-BG2",
+                        "ccf_pref_label": "ATP6V0A4",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:866",
+                        "record_number": 4,
+                        "order_number": 2,
+                        "label": "ATP6V0A4 (Table prostate, Record 4, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R4-BG3",
+                        "ccf_pref_label": "DGKI",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:2855",
+                        "record_number": 4,
+                        "order_number": 3,
+                        "label": "DGKI (Table prostate, Record 4, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 4",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R5",
+                "record_number": 5,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R5-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 5,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 5, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R5-AS2",
+                        "ccf_pref_label": "prostate stroma",
+                        "source_concept": "UBERON:0004184",
+                        "record_number": 5,
+                        "order_number": 2,
+                        "label": "prostate stroma (Table prostate, Record 5, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R5-AS3",
+                        "ccf_pref_label": "prostate gland smooth muscle",
+                        "source_concept": "UBERON:0004243",
+                        "record_number": 5,
+                        "order_number": 3,
+                        "label": "prostate gland smooth muscle (Table prostate, Record 5, Column AS/3)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R5-CT1",
+                        "ccf_pref_label": "prostate smooth muscle",
+                        "source_concept": "CL:1000487",
+                        "record_number": 5,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "prostate smooth muscle (Table prostate, Record 5, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R5-BG1",
+                        "ccf_pref_label": "DES",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:2770",
+                        "record_number": 5,
+                        "order_number": 1,
+                        "label": "DES (Table prostate, Record 5, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R5-BG2",
+                        "ccf_pref_label": "ACTG2",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:145",
+                        "record_number": 5,
+                        "order_number": 2,
+                        "label": "ACTG2 (Table prostate, Record 5, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R5-BG3",
+                        "ccf_pref_label": "ACTA2",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:130",
+                        "record_number": 5,
+                        "order_number": 3,
+                        "label": "ACTA2 (Table prostate, Record 5, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "ftu_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R5-FTU1",
+                        "ccf_pref_label": "Prostate Glandular Acinus",
+                        "source_concept": "UBERON:0004179",
+                        "record_number": 5,
+                        "order_number": 1,
+                        "label": "Prostate Glandular Acinus (Table prostate, Record 5, Column FTU/1)",
+                        "type_of": [
+                            "ccf:FtuRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 5",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R6",
+                "record_number": 6,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R6-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 6,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 6, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R6-AS2",
+                        "ccf_pref_label": "prostate stroma",
+                        "source_concept": "UBERON:0004184",
+                        "record_number": 6,
+                        "order_number": 2,
+                        "label": "prostate stroma (Table prostate, Record 6, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R6-CT1",
+                        "ccf_pref_label": "periprostatic fibroblast",
+                        "source_concept": "CL:1000301",
+                        "record_number": 6,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "periprostatic fibroblast (Table prostate, Record 6, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R6-BG1",
+                        "ccf_pref_label": "APOD",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:612",
+                        "record_number": 6,
+                        "order_number": 1,
+                        "label": "APOD (Table prostate, Record 6, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R6-BG2",
+                        "ccf_pref_label": "PTGDS",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:9592",
+                        "record_number": 6,
+                        "order_number": 2,
+                        "label": "PTGDS (Table prostate, Record 6, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R6-BG3",
+                        "ccf_pref_label": "DCN",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:2705",
+                        "record_number": 6,
+                        "order_number": 3,
+                        "label": "DCN (Table prostate, Record 6, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "ftu_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R6-FTU1",
+                        "ccf_pref_label": "Prostate Glandular Acinus",
+                        "source_concept": "UBERON:0004179",
+                        "record_number": 6,
+                        "order_number": 1,
+                        "label": "Prostate Glandular Acinus (Table prostate, Record 6, Column FTU/1)",
+                        "type_of": [
+                            "ccf:FtuRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 6",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R7",
+                "record_number": 7,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R7-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 7,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 7, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R7-AS2",
+                        "ccf_pref_label": "prostate stroma",
+                        "source_concept": "UBERON:0004184",
+                        "record_number": 7,
+                        "order_number": 2,
+                        "label": "prostate stroma (Table prostate, Record 7, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R7-CT1",
+                        "ccf_pref_label": "interstitial fibroblast",
+                        "source_concept": "CL:1000299",
+                        "record_number": 7,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "interstitial fibroblast (Table prostate, Record 7, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R7-BG1",
+                        "ccf_pref_label": "C7",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:1346",
+                        "record_number": 7,
+                        "order_number": 1,
+                        "label": "C7 (Table prostate, Record 7, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R7-BG2",
+                        "ccf_pref_label": "MFAP4",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:7035",
+                        "record_number": 7,
+                        "order_number": 2,
+                        "label": "MFAP4 (Table prostate, Record 7, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R7-BG3",
+                        "ccf_pref_label": "DCN",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:2705",
+                        "record_number": 7,
+                        "order_number": 3,
+                        "label": "DCN (Table prostate, Record 7, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "ftu_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R7-FTU1",
+                        "ccf_pref_label": "Prostate Glandular Acinus",
+                        "source_concept": "UBERON:0004179",
+                        "record_number": 7,
+                        "order_number": 1,
+                        "label": "Prostate Glandular Acinus (Table prostate, Record 7, Column FTU/1)",
+                        "type_of": [
+                            "ccf:FtuRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 7",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R8",
+                "record_number": 8,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R8-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 8,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 8, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R8-AS2",
+                        "ccf_pref_label": "vascular system",
+                        "source_concept": "UBERON:0004537",
+                        "record_number": 8,
+                        "order_number": 2,
+                        "label": "vascular system (Table prostate, Record 8, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R8-AS3",
+                        "ccf_pref_label": "blood vessel",
+                        "source_concept": "UBERON:0001981",
+                        "record_number": 8,
+                        "order_number": 3,
+                        "label": "blood vessel (Table prostate, Record 8, Column AS/3)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R8-AS4",
+                        "ccf_pref_label": "blood vessel endothelium",
+                        "source_concept": "UBERON:0004638",
+                        "record_number": 8,
+                        "order_number": 4,
+                        "label": "blood vessel endothelium (Table prostate, Record 8, Column AS/4)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R8-CT1",
+                        "ccf_pref_label": "blood vessel endothelial cell",
+                        "source_concept": "CL:0000071",
+                        "record_number": 8,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "blood vessel endothelial cell (Table prostate, Record 8, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R8-CT2",
+                        "ccf_pref_label": "endothelial cell of artery",
+                        "source_concept": "CL:1000413",
+                        "record_number": 8,
+                        "order_number": 2,
+                        "notes": "",
+                        "label": "endothelial cell of artery (Table prostate, Record 8, Column CT/2)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R8-BG1",
+                        "ccf_pref_label": "GJA4",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:4278",
+                        "record_number": 8,
+                        "order_number": 1,
+                        "label": "GJA4 (Table prostate, Record 8, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R8-BG2",
+                        "ccf_pref_label": "IGFBP3",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:5472",
+                        "record_number": 8,
+                        "order_number": 2,
+                        "label": "IGFBP3 (Table prostate, Record 8, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R8-BG3",
+                        "ccf_pref_label": "PECAM1",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:8823",
+                        "record_number": 8,
+                        "order_number": 3,
+                        "label": "PECAM1 (Table prostate, Record 8, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 8",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R9",
+                "record_number": 9,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R9-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 9,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 9, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R9-AS2",
+                        "ccf_pref_label": "vascular system",
+                        "source_concept": "UBERON:0004537",
+                        "record_number": 9,
+                        "order_number": 2,
+                        "label": "vascular system (Table prostate, Record 9, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R9-AS3",
+                        "ccf_pref_label": "blood vessel",
+                        "source_concept": "UBERON:0001981",
+                        "record_number": 9,
+                        "order_number": 3,
+                        "label": "blood vessel (Table prostate, Record 9, Column AS/3)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R9-AS4",
+                        "ccf_pref_label": "blood vessel endothelium",
+                        "source_concept": "UBERON:0004638",
+                        "record_number": 9,
+                        "order_number": 4,
+                        "label": "blood vessel endothelium (Table prostate, Record 9, Column AS/4)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R9-CT1",
+                        "ccf_pref_label": "blood vessel endothelial cell",
+                        "source_concept": "CL:0000071",
+                        "record_number": 9,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "blood vessel endothelial cell (Table prostate, Record 9, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R9-CT2",
+                        "ccf_pref_label": "capillary endothelial cell",
+                        "source_concept": "CL:0002144",
+                        "record_number": 9,
+                        "order_number": 2,
+                        "notes": "",
+                        "label": "capillary endothelial cell (Table prostate, Record 9, Column CT/2)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R9-BG1",
+                        "ccf_pref_label": "GJA1",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:4274",
+                        "record_number": 9,
+                        "order_number": 1,
+                        "label": "GJA1 (Table prostate, Record 9, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R9-BG2",
+                        "ccf_pref_label": "CA4",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:1375",
+                        "record_number": 9,
+                        "order_number": 2,
+                        "label": "CA4 (Table prostate, Record 9, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R9-BG3",
+                        "ccf_pref_label": "PECAM1",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:8823",
+                        "record_number": 9,
+                        "order_number": 3,
+                        "label": "PECAM1 (Table prostate, Record 9, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "ftu_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R9-FTU1",
+                        "ccf_pref_label": "Prostate Glandular Acinus",
+                        "source_concept": "UBERON:0004179",
+                        "record_number": 9,
+                        "order_number": 1,
+                        "label": "Prostate Glandular Acinus (Table prostate, Record 9, Column FTU/1)",
+                        "type_of": [
+                            "ccf:FtuRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 9",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R10",
+                "record_number": 10,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R10-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 10,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 10, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R10-AS2",
+                        "ccf_pref_label": "vascular system",
+                        "source_concept": "UBERON:0004537",
+                        "record_number": 10,
+                        "order_number": 2,
+                        "label": "vascular system (Table prostate, Record 10, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R10-AS3",
+                        "ccf_pref_label": "blood vessel",
+                        "source_concept": "UBERON:0001981",
+                        "record_number": 10,
+                        "order_number": 3,
+                        "label": "blood vessel (Table prostate, Record 10, Column AS/3)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R10-AS4",
+                        "ccf_pref_label": "blood vessel endothelium",
+                        "source_concept": "UBERON:0004638",
+                        "record_number": 10,
+                        "order_number": 4,
+                        "label": "blood vessel endothelium (Table prostate, Record 10, Column AS/4)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R10-CT1",
+                        "ccf_pref_label": "blood vessel endothelial cell",
+                        "source_concept": "CL:0000071",
+                        "record_number": 10,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "blood vessel endothelial cell (Table prostate, Record 10, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R10-CT2",
+                        "ccf_pref_label": "vein endothelial cell",
+                        "source_concept": "CL:0002543",
+                        "record_number": 10,
+                        "order_number": 2,
+                        "notes": "",
+                        "label": "vein endothelial cell (Table prostate, Record 10, Column CT/2)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R10-BG1",
+                        "ccf_pref_label": "SELP",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:10721",
+                        "record_number": 10,
+                        "order_number": 1,
+                        "label": "SELP (Table prostate, Record 10, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R10-BG2",
+                        "ccf_pref_label": "CSF3",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:2438",
+                        "record_number": 10,
+                        "order_number": 2,
+                        "label": "CSF3 (Table prostate, Record 10, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R10-BG3",
+                        "ccf_pref_label": "PECAM1",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:8823",
+                        "record_number": 10,
+                        "order_number": 3,
+                        "label": "PECAM1 (Table prostate, Record 10, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 10",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R11",
+                "record_number": 11,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R11-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 11,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 11, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R11-AS2",
+                        "ccf_pref_label": "lymph vasculature",
+                        "source_concept": "UBERON:0004536",
+                        "record_number": 11,
+                        "order_number": 2,
+                        "label": "lymph vasculature (Table prostate, Record 11, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R11-AS3",
+                        "ccf_pref_label": "lymph vessel",
+                        "source_concept": "UBERON:0001473",
+                        "record_number": 11,
+                        "order_number": 3,
+                        "label": "lymph vessel (Table prostate, Record 11, Column AS/3)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R11-CT1",
+                        "ccf_pref_label": "endothelial cell of lymphatic vessel",
+                        "source_concept": "CL:0002138",
+                        "record_number": 11,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "endothelial cell of lymphatic vessel (Table prostate, Record 11, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R11-CT2",
+                        "ccf_pref_label": "lymph node lymphatic vessel endothelial cell",
+                        "source_concept": "CL:0009115",
+                        "record_number": 11,
+                        "order_number": 2,
+                        "notes": "",
+                        "label": "lymph node lymphatic vessel endothelial cell (Table prostate, Record 11, Column CT/2)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R11-BG1",
+                        "ccf_pref_label": "LYVE1",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:14687",
+                        "record_number": 11,
+                        "order_number": 1,
+                        "label": "LYVE1 (Table prostate, Record 11, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R11-BG2",
+                        "ccf_pref_label": "FLT4",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:3767",
+                        "record_number": 11,
+                        "order_number": 2,
+                        "label": "FLT4 (Table prostate, Record 11, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R11-BG3",
+                        "ccf_pref_label": "PECAM1",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:8823",
+                        "record_number": 11,
+                        "order_number": 3,
+                        "label": "PECAM1 (Table prostate, Record 11, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 11",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R12",
+                "record_number": 12,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R12-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 12,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 12, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R12-AS2",
+                        "ccf_pref_label": "vascular system",
+                        "source_concept": "UBERON:0007798",
+                        "record_number": 12,
+                        "order_number": 2,
+                        "label": "vascular system (Table prostate, Record 12, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R12-AS3",
+                        "ccf_pref_label": "blood vessel",
+                        "source_concept": "UBERON:0001981",
+                        "record_number": 12,
+                        "order_number": 3,
+                        "label": "blood vessel (Table prostate, Record 12, Column AS/3)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R12-AS4",
+                        "ccf_pref_label": "vascular smooth muscle",
+                        "source_concept": "UBERON:0004237",
+                        "record_number": 12,
+                        "order_number": 4,
+                        "label": "vascular smooth muscle (Table prostate, Record 12, Column AS/4)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R12-CT1",
+                        "ccf_pref_label": "vascular associated smooth muscle cell",
+                        "source_concept": "CL:0000359",
+                        "record_number": 12,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "vascular associated smooth muscle cell (Table prostate, Record 12, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R12-BG1",
+                        "ccf_pref_label": "ACTA2",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:130",
+                        "record_number": 12,
+                        "order_number": 1,
+                        "label": "ACTA2 (Table prostate, Record 12, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R12-BG2",
+                        "ccf_pref_label": "MCAM",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:6934",
+                        "record_number": 12,
+                        "order_number": 2,
+                        "label": "MCAM (Table prostate, Record 12, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R12-BG3",
+                        "ccf_pref_label": "CD36",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:1663",
+                        "record_number": 12,
+                        "order_number": 3,
+                        "label": "CD36 (Table prostate, Record 12, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "ftu_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R12-FTU1",
+                        "ccf_pref_label": "Prostate Glandular Acinus",
+                        "source_concept": "UBERON:0004179",
+                        "record_number": 12,
+                        "order_number": 1,
+                        "label": "Prostate Glandular Acinus (Table prostate, Record 12, Column FTU/1)",
+                        "type_of": [
+                            "ccf:FtuRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 12",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R13",
+                "record_number": 13,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R13-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 13,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 13, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R13-AS2",
+                        "ccf_pref_label": "vascular system",
+                        "source_concept": "UBERON:0007798",
+                        "record_number": 13,
+                        "order_number": 2,
+                        "label": "vascular system (Table prostate, Record 13, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R13-AS3",
+                        "ccf_pref_label": "blood vessel",
+                        "source_concept": "UBERON:0001981",
+                        "record_number": 13,
+                        "order_number": 3,
+                        "label": "blood vessel (Table prostate, Record 13, Column AS/3)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R13-CT1",
+                        "ccf_pref_label": "perictye",
+                        "source_concept": "CL:0000669",
+                        "record_number": 13,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "perictye (Table prostate, Record 13, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R13-BG1",
+                        "ccf_pref_label": "ACTA2",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:130",
+                        "record_number": 13,
+                        "order_number": 1,
+                        "label": "ACTA2 (Table prostate, Record 13, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R13-BG2",
+                        "ccf_pref_label": "NDUFA4L2",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:29836",
+                        "record_number": 13,
+                        "order_number": 2,
+                        "label": "NDUFA4L2 (Table prostate, Record 13, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R13-BG3",
+                        "ccf_pref_label": "GJA4",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:4278",
+                        "record_number": 13,
+                        "order_number": 3,
+                        "label": "GJA4 (Table prostate, Record 13, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "ftu_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R13-FTU1",
+                        "ccf_pref_label": "Prostate Glandular Acinus",
+                        "source_concept": "UBERON:0004179",
+                        "record_number": 13,
+                        "order_number": 1,
+                        "label": "Prostate Glandular Acinus (Table prostate, Record 13, Column FTU/1)",
+                        "type_of": [
+                            "ccf:FtuRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 13",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R14",
+                "record_number": 14,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R14-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 14,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 14, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R14-AS2",
+                        "ccf_pref_label": "prostatic urethra",
+                        "source_concept": "UBERON:0001335",
+                        "record_number": 14,
+                        "order_number": 2,
+                        "label": "prostatic urethra (Table prostate, Record 14, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R14-CT1",
+                        "ccf_pref_label": "basal cell of urothelium",
+                        "source_concept": "CL:1000486",
+                        "record_number": 14,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "basal cell of urothelium (Table prostate, Record 14, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R14-CT2",
+                        "ccf_pref_label": "basal cell of prostatic urethra",
+                        "source_concept": "https://purl.org/ccf/ASCTB-TEMP_basal-cell-of-prostatic-urethra",
+                        "record_number": 14,
+                        "order_number": 2,
+                        "notes": "need to add to CL",
+                        "label": "basal cell of prostatic urethra (Table prostate, Record 14, Column CT/2)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R14-BG1",
+                        "ccf_pref_label": "KRT5",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:6442",
+                        "record_number": 14,
+                        "order_number": 1,
+                        "label": "KRT5 (Table prostate, Record 14, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R14-BG2",
+                        "ccf_pref_label": "S100A2",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:10492",
+                        "record_number": 14,
+                        "order_number": 2,
+                        "label": "S100A2 (Table prostate, Record 14, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R14-BG3",
+                        "ccf_pref_label": "KRT15",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:6421",
+                        "record_number": 14,
+                        "order_number": 3,
+                        "label": "KRT15 (Table prostate, Record 14, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 14",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R15",
+                "record_number": 15,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R15-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 15,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 15, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R15-AS2",
+                        "ccf_pref_label": "prostatic urethra",
+                        "source_concept": "UBERON:0001335",
+                        "record_number": 15,
+                        "order_number": 2,
+                        "label": "prostatic urethra (Table prostate, Record 15, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R15-CT1",
+                        "ccf_pref_label": "club epithelia",
+                        "source_concept": "CL:4032000",
+                        "record_number": 15,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "club epithelia (Table prostate, Record 15, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R15-BG1",
+                        "ccf_pref_label": "SCGB3A1",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:18384",
+                        "record_number": 15,
+                        "order_number": 1,
+                        "label": "SCGB3A1 (Table prostate, Record 15, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R15-BG2",
+                        "ccf_pref_label": "PIGR",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:8968",
+                        "record_number": 15,
+                        "order_number": 2,
+                        "label": "PIGR (Table prostate, Record 15, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R15-BG3",
+                        "ccf_pref_label": "FCGBP",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:13572",
+                        "record_number": 15,
+                        "order_number": 3,
+                        "label": "FCGBP (Table prostate, Record 15, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 15",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R16",
+                "record_number": 16,
+                "anatomical_structure_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R16-AS1",
+                        "ccf_pref_label": "prostate gland",
+                        "source_concept": "UBERON:0002367",
+                        "record_number": 16,
+                        "order_number": 1,
+                        "label": "prostate gland (Table prostate, Record 16, Column AS/1)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R16-AS2",
+                        "ccf_pref_label": "prostatic urethra",
+                        "source_concept": "UBERON:0001335",
+                        "record_number": 16,
+                        "order_number": 2,
+                        "label": "prostatic urethra (Table prostate, Record 16, Column AS/2)",
+                        "type_of": [
+                            "ccf:AnatomicalStructureRecord"
+                        ]
+                    }
+                ],
+                "cell_type_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R16-CT1",
+                        "ccf_pref_label": "hillock epithelia",
+                        "source_concept": "CL:0017011",
+                        "record_number": 16,
+                        "order_number": 1,
+                        "notes": "",
+                        "label": "hillock epithelia (Table prostate, Record 16, Column CT/1)",
+                        "type_of": [
+                            "ccf:CellTypeRecord"
+                        ]
+                    }
+                ],
+                "gene_marker_list": [
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R16-BG1",
+                        "ccf_pref_label": "KRT13",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:6415",
+                        "record_number": 16,
+                        "order_number": 1,
+                        "label": "KRT13 (Table prostate, Record 16, Column BG/1)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R16-BG2",
+                        "ccf_pref_label": "LYPD3",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:24880",
+                        "record_number": 16,
+                        "order_number": 2,
+                        "label": "LYPD3 (Table prostate, Record 16, Column BG/2)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    },
+                    {
+                        "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R16-BG3",
+                        "ccf_pref_label": "AKR1C1",
+                        "ccf_biomarker_type": "gene",
+                        "source_concept": "HGNC:384",
+                        "record_number": 16,
+                        "order_number": 3,
+                        "label": "AKR1C1 (Table prostate, Record 16, Column BG/3)",
+                        "type_of": [
+                            "ccf:BiomarkerRecord"
+                        ]
+                    }
+                ],
+                "label": "Table prostate, Record 16",
+                "type_of": [
+                    "ccf:AsctbRecord"
+                ]
+            }
+        ],
+        "cell_marker_descriptor": [
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R1-cell-marker-descriptor",
+                "primary_cell_type": "CL:0002340",
+                "primary_anatomical_structure": "UBERON:0004179",
+                "biomarker_set": [
+                    "HGNC:7372",
+                    "HGNC:6364",
+                    "HGNC:125"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R1",
+                "label": "Cell marker descriptor for luminal epithelia",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R2-cell-marker-descriptor",
+                "primary_cell_type": "CL:0002341",
+                "primary_anatomical_structure": "UBERON:0004179",
+                "biomarker_set": [
+                    "HGNC:6442",
+                    "HGNC:6416",
+                    "HGNC:10492"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R2",
+                "label": "Cell marker descriptor for basal epithelia",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R3-cell-marker-descriptor",
+                "primary_cell_type": "CL:0017002",
+                "primary_anatomical_structure": "UBERON:0000428",
+                "biomarker_set": [
+                    "HGNC:1929",
+                    "HGNC:4605",
+                    "HGNC:10575"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R3",
+                "label": "Cell marker descriptor for neuroendocrine epithelia",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R4-cell-marker-descriptor",
+                "primary_cell_type": "https://purl.org/ccf/ASCTB-TEMP_ionocyte-epithelia",
+                "primary_anatomical_structure": "UBERON:0000428",
+                "biomarker_set": [
+                    "HGNC:3815",
+                    "HGNC:866",
+                    "HGNC:2855"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R4",
+                "label": "Cell marker descriptor for ionocyte epithelia",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R5-cell-marker-descriptor",
+                "primary_cell_type": "CL:1000487",
+                "primary_anatomical_structure": "UBERON:0004243",
+                "biomarker_set": [
+                    "HGNC:2770",
+                    "HGNC:145",
+                    "HGNC:130"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R5",
+                "label": "Cell marker descriptor for prostate smooth muscle",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R6-cell-marker-descriptor",
+                "primary_cell_type": "CL:1000301",
+                "primary_anatomical_structure": "UBERON:0004184",
+                "biomarker_set": [
+                    "HGNC:612",
+                    "HGNC:9592",
+                    "HGNC:2705"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R6",
+                "label": "Cell marker descriptor for periprostatic fibroblast",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R7-cell-marker-descriptor",
+                "primary_cell_type": "CL:1000299",
+                "primary_anatomical_structure": "UBERON:0004184",
+                "biomarker_set": [
+                    "HGNC:1346",
+                    "HGNC:7035",
+                    "HGNC:2705"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R7",
+                "label": "Cell marker descriptor for interstitial fibroblast",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R8-cell-marker-descriptor",
+                "primary_cell_type": "CL:1000413",
+                "primary_anatomical_structure": "UBERON:0004638",
+                "biomarker_set": [
+                    "HGNC:4278",
+                    "HGNC:5472",
+                    "HGNC:8823"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R8",
+                "label": "Cell marker descriptor for endothelial cell of artery",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R9-cell-marker-descriptor",
+                "primary_cell_type": "CL:0002144",
+                "primary_anatomical_structure": "UBERON:0004638",
+                "biomarker_set": [
+                    "HGNC:4274",
+                    "HGNC:1375",
+                    "HGNC:8823"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R9",
+                "label": "Cell marker descriptor for capillary endothelial cell",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R10-cell-marker-descriptor",
+                "primary_cell_type": "CL:0002543",
+                "primary_anatomical_structure": "UBERON:0004638",
+                "biomarker_set": [
+                    "HGNC:10721",
+                    "HGNC:2438",
+                    "HGNC:8823"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R10",
+                "label": "Cell marker descriptor for vein endothelial cell",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R11-cell-marker-descriptor",
+                "primary_cell_type": "CL:0009115",
+                "primary_anatomical_structure": "UBERON:0001473",
+                "biomarker_set": [
+                    "HGNC:14687",
+                    "HGNC:3767",
+                    "HGNC:8823"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R11",
+                "label": "Cell marker descriptor for lymph node lymphatic vessel endothelial cell",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R12-cell-marker-descriptor",
+                "primary_cell_type": "CL:0000359",
+                "primary_anatomical_structure": "UBERON:0004237",
+                "biomarker_set": [
+                    "HGNC:130",
+                    "HGNC:6934",
+                    "HGNC:1663"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R12",
+                "label": "Cell marker descriptor for vascular associated smooth muscle cell",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R13-cell-marker-descriptor",
+                "primary_cell_type": "CL:0000669",
+                "primary_anatomical_structure": "UBERON:0001981",
+                "biomarker_set": [
+                    "HGNC:130",
+                    "HGNC:29836",
+                    "HGNC:4278"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R13",
+                "label": "Cell marker descriptor for perictye",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R14-cell-marker-descriptor",
+                "primary_cell_type": "https://purl.org/ccf/ASCTB-TEMP_basal-cell-of-prostatic-urethra",
+                "primary_anatomical_structure": "UBERON:0001335",
+                "biomarker_set": [
+                    "HGNC:6442",
+                    "HGNC:10492",
+                    "HGNC:6421"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R14",
+                "label": "Cell marker descriptor for basal cell of prostatic urethra",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R15-cell-marker-descriptor",
+                "primary_cell_type": "CL:4032000",
+                "primary_anatomical_structure": "UBERON:0001335",
+                "biomarker_set": [
+                    "HGNC:18384",
+                    "HGNC:8968",
+                    "HGNC:13572"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R15",
+                "label": "Cell marker descriptor for club epithelia",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            },
+            {
+                "id": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R16-cell-marker-descriptor",
+                "primary_cell_type": "CL:0017011",
+                "primary_anatomical_structure": "UBERON:0001335",
+                "biomarker_set": [
+                    "HGNC:6415",
+                    "HGNC:24880",
+                    "HGNC:384"
+                ],
+                "source_record": "https://purl.humanatlas.io/asct-b/prostate/v1.1#R16",
+                "label": "Cell marker descriptor for hillock epithelia",
+                "type_of": [
+                    "ccf:CellMarkerDescriptor"
+                ]
+            }
+        ]
+    }
+}

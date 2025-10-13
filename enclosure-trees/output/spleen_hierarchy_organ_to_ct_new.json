@@ -1,0 +1,293 @@
+{
+  "id": "UBERON:0002106",
+  "label": "spleen",
+  "type": "AS",
+  "children": [
+    {
+      "id": "UBERON:1000023",
+      "label": "Splenic Pulp",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0001250",
+          "label": "Red Pulp",
+          "type": "FTU",
+          "children": [
+            {
+              "id": "CL:0000037",
+              "label": "Hematopoetic Stem Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000232",
+              "label": "Erythrocytes",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000233",
+              "label": "Platelet",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000236",
+              "label": "B cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000499",
+              "label": "stromal cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000623",
+              "label": "NK Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000625",
+              "label": "CD8+ T Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000786",
+              "label": "Plasma Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000787",
+              "label": "Memory-Like B Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000788",
+              "label": "Naive B Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000874",
+              "label": "Macrophage",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000909",
+              "label": "Memory CD8+ T Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000972",
+              "label": "Switched B Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000980",
+              "label": "Plasmablast",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0001055",
+              "label": "Monocytes",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0001056",
+              "label": "Dendritic Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002543",
+              "label": "vein endothelial cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0008034A",
+              "label": "mural cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:1000489",
+              "label": "Red Pulp Reticular Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:2000053",
+              "label": "Splenic endothelial cell",
+              "type": "CellType"
+            }
+          ]
+        },
+        {
+          "id": "UBERON:0001959",
+          "label": "White Pulp",
+          "type": "FTU",
+          "children": [
+            {
+              "id": "CL:0000186",
+              "label": "Myofibroblasts",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000192",
+              "label": "smooth muscle cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000236",
+              "label": "B cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000442",
+              "label": "Follicular Dendritic Cell (FDC)",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000492",
+              "label": "CD4+ T cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000499",
+              "label": "stromal cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000623",
+              "label": "NK Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000787",
+              "label": "Memory-Like B Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000788",
+              "label": "Naive B Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000794",
+              "label": "Cytotoxic T Cells",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000798",
+              "label": "Gamma/Delta T cells",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000815",
+              "label": "T Regulatory Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000818",
+              "label": "Transitional Immature B Cells",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000844",
+              "label": "Germinal Center B Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000876",
+              "label": "Macrophage",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000877",
+              "label": "Tingible Body Macrophage",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000895",
+              "label": "Naive CD4+ T Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000897",
+              "label": "CD4+ Memory T Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000900",
+              "label": "Naive CD8+ T Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000909",
+              "label": "Memory CD8+ T Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000980",
+              "label": "Plasmablast",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000990",
+              "label": "conventional dendritic cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0001050",
+              "label": "CD8+ T Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0001058",
+              "label": "Plasmacytoid Dendritic Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002038",
+              "label": "T Follicular Helper Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002138",
+              "label": "Lymphatic Endothelium Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002394",
+              "label": "cDC1 myeloid dendritic cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002399",
+              "label": "cDC2 myeloid dendritic cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0008034A",
+              "label": "mural cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0009113",
+              "label": "T Follicular Regulatory Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:1000489",
+              "label": "Red Pulp Reticular Cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:2000053",
+              "label": "Splenic endothelial cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:4033050",
+              "label": "Catecholaminergic Neuron",
+              "type": "CellType"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

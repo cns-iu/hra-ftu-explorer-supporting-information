@@ -1,0 +1,966 @@
+{
+  "id": "UBERON:0002108",
+  "label": "small-intestine",
+  "type": "AS",
+  "children": [
+    {
+      "id": "UBERON:0002114",
+      "label": "duodenum",
+      "type": "AS",
+      "children": [
+        {
+          "id": "FMA:14926",
+          "label": "superior duodenum",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0000320",
+              "label": "mucosa",
+              "type": "AS",
+              "children": [
+                {
+                  "id": "UBERON:0001213",
+                  "label": "intestinal villus",
+                  "type": "FTU",
+                  "children": [
+                    {
+                      "id": "CL:0000034",
+                      "label": "stem cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000036",
+                      "label": "epithelial stem cells",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000057",
+                      "label": "fibroblast",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000097",
+                      "label": "mast cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000115",
+                      "label": "endothelial",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000163",
+                      "label": "endocrine lineage cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000186",
+                      "label": "myofibroblast",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000212",
+                      "label": "absorptive",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000235",
+                      "label": "macrophage",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000236",
+                      "label": "B cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000451",
+                      "label": "dendritic cell (DC)",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000584",
+                      "label": "enterocyte",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000623",
+                      "label": "natural killer (NK) cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000682",
+                      "label": "M cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000771",
+                      "label": "eosinophil",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000775",
+                      "label": "neutrophil",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000786",
+                      "label": "plasma",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0001065",
+                      "label": "innate lyphoid cell (ILC)",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0009080",
+                      "label": "tuft cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000324",
+                      "label": "goblet cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000325",
+                      "label": "goblet",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000326",
+                      "label": "goblet",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000344",
+                      "label": "Paneth cell",
+                      "type": "CellType"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FMA:14928",
+          "label": "descending duodenum",
+          "type": "AS",
+          "children": [
+            {
+              "id": "HTTPS://purl.org/ccf/ASCTB-TEMP_mucosa",
+              "label": "mucosa",
+              "type": "AS",
+              "children": [
+                {
+                  "id": "UBERON:0001213",
+                  "label": "intestinal villus",
+                  "type": "FTU",
+                  "children": [
+                    {
+                      "id": "CL:0000034",
+                      "label": "stem cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000036",
+                      "label": "epithelial stem cells",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000057",
+                      "label": "fibroblast",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000097",
+                      "label": "mast cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000115",
+                      "label": "endothelial",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000163",
+                      "label": "endocrine lineage cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000186",
+                      "label": "myofibroblast",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000212",
+                      "label": "absorptive",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000235",
+                      "label": "macrophage",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000236",
+                      "label": "B cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000451",
+                      "label": "dendritic cell (DC)",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000584",
+                      "label": "enterocyte",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000623",
+                      "label": "natural killer (NK) cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000682",
+                      "label": "M cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000771",
+                      "label": "eosinophil",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000775",
+                      "label": "neutrophil",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000786",
+                      "label": "plasma",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0001065",
+                      "label": "innate lyphoid cell (ILC)",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0009080",
+                      "label": "tuft cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000324",
+                      "label": "goblet cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000325",
+                      "label": "goblet",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000326",
+                      "label": "goblet",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000344",
+                      "label": "Paneth cell",
+                      "type": "CellType"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FMA:14929",
+          "label": "inferior duodenum",
+          "type": "AS",
+          "children": [
+            {
+              "id": "HTTPS://purl.org/ccf/ASCTB-TEMP_mucosa",
+              "label": "mucosa",
+              "type": "AS",
+              "children": [
+                {
+                  "id": "UBERON:0001213",
+                  "label": "intestinal villus",
+                  "type": "FTU",
+                  "children": [
+                    {
+                      "id": "CL:0000034",
+                      "label": "stem cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000036",
+                      "label": "epithelial stem cells",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000057",
+                      "label": "fibroblast",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000097",
+                      "label": "mast cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000115",
+                      "label": "endothelial",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000163",
+                      "label": "endocrine lineage cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000186",
+                      "label": "myofibroblast",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000212",
+                      "label": "absorptive",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000235",
+                      "label": "macrophage",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000236",
+                      "label": "B cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000451",
+                      "label": "dendritic cell (DC)",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000584",
+                      "label": "enterocyte",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000623",
+                      "label": "natural killer (NK) cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000682",
+                      "label": "M cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000771",
+                      "label": "eosinophil",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000775",
+                      "label": "neutrophil",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000786",
+                      "label": "plasma",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0001065",
+                      "label": "innate lyphoid cell (ILC)",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0009080",
+                      "label": "tuft cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000324",
+                      "label": "goblet cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000325",
+                      "label": "goblet",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000326",
+                      "label": "goblet",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000344",
+                      "label": "Paneth cell",
+                      "type": "CellType"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FMA:14930",
+          "label": "ascending duodenum",
+          "type": "AS",
+          "children": [
+            {
+              "id": "HTTPS://purl.org/ccf/ASCTB-TEMP_mucosa",
+              "label": "mucosa",
+              "type": "AS",
+              "children": [
+                {
+                  "id": "UBERON:0001213",
+                  "label": "intestinal villus",
+                  "type": "FTU",
+                  "children": [
+                    {
+                      "id": "CL:0000034",
+                      "label": "stem cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000036",
+                      "label": "epithelial stem cells",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000057",
+                      "label": "fibroblast",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000097",
+                      "label": "mast cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000115",
+                      "label": "endothelial",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000163",
+                      "label": "endocrine lineage cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000186",
+                      "label": "myofibroblast",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000212",
+                      "label": "absorptive",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000235",
+                      "label": "macrophage",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000236",
+                      "label": "B cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000451",
+                      "label": "dendritic cell (DC)",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000584",
+                      "label": "enterocyte",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000623",
+                      "label": "natural killer (NK) cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000682",
+                      "label": "M cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000771",
+                      "label": "eosinophil",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000775",
+                      "label": "neutrophil",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0000786",
+                      "label": "plasma",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0001065",
+                      "label": "innate lyphoid cell (ILC)",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0009080",
+                      "label": "tuft cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000324",
+                      "label": "goblet cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000325",
+                      "label": "goblet",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000326",
+                      "label": "goblet",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:1000344",
+                      "label": "Paneth cell",
+                      "type": "CellType"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0002115",
+      "label": "jejunum",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0000399",
+          "label": "mucosa",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001213",
+              "label": "intestinal villus",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:0000034",
+                  "label": "stem cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000036",
+                  "label": "epithelial stem cells",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000057",
+                  "label": "fibroblast",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000097",
+                  "label": "mast cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000115",
+                  "label": "endothelial",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000163",
+                  "label": "endocrine lineage cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000186",
+                  "label": "myofibroblast",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000212",
+                  "label": "absorptive",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000235",
+                  "label": "macrophage",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000236",
+                  "label": "B cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000451",
+                  "label": "dendritic cell (DC)",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000584",
+                  "label": "enterocyte",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000623",
+                  "label": "natural killer (NK) cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000682",
+                  "label": "M cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000771",
+                  "label": "eosinophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000775",
+                  "label": "neutrophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000786",
+                  "label": "plasma",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0001065",
+                  "label": "innate lyphoid cell (ILC)",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009080",
+                  "label": "tuft cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000324",
+                  "label": "goblet cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000325",
+                  "label": "goblet",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000326",
+                  "label": "goblet",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000344",
+                  "label": "Paneth cell",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0002116",
+      "label": "ileum",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0000331",
+          "label": "mucosa",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001213",
+              "label": "intestinal villus",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:0000034",
+                  "label": "stem cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000036",
+                  "label": "epithelial stem cells",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000057",
+                  "label": "fibroblast",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000097",
+                  "label": "mast cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000115",
+                  "label": "endothelial",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000163",
+                  "label": "endocrine lineage cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000186",
+                  "label": "myofibroblast",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000212",
+                  "label": "absorptive",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000235",
+                  "label": "macrophage",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000236",
+                  "label": "B cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000451",
+                  "label": "dendritic cell (DC)",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000584",
+                  "label": "enterocyte",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000623",
+                  "label": "natural killer (NK) cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000682",
+                  "label": "M cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000771",
+                  "label": "eosinophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000775",
+                  "label": "neutrophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000786",
+                  "label": "plasma",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0001065",
+                  "label": "innate lyphoid cell (ILC)",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009080",
+                  "label": "tuft cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000324",
+                  "label": "goblet cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000325",
+                  "label": "goblet",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000326",
+                  "label": "goblet",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000344",
+                  "label": "Paneth cell",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FMA:14966",
+      "label": "terminal ileum",
+      "type": "AS",
+      "children": [
+        {
+          "id": "HTTPS://purl.org/ccf/ASCTB-TEMP_mucosa",
+          "label": "mucosa",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001213",
+              "label": "intestinal villus",
+              "type": "FTU",
+              "children": [
+                {
+                  "id": "CL:0000034",
+                  "label": "stem cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000036",
+                  "label": "epithelial stem cells",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000057",
+                  "label": "fibroblast",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000097",
+                  "label": "mast cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000115",
+                  "label": "endothelial",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000163",
+                  "label": "endocrine lineage cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000186",
+                  "label": "myofibroblast",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000212",
+                  "label": "absorptive",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000235",
+                  "label": "macrophage",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000236",
+                  "label": "B cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000451",
+                  "label": "dendritic cell (DC)",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000584",
+                  "label": "enterocyte",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000623",
+                  "label": "natural killer (NK) cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000682",
+                  "label": "M cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000771",
+                  "label": "eosinophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000775",
+                  "label": "neutrophil",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0000786",
+                  "label": "plasma",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0001065",
+                  "label": "innate lyphoid cell (ILC)",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:0009080",
+                  "label": "tuft cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000324",
+                  "label": "goblet cell",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000325",
+                  "label": "goblet",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000326",
+                  "label": "goblet",
+                  "type": "CellType"
+                },
+                {
+                  "id": "CL:1000344",
+                  "label": "Paneth cell",
+                  "type": "CellType"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

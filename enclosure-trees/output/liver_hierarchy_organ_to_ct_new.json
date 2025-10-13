@@ -1,0 +1,154 @@
+{
+  "id": "UBERON:0002107",
+  "label": "liver",
+  "type": "AS",
+  "children": [
+    {
+      "id": "UBERON:0004647",
+      "label": "hepatic Lobule",
+      "type": "FTU",
+      "children": [
+        {
+          "id": "CL:0000075",
+          "label": "columnar cell (larger cholangiocytes are more columnar) has ciliae",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0000091",
+          "label": "Kupffer cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0000182",
+          "label": "hepatocyte",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0000241",
+          "label": "cuboidal cell (Small cholangiocytes are cuboidal)",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0000526",
+          "label": "neuron cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0000623",
+          "label": "natural killer cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0000624",
+          "label": "CD4+T cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0000632",
+          "label": "quiescent hepatic stellate cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0000738",
+          "label": "leukocyte",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0000784",
+          "label": "plasmacytoid Dendritic cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0000798",
+          "label": "gamma delta T cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0000909",
+          "label": "CD8-positive, alpha-beta memory T cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0000921",
+          "label": "iNKT",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0000990",
+          "label": "Conventional DC 1",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0001056",
+          "label": "conventional Dendritic cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0001203",
+          "label": "CD8+ Liver-Resident Memory T cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0002138",
+          "label": "hepatic lymphatic endothelial cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0002196",
+          "label": "hepatic oval cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0002399",
+          "label": "Conventional DC 2",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0002543",
+          "label": "endothelial cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0009100",
+          "label": "portal fibroblast",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0019018",
+          "label": "smooth muscle cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0019026",
+          "label": "periportal hepatocyte",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0019028",
+          "label": "mid zone hepatocyte",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:0019029",
+          "label": "pericentral hepatocyte",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:1000398",
+          "label": "liver sinusoid endothelial cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:1000413",
+          "label": "endothelial cell",
+          "type": "CellType"
+        },
+        {
+          "id": "CL:2000054",
+          "label": "Pit cell",
+          "type": "CellType"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "id": "UBERON:0002048",
+  "label": "lung",
+  "type": "AS",
+  "children": [
+    {
+      "id": "UBERON:0010369",
+      "label": "secondary pulmonary lobule",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0002187",
+          "label": "terminal/ transitional bronchiole",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0008874",
+              "label": "pulmonary acinus",
+              "type": "AS",
+              "children": [
+                {
+                  "id": "UBERON:0002188",
+                  "label": "respiratory bronchiole",
+                  "type": "AS",
+                  "children": [
+                    {
+                      "id": "UBERON:0002299",
+                      "label": "alveolus of lung on respiratory bronchiole",
+                      "type": "FTU",
+                      "children": [
+                        {
+                          "id": "CL:0002062",
+                          "label": "alveolar type I cell",
+                          "type": "CellType"
+                        },
+                        {
+                          "id": "CL:0002063",
+                          "label": "alveolar type II cell",
+                          "type": "CellType"
+                        },
+                        {
+                          "id": "CL:0009089",
+                          "label": "lung pericyte",
+                          "type": "CellType"
+                        },
+                        {
+                          "id": "CL:4028002",
+                          "label": "CAP1 general capillary gCap",
+                          "type": "CellType"
+                        },
+                        {
+                          "id": "CL:4028003",
+                          "label": "CAP2 aerocyte capillary aCap",
+                          "type": "CellType"
+                        },
+                        {
+                          "id": "CL:4028004",
+                          "label": "alveolar type 1 fibroblast cell",
+                          "type": "CellType"
+                        },
+                        {
+                          "id": "CL:4028006",
+                          "label": "adventitial fibroblast",
+                          "type": "CellType"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "UBERON:0002299",
+                  "label": "alveolus of lung on respiratory bronchiole",
+                  "type": "FTU",
+                  "children": [
+                    {
+                      "id": "CL:0002062",
+                      "label": "alveolar type I cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0002063",
+                      "label": "alveolar type II cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:0009089",
+                      "label": "lung pericyte",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:4028002",
+                      "label": "CAP1 general capillary gCap",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:4028003",
+                      "label": "CAP2 aerocyte capillary aCap",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:4028004",
+                      "label": "alveolar type 1 fibroblast cell",
+                      "type": "CellType"
+                    },
+                    {
+                      "id": "CL:4028006",
+                      "label": "adventitial fibroblast",
+                      "type": "CellType"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UBERON:0001004",
+      "label": "respiratory system",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0000065",
+          "label": "respiratory tract",
+          "type": "AS",
+          "children": [
+            {
+              "id": "UBERON:0001558",
+              "label": "lower respiratory tract",
+              "type": "AS",
+              "children": [
+                {
+                  "id": "UBERON:0007196",
+                  "label": "tracheobronchial tree",
+                  "type": "AS",
+                  "children": [
+                    {
+                      "id": "UBERON:0002183",
+                      "label": "secondary bronchus",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:8410043",
+                          "label": "bronchial submucosal gland",
+                          "type": "FTU",
+                          "children": [
+                            {
+                              "id": "CL:4033003",
+                              "label": "myoepithelial cell of bronchus submucosal gland",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:4033005",
+                              "label": "serous secreting cell of bronchus submucosal gland",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:4033022",
+                              "label": "mucus secreting cell of bronchus submucosal gland",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:4033023",
+                              "label": "airway submucosal gland collecting duct epithelial cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:4033024",
+                              "label": "airway submucosal gland duct basal cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:4033055",
+                              "label": "airway submucosal gland ciliated duct cell",
+                              "type": "CellType"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "UBERON:0002184",
+                      "label": "tertiary bronchus",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:8410043",
+                          "label": "bronchial submucosal gland",
+                          "type": "FTU",
+                          "children": [
+                            {
+                              "id": "CL:4033003",
+                              "label": "myoepithelial cell of bronchus submucosal gland",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:4033005",
+                              "label": "serous secreting cell of bronchus submucosal gland",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:4033022",
+                              "label": "mucus secreting cell of bronchus submucosal gland",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:4033023",
+                              "label": "airway submucosal gland collecting duct epithelial cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:4033024",
+                              "label": "airway submucosal gland duct basal cell",
+                              "type": "CellType"
+                            },
+                            {
+                              "id": "CL:4033055",
+                              "label": "airway submucosal gland ciliated duct cell",
+                              "type": "CellType"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "UBERON:8600017",
+                      "label": "bronchopulmonary segment",
+                      "type": "AS",
+                      "children": [
+                        {
+                          "id": "UBERON:8600009",
+                          "label": "subsegmental bronchus",
+                          "type": "AS",
+                          "children": [
+                            {
+                              "id": "UBERON:8410043",
+                              "label": "bronchial submucosal gland",
+                              "type": "FTU",
+                              "children": [
+                                {
+                                  "id": "CL:4033003",
+                                  "label": "myoepithelial cell of bronchus submucosal gland",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:4033005",
+                                  "label": "serous secreting cell of bronchus submucosal gland",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:4033022",
+                                  "label": "mucus secreting cell of bronchus submucosal gland",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:4033023",
+                                  "label": "airway submucosal gland collecting duct epithelial cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:4033024",
+                                  "label": "airway submucosal gland duct basal cell",
+                                  "type": "CellType"
+                                },
+                                {
+                                  "id": "CL:4033055",
+                                  "label": "airway submucosal gland ciliated duct cell",
+                                  "type": "CellType"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "id": "UBERON:0002370",
+  "label": "thymus",
+  "type": "AS",
+  "children": [
+    {
+      "id": "UBERON:0005483",
+      "label": "thymus lobe",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0002125",
+          "label": "thymus lobule",
+          "type": "FTU",
+          "children": [
+            {
+              "id": "CL:0000071",
+              "label": "blood endothelial cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000576",
+              "label": "monocyte",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000623",
+              "label": "natural killer cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000764",
+              "label": "erythroid",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000771",
+              "label": "eosinophil",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000786",
+              "label": "plasma cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000788",
+              "label": "naive B cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000798",
+              "label": "gamma-delta T cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000809",
+              "label": "double positive thymocyte",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000866",
+              "label": "macrophage",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000882",
+              "label": "macrophage",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000883",
+              "label": "macrophage",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000897",
+              "label": "CD4+ T memory T cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000899",
+              "label": "Th17 cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000909",
+              "label": "CD8+ T memory",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000914",
+              "label": "immature NKT cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000934",
+              "label": "cytotoxic CD4 T cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000940",
+              "label": "mucosal associated invariant T cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000942",
+              "label": "plasmacytoid dendritic cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000970",
+              "label": "memory B cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000972",
+              "label": "memory B cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0000980",
+              "label": "plasmablast",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0001070",
+              "label": "beige adipocyte",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0001078",
+              "label": "group 3 innate lymphoid cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002038",
+              "label": "T follicular helper cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002059",
+              "label": "conventional dendritic cell 1",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002138",
+              "label": "lymphatic endothelial cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002364",
+              "label": "cortical thymic epithelial cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002425",
+              "label": "early thymic progenitor",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002436",
+              "label": "CD4+ T single positive thymocyte",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002437",
+              "label": "CD8+ T single positive thymocyte",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002460",
+              "label": "conventional dendritic cell 2",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002677",
+              "label": "regulatory T cells",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0009068",
+              "label": "CD8aa(I) thymocyte",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0009069",
+              "label": "CD8aa(II) thymocyte",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0009070",
+              "label": "corticomedullary thymic epithelial cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0009071",
+              "label": "medullary thymic epithelial cell type 1",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0009072",
+              "label": "medullary thymic epithelial cell type 2",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0009073",
+              "label": "medullary thymic epithelial cell type 3",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0009074",
+              "label": "medullary thymic epithelial cell type 4",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0009075",
+              "label": "myo-medullary thymic epithelial cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0009076",
+              "label": "neuro-medullary thymic epithelial cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0009077",
+              "label": "subcapsular cortical epithelial cell",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0009081",
+              "label": "double negative thymocyte 2",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0009082",
+              "label": "double negative thymocyte 3",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0009083",
+              "label": "double negative thymocyte 4",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:3000002",
+              "label": "sympathetic noradrenergic nerve",
+              "type": "CellType"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

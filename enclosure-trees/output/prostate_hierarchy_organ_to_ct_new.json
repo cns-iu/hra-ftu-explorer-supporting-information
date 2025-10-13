@@ -1,0 +1,31 @@
+{
+  "id": "UBERON:0002367",
+  "label": "prostate",
+  "type": "AS",
+  "children": [
+    {
+      "id": "UBERON:0000428",
+      "label": "prostate epithelium",
+      "type": "AS",
+      "children": [
+        {
+          "id": "UBERON:0004179",
+          "label": "Prostate Glandular Acinus",
+          "type": "FTU",
+          "children": [
+            {
+              "id": "CL:0002340",
+              "label": "luminal epithelia",
+              "type": "CellType"
+            },
+            {
+              "id": "CL:0002341",
+              "label": "basal epithelia",
+              "type": "CellType"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
