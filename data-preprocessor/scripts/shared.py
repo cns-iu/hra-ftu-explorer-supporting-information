@@ -305,6 +305,12 @@ def get_organs_with_ftus():
     """
 
     df = get_csv_pandas("https://apps.humanatlas.io/api/grlc/hra/2d-ftu-parts.csv")
+    
+    # Ok, on staging, those two would look like:
+    # https://apps.humanatlas.io/api/grlc/hra/2d-ftu-parts.csv?endpoint=https://apps.humanatlas.io/api--staging/v1/sparql
+    # https://apps.humanatlas.io/api--staging/kg/digital-objects
+    # I wouldn't switch to those yet. staging hasn't been updated with the latest changes.
+    # (grlc endpoints can be transformed like above for staging for reasons)
 
     # Loop through df and identify organs and their FTUs
     organs_with_ftus = []
