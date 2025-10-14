@@ -1,3 +1,7 @@
+# hra-pop
+HRA_POP_VERSION : v1.0
+HRA_POP_BRANCH : main
+
 # File names
 CELL_TYPES_IN_FTUS : cell-types-in-ftus.json
 UNIVERSE_FILE_FILENAME : sc-transcriptomics-cell-summaries.jsonl.gz
@@ -10,3 +14,5 @@ FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME : cell_type_populations
 FILTERED_DATASET_METADATA_FILENAME : filtered-dataset-metadata.json
 FTU_DATASETS : ftu-datasets.jsonld
 FTU_CELL_SUMMARIES : ftu-cell-summaries.jsonld
+ANATOMOGRAMN_METADATA: anatomogram-dataset-metadata.csv
+ANATOMOGRAMN_RAW_DATA : anatomogram-raw

@@ -10,6 +10,12 @@ import gzip
 from tqdm import tqdm
 import os
 import copy
+import shutil
+import ujson
+import re
+from collections import defaultdict
+import scanpy as sc
+import anndata as ad
 
 # Make folder for input data
 INPUT_DIR = Path(__file__).parent.parent / "input"
@@ -35,11 +41,15 @@ SCRIPT_DIR = Path(__file__).parent
 # Capture TEMP folder
 TEMP_DIR = Path(__file__).parent.parent.parent / "docs" / "iftu-testing" / "assets"
 
-
-# Assign file paths to constants
+# Load config file
 with open(Path(__file__).parent / "config.yaml", "r", encoding="utf-8") as f:
     config = yaml.safe_load(f)
 
+# Get HRApop metadata
+hra_pop_version = config["HRA_POP_VERSION"]
+hra_pop_branch = config["HRA_POP_BRANCH"]
+
+# Assign file paths to constants
 CELL_TYPES_IN_FTUS = OUTPUT_DIR / config["CELL_TYPES_IN_FTUS"]
 UNIVERSE_FILE_FILENAME = INPUT_DIR / config["UNIVERSE_FILE_FILENAME"]
 UNIVERSE_METADATA_FILENAME = INPUT_DIR / config["UNIVERSE_METADATA_FILENAME"]
@@ -59,10 +69,70 @@ FTU_CELL_SUMMARIES = OUTPUT_DIR / config["FTU_CELL_SUMMARIES"]
 
 FTU_DATASETS_OUTPUT = TEMP_DIR / config["FTU_DATASETS"]
 FTU_CELL_SUMMARIES_OUTPUT = TEMP_DIR / config["FTU_CELL_SUMMARIES"]
+ANATOMOGRAMN_METADATA = INPUT_DIR / config["ANATOMOGRAMN_METADATA"]
+ANATOMOGRAMN_RAW_DATA = RAW_DATA_DIR / config["ANATOMOGRAMN_RAW_DATA"]
 
 # Commonly used HTTP Accept headers for API requests
 accept_json = {"Accept": "application/json"}
 accept_csv = {"Accept": "text/csv"}
+
+# Metadata for anatomogram datasets
+anatomogram_files_json = [
+    {
+        "name": "kidney",
+        "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
+        "url_counts": "https://www.ebi.ac.uk/gxa/sc/experiment/E-CURD-119/download/zip?fileType=normalised",
+        "url_experimental_design": "https://www.ebi.ac.uk/gxa/sc/experiment/E-CURD-119/download?fileType=experiment-design",
+        "experiment_id": "E-CURD-119",
+        "paper_doi": "https://doi.org/10.1038/s41467-021-22368-w",
+        "dataset_link": "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119/downloads",
+    },
+    {
+        "name": "liver",
+        "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002107",
+        "url_counts": "https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-10553/download/zip?fileType=normalised",
+        "url_experimental_design": "https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-10553/download?fileType=experiment-design",
+        "experiment_id": "E-MTAB-10553",
+        "paper_doi": "https://doi.org/10.1038/s41598-021-98806-y",
+        "dataset_link": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553/downloads",
+    },
+    {
+        "name": "lung",
+        "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002048",
+        "url_counts": "https://www.ebi.ac.uk/gxa/sc/experiment/E-GEOD-130148/download/zip?fileType=normalised",
+        "url_experimental_design": "https://www.ebi.ac.uk/gxa/sc/experiment/E-GEOD-130148/download?fileType=experiment-design",
+        "experiment_id": "E-GEOD-130148",
+        "paper_doi": "https://doi.org/10.1038/s41591-019-0468-5",
+        "dataset_link": "https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148/downloads",
+    },
+    {
+        "name": "pancreas",
+        "organ_id": "http://purl.obolibrary.org/obo/UBERON_0001264",
+        "url_counts": "https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-5061/download/zip?fileType=normalised",
+        "url_experimental_design": "https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-5061/download?fileType=experiment-design",
+        "experiment_id": "E-MTAB-5061",
+        "paper_doi": "https://doi.org/10.1016/j.cmet.2016.08.020",
+        "dataset_link": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061/downloads",
+    },
+]
+
+# Download links for anatomogram data:
+# 1. Kidney: https://www.ebi.ac.uk/gxa/sc/experiment/E-CURD-119/download/zip?fileType=normalised
+# 2. Liver: https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-10553/download/zip?fileType=normalised
+# 3. Lung: https://www.ebi.ac.uk/gxa/sc/experiment/E-GEOD-130148/download/zip?fileType=normalised
+# 4. Pancreas: https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-5061/download/zip?fileType=normalised
+
+# Experimental design files:
+# 1. Kidney: https://www.ebi.ac.uk/gxa/sc/experiment/E-CURD-119/download?fileType=experiment-design
+# 2. Liver: https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-10553/download?fileType=experiment-design
+# 3. Lung: https://www.ebi.ac.uk/gxa/sc/experiment/E-GEOD-130148/download?fileType=experiment-design
+# 4. Pancreas: https://www.ebi.ac.uk/gxa/sc/experiment/E-MTAB-5061/download?fileType=experiment-design
+
+# SCEA websites:
+# 1. Kidney: https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119/downloads
+# 2. Liver: https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553/downloads
+# 3. Lung: https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148/downloads
+# 4. Pancreas: https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061/downloads
 
 
 def get_csv_pandas(url: str, timeout: int = 10) -> pd.DataFrame:
@@ -101,19 +171,18 @@ def get_csv_pandas(url: str, timeout: int = 10) -> pd.DataFrame:
         raise ValueError(f"Failed to parse CSV from {url}") from e
 
 
-import requests
-from pathlib import Path
-from tqdm import tqdm
-
-
-def download_from_url(url: str, output_file: str):
+def download_from_url(
+    url: str, base_dir: str | Path = None, output_file: str = ""
+) -> Path:
     """
     Download a gzipped JSONL file or a CSV and save it locally,
     showing a progress bar while streaming.
 
     Args:
         url (str): The URL of the file to download.
-        output_file (str): The filename to save the downloaded file as (relative to INPUT_DIR).
+        base_dir (str | Path, optional): The base directory where the file should be stored.
+            Defaults to INPUT_DIR if not provided. Can be RAW_DIR, INPUT_DIR, or any other folder.
+        output_file (str): The filename or relative path to save the downloaded file as.
 
     Returns:
         Path: The path to the downloaded (or existing) file.
@@ -122,7 +191,10 @@ def download_from_url(url: str, output_file: str):
         HTTPError: If the HTTP request for the URL fails.
         OSError: If writing to the local file path fails.
     """
-    file_path = Path(INPUT_DIR) / output_file
+    base_dir = Path(base_dir or INPUT_DIR)
+    file_path = base_dir / output_file
+
+    file_path.parent.mkdir(parents=True, exist_ok=True)
 
     if file_path.exists():
         print(f"ℹ️ File already exists at {file_path}, skipping download.")
@@ -136,7 +208,7 @@ def download_from_url(url: str, output_file: str):
             total=total_size,
             unit="B",
             unit_scale=True,
-            desc=file_path.name,  # show just the filename
+            desc=file_path.name,
             ascii=True,
         ) as pbar:
             for chunk in r.iter_content(chunk_size=8192):
@@ -233,6 +305,12 @@ def get_organs_with_ftus():
     """
 
     df = get_csv_pandas("https://apps.humanatlas.io/api/grlc/hra/2d-ftu-parts.csv")
+    
+    # Ok, on staging, those two would look like:
+    # https://apps.humanatlas.io/api/grlc/hra/2d-ftu-parts.csv?endpoint=https://apps.humanatlas.io/api--staging/v1/sparql
+    # https://apps.humanatlas.io/api--staging/kg/digital-objects
+    # I wouldn't switch to those yet. staging hasn't been updated with the latest changes.
+    # (grlc endpoints can be transformed like above for staging for reasons)
 
     # Loop through df and identify organs and their FTUs
     organs_with_ftus = []
@@ -251,7 +329,7 @@ def get_organs_with_ftus():
 
 
 def comes_from_organ_with_ftu(
-    dataset_id_to_check: str | None, cell_types_in_ftu: list
+    organ_id_to_check: str | None, cell_types_in_ftus: list
 ) -> bool:
     """
     Determine whether a given organ ID corresponds to an organ that has
@@ -266,15 +344,50 @@ def comes_from_organ_with_ftu(
         bool: True if the provided organ ID corresponds to an organ that has FTUs,
         False otherwise.
     """
-    if dataset_id_to_check is None:
+    if organ_id_to_check is None:
         return False
 
-    return dataset_id_to_check in {ftu["organ_id_short"] for ftu in cell_types_in_ftu}
+    return organ_id_to_check in {ftu["organ_id_short"] for ftu in cell_types_in_ftus}
+
+
+# def build_ftu_index(cell_types_in_ftus):
+#     index = defaultdict(list)
+#     for ftu in cell_types_in_ftus:
+#         organ = ftu["organ_id_short"]
+#         iri = ftu["iri"]
+#         for ct in ftu.get("cell_types_in_ftu_only", ()):
+#             index[(organ, ct["representation_of"])].append(iri)
+#     return index
+
+
+# def is_cell_type_exclusive_to_ftu(cell_id_to_check, organ_id_to_check, index):
+#     """
+#     Retrieve all FTU IRIs where a given cell type is exclusive within a specific organ.
+
+#     Args:
+#         cell_id_to_check (str): The cell type identifier to look up (e.g., a CL or UBERON ID).
+#         organ_id_to_check (str): The short-form organ ID (e.g., 'UBERON:0002107') corresponding
+#             to the organ being checked.
+#         index (dict[tuple[str, str], list[str]]): A precomputed lookup mapping
+#             (organ_id_short, cell_id) tuples to lists of FTU IRIs, typically built by
+#             `build_ftu_index()`.
+
+#     Returns:
+#         list[tuple[str, str]]: A list of (cell_id_to_check, ftu_iri) tuples for all matching FTUs.
+#         Returns an empty list if no matches are found.
+#     """
+
+#     return [
+#         (cell_id_to_check, iri)
+#         for iri in index.get((organ_id_to_check, cell_id_to_check), ())
+#     ]
+
+# slower alternative:
 
 
 def is_cell_type_exclusive_to_ftu(
     cell_id_to_check: str | None, organ_id_to_check: str, cell_types_in_ftu: list[dict]
-) -> bool:
+) -> list:
     """
     Determine whether a given cell type (by ID) is exclusive to Functional Tissue Units (FTUs).
 
@@ -289,21 +402,20 @@ def is_cell_type_exclusive_to_ftu(
         False otherwise.
     """
     if cell_id_to_check is None:
-        return False
+        return []
 
-    # print(f"Checking {cell_id_to_check} in {organ_id_to_check}")
+    # print(f"Now checking {cell_id_to_check} in {organ_id_to_check}.")
 
     # Iterate over all FTUs and collect all "representation_of" IDs for CTs in "cell_types_in_ftu_only"
-    ftu_only_cell_ids = {
-        ct["representation_of"]
+    matches = [
+        (ct["representation_of"], ftu["iri"])
         for ftu in cell_types_in_ftu
         for ct in ftu.get("cell_types_in_ftu_only", [])
         if ftu["organ_id_short"] == organ_id_to_check
-    }
-    if cell_id_to_check in ftu_only_cell_ids:
-        print("FOUND")
+        and ct["representation_of"] == cell_id_to_check
+    ]
 
-    return cell_id_to_check in ftu_only_cell_ids
+    return matches
 
 
 def iterate_through_json_lines(filename: str, print_line: bool = False):
@@ -342,3 +454,27 @@ def iterate_through_json_lines(filename: str, print_line: bool = False):
             if print_line:
                 pprint(line_json)
             yield line_json
+
+
+def unzip_to_folder(file_path: str, target_folder: str):
+    """
+    Unzip the file at the specified file_path into target_folder,
+    but only if the folder is empty.
+
+    Args:
+        file_path (str): Path to the .zip (or other archive) file.
+        target_folder (str): Path where the archive should be extracted.
+    """
+    target = Path(target_folder)
+
+    # Exclude the archive itself when checking contents
+    if target.exists() and any(
+        p.is_file() and p.suffix != ".zip" and ".tsv" not in p.name
+        for p in target.iterdir()
+    ):
+        print(f"Skipped: {target} already contains extracted files.")
+        return
+
+    # Otherwise, unzip
+    shutil.unpack_archive(file_path, target)
+    print(f"Unzipped {file_path} → {target}")

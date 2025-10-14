@@ -4,4 +4,6 @@ matplotlib
 requests
 pyyaml
 tqdm 
-ijson
+ujson
+scanpy
+anndata

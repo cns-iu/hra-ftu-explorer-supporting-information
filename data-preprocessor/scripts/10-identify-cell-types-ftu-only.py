@@ -100,6 +100,12 @@ def validate_against_asctb(ftu_cell_types: list):
     hra_do_list = requests.get(
         "https://apps.humanatlas.io/api/kg/digital-objects", headers=accept_json
     ).json()
+    
+    # Ok, on staging, those two would look like:
+    # https://apps.humanatlas.io/api/grlc/hra/2d-ftu-parts.csv?endpoint=https://apps.humanatlas.io/api--staging/v1/sparql
+    # https://apps.humanatlas.io/api--staging/kg/digital-objects
+    # I wouldn't switch to those yet. staging hasn't been updated with the latest changes.
+    # (grlc endpoints can be transformed like above for staging for reasons)
 
     # Compile list of nique organs covered by FTUs
     unique_organs = list(

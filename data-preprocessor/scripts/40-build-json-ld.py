@@ -46,38 +46,56 @@ def build_dataset_metadata_jsonld(metadata: pd.DataFrame):
         "authors": [],  # Creator(s)?
     }
 
-    new_ftu = copy.deepcopy(ftu_instance)
+    look_up_ftu_to_datasets = {}
 
-    # Fill fields in @graph
-    new_ftu["@id"] = (
-        "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus"  # hard-coded for now since all datasets with FTUs are from prostate
-    )
+    with open(FILTERED_DATASET_METADATA_FILENAME, 'r') as f:
+        data = json.load(f)
 
-    for obj in iterate_through_json_lines(
-        FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME
-    ):
+        look_up_ftu_to_datasets = defaultdict(list)
 
-        id = obj["cell_source"]
+        for dataset, groups in data.items():
+            for group in groups:
+                for _, purl in group:
+                    if dataset not in look_up_ftu_to_datasets[purl]:
+                        look_up_ftu_to_datasets[purl].append(dataset)
 
-        # Get metadata
-        metadata_instance = metadata[metadata["dataset_id"] == id]
+    print()
+    pprint(look_up_ftu_to_datasets)
+    print()
 
-        new_data_source = copy.deepcopy(data_source_instance)
+    for ftu in look_up_ftu_to_datasets:
+        print(ftu)
 
-        new_data_source["@id"] = id + "#CellSummary_" + new_ftu["@id"].split("/")[-1]
-        new_data_source["label"] = metadata_instance.iloc[0]["handler"]
-        new_data_source["link"] = metadata_instance.iloc[0]["dataset_link"]
-        new_data_source["description"] = (
-            f"Dataset handled by {metadata_instance.iloc[0]['handler']}"
-        )
-        new_data_source["authors"] = [
-            metadata_instance.iloc[0]["consortium_name"],
-            metadata_instance.iloc[0]["provider_name"],
-        ]
+        new_ftu = copy.deepcopy(ftu_instance)
 
-        new_ftu["data_sources"].append(new_data_source)
+        # Fill fields in @graph
+        new_ftu["@id"] = ftu  # hard-coded for now since all datasets with FTUs are from prostate
 
-    graph_list.append(new_ftu)
+        for obj in iterate_through_json_lines(
+            FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME
+        ):
+            dataset_id = obj["cell_source"]
+
+            # get right dataset ID
+            for ftu in look_up_ftu_to_datasets: 
+                if dataset_id in look_up_ftu_to_datasets[ftu]:
+
+                    # Get metadata
+                    metadata_instance = metadata[metadata["dataset_id"] == dataset_id]
+
+                    new_data_source = copy.deepcopy(data_source_instance)
+
+                    new_data_source["@id"] = dataset_id + "#CellSummary_" + new_ftu["@id"].split("/")[-1]
+                    new_data_source["label"] = metadata_instance.iloc[0]["handler"]
+                    new_data_source["link"] = dataset_id
+                    new_data_source["description"] = dataset_id
+                    new_data_source["authors"] = [
+                        metadata_instance.iloc[0]["provider_name"]
+                    ]
+
+                    new_ftu["data_sources"].append(new_data_source)
+
+        graph_list.append(new_ftu)
 
     out_json_ld["@graph"] = graph_list
 
@@ -124,7 +142,7 @@ def build_cell_summaries_jsonld():
 
         out_json_ld["@graph"].append(obj)
 
-    # Write to fil
+    # Write to file
     print(f"Now saving to {FTU_CELL_SUMMARIES_OUTPUT}")
     with open(FTU_CELL_SUMMARIES_OUTPUT, "w", encoding="utf-8") as f:
         json.dump(out_json_ld, f, ensure_ascii=False, indent=4)
