@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anatomical Hierarchy (Circle Packing)</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      background: #f0f4f8;
+      overflow-x: auto;
+    }
+    #container {
+      background: white;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin: 0 auto;
+      max-width: 1400px;
+    }
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 5px;
+      text-align: center;
+      font-size: 20px;
+    }
+    .subtitle {
+      color: #7f8c8d;
+      margin-bottom: 12px;
+      font-size: 12px;
+      text-align: center;
+    }
+    .toolbar {
+      display:flex;
+      gap:10px;
+      align-items:center;
+      justify-content:center;
+      margin: 10px 0 15px;
+      flex-wrap: wrap;
+    }
+    .toolbar label { font-size: 12px; color:#2c3e50; }
+    input[type="file"] {
+      padding: 6px 8px;
+      border: 1px solid #cbd5e0;
+      border-radius: 6px;
+      background: #fff;
+      font-size: 12px;
+    }
+
+    .legend {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 8px;
+      padding: 10px;
+      background: #ecf0f1;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    .legend-item { display:flex; align-items:center; gap:8px; font-size: 11px; }
+    .legend-box {
+      width: 16px; height: 16px; border-radius: 3px;
+      border: 2px solid #000; flex-shrink:0;
+    }
+
+    #pack-container {
+      overflow: auto;
+      background: #f7fafc;
+      border-radius: 8px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 800px;
+    }
+
+    .node { cursor: pointer; }
+    .node circle { stroke: #333; stroke-width: 2px; }
+    .node text {
+      font-size: 11px;
+      font-weight: 500;
+      pointer-events: none;
+      text-anchor: middle;
+      fill: #000;
+    }
+    .node .count-badge {
+      font-size: 9px;
+      font-weight: 700;
+      fill: #fff;
+    }
+    .node:hover circle { stroke-width: 3px; }
+
+    .tooltip {
+      position: absolute;
+      padding: 8px 12px;
+      background: rgba(0,0,0,0.85);
+      color: #fff;
+      border-radius: 6px;
+      font-size: 12px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.2s;
+      z-index: 1000;
+      max-width: 250px;
+    }
+    .tooltip.visible { opacity: 1; }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>Anatomical Hierarchy - Circle Packing View</h1>
+    <p class="subtitle">Upload an organ JSON • Hover to see details • Duplicates are merged with counts</p>
+
+    <div class="toolbar">
+      <label for="jsonFile">Upload organ JSON:</label>
+      <input id="jsonFile" type="file" accept="application/json" />
+      <small style="color:#7f8c8d;">(Structure: AS → FTU → CellType)</small>
+    </div>
+
+    <div class="legend" id="legend"></div>
+    <div id="pack-container"></div>
+    <div class="tooltip" id="tooltip"></div>
+  </div>
+
+  <script>
+    const TYPE_STYLE = {
+      AS:  { fill: '#3498db', stroke: '#2980b9', name: 'Anatomical Structure' },
+      FTU: { fill: '#2ecc71', stroke: '#27ae60', name: 'Functional Tissue Unit' }
+    };
+
+    function distinctColor(i, total) {
+      const hue = (i * (360 / Math.max(total, 1))) % 360;
+      return `hsl(${hue}, 70%, 55%)`;
+    }
+
+    const legendEl = d3.select('#legend');
+    const container = d3.select('#pack-container');
+    const tooltip = d3.select('#tooltip');
+
+    function deduplicateTree(node, path = []) {
+      if (!node) return null;
+      
+      const newNode = {
+        id: node.id,
+        original_id: node.original_id || node.id,
+        label: node.label,
+        type: node.type,
+        count: 1
+      };
+
+      if (Array.isArray(node.children) && node.children.length > 0) {
+        const childMap = new Map();
+        
+        node.children.forEach(child => {
+          const childKey = `${child.type}:${child.original_id || child.id}`;
+          
+          if (childMap.has(childKey)) {
+            const existing = childMap.get(childKey);
+            existing.count += 1;
+            
+            if (child.children) {
+              if (!existing.children) existing.children = [];
+              child.children.forEach(grandchild => {
+                const gcKey = `${grandchild.type}:${grandchild.original_id || grandchild.id}`;
+                const existingGc = existing.children.find(c => 
+                  `${c.type}:${c.original_id || c.id}` === gcKey
+                );
+                if (existingGc) {
+                  existingGc.count += 1;
+                } else {
+                  existing.children.push(deduplicateTree(grandchild, [...path, childKey]));
+                }
+              });
+            }
+          } else {
+            childMap.set(childKey, deduplicateTree(child, [...path, childKey]));
+          }
+        });
+        
+        newNode.children = Array.from(childMap.values());
+      }
+
+      return newNode;
+    }
+
+    function collectCellTypes(node, map = new Map()) {
+      if (!node) return map;
+      if (node.type === 'CellType') {
+        const baseId = node.original_id || node.id;
+        const shortId = String(baseId).split(':').slice(0,2).join(':');
+        if (!map.has(shortId)) map.set(shortId, node.label);
+      }
+      if (Array.isArray(node.children)) {
+        node.children.forEach(c => collectCellTypes(c, map));
+      }
+      return map;
+    }
+
+    function makeCellTypeColorMap(cellTypeMap) {
+      const entries = Array.from(cellTypeMap.entries());
+      const total = entries.length || 1;
+      const colorMap = new Map();
+      entries.forEach(([id, label], idx) => {
+        const fill = distinctColor(idx, total);
+        colorMap.set(id, { fill, stroke: '#333', name: label });
+      });
+      return colorMap;
+    }
+
+    function buildLegend(cellTypeColors) {
+      legendEl.selectAll('*').remove();
+
+      const baseItems = [
+        { label: TYPE_STYLE.AS.name,  style: TYPE_STYLE.AS },
+        { label: TYPE_STYLE.FTU.name, style: TYPE_STYLE.FTU }
+      ];
+      const cellItems = Array.from(cellTypeColors.entries()).map(([id, s]) => ({
+        label: s.name || id,
+        style: s
+      }));
+      const items = baseItems.concat(cellItems);
+
+      const item = legendEl.selectAll('.legend-item')
+        .data(items, d => d.label)
+        .enter()
+        .append('div')
+        .attr('class', 'legend-item');
+
+      item.append('div')
+        .attr('class', 'legend-box')
+        .style('background', d => d.style.fill)
+        .style('border-color', d => d.style.stroke);
+
+      item.append('span').text(d => d.label);
+    }
+
+    function nodeStyle(d, cellTypeColors) {
+      const t = d.data.type;
+      if (t === 'AS' || t === 'FTU') return TYPE_STYLE[t];
+      if (t === 'CellType') {
+        const baseId = d.data.original_id || d.data.id;
+        const shortId = String(baseId).split(':').slice(0,2).join(':');
+        return cellTypeColors.get(shortId) || { fill: '#888', stroke: '#444' };
+      }
+      return { fill: '#bbb', stroke: '#777' };
+    }
+
+    function buildPack(data) {
+      container.selectAll('*').remove();
+
+      const dedupData = deduplicateTree(data);
+      const ctMap = collectCellTypes(dedupData);
+      const cellTypeColors = makeCellTypeColorMap(ctMap);
+
+      buildLegend(cellTypeColors);
+
+      const width = 1200;
+      const height = 1200;
+
+      const pack = d3.pack()
+        .size([width - 4, height - 4])
+        .padding(d => {
+          if (d.depth === 0) return 20;
+          if (d.data.type === 'AS') return 25;
+          if (d.data.type === 'FTU') return 15;
+          return 5;
+        });
+
+      const root = d3.hierarchy(dedupData)
+        .sum(d => d.type === 'CellType' ? (d.count || 1) * 5 : 0)
+        .sort((a, b) => b.value - a.value);
+
+      pack(root);
+
+      const svg = container.append('svg')
+        .attr('width', width)
+        .attr('height', height)
+        .style('max-width', '100%')
+        .style('height', 'auto');
+
+      const node = svg.selectAll('g')
+        .data(root.descendants())
+        .join('g')
+        .attr('class', 'node')
+        .attr('transform', d => `translate(${d.x},${d.y})`)
+        .on('mouseover', function(event, d) {
+          const style = nodeStyle(d, cellTypeColors);
+          let info = `<strong>${d.data.label}</strong><br/>`;
+          info += `Type: ${d.data.type}<br/>`;
+          info += `ID: ${d.data.original_id || d.data.id}`;
+          if (d.data.count && d.data.count > 1) {
+            info += `<br/>Count: ${d.data.count}`;
+          }
+          tooltip.html(info).classed('visible', true);
+        })
+        .on('mousemove', function(event) {
+          tooltip
+            .style('left', (event.pageX + 10) + 'px')
+            .style('top', (event.pageY - 10) + 'px');
+        })
+        .on('mouseout', function() {
+          tooltip.classed('visible', false);
+        });
+
+      node.append('circle')
+        .attr('r', d => d.r)
+        .attr('fill', d => {
+          const style = nodeStyle(d, cellTypeColors);
+          return d.children ? 'none' : style.fill;
+        })
+        .attr('stroke', d => nodeStyle(d, cellTypeColors).stroke)
+        .attr('stroke-width', d => {
+          if (d.data.type === 'AS') return 3;
+          if (d.data.type === 'FTU') return 2.5;
+          return 2;
+        })
+        .attr('opacity', d => d.children ? 0.5 : 0.8);
+
+      node.filter(d => !d.children && d.r > 15)
+        .append('text')
+        .attr('dy', d => d.data.count > 1 ? '-0.2em' : '0.3em')
+        .style('font-size', d => Math.min(d.r / 3, 11) + 'px')
+        .text(d => {
+          const maxLen = Math.floor(d.r / 3);
+          return d.data.label.length > maxLen 
+            ? d.data.label.substring(0, maxLen) + '...'
+            : d.data.label;
+        });
+
+      node.filter(d => !d.children && d.data.count > 1)
+        .append('text')
+        .attr('class', 'count-badge')
+        .attr('dy', '1em')
+        .style('font-size', d => Math.min(d.r / 4, 9) + 'px')
+        .text(d => `×${d.data.count}`);
+
+      node.filter(d => d.children && d.r > 30)
+        .append('text')
+        .attr('dy', d => -d.r + 20)
+        .style('font-size', d => {
+          if (d.depth === 0) return Math.min(d.r / 6, 16) + 'px';
+          return Math.min(d.r / 8, 12) + 'px';
+        })
+        .style('font-weight', 'bold')
+        .style('fill', d => {
+          if (d.depth === 0) return '#2c3e50';
+          return d.data.type === 'AS' ? '#2980b9' : '#27ae60';
+        })
+        .style('text-shadow', '1px 1px 2px white, -1px -1px 2px white, 1px -1px 2px white, -1px 1px 2px white')
+        .text(d => {
+          const maxLen = Math.floor(d.r / 4);
+          return d.data.label.length > maxLen 
+            ? d.data.label.substring(0, maxLen) + '...'
+            : d.data.label;
+        });
+    }
+
+    const fileInput = document.getElementById('jsonFile');
+    fileInput.addEventListener('change', () => {
+      const file = fileInput.files && fileInput.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          const json = JSON.parse(e.target.result);
+          if (!json || typeof json !== 'object') throw new Error('Root is not an object');
+          if (!json.type || !json.id || !json.label) {
+            throw new Error('Root must include "id", "label", and "type"');
+          }
+          buildPack(json);
+        } catch (err) {
+          alert("Invalid JSON:\n" + err.message);
+          console.error(err);
+        }
+      };
+      reader.readAsText(file, 'utf-8');
+    });
+
+    buildPack({
+      id: "placeholder",
+      label: "Upload an organ JSON to view",
+      type: "AS",
+      children: []
+    });
+  </script>
+</body>
+</html>
