@@ -557,7 +557,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/kidney-inner-medullary-collecting-duct#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/kidney-inner-medullary-collecting-duct/v1.2/assets/2d-ftu-kidney-inner-medullary-collecting-duct.svg"
+          "file": "assets/2d-ftu-kidney-inner-medullary-collecting-duct.svg"
         }
       ],
       "organ_id": "UBERON:0002113",
@@ -4623,7 +4623,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/large-intestine-crypt-lieberkuhn#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/large-intestine-crypt-lieberkuhn/v1.3/assets/2d-ftu-large-intestine-crypt-lieberkuhn.svg"
+          "file": "assets/2d-ftu-large-intestine-crypt-lieberkuhn.svg"
         },
         {
           "@id": "https://purl.humanatlas.io/2d-ftu/large-intestine-crypt-lieberkuhn#ai",
@@ -18595,7 +18595,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/skin-epidermal-ridge/v1.2/assets/2d-ftu-skin-epidermal-ridge.svg"
+          "file": "assets/2d-ftu-skin-epidermal-ridge.svg"
         }
       ],
       "organ_id": "UBERON:0002097",
@@ -24527,7 +24527,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/small-intestine-villus#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/small-intestine-villus/v1.1/assets/2d-ftu-small-intestine-villus.svg"
+          "file": "assets/2d-ftu-small-intestine-villus.svg"
         }
       ],
       "organ_id": "UBERON:0002108",
