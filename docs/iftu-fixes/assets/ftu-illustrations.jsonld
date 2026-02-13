@@ -557,7 +557,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/kidney-inner-medullary-collecting-duct#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/kidney-inner-medullary-collecting-duct/v1.2/assets/2d-ftu-kidney-inner-medullary-collecting-duct.svg"
+          "file": "assets/2d-ftu-kidney-inner-medullary-collecting-duct.svg"
         }
       ],
       "organ_id": "UBERON:0002113",
@@ -4623,7 +4623,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/large-intestine-crypt-lieberkuhn#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/large-intestine-crypt-lieberkuhn/v1.3/assets/2d-ftu-large-intestine-crypt-lieberkuhn.svg"
+          "file": "assets/2d-ftu-large-intestine-crypt-lieberkuhn.svg"
         },
         {
           "@id": "https://purl.humanatlas.io/2d-ftu/large-intestine-crypt-lieberkuhn#ai",
@@ -10896,6 +10896,62 @@
           "@type": "FtuIllustrationNode",
           "representation_of": "UBERON:0001263",
           "svg_group_id": "Pancreatic_Acinar_Cell",
+          "svg_id": "Pancreatic_Acinar_Cell_1",
+          "label": "pancreatic acinus"
+        },
+        {
+          "@id": "https://purl.humanatlas.io/2d-ftu/pancreas-intercalated-duct#Pancreatic_Acinar_Cell",
+          "@type": "FtuIllustrationNode",
+          "representation_of": "UBERON:0001263",
+          "svg_group_id": "Pancreatic_Acinar_Cell",
+          "svg_id": "Pancreatic_Acinar_Cell_2",
+          "label": "pancreatic acinus"
+        },
+        {
+          "@id": "https://purl.humanatlas.io/2d-ftu/pancreas-intercalated-duct#Pancreatic_Acinar_Cell",
+          "@type": "FtuIllustrationNode",
+          "representation_of": "UBERON:0001263",
+          "svg_group_id": "Pancreatic_Acinar_Cell",
+          "svg_id": "Pancreatic_Acinar_Cell_3",
+          "label": "pancreatic acinus"
+        },
+        {
+          "@id": "https://purl.humanatlas.io/2d-ftu/pancreas-intercalated-duct#Pancreatic_Acinar_Cell",
+          "@type": "FtuIllustrationNode",
+          "representation_of": "UBERON:0001263",
+          "svg_group_id": "Pancreatic_Acinar_Cell",
+          "svg_id": "Pancreatic_Acinar_Cell_4",
+          "label": "pancreatic acinus"
+        },
+        {
+          "@id": "https://purl.humanatlas.io/2d-ftu/pancreas-intercalated-duct#Pancreatic_Acinar_Cell",
+          "@type": "FtuIllustrationNode",
+          "representation_of": "UBERON:0001263",
+          "svg_group_id": "Pancreatic_Acinar_Cell_8",
+          "svg_id": "Pancreatic_Acinar_Cell",
+          "label": "pancreatic acinus"
+        },
+        {
+          "@id": "https://purl.humanatlas.io/2d-ftu/pancreas-intercalated-duct#Pancreatic_Acinar_Cell",
+          "@type": "FtuIllustrationNode",
+          "representation_of": "UBERON:0001263",
+          "svg_group_id": "Pancreatic_Acinar_Cell_5",
+          "svg_id": "Pancreatic_Acinar_Cell",
+          "label": "pancreatic acinus"
+        },
+        {
+          "@id": "https://purl.humanatlas.io/2d-ftu/pancreas-intercalated-duct#Pancreatic_Acinar_Cell",
+          "@type": "FtuIllustrationNode",
+          "representation_of": "UBERON:0001263",
+          "svg_group_id": "Pancreatic_Acinar_Cell_6",
+          "svg_id": "Pancreatic_Acinar_Cell",
+          "label": "pancreatic acinus"
+        },
+        {
+          "@id": "https://purl.humanatlas.io/2d-ftu/pancreas-intercalated-duct#Pancreatic_Acinar_Cell",
+          "@type": "FtuIllustrationNode",
+          "representation_of": "UBERON:0001263",
+          "svg_group_id": "Pancreatic_Acinar_Cell_7",
           "svg_id": "Pancreatic_Acinar_Cell",
           "label": "pancreatic acinus"
         }
@@ -10911,7 +10967,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/pancreas-intercalated-duct#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/pancreas-intercalated-duct/v1.2/assets/2d-ftu-pancreas-intercalated-duct.svg"
+          "file": "assets/2d-ftu-pancreas-intercalated-duct.svg"
         },
         {
           "@id": "https://purl.humanatlas.io/2d-ftu/pancreas-intercalated-duct#ai",
@@ -13438,6 +13494,22 @@
           "label": "basal cell of prostate epithelium"
         },
         {
+          "@id": "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus#Prostate_Neuroendocrine_Cell_1",
+          "@type": "FtuIllustrationNode",
+          "representation_of": "http://purl.obolibrary.org/obo/CL_0002340",
+          "svg_group_id": "Prostate_Neuroendocrine_Cell",
+          "svg_id": "Prostate_Neuroendocrine_Cell_1",
+          "label": "prostate neuroendocrine cell"
+        },
+        {
+          "@id": "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus#Prostate_Neuroendocrine_Cell_2",
+          "@type": "FtuIllustrationNode",
+          "representation_of": "http://purl.obolibrary.org/obo/CL_0002340",
+          "svg_group_id": "Prostate_Neuroendocrine_Cell",
+          "svg_id": "Prostate_Neuroendocrine_Cell_2",
+          "label": "prostate neuroendocrine cell"
+        },
+        {
           "@id": "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus#Luminal_Cell_Of_Prostate_Epithelium_39",
           "@type": "FtuIllustrationNode",
           "representation_of": "http://purl.obolibrary.org/obo/CL_0002340",
@@ -14926,14 +14998,6 @@
           "label": "luminal cell of prostate epithelium"
         },
         {
-          "@id": "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus#Luminal_Cell_Of_Prostate_Epithelium_109",
-          "@type": "FtuIllustrationNode",
-          "representation_of": "http://purl.obolibrary.org/obo/CL_0002340",
-          "svg_group_id": "Luminal_Cell_Of_Prostate_Epithelium",
-          "svg_id": "Luminal_Cell_Of_Prostate_Epithelium_109",
-          "label": "luminal cell of prostate epithelium"
-        },
-        {
           "@id": "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus#Luminal_Cell_Of_Prostate_Epithelium_11",
           "@type": "FtuIllustrationNode",
           "representation_of": "http://purl.obolibrary.org/obo/CL_0002340",
@@ -15731,14 +15795,6 @@
           "representation_of": "http://purl.obolibrary.org/obo/CL_0002340",
           "svg_group_id": "Luminal_Cell_Of_Prostate_Epithelium",
           "svg_id": "Luminal_Cell_Of_Prostate_Epithelium_8",
-          "label": "luminal cell of prostate epithelium"
-        },
-        {
-          "@id": "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus#Luminal_Cell_Of_Prostate_Epithelium_80",
-          "@type": "FtuIllustrationNode",
-          "representation_of": "http://purl.obolibrary.org/obo/CL_0002340",
-          "svg_group_id": "Luminal_Cell_Of_Prostate_Epithelium",
-          "svg_id": "Luminal_Cell_Of_Prostate_Epithelium_80",
           "label": "luminal cell of prostate epithelium"
         },
         {
@@ -16983,7 +17039,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/prostate-prostate-glandular-acinus/v1.2/assets/2d-ftu-prostate-prostate-glandular-acinus.svg"
+          "file": "assets/2d-ftu-prostate-prostate-glandular-acinus.svg"
         }
       ],
       "organ_id": "UBERON:0002367",
@@ -18595,7 +18651,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/skin-epidermal-ridge/v1.2/assets/2d-ftu-skin-epidermal-ridge.svg"
+          "file": "assets/2d-ftu-skin-epidermal-ridge.svg"
         }
       ],
       "organ_id": "UBERON:0002097",
@@ -24527,7 +24583,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/small-intestine-villus#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/small-intestine-villus/v1.1/assets/2d-ftu-small-intestine-villus.svg"
+          "file": "assets/2d-ftu-small-intestine-villus.svg"
         }
       ],
       "organ_id": "UBERON:0002108",
