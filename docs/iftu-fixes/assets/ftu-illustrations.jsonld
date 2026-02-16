@@ -1627,7 +1627,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/kidney-nephron#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/kidney-nephron/v1.2/assets/2d-ftu-kidney-nephron.svg"
+          "file": "assets/2d-ftu-kidney-nephron.svg"
         }
       ],
       "organ_id": "UBERON:0002113",
@@ -2078,59 +2078,75 @@
           "label": "kidney afferent arteriole endothelial cell"
         },
         {
-          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Epithelial_Cell_1",
+          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Cell_1",
           "@type": "FtuIllustrationNode",
           "representation_of": "http://purl.obolibrary.org/obo/CL_1000850",
-          "svg_group_id": "Macula_Densa_Epithelial_Cell",
-          "svg_id": "Macula_Densa_Epithelial_Cell_1",
+          "svg_group_id": "Macula_Densa",
+          "svg_id": "Macula_Densa_Cell_1",
           "label": "macula densa epithelial cell"
         },
         {
-          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Epithelial_Cell_2",
+          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Cell_2",
           "@type": "FtuIllustrationNode",
           "representation_of": "http://purl.obolibrary.org/obo/CL_1000850",
-          "svg_group_id": "Macula_Densa_Epithelial_Cell",
-          "svg_id": "Macula_Densa_Epithelial_Cell_2",
+          "svg_group_id": "Macula_Densa",
+          "svg_id": "Macula_Densa_Cell_2",
           "label": "macula densa epithelial cell"
         },
         {
-          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Epithelial_Cell_3",
+          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Cell_3",
           "@type": "FtuIllustrationNode",
           "representation_of": "http://purl.obolibrary.org/obo/CL_1000850",
-          "svg_group_id": "Macula_Densa_Epithelial_Cell",
-          "svg_id": "Macula_Densa_Epithelial_Cell_3",
+          "svg_group_id": "Macula_Densa",
+          "svg_id": "Macula_Densa_Cell_3",
           "label": "macula densa epithelial cell"
         },
         {
-          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Epithelial_Cell_4",
+          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Cell_4",
           "@type": "FtuIllustrationNode",
           "representation_of": "http://purl.obolibrary.org/obo/CL_1000850",
-          "svg_group_id": "Macula_Densa_Epithelial_Cell",
-          "svg_id": "Macula_Densa_Epithelial_Cell_4",
+          "svg_group_id": "Macula_Densa",
+          "svg_id": "Macula_Densa_Cell_4",
           "label": "macula densa epithelial cell"
         },
         {
-          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Epithelial_Cell_5",
+          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Cell_5",
           "@type": "FtuIllustrationNode",
           "representation_of": "http://purl.obolibrary.org/obo/CL_1000850",
-          "svg_group_id": "Macula_Densa_Epithelial_Cell",
-          "svg_id": "Macula_Densa_Epithelial_Cell_5",
+          "svg_group_id": "Macula_Densa",
+          "svg_id": "Macula_Densa_Cell_5",
           "label": "macula densa epithelial cell"
         },
         {
-          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Epithelial_Cell_6",
+          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Cell_6",
           "@type": "FtuIllustrationNode",
           "representation_of": "http://purl.obolibrary.org/obo/CL_1000850",
-          "svg_group_id": "Macula_Densa_Epithelial_Cell",
-          "svg_id": "Macula_Densa_Epithelial_Cell_6",
+          "svg_group_id": "Macula_Densa",
+          "svg_id": "Macula_Densa_Cell_6",
           "label": "macula densa epithelial cell"
         },
         {
-          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Epithelial_Cell_7",
+          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Cell_7",
           "@type": "FtuIllustrationNode",
           "representation_of": "http://purl.obolibrary.org/obo/CL_1000850",
-          "svg_group_id": "Macula_Densa_Epithelial_Cell",
+          "svg_group_id": "Macula_Densa",
           "svg_id": "Macula_Densa_Epithelial_Cell_7",
+          "label": "macula densa epithelial cell"
+        },
+        {
+          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Cell_8",
+          "@type": "FtuIllustrationNode",
+          "representation_of": "http://purl.obolibrary.org/obo/CL_1000850",
+          "svg_group_id": "Macula_Densa",
+          "svg_id": "Macula_Densa_Cell_8",
+          "label": "macula densa epithelial cell"
+        },
+        {
+          "@id": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle#Macula_Densa_Cell_9",
+          "@type": "FtuIllustrationNode",
+          "representation_of": "http://purl.obolibrary.org/obo/CL_1000850",
+          "svg_group_id": "Macula_Densa",
+          "svg_id": "Macula_Densa_Cell_9",
           "label": "macula densa epithelial cell"
         },
         {
