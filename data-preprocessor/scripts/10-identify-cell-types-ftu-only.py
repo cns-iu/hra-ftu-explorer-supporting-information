@@ -60,6 +60,7 @@ def compile_cell_types_per_ftu(organs_with_ftus: list):
                 "iri": do_json["iri"],
                 "cell_types_in_illustration": [],  # Captures cell types in FTU illustration
                 "cell_types_in_ftu_only": [],  # Captures cell types that occur only in the FTU and not any other anatomical structures
+                "cell_types_in_asctb_ftu_column": []  # Captures cell types in FTU column in ASCT+B table
             }
 
             # Create listing of unique cell types in the FTU illustration
@@ -77,11 +78,12 @@ def compile_cell_types_per_ftu(organs_with_ftus: list):
                     )
 
             ftu_cell_types.append(data_to_add)
+            
+            # get cell types in FTU column in ASCT+B table
 
     print()
 
     return ftu_cell_types
-
 
 def validate_against_asctb(ftu_cell_types: list):
     """Takes in a list of dictioanries describing FTUs, their metadata, and the cell types in them, then validates them against the AS-CT records in the ASCT+B tables
@@ -214,9 +216,20 @@ def validate_against_asctb(ftu_cell_types: list):
                     if is_only_associated_with_ftu:
                         ftu["cell_types_in_ftu_only"].append(cell_type_ftu)
 
+    print()
+    # Check FTU column
+    for record in asctb_table["data"]["asctb_record"]:
+        if "ftu_list" in record:
+            pprint(record["cell_type_list"][0]["source_concept"])
+            pprint(record["ftu_list"])
+    print()
+        
+        
+
     with_exclusive_cts = []
     without_exclusive_cts = []
-
+    
+    # print results
     for ftu in ftu_cell_types:
         # identify exclusive and non-exclusive cell types
         (
