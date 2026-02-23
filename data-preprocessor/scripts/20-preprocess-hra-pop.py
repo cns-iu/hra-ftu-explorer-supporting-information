@@ -97,13 +97,16 @@ def filter_raw_data(datasets_of_interest: list, cell_types_in_ftus: list):
     N = 500
 
     # Stream through the gzipped JSONL file
-    with gzip.open(UNIVERSE_10K_FILENAME, "rt", encoding="utf-8") as f, open(
-        FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME, "w", encoding="utf-8"
-    ) as intermediary_file:
-
+    with (
+        gzip.open(UNIVERSE_10K_FILENAME, "rt", encoding="utf-8") as f,
+        open(
+            FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME,
+            "w",
+            encoding="utf-8",
+        ) as intermediary_file,
+    ):
         # tqdm with no total (dynamic progress)
         for line in tqdm(f, desc="Processing JSONL lines", unit="line"):
-
             # Guard clauses
             if not line.strip():
                 continue
@@ -126,7 +129,6 @@ def filter_raw_data(datasets_of_interest: list, cell_types_in_ftus: list):
                 keep_summaries = []
 
                 for cell_type in cell_summary.get("summary", []):
-
                     organ_id = next(
                         (
                             v
