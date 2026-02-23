@@ -236,7 +236,7 @@ def validate_against_asctb(ftu_cell_types: list):
                     if any(ftu_target == item.get("source_concept") for item in ftu_list):
                         for ct in cell_type_list:
                             cell_id = ct.get("source_concept")
-                            if cell_id and cell_id not in seen:
+                            if cell_id and (cell_id not in seen):
                                 seen.add(cell_id)
                                 ftu["cell_types_in_asctb_ftu_column"].append(
                                     {"cell_id": cell_id, "ccf_pref_label": ct.get("ccf_pref_label")}
