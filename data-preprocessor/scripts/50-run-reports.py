@@ -138,11 +138,15 @@ def visualize_intersections():
     # -----------------------------
     # Plot
     # -----------------------------
-    plt.figure(figsize=(14, 8))
+    fig = plt.figure(figsize=(20, 10))
     up = UpSet(upset_data, show_counts=True, subset_size="count")
+    # plt.subplots_adjust(left=0.8)
+    for ax in fig.axes:
+        ax.tick_params(axis='y', labelsize=44)
     up.plot()
+    
 
-    plt.title("UpSet: Illustration vs ASCTB per FTU")
+    plt.title("UpSet: Illustration vs. ASCT+B per FTU", fontsize=44)
     plt.tight_layout()
 
     # -----------------------------
@@ -240,7 +244,7 @@ def visualize_bar_graph():
     ax.set_xticklabels(df["iri_short"], rotation=45, ha="right", fontsize=9)
     ax.set_ylabel("Count")
     ax.set_title(
-        "Cell-type counts per IRI: illustration vs asctb vs shared (CL: ids only)"
+        "Cell types per FTU: illustration vs. ASCT+B vs. shared (CL IDs only)"
     )
     ax.legend()
     plt.tight_layout()
