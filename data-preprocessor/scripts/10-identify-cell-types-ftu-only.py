@@ -42,7 +42,6 @@ def compile_cell_types_per_ftu(organs_with_ftus: list):
     # Get data for all FTU illustrations
     for organ in organs_with_ftus:
         for do in organ["ftu"]:
-
             # Get the PURL for the FTU
             url = do["ftu_digital_object"]
 
@@ -60,6 +59,7 @@ def compile_cell_types_per_ftu(organs_with_ftus: list):
                 "iri": do_json["iri"],
                 "cell_types_in_illustration": [],  # Captures cell types in FTU illustration
                 "cell_types_in_ftu_only": [],  # Captures cell types that occur only in the FTU and not any other anatomical structures
+                "cell_types_in_asctb_ftu_column": [],  # Captures cell types in FTU column in ASCT+B table
             }
 
             # Create listing of unique cell types in the FTU illustration
@@ -77,6 +77,8 @@ def compile_cell_types_per_ftu(organs_with_ftus: list):
                     )
 
             ftu_cell_types.append(data_to_add)
+
+            # get cell types in FTU column in ASCT+B table
 
     print()
 
@@ -100,7 +102,7 @@ def validate_against_asctb(ftu_cell_types: list):
     hra_do_list = requests.get(
         "https://apps.humanatlas.io/api/kg/digital-objects", headers=accept_json
     ).json()
-    
+
     # Ok, on staging, those two would look like:
     # https://apps.humanatlas.io/api/grlc/hra/2d-ftu-parts.csv?endpoint=https://apps.humanatlas.io/api--staging/v1/sparql
     # https://apps.humanatlas.io/api--staging/kg/digital-objects
@@ -119,7 +121,6 @@ def validate_against_asctb(ftu_cell_types: list):
     asctb_purls = set()
     for do in hra_do_list["@graph"]:
         if do["doType"] == "asct-b":
-
             if "organIds" in do:
                 last_token = [
                     id.split("/")[-1].replace("_", ":") for id in do["organIds"]
@@ -147,9 +148,9 @@ def validate_against_asctb(ftu_cell_types: list):
 
         # find FTUs for the organ of the ASCT+B table
         for ftu in ftu_cell_types:
-            target = ftu["organ_id_short"]
+            ftu_target = ftu["organ_id_short"]
             if any(
-                item["id"] == target
+                item["id"] == ftu_target
                 for item in asctb_table["data"]["anatomical_structures"]
             ):
                 ftu["asctb_purl"] = asctb_table["iri"]
@@ -214,6 +215,39 @@ def validate_against_asctb(ftu_cell_types: list):
                     if is_only_associated_with_ftu:
                         ftu["cell_types_in_ftu_only"].append(cell_type_ftu)
 
+                print()
+                print(
+                    f"FTU represents {ftu['representation_of']}. Now checking FTU column in ASCT+B table: {asctb_table['iri']}"
+                )
+
+                # simplified check for FTU column in ASCT+B table
+                # flat unique list for the FTU (no duplicates across records)
+                ftu_target = ftu["representation_of"]
+
+                seen = set()
+                ftu.setdefault("cell_types_in_asctb_ftu_column", [])
+
+                for record in asctb_table["data"]["asctb_record"]:
+                    ftu_list = record.get("ftu_list")
+                    cell_type_list = record.get("cell_type_list")
+                    if not (ftu_list and cell_type_list):
+                        continue
+
+                    if any(
+                        ftu_target == item.get("source_concept") for item in ftu_list
+                    ):
+                        for ct in cell_type_list:
+                            cell_id = ct.get("source_concept")
+                            if cell_id and (cell_id not in seen):
+                                seen.add(cell_id)
+                                ftu["cell_types_in_asctb_ftu_column"].append(
+                                    {
+                                        "cell_id": cell_id,
+                                        "ccf_pref_label": ct.get("ccf_pref_label"),
+                                    }
+                                )
+
+    # print results
     with_exclusive_cts = []
     without_exclusive_cts = []
 
@@ -221,7 +255,7 @@ def validate_against_asctb(ftu_cell_types: list):
         # identify exclusive and non-exclusive cell types
         (
             with_exclusive_cts
-            if ftu["cell_types_in_ftu_only"]
+            if ftu["cell_types_in_asctb_ftu_column"]
             else without_exclusive_cts
         ).append(ftu["iri"])
 

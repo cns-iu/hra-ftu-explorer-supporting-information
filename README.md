@@ -6,16 +6,19 @@
 ```bash
    cd data-preprocessor
 ```
-2. Create the virtual environment and install dependencies
+
+2. Copy the files `sc-transcriptomics-cell-summaries.top10k.jsonl.gz` and `sc-transcriptomics-cell-instances.csv.gz` into the `raw-data` (create it if need be) and `input` folders, respectively.
+
+3. Create the virtual environment and install dependencies
 ```bash
 	python setup_and_run.py
 ```
 
-3. Activate the virtual environment
+4. Activate the virtual environment
 ```bash
 source .venv/bin/activate
 ```
-4. Deactivate when finished
+5. Deactivate when finished
 ```bash
 deactivate
 

@@ -1,5 +1,8 @@
 # Raw data folder
 raw-data
 
+sc-transcriptomics-cell-instances.csv.gz
+sc-transcriptomics-cell-instances.csv.gz:Zone.Identifier
+
 # Virtual environment
 .venv/
