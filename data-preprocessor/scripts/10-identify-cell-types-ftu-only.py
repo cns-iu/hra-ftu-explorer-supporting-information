@@ -221,7 +221,7 @@ def validate_against_asctb(ftu_cell_types: list):
                 )
 
                 # simplified check for FTU column in ASCT+B table
-# flat unique list for the FTU (no duplicates across records)
+                # flat unique list for the FTU (no duplicates across records)
                 ftu_target = ftu["representation_of"]
 
                 seen = set()
@@ -233,15 +233,19 @@ def validate_against_asctb(ftu_cell_types: list):
                     if not (ftu_list and cell_type_list):
                         continue
 
-                    if any(ftu_target == item.get("source_concept") for item in ftu_list):
+                    if any(
+                        ftu_target == item.get("source_concept") for item in ftu_list
+                    ):
                         for ct in cell_type_list:
                             cell_id = ct.get("source_concept")
                             if cell_id and (cell_id not in seen):
                                 seen.add(cell_id)
                                 ftu["cell_types_in_asctb_ftu_column"].append(
-                                    {"cell_id": cell_id, "ccf_pref_label": ct.get("ccf_pref_label")}
+                                    {
+                                        "cell_id": cell_id,
+                                        "ccf_pref_label": ct.get("ccf_pref_label"),
+                                    }
                                 )
-                
 
     # print results
     with_exclusive_cts = []
