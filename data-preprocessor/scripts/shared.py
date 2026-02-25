@@ -411,11 +411,11 @@ def is_cell_type_exclusive_to_ftu(
 
     # Iterate over all FTUs and collect all "representation_of" IDs for CTs in "cell_types_in_ftu_only"
     matches = [
-        (ct["representation_of"], ftu["iri"])
+        (ct["cell_id"], ftu["iri"])
         for ftu in cell_types_in_ftu
-        for ct in ftu.get("cell_types_in_ftu_only", [])
+        for ct in ftu.get("cell_types_in_asctb_ftu_column", [])
         if ftu["organ_id_short"] == organ_id_to_check
-        and ct["representation_of"] == cell_id_to_check
+        and ct["cell_id"] == cell_id_to_check
     ]
 
     return matches
