@@ -375,7 +375,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/kidney-descending-thin-loop-of-henle#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/kidney-descending-thin-loop-of-henle/v1.2/assets/2d-ftu-kidney-descending-thin-loop-of-henle.svg"
+          "file": "assets/2d-ftu-kidney-descending-thin-loop-of-henle.svg"
         }
       ],
       "organ_id": "UBERON:0002113",
@@ -8675,7 +8675,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/mouth-parotid-gland#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/mouth-parotid-gland/v1.1/assets/2d-ftu-mouth-parotid-gland.svg"
+          "file": "assets/2d-ftu-mouth-parotid-gland.svg"
         }
       ],
       "organ_id": "UBERON:0000165",
@@ -9725,7 +9725,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/mouth-sublingual-gland#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/mouth-sublingual-gland/v1.1/assets/2d-ftu-mouth-sublingual-gland.svg"
+          "file": "assets/2d-ftu-mouth-sublingual-gland.svg"
         },
         {
           "@id": "https://purl.humanatlas.io/2d-ftu/mouth-sublingual-gland#ai",
@@ -10665,7 +10665,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/mouth-submandibular-gland#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/mouth-submandibular-gland/v1.1/assets/2d-ftu-mouth-submandibular-gland.svg"
+          "file": "assets/2d-ftu-mouth-submandibular-gland.svg"
         },
         {
           "@id": "https://purl.humanatlas.io/2d-ftu/mouth-submandibular-gland#ai",
@@ -17453,7 +17453,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/skin-dermal-papilla/v1.2/assets/2d-ftu-skin-dermal-papilla.svg"
+          "file": "assets/2d-ftu-skin-dermal-papilla.svg"
         }
       ],
       "organ_id": "UBERON:0002097",
@@ -19253,7 +19253,7 @@
           "@id": "https://purl.humanatlas.io/2d-ftu/skin-hair-follicle#svg",
           "@type": "FtuIllustrationFile",
           "file_format": "image/svg+xml",
-          "file": "https://cdn.humanatlas.io/digital-objects/2d-ftu/skin-hair-follicle/v1.1/assets/2d-ftu-skin-hair-follicle.svg"
+          "file": "assets/2d-ftu-skin-hair-follicle.svg"
         },
         {
           "@id": "https://purl.humanatlas.io/2d-ftu/skin-hair-follicle#ai",
