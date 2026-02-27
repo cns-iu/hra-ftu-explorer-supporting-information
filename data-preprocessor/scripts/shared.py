@@ -459,6 +459,69 @@ def iterate_through_json_lines(filename: str, print_line: bool = False):
                 pprint(line_json)
             yield line_json
 
+def ontology_id_short_to_url(ontology_id_short:str):
+    return f"http://purl.obolibrary.org/obo/{ontology_id_short.replace(":","_")}"
+
+def get_id_from_iri(iri):
+    # safe, idempotent, handles None/NaN and whitespace
+    if iri is None or (isinstance(iri, float) and pd.isna(iri)):
+        return None
+    s = str(iri).strip()
+    # if full IRI, grab text after last '/', otherwise leave as-is
+    if "/" in s:
+        s = s.rsplit("/", 1)[-1]
+    # normalize separator: CL_0000451 -> CL:0000451
+    return s.replace("_", ":")
+
+
+def get_in_asctb(df, ftu_iri, ct_iri):
+    ftu_id = get_id_from_iri(ftu_iri).strip()
+    ct_id = get_id_from_iri(ct_iri).strip()
+    print(f"Received {ftu_id} and {ct_id}")
+
+    row = df.loc[
+        (df["ftu_iri"].apply(get_id_from_iri) == ftu_id)
+        & (df["ct_iri"].apply(get_id_from_iri) == ct_id),
+        "in_asctb",
+    ]
+    
+    print(df["ftu_iri"].apply(get_id_from_iri).unique())
+
+    if row.empty:
+        return False
+
+    return bool(row.iloc[0])
+
+def fetch_grlc_csv_to_df(url, params=None, timeout=30, headers=None):
+    headers = headers or {}
+    # ask for CSV explicitly (GRLC supports CSV/JSON)
+    headers.setdefault("Accept", "text/csv")
+    resp = requests.get(url, params=params, headers=headers, timeout=timeout)
+    # defensive checks
+    if resp.status_code != 200:
+        # include body snippet to help debug servers that return HTML error pages
+        body_snippet = resp.text[:1000]
+        raise RuntimeError(
+            f"HTTP {resp.status_code} from GRLC. Body (truncated): {body_snippet!r}"
+        )
+    ctype = resp.headers.get("Content-Type", "")
+    if "csv" not in ctype and "text" not in ctype:
+        # server might have returned HTML (error) or JSON; show a helpful error
+        raise RuntimeError(
+            f"Unexpected Content-Type: {ctype!r}; body starts: {resp.text[:500]!r}"
+        )
+    # load into pandas using StringIO
+    csv_text = resp.text
+    df = pd.read_csv(
+        StringIO(csv_text),
+        true_values=["TRUE", "True", "true"],
+        false_values=["FALSE", "False", "false", ""],
+    )
+    return df
+
+
+# usage
+# df = fetch_grlc_csv_to_df('https://grlc.io/api/.../your_query.csv', params={'param1':'value'})
 
 def unzip_to_folder(file_path: str, target_folder: str):
     """

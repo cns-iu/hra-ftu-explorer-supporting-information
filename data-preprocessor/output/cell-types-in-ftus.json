@@ -4,100 +4,6 @@
     "organ_label": "kidney",
     "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
     "organ_id_short": "UBERON:0002113",
-    "representation_of": "UBERON:0004204",
-    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-outer-medullary-collecting-duct",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Outer_Medullary_Collecting_Duct_Intercalated_Cell_Type_A",
-        "representation_of": "CL:1000717"
-      },
-      {
-        "node_group": "Outer_Medullary_Collecting_Duct_Principal_Cell",
-        "representation_of": "CL:1000716"
-      },
-      {
-        "node_group": "Endothelium_Peritubular_Capillary",
-        "representation_of": "CL:1001033"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:1000716",
-        "ccf_pref_label": "Outer Medullary Collecting Duct Principal Cell"
-      },
-      {
-        "cell_id": "CL:1000717",
-        "ccf_pref_label": "Outer Medullary Collecting Duct Intercalated Cell Type A"
-      }
-    ]
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
-    "organ_label": "kidney",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
-    "organ_id_short": "UBERON:0002113",
-    "representation_of": "UBERON:0001229",
-    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Glomerular_Mesangial_Cell",
-        "representation_of": "CL:1000742"
-      },
-      {
-        "node_group": "Macula_Densa_Epithelial_Cell",
-        "representation_of": "CL:1000850"
-      },
-      {
-        "node_group": "Glomerular_Visceral_Epithelial_Cell",
-        "representation_of": "CL:0000653"
-      },
-      {
-        "node_group": "Epithelial_Cell_Proximal_Tubule",
-        "representation_of": "CL:0002306"
-      },
-      {
-        "node_group": "Glomerular_Capillary_Endothelial_Cell",
-        "representation_of": "CL:1001005"
-      },
-      {
-        "node_group": "Efferent_Arteriole_Endothelial_Cell",
-        "representation_of": "CL:1001099"
-      },
-      {
-        "node_group": "Parietal_Epithelial_Cell",
-        "representation_of": "CL:1000452"
-      },
-      {
-        "node_group": "Afferent_Arteriole_Endothelial_Cell",
-        "representation_of": "CL:1001096"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:1000452",
-        "ccf_pref_label": "Parietal Epithelial Cell"
-      },
-      {
-        "cell_id": "CL:0000653",
-        "ccf_pref_label": "Podocyte"
-      },
-      {
-        "cell_id": "CL:1001005",
-        "ccf_pref_label": "Glomerular Capillary Endothelial Cell"
-      },
-      {
-        "cell_id": "CL:1000742",
-        "ccf_pref_label": "Mesangial Cell"
-      }
-    ]
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
-    "organ_label": "kidney",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
-    "organ_id_short": "UBERON:0002113",
     "representation_of": "UBERON:0001285",
     "iri": "https://purl.humanatlas.io/2d-ftu/kidney-nephron",
     "cell_types_in_illustration": [
@@ -224,149 +130,7 @@
         "representation_of": "UBERON:0001229"
       }
     ],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:1000452",
-        "ccf_pref_label": "Parietal Epithelial Cell"
-      },
-      {
-        "cell_id": "CL:0000653",
-        "ccf_pref_label": "Podocyte"
-      },
-      {
-        "cell_id": "CL:1001005",
-        "ccf_pref_label": "Glomerular Capillary Endothelial Cell"
-      },
-      {
-        "cell_id": "CL:1000742",
-        "ccf_pref_label": "Mesangial Cell"
-      },
-      {
-        "cell_id": "CL:0002306",
-        "ccf_pref_label": "Proximal Tubule Epithelial Cell"
-      },
-      {
-        "cell_id": "CL:4030009",
-        "ccf_pref_label": "Proximal Tubule Epithelial Cell Segment 1"
-      },
-      {
-        "cell_id": "CL:4030010",
-        "ccf_pref_label": "Proximal Tubule Epithelial Cell Segment 2"
-      },
-      {
-        "cell_id": "CL:4030011",
-        "ccf_pref_label": "Proximal Tubule Cell Epithelial Segment 3"
-      },
-      {
-        "cell_id": "CL:1001111",
-        "ccf_pref_label": "Descending Thin Limb Cell"
-      },
-      {
-        "cell_id": "CL:4030012",
-        "ccf_pref_label": "Descending Thin Limb Cell Type 1"
-      },
-      {
-        "cell_id": "CL:4030013",
-        "ccf_pref_label": "Descending Thin Limb Cell Type 2"
-      },
-      {
-        "cell_id": "CL:4030014",
-        "ccf_pref_label": "Descending Thin Limb Cell Type 3"
-      },
-      {
-        "cell_id": "CL:1001107",
-        "ccf_pref_label": "Ascending Thin Limb Cell"
-      },
-      {
-        "cell_id": "CL:1001106",
-        "ccf_pref_label": "Thick Ascending Limb Cell"
-      },
-      {
-        "cell_id": "CL:1001109",
-        "ccf_pref_label": "Cortical Thick Ascending Limb Cell"
-      },
-      {
-        "cell_id": "CL:1001108",
-        "ccf_pref_label": "Medullary Thick Ascending Limb Cell"
-      },
-      {
-        "cell_id": "CL:1000850",
-        "ccf_pref_label": "Macula Densa cell"
-      },
-      {
-        "cell_id": "CL:1000849",
-        "ccf_pref_label": "Distal Convoluted Tubule Cell"
-      },
-      {
-        "cell_id": "CL:4030016",
-        "ccf_pref_label": "Distal Convoluted Tubule Cell Type 1"
-      },
-      {
-        "cell_id": "CL:4030017",
-        "ccf_pref_label": "Distal Convoluted Tubule Cell Type 2"
-      },
-      {
-        "cell_id": "CL:1000768",
-        "ccf_pref_label": "Connecting Tubule Cell"
-      },
-      {
-        "cell_id": "CL:4030018",
-        "ccf_pref_label": "Connecting Tubule Principal Cell"
-      },
-      {
-        "cell_id": "CL:4030019",
-        "ccf_pref_label": "Connecting Tubule Intercalated Cell"
-      },
-      {
-        "cell_id": "CL:4030020",
-        "ccf_pref_label": "Connecting Tubule Intercalated Cell Type A"
-      },
-      {
-        "cell_id": "CL:4030021",
-        "ccf_pref_label": "Intercalated Cell Type B"
-      }
-    ]
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
-    "organ_label": "kidney",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
-    "organ_id_short": "UBERON:0002113",
-    "representation_of": "UBERON:0001289",
-    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-descending-thin-loop-of-henle",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Descending_Thin_Limb_Cell",
-        "representation_of": "CL:1001111"
-      },
-      {
-        "node_group": "Descending_Vasa_Recta",
-        "representation_of": "CL:1001285"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:1001285",
-        "ccf_pref_label": "Descending Vasa Recta Endothelial Cell"
-      },
-      {
-        "cell_id": "CL:1001111",
-        "ccf_pref_label": "Descending Thin Limb Cell"
-      },
-      {
-        "cell_id": "CL:4030012",
-        "ccf_pref_label": "Descending Thin Limb Cell Type 1"
-      },
-      {
-        "cell_id": "CL:4030013",
-        "ccf_pref_label": "Descending Thin Limb Cell Type 2"
-      },
-      {
-        "cell_id": "CL:4030014",
-        "ccf_pref_label": "Descending Thin Limb Cell Type 3"
-      }
-    ]
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
@@ -386,12 +150,115 @@
       }
     ],
     "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
+    "cell_types_in_asctb_ftu_column": []
+  },
+  {
+    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
+    "organ_label": "kidney",
+    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
+    "organ_id_short": "UBERON:0002113",
+    "representation_of": "UBERON:0001229",
+    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle",
+    "cell_types_in_illustration": [
       {
-        "cell_id": "CL:1000718",
-        "ccf_pref_label": "Inner Medullary Collecting Duct Cell"
+        "node_group": "Glomerular_Mesangial_Cell",
+        "representation_of": "CL:1000742"
+      },
+      {
+        "node_group": "Macula_Densa_Epithelial_Cell",
+        "representation_of": "CL:1000850"
+      },
+      {
+        "node_group": "Glomerular_Visceral_Epithelial_Cell",
+        "representation_of": "CL:0000653"
+      },
+      {
+        "node_group": "Epithelial_Cell_Proximal_Tubule",
+        "representation_of": "CL:0002306"
+      },
+      {
+        "node_group": "Glomerular_Capillary_Endothelial_Cell",
+        "representation_of": "CL:1001005"
+      },
+      {
+        "node_group": "Efferent_Arteriole_Endothelial_Cell",
+        "representation_of": "CL:1001099"
+      },
+      {
+        "node_group": "Parietal_Epithelial_Cell",
+        "representation_of": "CL:1000452"
+      },
+      {
+        "node_group": "Afferent_Arteriole_Endothelial_Cell",
+        "representation_of": "CL:1001096"
       }
-    ]
+    ],
+    "cell_types_in_ftu_only": [],
+    "cell_types_in_asctb_ftu_column": []
+  },
+  {
+    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
+    "organ_label": "kidney",
+    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
+    "organ_id_short": "UBERON:0002113",
+    "representation_of": "UBERON:0001291",
+    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-thick-ascending-loop-of-henle",
+    "cell_types_in_illustration": [
+      {
+        "node_group": "Thick_Ascending_Limb_Cell",
+        "representation_of": "CL:1001106"
+      },
+      {
+        "node_group": "Endothelium_Peritubular_Capillary",
+        "representation_of": "CL:1001033"
+      }
+    ],
+    "cell_types_in_ftu_only": [],
+    "cell_types_in_asctb_ftu_column": []
+  },
+  {
+    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
+    "organ_label": "kidney",
+    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
+    "organ_id_short": "UBERON:0002113",
+    "representation_of": "UBERON:0001289",
+    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-descending-thin-loop-of-henle",
+    "cell_types_in_illustration": [
+      {
+        "node_group": "Descending_Thin_Limb_Cell",
+        "representation_of": "CL:1001111"
+      },
+      {
+        "node_group": "Descending_Vasa_Recta",
+        "representation_of": "CL:1001285"
+      }
+    ],
+    "cell_types_in_ftu_only": [],
+    "cell_types_in_asctb_ftu_column": []
+  },
+  {
+    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
+    "organ_label": "kidney",
+    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
+    "organ_id_short": "UBERON:0002113",
+    "representation_of": "UBERON:0004204",
+    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-outer-medullary-collecting-duct",
+    "cell_types_in_illustration": [
+      {
+        "node_group": "Outer_Medullary_Collecting_Duct_Intercalated_Cell_Type_A",
+        "representation_of": "CL:1000717"
+      },
+      {
+        "node_group": "Outer_Medullary_Collecting_Duct_Principal_Cell",
+        "representation_of": "CL:1000716"
+      },
+      {
+        "node_group": "Endothelium_Peritubular_Capillary",
+        "representation_of": "CL:1001033"
+      }
+    ],
+    "cell_types_in_ftu_only": [],
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
@@ -419,16 +286,7 @@
       }
     ],
     "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:1000714",
-        "ccf_pref_label": "Cortical Collecting Duct Principal Cell"
-      },
-      {
-        "cell_id": "CL:1000715",
-        "ccf_pref_label": "Cortical Collecting Duct Intercalated Cell Type A"
-      }
-    ]
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
@@ -448,45 +306,7 @@
       }
     ],
     "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:1001107",
-        "ccf_pref_label": "Ascending Thin Limb Cell"
-      }
-    ]
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
-    "organ_label": "kidney",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
-    "organ_id_short": "UBERON:0002113",
-    "representation_of": "UBERON:0001291",
-    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-thick-ascending-loop-of-henle",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Thick_Ascending_Limb_Cell",
-        "representation_of": "CL:1001106"
-      },
-      {
-        "node_group": "Endothelium_Peritubular_Capillary",
-        "representation_of": "CL:1001033"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:1001108",
-        "ccf_pref_label": "Medullary Thick Ascending Limb Cell"
-      },
-      {
-        "cell_id": "CL:1001106",
-        "ccf_pref_label": "Thick Ascending Limb Cell"
-      },
-      {
-        "cell_id": "CL:1001109",
-        "ccf_pref_label": "Cortical Thick Ascending Limb Cell"
-      }
-    ]
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/large-intestine",
@@ -518,64 +338,7 @@
       }
     ],
     "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:0009016",
-        "ccf_pref_label": "epithelial stem cell"
-      },
-      {
-        "cell_id": "CL:0009009",
-        "ccf_pref_label": "Paneth"
-      },
-      {
-        "cell_id": "CL:0000165",
-        "ccf_pref_label": "neuroendocrine"
-      },
-      {
-        "cell_id": "CL:0002071",
-        "ccf_pref_label": "absorptive"
-      },
-      {
-        "cell_id": "CL:1000321",
-        "ccf_pref_label": "goblet"
-      },
-      {
-        "cell_id": "CL:0009011",
-        "ccf_pref_label": "transient amplifying cell"
-      },
-      {
-        "cell_id": "CL:0019032",
-        "ccf_pref_label": "tuft cell"
-      },
-      {
-        "cell_id": "CL:0000915",
-        "ccf_pref_label": "surface intraepithelial CD8+ alph alpha positive alpha/beta lymphocyte"
-      },
-      {
-        "cell_id": "CL:0000802",
-        "ccf_pref_label": "surface intraepithelial CD8+ lymphocyte gamma/delta"
-      },
-      {
-        "cell_id": "CL:0000796",
-        "ccf_pref_label": "surface intraepithelial CD8+ alph beta positive alpha/beta lymphocyte"
-      },
-      {
-        "cell_id": "CL:0000793",
-        "ccf_pref_label": "surface intraepithelial CD4+ lymphocyte"
-      },
-      {
-        "cell_id": "CL:0000935",
-        "ccf_pref_label": "surface intraepithelial CD4-CD8- lymphocyte alpha/beta"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_subepithelial-membrane",
-        "ccf_pref_label": "subepithelial membrane"
-      },
-      {
-        "cell_id": "CL:0000041",
-        "ccf_pref_label": "eosinophil"
-      }
-    ]
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/liver",
@@ -631,128 +394,7 @@
       }
     ],
     "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:1000398",
-        "ccf_pref_label": "liver sinusoid endothelial cell"
-      },
-      {
-        "cell_id": "CL:0000091",
-        "ccf_pref_label": "Kupffer cell"
-      },
-      {
-        "cell_id": "CL:0000632",
-        "ccf_pref_label": "quiescent hepatic stellate cell"
-      },
-      {
-        "cell_id": "CL:0000738",
-        "ccf_pref_label": "leukocyte"
-      },
-      {
-        "cell_id": "CL:0000182",
-        "ccf_pref_label": "hepatocyte"
-      },
-      {
-        "cell_id": "CL:0019026",
-        "ccf_pref_label": "periportal hepatocyte"
-      },
-      {
-        "cell_id": "CL:0019029",
-        "ccf_pref_label": "pericentral hepatocyte"
-      },
-      {
-        "cell_id": "CL:0019028",
-        "ccf_pref_label": "mid zone hepatocyte"
-      },
-      {
-        "cell_id": "CL:0002543",
-        "ccf_pref_label": "endothelial cell"
-      },
-      {
-        "cell_id": "CL:0000241",
-        "ccf_pref_label": "cuboidal cell (Small cholangiocytes are cuboidal)"
-      },
-      {
-        "cell_id": "CL:0000075",
-        "ccf_pref_label": "columnar cell (larger cholangiocytes are more columnar) has ciliae"
-      },
-      {
-        "cell_id": "CL:0000526",
-        "ccf_pref_label": "neuron cell"
-      },
-      {
-        "cell_id": "CL:1000413",
-        "ccf_pref_label": "endothelial cell"
-      },
-      {
-        "cell_id": "CL:0019018",
-        "ccf_pref_label": "smooth muscle cell"
-      },
-      {
-        "cell_id": "CL:0009100",
-        "ccf_pref_label": "portal fibroblast"
-      },
-      {
-        "cell_id": "CL:0002196",
-        "ccf_pref_label": "hepatic oval cell"
-      },
-      {
-        "cell_id": "CL:0002138",
-        "ccf_pref_label": "hepatic lymphatic endothelial cell"
-      },
-      {
-        "cell_id": "CL:0001056",
-        "ccf_pref_label": "conventional Dendritic cell"
-      },
-      {
-        "cell_id": "CL:0000990",
-        "ccf_pref_label": "Conventional DC 1"
-      },
-      {
-        "cell_id": "CL:0002399",
-        "ccf_pref_label": "Conventional DC 2"
-      },
-      {
-        "cell_id": "CL:0000784",
-        "ccf_pref_label": "plasmacytoid Dendritic cell"
-      },
-      {
-        "cell_id": "CL:0000909",
-        "ccf_pref_label": "CD8-positive, alpha-beta memory T cell"
-      },
-      {
-        "cell_id": "CL:0000624",
-        "ccf_pref_label": "CD4+T cell"
-      },
-      {
-        "cell_id": "CL:0000798",
-        "ccf_pref_label": "gamma delta T cell"
-      },
-      {
-        "cell_id": "CL:0001203",
-        "ccf_pref_label": "CD8+ Liver-Resident Memory T cell"
-      },
-      {
-        "cell_id": "CL:0000921",
-        "ccf_pref_label": "iNKT"
-      },
-      {
-        "cell_id": "CL:0000623",
-        "ccf_pref_label": "natural killer cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_eomes-low-liver-nk-cell",
-        "ccf_pref_label": "Eomes low Liver NK cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_tbet-low-liver-nk-cell",
-        "ccf_pref_label": "TBet low Liver NK cell"
-      },
-      {
-        "cell_id": "CL:2000054",
-        "ccf_pref_label": "Pit cell"
-      }
-    ]
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/lung",
@@ -788,32 +430,7 @@
       }
     ],
     "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:4033055",
-        "ccf_pref_label": "airway submucosal gland ciliated duct cell"
-      },
-      {
-        "cell_id": "CL:4033024",
-        "ccf_pref_label": "airway submucosal gland duct basal cell"
-      },
-      {
-        "cell_id": "CL:4033023",
-        "ccf_pref_label": "airway submucosal gland collecting duct epithelial cell"
-      },
-      {
-        "cell_id": "CL:4033005",
-        "ccf_pref_label": "serous secreting cell of bronchus submucosal gland"
-      },
-      {
-        "cell_id": "CL:4033022",
-        "ccf_pref_label": "mucus secreting cell of bronchus submucosal gland"
-      },
-      {
-        "cell_id": "CL:4033003",
-        "ccf_pref_label": "myoepithelial cell of bronchus submucosal gland"
-      }
-    ]
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/lung",
@@ -849,292 +466,7 @@
       }
     ],
     "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:4028003",
-        "ccf_pref_label": "CAP2 aerocyte capillary aCap"
-      },
-      {
-        "cell_id": "CL:4028002",
-        "ccf_pref_label": "CAP1 general capillary gCap"
-      },
-      {
-        "cell_id": "CL:0002063",
-        "ccf_pref_label": "alveolar type II cell"
-      },
-      {
-        "cell_id": "CL:0002062",
-        "ccf_pref_label": "alveolar type I cell"
-      },
-      {
-        "cell_id": "CL:0009089",
-        "ccf_pref_label": "lung pericyte"
-      },
-      {
-        "cell_id": "CL:4028006",
-        "ccf_pref_label": "adventitial fibroblast"
-      },
-      {
-        "cell_id": "CL:4028004",
-        "ccf_pref_label": "alveolar type 1 fibroblast cell"
-      }
-    ]
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/mouth",
-    "organ_label": "mouth",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0000165",
-    "organ_id_short": "UBERON:0000165",
-    "representation_of": "UBERON:0001832",
-    "iri": "https://purl.humanatlas.io/2d-ftu/mouth-sublingual-gland",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Macrophage",
-        "representation_of": "CL:0000235"
-      },
-      {
-        "node_group": "Mast_Cell",
-        "representation_of": "CL:0000097"
-      },
-      {
-        "node_group": "Endothelial_Cell",
-        "representation_of": "CL:0000115"
-      },
-      {
-        "node_group": "Intercalated_Duct_Epithelial_Cell",
-        "representation_of": "CL:4052048"
-      },
-      {
-        "node_group": "Smooth_Muscle_Cell",
-        "representation_of": "CL:0000192"
-      },
-      {
-        "node_group": "Pericyte",
-        "representation_of": "CL:0000669"
-      },
-      {
-        "node_group": "Dendritic_Cell",
-        "representation_of": "CL:0000451"
-      },
-      {
-        "node_group": "Helper_T_Cell",
-        "representation_of": "CL:0000912"
-      },
-      {
-        "node_group": "IgA_Secreting_Plasma_Cell",
-        "representation_of": "CL:0000987"
-      }
-    ],
-    "cell_types_in_ftu_only": [
-      {
-        "node_group": "Helper_T_Cell",
-        "representation_of": "CL:0000912"
-      }
-    ],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_demilune-acinar-cell",
-        "ccf_pref_label": "demilune acinar cell"
-      },
-      {
-        "cell_id": "CL:0000451",
-        "ccf_pref_label": "dendritic cell"
-      },
-      {
-        "cell_id": "CL:0000115",
-        "ccf_pref_label": "endothelial cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_helper-t",
-        "ccf_pref_label": "helper T"
-      },
-      {
-        "cell_id": "CL:0000987",
-        "ccf_pref_label": "IgA secreting plasma cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_ionocyte",
-        "ccf_pref_label": "ionocyte"
-      },
-      {
-        "cell_id": "CL:0000235",
-        "ccf_pref_label": "macrophage"
-      },
-      {
-        "cell_id": "CL:0000097",
-        "ccf_pref_label": "mast cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_mucous-acinar-cell",
-        "ccf_pref_label": "mucous acinar cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_myoepithelial-cell",
-        "ccf_pref_label": "myoepithelial cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_periacinar-fibroblast",
-        "ccf_pref_label": "periacinar fibroblast"
-      },
-      {
-        "cell_id": "CL:0000669",
-        "ccf_pref_label": "pericyte"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_periductal-fibroblast",
-        "ccf_pref_label": "periductal fibroblast"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_seromucosal-acinar-cell",
-        "ccf_pref_label": "seromucosal acinar cell"
-      },
-      {
-        "cell_id": "CL:0000192",
-        "ccf_pref_label": "smooth muscle cell"
-      },
-      {
-        "cell_id": "CL:4052048",
-        "ccf_pref_label": "intercalated duct epithelial cell"
-      }
-    ]
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/mouth",
-    "organ_label": "mouth",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0000165",
-    "organ_id_short": "UBERON:0000165",
-    "representation_of": "UBERON:0001736",
-    "iri": "https://purl.humanatlas.io/2d-ftu/mouth-submandibular-gland",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Macrophage",
-        "representation_of": "CL:0000235"
-      },
-      {
-        "node_group": "Mast_Cell",
-        "representation_of": "CL:0000097"
-      },
-      {
-        "node_group": "Endothelial_Cell",
-        "representation_of": "CL:0000115"
-      },
-      {
-        "node_group": "Intercalated_Duct_Epithelial_Cell",
-        "representation_of": "CL:4052048"
-      },
-      {
-        "node_group": "Smooth_Muscle_Cell",
-        "representation_of": "CL:0000192"
-      },
-      {
-        "node_group": "Pericyte",
-        "representation_of": "CL:0000669"
-      },
-      {
-        "node_group": "Dendritic_Cell",
-        "representation_of": "CL:0000451"
-      },
-      {
-        "node_group": "Helper_T_Cell",
-        "representation_of": "CL:0000912"
-      },
-      {
-        "node_group": "IgA_Secreting_Plasma_Cell",
-        "representation_of": "CL:0000987"
-      },
-      {
-        "node_group": "Straited_Ductal_Epithelial_Cell",
-        "representation_of": "CL:4052049"
-      }
-    ],
-    "cell_types_in_ftu_only": [
-      {
-        "node_group": "Helper_T_Cell",
-        "representation_of": "CL:0000912"
-      }
-    ],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_basal-ductal-cell",
-        "ccf_pref_label": "basal ductal cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_demilune-acinar-cell",
-        "ccf_pref_label": "demilune acinar cell"
-      },
-      {
-        "cell_id": "CL:0000451",
-        "ccf_pref_label": "dendritic cell"
-      },
-      {
-        "cell_id": "CL:0000115",
-        "ccf_pref_label": "endothelial cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_helper-t",
-        "ccf_pref_label": "helper T"
-      },
-      {
-        "cell_id": "CL:0000987",
-        "ccf_pref_label": "IgA secreting plasma cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_ionocyte",
-        "ccf_pref_label": "ionocyte"
-      },
-      {
-        "cell_id": "CL:0000235",
-        "ccf_pref_label": "macrophage"
-      },
-      {
-        "cell_id": "CL:0000097",
-        "ccf_pref_label": "mast cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_mucous-acinar-cell",
-        "ccf_pref_label": "mucous acinar cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_myoepithelial-cell",
-        "ccf_pref_label": "myoepithelial cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_periacinar-fibroblast",
-        "ccf_pref_label": "periacinar fibroblast"
-      },
-      {
-        "cell_id": "CL:0000669",
-        "ccf_pref_label": "pericyte"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_periductal-fibroblast",
-        "ccf_pref_label": "periductal fibroblast"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_seromucosal-acinar-cell",
-        "ccf_pref_label": "seromucosal acinar cell"
-      },
-      {
-        "cell_id": "CL:0000192",
-        "ccf_pref_label": "smooth muscle cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_tuft-cell",
-        "ccf_pref_label": "tuft cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_excretory-duct-epithelial-cell",
-        "ccf_pref_label": "excretory duct epithelial cell"
-      },
-      {
-        "cell_id": "CL:4052048",
-        "ccf_pref_label": "intercalated duct epithelial cell"
-      },
-      {
-        "cell_id": "CL:4052049",
-        "ccf_pref_label": "striated duct epithelial cell"
-      }
-    ]
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/mouth",
@@ -1195,84 +527,117 @@
         "representation_of": "CL:0000912"
       }
     ],
-    "cell_types_in_asctb_ftu_column": [
+    "cell_types_in_asctb_ftu_column": []
+  },
+  {
+    "asctb_purl": "https://purl.humanatlas.io/asct-b/mouth",
+    "organ_label": "mouth",
+    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0000165",
+    "organ_id_short": "UBERON:0000165",
+    "representation_of": "UBERON:0001832",
+    "iri": "https://purl.humanatlas.io/2d-ftu/mouth-sublingual-gland",
+    "cell_types_in_illustration": [
       {
-        "cell_id": "CL:0000136",
-        "ccf_pref_label": "adipocyte"
+        "node_group": "Macrophage",
+        "representation_of": "CL:0000235"
       },
       {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_basal-ductal-cell",
-        "ccf_pref_label": "basal ductal cell"
+        "node_group": "Mast_Cell",
+        "representation_of": "CL:0000097"
       },
       {
-        "cell_id": "CL:0000451",
-        "ccf_pref_label": "dendritic cell"
+        "node_group": "Endothelial_Cell",
+        "representation_of": "CL:0000115"
       },
       {
-        "cell_id": "CL:0000115",
-        "ccf_pref_label": "endothelial cell"
+        "node_group": "Intercalated_Duct_Epithelial_Cell",
+        "representation_of": "CL:4052048"
       },
       {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_helper-t",
-        "ccf_pref_label": "helper T"
+        "node_group": "Smooth_Muscle_Cell",
+        "representation_of": "CL:0000192"
       },
       {
-        "cell_id": "CL:0000987",
-        "ccf_pref_label": "IgA secreting plasma cell"
+        "node_group": "Pericyte",
+        "representation_of": "CL:0000669"
       },
       {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_ionocyte",
-        "ccf_pref_label": "ionocyte"
+        "node_group": "Dendritic_Cell",
+        "representation_of": "CL:0000451"
       },
       {
-        "cell_id": "CL:0000235",
-        "ccf_pref_label": "macrophage"
+        "node_group": "Helper_T_Cell",
+        "representation_of": "CL:0000912"
       },
       {
-        "cell_id": "CL:0000097",
-        "ccf_pref_label": "mast cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_myoepithelial-cell",
-        "ccf_pref_label": "myoepithelial cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_periacinar-fibroblast",
-        "ccf_pref_label": "periacinar fibroblast"
-      },
-      {
-        "cell_id": "CL:0000669",
-        "ccf_pref_label": "pericyte"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_periductal-fibroblast",
-        "ccf_pref_label": "periductal fibroblast"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_serous-acinar-cell",
-        "ccf_pref_label": "serous acinar cell"
-      },
-      {
-        "cell_id": "CL:0000192",
-        "ccf_pref_label": "smooth muscle cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_tuft-cell",
-        "ccf_pref_label": "tuft cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_excretory-duct-epithelial-cell",
-        "ccf_pref_label": "excretory duct epithelial cell"
-      },
-      {
-        "cell_id": "CL:4052048",
-        "ccf_pref_label": "intercalated duct epithelial cell"
-      },
-      {
-        "cell_id": "CL:4052049",
-        "ccf_pref_label": "striated duct epithelial cell"
+        "node_group": "IgA_Secreting_Plasma_Cell",
+        "representation_of": "CL:0000987"
       }
-    ]
+    ],
+    "cell_types_in_ftu_only": [
+      {
+        "node_group": "Helper_T_Cell",
+        "representation_of": "CL:0000912"
+      }
+    ],
+    "cell_types_in_asctb_ftu_column": []
+  },
+  {
+    "asctb_purl": "https://purl.humanatlas.io/asct-b/mouth",
+    "organ_label": "mouth",
+    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0000165",
+    "organ_id_short": "UBERON:0000165",
+    "representation_of": "UBERON:0001736",
+    "iri": "https://purl.humanatlas.io/2d-ftu/mouth-submandibular-gland",
+    "cell_types_in_illustration": [
+      {
+        "node_group": "Macrophage",
+        "representation_of": "CL:0000235"
+      },
+      {
+        "node_group": "Mast_Cell",
+        "representation_of": "CL:0000097"
+      },
+      {
+        "node_group": "Endothelial_Cell",
+        "representation_of": "CL:0000115"
+      },
+      {
+        "node_group": "Intercalated_Duct_Epithelial_Cell",
+        "representation_of": "CL:4052048"
+      },
+      {
+        "node_group": "Smooth_Muscle_Cell",
+        "representation_of": "CL:0000192"
+      },
+      {
+        "node_group": "Pericyte",
+        "representation_of": "CL:0000669"
+      },
+      {
+        "node_group": "Dendritic_Cell",
+        "representation_of": "CL:0000451"
+      },
+      {
+        "node_group": "Helper_T_Cell",
+        "representation_of": "CL:0000912"
+      },
+      {
+        "node_group": "IgA_Secreting_Plasma_Cell",
+        "representation_of": "CL:0000987"
+      },
+      {
+        "node_group": "Straited_Ductal_Epithelial_Cell",
+        "representation_of": "CL:4052049"
+      }
+    ],
+    "cell_types_in_ftu_only": [
+      {
+        "node_group": "Helper_T_Cell",
+        "representation_of": "CL:0000912"
+      }
+    ],
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/pancreas",
@@ -1321,56 +686,7 @@
         "representation_of": "CL:0000669"
       }
     ],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:0008024",
-        "ccf_pref_label": "Endocrine cell"
-      },
-      {
-        "cell_id": "CL:0000171",
-        "ccf_pref_label": "Alpha cell"
-      },
-      {
-        "cell_id": "CL:0000169",
-        "ccf_pref_label": "Beta cell"
-      },
-      {
-        "cell_id": "CL:0000173",
-        "ccf_pref_label": "Delta cell"
-      },
-      {
-        "cell_id": "CL:0002275",
-        "ccf_pref_label": "PP cell"
-      },
-      {
-        "cell_id": "CL:0005019",
-        "ccf_pref_label": "Epsilon cell"
-      },
-      {
-        "cell_id": "CL:0000509",
-        "ccf_pref_label": "Gastrin cell"
-      },
-      {
-        "cell_id": "CL:0000542",
-        "ccf_pref_label": "Lymphocyte"
-      },
-      {
-        "cell_id": "CL:0000236",
-        "ccf_pref_label": "B lymphocyte"
-      },
-      {
-        "cell_id": "CL:0000084",
-        "ccf_pref_label": "T lymphocyte"
-      },
-      {
-        "cell_id": "CL:0000235",
-        "ccf_pref_label": "Macrophage"
-      },
-      {
-        "cell_id": "CL:0000451",
-        "ccf_pref_label": "Dendritic cell"
-      }
-    ]
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/pancreas",
@@ -1407,28 +723,7 @@
         "representation_of": "UBERON:0001263"
       }
     ],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:0002079",
-        "ccf_pref_label": "Ductal cell"
-      },
-      {
-        "cell_id": "CL:1001433",
-        "ccf_pref_label": "Ductal epithelial cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_low-columnar-cell",
-        "ccf_pref_label": "Low columnar cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_cuboidal-cell",
-        "ccf_pref_label": "Cuboidal cell"
-      },
-      {
-        "cell_id": "CL:0000577",
-        "ccf_pref_label": "Enterochromaffin cell"
-      }
-    ]
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/pancreas",
@@ -1473,32 +768,7 @@
         "representation_of": "UBERON:0014726"
       }
     ],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:1001599",
-        "ccf_pref_label": "Pancreas exocrine glandular cell"
-      },
-      {
-        "cell_id": "CL:0002064",
-        "ccf_pref_label": "Acinar cell"
-      },
-      {
-        "cell_id": "CL:0002079",
-        "ccf_pref_label": "Ductal cell"
-      },
-      {
-        "cell_id": "CL:0002080",
-        "ccf_pref_label": "Centroacinar cell"
-      },
-      {
-        "cell_id": "CL:0000075",
-        "ccf_pref_label": "columnar/cuboidal epithelial cell"
-      },
-      {
-        "cell_id": "CL:1000322",
-        "ccf_pref_label": "Pancreatic goblet cell"
-      }
-    ]
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/prostate",
@@ -1555,44 +825,59 @@
         "representation_of": "CL:0002341"
       }
     ],
-    "cell_types_in_asctb_ftu_column": [
+    "cell_types_in_asctb_ftu_column": []
+  },
+  {
+    "asctb_purl": "https://purl.humanatlas.io/asct-b/skin",
+    "organ_label": "skin of body",
+    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
+    "organ_id_short": "UBERON:0002097",
+    "representation_of": "UBERON:0001992",
+    "iri": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla",
+    "cell_types_in_illustration": [
       {
-        "cell_id": "CL:0002340",
-        "ccf_pref_label": "luminal epithelia"
+        "node_group": "Skin_Fibroblast",
+        "representation_of": "CL:0002620"
       },
       {
-        "cell_id": "CL:0002341",
-        "ccf_pref_label": "basal epithelia"
-      },
-      {
-        "cell_id": "CL:1000487",
-        "ccf_pref_label": "prostate smooth muscle"
-      },
-      {
-        "cell_id": "CL:1000301",
-        "ccf_pref_label": "periprostatic fibroblast"
-      },
-      {
-        "cell_id": "CL:1000299",
-        "ccf_pref_label": "interstitial fibroblast"
-      },
-      {
-        "cell_id": "CL:0000071",
-        "ccf_pref_label": "blood vessel endothelial cell"
-      },
-      {
-        "cell_id": "CL:0002144",
-        "ccf_pref_label": "capillary endothelial cell"
-      },
-      {
-        "cell_id": "CL:0000359",
-        "ccf_pref_label": "vascular associated smooth muscle cell"
-      },
-      {
-        "cell_id": "CL:0000669",
-        "ccf_pref_label": "perictye"
+        "node_group": "Blood_Vessel",
+        "representation_of": "CL:0000115"
       }
-    ]
+    ],
+    "cell_types_in_ftu_only": [],
+    "cell_types_in_asctb_ftu_column": []
+  },
+  {
+    "asctb_purl": "https://purl.humanatlas.io/asct-b/skin",
+    "organ_label": "skin of body",
+    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
+    "organ_id_short": "UBERON:0002097",
+    "representation_of": "UBERON:0013487",
+    "iri": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge",
+    "cell_types_in_illustration": [
+      {
+        "node_group": "Prickle_Cell",
+        "representation_of": "CL:0000649"
+      },
+      {
+        "node_group": "Epidermal_Langerhans_Cell",
+        "representation_of": "CL:0002457"
+      },
+      {
+        "node_group": "Basal_Cell",
+        "representation_of": "CL:0000646"
+      },
+      {
+        "node_group": "Merkel_Cell",
+        "representation_of": "CL:0000242"
+      },
+      {
+        "node_group": "Melanocyte",
+        "representation_of": "CL:1000458"
+      }
+    ],
+    "cell_types_in_ftu_only": [],
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/skin",
@@ -1677,101 +962,7 @@
         "representation_of": "UBERON:0002033"
       }
     ],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:0002562",
-        "ccf_pref_label": "Matrix cell"
-      },
-      {
-        "cell_id": "CL:0002483",
-        "ccf_pref_label": "Melanocyte"
-      },
-      {
-        "cell_id": "CL:0000317",
-        "ccf_pref_label": "Germinative (epithelial) cell, Sebocyte"
-      }
-    ]
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/skin",
-    "organ_label": "skin of body",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
-    "organ_id_short": "UBERON:0002097",
-    "representation_of": "UBERON:0001992",
-    "iri": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Skin_Fibroblast",
-        "representation_of": "CL:0002620"
-      },
-      {
-        "node_group": "Blood_Vessel",
-        "representation_of": "CL:0000115"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
     "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/skin",
-    "organ_label": "skin of body",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
-    "organ_id_short": "UBERON:0002097",
-    "representation_of": "UBERON:0013487",
-    "iri": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Prickle_Cell",
-        "representation_of": "CL:0000649"
-      },
-      {
-        "node_group": "Epidermal_Langerhans_Cell",
-        "representation_of": "CL:0002457"
-      },
-      {
-        "node_group": "Basal_Cell",
-        "representation_of": "CL:0000646"
-      },
-      {
-        "node_group": "Merkel_Cell",
-        "representation_of": "CL:0000242"
-      },
-      {
-        "node_group": "Melanocyte",
-        "representation_of": "CL:1000458"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:0002153",
-        "ccf_pref_label": "Keratinocyte (Corneocyte)"
-      },
-      {
-        "cell_id": "CL:0000312",
-        "ccf_pref_label": "Keratinocyte (Granular)"
-      },
-      {
-        "cell_id": "CL:0002457",
-        "ccf_pref_label": "Langerhans cell"
-      },
-      {
-        "cell_id": "CL:0000649",
-        "ccf_pref_label": "Keratinocytes (Spinous)"
-      },
-      {
-        "cell_id": "CL:0000242",
-        "ccf_pref_label": "Merkel cell"
-      },
-      {
-        "cell_id": "CL:0000646",
-        "ccf_pref_label": "Keratinocyte (Basal)"
-      },
-      {
-        "cell_id": "CL:1000458",
-        "ccf_pref_label": "Melanocyte"
-      }
-    ]
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/small-intestine",
@@ -1843,84 +1034,7 @@
       }
     ],
     "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:1000317",
-        "ccf_pref_label": "goblet cell"
-      },
-      {
-        "cell_id": "CL:1000324",
-        "ccf_pref_label": "goblet cell"
-      },
-      {
-        "cell_id": "CL:0009080",
-        "ccf_pref_label": "tuft cell"
-      },
-      {
-        "cell_id": "CL:0000584",
-        "ccf_pref_label": "enterocyte"
-      },
-      {
-        "cell_id": "CL:0000163",
-        "ccf_pref_label": "endocrine lineage cell"
-      },
-      {
-        "cell_id": "CL:0000115",
-        "ccf_pref_label": "endothelial"
-      },
-      {
-        "cell_id": "CL:0000186",
-        "ccf_pref_label": "myofibroblast"
-      },
-      {
-        "cell_id": "CL:0000057",
-        "ccf_pref_label": "fibroblast"
-      },
-      {
-        "cell_id": "CL:0000236",
-        "ccf_pref_label": "B cell"
-      },
-      {
-        "cell_id": "CL:0000786",
-        "ccf_pref_label": "plasma"
-      },
-      {
-        "cell_id": "CL:0000235",
-        "ccf_pref_label": "macrophage"
-      },
-      {
-        "cell_id": "CL:0000771",
-        "ccf_pref_label": "eosinophil"
-      },
-      {
-        "cell_id": "CL:0000097",
-        "ccf_pref_label": "mast cell"
-      },
-      {
-        "cell_id": "CL:0000775",
-        "ccf_pref_label": "neutrophil"
-      },
-      {
-        "cell_id": "CL:0000623",
-        "ccf_pref_label": "natural killer (NK) cell"
-      },
-      {
-        "cell_id": "CL:0000451",
-        "ccf_pref_label": "dendritic cell (DC)"
-      },
-      {
-        "cell_id": "CL:0001065",
-        "ccf_pref_label": "innate lyphoid cell (ILC)"
-      },
-      {
-        "cell_id": "CL:1000325",
-        "ccf_pref_label": "goblet cell"
-      },
-      {
-        "cell_id": "CL:1000326",
-        "ccf_pref_label": "goblet cell"
-      }
-    ]
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/spleen",
@@ -1968,108 +1082,7 @@
       }
     ],
     "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:2000053",
-        "ccf_pref_label": "Splenic endothelial cell"
-      },
-      {
-        "cell_id": "CL:0008034A",
-        "ccf_pref_label": "mural cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_splenic-pericyte",
-        "ccf_pref_label": "Splenic Pericyte"
-      },
-      {
-        "cell_id": "CL:0000499",
-        "ccf_pref_label": "stromal cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_splenic-stromal-sheath-cell",
-        "ccf_pref_label": "Splenic Stromal Sheath Cell"
-      },
-      {
-        "cell_id": "CL:0000874",
-        "ccf_pref_label": "Macrophage"
-      },
-      {
-        "cell_id": "CL:0000788",
-        "ccf_pref_label": "Naive B Cell"
-      },
-      {
-        "cell_id": "CL:0000787",
-        "ccf_pref_label": "Memory-Like B Cell"
-      },
-      {
-        "cell_id": "CL:0000972",
-        "ccf_pref_label": "Switched B Cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_reticular-cell-of-splenic-sinusoid",
-        "ccf_pref_label": "Reticular Cell of splenic sinusoid"
-      },
-      {
-        "cell_id": "CL:0002543",
-        "ccf_pref_label": "vein endothelial cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_splenic-littoral-cell",
-        "ccf_pref_label": "Splenic Littoral Cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_splenic-red-pulp-stromal-cell",
-        "ccf_pref_label": "Splenic Red Pulp Stromal Cell"
-      },
-      {
-        "cell_id": "CL:0000037",
-        "ccf_pref_label": "Hematopoetic Stem Cell"
-      },
-      {
-        "cell_id": "CL:0001055",
-        "ccf_pref_label": "Monocytes"
-      },
-      {
-        "cell_id": "CL:0000232",
-        "ccf_pref_label": "Erythrocytes"
-      },
-      {
-        "cell_id": "CL:0000236",
-        "ccf_pref_label": "B cell"
-      },
-      {
-        "cell_id": "CL:0000625",
-        "ccf_pref_label": "CD8+ T Cell"
-      },
-      {
-        "cell_id": "CL:0000909",
-        "ccf_pref_label": "Memory CD8+ T Cell"
-      },
-      {
-        "cell_id": "CL:0000786",
-        "ccf_pref_label": "Plasma Cell"
-      },
-      {
-        "cell_id": "CL:0000980",
-        "ccf_pref_label": "Plasmablast"
-      },
-      {
-        "cell_id": "CL:0001056",
-        "ccf_pref_label": "Dendritic Cell"
-      },
-      {
-        "cell_id": "CL:0000233",
-        "ccf_pref_label": "Platelet"
-      },
-      {
-        "cell_id": "CL:0000623",
-        "ccf_pref_label": "NK Cell"
-      },
-      {
-        "cell_id": "CL:1000489",
-        "ccf_pref_label": "Red Pulp Reticular Cell"
-      }
-    ]
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/spleen",
@@ -2117,168 +1130,7 @@
       }
     ],
     "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:2000053",
-        "ccf_pref_label": "Splenic endothelial cell"
-      },
-      {
-        "cell_id": "CL:0002138",
-        "ccf_pref_label": "Lymphatic Endothelium Cell"
-      },
-      {
-        "cell_id": "CL:0000442",
-        "ccf_pref_label": "Follicular Dendritic Cell (FDC)"
-      },
-      {
-        "cell_id": "CL:0000788",
-        "ccf_pref_label": "Naive B Cell"
-      },
-      {
-        "cell_id": "CL:0000787",
-        "ccf_pref_label": "Memory B Cell"
-      },
-      {
-        "cell_id": "CL:0000876",
-        "ccf_pref_label": "Macrophage"
-      },
-      {
-        "cell_id": "CL:0000990",
-        "ccf_pref_label": "conventional dendritic cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_dec205-dc",
-        "ccf_pref_label": "DEC205+ DC"
-      },
-      {
-        "cell_id": "CL:0000844",
-        "ccf_pref_label": "Germinal Center B Cell"
-      },
-      {
-        "cell_id": "CL:0002038",
-        "ccf_pref_label": "T Follicular Helper Cell"
-      },
-      {
-        "cell_id": "CL:0009113",
-        "ccf_pref_label": "T Follicular Regulatory Cell"
-      },
-      {
-        "cell_id": "CL:0000877",
-        "ccf_pref_label": "Tingible Body Macrophage"
-      },
-      {
-        "cell_id": "CL:0000980",
-        "ccf_pref_label": "Plasmablast"
-      },
-      {
-        "cell_id": "CL:0000236",
-        "ccf_pref_label": "B cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_mantle-zone-b-cell",
-        "ccf_pref_label": "Mantle Zone B Cell"
-      },
-      {
-        "cell_id": "CL:0000818",
-        "ccf_pref_label": "Transitional Immature B Cells"
-      },
-      {
-        "cell_id": "CL:0008034A",
-        "ccf_pref_label": "mural cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_splenic-pericyte",
-        "ccf_pref_label": "Splenic Pericyte"
-      },
-      {
-        "cell_id": "CL:0000499",
-        "ccf_pref_label": "stromal cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_adventitial-stromal-cell",
-        "ccf_pref_label": "Adventitial Stromal Cell"
-      },
-      {
-        "cell_id": "CL:4033050",
-        "ccf_pref_label": "Catecholaminergic Neuron"
-      },
-      {
-        "cell_id": "CL:0000895",
-        "ccf_pref_label": "Naive CD4+ T Cell"
-      },
-      {
-        "cell_id": "CL:0000492",
-        "ccf_pref_label": "CD4+ T Cell"
-      },
-      {
-        "cell_id": "CL:0000900",
-        "ccf_pref_label": "Naive CD8+ T Cell"
-      },
-      {
-        "cell_id": "CL:0001050",
-        "ccf_pref_label": "CD8+ T Cell"
-      },
-      {
-        "cell_id": "CL:0000794",
-        "ccf_pref_label": "Cytotoxic T Cells"
-      },
-      {
-        "cell_id": "CL:0000815",
-        "ccf_pref_label": "T Regulatory Cell"
-      },
-      {
-        "cell_id": "CL:1000489",
-        "ccf_pref_label": "Fibroblastic Reticular Cell (FRC)"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_interdigitating-dendritic-cells",
-        "ccf_pref_label": "Interdigitating Dendritic Cells"
-      },
-      {
-        "cell_id": "CL:0000192",
-        "ccf_pref_label": "smooth muscle cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_splenic-smooth-muscle-cell",
-        "ccf_pref_label": "Splenic Smooth Muscle Cell"
-      },
-      {
-        "cell_id": "CL:0000909",
-        "ccf_pref_label": "Cytotoxic Memory T Cell"
-      },
-      {
-        "cell_id": "CL:0000897",
-        "ccf_pref_label": "CD4+ Memory T Cell"
-      },
-      {
-        "cell_id": "CL:0000186",
-        "ccf_pref_label": "Myofibroblasts"
-      },
-      {
-        "cell_id": "CL:0001058",
-        "ccf_pref_label": "Plasmacytoid Dendritic Cell"
-      },
-      {
-        "cell_id": "https://purl.org/ccf/ASCTB-TEMP_splenic-stromal-cell-non-frc-non-fdc-",
-        "ccf_pref_label": "Splenic Stromal Cell (non-FRC/non-FDC)"
-      },
-      {
-        "cell_id": "CL:0002394",
-        "ccf_pref_label": "cDC1 myeloid dendritic cell"
-      },
-      {
-        "cell_id": "CL:0002399",
-        "ccf_pref_label": "cDC2 myeloid dendritic cell"
-      },
-      {
-        "cell_id": "CL:0000623",
-        "ccf_pref_label": "NK Cell"
-      },
-      {
-        "cell_id": "CL:0000798",
-        "ccf_pref_label": "Gamma/Delta T cells"
-      }
-    ]
+    "cell_types_in_asctb_ftu_column": []
   },
   {
     "asctb_purl": "https://purl.humanatlas.io/asct-b/thymus",
@@ -2367,195 +1219,6 @@
         "representation_of": "CL:0000738"
       }
     ],
-    "cell_types_in_asctb_ftu_column": [
-      {
-        "cell_id": "CL:0009077",
-        "ccf_pref_label": "subcapsular cortical epithelial cell"
-      },
-      {
-        "cell_id": "CL:0002425",
-        "ccf_pref_label": "early thymic progenitor"
-      },
-      {
-        "cell_id": "CL:0009081",
-        "ccf_pref_label": "double negative thymocyte 2"
-      },
-      {
-        "cell_id": "CL:0009082",
-        "ccf_pref_label": "double negative thymocyte 3"
-      },
-      {
-        "cell_id": "CL:0009083",
-        "ccf_pref_label": "double negative thymocyte 4"
-      },
-      {
-        "cell_id": "CL:0000883",
-        "ccf_pref_label": "macrophage"
-      },
-      {
-        "cell_id": "CL:0000071",
-        "ccf_pref_label": "blood endothelial cell"
-      },
-      {
-        "cell_id": "CL:3000002",
-        "ccf_pref_label": "sympathetic noradrenergic nerve"
-      },
-      {
-        "cell_id": "CL:0000809",
-        "ccf_pref_label": "double positive thymocyte"
-      },
-      {
-        "cell_id": "CL:0000942",
-        "ccf_pref_label": "plasmacytoid dendritic cell"
-      },
-      {
-        "cell_id": "CL:0000764",
-        "ccf_pref_label": "erythroid"
-      },
-      {
-        "cell_id": "CL:0002364",
-        "ccf_pref_label": "cortical thymic epithelial cell"
-      },
-      {
-        "cell_id": "CL:0000970",
-        "ccf_pref_label": "memory B cell"
-      },
-      {
-        "cell_id": "CL:0000972",
-        "ccf_pref_label": "memory B cell"
-      },
-      {
-        "cell_id": "CL:0000980",
-        "ccf_pref_label": "plasmablast"
-      },
-      {
-        "cell_id": "CL:0000786",
-        "ccf_pref_label": "plasma cell"
-      },
-      {
-        "cell_id": "CL:0000771",
-        "ccf_pref_label": "eosinophil"
-      },
-      {
-        "cell_id": "CL:0000576",
-        "ccf_pref_label": "monocyte"
-      },
-      {
-        "cell_id": "CL:0002436",
-        "ccf_pref_label": "CD4+ T single positive thymocyte"
-      },
-      {
-        "cell_id": "CL:0002437",
-        "ccf_pref_label": "CD8+ T single positive thymocyte"
-      },
-      {
-        "cell_id": "CL:0001070",
-        "ccf_pref_label": "beige adipocyte"
-      },
-      {
-        "cell_id": "CL:0000866",
-        "ccf_pref_label": "macrophage"
-      },
-      {
-        "cell_id": "CL:0002059",
-        "ccf_pref_label": "conventional dendritic cell 1"
-      },
-      {
-        "cell_id": "CL:0002460",
-        "ccf_pref_label": "conventional dendritic cell 2"
-      },
-      {
-        "cell_id": "CL:0002138",
-        "ccf_pref_label": "lymphatic endothelial cell"
-      },
-      {
-        "cell_id": "CL:0009070",
-        "ccf_pref_label": "corticomedullary thymic epithelial cell"
-      },
-      {
-        "cell_id": "CL:0000934",
-        "ccf_pref_label": "cytotoxic CD4 T cell"
-      },
-      {
-        "cell_id": "CL:0000897",
-        "ccf_pref_label": "CD4+ T memory T cell"
-      },
-      {
-        "cell_id": "CL:0000909",
-        "ccf_pref_label": "CD8+ T memory"
-      },
-      {
-        "cell_id": "CL:0009068",
-        "ccf_pref_label": "CD8aa(I) thymocyte"
-      },
-      {
-        "cell_id": "CL:0009069",
-        "ccf_pref_label": "CD8aa(II) thymocyte"
-      },
-      {
-        "cell_id": "CL:0002038",
-        "ccf_pref_label": "T follicular helper cell"
-      },
-      {
-        "cell_id": "CL:0002677",
-        "ccf_pref_label": "regulatory T cells"
-      },
-      {
-        "cell_id": "CL:0000798",
-        "ccf_pref_label": "gamma-delta T cell"
-      },
-      {
-        "cell_id": "CL:0000899",
-        "ccf_pref_label": "Th17 cell"
-      },
-      {
-        "cell_id": "CL:0000940",
-        "ccf_pref_label": "mucosal associated invariant T cell"
-      },
-      {
-        "cell_id": "CL:0000914",
-        "ccf_pref_label": "immature NKT cell"
-      },
-      {
-        "cell_id": "CL:0000882",
-        "ccf_pref_label": "macrophage"
-      },
-      {
-        "cell_id": "CL:0000788",
-        "ccf_pref_label": "naive B cell"
-      },
-      {
-        "cell_id": "CL:0001078",
-        "ccf_pref_label": "group 3 innate lymphoid cell"
-      },
-      {
-        "cell_id": "CL:0000623",
-        "ccf_pref_label": "natural killer cell"
-      },
-      {
-        "cell_id": "CL:0009071",
-        "ccf_pref_label": "medullary thymic epithelial cell type 1"
-      },
-      {
-        "cell_id": "CL:0009072",
-        "ccf_pref_label": "medullary thymic epithelial cell type 2"
-      },
-      {
-        "cell_id": "CL:0009073",
-        "ccf_pref_label": "medullary thymic epithelial cell type 3"
-      },
-      {
-        "cell_id": "CL:0009074",
-        "ccf_pref_label": "medullary thymic epithelial cell type 4"
-      },
-      {
-        "cell_id": "CL:0009075",
-        "ccf_pref_label": "myo-medullary thymic epithelial cell"
-      },
-      {
-        "cell_id": "CL:0009076",
-        "ccf_pref_label": "neuro-medullary thymic epithelial cell"
-      }
-    ]
+    "cell_types_in_asctb_ftu_column": []
   }
 ]
