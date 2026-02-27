@@ -16,3 +16,4 @@ FTU_DATASETS : ftu-datasets.jsonld
 FTU_CELL_SUMMARIES : ftu-cell-summaries.jsonld
 ANATOMOGRAMN_METADATA: anatomogram-dataset-metadata.csv
 ANATOMOGRAMN_RAW_DATA : anatomogram-raw
+DATASETS_OF_INTEREST : datasets-of-interest.json

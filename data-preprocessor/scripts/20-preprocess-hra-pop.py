@@ -57,7 +57,14 @@ def identify_datasets_of_interest(
 
         if organ_has_ftus:
             result.append({dataset_id: organ_id})
-
+            print(f"Of interest: {dataset_id}")
+   
+    data = {
+        "datasets_of_interest": result
+    }
+   
+    with open(DATASETS_OF_INTEREST, "w") as f:
+        json.dump(data, f, indent=4)
     return list(result)
 
 
