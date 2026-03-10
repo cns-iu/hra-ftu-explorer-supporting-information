@@ -48,7 +48,7 @@ def build_dataset_metadata_jsonld(metadata: pd.DataFrame):
 
     look_up_ftu_to_datasets = {}
 
-    with open(FILTERED_DATASET_METADATA_FILENAME, 'r') as f:
+    with open(FILTERED_DATASET_METADATA_FILENAME, "r") as f:
         data = json.load(f)
 
         look_up_ftu_to_datasets = defaultdict(list)
@@ -69,7 +69,9 @@ def build_dataset_metadata_jsonld(metadata: pd.DataFrame):
         new_ftu = copy.deepcopy(ftu_instance)
 
         # Fill fields in @graph
-        new_ftu["@id"] = ftu  # hard-coded for now since all datasets with FTUs are from prostate
+        new_ftu["@id"] = (
+            ftu  # hard-coded for now since all datasets with FTUs are from prostate
+        )
 
         for obj in iterate_through_json_lines(
             FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME
@@ -77,15 +79,16 @@ def build_dataset_metadata_jsonld(metadata: pd.DataFrame):
             dataset_id = obj["cell_source"]
 
             # get right dataset ID
-            for ftu in look_up_ftu_to_datasets: 
+            for ftu in look_up_ftu_to_datasets:
                 if dataset_id in look_up_ftu_to_datasets[ftu]:
-
                     # Get metadata
                     metadata_instance = metadata[metadata["dataset_id"] == dataset_id]
 
                     new_data_source = copy.deepcopy(data_source_instance)
 
-                    new_data_source["@id"] = dataset_id + "#CellSummary_" + new_ftu["@id"].split("/")[-1]
+                    new_data_source["@id"] = (
+                        dataset_id + "#CellSummary_" + new_ftu["@id"].split("/")[-1]
+                    )
                     new_data_source["label"] = metadata_instance.iloc[0]["handler"]
                     new_data_source["link"] = dataset_id
                     new_data_source["description"] = dataset_id
@@ -120,9 +123,7 @@ def build_cell_summaries_jsonld():
             + "#CellSummary_"
             + "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus".split(
                 "/"
-            )[
-                -1
-            ]
+            )[-1]
         )
         obj["annotation_method"] = "Aggregation"
         obj["biomarker_type"] = "gene"

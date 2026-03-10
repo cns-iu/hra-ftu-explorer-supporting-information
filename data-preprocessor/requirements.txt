@@ -7,3 +7,4 @@ tqdm
 ujson
 scanpy
 anndata
+upsetplot

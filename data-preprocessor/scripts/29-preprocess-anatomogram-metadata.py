@@ -76,7 +76,7 @@ def extract_metadata(organ_metadata: dict):
 def main():
     # Driver code
     print("Now making metadata file for anatomogram.")
-    
+
     for organ in anatomogram_files_json:
         extract_metadata(organ)
 
