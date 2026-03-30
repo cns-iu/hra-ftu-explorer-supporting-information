@@ -60,11 +60,12 @@ def build_dataset_metadata_jsonld(metadata: pd.DataFrame):
                         look_up_ftu_to_datasets[purl].append(dataset)
 
     print()
-    pprint(look_up_ftu_to_datasets)
+    # pprint(look_up_ftu_to_datasets)
     print()
 
     for ftu in look_up_ftu_to_datasets:
-        print(ftu)
+        print(f"ftu: {ftu}")
+        print()
 
         new_ftu = copy.deepcopy(ftu_instance)
 
@@ -72,11 +73,13 @@ def build_dataset_metadata_jsonld(metadata: pd.DataFrame):
         new_ftu["@id"] = (
             ftu  # hard-coded for now since all datasets with FTUs are from prostate
         )
+        pprint(new_ftu)
 
         for obj in iterate_through_json_lines(
             FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME
         ):
             dataset_id = obj["cell_source"]
+            print(f"dataset_id: {dataset_id}")
 
             # get right dataset ID
             for ftu in look_up_ftu_to_datasets:
@@ -137,6 +140,7 @@ def build_cell_summaries_jsonld():
             ].replace(":", "_")
 
             for gene in summary["genes"]:
+                print(gene)
                 gene["@type"] = "GeneExpression"
                 gene["ensemble_id"] = gene.pop("ensembl_id")
                 gene["mean_expression"] = gene.pop("mean_gene_expr_value")
@@ -155,7 +159,7 @@ def main():
     metadata = pd.read_csv(UNIVERSE_METADATA_FILENAME).reset_index(drop=True)
 
     build_dataset_metadata_jsonld(metadata=metadata)
-    build_cell_summaries_jsonld()
+    # build_cell_summaries_jsonld()
 
 
 if __name__ == "__main__":

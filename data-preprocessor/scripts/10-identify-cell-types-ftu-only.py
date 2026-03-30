@@ -95,6 +95,29 @@ def validate_against_asctb(ftu_cell_types: list):
         ftu_cell_types_validated: The same list of dictionaries with additional values
     """
 
+    # Run query to get CTs in ASCT+B FTU column
+    df_query_ftu_column = fetch_grlc_csv_to_df(
+        "https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra/ftu-cts-in-2d-asctb.csv",
+        params={"Accept": "text/csv"},
+    )
+    df_query_ftu_column["in_asctb"] = (
+        df_query_ftu_column["in_asctb"].fillna("").eq("TRUE")
+    )
+    
+    print(df_query_ftu_column["in_asctb"].unique())
+
+    # Optional: ensure dtype is actually bool
+    df_query_ftu_column["in_asctb"] = df_query_ftu_column["in_asctb"].astype(bool)
+    df_query_ftu_column["in_2d_ftu"] = df_query_ftu_column["in_2d_ftu"].astype(bool)
+    # print(df_query_ftu_column)
+
+    df_query_ftu_column["in_2d_ftu"] = df_query_ftu_column["in_2d_ftu"].eq("TRUE")
+    df_query_ftu_column["in_asctb"] = df_query_ftu_column["in_asctb"].eq("TRUE")
+    
+    print(df_query_ftu_column["in_asctb"].unique())
+
+    return
+
     pprint(ftu_cell_types)
     print()
 
@@ -227,25 +250,45 @@ def validate_against_asctb(ftu_cell_types: list):
                 seen = set()
                 ftu.setdefault("cell_types_in_asctb_ftu_column", [])
 
-                for record in asctb_table["data"]["asctb_record"]:
-                    ftu_list = record.get("ftu_list")
-                    cell_type_list = record.get("cell_type_list")
-                    if not (ftu_list and cell_type_list):
-                        continue
+                # ADD BRUCE CODE HERE
+                # print(
+                #     f"Checking {ftu['representation_of']} and {cell_type_ftu["representation_of"]}"
+                #     )
+                # result = get_in_asctb(
+                #     df_query_ftu_column,
+                #     ftu["representation_of"],
+                #     cell_type_ftu["representation_of"],
+                # )
 
-                    if any(
-                        ftu_target == item.get("source_concept") for item in ftu_list
-                    ):
-                        for ct in cell_type_list:
-                            cell_id = ct.get("source_concept")
-                            if cell_id and (cell_id not in seen):
-                                seen.add(cell_id)
-                                ftu["cell_types_in_asctb_ftu_column"].append(
-                                    {
-                                        "cell_id": cell_id,
-                                        "ccf_pref_label": ct.get("ccf_pref_label"),
-                                    }
-                                )
+                # print(f"✅ {result}" if result == True else f"⚠️ {result}")
+
+                # CHECK BRUCE'S QUERY
+                # cts_in_ftu_column_asctb = []
+
+                result_iris = get_ct_iris_for_ftu(df_query_ftu_column, ftu["iri"])
+
+                ftu["cell_types_in_asctb_ftu_column"] = result_iris
+
+                # OLDER CODE WHERE WE GO THROUGH THE FTU COLUMN IN THE ASCT+B TABLE OURSELVES RATHER THAN WITH BRUCE'S QUERY
+                # for record in asctb_table["data"]["asctb_record"]:
+                #     ftu_list = record.get("ftu_list")
+                #     cell_type_list = record.get("cell_type_list")
+                #     if not (ftu_list and cell_type_list):
+                #         continue
+
+                #     if any(
+                #         ftu_target == item.get("source_concept") for item in ftu_list
+                #     ):
+                #         for ct in cell_type_list:
+                #             cell_id = ct.get("source_concept")
+                #             if cell_id and (cell_id not in seen):
+                #                 seen.add(cell_id)
+                #                 ftu["cell_types_in_asctb_ftu_column"].append(
+                #                     {
+                #                         "cell_id": cell_id,
+                #                         "ccf_pref_label": ct.get("ccf_pref_label"),
+                #                     }
+                #                 )
 
     # print results
     with_exclusive_cts = []
@@ -273,6 +316,51 @@ def validate_against_asctb(ftu_cell_types: list):
     ftu_cell_types_validated = ftu_cell_types
 
     return ftu_cell_types_validated
+
+
+def _normalize_in_asctb(series: pd.Series) -> pd.Series:
+    # handle booleans, 'TRUE' strings, case/whitespace, and NaN
+
+    return series.apply(lambda b: True if b == "TRUE" else False)
+
+
+# .fillna("").astype(str).str.strip().str.upper().eq("TRUE")
+
+
+def get_ct_iris_for_ftu(df: pd.DataFrame, ftu_purl: str, as_ids: bool = False) -> list:
+    """
+    Return list of ct_iri values for rows where df['ftu_purl'] == ftu_purl
+    and df['in_asctb'] is TRUE.
+
+    If as_ids=True, returns the ID after the last '/' with '_' replaced by ':' (e.g. 'CL:0000451').
+    """
+    # ensure boolean column (fast and idempotent)
+    df = df.copy()  # optional: remove if you don't want a copy
+    df["in_asctb_bool"] = _normalize_in_asctb(df["in_asctb"])
+
+    # filter by FTU PURL and TRUE in_asctb
+    print(f"{ftu_purl} and {df['in_asctb_bool']}")
+    mask = (df["ftu_purl"] == ftu_purl) & (df["in_asctb_bool"])
+    print()
+
+    print(df["in_asctb_bool"].unique())
+    ct_iris = df.loc[mask, "ct_iri"].dropna().astype(str).tolist()
+
+    print(ct_iris)
+
+    if not as_ids:
+        return ct_iris
+
+    # convert IRI -> ID after last '/' and replace '_' with ':'
+    def iri_to_id(iri: str) -> str:
+        if not iri:
+            return None
+        s = iri.strip()
+        if "/" in s:
+            s = s.rsplit("/", 1)[-1]
+        return s.replace("_", ":")
+
+    return [iri_to_id(x) for x in ct_iris if iri_to_id(x) is not None]
 
 
 def main():
