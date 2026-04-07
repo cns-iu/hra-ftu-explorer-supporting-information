@@ -23,7 +23,7 @@ context_template = {
 }
 
 
-def build_dataset_metadata_jsonld(metadata: pd.DataFrame):
+def build_ftu_datasets_jsonld(metadata: pd.DataFrame):
     """_summary_"""
     out_json_ld = copy.deepcopy(context_template)
 
@@ -51,17 +51,22 @@ def build_dataset_metadata_jsonld(metadata: pd.DataFrame):
     with open(FILTERED_DATASET_METADATA_FILENAME, "r") as f:
         data = json.load(f)
 
+        
         look_up_ftu_to_datasets = defaultdict(list)
 
-        for dataset, groups in data.items():
+        for dataset_id, groups in data.items():
             for group in groups:
-                for _, purl in group:
-                    if dataset not in look_up_ftu_to_datasets[purl]:
-                        look_up_ftu_to_datasets[purl].append(dataset)
+                for cl, purl in group:
+                    if dataset_id not in look_up_ftu_to_datasets[purl]:
+                        look_up_ftu_to_datasets[purl].append(dataset_id)
+
+        # optional: convert back to normal dict
+        look_up_ftu_to_datasets = dict(look_up_ftu_to_datasets)
 
     print()
-    # pprint(look_up_ftu_to_datasets)
+    pprint(look_up_ftu_to_datasets)
     print()
+    # return
 
     for ftu in look_up_ftu_to_datasets:
         print(f"ftu: {ftu}")
@@ -111,7 +116,7 @@ def build_dataset_metadata_jsonld(metadata: pd.DataFrame):
         json.dump(out_json_ld, f, ensure_ascii=False, indent=4)
 
 
-def build_cell_summaries_jsonld():
+def build_ftu_cell_summaries_jsonld():
     """_summary_"""
 
     # turn into JSONLD files with context
@@ -126,7 +131,7 @@ def build_cell_summaries_jsonld():
             + "#CellSummary_"
             + "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus".split(
                 "/"
-            )[-1]
+            )[-1] # LOOK THIS UP VIA FILTERED-DATASET-METADATA instead!!!!!
         )
         obj["annotation_method"] = "Aggregation"
         obj["biomarker_type"] = "gene"
@@ -158,7 +163,7 @@ def main():
 
     metadata = pd.read_csv(UNIVERSE_METADATA_FILENAME).reset_index(drop=True)
 
-    build_dataset_metadata_jsonld(metadata=metadata)
+    build_ftu_datasets_jsonld(metadata=metadata)
     # build_cell_summaries_jsonld()
 
 

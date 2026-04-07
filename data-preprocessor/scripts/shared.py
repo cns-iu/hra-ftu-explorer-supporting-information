@@ -149,6 +149,7 @@ def as_bool(v):
         return v.strip().lower() in {"true", "t", "1", "yes", "y"}
     return bool(v)
 
+
 def iri_to_curie(iri: str) -> str:
     return iri.rsplit("/", 1)[-1].replace("_", ":")
 
@@ -367,7 +368,7 @@ def comes_from_organ_with_ftu(
     """
     if organ_id_to_check is None:
         return False
-    
+
     unique_organ_id_short = sorted(
         {
             v["organ_id_short"]
@@ -413,7 +414,6 @@ def comes_from_organ_with_ftu(
 
 # slower alternative:
 
-
 def is_cell_type_exclusive_to_ftu(
     cell_id_to_check: str | None, organ_id_to_check: str, cell_types_in_ftu: list[dict]
 ) -> list:
@@ -437,11 +437,12 @@ def is_cell_type_exclusive_to_ftu(
 
     # Iterate over all FTUs and collect all "representation_of" IDs for CTs in "cell_types_in_ftu_only"
     matches = [
-        (ct['ct_iri'], ftu['ftu_purl'])
+        {"ct_iri": ct["ct_iri"], "ftu_purl": ftu["ftu_purl"]}
+        # (ct["ct_iri"], ftu["ftu_purl"])
         for ftu in cell_types_in_ftu.values()
-        if ftu['organ_id_short'] == organ_id_to_check
-        for ct in ftu.get('cts_exclusive', [])
-        if ct['ct_iri'] == cell_id_to_check
+        if ftu["organ_id_short"] == organ_id_to_check
+        for ct in ftu.get("cts_exclusive", [])
+        if ct["ct_iri"] == cell_id_to_check
     ]
 
     return matches
