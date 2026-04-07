@@ -169,11 +169,16 @@ def filter_raw_data(datasets_of_interest: list, cell_types_in_ftus: list):
                     keep_cell_type_population = {
                         k: v for k, v in cell_summary.items() if k != "summary"
                     }
+                    
                     keep_cell_type_population["summary"] = keep_summaries
 
                     intermediary_file.write(
                         json.dumps(keep_cell_type_population) + "\n"
                     )
+                    
+                    tqdm.write("Wrote to file.")
+                    
+                    tqdm.write("")
 
                     # tqdm.write(
                     #     f"Datasets with confirmed FTUs is now: {datasets_with_ftus}."

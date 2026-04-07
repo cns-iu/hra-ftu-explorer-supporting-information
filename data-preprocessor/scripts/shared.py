@@ -52,6 +52,9 @@ with open(Path(__file__).parent / "config.yaml", "r", encoding="utf-8") as f:
 hra_pop_version = config["HRA_POP_VERSION"]
 hra_pop_branch = config["HRA_POP_BRANCH"]
 
+# Capture FTU query
+FTU_QUERY = config["FTU_QUERY"]
+
 # Assign file paths to constants
 CELL_TYPES_IN_FTUS = OUTPUT_DIR / config["CELL_TYPES_IN_FTUS"]
 UNIVERSE_FILE_FILENAME = INPUT_DIR / config["UNIVERSE_FILE_FILENAME"]
@@ -139,6 +142,17 @@ anatomogram_files_json = [
 # 4. Pancreas: https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061/downloads
 
 
+def as_bool(v):
+    if pd.isna(v):
+        return False
+    if isinstance(v, str):
+        return v.strip().lower() in {"true", "t", "1", "yes", "y"}
+    return bool(v)
+
+def iri_to_curie(iri: str) -> str:
+    return iri.rsplit("/", 1)[-1].replace("_", ":")
+
+
 def get_csv_pandas(url: str, timeout: int = 10) -> pd.DataFrame:
     """
     Fetch a CSV file from a URL and return it as a pandas DataFrame.
@@ -208,13 +222,16 @@ def download_from_url(
         r.raise_for_status()
         total_size = int(r.headers.get("content-length", 0))
 
-        with open(file_path, "wb") as f, tqdm(
-            total=total_size,
-            unit="B",
-            unit_scale=True,
-            desc=file_path.name,
-            ascii=True,
-        ) as pbar:
+        with (
+            open(file_path, "wb") as f,
+            tqdm(
+                total=total_size,
+                unit="B",
+                unit_scale=True,
+                desc=file_path.name,
+                ascii=True,
+            ) as pbar,
+        ):
             for chunk in r.iter_content(chunk_size=8192):
                 if chunk:
                     f.write(chunk)
@@ -309,7 +326,7 @@ def get_organs_with_ftus():
     """
 
     df = get_csv_pandas("https://apps.humanatlas.io/api/grlc/hra/2d-ftu-parts.csv")
-    
+
     # Ok, on staging, those two would look like:
     # https://apps.humanatlas.io/api/grlc/hra/2d-ftu-parts.csv?endpoint=https://apps.humanatlas.io/api--staging/v1/sparql
     # https://apps.humanatlas.io/api--staging/kg/digital-objects
@@ -350,8 +367,16 @@ def comes_from_organ_with_ftu(
     """
     if organ_id_to_check is None:
         return False
+    
+    unique_organ_id_short = sorted(
+        {
+            v["organ_id_short"]
+            for v in cell_types_in_ftus.values()
+            if "organ_id_short" in v
+        }
+    )
 
-    return organ_id_to_check in {ftu["organ_id_short"] for ftu in cell_types_in_ftus}
+    return organ_id_to_check in unique_organ_id_short
 
 
 # def build_ftu_index(cell_types_in_ftus):
@@ -412,11 +437,11 @@ def is_cell_type_exclusive_to_ftu(
 
     # Iterate over all FTUs and collect all "representation_of" IDs for CTs in "cell_types_in_ftu_only"
     matches = [
-        (ct["cell_id"], ftu["iri"])
-        for ftu in cell_types_in_ftu
-        for ct in ftu.get("cell_types_in_asctb_ftu_column", [])
-        if ftu["organ_id_short"] == organ_id_to_check
-        and ct["cell_id"] == cell_id_to_check
+        (ct['ct_iri'], ftu['ftu_purl'])
+        for ftu in cell_types_in_ftu.values()
+        if ftu['organ_id_short'] == organ_id_to_check
+        for ct in ftu.get('cts_exclusive', [])
+        if ct['ct_iri'] == cell_id_to_check
     ]
 
     return matches
