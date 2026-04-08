@@ -14,7 +14,7 @@ def build_ftu_cell_summaries_jsonld():
     for obj in iterate_through_json_lines(
         FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME
     ):
-        if obj_counter > 1021:
+        if obj_counter > 1022:
             break
         else:
             obj_counter = obj_counter + 1
