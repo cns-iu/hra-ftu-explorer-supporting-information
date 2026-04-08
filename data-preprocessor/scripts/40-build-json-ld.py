@@ -131,58 +131,74 @@ def build_ftu_cell_summaries_jsonld():
     with open(FTU_TO_DATASETS, "r", encoding="utf-8") as f:
         ftu_to_datasets = json.load(f)
 
+
+    obj_counter = 0
     for obj in iterate_through_json_lines(
         FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME
     ):
-        # Enrich with needed fields
-        cell_source = obj["cell_source"]
+        if obj_counter > 3:
+            break
+        else:
+            obj_counter = obj_counter + 1
+            # Enrich with needed fields
+            cell_source = obj["cell_source"]
 
-        # Find FTU for dataset
-        for ftu in ftu_to_datasets:
-            if cell_source in ftu_to_datasets[ftu]:
-                tqdm.write(f"Found {cell_source} in {ftu}")
-                dataset_id = cell_source
-                suffix = ftu.rsplit("/", 1)[-1]
-                tqdm.write(f"suffix: {suffix}")
-                cell_source = f"{dataset_id}#CellSummary_{suffix}"
+            # Find FTU for dataset
+            for ftu in ftu_to_datasets:
+                if cell_source in ftu_to_datasets[ftu]:
+                    tqdm.write(f"Found {cell_source} in {ftu}")
+                    dataset_id = cell_source
+                    suffix = ftu.rsplit("/", 1)[-1]
+                    tqdm.write(f"suffix: {suffix}")
+                    cell_source = f"{dataset_id}#CellSummary_{suffix}"
 
-        obj["cell_source"] = cell_source
-        tqdm.write("")
-        tqdm.write(f"Now making summary for {cell_source}")
-        tqdm.write("")
- 
-        obj["annotation_method"] = "Aggregation"
-        obj["biomarker_type"] = "gene"
-        obj.pop("modality")
+            obj["cell_source"] = cell_source
+            tqdm.write("")
+            tqdm.write(f"Now making summary for {cell_source}")
+            tqdm.write("")
 
-        for summary in obj["summary"]:
-            summary["@type"] = "CellSummaryRow"
-            summary["genes"] = summary.pop("gene_expr")
-            summary["cell_id"] = "http://purl.obolibrary.org/obo/" + summary[
-                "cell_id"
-            ].replace(":", "_")
+            obj["annotation_method"] = "Aggregation"
+            obj["biomarker_type"] = "gene"
+            obj.pop("modality")
 
-            for gene in summary["genes"]:
-                try:
-                    gene["@type"] = "GeneExpression"
-                    gene["ensembl_id"] = gene.pop("ensembl_id")
-                    gene["mean_expression"] = gene.pop("mean_gene_expr_value")
-                except:
-                    if not isinstance(gene, dict):
-                        tqdm.write(
-                            f"Expected gene dict, got {type(gene)}: {gene} with {len(gene)} entries."
-                        )
-                    # pass
-                    
+            for summary in obj["summary"]:
+                summary["@type"] = "CellSummaryRow"
+                summary["genes"] = summary.pop("gene_expr")
+                summary["cell_id"] = "http://purl.obolibrary.org/obo/" + summary[
+                    "cell_id"
+                ].replace(":", "_")
+                summary["cell_label"] = summary["cell_label"].lower()
+                
+                gene_counter = 0
+                keep_genes = []
+                for gene in summary["genes"]:
+                    if gene_counter > 10:
+                        break
+                    else:
+                        gene_counter = gene_counter + 1
+                        keep_genes.append(gene)
+                        try:
+                            gene["@type"] = "GeneExpression"
+                            gene["ensemble_id"] = gene.pop(
+                                "ensembl_id"
+                            )  # this is in the target format but a wrong spelling! https://github.com/hubmapconsortium/hra-ui/blob/8c5504291da52c2b3d8b0a5c410e21b84acd4d83/apps/ftu-ui/public/assets/TEMP/ftu-cell-summaries.jsonld#L41
+                            gene["mean_expression"] = gene.pop("mean_gene_expr_value")
+                        except:
+                            if not isinstance(gene, dict):
+                                tqdm.write(
+                                    f"Expected gene dict, got {type(gene)}: {gene} with {len(gene)} entries."
+                                )
+                            # pass
+                summary["genes"] = keep_genes
 
-        tqdm.write(
-            f"Done making cell summary for {cell_source} with len = {len(summary)}."
-        )
-        tqdm.write("======================")
-        tqdm.write("")
+            tqdm.write(
+                f"Done making cell summary for {cell_source} with len = {len(summary)}."
+            )
+            tqdm.write("======================")
+            tqdm.write("")
 
-        out_json_ld["@graph"].append(obj)
-        break
+            out_json_ld["@graph"].append(obj)
+            # break
 
     # Write to file
     tqdm.write(f"Now saving to {FTU_CELL_SUMMARIES_OUTPUT}")
