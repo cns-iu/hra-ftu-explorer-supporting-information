@@ -461,10 +461,9 @@ def is_cell_type_exclusive_to_ftu(
 
     # print(f"Now checking {cell_id_to_check} in {organ_id_to_check}.")
 
-    # Iterate over all FTUs and collect all "representation_of" IDs for CTs in "cell_types_in_ftu_only"
+    # Iterate over all FTUs
     matches = [
         {"ct_iri": ct["ct_iri"], "ftu_purl": ftu["ftu_purl"]}
-        # (ct["ct_iri"], ftu["ftu_purl"])
         for ftu in cell_types_in_ftu.values()
         if ftu["organ_id_short"] == organ_id_to_check
         for ct in ftu.get("cts_exclusive", [])
