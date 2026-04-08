@@ -51,32 +51,27 @@ def build_ftu_datasets_jsonld(metadata: pd.DataFrame):
     with open(FILTERED_DATASET_METADATA_FILENAME, "r") as f:
         data = json.load(f)
 
-      
         for dataset_id, cts in data.items():
             for ct in cts:
-                ftu = ct['ftu_purl']
+                ftu = ct["ftu_purl"]
                 ftu_to_datasets[ftu].add(dataset_id)
 
         # convert sets → lists
         ftu_to_datasets = {k: list(v) for k, v in ftu_to_datasets.items()}
-        
+
     # save to file
     with open(FTU_TO_DATASETS, "w") as output:
         json.dump(ftu_to_datasets, output, indent=4)
-            
 
     print()
     pprint(ftu_to_datasets)
     print()
     # return
 
-
-
     # Fast lookup: dataset_id -> metadata row
-    metadata_by_dataset = (
-        metadata.set_index('dataset_id')[['handler', 'provider_name']]
-        .to_dict('index')
-    )
+    metadata_by_dataset = metadata.set_index("dataset_id")[
+        ["handler", "provider_name"]
+    ].to_dict("index")
 
     # Invert: dataset_id -> [ftu1, ftu2, ...]
     dataset_to_ftus = defaultdict(list)
@@ -90,7 +85,7 @@ def build_ftu_datasets_jsonld(metadata: pd.DataFrame):
     for obj in iterate_through_json_lines(
         FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME
     ):
-        dataset_id = obj['cell_source']
+        dataset_id = obj["cell_source"]
         for ftu in dataset_to_ftus.get(dataset_id, ()):
             ftu_to_dataset_ids[ftu].add(dataset_id)
 
@@ -98,10 +93,10 @@ def build_ftu_datasets_jsonld(metadata: pd.DataFrame):
 
     for ftu in ftu_to_datasets:
         new_ftu = deepcopy(ftu_instance)
-        new_ftu['@id'] = ftu
-        new_ftu['data_sources'] = []
+        new_ftu["@id"] = ftu
+        new_ftu["data_sources"] = []
 
-        suffix = ftu.rsplit('/', 1)[-1]
+        suffix = ftu.rsplit("/", 1)[-1]
 
         for dataset_id in ftu_to_dataset_ids.get(ftu, ()):
             md = metadata_by_dataset.get(dataset_id)
@@ -109,17 +104,17 @@ def build_ftu_datasets_jsonld(metadata: pd.DataFrame):
                 continue
 
             new_data_source = deepcopy(data_source_instance)
-            new_data_source['@id'] = f'{dataset_id}#CellSummary_{suffix}'
-            new_data_source['label'] = md['handler']
-            new_data_source['link'] = dataset_id
-            new_data_source['description'] = dataset_id
-            new_data_source['authors'] = [md['provider_name']]
+            new_data_source["@id"] = f"{dataset_id}#CellSummary_{suffix}"
+            new_data_source["label"] = md["handler"]
+            new_data_source["link"] = dataset_id
+            new_data_source["description"] = dataset_id
+            new_data_source["authors"] = [md["provider_name"]]
 
-            new_ftu['data_sources'].append(new_data_source)
+            new_ftu["data_sources"].append(new_data_source)
 
         graph_list.append(new_ftu)
 
-    out_json_ld['@graph'] = graph_list
+    out_json_ld["@graph"] = graph_list
 
     # Write to file
     print(f"Now saving to {FTU_DATASETS_OUTPUT}")
@@ -133,17 +128,29 @@ def build_ftu_cell_summaries_jsonld():
     # turn into JSONLD files with context
     out_json_ld = copy.deepcopy(context_template)
 
+    with open(FTU_TO_DATASETS, "r", encoding="utf-8") as f:
+        ftu_to_datasets = json.load(f)
+
     for obj in iterate_through_json_lines(
         FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME
     ):
         # Enrich with needed fields
-        obj["cell_source"] = (
-            obj["cell_source"]
-            + "#CellSummary_"
-            + "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus".split(
-                "/"
-            )[-1]  # LOOK THIS UP VIA FILTERED-DATASET-METADATA instead!!!!!
-        )
+        cell_source = obj["cell_source"]
+
+        # Find FTU for dataset
+        for ftu in ftu_to_datasets:
+            if cell_source in ftu_to_datasets[ftu]:
+                tqdm.write(f"Found {cell_source} in {ftu}")
+                dataset_id = cell_source
+                suffix = ftu.rsplit("/", 1)[-1]
+                tqdm.write(f"suffix: {suffix}")
+                cell_source = f"{dataset_id}#CellSummary_{suffix}"
+
+        obj["cell_source"] = cell_source
+        tqdm.write("")
+        tqdm.write(f"Now making summary for {cell_source}")
+        tqdm.write("")
+ 
         obj["annotation_method"] = "Aggregation"
         obj["biomarker_type"] = "gene"
         obj.pop("modality")
@@ -156,15 +163,29 @@ def build_ftu_cell_summaries_jsonld():
             ].replace(":", "_")
 
             for gene in summary["genes"]:
-                print(gene)
-                gene["@type"] = "GeneExpression"
-                gene["ensemble_id"] = gene.pop("ensembl_id")
-                gene["mean_expression"] = gene.pop("mean_gene_expr_value")
+                try:
+                    gene["@type"] = "GeneExpression"
+                    gene["ensembl_id"] = gene.pop("ensembl_id")
+                    gene["mean_expression"] = gene.pop("mean_gene_expr_value")
+                except:
+                    if not isinstance(gene, dict):
+                        tqdm.write(
+                            f"Expected gene dict, got {type(gene)}: {gene} with {len(gene)} entries."
+                        )
+                    # pass
+                    
+
+        tqdm.write(
+            f"Done making cell summary for {cell_source} with len = {len(summary)}."
+        )
+        tqdm.write("======================")
+        tqdm.write("")
 
         out_json_ld["@graph"].append(obj)
+        break
 
     # Write to file
-    print(f"Now saving to {FTU_CELL_SUMMARIES_OUTPUT}")
+    tqdm.write(f"Now saving to {FTU_CELL_SUMMARIES_OUTPUT}")
     with open(FTU_CELL_SUMMARIES_OUTPUT, "w", encoding="utf-8") as f:
         json.dump(out_json_ld, f, ensure_ascii=False, indent=4)
 
@@ -175,7 +196,7 @@ def main():
     metadata = pd.read_csv(UNIVERSE_METADATA_FILENAME).reset_index(drop=True)
 
     build_ftu_datasets_jsonld(metadata=metadata)
-    # build_cell_summaries_jsonld()
+    build_ftu_cell_summaries_jsonld()
 
 
 if __name__ == "__main__":
