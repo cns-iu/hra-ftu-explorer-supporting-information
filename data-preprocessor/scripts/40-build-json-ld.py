@@ -46,39 +46,39 @@ def build_ftu_datasets_jsonld(metadata: pd.DataFrame):
         "authors": [],  # Creator(s)?
     }
 
-    look_up_ftu_to_datasets = {}
+    ftu_to_datasets = defaultdict(set)
 
     with open(FILTERED_DATASET_METADATA_FILENAME, "r") as f:
         data = json.load(f)
 
+      
+        for dataset_id, cts in data.items():
+            for ct in cts:
+                ftu = ct['ftu_purl']
+                ftu_to_datasets[ftu].add(dataset_id)
+
+        # convert sets → lists
+        ftu_to_datasets = {k: list(v) for k, v in ftu_to_datasets.items()}
         
-        look_up_ftu_to_datasets = defaultdict(list)
-
-        for dataset_id, groups in data.items():
-            for group in groups:
-                for cl, purl in group:
-                    if dataset_id not in look_up_ftu_to_datasets[purl]:
-                        look_up_ftu_to_datasets[purl].append(dataset_id)
-
-        # optional: convert back to normal dict
-        look_up_ftu_to_datasets = dict(look_up_ftu_to_datasets)
+    # save to file
+    with open(FTU_TO_DATASETS, "w") as output:
+        json.dump(ftu_to_datasets, output, indent=4)
+            
 
     print()
-    pprint(look_up_ftu_to_datasets)
+    pprint(ftu_to_datasets)
     print()
     # return
 
-    for ftu in look_up_ftu_to_datasets:
+    for ftu in ftu_to_datasets:
         print(f"ftu: {ftu}")
         print()
 
         new_ftu = copy.deepcopy(ftu_instance)
 
         # Fill fields in @graph
-        new_ftu["@id"] = (
-            ftu  # hard-coded for now since all datasets with FTUs are from prostate
-        )
-        pprint(new_ftu)
+        new_ftu["@id"] = ftu
+        # pprint(new_ftu)
 
         for obj in iterate_through_json_lines(
             FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME
@@ -87,24 +87,24 @@ def build_ftu_datasets_jsonld(metadata: pd.DataFrame):
             print(f"dataset_id: {dataset_id}")
 
             # get right dataset ID
-            for ftu in look_up_ftu_to_datasets:
-                if dataset_id in look_up_ftu_to_datasets[ftu]:
-                    # Get metadata
-                    metadata_instance = metadata[metadata["dataset_id"] == dataset_id]
+            
+            if dataset_id in ftu_to_datasets[ftu]:
+                # Get metadata
+                metadata_instance = metadata[metadata["dataset_id"] == dataset_id]
 
-                    new_data_source = copy.deepcopy(data_source_instance)
+                new_data_source = copy.deepcopy(data_source_instance)
 
-                    new_data_source["@id"] = (
-                        dataset_id + "#CellSummary_" + new_ftu["@id"].split("/")[-1]
-                    )
-                    new_data_source["label"] = metadata_instance.iloc[0]["handler"]
-                    new_data_source["link"] = dataset_id
-                    new_data_source["description"] = dataset_id
-                    new_data_source["authors"] = [
-                        metadata_instance.iloc[0]["provider_name"]
-                    ]
+                new_data_source["@id"] = (
+                    dataset_id + "#CellSummary_" + new_ftu["@id"].split("/")[-1]
+                )
+                new_data_source["label"] = metadata_instance.iloc[0]["handler"]
+                new_data_source["link"] = dataset_id
+                new_data_source["description"] = dataset_id
+                new_data_source["authors"] = [
+                    metadata_instance.iloc[0]["provider_name"]
+                ]
 
-                    new_ftu["data_sources"].append(new_data_source)
+                new_ftu["data_sources"].append(new_data_source)
 
         graph_list.append(new_ftu)
 
@@ -131,7 +131,7 @@ def build_ftu_cell_summaries_jsonld():
             + "#CellSummary_"
             + "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus".split(
                 "/"
-            )[-1] # LOOK THIS UP VIA FILTERED-DATASET-METADATA instead!!!!!
+            )[-1]  # LOOK THIS UP VIA FILTERED-DATASET-METADATA instead!!!!!
         )
         obj["annotation_method"] = "Aggregation"
         obj["biomarker_type"] = "gene"
