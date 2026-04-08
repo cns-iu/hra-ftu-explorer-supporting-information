@@ -20,6 +20,7 @@ import matplotlib.pyplot as plt
 from upsetplot import UpSet, from_memberships
 from urllib.parse import urlsplit
 from copy import deepcopy
+from colorama import Fore, Style, init
 
 # Make folder for input data
 INPUT_DIR = Path(__file__).parent.parent / "input"
@@ -84,6 +85,28 @@ FTU_TO_DATASETS = OUTPUT_DIR / config["FTU_TO_DATASETS"]
 # Commonly used HTTP Accept headers for API requests
 accept_json = {"Accept": "application/json"}
 accept_csv = {"Accept": "text/csv"}
+
+# Boilerplate context and graph for JSON-LD file
+
+context_template = {
+    "@context": [
+        "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data-processor/ccf-context.jsonld",
+        {
+            "UBERON": {
+                "@id": "http://purl.obolibrary.org/obo/UBERON_",
+                "@prefix": True,
+            },
+            "illustration_files": {
+                "@id": "ccf:has_illustration_file",
+                "@type": "@id",
+            },
+            "mapping": {"@id": "ccf:has_illustration_node", "@type": "@id"},
+            "organ_id": {"@id": "ccf:organ_id", "@type": "@id"},
+            "data_sources": {"@id": "ccf:has_data_source", "@type": "@id"},
+        },
+    ],
+    "@graph": [],
+}
 
 # Metadata for anatomogram datasets
 anatomogram_files_json = [
@@ -415,6 +438,7 @@ def comes_from_organ_with_ftu(
 #     ]
 
 # slower alternative:
+
 
 def is_cell_type_exclusive_to_ftu(
     cell_id_to_check: str | None, organ_id_to_check: str, cell_types_in_ftu: list[dict]
