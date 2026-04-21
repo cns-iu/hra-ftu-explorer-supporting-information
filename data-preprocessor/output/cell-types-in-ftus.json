@@ -1,1224 +1,2073 @@
-[
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
-    "organ_label": "kidney",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
-    "organ_id_short": "UBERON:0002113",
-    "representation_of": "UBERON:0001285",
-    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-nephron",
-    "cell_types_in_illustration": [
+{
+  "liver lobule": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule",
+    "cts_in_2d_ftu": [
       {
-        "node_group": "Collecting_Duct",
-        "representation_of": "UBERON:0004203"
+        "ct_label": "columnar/cuboidal epithelial cell",
+        "ct_iri": "CL:0000075"
       },
       {
-        "node_group": "Collecting_Duct",
-        "representation_of": "CL:1000714"
+        "ct_label": "Kupffer cell",
+        "ct_iri": "CL:0000091"
       },
       {
-        "node_group": "Proximal_Tubule",
-        "representation_of": "UBERON:0001290"
+        "ct_label": "hepatocyte",
+        "ct_iri": "CL:0000182"
       },
       {
-        "node_group": "Proximal_Tubule",
-        "representation_of": "UBERON:0004197"
+        "ct_label": "stratified cuboidal epithelial cell",
+        "ct_iri": "CL:0000241"
       },
       {
-        "node_group": "Proximal_Tubule",
-        "representation_of": "UBERON:0004196"
+        "ct_label": "hepatic stellate cell",
+        "ct_iri": "CL:0000632"
       },
       {
-        "node_group": "Proximal_Tubule",
-        "representation_of": "CL:4030009"
+        "ct_label": "hepatic oval stem cell",
+        "ct_iri": "CL:0002196"
       },
       {
-        "node_group": "Distal_Convulated_Tubule",
-        "representation_of": "UBERON:0001292"
+        "ct_label": "vein endothelial cell",
+        "ct_iri": "CL:0002543"
       },
       {
-        "node_group": "Distal_Convulated_Tubule",
-        "representation_of": "CL:1000849"
+        "ct_label": "hepatic portal fibroblast",
+        "ct_iri": "CL:0009100"
       },
       {
-        "node_group": "Connecting_Tubule",
-        "representation_of": "UBERON:0005097"
+        "ct_label": "blood vessel smooth muscle cell",
+        "ct_iri": "CL:0019018"
       },
       {
-        "node_group": "Connecting_Tubule",
-        "representation_of": "CL:1000768"
+        "ct_label": "endothelial cell of hepatic sinusoid",
+        "ct_iri": "CL:1000398"
       },
       {
-        "node_group": "Macula_Densa",
-        "representation_of": "CL:1000850"
+        "ct_label": "endothelial cell of artery",
+        "ct_iri": "CL:1000413"
       },
       {
-        "node_group": "Thick_Ascending_Limb_Of_Loop_Of_Henle",
-        "representation_of": "UBERON:0001291"
+        "ct_label": "columnar/cuboidal epithelial cell",
+        "ct_iri": "CL:0000075"
       },
       {
-        "node_group": "Thick_Ascending_Limb_Of_Loop_Of_Henle",
-        "representation_of": "CL:1001106"
+        "ct_label": "Kupffer cell",
+        "ct_iri": "CL:0000091"
       },
       {
-        "node_group": "Ascending_Thin_Limb_Of_Loop_Of_Henle",
-        "representation_of": "UBERON:0004193"
+        "ct_label": "hepatocyte",
+        "ct_iri": "CL:0000182"
       },
       {
-        "node_group": "Ascending_Thin_Limb_Of_Loop_Of_Henle",
-        "representation_of": "CL:1001107"
+        "ct_label": "stratified cuboidal epithelial cell",
+        "ct_iri": "CL:0000241"
       },
       {
-        "node_group": "Descending_Thin_Limb_Of_Loop_Of_Henle",
-        "representation_of": "UBERON:0005096"
+        "ct_label": "hepatic stellate cell",
+        "ct_iri": "CL:0000632"
       },
       {
-        "node_group": "Descending_Thin_Limb_Of_Loop_Of_Henle",
-        "representation_of": "CL:1001111"
+        "ct_label": "hepatic oval stem cell",
+        "ct_iri": "CL:0002196"
       },
       {
-        "node_group": "Collecting_Duct",
-        "representation_of": "CL:1000716"
+        "ct_label": "vein endothelial cell",
+        "ct_iri": "CL:0002543"
       },
       {
-        "node_group": "Collecting_Duct",
-        "representation_of": "CL:1000718"
+        "ct_label": "hepatic portal fibroblast",
+        "ct_iri": "CL:0009100"
       },
       {
-        "node_group": "Renal_Corpuscle",
-        "representation_of": "UBERON:0001229"
+        "ct_label": "blood vessel smooth muscle cell",
+        "ct_iri": "CL:0019018"
+      },
+      {
+        "ct_label": "endothelial cell of hepatic sinusoid",
+        "ct_iri": "CL:1000398"
+      },
+      {
+        "ct_label": "endothelial cell of artery",
+        "ct_iri": "CL:1000413"
       }
     ],
-    "cell_types_in_ftu_only": [
+    "cts_in_asctb": [
       {
-        "node_group": "Collecting_Duct",
-        "representation_of": "UBERON:0004203"
+        "ct_label": "columnar/cuboidal epithelial cell",
+        "ct_iri": "CL:0000075"
       },
       {
-        "node_group": "Proximal_Tubule",
-        "representation_of": "UBERON:0001290"
+        "ct_label": "Kupffer cell",
+        "ct_iri": "CL:0000091"
       },
       {
-        "node_group": "Proximal_Tubule",
-        "representation_of": "UBERON:0004197"
+        "ct_label": "hepatocyte",
+        "ct_iri": "CL:0000182"
       },
       {
-        "node_group": "Proximal_Tubule",
-        "representation_of": "UBERON:0004196"
+        "ct_label": "stratified cuboidal epithelial cell",
+        "ct_iri": "CL:0000241"
       },
       {
-        "node_group": "Distal_Convulated_Tubule",
-        "representation_of": "UBERON:0001292"
+        "ct_label": "hepatic stellate cell",
+        "ct_iri": "CL:0000632"
       },
       {
-        "node_group": "Connecting_Tubule",
-        "representation_of": "UBERON:0005097"
+        "ct_label": "hepatic oval stem cell",
+        "ct_iri": "CL:0002196"
       },
       {
-        "node_group": "Thick_Ascending_Limb_Of_Loop_Of_Henle",
-        "representation_of": "UBERON:0001291"
+        "ct_label": "vein endothelial cell",
+        "ct_iri": "CL:0002543"
       },
       {
-        "node_group": "Ascending_Thin_Limb_Of_Loop_Of_Henle",
-        "representation_of": "UBERON:0004193"
+        "ct_label": "hepatic portal fibroblast",
+        "ct_iri": "CL:0009100"
       },
       {
-        "node_group": "Descending_Thin_Limb_Of_Loop_Of_Henle",
-        "representation_of": "UBERON:0005096"
+        "ct_label": "blood vessel smooth muscle cell",
+        "ct_iri": "CL:0019018"
       },
       {
-        "node_group": "Renal_Corpuscle",
-        "representation_of": "UBERON:0001229"
+        "ct_label": "endothelial cell of hepatic sinusoid",
+        "ct_iri": "CL:1000398"
+      },
+      {
+        "ct_label": "endothelial cell of artery",
+        "ct_iri": "CL:1000413"
+      },
+      {
+        "ct_label": "columnar/cuboidal epithelial cell",
+        "ct_iri": "CL:0000075"
+      },
+      {
+        "ct_label": "Kupffer cell",
+        "ct_iri": "CL:0000091"
+      },
+      {
+        "ct_label": "hepatocyte",
+        "ct_iri": "CL:0000182"
+      },
+      {
+        "ct_label": "stratified cuboidal epithelial cell",
+        "ct_iri": "CL:0000241"
+      },
+      {
+        "ct_label": "hepatic stellate cell",
+        "ct_iri": "CL:0000632"
+      },
+      {
+        "ct_label": "hepatic oval stem cell",
+        "ct_iri": "CL:0002196"
+      },
+      {
+        "ct_label": "vein endothelial cell",
+        "ct_iri": "CL:0002543"
+      },
+      {
+        "ct_label": "hepatic portal fibroblast",
+        "ct_iri": "CL:0009100"
+      },
+      {
+        "ct_label": "blood vessel smooth muscle cell",
+        "ct_iri": "CL:0019018"
+      },
+      {
+        "ct_label": "endothelial cell of hepatic sinusoid",
+        "ct_iri": "CL:1000398"
+      },
+      {
+        "ct_label": "endothelial cell of artery",
+        "ct_iri": "CL:1000413"
       }
     ],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
-    "organ_label": "kidney",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
-    "organ_id_short": "UBERON:0002113",
-    "representation_of": "UBERON:0004205",
-    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-inner-medullary-collecting-duct",
-    "cell_types_in_illustration": [
+    "cts_exclusive": [
       {
-        "node_group": "Inner_Medullary_Collecting_Duct_Cell",
-        "representation_of": "CL:1000718"
+        "ct_label": "columnar/cuboidal epithelial cell",
+        "ct_iri": "CL:0000075"
       },
       {
-        "node_group": "Endothelium_Peritubular_Capillary",
-        "representation_of": "CL:1001033"
+        "ct_label": "Kupffer cell",
+        "ct_iri": "CL:0000091"
+      },
+      {
+        "ct_label": "hepatocyte",
+        "ct_iri": "CL:0000182"
+      },
+      {
+        "ct_label": "stratified cuboidal epithelial cell",
+        "ct_iri": "CL:0000241"
+      },
+      {
+        "ct_label": "hepatic stellate cell",
+        "ct_iri": "CL:0000632"
+      },
+      {
+        "ct_label": "hepatic portal fibroblast",
+        "ct_iri": "CL:0009100"
+      },
+      {
+        "ct_label": "blood vessel smooth muscle cell",
+        "ct_iri": "CL:0019018"
+      },
+      {
+        "ct_label": "endothelial cell of hepatic sinusoid",
+        "ct_iri": "CL:1000398"
+      },
+      {
+        "ct_label": "endothelial cell of artery",
+        "ct_iri": "CL:1000413"
+      },
+      {
+        "ct_label": "columnar/cuboidal epithelial cell",
+        "ct_iri": "CL:0000075"
+      },
+      {
+        "ct_label": "Kupffer cell",
+        "ct_iri": "CL:0000091"
+      },
+      {
+        "ct_label": "hepatocyte",
+        "ct_iri": "CL:0000182"
+      },
+      {
+        "ct_label": "stratified cuboidal epithelial cell",
+        "ct_iri": "CL:0000241"
+      },
+      {
+        "ct_label": "hepatic stellate cell",
+        "ct_iri": "CL:0000632"
+      },
+      {
+        "ct_label": "hepatic portal fibroblast",
+        "ct_iri": "CL:0009100"
+      },
+      {
+        "ct_label": "blood vessel smooth muscle cell",
+        "ct_iri": "CL:0019018"
+      },
+      {
+        "ct_label": "endothelial cell of hepatic sinusoid",
+        "ct_iri": "CL:1000398"
+      },
+      {
+        "ct_label": "endothelial cell of artery",
+        "ct_iri": "CL:1000413"
       }
     ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
-    "organ_label": "kidney",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
-    "organ_id_short": "UBERON:0002113",
-    "representation_of": "UBERON:0001229",
-    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Glomerular_Mesangial_Cell",
-        "representation_of": "CL:1000742"
-      },
-      {
-        "node_group": "Macula_Densa_Epithelial_Cell",
-        "representation_of": "CL:1000850"
-      },
-      {
-        "node_group": "Glomerular_Visceral_Epithelial_Cell",
-        "representation_of": "CL:0000653"
-      },
-      {
-        "node_group": "Epithelial_Cell_Proximal_Tubule",
-        "representation_of": "CL:0002306"
-      },
-      {
-        "node_group": "Glomerular_Capillary_Endothelial_Cell",
-        "representation_of": "CL:1001005"
-      },
-      {
-        "node_group": "Efferent_Arteriole_Endothelial_Cell",
-        "representation_of": "CL:1001099"
-      },
-      {
-        "node_group": "Parietal_Epithelial_Cell",
-        "representation_of": "CL:1000452"
-      },
-      {
-        "node_group": "Afferent_Arteriole_Endothelial_Cell",
-        "representation_of": "CL:1001096"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
-    "organ_label": "kidney",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
-    "organ_id_short": "UBERON:0002113",
-    "representation_of": "UBERON:0001291",
-    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-thick-ascending-loop-of-henle",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Thick_Ascending_Limb_Cell",
-        "representation_of": "CL:1001106"
-      },
-      {
-        "node_group": "Endothelium_Peritubular_Capillary",
-        "representation_of": "CL:1001033"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
-    "organ_label": "kidney",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
-    "organ_id_short": "UBERON:0002113",
-    "representation_of": "UBERON:0001289",
-    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-descending-thin-loop-of-henle",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Descending_Thin_Limb_Cell",
-        "representation_of": "CL:1001111"
-      },
-      {
-        "node_group": "Descending_Vasa_Recta",
-        "representation_of": "CL:1001285"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
-    "organ_label": "kidney",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
-    "organ_id_short": "UBERON:0002113",
-    "representation_of": "UBERON:0004204",
-    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-outer-medullary-collecting-duct",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Outer_Medullary_Collecting_Duct_Intercalated_Cell_Type_A",
-        "representation_of": "CL:1000717"
-      },
-      {
-        "node_group": "Outer_Medullary_Collecting_Duct_Principal_Cell",
-        "representation_of": "CL:1000716"
-      },
-      {
-        "node_group": "Endothelium_Peritubular_Capillary",
-        "representation_of": "CL:1001033"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
-    "organ_label": "kidney",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
-    "organ_id_short": "UBERON:0002113",
-    "representation_of": "UBERON:0004203",
-    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-cortical-collecting-duct",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Cortical_Collecting_Duct_Principal_Cell",
-        "representation_of": "CL:1000714"
-      },
-      {
-        "node_group": "Cortical_Collecting_Duct_Intercalated_Cell_Type_B",
-        "representation_of": "CL:4030021"
-      },
-      {
-        "node_group": "Cortical_Collecting_Duct_Intercalated_Cell_Type_A",
-        "representation_of": "CL:4030020"
-      },
-      {
-        "node_group": "Endothelium_Peritubular_Capillary",
-        "representation_of": "CL:1001033"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/kidney",
-    "organ_label": "kidney",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002113",
-    "organ_id_short": "UBERON:0002113",
-    "representation_of": "UBERON:0004193",
-    "iri": "https://purl.humanatlas.io/2d-ftu/kidney-ascending-thin-loop-of-henle",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Ascending_Thin_Limb_Cell",
-        "representation_of": "CL:1001107"
-      },
-      {
-        "node_group": "Ascending_Vasa_Recta",
-        "representation_of": "CL:1001131"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/large-intestine",
-    "organ_label": "large intestine",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0000059",
-    "organ_id_short": "UBERON:0000059",
-    "representation_of": "UBERON:0001984",
-    "iri": "https://purl.humanatlas.io/2d-ftu/large-intestine-crypt-lieberkuhn",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Goblet_Cells",
-        "representation_of": "CL:1000321"
-      },
-      {
-        "node_group": "Absorptive_Cells",
-        "representation_of": "CL:0002071"
-      },
-      {
-        "node_group": "Enteroendocrine_Cells",
-        "representation_of": "CL:0000165"
-      },
-      {
-        "node_group": "Epithelial_Stem_Cells",
-        "representation_of": "CL:0009016"
-      },
-      {
-        "node_group": "Tuft_Cell",
-        "representation_of": "CL:0019032"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/liver",
-    "organ_label": "liver",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002107",
     "organ_id_short": "UBERON:0002107",
-    "representation_of": "UBERON:0004647",
-    "iri": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Hepatic_Portal_Fibroblast",
-        "representation_of": "CL:0009100"
-      },
-      {
-        "node_group": "Blood_Vessel_Smooth_Muscle_Cell",
-        "representation_of": "CL:0019018"
-      },
-      {
-        "node_group": "Endothelial_Cell",
-        "representation_of": "CL:1000413"
-      },
-      {
-        "node_group": "Stratified_Cuboidal_Epithelial_Cell",
-        "representation_of": "CL:0000241"
-      },
-      {
-        "node_group": "Columnar_Cuboidal_epithelial_Cell",
-        "representation_of": "CL:0000075"
-      },
-      {
-        "node_group": "Vein_Endothelial_Cell",
-        "representation_of": "CL:0002543"
-      },
-      {
-        "node_group": "Hepatic_Progenitor_Cell",
-        "representation_of": "CL:0002196"
-      },
-      {
-        "node_group": "Endothelial_Cell_Of_Hepatic_Sinusoid",
-        "representation_of": "CL:1000398"
-      },
-      {
-        "node_group": "Hepatic_Stellate_Cell",
-        "representation_of": "CL:0000632"
-      },
-      {
-        "node_group": "Kupffer_Cell",
-        "representation_of": "CL:0000091"
-      },
-      {
-        "node_group": "Hepatocyte",
-        "representation_of": "CL:0000182"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
+    "organ_label": "Liver"
   },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/lung",
-    "organ_label": "lung",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002048",
-    "organ_id_short": "UBERON:0002048",
-    "representation_of": "UBERON:8410043",
-    "iri": "https://purl.humanatlas.io/2d-ftu/lung-bronchial-submucosal-gland",
-    "cell_types_in_illustration": [
+  "islet of Langerhans": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans",
+    "cts_in_2d_ftu": [
       {
-        "node_group": "Ciliated_Cell_Of_Submucosal_Gland",
-        "representation_of": "CL:4033055"
+        "ct_label": "type B pancreatic cell",
+        "ct_iri": "CL:0000169"
       },
       {
-        "node_group": "Basal_Cell_Of_Submucosal_Gland",
-        "representation_of": "CL:4033024"
+        "ct_label": "pancreatic A cell",
+        "ct_iri": "CL:0000171"
       },
       {
-        "node_group": "Mucus_Cell",
-        "representation_of": "CL:4033022"
+        "ct_label": "pancreatic D cell",
+        "ct_iri": "CL:0000173"
       },
       {
-        "node_group": "Epithelial_cell_Of_Submucosal_Gland",
-        "representation_of": "CL:4033023"
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
       },
       {
-        "node_group": "Serous_Cell",
-        "representation_of": "CL:4033005"
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
       },
       {
-        "node_group": "Myoepithelial_cell",
-        "representation_of": "CL:4033003"
+        "ct_label": "capillary endothelial cell",
+        "ct_iri": "CL:0002144"
+      },
+      {
+        "ct_label": "pancreatic PP cell",
+        "ct_iri": "CL:0002275"
       }
     ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/lung",
-    "organ_label": "lung",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002048",
-    "organ_id_short": "UBERON:0002048",
-    "representation_of": "UBERON:0002299",
-    "iri": "https://purl.humanatlas.io/2d-ftu/lung-pulmonary-alveolus",
-    "cell_types_in_illustration": [
+    "cts_in_asctb": [
       {
-        "node_group": "Type_II_Pneumocyte",
-        "representation_of": "CL:0002063"
+        "ct_label": "type B pancreatic cell",
+        "ct_iri": "CL:0000169"
       },
       {
-        "node_group": "Pericyte",
-        "representation_of": "CL:0009089"
+        "ct_label": "pancreatic A cell",
+        "ct_iri": "CL:0000171"
       },
       {
-        "node_group": "Type_I_Pneumocyte",
-        "representation_of": "CL:0002062"
+        "ct_label": "pancreatic D cell",
+        "ct_iri": "CL:0000173"
       },
       {
-        "node_group": "Lung_Matrix_Fibroblast",
-        "representation_of": "CL:4028004"
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
       },
       {
-        "node_group": "Secondary_Crest_Myofibroblast",
-        "representation_of": "CL:4033016"
+        "ct_label": "capillary endothelial cell",
+        "ct_iri": "CL:0002144"
       },
       {
-        "node_group": "Capillary_Endothelial_Cell",
-        "representation_of": "CL:4028002"
+        "ct_label": "pancreatic PP cell",
+        "ct_iri": "CL:0002275"
       }
     ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/mouth",
-    "organ_label": "mouth",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0000165",
-    "organ_id_short": "UBERON:0000165",
-    "representation_of": "UBERON:0001831",
-    "iri": "https://purl.humanatlas.io/2d-ftu/mouth-parotid-gland",
-    "cell_types_in_illustration": [
+    "cts_exclusive": [
       {
-        "node_group": "Macrophage",
-        "representation_of": "CL:0000235"
+        "ct_label": "type B pancreatic cell",
+        "ct_iri": "CL:0000169"
       },
       {
-        "node_group": "Mast_Cell",
-        "representation_of": "CL:0000097"
+        "ct_label": "pancreatic A cell",
+        "ct_iri": "CL:0000171"
       },
       {
-        "node_group": "Endothelial_Cell",
-        "representation_of": "CL:0000115"
+        "ct_label": "pancreatic D cell",
+        "ct_iri": "CL:0000173"
       },
       {
-        "node_group": "Intercalated_Duct_Epithelial_Cell",
-        "representation_of": "CL:4052048"
+        "ct_label": "capillary endothelial cell",
+        "ct_iri": "CL:0002144"
       },
       {
-        "node_group": "Smooth_Muscle_Cell",
-        "representation_of": "CL:0000192"
-      },
-      {
-        "node_group": "Pericyte",
-        "representation_of": "CL:0000669"
-      },
-      {
-        "node_group": "Dendritic_Cell",
-        "representation_of": "CL:0000451"
-      },
-      {
-        "node_group": "Helper_T_Cell",
-        "representation_of": "CL:0000912"
-      },
-      {
-        "node_group": "IgA_Secreting_Plasma_Cell",
-        "representation_of": "CL:0000987"
-      },
-      {
-        "node_group": "Adipocyte",
-        "representation_of": "CL:0000136"
-      },
-      {
-        "node_group": "Straited_Ductal_Epithelial_Cell",
-        "representation_of": "CL:4052049"
+        "ct_label": "pancreatic PP cell",
+        "ct_iri": "CL:0002275"
       }
     ],
-    "cell_types_in_ftu_only": [
-      {
-        "node_group": "Helper_T_Cell",
-        "representation_of": "CL:0000912"
-      }
-    ],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/mouth",
-    "organ_label": "mouth",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0000165",
-    "organ_id_short": "UBERON:0000165",
-    "representation_of": "UBERON:0001832",
-    "iri": "https://purl.humanatlas.io/2d-ftu/mouth-sublingual-gland",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Macrophage",
-        "representation_of": "CL:0000235"
-      },
-      {
-        "node_group": "Mast_Cell",
-        "representation_of": "CL:0000097"
-      },
-      {
-        "node_group": "Endothelial_Cell",
-        "representation_of": "CL:0000115"
-      },
-      {
-        "node_group": "Intercalated_Duct_Epithelial_Cell",
-        "representation_of": "CL:4052048"
-      },
-      {
-        "node_group": "Smooth_Muscle_Cell",
-        "representation_of": "CL:0000192"
-      },
-      {
-        "node_group": "Pericyte",
-        "representation_of": "CL:0000669"
-      },
-      {
-        "node_group": "Dendritic_Cell",
-        "representation_of": "CL:0000451"
-      },
-      {
-        "node_group": "Helper_T_Cell",
-        "representation_of": "CL:0000912"
-      },
-      {
-        "node_group": "IgA_Secreting_Plasma_Cell",
-        "representation_of": "CL:0000987"
-      }
-    ],
-    "cell_types_in_ftu_only": [
-      {
-        "node_group": "Helper_T_Cell",
-        "representation_of": "CL:0000912"
-      }
-    ],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/mouth",
-    "organ_label": "mouth",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0000165",
-    "organ_id_short": "UBERON:0000165",
-    "representation_of": "UBERON:0001736",
-    "iri": "https://purl.humanatlas.io/2d-ftu/mouth-submandibular-gland",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Macrophage",
-        "representation_of": "CL:0000235"
-      },
-      {
-        "node_group": "Mast_Cell",
-        "representation_of": "CL:0000097"
-      },
-      {
-        "node_group": "Endothelial_Cell",
-        "representation_of": "CL:0000115"
-      },
-      {
-        "node_group": "Intercalated_Duct_Epithelial_Cell",
-        "representation_of": "CL:4052048"
-      },
-      {
-        "node_group": "Smooth_Muscle_Cell",
-        "representation_of": "CL:0000192"
-      },
-      {
-        "node_group": "Pericyte",
-        "representation_of": "CL:0000669"
-      },
-      {
-        "node_group": "Dendritic_Cell",
-        "representation_of": "CL:0000451"
-      },
-      {
-        "node_group": "Helper_T_Cell",
-        "representation_of": "CL:0000912"
-      },
-      {
-        "node_group": "IgA_Secreting_Plasma_Cell",
-        "representation_of": "CL:0000987"
-      },
-      {
-        "node_group": "Straited_Ductal_Epithelial_Cell",
-        "representation_of": "CL:4052049"
-      }
-    ],
-    "cell_types_in_ftu_only": [
-      {
-        "node_group": "Helper_T_Cell",
-        "representation_of": "CL:0000912"
-      }
-    ],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/pancreas",
-    "organ_label": "pancreas",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0001264",
     "organ_id_short": "UBERON:0001264",
-    "representation_of": "UBERON:0000006",
-    "iri": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Pancreatic_A_Cell",
-        "representation_of": "CL:0000171"
-      },
-      {
-        "node_group": "Pancreatic_B_Cell",
-        "representation_of": "CL:0000169"
-      },
-      {
-        "node_group": "Pancreatic_D_Cell",
-        "representation_of": "CL:0000173"
-      },
-      {
-        "node_group": "Pancreatic_PP_Cell",
-        "representation_of": "CL:0002275"
-      },
-      {
-        "node_group": "Capillary_Endothelial_Cell",
-        "representation_of": "CL:0002144"
-      },
-      {
-        "node_group": "Macrophage",
-        "representation_of": "CL:0000235"
-      },
-      {
-        "node_group": "Pericyte",
-        "representation_of": "CL:0000669"
-      }
-    ],
-    "cell_types_in_ftu_only": [
-      {
-        "node_group": "Capillary_Endothelial_Cell",
-        "representation_of": "CL:0002144"
-      },
-      {
-        "node_group": "Pericyte",
-        "representation_of": "CL:0000669"
-      }
-    ],
-    "cell_types_in_asctb_ftu_column": []
+    "organ_label": "Pancreas"
   },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/pancreas",
-    "organ_label": "pancreas",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0001264",
+  "pancreatic acinus": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "pancreatic acinar cell",
+        "ct_iri": "CL:0002064"
+      },
+      {
+        "ct_label": "pancreatic centro-acinar cell",
+        "ct_iri": "CL:0002080"
+      },
+      {
+        "ct_label": "intestinal tuft cell",
+        "ct_iri": "CL:0019032"
+      },
+      {
+        "ct_label": "pancreatic goblet cell",
+        "ct_iri": "CL:1000322"
+      },
+      {
+        "ct_label": "epithelial cell of exocrine pancreas",
+        "ct_iri": "CL:1001433"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "pancreatic acinar cell",
+        "ct_iri": "CL:0002064"
+      },
+      {
+        "ct_label": "pancreatic centro-acinar cell",
+        "ct_iri": "CL:0002080"
+      },
+      {
+        "ct_label": "pancreatic goblet cell",
+        "ct_iri": "CL:1000322"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "pancreatic acinar cell",
+        "ct_iri": "CL:0002064"
+      },
+      {
+        "ct_label": "pancreatic centro-acinar cell",
+        "ct_iri": "CL:0002080"
+      },
+      {
+        "ct_label": "pancreatic goblet cell",
+        "ct_iri": "CL:1000322"
+      }
+    ],
     "organ_id_short": "UBERON:0001264",
-    "representation_of": "UBERON:0014726",
-    "iri": "https://purl.humanatlas.io/2d-ftu/pancreas-intercalated-duct",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Ductal_Epithelial_Cell",
-        "representation_of": "CL:1001433"
-      },
-      {
-        "node_group": "Centroacinar_Cell",
-        "representation_of": "CL:0002080"
-      },
-      {
-        "node_group": "intercalated_duct",
-        "representation_of": "UBERON:0014726"
-      },
-      {
-        "node_group": "Pancreatic_Acinar_Cell",
-        "representation_of": "UBERON:0001263"
-      }
-    ],
-    "cell_types_in_ftu_only": [
-      {
-        "node_group": "intercalated_duct",
-        "representation_of": "UBERON:0014726"
-      },
-      {
-        "node_group": "Pancreatic_Acinar_Cell",
-        "representation_of": "UBERON:0001263"
-      }
-    ],
-    "cell_types_in_asctb_ftu_column": []
+    "organ_label": "Pancreas"
   },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/pancreas",
-    "organ_label": "pancreas",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0001264",
+  "intercalated duct of pancreas": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-intercalated-duct",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "pancreatic centro-acinar cell",
+        "ct_iri": "CL:0002080"
+      },
+      {
+        "ct_label": "epithelial cell of exocrine pancreas",
+        "ct_iri": "CL:1001433"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "epithelial cell of exocrine pancreas",
+        "ct_iri": "CL:1001433"
+      }
+    ],
+    "cts_exclusive": [],
     "organ_id_short": "UBERON:0001264",
-    "representation_of": "UBERON:0001263",
-    "iri": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Ductal_Epithelial_Cell",
-        "representation_of": "CL:1001433"
-      },
-      {
-        "node_group": "Pancreatic_Acinar_Cell",
-        "representation_of": "CL:0002064"
-      },
-      {
-        "node_group": "Centroacinar_Cell",
-        "representation_of": "CL:0002080"
-      },
-      {
-        "node_group": "Tuft_Cell",
-        "representation_of": "CL:0019032"
-      },
-      {
-        "node_group": "Pancreatic_Goblet_Cell",
-        "representation_of": "CL:1000322"
-      },
-      {
-        "node_group": "Intercalated_Duct",
-        "representation_of": "UBERON:0014726"
-      }
-    ],
-    "cell_types_in_ftu_only": [
-      {
-        "node_group": "Tuft_Cell",
-        "representation_of": "CL:0019032"
-      },
-      {
-        "node_group": "Intercalated_Duct",
-        "representation_of": "UBERON:0014726"
-      }
-    ],
-    "cell_types_in_asctb_ftu_column": []
+    "organ_label": "Pancreas"
   },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/prostate",
-    "organ_label": "prostate gland",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002367",
-    "organ_id_short": "UBERON:0002367",
-    "representation_of": "UBERON:0004179",
-    "iri": "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus",
-    "cell_types_in_illustration": [
+  "intestinal villus": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/small-intestine-villus",
+    "cts_in_2d_ftu": [
       {
-        "node_group": "Fibroblast_Of_Subepithelial_Connective_Tissue_Of_Prostatic_Gland",
-        "representation_of": "CL:1000301"
+        "ct_label": "fibroblast",
+        "ct_iri": "CL:0000057"
       },
       {
-        "node_group": "Prostate_Pericyte",
-        "representation_of": "CL:0000669"
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
       },
       {
-        "node_group": "Smooth_Muscle_Cell_Of_Prostate",
-        "representation_of": "CL:1000487"
+        "ct_label": "endocrine cell",
+        "ct_iri": "CL:0000163"
       },
       {
-        "node_group": "Fibroblast_Of_Connective_Tissue_Of_Prostate",
-        "representation_of": "CL:1000299"
+        "ct_label": "myofibroblast cell",
+        "ct_iri": "CL:0000186"
       },
       {
-        "node_group": "Prostate_Gland_Microvascular_Endothelial_Cell",
-        "representation_of": "CL:2000059"
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
       },
       {
-        "node_group": "Luminal_Cell_Of_Prostate_Epithelium",
-        "representation_of": "CL:0002340"
+        "ct_label": "B cell",
+        "ct_iri": "CL:0000236"
       },
       {
-        "node_group": "Basal_Cell_Of_Prostate_Epithelium",
-        "representation_of": "CL:0002341"
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
       },
       {
-        "node_group": "Vascular_Smooth_Muscle_Cell",
-        "representation_of": "CL:0000359"
+        "ct_label": "enterocyte",
+        "ct_iri": "CL:0000584"
+      },
+      {
+        "ct_label": "natural killer cell",
+        "ct_iri": "CL:0000623"
+      },
+      {
+        "ct_label": "eosinophil",
+        "ct_iri": "CL:0000771"
+      },
+      {
+        "ct_label": "neutrophil",
+        "ct_iri": "CL:0000775"
+      },
+      {
+        "ct_label": "plasma cell",
+        "ct_iri": "CL:0000786"
+      },
+      {
+        "ct_label": "innate lymphoid cell",
+        "ct_iri": "CL:0001065"
+      },
+      {
+        "ct_label": "tuft cell of small intestine",
+        "ct_iri": "CL:0009080"
+      },
+      {
+        "ct_label": "duodenal goblet cell",
+        "ct_iri": "CL:1000324"
       }
     ],
-    "cell_types_in_ftu_only": [
+    "cts_in_asctb": [
       {
-        "node_group": "Prostate_Gland_Microvascular_Endothelial_Cell",
-        "representation_of": "CL:2000059"
+        "ct_label": "fibroblast",
+        "ct_iri": "CL:0000057"
       },
       {
-        "node_group": "Luminal_Cell_Of_Prostate_Epithelium",
-        "representation_of": "CL:0002340"
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
       },
       {
-        "node_group": "Basal_Cell_Of_Prostate_Epithelium",
-        "representation_of": "CL:0002341"
+        "ct_label": "endocrine cell",
+        "ct_iri": "CL:0000163"
+      },
+      {
+        "ct_label": "myofibroblast cell",
+        "ct_iri": "CL:0000186"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "B cell",
+        "ct_iri": "CL:0000236"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "enterocyte",
+        "ct_iri": "CL:0000584"
+      },
+      {
+        "ct_label": "natural killer cell",
+        "ct_iri": "CL:0000623"
+      },
+      {
+        "ct_label": "eosinophil",
+        "ct_iri": "CL:0000771"
+      },
+      {
+        "ct_label": "neutrophil",
+        "ct_iri": "CL:0000775"
+      },
+      {
+        "ct_label": "plasma cell",
+        "ct_iri": "CL:0000786"
+      },
+      {
+        "ct_label": "innate lymphoid cell",
+        "ct_iri": "CL:0001065"
+      },
+      {
+        "ct_label": "tuft cell of small intestine",
+        "ct_iri": "CL:0009080"
+      },
+      {
+        "ct_label": "duodenal goblet cell",
+        "ct_iri": "CL:1000324"
       }
     ],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/skin",
-    "organ_label": "skin of body",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
-    "organ_id_short": "UBERON:0002097",
-    "representation_of": "UBERON:0001992",
-    "iri": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla",
-    "cell_types_in_illustration": [
+    "cts_exclusive": [
       {
-        "node_group": "Skin_Fibroblast",
-        "representation_of": "CL:0002620"
-      },
-      {
-        "node_group": "Blood_Vessel",
-        "representation_of": "CL:0000115"
+        "ct_label": "duodenal goblet cell",
+        "ct_iri": "CL:1000324"
       }
     ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/skin",
-    "organ_label": "skin of body",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
-    "organ_id_short": "UBERON:0002097",
-    "representation_of": "UBERON:0013487",
-    "iri": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Prickle_Cell",
-        "representation_of": "CL:0000649"
-      },
-      {
-        "node_group": "Epidermal_Langerhans_Cell",
-        "representation_of": "CL:0002457"
-      },
-      {
-        "node_group": "Basal_Cell",
-        "representation_of": "CL:0000646"
-      },
-      {
-        "node_group": "Merkel_Cell",
-        "representation_of": "CL:0000242"
-      },
-      {
-        "node_group": "Melanocyte",
-        "representation_of": "CL:1000458"
-      }
-    ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/skin",
-    "organ_label": "skin of body",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002097",
-    "organ_id_short": "UBERON:0002097",
-    "representation_of": "UBERON:0002073",
-    "iri": "https://purl.humanatlas.io/2d-ftu/skin-hair-follicle",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Myoepithelial_Cell",
-        "representation_of": "CL:1000417"
-      },
-      {
-        "node_group": "Hair_Follicle_Melanocyte",
-        "representation_of": "CL:0002483"
-      },
-      {
-        "node_group": "Keratinocyte_Stem_Cell",
-        "representation_of": "CL:0002337"
-      },
-      {
-        "node_group": "Cortex_Of_Hair",
-        "representation_of": "UBERON:0002077"
-      },
-      {
-        "node_group": "Hair_Medulla",
-        "representation_of": "UBERON:0005184"
-      },
-      {
-        "node_group": "Sebum_Secreting_Cell",
-        "representation_of": "CL:0000317"
-      },
-      {
-        "node_group": "Cuticle_Of_Hair",
-        "representation_of": "UBERON:0002076"
-      },
-      {
-        "node_group": "Hair_Germinal_Matrix_Cell",
-        "representation_of": "CL:0002562"
-      },
-      {
-        "node_group": "Hair_Inner_Root_Sheath",
-        "representation_of": "UBERON:0005941"
-      },
-      {
-        "node_group": "Hair_Outer_Root_Sheath",
-        "representation_of": "UBERON:0005942"
-      },
-      {
-        "node_group": "Arrector_Pili",
-        "representation_of": "UBERON:0002033"
-      }
-    ],
-    "cell_types_in_ftu_only": [
-      {
-        "node_group": "Keratinocyte_Stem_Cell",
-        "representation_of": "CL:0002337"
-      },
-      {
-        "node_group": "Cortex_Of_Hair",
-        "representation_of": "UBERON:0002077"
-      },
-      {
-        "node_group": "Hair_Medulla",
-        "representation_of": "UBERON:0005184"
-      },
-      {
-        "node_group": "Cuticle_Of_Hair",
-        "representation_of": "UBERON:0002076"
-      },
-      {
-        "node_group": "Hair_Inner_Root_Sheath",
-        "representation_of": "UBERON:0005941"
-      },
-      {
-        "node_group": "Hair_Outer_Root_Sheath",
-        "representation_of": "UBERON:0005942"
-      },
-      {
-        "node_group": "Arrector_Pili",
-        "representation_of": "UBERON:0002033"
-      }
-    ],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/small-intestine",
-    "organ_label": "small intestine",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002108",
     "organ_id_short": "UBERON:0002108",
-    "representation_of": "UBERON:0001213",
-    "iri": "https://purl.humanatlas.io/2d-ftu/small-intestine-villus",
-    "cell_types_in_illustration": [
+    "organ_label": "Small Intestine"
+  },
+  "renal corpuscle": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle",
+    "cts_in_2d_ftu": [
       {
-        "node_group": "Natural_Killer_Cell",
-        "representation_of": "CL:0000623"
+        "ct_label": "podocyte",
+        "ct_iri": "CL:0000653"
       },
       {
-        "node_group": "Fibroblast",
-        "representation_of": "CL:0000057"
+        "ct_label": "epithelial cell of proximal tubule",
+        "ct_iri": "CL:0002306"
       },
       {
-        "node_group": "Tuft_Cell",
-        "representation_of": "CL:0009080"
+        "ct_label": "parietal epithelial cell",
+        "ct_iri": "CL:1000452"
       },
       {
-        "node_group": "Enterocyte",
-        "representation_of": "CL:0000584"
+        "ct_label": "glomerular mesangial cell",
+        "ct_iri": "CL:1000742"
       },
       {
-        "node_group": "Mast_Cell",
-        "representation_of": "CL:0000097"
+        "ct_label": "macula densa epithelial cell",
+        "ct_iri": "CL:1000850"
       },
       {
-        "node_group": "Goblet_Cell",
-        "representation_of": "CL:1000324"
+        "ct_label": "glomerular capillary endothelial cell",
+        "ct_iri": "CL:1001005"
       },
       {
-        "node_group": "Myofibroblast",
-        "representation_of": "CL:0000186"
+        "ct_label": "kidney afferent arteriole endothelial cell",
+        "ct_iri": "CL:1001096"
       },
       {
-        "node_group": "Plasma_Cell",
-        "representation_of": "CL:0000786"
-      },
-      {
-        "node_group": "Dendritic_Cell",
-        "representation_of": "CL:0000451"
-      },
-      {
-        "node_group": "B_Cell",
-        "representation_of": "CL:0000236"
-      },
-      {
-        "node_group": "Eosinophil",
-        "representation_of": "CL:0000771"
-      },
-      {
-        "node_group": "Neutrophil",
-        "representation_of": "CL:0000775"
-      },
-      {
-        "node_group": "Macrophage",
-        "representation_of": "CL:0000235"
-      },
-      {
-        "node_group": "Innate_Lymphoid_Cell",
-        "representation_of": "CL:0001065"
-      },
-      {
-        "node_group": "Endocrine_Cell",
-        "representation_of": "CL:0000163"
+        "ct_label": "kidney efferent arteriole endothelial cell",
+        "ct_iri": "CL:1001099"
       }
     ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
+    "cts_in_asctb": [
+      {
+        "ct_label": "podocyte",
+        "ct_iri": "CL:0000653"
+      },
+      {
+        "ct_label": "parietal epithelial cell",
+        "ct_iri": "CL:1000452"
+      },
+      {
+        "ct_label": "glomerular mesangial cell",
+        "ct_iri": "CL:1000742"
+      },
+      {
+        "ct_label": "glomerular capillary endothelial cell",
+        "ct_iri": "CL:1001005"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "podocyte",
+        "ct_iri": "CL:0000653"
+      },
+      {
+        "ct_label": "parietal epithelial cell",
+        "ct_iri": "CL:1000452"
+      },
+      {
+        "ct_label": "glomerular mesangial cell",
+        "ct_iri": "CL:1000742"
+      },
+      {
+        "ct_label": "glomerular capillary endothelial cell",
+        "ct_iri": "CL:1001005"
+      }
+    ],
+    "organ_id_short": "UBERON:0002113",
+    "organ_label": "kidney"
   },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/spleen",
-    "organ_label": "spleen",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002106",
+  "nephron": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "kidney cortex collecting duct principal cell",
+        "ct_iri": "CL:1000714"
+      },
+      {
+        "ct_label": "kidney outer medulla collecting duct principal cell",
+        "ct_iri": "CL:1000716"
+      },
+      {
+        "ct_label": "kidney inner medulla collecting duct principal cell",
+        "ct_iri": "CL:1000718"
+      },
+      {
+        "ct_label": "kidney connecting tubule epithelial cell",
+        "ct_iri": "CL:1000768"
+      },
+      {
+        "ct_label": "kidney distal convoluted tubule epithelial cell",
+        "ct_iri": "CL:1000849"
+      },
+      {
+        "ct_label": "macula densa epithelial cell",
+        "ct_iri": "CL:1000850"
+      },
+      {
+        "ct_label": "kidney loop of Henle thick ascending limb epithelial cell",
+        "ct_iri": "CL:1001106"
+      },
+      {
+        "ct_label": "kidney loop of Henle thin ascending limb epithelial cell",
+        "ct_iri": "CL:1001107"
+      },
+      {
+        "ct_label": "kidney loop of Henle thin descending limb epithelial cell",
+        "ct_iri": "CL:1001111"
+      },
+      {
+        "ct_label": "epithelial cell of proximal tubule segment 1",
+        "ct_iri": "CL:4030009"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "kidney connecting tubule epithelial cell",
+        "ct_iri": "CL:1000768"
+      },
+      {
+        "ct_label": "kidney distal convoluted tubule epithelial cell",
+        "ct_iri": "CL:1000849"
+      },
+      {
+        "ct_label": "macula densa epithelial cell",
+        "ct_iri": "CL:1000850"
+      },
+      {
+        "ct_label": "kidney loop of Henle thick ascending limb epithelial cell",
+        "ct_iri": "CL:1001106"
+      },
+      {
+        "ct_label": "kidney loop of Henle thin ascending limb epithelial cell",
+        "ct_iri": "CL:1001107"
+      },
+      {
+        "ct_label": "kidney loop of Henle thin descending limb epithelial cell",
+        "ct_iri": "CL:1001111"
+      },
+      {
+        "ct_label": "epithelial cell of proximal tubule segment 1",
+        "ct_iri": "CL:4030009"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "kidney connecting tubule epithelial cell",
+        "ct_iri": "CL:1000768"
+      },
+      {
+        "ct_label": "kidney distal convoluted tubule epithelial cell",
+        "ct_iri": "CL:1000849"
+      },
+      {
+        "ct_label": "macula densa epithelial cell",
+        "ct_iri": "CL:1000850"
+      },
+      {
+        "ct_label": "kidney loop of Henle thick ascending limb epithelial cell",
+        "ct_iri": "CL:1001106"
+      },
+      {
+        "ct_label": "kidney loop of Henle thin ascending limb epithelial cell",
+        "ct_iri": "CL:1001107"
+      },
+      {
+        "ct_label": "kidney loop of Henle thin descending limb epithelial cell",
+        "ct_iri": "CL:1001111"
+      },
+      {
+        "ct_label": "epithelial cell of proximal tubule segment 1",
+        "ct_iri": "CL:4030009"
+      }
+    ],
+    "organ_id_short": "UBERON:0002113",
+    "organ_label": "kidney"
+  },
+  "descending limb of loop of Henle": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-descending-thin-loop-of-henle",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "kidney loop of Henle thin descending limb epithelial cell",
+        "ct_iri": "CL:1001111"
+      },
+      {
+        "ct_label": "vasa recta descending limb cell",
+        "ct_iri": "CL:1001285"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "kidney loop of Henle thin descending limb epithelial cell",
+        "ct_iri": "CL:1001111"
+      },
+      {
+        "ct_label": "vasa recta descending limb cell",
+        "ct_iri": "CL:1001285"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "kidney loop of Henle thin descending limb epithelial cell",
+        "ct_iri": "CL:1001111"
+      }
+    ],
+    "organ_id_short": "UBERON:0002113",
+    "organ_label": "kidney"
+  },
+  "thick ascending limb of loop of Henle": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-thick-ascending-loop-of-henle",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "peritubular capillary endothelial cell",
+        "ct_iri": "CL:1001033"
+      },
+      {
+        "ct_label": "kidney loop of Henle thick ascending limb epithelial cell",
+        "ct_iri": "CL:1001106"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "kidney loop of Henle thick ascending limb epithelial cell",
+        "ct_iri": "CL:1001106"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "kidney loop of Henle thick ascending limb epithelial cell",
+        "ct_iri": "CL:1001106"
+      }
+    ],
+    "organ_id_short": "UBERON:0002113",
+    "organ_label": "kidney"
+  },
+  "loop of Henle ascending limb thin segment": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-ascending-thin-loop-of-henle",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "kidney loop of Henle thin ascending limb epithelial cell",
+        "ct_iri": "CL:1001107"
+      },
+      {
+        "ct_label": "vasa recta ascending limb cell",
+        "ct_iri": "CL:1001131"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "kidney loop of Henle thin ascending limb epithelial cell",
+        "ct_iri": "CL:1001107"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "kidney loop of Henle thin ascending limb epithelial cell",
+        "ct_iri": "CL:1001107"
+      }
+    ],
+    "organ_id_short": "UBERON:0002113",
+    "organ_label": "kidney"
+  },
+  "cortical collecting duct": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-cortical-collecting-duct",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "kidney cortex collecting duct principal cell",
+        "ct_iri": "CL:1000714"
+      },
+      {
+        "ct_label": "peritubular capillary endothelial cell",
+        "ct_iri": "CL:1001033"
+      },
+      {
+        "ct_label": "kidney connecting tubule alpha-intercalated cell",
+        "ct_iri": "CL:4030020"
+      },
+      {
+        "ct_label": "kidney connecting tubule beta-intercalated cell",
+        "ct_iri": "CL:4030021"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "kidney cortex collecting duct principal cell",
+        "ct_iri": "CL:1000714"
+      }
+    ],
+    "cts_exclusive": [],
+    "organ_id_short": "UBERON:0002113",
+    "organ_label": "kidney"
+  },
+  "outer medullary collecting duct": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-outer-medullary-collecting-duct",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "kidney outer medulla collecting duct principal cell",
+        "ct_iri": "CL:1000716"
+      },
+      {
+        "ct_label": "kidney outer medulla collecting duct intercalated cell",
+        "ct_iri": "CL:1000717"
+      },
+      {
+        "ct_label": "peritubular capillary endothelial cell",
+        "ct_iri": "CL:1001033"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "kidney outer medulla collecting duct principal cell",
+        "ct_iri": "CL:1000716"
+      },
+      {
+        "ct_label": "kidney outer medulla collecting duct intercalated cell",
+        "ct_iri": "CL:1000717"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "kidney outer medulla collecting duct principal cell",
+        "ct_iri": "CL:1000716"
+      },
+      {
+        "ct_label": "kidney outer medulla collecting duct intercalated cell",
+        "ct_iri": "CL:1000717"
+      }
+    ],
+    "organ_id_short": "UBERON:0002113",
+    "organ_label": "kidney"
+  },
+  "inner medullary collecting duct": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-inner-medullary-collecting-duct",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "kidney inner medulla collecting duct principal cell",
+        "ct_iri": "CL:1000718"
+      },
+      {
+        "ct_label": "peritubular capillary endothelial cell",
+        "ct_iri": "CL:1001033"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "kidney inner medulla collecting duct principal cell",
+        "ct_iri": "CL:1000718"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "kidney inner medulla collecting duct principal cell",
+        "ct_iri": "CL:1000718"
+      }
+    ],
+    "organ_id_short": "UBERON:0002113",
+    "organ_label": "kidney"
+  },
+  "crypt of Lieberkuhn of large intestine": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/large-intestine-crypt-lieberkuhn",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "neuroendocrine cell",
+        "ct_iri": "CL:0000165"
+      },
+      {
+        "ct_label": "enterocyte of epithelium of large intestine",
+        "ct_iri": "CL:0002071"
+      },
+      {
+        "ct_label": "intestinal crypt stem cell of large intestine",
+        "ct_iri": "CL:0009016"
+      },
+      {
+        "ct_label": "intestinal tuft cell",
+        "ct_iri": "CL:0019032"
+      },
+      {
+        "ct_label": "large intestine crypt goblet cell",
+        "ct_iri": "CL:1000321"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "neuroendocrine cell",
+        "ct_iri": "CL:0000165"
+      },
+      {
+        "ct_label": "enterocyte of epithelium of large intestine",
+        "ct_iri": "CL:0002071"
+      },
+      {
+        "ct_label": "intestinal crypt stem cell of large intestine",
+        "ct_iri": "CL:0009016"
+      },
+      {
+        "ct_label": "intestinal tuft cell",
+        "ct_iri": "CL:0019032"
+      },
+      {
+        "ct_label": "large intestine crypt goblet cell",
+        "ct_iri": "CL:1000321"
+      }
+    ],
+    "cts_exclusive": [],
+    "organ_id_short": "UBERON:0000059",
+    "organ_label": "large intestine"
+  },
+  "alveolus of lung": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/lung-pulmonary-alveolus",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "pulmonary alveolar type 1 cell",
+        "ct_iri": "CL:0002062"
+      },
+      {
+        "ct_label": "pulmonary alveolar type 2 cell",
+        "ct_iri": "CL:0002063"
+      },
+      {
+        "ct_label": "lung pericyte",
+        "ct_iri": "CL:0009089"
+      },
+      {
+        "ct_label": "alveolar capillary type 1 endothelial cell",
+        "ct_iri": "CL:4028002"
+      },
+      {
+        "ct_label": "alveolar type 1 fibroblast cell",
+        "ct_iri": "CL:4028004"
+      },
+      {
+        "ct_label": "secondary crest myofibroblast",
+        "ct_iri": "CL:4033016"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "pulmonary alveolar type 1 cell",
+        "ct_iri": "CL:0002062"
+      },
+      {
+        "ct_label": "pulmonary alveolar type 2 cell",
+        "ct_iri": "CL:0002063"
+      },
+      {
+        "ct_label": "lung pericyte",
+        "ct_iri": "CL:0009089"
+      },
+      {
+        "ct_label": "alveolar capillary type 1 endothelial cell",
+        "ct_iri": "CL:4028002"
+      },
+      {
+        "ct_label": "alveolar type 1 fibroblast cell",
+        "ct_iri": "CL:4028004"
+      }
+    ],
+    "cts_exclusive": [],
+    "organ_id_short": "UBERON:0002048",
+    "organ_label": "lung"
+  },
+  "bronchus submucosal gland": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/lung-bronchial-submucosal-gland",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "myoepithelial cell of bronchus submucosal gland",
+        "ct_iri": "CL:4033003"
+      },
+      {
+        "ct_label": "serous secreting cell of bronchus submucosal gland",
+        "ct_iri": "CL:4033005"
+      },
+      {
+        "ct_label": "mucus secreting cell of bronchus submucosal gland",
+        "ct_iri": "CL:4033022"
+      },
+      {
+        "ct_label": "airway submucosal gland collecting duct epithelial cell",
+        "ct_iri": "CL:4033023"
+      },
+      {
+        "ct_label": "airway submucosal gland duct basal cell",
+        "ct_iri": "CL:4033024"
+      },
+      {
+        "ct_label": "airway submucosal gland duct multiciliated cell",
+        "ct_iri": "CL:4033055"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "myoepithelial cell of bronchus submucosal gland",
+        "ct_iri": "CL:4033003"
+      },
+      {
+        "ct_label": "serous secreting cell of bronchus submucosal gland",
+        "ct_iri": "CL:4033005"
+      },
+      {
+        "ct_label": "mucus secreting cell of bronchus submucosal gland",
+        "ct_iri": "CL:4033022"
+      },
+      {
+        "ct_label": "airway submucosal gland collecting duct epithelial cell",
+        "ct_iri": "CL:4033023"
+      },
+      {
+        "ct_label": "airway submucosal gland duct basal cell",
+        "ct_iri": "CL:4033024"
+      },
+      {
+        "ct_label": "airway submucosal gland duct multiciliated cell",
+        "ct_iri": "CL:4033055"
+      }
+    ],
+    "cts_exclusive": [],
+    "organ_id_short": "UBERON:0002048",
+    "organ_label": "lung"
+  },
+  "submandibular gland": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/mouth-submandibular-gland",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "helper T cell",
+        "ct_iri": "CL:0000912"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      },
+      {
+        "ct_label": "striated cell of salivary gland",
+        "ct_iri": "CL:4052049"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      },
+      {
+        "ct_label": "striated cell of salivary gland",
+        "ct_iri": "CL:4052049"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      },
+      {
+        "ct_label": "striated cell of salivary gland",
+        "ct_iri": "CL:4052049"
+      }
+    ],
+    "organ_id_short": "UBERON:0000165",
+    "organ_label": "mouth"
+  },
+  "parotid gland": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/mouth-parotid-gland",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "adipocyte",
+        "ct_iri": "CL:0000136"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "helper T cell",
+        "ct_iri": "CL:0000912"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      },
+      {
+        "ct_label": "striated cell of salivary gland",
+        "ct_iri": "CL:4052049"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "adipocyte",
+        "ct_iri": "CL:0000136"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      },
+      {
+        "ct_label": "striated cell of salivary gland",
+        "ct_iri": "CL:4052049"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "adipocyte",
+        "ct_iri": "CL:0000136"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      },
+      {
+        "ct_label": "striated cell of salivary gland",
+        "ct_iri": "CL:4052049"
+      }
+    ],
+    "organ_id_short": "UBERON:0000165",
+    "organ_label": "mouth"
+  },
+  "sublingual gland": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/mouth-sublingual-gland",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "helper T cell",
+        "ct_iri": "CL:0000912"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      }
+    ],
+    "organ_id_short": "UBERON:0000165",
+    "organ_label": "mouth"
+  },
+  "prostate glandular acinus": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "vascular associated smooth muscle cell",
+        "ct_iri": "CL:0000359"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "luminal cell of prostate epithelium",
+        "ct_iri": "CL:0002340"
+      },
+      {
+        "ct_label": "basal cell of prostate epithelium",
+        "ct_iri": "CL:0002341"
+      },
+      {
+        "ct_label": "fibroblast of connective tissue of prostate",
+        "ct_iri": "CL:1000299"
+      },
+      {
+        "ct_label": "fibroblast of subepithelial connective tissue of prostatic gland",
+        "ct_iri": "CL:1000301"
+      },
+      {
+        "ct_label": "smooth muscle cell of prostate",
+        "ct_iri": "CL:1000487"
+      },
+      {
+        "ct_label": "prostate gland microvascular endothelial cell",
+        "ct_iri": "CL:2000059"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "vascular associated smooth muscle cell",
+        "ct_iri": "CL:0000359"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "luminal cell of prostate epithelium",
+        "ct_iri": "CL:0002340"
+      },
+      {
+        "ct_label": "basal cell of prostate epithelium",
+        "ct_iri": "CL:0002341"
+      },
+      {
+        "ct_label": "fibroblast of connective tissue of prostate",
+        "ct_iri": "CL:1000299"
+      },
+      {
+        "ct_label": "fibroblast of subepithelial connective tissue of prostatic gland",
+        "ct_iri": "CL:1000301"
+      },
+      {
+        "ct_label": "smooth muscle cell of prostate",
+        "ct_iri": "CL:1000487"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "vascular associated smooth muscle cell",
+        "ct_iri": "CL:0000359"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "luminal cell of prostate epithelium",
+        "ct_iri": "CL:0002340"
+      },
+      {
+        "ct_label": "basal cell of prostate epithelium",
+        "ct_iri": "CL:0002341"
+      },
+      {
+        "ct_label": "fibroblast of connective tissue of prostate",
+        "ct_iri": "CL:1000299"
+      },
+      {
+        "ct_label": "fibroblast of subepithelial connective tissue of prostatic gland",
+        "ct_iri": "CL:1000301"
+      },
+      {
+        "ct_label": "smooth muscle cell of prostate",
+        "ct_iri": "CL:1000487"
+      }
+    ],
+    "organ_id_short": "UBERON:0002367",
+    "organ_label": "prostate gland"
+  },
+  "papillary layer of dermis": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "skin fibroblast",
+        "ct_iri": "CL:0002620"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "skin fibroblast",
+        "ct_iri": "CL:0002620"
+      }
+    ],
+    "cts_in_asctb": [],
+    "cts_exclusive": [],
+    "organ_id_short": "UBERON:0002097",
+    "organ_label": "skin"
+  },
+  "hair follicle": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-hair-follicle",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "sebocyte",
+        "ct_iri": "CL:0000317"
+      },
+      {
+        "ct_label": "keratinocyte stem cell",
+        "ct_iri": "CL:0002337"
+      },
+      {
+        "ct_label": "hair follicle melanocyte",
+        "ct_iri": "CL:0002483"
+      },
+      {
+        "ct_label": "hair germinal matrix cell",
+        "ct_iri": "CL:0002562"
+      },
+      {
+        "ct_label": "myoepithelial cell of sweat gland",
+        "ct_iri": "CL:1000417"
+      },
+      {
+        "ct_label": "sebocyte",
+        "ct_iri": "CL:0000317"
+      },
+      {
+        "ct_label": "keratinocyte stem cell",
+        "ct_iri": "CL:0002337"
+      },
+      {
+        "ct_label": "hair follicle melanocyte",
+        "ct_iri": "CL:0002483"
+      },
+      {
+        "ct_label": "hair germinal matrix cell",
+        "ct_iri": "CL:0002562"
+      },
+      {
+        "ct_label": "myoepithelial cell of sweat gland",
+        "ct_iri": "CL:1000417"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "sebocyte",
+        "ct_iri": "CL:0000317"
+      },
+      {
+        "ct_label": "hair follicle melanocyte",
+        "ct_iri": "CL:0002483"
+      },
+      {
+        "ct_label": "hair germinal matrix cell",
+        "ct_iri": "CL:0002562"
+      },
+      {
+        "ct_label": "sebocyte",
+        "ct_iri": "CL:0000317"
+      },
+      {
+        "ct_label": "hair follicle melanocyte",
+        "ct_iri": "CL:0002483"
+      },
+      {
+        "ct_label": "hair germinal matrix cell",
+        "ct_iri": "CL:0002562"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "sebocyte",
+        "ct_iri": "CL:0000317"
+      },
+      {
+        "ct_label": "hair follicle melanocyte",
+        "ct_iri": "CL:0002483"
+      },
+      {
+        "ct_label": "hair germinal matrix cell",
+        "ct_iri": "CL:0002562"
+      },
+      {
+        "ct_label": "sebocyte",
+        "ct_iri": "CL:0000317"
+      },
+      {
+        "ct_label": "hair follicle melanocyte",
+        "ct_iri": "CL:0002483"
+      },
+      {
+        "ct_label": "hair germinal matrix cell",
+        "ct_iri": "CL:0002562"
+      }
+    ],
+    "organ_id_short": "UBERON:0002097",
+    "organ_label": "skin"
+  },
+  "epidermal ridge of digit": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "Merkel cell",
+        "ct_iri": "CL:0000242"
+      },
+      {
+        "ct_label": "basal cell",
+        "ct_iri": "CL:0000646"
+      },
+      {
+        "ct_label": "spinous cell of epidermis",
+        "ct_iri": "CL:0000649"
+      },
+      {
+        "ct_label": "epidermal Langerhans cell",
+        "ct_iri": "CL:0002457"
+      },
+      {
+        "ct_label": "melanocyte of skin",
+        "ct_iri": "CL:1000458"
+      },
+      {
+        "ct_label": "Merkel cell",
+        "ct_iri": "CL:0000242"
+      },
+      {
+        "ct_label": "basal cell",
+        "ct_iri": "CL:0000646"
+      },
+      {
+        "ct_label": "spinous cell of epidermis",
+        "ct_iri": "CL:0000649"
+      },
+      {
+        "ct_label": "epidermal Langerhans cell",
+        "ct_iri": "CL:0002457"
+      },
+      {
+        "ct_label": "melanocyte of skin",
+        "ct_iri": "CL:1000458"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "Merkel cell",
+        "ct_iri": "CL:0000242"
+      },
+      {
+        "ct_label": "basal cell",
+        "ct_iri": "CL:0000646"
+      },
+      {
+        "ct_label": "spinous cell of epidermis",
+        "ct_iri": "CL:0000649"
+      },
+      {
+        "ct_label": "epidermal Langerhans cell",
+        "ct_iri": "CL:0002457"
+      },
+      {
+        "ct_label": "melanocyte of skin",
+        "ct_iri": "CL:1000458"
+      },
+      {
+        "ct_label": "Merkel cell",
+        "ct_iri": "CL:0000242"
+      },
+      {
+        "ct_label": "basal cell",
+        "ct_iri": "CL:0000646"
+      },
+      {
+        "ct_label": "spinous cell of epidermis",
+        "ct_iri": "CL:0000649"
+      },
+      {
+        "ct_label": "epidermal Langerhans cell",
+        "ct_iri": "CL:0002457"
+      },
+      {
+        "ct_label": "melanocyte of skin",
+        "ct_iri": "CL:1000458"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "basal cell",
+        "ct_iri": "CL:0000646"
+      },
+      {
+        "ct_label": "spinous cell of epidermis",
+        "ct_iri": "CL:0000649"
+      },
+      {
+        "ct_label": "melanocyte of skin",
+        "ct_iri": "CL:1000458"
+      },
+      {
+        "ct_label": "basal cell",
+        "ct_iri": "CL:0000646"
+      },
+      {
+        "ct_label": "spinous cell of epidermis",
+        "ct_iri": "CL:0000649"
+      },
+      {
+        "ct_label": "melanocyte of skin",
+        "ct_iri": "CL:1000458"
+      }
+    ],
+    "organ_id_short": "UBERON:0002097",
+    "organ_label": "skin"
+  },
+  "red pulp of spleen": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/spleen-red-pulp",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "hematopoietic stem cell",
+        "ct_iri": "CL:0000037"
+      },
+      {
+        "ct_label": "follicular dendritic cell",
+        "ct_iri": "CL:0000442"
+      },
+      {
+        "ct_label": "neutrophil",
+        "ct_iri": "CL:0000775"
+      },
+      {
+        "ct_label": "splenic marginal zone macrophage",
+        "ct_iri": "CL:0000872"
+      },
+      {
+        "ct_label": "splenic red pulp macrophage",
+        "ct_iri": "CL:0000874"
+      },
+      {
+        "ct_label": "splenic tingible body macrophage",
+        "ct_iri": "CL:0000877"
+      },
+      {
+        "ct_label": "plasmablast",
+        "ct_iri": "CL:0000980"
+      },
+      {
+        "ct_label": "CD14-positive, CD16-low monocyte",
+        "ct_iri": "CL:0001055"
+      },
+      {
+        "ct_label": "dendritic cell, human",
+        "ct_iri": "CL:0001056"
+      }
+    ],
+    "cts_in_asctb": [
+      {
+        "ct_label": "hematopoietic stem cell",
+        "ct_iri": "CL:0000037"
+      },
+      {
+        "ct_label": "splenic red pulp macrophage",
+        "ct_iri": "CL:0000874"
+      },
+      {
+        "ct_label": "plasmablast",
+        "ct_iri": "CL:0000980"
+      },
+      {
+        "ct_label": "CD14-positive, CD16-low monocyte",
+        "ct_iri": "CL:0001055"
+      },
+      {
+        "ct_label": "dendritic cell, human",
+        "ct_iri": "CL:0001056"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "hematopoietic stem cell",
+        "ct_iri": "CL:0000037"
+      },
+      {
+        "ct_label": "plasmablast",
+        "ct_iri": "CL:0000980"
+      },
+      {
+        "ct_label": "CD14-positive, CD16-low monocyte",
+        "ct_iri": "CL:0001055"
+      },
+      {
+        "ct_label": "dendritic cell, human",
+        "ct_iri": "CL:0001056"
+      }
+    ],
     "organ_id_short": "UBERON:0002106",
-    "representation_of": "UBERON:0001250",
-    "iri": "https://purl.humanatlas.io/2d-ftu/spleen-red-pulp",
-    "cell_types_in_illustration": [
+    "organ_label": "spleen"
+  },
+  "white pulp of spleen": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/spleen-white-pulp",
+    "cts_in_2d_ftu": [
       {
-        "node_group": "CD14_Positive",
-        "representation_of": "CL:0001055"
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
       },
       {
-        "node_group": "Follicular_Dendritic_Cell",
-        "representation_of": "CL:0000442"
+        "ct_label": "follicular dendritic cell",
+        "ct_iri": "CL:0000442"
       },
       {
-        "node_group": "plasmablast",
-        "representation_of": "CL:0000980"
+        "ct_label": "stromal cell",
+        "ct_iri": "CL:0000499"
       },
       {
-        "node_group": "Neutrophil",
-        "representation_of": "CL:0000775"
+        "ct_label": "neutrophil",
+        "ct_iri": "CL:0000775"
       },
       {
-        "node_group": "Splenic_Tingible_Body_Macrophage",
-        "representation_of": "CL:0000877"
+        "ct_label": "splenic white pulp macrophage",
+        "ct_iri": "CL:0000876"
       },
       {
-        "node_group": "Splenic_Marginal_Zone_Macrophage",
-        "representation_of": "CL:0000872"
+        "ct_label": "plasmablast",
+        "ct_iri": "CL:0000980"
       },
       {
-        "node_group": "Splenic_Red_Pulp_Macrophage",
-        "representation_of": "CL:0000874"
+        "ct_label": "CD14-positive, CD16-low monocyte",
+        "ct_iri": "CL:0001055"
       },
       {
-        "node_group": "Dendritic_Cell",
-        "representation_of": "CL:0001056"
+        "ct_label": "reticular cell of splenic cord",
+        "ct_iri": "CL:1000489"
       },
       {
-        "node_group": "Hematopoetic_Stem_Cell",
-        "representation_of": "CL:0000037"
+        "ct_label": "splenic endothelial cell",
+        "ct_iri": "CL:2000053"
       }
     ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/spleen",
-    "organ_label": "spleen",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002106",
+    "cts_in_asctb": [
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "follicular dendritic cell",
+        "ct_iri": "CL:0000442"
+      },
+      {
+        "ct_label": "stromal cell",
+        "ct_iri": "CL:0000499"
+      },
+      {
+        "ct_label": "splenic white pulp macrophage",
+        "ct_iri": "CL:0000876"
+      },
+      {
+        "ct_label": "plasmablast",
+        "ct_iri": "CL:0000980"
+      },
+      {
+        "ct_label": "reticular cell of splenic cord",
+        "ct_iri": "CL:1000489"
+      },
+      {
+        "ct_label": "splenic endothelial cell",
+        "ct_iri": "CL:2000053"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      }
+    ],
     "organ_id_short": "UBERON:0002106",
-    "representation_of": "UBERON:0001959",
-    "iri": "https://purl.humanatlas.io/2d-ftu/spleen-white-pulp",
-    "cell_types_in_illustration": [
+    "organ_label": "spleen"
+  },
+  "thymus lobule": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/thymus-thymus-lobule",
+    "cts_in_2d_ftu": [
       {
-        "node_group": "CD14_Positive",
-        "representation_of": "CL:0001055"
+        "ct_label": "blood vessel endothelial cell",
+        "ct_iri": "CL:0000071"
       },
       {
-        "node_group": "Follicular_Dendritic_Cell",
-        "representation_of": "CL:0000442"
+        "ct_label": "T cell",
+        "ct_iri": "CL:0000084"
       },
       {
-        "node_group": "Plasmablast",
-        "representation_of": "CL:0000980"
+        "ct_label": "leukocyte",
+        "ct_iri": "CL:0000738"
       },
       {
-        "node_group": "Neutrophil",
-        "representation_of": "CL:0000775"
+        "ct_label": "memory B cell",
+        "ct_iri": "CL:0000787"
       },
       {
-        "node_group": "Splenic_Marginal_Zone_Macrophage",
-        "representation_of": "CL:0000876"
+        "ct_label": "double-positive, alpha-beta thymocyte",
+        "ct_iri": "CL:0000809"
       },
       {
-        "node_group": "Smooth_Muscle_Cell",
-        "representation_of": "CL:0000192"
+        "ct_label": "thymic medullary macrophage",
+        "ct_iri": "CL:0000882"
       },
       {
-        "node_group": "Splenic_Endothelial_Cell",
-        "representation_of": "CL:2000053"
+        "ct_label": "thymic cortical macrophage",
+        "ct_iri": "CL:0000883"
       },
       {
-        "node_group": "Stromal_Cell",
-        "representation_of": "CL:0000499"
+        "ct_label": "thymic plasmacytoid dendritic cell",
+        "ct_iri": "CL:0000942"
       },
       {
-        "node_group": "Reticular_Cell_Of_Splenic_Cord",
-        "representation_of": "CL:1000489"
+        "ct_label": "beige adipocyte",
+        "ct_iri": "CL:0001070"
+      },
+      {
+        "ct_label": "corticomedullary thymic epithelial cell",
+        "ct_iri": "CL:0009070"
+      },
+      {
+        "ct_label": "medullary thymic epithelial cell type 1",
+        "ct_iri": "CL:0009071"
+      },
+      {
+        "ct_label": "subcapsular thymic epithelial cell",
+        "ct_iri": "CL:0009077"
       }
     ],
-    "cell_types_in_ftu_only": [],
-    "cell_types_in_asctb_ftu_column": []
-  },
-  {
-    "asctb_purl": "https://purl.humanatlas.io/asct-b/thymus",
-    "organ_label": "thymus",
-    "organ_id": "http://purl.obolibrary.org/obo/UBERON_0002370",
+    "cts_in_asctb": [
+      {
+        "ct_label": "blood vessel endothelial cell",
+        "ct_iri": "CL:0000071"
+      },
+      {
+        "ct_label": "double-positive, alpha-beta thymocyte",
+        "ct_iri": "CL:0000809"
+      },
+      {
+        "ct_label": "thymic medullary macrophage",
+        "ct_iri": "CL:0000882"
+      },
+      {
+        "ct_label": "thymic cortical macrophage",
+        "ct_iri": "CL:0000883"
+      },
+      {
+        "ct_label": "thymic plasmacytoid dendritic cell",
+        "ct_iri": "CL:0000942"
+      },
+      {
+        "ct_label": "beige adipocyte",
+        "ct_iri": "CL:0001070"
+      },
+      {
+        "ct_label": "corticomedullary thymic epithelial cell",
+        "ct_iri": "CL:0009070"
+      },
+      {
+        "ct_label": "medullary thymic epithelial cell type 1",
+        "ct_iri": "CL:0009071"
+      },
+      {
+        "ct_label": "subcapsular thymic epithelial cell",
+        "ct_iri": "CL:0009077"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "double-positive, alpha-beta thymocyte",
+        "ct_iri": "CL:0000809"
+      },
+      {
+        "ct_label": "thymic medullary macrophage",
+        "ct_iri": "CL:0000882"
+      },
+      {
+        "ct_label": "thymic cortical macrophage",
+        "ct_iri": "CL:0000883"
+      },
+      {
+        "ct_label": "beige adipocyte",
+        "ct_iri": "CL:0001070"
+      },
+      {
+        "ct_label": "corticomedullary thymic epithelial cell",
+        "ct_iri": "CL:0009070"
+      },
+      {
+        "ct_label": "medullary thymic epithelial cell type 1",
+        "ct_iri": "CL:0009071"
+      },
+      {
+        "ct_label": "subcapsular thymic epithelial cell",
+        "ct_iri": "CL:0009077"
+      }
+    ],
     "organ_id_short": "UBERON:0002370",
-    "representation_of": "UBERON:0002125",
-    "iri": "https://purl.humanatlas.io/2d-ftu/thymus-thymus-lobule",
-    "cell_types_in_illustration": [
-      {
-        "node_group": "Double_Positive_Alpha_Beta_Thymocyte",
-        "representation_of": "CL:0000809"
-      },
-      {
-        "node_group": "Subcapsular_Thymocytes",
-        "representation_of": "UBERON:0006936"
-      },
-      {
-        "node_group": "Thymic_Plasmacytoid_Dendritic_Cell",
-        "representation_of": "CL:0000942"
-      },
-      {
-        "node_group": "Blood_Vessel_Endothelial_Cell-2",
-        "representation_of": "CL:0000071"
-      },
-      {
-        "node_group": "Thymic_Cortical_Macrophage",
-        "representation_of": "CL:0000883"
-      },
-      {
-        "node_group": "Subcapsular_Cortical_Epithelial_Cell",
-        "representation_of": "CL:0009077"
-      },
-      {
-        "node_group": "Beige_Adipocyte",
-        "representation_of": "CL:0001070"
-      },
-      {
-        "node_group": "T_Cells",
-        "representation_of": "CL:0000084"
-      },
-      {
-        "node_group": "Medullary_Thymic_Epithelial_Cell",
-        "representation_of": "CL:0009071"
-      },
-      {
-        "node_group": "Hassalls_Corpuscle",
-        "representation_of": "UBERON:0003987"
-      },
-      {
-        "node_group": "B_Cell",
-        "representation_of": "CL:0000787"
-      },
-      {
-        "node_group": "Corticomedullary_Thymic_Epithelial_Cell",
-        "representation_of": "CL:0009070"
-      },
-      {
-        "node_group": "White_Blood_Cell",
-        "representation_of": "CL:0000738"
-      },
-      {
-        "node_group": "Thymic_Medullary_Macrophage",
-        "representation_of": "CL:0000882"
-      }
-    ],
-    "cell_types_in_ftu_only": [
-      {
-        "node_group": "Subcapsular_Thymocytes",
-        "representation_of": "UBERON:0006936"
-      },
-      {
-        "node_group": "T_Cells",
-        "representation_of": "CL:0000084"
-      },
-      {
-        "node_group": "Hassalls_Corpuscle",
-        "representation_of": "UBERON:0003987"
-      },
-      {
-        "node_group": "B_Cell",
-        "representation_of": "CL:0000787"
-      },
-      {
-        "node_group": "White_Blood_Cell",
-        "representation_of": "CL:0000738"
-      }
-    ],
-    "cell_types_in_asctb_ftu_column": []
+    "organ_label": "thoracic thymus"
   }
-]
+}

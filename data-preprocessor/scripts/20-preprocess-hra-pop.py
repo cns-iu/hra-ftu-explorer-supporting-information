@@ -58,11 +58,9 @@ def identify_datasets_of_interest(
         if organ_has_ftus:
             result.append({dataset_id: organ_id})
             print(f"Of interest: {dataset_id}")
-   
-    data = {
-        "datasets_of_interest": result
-    }
-   
+
+    data = {"datasets_of_interest": result}
+
     with open(DATASETS_OF_INTEREST, "w") as f:
         json.dump(data, f, indent=4)
     return list(result)
@@ -159,7 +157,7 @@ def filter_raw_data(datasets_of_interest: list, cell_types_in_ftus: list):
 
                         if current_dataset_id not in datasets_with_ftus:
                             datasets_with_ftus[current_dataset_id] = []
-                        datasets_with_ftus[current_dataset_id].append(matches)
+                        datasets_with_ftus[current_dataset_id].extend(matches)
 
                 if keep_summaries:
                     tqdm.write(
@@ -169,11 +167,16 @@ def filter_raw_data(datasets_of_interest: list, cell_types_in_ftus: list):
                     keep_cell_type_population = {
                         k: v for k, v in cell_summary.items() if k != "summary"
                     }
+
                     keep_cell_type_population["summary"] = keep_summaries
 
                     intermediary_file.write(
                         json.dumps(keep_cell_type_population) + "\n"
                     )
+
+                    tqdm.write("Wrote to file.")
+
+                    tqdm.write("")
 
                     # tqdm.write(
                     #     f"Datasets with confirmed FTUs is now: {datasets_with_ftus}."

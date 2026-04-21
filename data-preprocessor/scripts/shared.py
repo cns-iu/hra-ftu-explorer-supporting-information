@@ -19,6 +19,8 @@ import anndata as ad
 import matplotlib.pyplot as plt
 from upsetplot import UpSet, from_memberships
 from urllib.parse import urlsplit
+from copy import deepcopy
+from colorama import Fore, Style, init
 
 # Make folder for input data
 INPUT_DIR = Path(__file__).parent.parent / "input"
@@ -52,6 +54,9 @@ with open(Path(__file__).parent / "config.yaml", "r", encoding="utf-8") as f:
 hra_pop_version = config["HRA_POP_VERSION"]
 hra_pop_branch = config["HRA_POP_BRANCH"]
 
+# Capture FTU query
+FTU_QUERY = config["FTU_QUERY"]
+
 # Assign file paths to constants
 CELL_TYPES_IN_FTUS = OUTPUT_DIR / config["CELL_TYPES_IN_FTUS"]
 UNIVERSE_FILE_FILENAME = INPUT_DIR / config["UNIVERSE_FILE_FILENAME"]
@@ -75,10 +80,33 @@ FTU_CELL_SUMMARIES_OUTPUT = TEMP_DIR / config["FTU_CELL_SUMMARIES"]
 ANATOMOGRAMN_METADATA = INPUT_DIR / config["ANATOMOGRAMN_METADATA"]
 ANATOMOGRAMN_RAW_DATA = RAW_DATA_DIR / config["ANATOMOGRAMN_RAW_DATA"]
 DATASETS_OF_INTEREST = OUTPUT_DIR / config["DATASETS_OF_INTEREST"]
+FTU_TO_DATASETS = OUTPUT_DIR / config["FTU_TO_DATASETS"]
 
 # Commonly used HTTP Accept headers for API requests
 accept_json = {"Accept": "application/json"}
 accept_csv = {"Accept": "text/csv"}
+
+# Boilerplate context and graph for JSON-LD file
+
+context_template = {
+    "@context": [
+        "https://cns-iu.github.io/hra-cell-type-populations-supporting-information/data-processor/ccf-context.jsonld",
+        {
+            "UBERON": {
+                "@id": "http://purl.obolibrary.org/obo/UBERON_",
+                "@prefix": True,
+            },
+            "illustration_files": {
+                "@id": "ccf:has_illustration_file",
+                "@type": "@id",
+            },
+            "mapping": {"@id": "ccf:has_illustration_node", "@type": "@id"},
+            "organ_id": {"@id": "ccf:organ_id", "@type": "@id"},
+            "data_sources": {"@id": "ccf:has_data_source", "@type": "@id"},
+        },
+    ],
+    "@graph": [],
+}
 
 # Metadata for anatomogram datasets
 anatomogram_files_json = [
@@ -137,6 +165,18 @@ anatomogram_files_json = [
 # 2. Liver: https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553/downloads
 # 3. Lung: https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148/downloads
 # 4. Pancreas: https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061/downloads
+
+
+def as_bool(v):
+    if pd.isna(v):
+        return False
+    if isinstance(v, str):
+        return v.strip().lower() in {"true", "t", "1", "yes", "y"}
+    return bool(v)
+
+
+def iri_to_curie(iri: str) -> str:
+    return iri.rsplit("/", 1)[-1].replace("_", ":")
 
 
 def get_csv_pandas(url: str, timeout: int = 10) -> pd.DataFrame:
@@ -208,13 +248,16 @@ def download_from_url(
         r.raise_for_status()
         total_size = int(r.headers.get("content-length", 0))
 
-        with open(file_path, "wb") as f, tqdm(
-            total=total_size,
-            unit="B",
-            unit_scale=True,
-            desc=file_path.name,
-            ascii=True,
-        ) as pbar:
+        with (
+            open(file_path, "wb") as f,
+            tqdm(
+                total=total_size,
+                unit="B",
+                unit_scale=True,
+                desc=file_path.name,
+                ascii=True,
+            ) as pbar,
+        ):
             for chunk in r.iter_content(chunk_size=8192):
                 if chunk:
                     f.write(chunk)
@@ -309,7 +352,7 @@ def get_organs_with_ftus():
     """
 
     df = get_csv_pandas("https://apps.humanatlas.io/api/grlc/hra/2d-ftu-parts.csv")
-    
+
     # Ok, on staging, those two would look like:
     # https://apps.humanatlas.io/api/grlc/hra/2d-ftu-parts.csv?endpoint=https://apps.humanatlas.io/api--staging/v1/sparql
     # https://apps.humanatlas.io/api--staging/kg/digital-objects
@@ -351,7 +394,15 @@ def comes_from_organ_with_ftu(
     if organ_id_to_check is None:
         return False
 
-    return organ_id_to_check in {ftu["organ_id_short"] for ftu in cell_types_in_ftus}
+    unique_organ_id_short = sorted(
+        {
+            v["organ_id_short"]
+            for v in cell_types_in_ftus.values()
+            if "organ_id_short" in v
+        }
+    )
+
+    return organ_id_to_check in unique_organ_id_short
 
 
 # def build_ftu_index(cell_types_in_ftus):
@@ -410,13 +461,13 @@ def is_cell_type_exclusive_to_ftu(
 
     # print(f"Now checking {cell_id_to_check} in {organ_id_to_check}.")
 
-    # Iterate over all FTUs and collect all "representation_of" IDs for CTs in "cell_types_in_ftu_only"
+    # Iterate over all FTUs
     matches = [
-        (ct["cell_id"], ftu["iri"])
-        for ftu in cell_types_in_ftu
-        for ct in ftu.get("cell_types_in_asctb_ftu_column", [])
+        {"ct_iri": ct["ct_iri"], "ftu_purl": ftu["ftu_purl"]}
+        for ftu in cell_types_in_ftu.values()
         if ftu["organ_id_short"] == organ_id_to_check
-        and ct["cell_id"] == cell_id_to_check
+        for ct in ftu.get("cts_exclusive", [])
+        if ct["ct_iri"] == cell_id_to_check
     ]
 
     return matches
