@@ -84,6 +84,7 @@ def build_ftu_datasets_jsonld(metadata: pd.DataFrame):
             new_data_source = deepcopy(data_source_instance)
             new_data_source["@id"] = f"{dataset_id}#CellSummary_{suffix}"
             new_data_source["label"] = md["handler"]
+            new_data_source["healthStatus"] = "Healthy"
             new_data_source["link"] = dataset_id
             new_data_source["description"] = dataset_id
             new_data_source["authors"] = [md["provider_name"]]
