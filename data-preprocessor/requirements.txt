@@ -8,3 +8,4 @@ ujson
 scanpy
 anndata
 upsetplot
+colorama
