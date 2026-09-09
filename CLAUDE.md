@@ -29,13 +29,21 @@ There is no lint/test suite in this repo currently.
 
 ## Architecture
 
+### `shared_common.py` — repo root, shared by both `data-preprocessor/` and `analysis/`
+
+Deliberately kept free of heavy/optional dependencies (no `scanpy`/`anndata`/`matplotlib`/`upsetplot`) so it's safe to import from the lightweight `analysis/` venv as well as the full pipeline venv. Both `data-preprocessor/scripts/shared.py` and `analysis/shared.py` add the repo root to `sys.path` and `from shared_common import ...` rather than defining their own copies — do the same for any new helper both sides would otherwise duplicate. It holds:
+- Loading `config.yaml` (repo root) into `config` — the single source of truth for every input/output filename and the FTU-exclusivity SPARQL query URL. Add new filenames there, not as string literals in a script.
+- `load_json` and `iterate_through_json_lines` (JSONL reader; transparently handles gzipped `.jsonl.gz`, and intentionally does not pre-count lines before iterating — some inputs are tens of GB gzipped, so a full decompress-to-count pass before the real read would double the work).
+
+Before this existed, both `shared.py` files had their own copy of `iterate_through_json_lines`, which drifted (only `analysis/`'s handled gzip and skipped the line pre-count) — don't reintroduce that by re-duplicating a function here instead of importing it.
+
 ### `data-preprocessor/` — the active pipeline
 
 `scripts/shared.py` is imported (never executed) by every stage. It:
-- Loads `scripts/config.yaml`, which is the single source of truth for every input/output filename and the FTU-exclusivity SPARQL query URL (`FTU_QUERY`). Add new filenames there, not as string literals in a script.
-- Derives all path constants (`INPUT_DIR`, `OUTPUT_DIR`, `RAW_DATA_DIR`, `REPORTS_DIR`, and `TEMP_DIR`) relative to itself.
+- Imports `config`/`load_json`/`iterate_through_json_lines` from the root `shared_common.py` (see above).
+- Derives all path constants (`INPUT_DIR`, `OUTPUT_DIR`, `RAW_DATA_DIR`, `REPORTS_DIR`, and `TEMP_DIR`) relative to itself, then builds pipeline-specific file paths (`CELL_TYPES_IN_FTUS`, `FTU_DATASETS`, etc.) by joining those dirs to `config` values.
 - `TEMP_DIR` = `docs/iftu-testing/assets` — pipeline outputs are written there so the GitHub Pages demo (see below) can load them directly; this is also where a production run would stage files before they're deposited into the `hra-ui` repo's `apps/ftu-ui/src/assets/TEMP/`.
-- Holds shared HTTP/JSONL helpers (`download_from_url`, `open_cell_type_populations`, `iterate_through_json_lines`, `get_csv_pandas`, `fetch_grlc_csv_to_df`) and the FTU-exclusivity helpers (`get_organs_with_ftus`, `is_cell_type_exclusive_to_ftu`, `comes_from_organ_with_ftu`).
+- Holds pipeline-specific HTTP/JSONL helpers (`download_from_url`, `open_cell_type_populations`, `get_csv_pandas`, `fetch_grlc_csv_to_df`) and the FTU-exclusivity helpers (`get_organs_with_ftus`, `is_cell_type_exclusive_to_ftu`, `comes_from_organ_with_ftu`), plus the heavy imports (`scanpy`, `anndata`, `matplotlib`, `upsetplot`) that keep this file out of `shared_common.py`.
 
 Pipeline stages (`scripts/`, run in this numeric order):
 1. `10-identify-cell-types-ftu-only.py` — queries `https://apps.humanatlas.io/api/grlc/hra/2d-ftu-parts.csv` for organs/FTUs, then the FTU-exclusive-CTs report, and writes `output/cell-types-in-ftus.json`: for every FTU, which cell types are exclusive to it (vs. shared with other anatomical structures) per the ASCT+B tables. This exclusivity list gates everything downstream — only cell type populations for these CTs are usable in the FTU Explorer.
@@ -69,7 +77,7 @@ source .venv/bin/activate
 python <your_script>.py     # each script is run independently, on demand
 ```
 
-- `shared.py` — import (don't run) for common helpers: `PIPELINE_OUTPUT_DIR`/`PIPELINE_INPUT_DIR`/`PIPELINE_RAW_DATA_DIR` point at the corresponding `data-preprocessor/` folders (read-only from here — run that pipeline first if they're empty), plus `load_json`, `load_jsonl` (handles gzip), and `save_counts(df, file_name)` which writes a CSV to `output/`.
+- `shared.py` — import (don't run) for common helpers: imports `config`/`load_json`/`iterate_through_json_lines` from the root `shared_common.py`; `DATA_PROCESSOR`/`RAW_DATA_DIR` point at `data-preprocessor/` and its `raw-data/` folder (read-only from here — run that pipeline first if they're empty); `FTU_QUERY` and `UNIVERSE_10K_FILENAME` are paths/URLs built from `config`; `save_df(df, file_name)` writes a CSV to `output/`. Follow the same pattern for any new pipeline output file you need: join `DATA_PROCESSOR`'s output dir to `config["SOME_KEY"]` rather than hardcoding a filename.
 - `output/` — where scripts should save their results (CSVs of counts/tables), committed for reproducibility.
 - New scripts: give them descriptive names (no numeric prefix — they aren't ordered pipeline stages), add any new dependency to `analysis/requirements.txt`.
 

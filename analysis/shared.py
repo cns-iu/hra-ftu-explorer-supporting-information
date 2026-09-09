@@ -1,40 +1,31 @@
 # commonly used packages/helpers for analysis scripts
-import gzip
-import json
 from pathlib import Path
+from pprint import pprint
 
 import pandas as pd
 
-# This folder
-ANALYSIS_DIR = Path(__file__).parent
+# Helpers/config shared with data-preprocessor/scripts/shared.py, kept at the repo root
+import sys
 
-# Where analysis scripts should write their results (counts, tables, figures)
+ANALYSIS_DIR = Path(__file__).parent
+REPO_ROOT = ANALYSIS_DIR.parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+from shared_common import config, load_json, iterate_through_json_lines  # noqa: E402
+
+# Folders
+DATA_PROCESSOR = REPO_ROOT / "data-preprocessor"
+RAW_DATA_DIR = DATA_PROCESSOR / "raw-data"
+
+# Output for analysis scripts
 OUTPUT_DIR = ANALYSIS_DIR / "output"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-# The data-preprocessor pipeline's own folders, read-only from here.
-# Run data-preprocessor/set_up_and_run.py first if these are empty.
-DATA_PREPROCESSOR_DIR = ANALYSIS_DIR.parent / "data-preprocessor"
-PIPELINE_INPUT_DIR = DATA_PREPROCESSOR_DIR / "input"
-PIPELINE_OUTPUT_DIR = DATA_PREPROCESSOR_DIR / "output"
-PIPELINE_RAW_DATA_DIR = DATA_PREPROCESSOR_DIR / "raw-data"
+# Query result to check unique CTs for FTUs
+FTU_QUERY = config["FTU_QUERY"]
 
-
-def load_json(file_path: str | Path):
-    """Load a .json/.jsonld file into a dict/list."""
-    with open(file_path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def load_jsonl(file_path: str | Path):
-    """Yield one dict per line from a .jsonl or gzipped .jsonl.gz file."""
-    file_path = Path(file_path)
-    opener = gzip.open if file_path.suffix == ".gz" else open
-    with opener(file_path, "rt", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if line:
-                yield json.loads(line)
+# HRApop universe sample (top10k genes per cell type), gzipped JSONL
+UNIVERSE_10K_FILENAME = RAW_DATA_DIR / config["UNIVERSE_10K_FILENAME"]
 
 
 def save_df(df: pd.DataFrame, file_name: str):

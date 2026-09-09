@@ -1,6 +1,5 @@
 # commonly used packages in this workflow
 from pprint import pprint
-import yaml
 import requests
 import pandas as pd
 from io import StringIO
@@ -13,6 +12,7 @@ import copy
 import shutil
 import ujson
 import re
+import sys
 from collections import defaultdict
 import scanpy as sc
 import anndata as ad
@@ -21,6 +21,12 @@ from upsetplot import UpSet, from_memberships
 from urllib.parse import urlsplit
 from copy import deepcopy
 from colorama import Fore, Style, init
+
+# Helpers/config shared with analysis/shared.py, kept dependency-light at the repo root
+REPO_ROOT = Path(__file__).parent.parent.parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+from shared_common import config, iterate_through_json_lines  # noqa: E402
 
 # Make folder for input data
 INPUT_DIR = Path(__file__).parent.parent / "input"
@@ -45,10 +51,6 @@ SCRIPT_DIR = Path(__file__).parent
 
 # Capture TEMP folder
 TEMP_DIR = Path(__file__).parent.parent.parent / "docs" / "iftu-testing" / "assets"
-
-# Load config file
-with open(Path(__file__).parent / "config.yaml", "r", encoding="utf-8") as f:
-    config = yaml.safe_load(f)
 
 # Get HRApop metadata
 hra_pop_version = config["HRA_POP_VERSION"]
@@ -472,43 +474,6 @@ def is_cell_type_exclusive_to_ftu(
 
     return matches
 
-
-def iterate_through_json_lines(filename: str, print_line: bool = False):
-    """Iterate through a JSON Lines (JSONL) file and yield each JSON object.
-
-    This function reads a JSONL file line by line, parsing each line into a
-    Python dictionary (or list, depending on the JSON content). It uses `tqdm`
-    to display a progress bar and optionally prints each parsed object.
-
-    Args:
-        filename (str): Path to the JSONL file to read.
-        print_line (bool, optional): If True, pretty-prints each parsed JSON object.
-            Defaults to False.
-
-    Yields:
-        dict | list: The JSON object from each line of the file.
-
-    Example:
-        >>> for obj in iterate_through_json_lines('data.jsonl'):
-        ...     print(obj['id'])
-    """
-    total_lines = sum(1 for _ in open(filename, "r", encoding="utf-8"))
-
-    print(
-        f"Now processing {filename} with {total_lines} lines and printing {'enabled' if print_line else 'not enabled'}."
-    )
-
-    with open(filename, "r", encoding="utf-8") as f:
-        for line in tqdm(
-            f, total=total_lines, desc="Processing JSONL lines", unit="line"
-        ):
-            line = line.strip()
-            if not line:
-                continue
-            line_json = json.loads(line)
-            if print_line:
-                pprint(line_json)
-            yield line_json
 
 def ontology_id_short_to_url(ontology_id_short:str):
     return f"http://purl.obolibrary.org/obo/{ontology_id_short.replace(":","_")}"
