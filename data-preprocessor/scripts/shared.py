@@ -26,7 +26,7 @@ from colorama import Fore, Style, init
 REPO_ROOT = Path(__file__).parent.parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
-from shared_common import config, iterate_through_json_lines  # noqa: E402
+from shared_common import config, iterate_through_json_lines, iri_to_curie  # noqa: E402
 
 # Make folder for input data
 INPUT_DIR = Path(__file__).parent.parent / "input"
@@ -175,10 +175,6 @@ def as_bool(v):
     if isinstance(v, str):
         return v.strip().lower() in {"true", "t", "1", "yes", "y"}
     return bool(v)
-
-
-def iri_to_curie(iri: str) -> str:
-    return iri.rsplit("/", 1)[-1].replace("_", ":")
 
 
 def get_csv_pandas(url: str, timeout: int = 10) -> pd.DataFrame:

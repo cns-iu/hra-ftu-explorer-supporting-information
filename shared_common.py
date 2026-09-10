@@ -3,6 +3,7 @@
 Keep this free of heavy/optional dependencies (scanpy, anndata, matplotlib, upsetplot,
 ujson, ...) so it stays safe to import from the lightweight analysis/ venv.
 """
+
 import gzip
 import json
 from pathlib import Path
@@ -22,6 +23,11 @@ def load_json(file_path: str | Path):
     """Load a .json/.jsonld file into a dict/list."""
     with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def iri_to_curie(iri: str) -> str:
+    """Replace an IRI with a compact URI (CURIE)"""
+    return iri.rsplit("/", 1)[-1].replace("_", ":")
 
 
 def iterate_through_json_lines(filename: str, print_line: bool = False):

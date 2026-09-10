@@ -17,3 +17,6 @@ __pycache__/
 # VS Code workspaces
 *.code-workspace
 ftu-datasets.jsonld
+
+#Large files
+jsonl-excerpt.json

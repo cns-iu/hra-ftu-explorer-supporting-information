@@ -1,0 +1,2176 @@
+{
+  "alveolus of lung": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "pulmonary alveolar type 1 cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002062",
+        "ct_curie": "CL:0002062"
+      },
+      {
+        "ct_label": "pulmonary alveolar type 2 cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002063",
+        "ct_curie": "CL:0002063"
+      },
+      {
+        "ct_label": "lung pericyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009089",
+        "ct_curie": "CL:0009089"
+      },
+      {
+        "ct_label": "alveolar capillary type 1 endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4028002",
+        "ct_curie": "CL:4028002"
+      },
+      {
+        "ct_label": "alveolar type 1 fibroblast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4028004",
+        "ct_curie": "CL:4028004"
+      },
+      {
+        "ct_label": "secondary crest myofibroblast",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4033016",
+        "ct_curie": "CL:4033016"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "pulmonary alveolar type 1 cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002062",
+        "ct_curie": "CL:0002062"
+      },
+      {
+        "ct_label": "pulmonary alveolar type 2 cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002063",
+        "ct_curie": "CL:0002063"
+      },
+      {
+        "ct_label": "lung pericyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009089",
+        "ct_curie": "CL:0009089"
+      },
+      {
+        "ct_label": "alveolar capillary type 1 endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4028002",
+        "ct_curie": "CL:4028002"
+      },
+      {
+        "ct_label": "alveolar type 1 fibroblast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4028004",
+        "ct_curie": "CL:4028004"
+      }
+    ],
+    "exclusive_ct_in_ftu": [],
+    "datasets_with_ct_by_in_2d_ftu": 777,
+    "datasets_with_ct_by_in_asctb": 777,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+  },
+  "bronchus submucosal gland": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "myoepithelial cell of bronchus submucosal gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4033003",
+        "ct_curie": "CL:4033003"
+      },
+      {
+        "ct_label": "serous secreting cell of bronchus submucosal gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4033005",
+        "ct_curie": "CL:4033005"
+      },
+      {
+        "ct_label": "mucus secreting cell of bronchus submucosal gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4033022",
+        "ct_curie": "CL:4033022"
+      },
+      {
+        "ct_label": "airway submucosal gland collecting duct epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4033023",
+        "ct_curie": "CL:4033023"
+      },
+      {
+        "ct_label": "airway submucosal gland duct basal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4033024",
+        "ct_curie": "CL:4033024"
+      },
+      {
+        "ct_label": "airway submucosal gland duct multiciliated cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4033055",
+        "ct_curie": "CL:4033055"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "myoepithelial cell of bronchus submucosal gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4033003",
+        "ct_curie": "CL:4033003"
+      },
+      {
+        "ct_label": "serous secreting cell of bronchus submucosal gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4033005",
+        "ct_curie": "CL:4033005"
+      },
+      {
+        "ct_label": "mucus secreting cell of bronchus submucosal gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4033022",
+        "ct_curie": "CL:4033022"
+      },
+      {
+        "ct_label": "airway submucosal gland collecting duct epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4033023",
+        "ct_curie": "CL:4033023"
+      },
+      {
+        "ct_label": "airway submucosal gland duct basal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4033024",
+        "ct_curie": "CL:4033024"
+      },
+      {
+        "ct_label": "airway submucosal gland duct multiciliated cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4033055",
+        "ct_curie": "CL:4033055"
+      }
+    ],
+    "exclusive_ct_in_ftu": [],
+    "datasets_with_ct_by_in_2d_ftu": 458,
+    "datasets_with_ct_by_in_asctb": 458,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+  },
+  "chorionic terminal villus": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "mononuclear cytotrophoblast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000523",
+        "ct_curie": "CL:0000523"
+      },
+      {
+        "ct_label": "syncytiotrophoblast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000525",
+        "ct_curie": "CL:0000525"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000669",
+        "ct_curie": "CL:0000669"
+      },
+      {
+        "ct_label": "fibroblast of villous mesenchyme",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002558",
+        "ct_curie": "CL:0002558"
+      },
+      {
+        "ct_label": "placental villus capillary endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_2000062",
+        "ct_curie": "CL:2000062"
+      },
+      {
+        "ct_label": "Hofbauer cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_3000001",
+        "ct_curie": "CL:3000001"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "mononuclear cytotrophoblast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000523",
+        "ct_curie": "CL:0000523"
+      },
+      {
+        "ct_label": "syncytiotrophoblast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000525",
+        "ct_curie": "CL:0000525"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000669",
+        "ct_curie": "CL:0000669"
+      },
+      {
+        "ct_label": "fibroblast of villous mesenchyme",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002558",
+        "ct_curie": "CL:0002558"
+      },
+      {
+        "ct_label": "placental villus capillary endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_2000062",
+        "ct_curie": "CL:2000062"
+      },
+      {
+        "ct_label": "Hofbauer cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_3000001",
+        "ct_curie": "CL:3000001"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "mononuclear cytotrophoblast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000523",
+        "ct_curie": "CL:0000523"
+      },
+      {
+        "ct_label": "syncytiotrophoblast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000525",
+        "ct_curie": "CL:0000525"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000669",
+        "ct_curie": "CL:0000669"
+      },
+      {
+        "ct_label": "fibroblast of villous mesenchyme",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002558",
+        "ct_curie": "CL:0002558"
+      },
+      {
+        "ct_label": "placental villus capillary endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_2000062",
+        "ct_curie": "CL:2000062"
+      },
+      {
+        "ct_label": "Hofbauer cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_3000001",
+        "ct_curie": "CL:3000001"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 1244,
+    "datasets_with_ct_by_in_asctb": 1244,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 1244
+  },
+  "cortical collecting duct": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "kidney cortex collecting duct principal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000714",
+        "ct_curie": "CL:1000714"
+      },
+      {
+        "ct_label": "kidney cortex collecting duct intercalated cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000715",
+        "ct_curie": "CL:1000715"
+      },
+      {
+        "ct_label": "peritubular capillary endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001033",
+        "ct_curie": "CL:1001033"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "kidney cortex collecting duct principal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000714",
+        "ct_curie": "CL:1000714"
+      },
+      {
+        "ct_label": "kidney cortex collecting duct intercalated cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000715",
+        "ct_curie": "CL:1000715"
+      }
+    ],
+    "exclusive_ct_in_ftu": [],
+    "datasets_with_ct_by_in_2d_ftu": 657,
+    "datasets_with_ct_by_in_asctb": 657,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+  },
+  "crypt of Lieberkuhn of large intestine": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "neuroendocrine cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000165",
+        "ct_curie": "CL:0000165"
+      },
+      {
+        "ct_label": "enterocyte of epithelium of large intestine",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002071",
+        "ct_curie": "CL:0002071"
+      },
+      {
+        "ct_label": "intestinal crypt stem cell of large intestine",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009016",
+        "ct_curie": "CL:0009016"
+      },
+      {
+        "ct_label": "intestinal tuft cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0019032",
+        "ct_curie": "CL:0019032"
+      },
+      {
+        "ct_label": "large intestine crypt goblet cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000321",
+        "ct_curie": "CL:1000321"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "neuroendocrine cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000165",
+        "ct_curie": "CL:0000165"
+      },
+      {
+        "ct_label": "enterocyte of epithelium of large intestine",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002071",
+        "ct_curie": "CL:0002071"
+      },
+      {
+        "ct_label": "intestinal crypt stem cell of large intestine",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009016",
+        "ct_curie": "CL:0009016"
+      },
+      {
+        "ct_label": "intestinal tuft cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0019032",
+        "ct_curie": "CL:0019032"
+      },
+      {
+        "ct_label": "large intestine crypt goblet cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000321",
+        "ct_curie": "CL:1000321"
+      }
+    ],
+    "exclusive_ct_in_ftu": [],
+    "datasets_with_ct_by_in_2d_ftu": 623,
+    "datasets_with_ct_by_in_asctb": 623,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+  },
+  "descending limb of loop of Henle": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "kidney loop of Henle thin descending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001111",
+        "ct_curie": "CL:1001111"
+      },
+      {
+        "ct_label": "vasa recta ascending limb cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001131",
+        "ct_curie": "CL:1001131"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "kidney loop of Henle thin descending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001111",
+        "ct_curie": "CL:1001111"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "kidney loop of Henle thin descending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001111",
+        "ct_curie": "CL:1001111"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 490,
+    "datasets_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+  },
+  "epidermal ridge of digit": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "Merkel cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000242",
+        "ct_curie": "CL:0000242"
+      },
+      {
+        "ct_label": "basal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000646",
+        "ct_curie": "CL:0000646"
+      },
+      {
+        "ct_label": "spinous cell of epidermis",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000649",
+        "ct_curie": "CL:0000649"
+      },
+      {
+        "ct_label": "epidermal Langerhans cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002457",
+        "ct_curie": "CL:0002457"
+      },
+      {
+        "ct_label": "melanocyte of skin",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000458",
+        "ct_curie": "CL:1000458"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "Merkel cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000242",
+        "ct_curie": "CL:0000242"
+      },
+      {
+        "ct_label": "basal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000646",
+        "ct_curie": "CL:0000646"
+      },
+      {
+        "ct_label": "spinous cell of epidermis",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000649",
+        "ct_curie": "CL:0000649"
+      },
+      {
+        "ct_label": "epidermal Langerhans cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002457",
+        "ct_curie": "CL:0002457"
+      },
+      {
+        "ct_label": "melanocyte of skin",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000458",
+        "ct_curie": "CL:1000458"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "basal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000646",
+        "ct_curie": "CL:0000646"
+      },
+      {
+        "ct_label": "spinous cell of epidermis",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000649",
+        "ct_curie": "CL:0000649"
+      },
+      {
+        "ct_label": "melanocyte of skin",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000458",
+        "ct_curie": "CL:1000458"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 785,
+    "datasets_with_ct_by_in_asctb": 785,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 780
+  },
+  "hair follicle": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "sebocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000317",
+        "ct_curie": "CL:0000317"
+      },
+      {
+        "ct_label": "keratinocyte stem cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002337",
+        "ct_curie": "CL:0002337"
+      },
+      {
+        "ct_label": "hair follicle melanocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002483",
+        "ct_curie": "CL:0002483"
+      },
+      {
+        "ct_label": "hair germinal matrix cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002562",
+        "ct_curie": "CL:0002562"
+      },
+      {
+        "ct_label": "myoepithelial cell of sweat gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000417",
+        "ct_curie": "CL:1000417"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "sebocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000317",
+        "ct_curie": "CL:0000317"
+      },
+      {
+        "ct_label": "keratinocyte stem cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002337",
+        "ct_curie": "CL:0002337"
+      },
+      {
+        "ct_label": "hair follicle melanocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002483",
+        "ct_curie": "CL:0002483"
+      },
+      {
+        "ct_label": "hair germinal matrix cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002562",
+        "ct_curie": "CL:0002562"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "sebocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000317",
+        "ct_curie": "CL:0000317"
+      },
+      {
+        "ct_label": "keratinocyte stem cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002337",
+        "ct_curie": "CL:0002337"
+      },
+      {
+        "ct_label": "hair follicle melanocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002483",
+        "ct_curie": "CL:0002483"
+      },
+      {
+        "ct_label": "hair germinal matrix cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002562",
+        "ct_curie": "CL:0002562"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 0,
+    "datasets_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+  },
+  "inner medullary collecting duct": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "kidney inner medulla collecting duct principal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000718",
+        "ct_curie": "CL:1000718"
+      },
+      {
+        "ct_label": "peritubular capillary endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001033",
+        "ct_curie": "CL:1001033"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "kidney inner medulla collecting duct principal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000718",
+        "ct_curie": "CL:1000718"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "kidney inner medulla collecting duct principal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000718",
+        "ct_curie": "CL:1000718"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 535,
+    "datasets_with_ct_by_in_asctb": 535,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 535
+  },
+  "intercalated duct of pancreas": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "pancreatic centro-acinar cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002080",
+        "ct_curie": "CL:0002080"
+      },
+      {
+        "ct_label": "epithelial cell of exocrine pancreas",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001433",
+        "ct_curie": "CL:1001433"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "epithelial cell of exocrine pancreas",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001433",
+        "ct_curie": "CL:1001433"
+      }
+    ],
+    "exclusive_ct_in_ftu": [],
+    "datasets_with_ct_by_in_2d_ftu": 0,
+    "datasets_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+  },
+  "intestinal villus": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "fibroblast",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000057",
+        "ct_curie": "CL:0000057"
+      },
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000097",
+        "ct_curie": "CL:0000097"
+      },
+      {
+        "ct_label": "endocrine cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000163",
+        "ct_curie": "CL:0000163"
+      },
+      {
+        "ct_label": "myofibroblast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000186",
+        "ct_curie": "CL:0000186"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000235",
+        "ct_curie": "CL:0000235"
+      },
+      {
+        "ct_label": "B cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000236",
+        "ct_curie": "CL:0000236"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000451",
+        "ct_curie": "CL:0000451"
+      },
+      {
+        "ct_label": "enterocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000584",
+        "ct_curie": "CL:0000584"
+      },
+      {
+        "ct_label": "natural killer cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000623",
+        "ct_curie": "CL:0000623"
+      },
+      {
+        "ct_label": "eosinophil",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000771",
+        "ct_curie": "CL:0000771"
+      },
+      {
+        "ct_label": "neutrophil",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000775",
+        "ct_curie": "CL:0000775"
+      },
+      {
+        "ct_label": "plasma cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000786",
+        "ct_curie": "CL:0000786"
+      },
+      {
+        "ct_label": "innate lymphoid cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0001065",
+        "ct_curie": "CL:0001065"
+      },
+      {
+        "ct_label": "tuft cell of small intestine",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009080",
+        "ct_curie": "CL:0009080"
+      },
+      {
+        "ct_label": "duodenal goblet cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000324",
+        "ct_curie": "CL:1000324"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "fibroblast",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000057",
+        "ct_curie": "CL:0000057"
+      },
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000097",
+        "ct_curie": "CL:0000097"
+      },
+      {
+        "ct_label": "endocrine cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000163",
+        "ct_curie": "CL:0000163"
+      },
+      {
+        "ct_label": "myofibroblast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000186",
+        "ct_curie": "CL:0000186"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000235",
+        "ct_curie": "CL:0000235"
+      },
+      {
+        "ct_label": "B cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000236",
+        "ct_curie": "CL:0000236"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000451",
+        "ct_curie": "CL:0000451"
+      },
+      {
+        "ct_label": "enterocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000584",
+        "ct_curie": "CL:0000584"
+      },
+      {
+        "ct_label": "natural killer cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000623",
+        "ct_curie": "CL:0000623"
+      },
+      {
+        "ct_label": "eosinophil",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000771",
+        "ct_curie": "CL:0000771"
+      },
+      {
+        "ct_label": "neutrophil",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000775",
+        "ct_curie": "CL:0000775"
+      },
+      {
+        "ct_label": "plasma cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000786",
+        "ct_curie": "CL:0000786"
+      },
+      {
+        "ct_label": "innate lymphoid cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0001065",
+        "ct_curie": "CL:0001065"
+      },
+      {
+        "ct_label": "tuft cell of small intestine",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009080",
+        "ct_curie": "CL:0009080"
+      },
+      {
+        "ct_label": "duodenal goblet cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000324",
+        "ct_curie": "CL:1000324"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "duodenal goblet cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000324",
+        "ct_curie": "CL:1000324"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 6271,
+    "datasets_with_ct_by_in_asctb": 6271,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+  },
+  "islet of Langerhans": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "type B pancreatic cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000169",
+        "ct_curie": "CL:0000169"
+      },
+      {
+        "ct_label": "pancreatic A cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000171",
+        "ct_curie": "CL:0000171"
+      },
+      {
+        "ct_label": "pancreatic D cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000173",
+        "ct_curie": "CL:0000173"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000235",
+        "ct_curie": "CL:0000235"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000669",
+        "ct_curie": "CL:0000669"
+      },
+      {
+        "ct_label": "capillary endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002144",
+        "ct_curie": "CL:0002144"
+      },
+      {
+        "ct_label": "pancreatic PP cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002275",
+        "ct_curie": "CL:0002275"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "type B pancreatic cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000169",
+        "ct_curie": "CL:0000169"
+      },
+      {
+        "ct_label": "pancreatic A cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000171",
+        "ct_curie": "CL:0000171"
+      },
+      {
+        "ct_label": "pancreatic D cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000173",
+        "ct_curie": "CL:0000173"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000235",
+        "ct_curie": "CL:0000235"
+      },
+      {
+        "ct_label": "capillary endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002144",
+        "ct_curie": "CL:0002144"
+      },
+      {
+        "ct_label": "pancreatic PP cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002275",
+        "ct_curie": "CL:0002275"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "type B pancreatic cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000169",
+        "ct_curie": "CL:0000169"
+      },
+      {
+        "ct_label": "pancreatic A cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000171",
+        "ct_curie": "CL:0000171"
+      },
+      {
+        "ct_label": "pancreatic D cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000173",
+        "ct_curie": "CL:0000173"
+      },
+      {
+        "ct_label": "capillary endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002144",
+        "ct_curie": "CL:0002144"
+      },
+      {
+        "ct_label": "pancreatic PP cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002275",
+        "ct_curie": "CL:0002275"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 2178,
+    "datasets_with_ct_by_in_asctb": 2165,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 1395
+  },
+  "liver lobule": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "columnar/cuboidal epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000075",
+        "ct_curie": "CL:0000075"
+      },
+      {
+        "ct_label": "Kupffer cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000091",
+        "ct_curie": "CL:0000091"
+      },
+      {
+        "ct_label": "hepatocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000182",
+        "ct_curie": "CL:0000182"
+      },
+      {
+        "ct_label": "stratified cuboidal epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000241",
+        "ct_curie": "CL:0000241"
+      },
+      {
+        "ct_label": "hepatic stellate cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000632",
+        "ct_curie": "CL:0000632"
+      },
+      {
+        "ct_label": "hepatic oval stem cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002196",
+        "ct_curie": "CL:0002196"
+      },
+      {
+        "ct_label": "vein endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002543",
+        "ct_curie": "CL:0002543"
+      },
+      {
+        "ct_label": "hepatic portal fibroblast",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009100",
+        "ct_curie": "CL:0009100"
+      },
+      {
+        "ct_label": "blood vessel smooth muscle cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0019018",
+        "ct_curie": "CL:0019018"
+      },
+      {
+        "ct_label": "endothelial cell of hepatic sinusoid",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000398",
+        "ct_curie": "CL:1000398"
+      },
+      {
+        "ct_label": "endothelial cell of artery",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000413",
+        "ct_curie": "CL:1000413"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "columnar/cuboidal epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000075",
+        "ct_curie": "CL:0000075"
+      },
+      {
+        "ct_label": "Kupffer cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000091",
+        "ct_curie": "CL:0000091"
+      },
+      {
+        "ct_label": "hepatocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000182",
+        "ct_curie": "CL:0000182"
+      },
+      {
+        "ct_label": "stratified cuboidal epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000241",
+        "ct_curie": "CL:0000241"
+      },
+      {
+        "ct_label": "hepatic stellate cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000632",
+        "ct_curie": "CL:0000632"
+      },
+      {
+        "ct_label": "hepatic oval stem cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002196",
+        "ct_curie": "CL:0002196"
+      },
+      {
+        "ct_label": "vein endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002543",
+        "ct_curie": "CL:0002543"
+      },
+      {
+        "ct_label": "hepatic portal fibroblast",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009100",
+        "ct_curie": "CL:0009100"
+      },
+      {
+        "ct_label": "blood vessel smooth muscle cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0019018",
+        "ct_curie": "CL:0019018"
+      },
+      {
+        "ct_label": "endothelial cell of hepatic sinusoid",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000398",
+        "ct_curie": "CL:1000398"
+      },
+      {
+        "ct_label": "endothelial cell of artery",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000413",
+        "ct_curie": "CL:1000413"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "columnar/cuboidal epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000075",
+        "ct_curie": "CL:0000075"
+      },
+      {
+        "ct_label": "Kupffer cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000091",
+        "ct_curie": "CL:0000091"
+      },
+      {
+        "ct_label": "hepatocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000182",
+        "ct_curie": "CL:0000182"
+      },
+      {
+        "ct_label": "stratified cuboidal epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000241",
+        "ct_curie": "CL:0000241"
+      },
+      {
+        "ct_label": "hepatic stellate cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000632",
+        "ct_curie": "CL:0000632"
+      },
+      {
+        "ct_label": "hepatic portal fibroblast",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009100",
+        "ct_curie": "CL:0009100"
+      },
+      {
+        "ct_label": "blood vessel smooth muscle cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0019018",
+        "ct_curie": "CL:0019018"
+      },
+      {
+        "ct_label": "endothelial cell of hepatic sinusoid",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000398",
+        "ct_curie": "CL:1000398"
+      },
+      {
+        "ct_label": "endothelial cell of artery",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000413",
+        "ct_curie": "CL:1000413"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 1483,
+    "datasets_with_ct_by_in_asctb": 1483,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 1428
+  },
+  "loop of Henle ascending limb thin segment": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "kidney loop of Henle thin ascending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001107",
+        "ct_curie": "CL:1001107"
+      },
+      {
+        "ct_label": "vasa recta descending limb cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001285",
+        "ct_curie": "CL:1001285"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "kidney loop of Henle thin ascending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001107",
+        "ct_curie": "CL:1001107"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "kidney loop of Henle thin ascending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001107",
+        "ct_curie": "CL:1001107"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 371,
+    "datasets_with_ct_by_in_asctb": 371,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 371
+  },
+  "nephron": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "kidney cortex collecting duct principal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000714",
+        "ct_curie": "CL:1000714"
+      },
+      {
+        "ct_label": "kidney outer medulla collecting duct principal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000716",
+        "ct_curie": "CL:1000716"
+      },
+      {
+        "ct_label": "kidney inner medulla collecting duct principal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000718",
+        "ct_curie": "CL:1000718"
+      },
+      {
+        "ct_label": "kidney connecting tubule epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000768",
+        "ct_curie": "CL:1000768"
+      },
+      {
+        "ct_label": "kidney distal convoluted tubule epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000849",
+        "ct_curie": "CL:1000849"
+      },
+      {
+        "ct_label": "macula densa epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000850",
+        "ct_curie": "CL:1000850"
+      },
+      {
+        "ct_label": "kidney loop of Henle thick ascending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001106",
+        "ct_curie": "CL:1001106"
+      },
+      {
+        "ct_label": "kidney loop of Henle thin ascending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001107",
+        "ct_curie": "CL:1001107"
+      },
+      {
+        "ct_label": "kidney loop of Henle thin descending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001111",
+        "ct_curie": "CL:1001111"
+      },
+      {
+        "ct_label": "epithelial cell of proximal tubule segment 1",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4030009",
+        "ct_curie": "CL:4030009"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "kidney connecting tubule epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000768",
+        "ct_curie": "CL:1000768"
+      },
+      {
+        "ct_label": "kidney distal convoluted tubule epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000849",
+        "ct_curie": "CL:1000849"
+      },
+      {
+        "ct_label": "macula densa epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000850",
+        "ct_curie": "CL:1000850"
+      },
+      {
+        "ct_label": "kidney loop of Henle thick ascending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001106",
+        "ct_curie": "CL:1001106"
+      },
+      {
+        "ct_label": "kidney loop of Henle thin ascending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001107",
+        "ct_curie": "CL:1001107"
+      },
+      {
+        "ct_label": "kidney loop of Henle thin descending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001111",
+        "ct_curie": "CL:1001111"
+      },
+      {
+        "ct_label": "epithelial cell of proximal tubule segment 1",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4030009",
+        "ct_curie": "CL:4030009"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "kidney connecting tubule epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000768",
+        "ct_curie": "CL:1000768"
+      },
+      {
+        "ct_label": "kidney distal convoluted tubule epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000849",
+        "ct_curie": "CL:1000849"
+      },
+      {
+        "ct_label": "macula densa epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000850",
+        "ct_curie": "CL:1000850"
+      },
+      {
+        "ct_label": "kidney loop of Henle thick ascending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001106",
+        "ct_curie": "CL:1001106"
+      },
+      {
+        "ct_label": "kidney loop of Henle thin ascending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001107",
+        "ct_curie": "CL:1001107"
+      },
+      {
+        "ct_label": "kidney loop of Henle thin descending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001111",
+        "ct_curie": "CL:1001111"
+      },
+      {
+        "ct_label": "epithelial cell of proximal tubule segment 1",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4030009",
+        "ct_curie": "CL:4030009"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 678,
+    "datasets_with_ct_by_in_asctb": 668,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 668
+  },
+  "outer medullary collecting duct": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "kidney outer medulla collecting duct principal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000716",
+        "ct_curie": "CL:1000716"
+      },
+      {
+        "ct_label": "kidney outer medulla collecting duct intercalated cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000717",
+        "ct_curie": "CL:1000717"
+      },
+      {
+        "ct_label": "peritubular capillary endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001033",
+        "ct_curie": "CL:1001033"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "kidney outer medulla collecting duct principal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000716",
+        "ct_curie": "CL:1000716"
+      },
+      {
+        "ct_label": "kidney outer medulla collecting duct intercalated cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000717",
+        "ct_curie": "CL:1000717"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "kidney outer medulla collecting duct principal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000716",
+        "ct_curie": "CL:1000716"
+      },
+      {
+        "ct_label": "kidney outer medulla collecting duct intercalated cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000717",
+        "ct_curie": "CL:1000717"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 455,
+    "datasets_with_ct_by_in_asctb": 455,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 455
+  },
+  "pancreatic acinus": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "pancreatic acinar cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002064",
+        "ct_curie": "CL:0002064"
+      },
+      {
+        "ct_label": "pancreatic centro-acinar cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002080",
+        "ct_curie": "CL:0002080"
+      },
+      {
+        "ct_label": "pancreatic goblet cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000322",
+        "ct_curie": "CL:1000322"
+      },
+      {
+        "ct_label": "epithelial cell of exocrine pancreas",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001433",
+        "ct_curie": "CL:1001433"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "pancreatic acinar cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002064",
+        "ct_curie": "CL:0002064"
+      },
+      {
+        "ct_label": "pancreatic centro-acinar cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002080",
+        "ct_curie": "CL:0002080"
+      },
+      {
+        "ct_label": "pancreatic goblet cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000322",
+        "ct_curie": "CL:1000322"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "pancreatic acinar cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002064",
+        "ct_curie": "CL:0002064"
+      },
+      {
+        "ct_label": "pancreatic centro-acinar cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002080",
+        "ct_curie": "CL:0002080"
+      },
+      {
+        "ct_label": "pancreatic goblet cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000322",
+        "ct_curie": "CL:1000322"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 14,
+    "datasets_with_ct_by_in_asctb": 14,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 14
+  },
+  "papillary layer of dermis": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000115",
+        "ct_curie": "CL:0000115"
+      },
+      {
+        "ct_label": "skin fibroblast",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002620",
+        "ct_curie": "CL:0002620"
+      }
+    ],
+    "in_asctb": [],
+    "exclusive_ct_in_ftu": [],
+    "datasets_with_ct_by_in_2d_ftu": 1143,
+    "datasets_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+  },
+  "parotid gland": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000097",
+        "ct_curie": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000115",
+        "ct_curie": "CL:0000115"
+      },
+      {
+        "ct_label": "adipocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000136",
+        "ct_curie": "CL:0000136"
+      },
+      {
+        "ct_label": "myoepithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000185",
+        "ct_curie": "CL:0000185"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000192",
+        "ct_curie": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000235",
+        "ct_curie": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000451",
+        "ct_curie": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000669",
+        "ct_curie": "CL:0000669"
+      },
+      {
+        "ct_label": "helper T cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000912",
+        "ct_curie": "CL:0000912"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000987",
+        "ct_curie": "CL:0000987"
+      },
+      {
+        "ct_label": "tuft cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002204",
+        "ct_curie": "CL:0002204"
+      },
+      {
+        "ct_label": "ionocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0005006",
+        "ct_curie": "CL:0005006"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4052048",
+        "ct_curie": "CL:4052048"
+      },
+      {
+        "ct_label": "striated cell of salivary gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4052049",
+        "ct_curie": "CL:4052049"
+      },
+      {
+        "ct_label": "serous acinar cell of salivary gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4052065",
+        "ct_curie": "CL:4052065"
+      }
+    ],
+    "in_asctb": [],
+    "exclusive_ct_in_ftu": [],
+    "datasets_with_ct_by_in_2d_ftu": 2955,
+    "datasets_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+  },
+  "prostate glandular acinus": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "vascular associated smooth muscle cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000359",
+        "ct_curie": "CL:0000359"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000669",
+        "ct_curie": "CL:0000669"
+      },
+      {
+        "ct_label": "luminal cell of prostate epithelium",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002340",
+        "ct_curie": "CL:0002340"
+      },
+      {
+        "ct_label": "basal cell of prostate epithelium",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002341",
+        "ct_curie": "CL:0002341"
+      },
+      {
+        "ct_label": "prostate neuroendocrine cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0017002",
+        "ct_curie": "CL:0017002"
+      },
+      {
+        "ct_label": "fibroblast of connective tissue of prostate",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000299",
+        "ct_curie": "CL:1000299"
+      },
+      {
+        "ct_label": "fibroblast of subepithelial connective tissue of prostatic gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000301",
+        "ct_curie": "CL:1000301"
+      },
+      {
+        "ct_label": "smooth muscle cell of prostate",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000487",
+        "ct_curie": "CL:1000487"
+      },
+      {
+        "ct_label": "prostate gland microvascular endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_2000059",
+        "ct_curie": "CL:2000059"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "vascular associated smooth muscle cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000359",
+        "ct_curie": "CL:0000359"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000669",
+        "ct_curie": "CL:0000669"
+      },
+      {
+        "ct_label": "luminal cell of prostate epithelium",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002340",
+        "ct_curie": "CL:0002340"
+      },
+      {
+        "ct_label": "basal cell of prostate epithelium",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002341",
+        "ct_curie": "CL:0002341"
+      },
+      {
+        "ct_label": "fibroblast of connective tissue of prostate",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000299",
+        "ct_curie": "CL:1000299"
+      },
+      {
+        "ct_label": "fibroblast of subepithelial connective tissue of prostatic gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000301",
+        "ct_curie": "CL:1000301"
+      },
+      {
+        "ct_label": "smooth muscle cell of prostate",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000487",
+        "ct_curie": "CL:1000487"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "vascular associated smooth muscle cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000359",
+        "ct_curie": "CL:0000359"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000669",
+        "ct_curie": "CL:0000669"
+      },
+      {
+        "ct_label": "luminal cell of prostate epithelium",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002340",
+        "ct_curie": "CL:0002340"
+      },
+      {
+        "ct_label": "basal cell of prostate epithelium",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002341",
+        "ct_curie": "CL:0002341"
+      },
+      {
+        "ct_label": "fibroblast of connective tissue of prostate",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000299",
+        "ct_curie": "CL:1000299"
+      },
+      {
+        "ct_label": "fibroblast of subepithelial connective tissue of prostatic gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000301",
+        "ct_curie": "CL:1000301"
+      },
+      {
+        "ct_label": "smooth muscle cell of prostate",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000487",
+        "ct_curie": "CL:1000487"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 1405,
+    "datasets_with_ct_by_in_asctb": 1405,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 1405
+  },
+  "red pulp of spleen": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "hematopoietic stem cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000037",
+        "ct_curie": "CL:0000037"
+      },
+      {
+        "ct_label": "B cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000236",
+        "ct_curie": "CL:0000236"
+      },
+      {
+        "ct_label": "follicular dendritic cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000442",
+        "ct_curie": "CL:0000442"
+      },
+      {
+        "ct_label": "neutrophil",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000775",
+        "ct_curie": "CL:0000775"
+      },
+      {
+        "ct_label": "splenic marginal zone macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000872",
+        "ct_curie": "CL:0000872"
+      },
+      {
+        "ct_label": "splenic red pulp macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000874",
+        "ct_curie": "CL:0000874"
+      },
+      {
+        "ct_label": "splenic tingible body macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000877",
+        "ct_curie": "CL:0000877"
+      },
+      {
+        "ct_label": "plasmablast",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000980",
+        "ct_curie": "CL:0000980"
+      },
+      {
+        "ct_label": "CD14-positive, CD16-low monocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0001055",
+        "ct_curie": "CL:0001055"
+      },
+      {
+        "ct_label": "dendritic cell, human",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0001056",
+        "ct_curie": "CL:0001056"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "hematopoietic stem cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000037",
+        "ct_curie": "CL:0000037"
+      },
+      {
+        "ct_label": "B cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000236",
+        "ct_curie": "CL:0000236"
+      },
+      {
+        "ct_label": "splenic red pulp macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000874",
+        "ct_curie": "CL:0000874"
+      },
+      {
+        "ct_label": "plasmablast",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000980",
+        "ct_curie": "CL:0000980"
+      },
+      {
+        "ct_label": "CD14-positive, CD16-low monocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0001055",
+        "ct_curie": "CL:0001055"
+      },
+      {
+        "ct_label": "dendritic cell, human",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0001056",
+        "ct_curie": "CL:0001056"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "hematopoietic stem cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000037",
+        "ct_curie": "CL:0000037"
+      },
+      {
+        "ct_label": "B cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000236",
+        "ct_curie": "CL:0000236"
+      },
+      {
+        "ct_label": "plasmablast",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000980",
+        "ct_curie": "CL:0000980"
+      },
+      {
+        "ct_label": "CD14-positive, CD16-low monocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0001055",
+        "ct_curie": "CL:0001055"
+      },
+      {
+        "ct_label": "dendritic cell, human",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0001056",
+        "ct_curie": "CL:0001056"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 5389,
+    "datasets_with_ct_by_in_asctb": 5224,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 5224
+  },
+  "renal corpuscle": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "kidney granular cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000648",
+        "ct_curie": "CL:0000648"
+      },
+      {
+        "ct_label": "podocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000653",
+        "ct_curie": "CL:0000653"
+      },
+      {
+        "ct_label": "epithelial cell of proximal tubule",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002306",
+        "ct_curie": "CL:0002306"
+      },
+      {
+        "ct_label": "parietal epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000452",
+        "ct_curie": "CL:1000452"
+      },
+      {
+        "ct_label": "glomerular mesangial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000742",
+        "ct_curie": "CL:1000742"
+      },
+      {
+        "ct_label": "macula densa epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000850",
+        "ct_curie": "CL:1000850"
+      },
+      {
+        "ct_label": "glomerular capillary endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001005",
+        "ct_curie": "CL:1001005"
+      },
+      {
+        "ct_label": "kidney afferent arteriole endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001096",
+        "ct_curie": "CL:1001096"
+      },
+      {
+        "ct_label": "kidney efferent arteriole endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001099",
+        "ct_curie": "CL:1001099"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "podocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000653",
+        "ct_curie": "CL:0000653"
+      },
+      {
+        "ct_label": "parietal epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000452",
+        "ct_curie": "CL:1000452"
+      },
+      {
+        "ct_label": "glomerular mesangial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000742",
+        "ct_curie": "CL:1000742"
+      },
+      {
+        "ct_label": "glomerular capillary endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001005",
+        "ct_curie": "CL:1001005"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "podocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000653",
+        "ct_curie": "CL:0000653"
+      },
+      {
+        "ct_label": "parietal epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000452",
+        "ct_curie": "CL:1000452"
+      },
+      {
+        "ct_label": "glomerular mesangial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000742",
+        "ct_curie": "CL:1000742"
+      },
+      {
+        "ct_label": "glomerular capillary endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001005",
+        "ct_curie": "CL:1001005"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 644,
+    "datasets_with_ct_by_in_asctb": 619,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 619
+  },
+  "sublingual gland": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000097",
+        "ct_curie": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000115",
+        "ct_curie": "CL:0000115"
+      },
+      {
+        "ct_label": "myoepithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000185",
+        "ct_curie": "CL:0000185"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000192",
+        "ct_curie": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000235",
+        "ct_curie": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000451",
+        "ct_curie": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000669",
+        "ct_curie": "CL:0000669"
+      },
+      {
+        "ct_label": "helper T cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000912",
+        "ct_curie": "CL:0000912"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000987",
+        "ct_curie": "CL:0000987"
+      },
+      {
+        "ct_label": "ionocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0005006",
+        "ct_curie": "CL:0005006"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4052048",
+        "ct_curie": "CL:4052048"
+      },
+      {
+        "ct_label": "seromucous acinar cell of salivary gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4052067",
+        "ct_curie": "CL:4052067"
+      }
+    ],
+    "in_asctb": [],
+    "exclusive_ct_in_ftu": [],
+    "datasets_with_ct_by_in_2d_ftu": 2954,
+    "datasets_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+  },
+  "submandibular gland": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000097",
+        "ct_curie": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000115",
+        "ct_curie": "CL:0000115"
+      },
+      {
+        "ct_label": "myoepithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000185",
+        "ct_curie": "CL:0000185"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000192",
+        "ct_curie": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000235",
+        "ct_curie": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000451",
+        "ct_curie": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000669",
+        "ct_curie": "CL:0000669"
+      },
+      {
+        "ct_label": "helper T cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000912",
+        "ct_curie": "CL:0000912"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000987",
+        "ct_curie": "CL:0000987"
+      },
+      {
+        "ct_label": "tuft cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002204",
+        "ct_curie": "CL:0002204"
+      },
+      {
+        "ct_label": "ionocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0005006",
+        "ct_curie": "CL:0005006"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4052048",
+        "ct_curie": "CL:4052048"
+      },
+      {
+        "ct_label": "striated cell of salivary gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4052049",
+        "ct_curie": "CL:4052049"
+      },
+      {
+        "ct_label": "seromucous acinar cell of salivary gland",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_4052067",
+        "ct_curie": "CL:4052067"
+      }
+    ],
+    "in_asctb": [],
+    "exclusive_ct_in_ftu": [],
+    "datasets_with_ct_by_in_2d_ftu": 2954,
+    "datasets_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+  },
+  "thick ascending limb of loop of Henle": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "peritubular capillary endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001033",
+        "ct_curie": "CL:1001033"
+      },
+      {
+        "ct_label": "kidney loop of Henle thick ascending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001106",
+        "ct_curie": "CL:1001106"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "kidney loop of Henle thick ascending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001106",
+        "ct_curie": "CL:1001106"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "kidney loop of Henle thick ascending limb epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1001106",
+        "ct_curie": "CL:1001106"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 0,
+    "datasets_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+  },
+  "thymus lobule": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "blood vessel endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000071",
+        "ct_curie": "CL:0000071"
+      },
+      {
+        "ct_label": "T cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000084",
+        "ct_curie": "CL:0000084"
+      },
+      {
+        "ct_label": "leukocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000738",
+        "ct_curie": "CL:0000738"
+      },
+      {
+        "ct_label": "naive B cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000788",
+        "ct_curie": "CL:0000788"
+      },
+      {
+        "ct_label": "double-positive, alpha-beta thymocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000809",
+        "ct_curie": "CL:0000809"
+      },
+      {
+        "ct_label": "thymic cortical macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000883",
+        "ct_curie": "CL:0000883"
+      },
+      {
+        "ct_label": "thymic plasmacytoid dendritic cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000942",
+        "ct_curie": "CL:0000942"
+      },
+      {
+        "ct_label": "beige adipocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0001070",
+        "ct_curie": "CL:0001070"
+      },
+      {
+        "ct_label": "cortical thymic epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002364",
+        "ct_curie": "CL:0002364"
+      },
+      {
+        "ct_label": "corticomedullary thymic epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009070",
+        "ct_curie": "CL:0009070"
+      },
+      {
+        "ct_label": "medullary thymic epithelial cell type 1",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009071",
+        "ct_curie": "CL:0009071"
+      },
+      {
+        "ct_label": "medullary thymic epithelial cell type 3",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009073",
+        "ct_curie": "CL:0009073"
+      },
+      {
+        "ct_label": "subcapsular thymic epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009077",
+        "ct_curie": "CL:0009077"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "blood vessel endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000071",
+        "ct_curie": "CL:0000071"
+      },
+      {
+        "ct_label": "naive B cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000788",
+        "ct_curie": "CL:0000788"
+      },
+      {
+        "ct_label": "double-positive, alpha-beta thymocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000809",
+        "ct_curie": "CL:0000809"
+      },
+      {
+        "ct_label": "thymic cortical macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000883",
+        "ct_curie": "CL:0000883"
+      },
+      {
+        "ct_label": "thymic plasmacytoid dendritic cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000942",
+        "ct_curie": "CL:0000942"
+      },
+      {
+        "ct_label": "beige adipocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0001070",
+        "ct_curie": "CL:0001070"
+      },
+      {
+        "ct_label": "cortical thymic epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002364",
+        "ct_curie": "CL:0002364"
+      },
+      {
+        "ct_label": "corticomedullary thymic epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009070",
+        "ct_curie": "CL:0009070"
+      },
+      {
+        "ct_label": "medullary thymic epithelial cell type 1",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009071",
+        "ct_curie": "CL:0009071"
+      },
+      {
+        "ct_label": "medullary thymic epithelial cell type 3",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009073",
+        "ct_curie": "CL:0009073"
+      },
+      {
+        "ct_label": "subcapsular thymic epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009077",
+        "ct_curie": "CL:0009077"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "naive B cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000788",
+        "ct_curie": "CL:0000788"
+      },
+      {
+        "ct_label": "double-positive, alpha-beta thymocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000809",
+        "ct_curie": "CL:0000809"
+      },
+      {
+        "ct_label": "thymic cortical macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000883",
+        "ct_curie": "CL:0000883"
+      },
+      {
+        "ct_label": "beige adipocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0001070",
+        "ct_curie": "CL:0001070"
+      },
+      {
+        "ct_label": "cortical thymic epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0002364",
+        "ct_curie": "CL:0002364"
+      },
+      {
+        "ct_label": "corticomedullary thymic epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009070",
+        "ct_curie": "CL:0009070"
+      },
+      {
+        "ct_label": "medullary thymic epithelial cell type 1",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009071",
+        "ct_curie": "CL:0009071"
+      },
+      {
+        "ct_label": "subcapsular thymic epithelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0009077",
+        "ct_curie": "CL:0009077"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 5089,
+    "datasets_with_ct_by_in_asctb": 3381,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 2958
+  },
+  "white pulp of spleen": {
+    "in_2d_ftu": [
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000192",
+        "ct_curie": "CL:0000192"
+      },
+      {
+        "ct_label": "follicular dendritic cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000442",
+        "ct_curie": "CL:0000442"
+      },
+      {
+        "ct_label": "stromal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000499",
+        "ct_curie": "CL:0000499"
+      },
+      {
+        "ct_label": "neutrophil",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000775",
+        "ct_curie": "CL:0000775"
+      },
+      {
+        "ct_label": "splenic white pulp macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000876",
+        "ct_curie": "CL:0000876"
+      },
+      {
+        "ct_label": "splenic tingible body macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000877",
+        "ct_curie": "CL:0000877"
+      },
+      {
+        "ct_label": "plasmablast",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000980",
+        "ct_curie": "CL:0000980"
+      },
+      {
+        "ct_label": "CD14-positive, CD16-low monocyte",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0001055",
+        "ct_curie": "CL:0001055"
+      },
+      {
+        "ct_label": "reticular cell of splenic cord",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000489",
+        "ct_curie": "CL:1000489"
+      },
+      {
+        "ct_label": "splenic endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_2000053",
+        "ct_curie": "CL:2000053"
+      }
+    ],
+    "in_asctb": [
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000192",
+        "ct_curie": "CL:0000192"
+      },
+      {
+        "ct_label": "follicular dendritic cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000442",
+        "ct_curie": "CL:0000442"
+      },
+      {
+        "ct_label": "stromal cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000499",
+        "ct_curie": "CL:0000499"
+      },
+      {
+        "ct_label": "splenic white pulp macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000876",
+        "ct_curie": "CL:0000876"
+      },
+      {
+        "ct_label": "splenic tingible body macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000877",
+        "ct_curie": "CL:0000877"
+      },
+      {
+        "ct_label": "plasmablast",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000980",
+        "ct_curie": "CL:0000980"
+      },
+      {
+        "ct_label": "reticular cell of splenic cord",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_1000489",
+        "ct_curie": "CL:1000489"
+      },
+      {
+        "ct_label": "splenic endothelial cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_2000053",
+        "ct_curie": "CL:2000053"
+      }
+    ],
+    "exclusive_ct_in_ftu": [
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000192",
+        "ct_curie": "CL:0000192"
+      },
+      {
+        "ct_label": "splenic tingible body macrophage",
+        "ct_iri": "http://purl.obolibrary.org/obo/CL_0000877",
+        "ct_curie": "CL:0000877"
+      }
+    ],
+    "datasets_with_ct_by_in_2d_ftu": 5074,
+    "datasets_with_ct_by_in_asctb": 4300,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 1431
+  }
+}
