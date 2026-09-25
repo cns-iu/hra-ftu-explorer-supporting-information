@@ -231,9 +231,9 @@
         "ct_curie": "CL:3000001"
       }
     ],
-    "datasets_with_ct_by_in_2d_ftu": 1244,
-    "datasets_with_ct_by_in_asctb": 1244,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 1244
+    "datasets_with_ct_by_in_2d_ftu": 0,
+    "datasets_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "cortical collecting duct": {
     "in_2d_ftu": [
@@ -326,8 +326,8 @@
       }
     ],
     "exclusive_ct_in_ftu": [],
-    "datasets_with_ct_by_in_2d_ftu": 623,
-    "datasets_with_ct_by_in_asctb": 623,
+    "datasets_with_ct_by_in_2d_ftu": 233,
+    "datasets_with_ct_by_in_asctb": 233,
     "datasets_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "descending limb of loop of Henle": {
@@ -433,9 +433,9 @@
         "ct_curie": "CL:1000458"
       }
     ],
-    "datasets_with_ct_by_in_2d_ftu": 785,
-    "datasets_with_ct_by_in_asctb": 785,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 780
+    "datasets_with_ct_by_in_2d_ftu": 69,
+    "datasets_with_ct_by_in_asctb": 69,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 64
   },
   "hair follicle": {
     "in_2d_ftu": [
@@ -731,8 +731,8 @@
         "ct_curie": "CL:1000324"
       }
     ],
-    "datasets_with_ct_by_in_2d_ftu": 6271,
-    "datasets_with_ct_by_in_asctb": 6271,
+    "datasets_with_ct_by_in_2d_ftu": 313,
+    "datasets_with_ct_by_in_asctb": 313,
     "datasets_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "islet of Langerhans": {
@@ -832,9 +832,9 @@
         "ct_curie": "CL:0002275"
       }
     ],
-    "datasets_with_ct_by_in_2d_ftu": 2178,
-    "datasets_with_ct_by_in_asctb": 2165,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 1395
+    "datasets_with_ct_by_in_2d_ftu": 14,
+    "datasets_with_ct_by_in_asctb": 14,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 14
   },
   "liver lobule": {
     "in_2d_ftu": [
@@ -998,9 +998,9 @@
         "ct_curie": "CL:1000413"
       }
     ],
-    "datasets_with_ct_by_in_2d_ftu": 1483,
-    "datasets_with_ct_by_in_asctb": 1483,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 1428
+    "datasets_with_ct_by_in_2d_ftu": 75,
+    "datasets_with_ct_by_in_asctb": 75,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 75
   },
   "loop of Henle ascending limb thin segment": {
     "in_2d_ftu": [
@@ -1286,7 +1286,7 @@
     ],
     "in_asctb": [],
     "exclusive_ct_in_ftu": [],
-    "datasets_with_ct_by_in_2d_ftu": 1143,
+    "datasets_with_ct_by_in_2d_ftu": 70,
     "datasets_with_ct_by_in_asctb": 0,
     "datasets_with_ct_by_exclusive_ct_in_ftu": 0
   },
@@ -1370,7 +1370,7 @@
     ],
     "in_asctb": [],
     "exclusive_ct_in_ftu": [],
-    "datasets_with_ct_by_in_2d_ftu": 2955,
+    "datasets_with_ct_by_in_2d_ftu": 0,
     "datasets_with_ct_by_in_asctb": 0,
     "datasets_with_ct_by_exclusive_ct_in_ftu": 0
   },
@@ -1496,9 +1496,9 @@
         "ct_curie": "CL:1000487"
       }
     ],
-    "datasets_with_ct_by_in_2d_ftu": 1405,
-    "datasets_with_ct_by_in_asctb": 1405,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 1405
+    "datasets_with_ct_by_in_2d_ftu": 39,
+    "datasets_with_ct_by_in_asctb": 39,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 39
   },
   "red pulp of spleen": {
     "in_2d_ftu": [
@@ -1612,9 +1612,9 @@
         "ct_curie": "CL:0001056"
       }
     ],
-    "datasets_with_ct_by_in_2d_ftu": 5389,
-    "datasets_with_ct_by_in_asctb": 5224,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 5224
+    "datasets_with_ct_by_in_2d_ftu": 67,
+    "datasets_with_ct_by_in_asctb": 62,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 62
   },
   "renal corpuscle": {
     "in_2d_ftu": [
@@ -1777,7 +1777,7 @@
     ],
     "in_asctb": [],
     "exclusive_ct_in_ftu": [],
-    "datasets_with_ct_by_in_2d_ftu": 2954,
+    "datasets_with_ct_by_in_2d_ftu": 0,
     "datasets_with_ct_by_in_asctb": 0,
     "datasets_with_ct_by_exclusive_ct_in_ftu": 0
   },
@@ -1856,7 +1856,7 @@
     ],
     "in_asctb": [],
     "exclusive_ct_in_ftu": [],
-    "datasets_with_ct_by_in_2d_ftu": 2954,
+    "datasets_with_ct_by_in_2d_ftu": 0,
     "datasets_with_ct_by_in_asctb": 0,
     "datasets_with_ct_by_exclusive_ct_in_ftu": 0
   },
@@ -2058,9 +2058,9 @@
         "ct_curie": "CL:0009077"
       }
     ],
-    "datasets_with_ct_by_in_2d_ftu": 5089,
-    "datasets_with_ct_by_in_asctb": 3381,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 2958
+    "datasets_with_ct_by_in_2d_ftu": 0,
+    "datasets_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "white pulp of spleen": {
     "in_2d_ftu": [
@@ -2169,8 +2169,8 @@
         "ct_curie": "CL:0000877"
       }
     ],
-    "datasets_with_ct_by_in_2d_ftu": 5074,
-    "datasets_with_ct_by_in_asctb": 4300,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 1431
+    "datasets_with_ct_by_in_2d_ftu": 46,
+    "datasets_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
   }
 }

@@ -28,6 +28,12 @@ FTU_QUERY = config["FTU_QUERY"]
 # HRApop universe sample (top10k genes per cell type), gzipped JSONL
 UNIVERSE_10K_FILENAME = RAW_DATA_DIR / config["UNIVERSE_10K_FILENAME"]
 
+# HRApop universe dataset metadata (dataset_id -> organ etc.), same source as data-preprocessor/scripts/20-*.py
+UNIVERSE_METADATA_URL = (
+    f"https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/refs/heads/{config['HRA_POP_BRANCH']}"
+    f"/input-data/{config['HRA_POP_VERSION']}/{config['UNIVERSE_METADATA_FILENAME']}"
+)
+
 
 def save_df(df: pd.DataFrame, file_name: str):
     """Save a counts/summary table to analysis/output as CSV."""

@@ -68,12 +68,30 @@ def load_ftu_query_and_count():
     ct_counts_in_ftu_illustrations = build_ct_counts_df(ftu_ct_conditions)
     pprint(ct_counts_in_ftu_illustrations)
 
-    return ct_counts_in_ftu_illustrations, ftu_ct_conditions
+    # {ftu_label: {organ_curie, ...}} so dataset counts can be restricted to the FTU's own organ
+    ftu_to_organs = {
+        ftu_label: {iri_to_curie(organ_iri) for organ_iri in group["organ_iri"].unique()}
+        for ftu_label, group in ftu_query_result.groupby("ftu_label")
+    }
+
+    return ct_counts_in_ftu_illustrations, ftu_ct_conditions, ftu_to_organs
 
 
-def parse_universe_cell_summaries(ftu_ct_conditions: dict, sample_size: int | None = None):
+def load_dataset_to_organ():
+    """Map each HRApop universe dataset_id (== cell_source) to its organ CURIE."""
+    metadata = pd.read_csv(UNIVERSE_METADATA_URL, usecols=["dataset_id", "organ"])
+    return dict(zip(metadata["dataset_id"], metadata["organ"]))
+
+
+def parse_universe_cell_summaries(
+    ftu_ct_conditions: dict,
+    ftu_to_organs: dict,
+    dataset_to_organ: dict,
+    sample_size: int | None = None,
+):
     """For each FTU/condition, count the distinct datasets (cell_source) in the
-    HRApop universe that contain a CT satisfying that condition, and add it under
+    HRApop universe that come from the FTU's organ and contain a CT satisfying
+    that condition, and add it under
     ftu_ct_conditions[ftu_label]["datasets_with_ct_by_<condition>"].
 
     sample_size caps how many universe records are scanned (the full file is huge
@@ -91,11 +109,20 @@ def parse_universe_cell_summaries(ftu_ct_conditions: dict, sample_size: int | No
     datasets_by_condition = defaultdict(lambda: defaultdict(set))
 
     universe = iterate_through_json_lines(UNIVERSE_10K_FILENAME)
+    datasets_without_organ = set()
     for obj in itertools.islice(universe, sample_size):
         cell_source = obj["cell_source"]
+        organ = dataset_to_organ.get(cell_source)
+        if organ is None:
+            datasets_without_organ.add(cell_source)
+            continue
         for cell_type in obj["summary"]:
             for ftu_label, condition in curie_to_hits.get(cell_type["cell_id"], ()):
-                datasets_by_condition[ftu_label][condition].add(cell_source)
+                if organ in ftu_to_organs.get(ftu_label, ()):
+                    datasets_by_condition[ftu_label][condition].add(cell_source)
+
+    if datasets_without_organ:
+        print(f"Skipped {len(datasets_without_organ)} datasets with no organ in the universe metadata.")
 
     for ftu_label, conditions in ftu_ct_conditions.items():
         for condition in list(conditions.keys()):
@@ -107,8 +134,11 @@ def parse_universe_cell_summaries(ftu_ct_conditions: dict, sample_size: int | No
 
 
 def main():
-    ct_counts_in_ftu_illustrations, ftu_ct_conditions = load_ftu_query_and_count()
-    ftu_ct_conditions = parse_universe_cell_summaries(ftu_ct_conditions)
+    ct_counts_in_ftu_illustrations, ftu_ct_conditions, ftu_to_organs = load_ftu_query_and_count()
+    dataset_to_organ = load_dataset_to_organ()
+    ftu_ct_conditions = parse_universe_cell_summaries(
+        ftu_ct_conditions, ftu_to_organs, dataset_to_organ
+    )
 
     # Save results
     save_df(ct_counts_in_ftu_illustrations, "cell_types_and_datasets_per_ftu.csv")
