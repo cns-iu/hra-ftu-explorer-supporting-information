@@ -259,8 +259,12 @@
     "organ_label": "Liver"
   },
   "islet of Langerhans": {
-    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans",
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas",
     "cts_in_2d_ftu": [
+      {
+        "ct_label": "type B pancreatic cell",
+        "ct_iri": "CL:0000169"
+      },
       {
         "ct_label": "type B pancreatic cell",
         "ct_iri": "CL:0000169"
@@ -270,8 +274,20 @@
         "ct_iri": "CL:0000171"
       },
       {
+        "ct_label": "pancreatic A cell",
+        "ct_iri": "CL:0000171"
+      },
+      {
         "ct_label": "pancreatic D cell",
         "ct_iri": "CL:0000173"
+      },
+      {
+        "ct_label": "pancreatic D cell",
+        "ct_iri": "CL:0000173"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
       },
       {
         "ct_label": "macrophage",
@@ -286,6 +302,14 @@
         "ct_iri": "CL:0002144"
       },
       {
+        "ct_label": "capillary endothelial cell",
+        "ct_iri": "CL:0002144"
+      },
+      {
+        "ct_label": "pancreatic PP cell",
+        "ct_iri": "CL:0002275"
+      },
+      {
         "ct_label": "pancreatic PP cell",
         "ct_iri": "CL:0002275"
       }
@@ -296,8 +320,20 @@
         "ct_iri": "CL:0000169"
       },
       {
+        "ct_label": "type B pancreatic cell",
+        "ct_iri": "CL:0000169"
+      },
+      {
         "ct_label": "pancreatic A cell",
         "ct_iri": "CL:0000171"
+      },
+      {
+        "ct_label": "pancreatic A cell",
+        "ct_iri": "CL:0000171"
+      },
+      {
+        "ct_label": "pancreatic D cell",
+        "ct_iri": "CL:0000173"
       },
       {
         "ct_label": "pancreatic D cell",
@@ -308,8 +344,20 @@
         "ct_iri": "CL:0000235"
       },
       {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
         "ct_label": "capillary endothelial cell",
         "ct_iri": "CL:0002144"
+      },
+      {
+        "ct_label": "capillary endothelial cell",
+        "ct_iri": "CL:0002144"
+      },
+      {
+        "ct_label": "pancreatic PP cell",
+        "ct_iri": "CL:0002275"
       },
       {
         "ct_label": "pancreatic PP cell",
@@ -322,6 +370,14 @@
         "ct_iri": "CL:0000169"
       },
       {
+        "ct_label": "type B pancreatic cell",
+        "ct_iri": "CL:0000169"
+      },
+      {
+        "ct_label": "pancreatic A cell",
+        "ct_iri": "CL:0000171"
+      },
+      {
         "ct_label": "pancreatic A cell",
         "ct_iri": "CL:0000171"
       },
@@ -330,8 +386,20 @@
         "ct_iri": "CL:0000173"
       },
       {
+        "ct_label": "pancreatic D cell",
+        "ct_iri": "CL:0000173"
+      },
+      {
         "ct_label": "capillary endothelial cell",
         "ct_iri": "CL:0002144"
+      },
+      {
+        "ct_label": "capillary endothelial cell",
+        "ct_iri": "CL:0002144"
+      },
+      {
+        "ct_label": "pancreatic PP cell",
+        "ct_iri": "CL:0002275"
       },
       {
         "ct_label": "pancreatic PP cell",
@@ -351,10 +419,6 @@
       {
         "ct_label": "pancreatic centro-acinar cell",
         "ct_iri": "CL:0002080"
-      },
-      {
-        "ct_label": "intestinal tuft cell",
-        "ct_iri": "CL:0019032"
       },
       {
         "ct_label": "pancreatic goblet cell",
@@ -557,6 +621,10 @@
     "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle",
     "cts_in_2d_ftu": [
       {
+        "ct_label": "kidney granular cell",
+        "ct_iri": "CL:0000648"
+      },
+      {
         "ct_label": "podocyte",
         "ct_iri": "CL:0000653"
       },
@@ -743,18 +811,14 @@
         "ct_iri": "CL:1001111"
       },
       {
-        "ct_label": "vasa recta descending limb cell",
-        "ct_iri": "CL:1001285"
+        "ct_label": "vasa recta ascending limb cell",
+        "ct_iri": "CL:1001131"
       }
     ],
     "cts_in_asctb": [
       {
         "ct_label": "kidney loop of Henle thin descending limb epithelial cell",
         "ct_iri": "CL:1001111"
-      },
-      {
-        "ct_label": "vasa recta descending limb cell",
-        "ct_iri": "CL:1001285"
       }
     ],
     "cts_exclusive": [
@@ -801,8 +865,8 @@
         "ct_iri": "CL:1001107"
       },
       {
-        "ct_label": "vasa recta ascending limb cell",
-        "ct_iri": "CL:1001131"
+        "ct_label": "vasa recta descending limb cell",
+        "ct_iri": "CL:1001285"
       }
     ],
     "cts_in_asctb": [
@@ -828,22 +892,22 @@
         "ct_iri": "CL:1000714"
       },
       {
+        "ct_label": "kidney cortex collecting duct intercalated cell",
+        "ct_iri": "CL:1000715"
+      },
+      {
         "ct_label": "peritubular capillary endothelial cell",
         "ct_iri": "CL:1001033"
-      },
-      {
-        "ct_label": "kidney connecting tubule alpha-intercalated cell",
-        "ct_iri": "CL:4030020"
-      },
-      {
-        "ct_label": "kidney connecting tubule beta-intercalated cell",
-        "ct_iri": "CL:4030021"
       }
     ],
     "cts_in_asctb": [
       {
         "ct_label": "kidney cortex collecting duct principal cell",
         "ct_iri": "CL:1000714"
+      },
+      {
+        "ct_label": "kidney cortex collecting duct intercalated cell",
+        "ct_iri": "CL:1000715"
       }
     ],
     "cts_exclusive": [],
@@ -1090,6 +1154,10 @@
         "ct_iri": "CL:0000115"
       },
       {
+        "ct_label": "myoepithelial cell",
+        "ct_iri": "CL:0000185"
+      },
+      {
         "ct_label": "smooth muscle cell",
         "ct_iri": "CL:0000192"
       },
@@ -1114,42 +1182,12 @@
         "ct_iri": "CL:0000987"
       },
       {
-        "ct_label": "intercalated cell of salivary gland",
-        "ct_iri": "CL:4052048"
+        "ct_label": "tuft cell",
+        "ct_iri": "CL:0002204"
       },
       {
-        "ct_label": "striated cell of salivary gland",
-        "ct_iri": "CL:4052049"
-      }
-    ],
-    "cts_in_asctb": [
-      {
-        "ct_label": "mast cell",
-        "ct_iri": "CL:0000097"
-      },
-      {
-        "ct_label": "endothelial cell",
-        "ct_iri": "CL:0000115"
-      },
-      {
-        "ct_label": "smooth muscle cell",
-        "ct_iri": "CL:0000192"
-      },
-      {
-        "ct_label": "macrophage",
-        "ct_iri": "CL:0000235"
-      },
-      {
-        "ct_label": "dendritic cell",
-        "ct_iri": "CL:0000451"
-      },
-      {
-        "ct_label": "pericyte",
-        "ct_iri": "CL:0000669"
-      },
-      {
-        "ct_label": "IgA plasma cell",
-        "ct_iri": "CL:0000987"
+        "ct_label": "ionocyte",
+        "ct_iri": "CL:0005006"
       },
       {
         "ct_label": "intercalated cell of salivary gland",
@@ -1158,46 +1196,14 @@
       {
         "ct_label": "striated cell of salivary gland",
         "ct_iri": "CL:4052049"
+      },
+      {
+        "ct_label": "seromucous acinar cell of salivary gland",
+        "ct_iri": "CL:4052067"
       }
     ],
-    "cts_exclusive": [
-      {
-        "ct_label": "mast cell",
-        "ct_iri": "CL:0000097"
-      },
-      {
-        "ct_label": "endothelial cell",
-        "ct_iri": "CL:0000115"
-      },
-      {
-        "ct_label": "smooth muscle cell",
-        "ct_iri": "CL:0000192"
-      },
-      {
-        "ct_label": "macrophage",
-        "ct_iri": "CL:0000235"
-      },
-      {
-        "ct_label": "dendritic cell",
-        "ct_iri": "CL:0000451"
-      },
-      {
-        "ct_label": "pericyte",
-        "ct_iri": "CL:0000669"
-      },
-      {
-        "ct_label": "IgA plasma cell",
-        "ct_iri": "CL:0000987"
-      },
-      {
-        "ct_label": "intercalated cell of salivary gland",
-        "ct_iri": "CL:4052048"
-      },
-      {
-        "ct_label": "striated cell of salivary gland",
-        "ct_iri": "CL:4052049"
-      }
-    ],
+    "cts_in_asctb": [],
+    "cts_exclusive": [],
     "organ_id_short": "UBERON:0000165",
     "organ_label": "mouth"
   },
@@ -1217,6 +1223,10 @@
         "ct_iri": "CL:0000136"
       },
       {
+        "ct_label": "myoepithelial cell",
+        "ct_iri": "CL:0000185"
+      },
+      {
         "ct_label": "smooth muscle cell",
         "ct_iri": "CL:0000192"
       },
@@ -1241,46 +1251,12 @@
         "ct_iri": "CL:0000987"
       },
       {
-        "ct_label": "intercalated cell of salivary gland",
-        "ct_iri": "CL:4052048"
+        "ct_label": "tuft cell",
+        "ct_iri": "CL:0002204"
       },
       {
-        "ct_label": "striated cell of salivary gland",
-        "ct_iri": "CL:4052049"
-      }
-    ],
-    "cts_in_asctb": [
-      {
-        "ct_label": "mast cell",
-        "ct_iri": "CL:0000097"
-      },
-      {
-        "ct_label": "endothelial cell",
-        "ct_iri": "CL:0000115"
-      },
-      {
-        "ct_label": "adipocyte",
-        "ct_iri": "CL:0000136"
-      },
-      {
-        "ct_label": "smooth muscle cell",
-        "ct_iri": "CL:0000192"
-      },
-      {
-        "ct_label": "macrophage",
-        "ct_iri": "CL:0000235"
-      },
-      {
-        "ct_label": "dendritic cell",
-        "ct_iri": "CL:0000451"
-      },
-      {
-        "ct_label": "pericyte",
-        "ct_iri": "CL:0000669"
-      },
-      {
-        "ct_label": "IgA plasma cell",
-        "ct_iri": "CL:0000987"
+        "ct_label": "ionocyte",
+        "ct_iri": "CL:0005006"
       },
       {
         "ct_label": "intercalated cell of salivary gland",
@@ -1289,50 +1265,14 @@
       {
         "ct_label": "striated cell of salivary gland",
         "ct_iri": "CL:4052049"
+      },
+      {
+        "ct_label": "serous acinar cell of salivary gland",
+        "ct_iri": "CL:4052065"
       }
     ],
-    "cts_exclusive": [
-      {
-        "ct_label": "mast cell",
-        "ct_iri": "CL:0000097"
-      },
-      {
-        "ct_label": "endothelial cell",
-        "ct_iri": "CL:0000115"
-      },
-      {
-        "ct_label": "adipocyte",
-        "ct_iri": "CL:0000136"
-      },
-      {
-        "ct_label": "smooth muscle cell",
-        "ct_iri": "CL:0000192"
-      },
-      {
-        "ct_label": "macrophage",
-        "ct_iri": "CL:0000235"
-      },
-      {
-        "ct_label": "dendritic cell",
-        "ct_iri": "CL:0000451"
-      },
-      {
-        "ct_label": "pericyte",
-        "ct_iri": "CL:0000669"
-      },
-      {
-        "ct_label": "IgA plasma cell",
-        "ct_iri": "CL:0000987"
-      },
-      {
-        "ct_label": "intercalated cell of salivary gland",
-        "ct_iri": "CL:4052048"
-      },
-      {
-        "ct_label": "striated cell of salivary gland",
-        "ct_iri": "CL:4052049"
-      }
-    ],
+    "cts_in_asctb": [],
+    "cts_exclusive": [],
     "organ_id_short": "UBERON:0000165",
     "organ_label": "mouth"
   },
@@ -1348,6 +1288,10 @@
         "ct_iri": "CL:0000115"
       },
       {
+        "ct_label": "myoepithelial cell",
+        "ct_iri": "CL:0000185"
+      },
+      {
         "ct_label": "smooth muscle cell",
         "ct_iri": "CL:0000192"
       },
@@ -1372,80 +1316,105 @@
         "ct_iri": "CL:0000987"
       },
       {
+        "ct_label": "ionocyte",
+        "ct_iri": "CL:0005006"
+      },
+      {
         "ct_label": "intercalated cell of salivary gland",
         "ct_iri": "CL:4052048"
+      },
+      {
+        "ct_label": "seromucous acinar cell of salivary gland",
+        "ct_iri": "CL:4052067"
+      }
+    ],
+    "cts_in_asctb": [],
+    "cts_exclusive": [],
+    "organ_id_short": "UBERON:0000165",
+    "organ_label": "mouth"
+  },
+  "chorionic terminal villus": {
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/placenta-chorionic-terminal-villus",
+    "cts_in_2d_ftu": [
+      {
+        "ct_label": "mononuclear cytotrophoblast cell",
+        "ct_iri": "CL:0000523"
+      },
+      {
+        "ct_label": "syncytiotrophoblast cell",
+        "ct_iri": "CL:0000525"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "fibroblast of villous mesenchyme",
+        "ct_iri": "CL:0002558"
+      },
+      {
+        "ct_label": "placental villus capillary endothelial cell",
+        "ct_iri": "CL:2000062"
+      },
+      {
+        "ct_label": "Hofbauer cell",
+        "ct_iri": "CL:3000001"
       }
     ],
     "cts_in_asctb": [
       {
-        "ct_label": "mast cell",
-        "ct_iri": "CL:0000097"
+        "ct_label": "mononuclear cytotrophoblast cell",
+        "ct_iri": "CL:0000523"
       },
       {
-        "ct_label": "endothelial cell",
-        "ct_iri": "CL:0000115"
-      },
-      {
-        "ct_label": "smooth muscle cell",
-        "ct_iri": "CL:0000192"
-      },
-      {
-        "ct_label": "macrophage",
-        "ct_iri": "CL:0000235"
-      },
-      {
-        "ct_label": "dendritic cell",
-        "ct_iri": "CL:0000451"
+        "ct_label": "syncytiotrophoblast cell",
+        "ct_iri": "CL:0000525"
       },
       {
         "ct_label": "pericyte",
         "ct_iri": "CL:0000669"
       },
       {
-        "ct_label": "IgA plasma cell",
-        "ct_iri": "CL:0000987"
+        "ct_label": "fibroblast of villous mesenchyme",
+        "ct_iri": "CL:0002558"
       },
       {
-        "ct_label": "intercalated cell of salivary gland",
-        "ct_iri": "CL:4052048"
+        "ct_label": "placental villus capillary endothelial cell",
+        "ct_iri": "CL:2000062"
+      },
+      {
+        "ct_label": "Hofbauer cell",
+        "ct_iri": "CL:3000001"
       }
     ],
     "cts_exclusive": [
       {
-        "ct_label": "mast cell",
-        "ct_iri": "CL:0000097"
+        "ct_label": "mononuclear cytotrophoblast cell",
+        "ct_iri": "CL:0000523"
       },
       {
-        "ct_label": "endothelial cell",
-        "ct_iri": "CL:0000115"
-      },
-      {
-        "ct_label": "smooth muscle cell",
-        "ct_iri": "CL:0000192"
-      },
-      {
-        "ct_label": "macrophage",
-        "ct_iri": "CL:0000235"
-      },
-      {
-        "ct_label": "dendritic cell",
-        "ct_iri": "CL:0000451"
+        "ct_label": "syncytiotrophoblast cell",
+        "ct_iri": "CL:0000525"
       },
       {
         "ct_label": "pericyte",
         "ct_iri": "CL:0000669"
       },
       {
-        "ct_label": "IgA plasma cell",
-        "ct_iri": "CL:0000987"
+        "ct_label": "fibroblast of villous mesenchyme",
+        "ct_iri": "CL:0002558"
       },
       {
-        "ct_label": "intercalated cell of salivary gland",
-        "ct_iri": "CL:4052048"
+        "ct_label": "placental villus capillary endothelial cell",
+        "ct_iri": "CL:2000062"
+      },
+      {
+        "ct_label": "Hofbauer cell",
+        "ct_iri": "CL:3000001"
       }
     ],
-    "organ_id_short": "UBERON:0000165",
-    "organ_label": "mouth"
+    "organ_id_short": "UBERON:0001987",
+    "organ_label": "placenta"
   },
   "prostate glandular acinus": {
     "ftu_purl": "https://purl.humanatlas.io/2d-ftu/prostate-prostate-glandular-acinus",
@@ -1465,6 +1434,10 @@
       {
         "ct_label": "basal cell of prostate epithelium",
         "ct_iri": "CL:0002341"
+      },
+      {
+        "ct_label": "prostate neuroendocrine cell",
+        "ct_iri": "CL:0017002"
       },
       {
         "ct_label": "fibroblast of connective tissue of prostate",
@@ -1621,6 +1594,10 @@
         "ct_iri": "CL:0000317"
       },
       {
+        "ct_label": "keratinocyte stem cell",
+        "ct_iri": "CL:0002337"
+      },
+      {
         "ct_label": "hair follicle melanocyte",
         "ct_iri": "CL:0002483"
       },
@@ -1631,6 +1608,10 @@
       {
         "ct_label": "sebocyte",
         "ct_iri": "CL:0000317"
+      },
+      {
+        "ct_label": "keratinocyte stem cell",
+        "ct_iri": "CL:0002337"
       },
       {
         "ct_label": "hair follicle melanocyte",
@@ -1647,6 +1628,10 @@
         "ct_iri": "CL:0000317"
       },
       {
+        "ct_label": "keratinocyte stem cell",
+        "ct_iri": "CL:0002337"
+      },
+      {
         "ct_label": "hair follicle melanocyte",
         "ct_iri": "CL:0002483"
       },
@@ -1657,6 +1642,10 @@
       {
         "ct_label": "sebocyte",
         "ct_iri": "CL:0000317"
+      },
+      {
+        "ct_label": "keratinocyte stem cell",
+        "ct_iri": "CL:0002337"
       },
       {
         "ct_label": "hair follicle melanocyte",
@@ -1793,6 +1782,10 @@
         "ct_iri": "CL:0000037"
       },
       {
+        "ct_label": "B cell",
+        "ct_iri": "CL:0000236"
+      },
+      {
         "ct_label": "follicular dendritic cell",
         "ct_iri": "CL:0000442"
       },
@@ -1831,6 +1824,10 @@
         "ct_iri": "CL:0000037"
       },
       {
+        "ct_label": "B cell",
+        "ct_iri": "CL:0000236"
+      },
+      {
         "ct_label": "splenic red pulp macrophage",
         "ct_iri": "CL:0000874"
       },
@@ -1851,6 +1848,10 @@
       {
         "ct_label": "hematopoietic stem cell",
         "ct_iri": "CL:0000037"
+      },
+      {
+        "ct_label": "B cell",
+        "ct_iri": "CL:0000236"
       },
       {
         "ct_label": "plasmablast",
@@ -1892,6 +1893,10 @@
         "ct_iri": "CL:0000876"
       },
       {
+        "ct_label": "splenic tingible body macrophage",
+        "ct_iri": "CL:0000877"
+      },
+      {
         "ct_label": "plasmablast",
         "ct_iri": "CL:0000980"
       },
@@ -1926,6 +1931,10 @@
         "ct_iri": "CL:0000876"
       },
       {
+        "ct_label": "splenic tingible body macrophage",
+        "ct_iri": "CL:0000877"
+      },
+      {
         "ct_label": "plasmablast",
         "ct_iri": "CL:0000980"
       },
@@ -1942,6 +1951,10 @@
       {
         "ct_label": "smooth muscle cell",
         "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "splenic tingible body macrophage",
+        "ct_iri": "CL:0000877"
       }
     ],
     "organ_id_short": "UBERON:0002106",
@@ -1963,16 +1976,12 @@
         "ct_iri": "CL:0000738"
       },
       {
-        "ct_label": "memory B cell",
-        "ct_iri": "CL:0000787"
+        "ct_label": "naive B cell",
+        "ct_iri": "CL:0000788"
       },
       {
         "ct_label": "double-positive, alpha-beta thymocyte",
         "ct_iri": "CL:0000809"
-      },
-      {
-        "ct_label": "thymic medullary macrophage",
-        "ct_iri": "CL:0000882"
       },
       {
         "ct_label": "thymic cortical macrophage",
@@ -1987,12 +1996,20 @@
         "ct_iri": "CL:0001070"
       },
       {
+        "ct_label": "cortical thymic epithelial cell",
+        "ct_iri": "CL:0002364"
+      },
+      {
         "ct_label": "corticomedullary thymic epithelial cell",
         "ct_iri": "CL:0009070"
       },
       {
         "ct_label": "medullary thymic epithelial cell type 1",
         "ct_iri": "CL:0009071"
+      },
+      {
+        "ct_label": "medullary thymic epithelial cell type 3",
+        "ct_iri": "CL:0009073"
       },
       {
         "ct_label": "subcapsular thymic epithelial cell",
@@ -2005,12 +2022,12 @@
         "ct_iri": "CL:0000071"
       },
       {
-        "ct_label": "double-positive, alpha-beta thymocyte",
-        "ct_iri": "CL:0000809"
+        "ct_label": "naive B cell",
+        "ct_iri": "CL:0000788"
       },
       {
-        "ct_label": "thymic medullary macrophage",
-        "ct_iri": "CL:0000882"
+        "ct_label": "double-positive, alpha-beta thymocyte",
+        "ct_iri": "CL:0000809"
       },
       {
         "ct_label": "thymic cortical macrophage",
@@ -2025,6 +2042,10 @@
         "ct_iri": "CL:0001070"
       },
       {
+        "ct_label": "cortical thymic epithelial cell",
+        "ct_iri": "CL:0002364"
+      },
+      {
         "ct_label": "corticomedullary thymic epithelial cell",
         "ct_iri": "CL:0009070"
       },
@@ -2033,18 +2054,22 @@
         "ct_iri": "CL:0009071"
       },
       {
+        "ct_label": "medullary thymic epithelial cell type 3",
+        "ct_iri": "CL:0009073"
+      },
+      {
         "ct_label": "subcapsular thymic epithelial cell",
         "ct_iri": "CL:0009077"
       }
     ],
     "cts_exclusive": [
       {
-        "ct_label": "double-positive, alpha-beta thymocyte",
-        "ct_iri": "CL:0000809"
+        "ct_label": "naive B cell",
+        "ct_iri": "CL:0000788"
       },
       {
-        "ct_label": "thymic medullary macrophage",
-        "ct_iri": "CL:0000882"
+        "ct_label": "double-positive, alpha-beta thymocyte",
+        "ct_iri": "CL:0000809"
       },
       {
         "ct_label": "thymic cortical macrophage",
@@ -2053,6 +2078,10 @@
       {
         "ct_label": "beige adipocyte",
         "ct_iri": "CL:0001070"
+      },
+      {
+        "ct_label": "cortical thymic epithelial cell",
+        "ct_iri": "CL:0002364"
       },
       {
         "ct_label": "corticomedullary thymic epithelial cell",

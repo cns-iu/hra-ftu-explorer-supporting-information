@@ -1,37 +1,12 @@
 ---
 layout: default
-title: "Supporting Information for Companion Website for “'Exploring Cell Types and Biomarker Expression Levels in 23 Functional Tissue Units Across 10 Organs in the Human Reference Atlas'"
+title: "Supporting Information for Exploring Functional Tissue Units of the Human Reference Atlas at Single-Cell Resolution"
 ---
 
-# Supporting Information for “Exploring Cell Types and Biomarker Expression Levels in 23 Functional Tissue Units Across 10 Organs in the Human Reference Atlas”
-Authors: Supriya, Bruce, Andi, Ellen, KPMP team, EBI team,Libby, Rachel, Katy 
+# Supporting Information for “Exploring Functional Tissue Units of the Human Reference Atlas at Single-Cell Resolution”
 
+Andreas Bueckle<sup>1\*</sup>, Supriya Bidanta<sup>1</sup>, Bruce W. Herr II<sup>1</sup>, Edward Lu<sup>1</sup>, Daniel Bolin<sup>1</sup>, Raj Chavan<sup>1</sup>, Elizabeth Maier<sup>1</sup>, Rachel Bajema<sup>1</sup>, Katy Börner<sup>1,2,3\*</sup>
 
-
-# Web Component with FTU Explorer for testing
-
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>FTU UI Small Web Component</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-    <link href="https://cdn.humanatlas.io/ui/ftu-ui/styles.css" rel="stylesheet" />
-    <script src="https://cdn.humanatlas.io/ui/ftu-ui/polyfills.js" type="module"></script>
-    <script src="https://cdn.humanatlas.io/ui/ftu-ui/main.js" type="module"></script>
-  </head>
-  <body style="margin: 0">
-    <hra-ftu-ui
-      base-href="https://cdn.humanatlas.io/ui/ftu-ui/"
-      selected-illustration="https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
-      datasets="assets/TEMP/ftu-datasets.jsonld"
-      summaries="assets/TEMP/ftu-cell-summaries.jsonld" 
-    >
-    </hra-ftu-ui>
-  </body>
-</html>
+<sup>1</sup> Department of Intelligent Systems Engineering, Indiana University, Bloomington, IN, USA<br>
+<sup>2</sup> Canadian Institute for Advanced Research (CIFAR), Toronto, ON, Canada<br>
+<sup>3</sup> Berlin Institute of Health at Charité, Universitätsmedizin Berlin, Berlin, Germany

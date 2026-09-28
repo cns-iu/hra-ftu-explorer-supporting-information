@@ -7,9 +7,16 @@ sc-transcriptomics-cell-instances.csv.gz:Zone.Identifier
 # Large files
 docs/iftu-testing/assets/ftu-datasets.jsonld
 
-# Virtual environment
+# Virtual environments
 .venv/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
 
 # VS Code workspaces
 *.code-workspace
 ftu-datasets.jsonld
+
+#Large files
+jsonl-excerpt.json
