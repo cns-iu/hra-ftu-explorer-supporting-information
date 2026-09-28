@@ -1,5 +1,7 @@
 {
   "alveolus of lung": {
+    "organ_id": "UBERON:0002048",
+    "organ_label": "lung",
     "in_2d_ftu": [
       {
         "ct_label": "pulmonary alveolar type 1 cell",
@@ -60,11 +62,16 @@
       }
     ],
     "exclusive_ct_in_ftu": [],
-    "datasets_with_ct_by_in_2d_ftu": 777,
-    "datasets_with_ct_by_in_asctb": 777,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "datasets_with_ct_by_in_2d_ftu": 762,
+    "cells_with_ct_by_in_2d_ftu": 2626581,
+    "datasets_with_ct_by_in_asctb": 762,
+    "cells_with_ct_by_in_asctb": 2626581,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "bronchus submucosal gland": {
+    "organ_id": "UBERON:0002048",
+    "organ_label": "lung",
     "in_2d_ftu": [
       {
         "ct_label": "myoepithelial cell of bronchus submucosal gland",
@@ -130,11 +137,16 @@
       }
     ],
     "exclusive_ct_in_ftu": [],
-    "datasets_with_ct_by_in_2d_ftu": 458,
-    "datasets_with_ct_by_in_asctb": 458,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "datasets_with_ct_by_in_2d_ftu": 140,
+    "cells_with_ct_by_in_2d_ftu": 6003,
+    "datasets_with_ct_by_in_asctb": 140,
+    "cells_with_ct_by_in_asctb": 6003,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "chorionic terminal villus": {
+    "organ_id": "UBERON:0001987",
+    "organ_label": "placenta",
     "in_2d_ftu": [
       {
         "ct_label": "mononuclear cytotrophoblast cell",
@@ -232,10 +244,15 @@
       }
     ],
     "datasets_with_ct_by_in_2d_ftu": 0,
+    "cells_with_ct_by_in_2d_ftu": 0,
     "datasets_with_ct_by_in_asctb": 0,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "cells_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "cortical collecting duct": {
+    "organ_id": "UBERON:0002113",
+    "organ_label": "kidney",
     "in_2d_ftu": [
       {
         "ct_label": "kidney cortex collecting duct principal cell",
@@ -267,10 +284,15 @@
     ],
     "exclusive_ct_in_ftu": [],
     "datasets_with_ct_by_in_2d_ftu": 657,
+    "cells_with_ct_by_in_2d_ftu": 430973,
     "datasets_with_ct_by_in_asctb": 657,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "cells_with_ct_by_in_asctb": 430973,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "crypt of Lieberkuhn of large intestine": {
+    "organ_id": "UBERON:0000059",
+    "organ_label": "large intestine",
     "in_2d_ftu": [
       {
         "ct_label": "neuroendocrine cell",
@@ -326,11 +348,16 @@
       }
     ],
     "exclusive_ct_in_ftu": [],
-    "datasets_with_ct_by_in_2d_ftu": 233,
-    "datasets_with_ct_by_in_asctb": 233,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "datasets_with_ct_by_in_2d_ftu": 0,
+    "cells_with_ct_by_in_2d_ftu": 0,
+    "datasets_with_ct_by_in_asctb": 0,
+    "cells_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "descending limb of loop of Henle": {
+    "organ_id": "UBERON:0002113",
+    "organ_label": "kidney",
     "in_2d_ftu": [
       {
         "ct_label": "kidney loop of Henle thin descending limb epithelial cell",
@@ -358,10 +385,15 @@
       }
     ],
     "datasets_with_ct_by_in_2d_ftu": 490,
+    "cells_with_ct_by_in_2d_ftu": 73042,
     "datasets_with_ct_by_in_asctb": 0,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "cells_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "epidermal ridge of digit": {
+    "organ_id": "UBERON:0002097",
+    "organ_label": "skin",
     "in_2d_ftu": [
       {
         "ct_label": "Merkel cell",
@@ -434,10 +466,15 @@
       }
     ],
     "datasets_with_ct_by_in_2d_ftu": 69,
+    "cells_with_ct_by_in_2d_ftu": 27668,
     "datasets_with_ct_by_in_asctb": 69,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 64
+    "cells_with_ct_by_in_asctb": 27668,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 64,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 13715
   },
   "hair follicle": {
+    "organ_id": "UBERON:0002097",
+    "organ_label": "skin",
     "in_2d_ftu": [
       {
         "ct_label": "sebocyte",
@@ -510,10 +547,15 @@
       }
     ],
     "datasets_with_ct_by_in_2d_ftu": 0,
+    "cells_with_ct_by_in_2d_ftu": 0,
     "datasets_with_ct_by_in_asctb": 0,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "cells_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "inner medullary collecting duct": {
+    "organ_id": "UBERON:0002113",
+    "organ_label": "kidney",
     "in_2d_ftu": [
       {
         "ct_label": "kidney inner medulla collecting duct principal cell",
@@ -541,10 +583,15 @@
       }
     ],
     "datasets_with_ct_by_in_2d_ftu": 535,
+    "cells_with_ct_by_in_2d_ftu": 1092532,
     "datasets_with_ct_by_in_asctb": 535,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 535
+    "cells_with_ct_by_in_asctb": 1092532,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 535,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 1092532
   },
   "intercalated duct of pancreas": {
+    "organ_id": "UBERON:0001264",
+    "organ_label": "pancreas",
     "in_2d_ftu": [
       {
         "ct_label": "pancreatic centro-acinar cell",
@@ -566,10 +613,15 @@
     ],
     "exclusive_ct_in_ftu": [],
     "datasets_with_ct_by_in_2d_ftu": 0,
+    "cells_with_ct_by_in_2d_ftu": 0,
     "datasets_with_ct_by_in_asctb": 0,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "cells_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "intestinal villus": {
+    "organ_id": "UBERON:0002108",
+    "organ_label": "small intestine",
     "in_2d_ftu": [
       {
         "ct_label": "fibroblast",
@@ -731,11 +783,16 @@
         "ct_curie": "CL:1000324"
       }
     ],
-    "datasets_with_ct_by_in_2d_ftu": 313,
-    "datasets_with_ct_by_in_asctb": 313,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "datasets_with_ct_by_in_2d_ftu": 0,
+    "cells_with_ct_by_in_2d_ftu": 0,
+    "datasets_with_ct_by_in_asctb": 0,
+    "cells_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "islet of Langerhans": {
+    "organ_id": "UBERON:0001264",
+    "organ_label": "pancreas",
     "in_2d_ftu": [
       {
         "ct_label": "type B pancreatic cell",
@@ -832,11 +889,16 @@
         "ct_curie": "CL:0002275"
       }
     ],
-    "datasets_with_ct_by_in_2d_ftu": 14,
-    "datasets_with_ct_by_in_asctb": 14,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 14
+    "datasets_with_ct_by_in_2d_ftu": 13,
+    "cells_with_ct_by_in_2d_ftu": 32053,
+    "datasets_with_ct_by_in_asctb": 13,
+    "cells_with_ct_by_in_asctb": 32053,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 13,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 32053
   },
   "liver lobule": {
+    "organ_id": "UBERON:0002107",
+    "organ_label": "liver",
     "in_2d_ftu": [
       {
         "ct_label": "columnar/cuboidal epithelial cell",
@@ -998,11 +1060,16 @@
         "ct_curie": "CL:1000413"
       }
     ],
-    "datasets_with_ct_by_in_2d_ftu": 75,
-    "datasets_with_ct_by_in_asctb": 75,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 75
+    "datasets_with_ct_by_in_2d_ftu": 62,
+    "cells_with_ct_by_in_2d_ftu": 167206,
+    "datasets_with_ct_by_in_asctb": 62,
+    "cells_with_ct_by_in_asctb": 167206,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 62,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 167206
   },
   "loop of Henle ascending limb thin segment": {
+    "organ_id": "UBERON:0002113",
+    "organ_label": "kidney",
     "in_2d_ftu": [
       {
         "ct_label": "kidney loop of Henle thin ascending limb epithelial cell",
@@ -1030,10 +1097,15 @@
       }
     ],
     "datasets_with_ct_by_in_2d_ftu": 371,
+    "cells_with_ct_by_in_2d_ftu": 399626,
     "datasets_with_ct_by_in_asctb": 371,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 371
+    "cells_with_ct_by_in_asctb": 399626,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 371,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 399626
   },
   "nephron": {
+    "organ_id": "UBERON:0002113",
+    "organ_label": "kidney",
     "in_2d_ftu": [
       {
         "ct_label": "kidney cortex collecting duct principal cell",
@@ -1161,10 +1233,15 @@
       }
     ],
     "datasets_with_ct_by_in_2d_ftu": 678,
+    "cells_with_ct_by_in_2d_ftu": 3129409,
     "datasets_with_ct_by_in_asctb": 668,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 668
+    "cells_with_ct_by_in_asctb": 1637553,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 668,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 1637553
   },
   "outer medullary collecting duct": {
+    "organ_id": "UBERON:0002113",
+    "organ_label": "kidney",
     "in_2d_ftu": [
       {
         "ct_label": "kidney outer medulla collecting duct principal cell",
@@ -1207,10 +1284,15 @@
       }
     ],
     "datasets_with_ct_by_in_2d_ftu": 455,
+    "cells_with_ct_by_in_2d_ftu": 131214,
     "datasets_with_ct_by_in_asctb": 455,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 455
+    "cells_with_ct_by_in_asctb": 131214,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 455,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 131214
   },
   "pancreatic acinus": {
+    "organ_id": "UBERON:0001264",
+    "organ_label": "pancreas",
     "in_2d_ftu": [
       {
         "ct_label": "pancreatic acinar cell",
@@ -1267,11 +1349,16 @@
         "ct_curie": "CL:1000322"
       }
     ],
-    "datasets_with_ct_by_in_2d_ftu": 14,
-    "datasets_with_ct_by_in_asctb": 14,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 14
+    "datasets_with_ct_by_in_2d_ftu": 13,
+    "cells_with_ct_by_in_2d_ftu": 20759,
+    "datasets_with_ct_by_in_asctb": 13,
+    "cells_with_ct_by_in_asctb": 20759,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 13,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 20759
   },
   "papillary layer of dermis": {
+    "organ_id": "UBERON:0002097",
+    "organ_label": "skin",
     "in_2d_ftu": [
       {
         "ct_label": "endothelial cell",
@@ -1286,11 +1373,16 @@
     ],
     "in_asctb": [],
     "exclusive_ct_in_ftu": [],
-    "datasets_with_ct_by_in_2d_ftu": 70,
+    "datasets_with_ct_by_in_2d_ftu": 0,
+    "cells_with_ct_by_in_2d_ftu": 0,
     "datasets_with_ct_by_in_asctb": 0,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "cells_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "parotid gland": {
+    "organ_id": "UBERON:0000165",
+    "organ_label": "mouth",
     "in_2d_ftu": [
       {
         "ct_label": "mast cell",
@@ -1371,10 +1463,15 @@
     "in_asctb": [],
     "exclusive_ct_in_ftu": [],
     "datasets_with_ct_by_in_2d_ftu": 0,
+    "cells_with_ct_by_in_2d_ftu": 0,
     "datasets_with_ct_by_in_asctb": 0,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "cells_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "prostate glandular acinus": {
+    "organ_id": "UBERON:0002367",
+    "organ_label": "prostate gland",
     "in_2d_ftu": [
       {
         "ct_label": "vascular associated smooth muscle cell",
@@ -1497,10 +1594,15 @@
       }
     ],
     "datasets_with_ct_by_in_2d_ftu": 39,
+    "cells_with_ct_by_in_2d_ftu": 69020,
     "datasets_with_ct_by_in_asctb": 39,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 39
+    "cells_with_ct_by_in_asctb": 69020,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 39,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 69020
   },
   "red pulp of spleen": {
+    "organ_id": "UBERON:0002106",
+    "organ_label": "spleen",
     "in_2d_ftu": [
       {
         "ct_label": "hematopoietic stem cell",
@@ -1613,10 +1715,15 @@
       }
     ],
     "datasets_with_ct_by_in_2d_ftu": 67,
+    "cells_with_ct_by_in_2d_ftu": 25329,
     "datasets_with_ct_by_in_asctb": 62,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 62
+    "cells_with_ct_by_in_asctb": 5916,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 62,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 5916
   },
   "renal corpuscle": {
+    "organ_id": "UBERON:0002113",
+    "organ_label": "kidney",
     "in_2d_ftu": [
       {
         "ct_label": "kidney granular cell",
@@ -1709,10 +1816,15 @@
       }
     ],
     "datasets_with_ct_by_in_2d_ftu": 644,
+    "cells_with_ct_by_in_2d_ftu": 376359,
     "datasets_with_ct_by_in_asctb": 619,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 619
+    "cells_with_ct_by_in_asctb": 217401,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 619,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 217401
   },
   "sublingual gland": {
+    "organ_id": "UBERON:0000165",
+    "organ_label": "mouth",
     "in_2d_ftu": [
       {
         "ct_label": "mast cell",
@@ -1778,10 +1890,15 @@
     "in_asctb": [],
     "exclusive_ct_in_ftu": [],
     "datasets_with_ct_by_in_2d_ftu": 0,
+    "cells_with_ct_by_in_2d_ftu": 0,
     "datasets_with_ct_by_in_asctb": 0,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "cells_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "submandibular gland": {
+    "organ_id": "UBERON:0000165",
+    "organ_label": "mouth",
     "in_2d_ftu": [
       {
         "ct_label": "mast cell",
@@ -1857,10 +1974,15 @@
     "in_asctb": [],
     "exclusive_ct_in_ftu": [],
     "datasets_with_ct_by_in_2d_ftu": 0,
+    "cells_with_ct_by_in_2d_ftu": 0,
     "datasets_with_ct_by_in_asctb": 0,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "cells_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "thick ascending limb of loop of Henle": {
+    "organ_id": "UBERON:0002113",
+    "organ_label": "kidney",
     "in_2d_ftu": [
       {
         "ct_label": "peritubular capillary endothelial cell",
@@ -1888,10 +2010,15 @@
       }
     ],
     "datasets_with_ct_by_in_2d_ftu": 0,
+    "cells_with_ct_by_in_2d_ftu": 0,
     "datasets_with_ct_by_in_asctb": 0,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "cells_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "thymus lobule": {
+    "organ_id": "UBERON:0002370",
+    "organ_label": "thoracic thymus",
     "in_2d_ftu": [
       {
         "ct_label": "blood vessel endothelial cell",
@@ -2059,10 +2186,15 @@
       }
     ],
     "datasets_with_ct_by_in_2d_ftu": 0,
+    "cells_with_ct_by_in_2d_ftu": 0,
     "datasets_with_ct_by_in_asctb": 0,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "cells_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   },
   "white pulp of spleen": {
+    "organ_id": "UBERON:0002106",
+    "organ_label": "spleen",
     "in_2d_ftu": [
       {
         "ct_label": "smooth muscle cell",
@@ -2170,7 +2302,10 @@
       }
     ],
     "datasets_with_ct_by_in_2d_ftu": 46,
+    "cells_with_ct_by_in_2d_ftu": 19413,
     "datasets_with_ct_by_in_asctb": 0,
-    "datasets_with_ct_by_exclusive_ct_in_ftu": 0
+    "cells_with_ct_by_in_asctb": 0,
+    "datasets_with_ct_by_exclusive_ct_in_ftu": 0,
+    "cells_with_ct_by_exclusive_ct_in_ftu": 0
   }
 }
