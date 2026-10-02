@@ -1,0 +1,65 @@
+{
+  "ftu_label": {
+    "description": "Label of the functional tissue unit (FTU), from the FTU-exclusivity query (config FTU_QUERY)."
+  },
+  "organ_id": {
+    "description": "CURIE of the organ the FTU belongs to, e.g. UBERON:0002113."
+  },
+  "organ_label": {
+    "description": "Organ label, lowercased. When the source has several spellings, the most frequent one is used."
+  },
+  "in_2d_ftu_ct_count": {
+    "description": "Number of distinct cell types (CTs) shown in the FTU's 2D illustration."
+  },
+  "in_2d_ftu_ct_labels": {
+    "description": "Labels of the cell types (CTs) shown in the FTU's 2D illustration."
+  },
+  "datasets_with_ct_by_in_2d_ftu": {
+    "description": "Number of HRApop universe datasets (v1.1) from the FTU's organ that contain at least one of the cell types (CTs) shown in the FTU's 2D illustration. Each dataset is counted once, from a single annotation tool: the first in ANNOTATION_METHOD_PREFERENCE (Azimuth > CellTypist > popV > FR-Match > pan-human Azimuth) that the dataset has a cell summary for."
+  },
+  "cells_with_ct_by_in_2d_ftu": {
+    "description": "Total number of cells of those CTs in the datasets counted in datasets_with_ct_by_in_2d_ftu, from each dataset's chosen annotation tool only."
+  },
+  "papers_with_ct_by_in_2d_ftu": {
+    "description": "Number of distinct paper DOIs among the datasets counted in datasets_with_ct_by_in_2d_ftu. DOIs come from the HRApop sankey report (config UNIVERSE_SANKEY_FILENAME). Datasets without a DOI aren't counted, so this can be lower than the number of papers actually behind those datasets."
+  },
+  "papers_with_ct_by_in_2d_ftu_dois": {
+    "description": "The distinct DOIs counted in papers_with_ct_by_in_2d_ftu, sorted. DOIs are shown as in the source, which mixes https://doi.org/ and http://dx.doi.org/ forms."
+  },
+  "in_asctb_ct_count": {
+    "description": "Number of distinct CTs linked to the FTU in the organ's ASCT+B table."
+  },
+  "in_asctb_ct_labels": {
+    "description": "Labels of the CTs linked to the FTU in the organ's ASCT+B table."
+  },
+  "datasets_with_ct_by_in_asctb": {
+    "description": "Number of HRApop universe datasets (v1.1) from the FTU's organ that contain at least one of the CTs linked to the FTU in the organ's ASCT+B table. Each dataset is counted once, from a single annotation tool: the first in ANNOTATION_METHOD_PREFERENCE (Azimuth > CellTypist > popV > FR-Match > pan-human Azimuth) that the dataset has a cell summary for."
+  },
+  "cells_with_ct_by_in_asctb": {
+    "description": "Total number of cells of those CTs in the datasets counted in datasets_with_ct_by_in_asctb, from each dataset's chosen annotation tool only."
+  },
+  "papers_with_ct_by_in_asctb": {
+    "description": "Number of distinct paper DOIs among the datasets counted in datasets_with_ct_by_in_asctb. DOIs come from the HRApop sankey report (config UNIVERSE_SANKEY_FILENAME). Datasets without a DOI aren't counted, so this can be lower than the number of papers actually behind those datasets."
+  },
+  "papers_with_ct_by_in_asctb_dois": {
+    "description": "The distinct DOIs counted in papers_with_ct_by_in_asctb, sorted. DOIs are shown as in the source, which mixes https://doi.org/ and http://dx.doi.org/ forms."
+  },
+  "exclusive_ct_in_ftu_ct_count": {
+    "description": "Number of distinct CTs exclusive to the FTU (in the illustration and connected only to this FTU or its child in the ASCT+B table)."
+  },
+  "exclusive_ct_in_ftu_ct_labels": {
+    "description": "Labels of the CTs exclusive to the FTU (in the illustration and connected only to this FTU or its child in the ASCT+B table)."
+  },
+  "datasets_with_ct_by_exclusive_ct_in_ftu": {
+    "description": "Number of HRApop universe datasets (v1.1) from the FTU's organ that contain at least one of the CTs exclusive to the FTU (in the illustration and connected only to this FTU or its child in the ASCT+B table). Each dataset is counted once, from a single annotation tool: the first in ANNOTATION_METHOD_PREFERENCE (Azimuth > CellTypist > popV > FR-Match > pan-human Azimuth) that the dataset has a cell summary for."
+  },
+  "cells_with_ct_by_exclusive_ct_in_ftu": {
+    "description": "Total number of cells of those CTs in the datasets counted in datasets_with_ct_by_exclusive_ct_in_ftu, from each dataset's chosen annotation tool only."
+  },
+  "papers_with_ct_by_exclusive_ct_in_ftu": {
+    "description": "Number of distinct paper DOIs among the datasets counted in datasets_with_ct_by_exclusive_ct_in_ftu. DOIs come from the HRApop sankey report (config UNIVERSE_SANKEY_FILENAME). Datasets without a DOI aren't counted, so this can be lower than the number of papers actually behind those datasets."
+  },
+  "papers_with_ct_by_exclusive_ct_in_ftu_dois": {
+    "description": "The distinct DOIs counted in papers_with_ct_by_exclusive_ct_in_ftu, sorted. DOIs are shown as in the source, which mixes https://doi.org/ and http://dx.doi.org/ forms."
+  }
+}

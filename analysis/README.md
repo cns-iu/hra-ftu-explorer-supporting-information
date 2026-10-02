@@ -45,7 +45,8 @@ Outputs (in `output/`):
 | File | Contents |
 | --- | --- |
 | `ftu_ct_conditions.json` | Full per-FTU dictionary: organ, CT lists, dataset and cell counts, and papers per condition |
-| `ftu_ct_conditions.csv` | One row per FTU: CT count and labels, dataset/cell counts, and the number of distinct papers and their DOIs per condition |
+| `ftu_ct_conditions.csv` | One row per FTU: CT count and labels, dataset/cell counts, and the number of distinct papers and their DOIs per condition. Each column is explained in `ftu_ct_conditions_data_dictionary.json` |
+| `ftu_ct_conditions_data_dictionary.json` | Data dictionary for `ftu_ct_conditions.csv` (column name → `description`). Written by hand, so update it if the columns change |
 | `cell_types_and_datasets_per_ftu.csv` | CTs in each illustration vs. exclusive CTs, per FTU |
 
 ## Adding a script
