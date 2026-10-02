@@ -34,6 +34,12 @@ UNIVERSE_METADATA_URL = (
     f"/input-data/{config['HRA_POP_VERSION']}/{config['UNIVERSE_METADATA_FILENAME']}"
 )
 
+# HRApop universe report mapping each dataset_id to its paper (doi column)
+UNIVERSE_SANKEY_URL = (
+    f"https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/refs/heads/{config['HRA_POP_BRANCH']}"
+    f"/output-data/{config['HRA_POP_VERSION']}/reports/{config['UNIVERSE_SANKEY_FILENAME']}"
+)
+
 
 def save_df(df: pd.DataFrame, file_name: str):
     """Save a counts/summary table to analysis/output as CSV."""
