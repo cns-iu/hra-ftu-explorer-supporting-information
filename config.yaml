@@ -1,5 +1,5 @@
 # hra-pop
-HRA_POP_VERSION : v1.0
+HRA_POP_VERSION : v1.1
 HRA_POP_BRANCH : main
 
 # File names
@@ -18,4 +18,6 @@ ANATOMOGRAMN_METADATA: anatomogram-dataset-metadata.csv
 ANATOMOGRAMN_RAW_DATA : anatomogram-raw
 DATASETS_OF_INTEREST : datasets-of-interest.json
 FTU_QUERY : "https://cdn.humanatlas.io/data-products/reports/hra/ftu-exclusive-cts-in-2d-asctb.csv"
+# HRApop universe report (under output-data/<HRA_POP_VERSION>/reports/) with the paper (DOI) for each dataset_id
+UNIVERSE_SANKEY_FILENAME : universe-ad-hoc/sankey.csv
 FTU_TO_DATASETS : "ftu_to_datasets.json"

@@ -117,10 +117,23 @@ def load_dataset_to_organ():
     return dict(zip(metadata["dataset_id"], metadata["organ"]))
 
 
+def load_dataset_to_paper():
+    """Map each HRApop universe dataset_id (== cell_source) to its paper DOI
+    (None if the dataset has no DOI). The sankey report has one row per dataset
+    and collision, but at most one DOI per dataset."""
+    sankey = pd.read_csv(UNIVERSE_SANKEY_URL, usecols=["dataset_id", "doi"])
+    sankey = sankey.drop_duplicates("dataset_id")
+    return {
+        dataset_id: doi if pd.notna(doi) else None
+        for dataset_id, doi in zip(sankey["dataset_id"], sankey["doi"])
+    }
+
+
 def parse_universe_cell_summaries(
     ftu_ct_conditions: dict,
     ftu_to_organs: dict,
     dataset_to_organ: dict,
+    dataset_to_paper: dict,
     sample_size: int | None = None,
 ):
     """For each FTU/condition, count the distinct datasets (cell_source) in the
@@ -135,6 +148,10 @@ def parse_universe_cell_summaries(
     cell summary for, whether or not that tool found CTs for a given FTU. This
     applies to both the dataset and the cell counts, so a dataset only counts for
     an FTU/condition if its chosen tool found a matching CT.
+
+    The papers of those counted datasets are added under
+    ftu_ct_conditions[ftu_label]["papers_for_this_ftu_by_dataset"][condition]
+    as {dataset_id: doi} (doi is None for datasets without one).
 
     sample_size caps how many universe records are scanned (the full file is huge
     and slow to process); pass None (default) to scan the whole file.
@@ -189,15 +206,29 @@ def parse_universe_cell_summaries(
     }
     print(f"Datasets per chosen annotation method: {dict(Counter(chosen_method.values()))}")
 
+    datasets_without_paper = set()
     for ftu_label, conditions in ftu_ct_conditions.items():
+        conditions["papers_for_this_ftu_by_dataset"] = {}
         for condition in CONDITIONS:
-            cells_per_dataset = [
-                cells_per_method[chosen_method[cell_source]]
+            # {cell_source: cell count from its chosen tool}
+            cells_per_dataset = {
+                cell_source: cells_per_method[chosen_method[cell_source]]
                 for cell_source, cells_per_method in cells_by_condition[ftu_label][condition].items()
                 if chosen_method[cell_source] in cells_per_method
-            ]
+            }
             conditions[f"datasets_with_ct_by_{condition}"] = len(cells_per_dataset)
-            conditions[f"cells_with_ct_by_{condition}"] = sum(cells_per_dataset)
+            conditions[f"cells_with_ct_by_{condition}"] = sum(cells_per_dataset.values())
+            conditions["papers_for_this_ftu_by_dataset"][condition] = {
+                cell_source: dataset_to_paper.get(cell_source)
+                for cell_source in sorted(cells_per_dataset)
+            }
+            datasets_without_paper.update(
+                cell_source for cell_source in cells_per_dataset
+                if dataset_to_paper.get(cell_source) is None
+            )
+
+    if datasets_without_paper:
+        print(f"{len(datasets_without_paper)} counted datasets have no paper DOI in the sankey report.")
 
     return ftu_ct_conditions
 
@@ -218,6 +249,12 @@ def build_ftu_ct_conditions_df(ftu_ct_conditions):
             record[f"{condition}_ct_labels"] = "; ".join(ct["ct_label"] for ct in cell_types)
             record[f"datasets_with_ct_by_{condition}"] = conditions[f"datasets_with_ct_by_{condition}"]
             record[f"cells_with_ct_by_{condition}"] = conditions[f"cells_with_ct_by_{condition}"]
+            papers = {
+                doi for doi in conditions["papers_for_this_ftu_by_dataset"][condition].values()
+                if doi is not None
+            }
+            record[f"papers_with_ct_by_{condition}"] = len(papers)
+            record[f"papers_with_ct_by_{condition}_dois"] = "; ".join(sorted(papers))
         records.append(record)
     return pd.DataFrame(records)
 
@@ -225,8 +262,9 @@ def build_ftu_ct_conditions_df(ftu_ct_conditions):
 def main():
     ct_counts_in_ftu_illustrations, ftu_ct_conditions, ftu_to_organs = load_ftu_query_and_count()
     dataset_to_organ = load_dataset_to_organ()
+    dataset_to_paper = load_dataset_to_paper()
     ftu_ct_conditions = parse_universe_cell_summaries(
-        ftu_ct_conditions, ftu_to_organs, dataset_to_organ
+        ftu_ct_conditions, ftu_to_organs, dataset_to_organ, dataset_to_paper
     )
 
     # Save results
