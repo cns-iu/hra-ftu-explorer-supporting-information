@@ -59,7 +59,7 @@ There is no `30-*` or `60-*` script — `data-preprocessor/ftu2-pseudo-code.md` 
 
 Both output files must match what `hra-ftu-ui` expects (see full examples in `ftu2-pseudo-code.md`):
 - `ftu-cell-summaries.jsonld`: `@graph` of `CellSummary` objects keyed by `cell_source` (a dataset DOI or entity URL fragment), each with a `summary` array of `CellSummaryRow` (`cell_id`, `cell_label`, `genes[]` with `ensemble_id`/`gene_id`/`gene_label`/`mean_expression`).
-- `ftu-datasets.jsonld`: `@graph` of `FtuIllustration` objects (`@id` = `https://purl.humanatlas.io/2d-ftu/<organ>-<ftu>`) each with `data_sources[]` (`Dataset` with label/link/description/year/authors).
+- `ftu-datasets.jsonld`: `@graph` of `FtuIllustration` objects (`@id` = `https://purl.humanatlas.io/2d-ftu/<organ>-<ftu>`) each with `data_sources[]` (`Dataset` with label/link/description/year/authors). hra-ui maps a data source's `@id`→Dataset ID, `label`→Dataset Title, `link`→Publication DOI, `description`→Publication Title and `year`→Year, and `filterSummaries` matches `@id` against `cell_source`, so `@id` must stay `<dataset_id>#CellSummary_<ftu suffix>` in both files. Script 40 also writes `dataset_id`, `cell_type_annotation_tool`, `sex`, `age`, `development_stage`, `bmi` and `ethnicity`, but hra-ui's `RAW_DATASETS`/`toSourceReferences` ignore them until it maps them. Publication title/year/authors come from Crossref, cached in `raw-data/` (`DOI_METADATA_CACHE`).
 
 ### `docs/` — GitHub Pages demo site
 

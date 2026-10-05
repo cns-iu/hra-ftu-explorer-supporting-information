@@ -21,3 +21,5 @@ FTU_QUERY : "https://cdn.humanatlas.io/data-products/reports/hra/ftu-exclusive-c
 # HRApop universe report (under output-data/<HRA_POP_VERSION>/reports/) with the paper (DOI) for each dataset_id
 UNIVERSE_SANKEY_FILENAME : universe-ad-hoc/sankey.csv
 FTU_TO_DATASETS : "ftu_to_datasets.json"
+# Crossref title/year/authors per publication DOI, cached between runs of 40-build-ftu-datasets-jsonld.py
+DOI_METADATA_CACHE : doi-metadata-cache.json
