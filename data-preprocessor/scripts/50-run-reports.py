@@ -1,3 +1,5 @@
+import numpy as np
+
 from shared import *
 
 
@@ -23,235 +25,104 @@ def get_unique_cts_for_colliding_as():
     pprint(df_filtered)
 
 
-def generate_ftu_report():
-    """
-    Generate a summary report of CTs in FTUs.
-
-    This function:
-      - Loads FTU cell type data from a JSON file.
-      - Extracts relevant fields (IRI, organ label, cell types in illustration, etc.).
-      - Transforms list-valued fields into counts.
-      - Builds a pandas DataFrame with one row per unique FTU.
-      - Exports the resulting summary as a CSV file.
-
-    The file is saved to the configured OUTPUT_DIR.
-    """
-
-    # Set file name
-    file_name = "cell_types_in_ftu_report"
-
-    # load cell types in FTUs
-    with open(CELL_TYPES_IN_FTUS) as f:
+def load_ct_sets_per_ftu() -> pd.DataFrame:
+    """One row per FTU from cell-types-in-ftus.json (stage 10), with the CL CURIEs of its CTs
+    in the illustration, in the ASCT+B tables, and exclusive to it"""
+    with open(CELL_TYPES_IN_FTUS, "r", encoding="utf-8") as f:
         data = json.load(f)
-        print(f"✅ Loaded {CELL_TYPES_IN_FTUS}")
-    pprint(data)
+    print(f"✅ Loaded {CELL_TYPES_IN_FTUS}")
 
-    # Goal: make CSV with 26 rows—one per unique FTU:
+    def ct_ids(cts):
+        return {ct["ct_iri"] for ct in cts if ct.get("ct_iri")}
 
-    # Turn data into a data frame and keep relevant columns
-    df = pd.DataFrame(data)[
+    return pd.DataFrame(
         [
-            "iri",
-            "organ_label",
-            "cell_types_in_illustration",
-            "cell_types_in_asctb_ftu_column",
+            {
+                "ftu": ftu["ftu_purl"].rstrip("/").split("/")[-1],
+                "organ_label": ftu["organ_label"],
+                "illustration": ct_ids(ftu.get("cts_in_2d_ftu", [])),
+                "asctb": ct_ids(ftu.get("cts_in_asctb", [])),
+                "exclusive": ct_ids(ftu.get("cts_exclusive", [])),
+            }
+            for ftu in data.values()
         ]
-    ]
-
-    # Transform values as needed
-
-    df["iri"] = df["iri"].apply(lambda iri: iri.split("/")[len(iri.split("/")) - 1])
-
-    df["cell_types_in_illustration"] = df["cell_types_in_illustration"].apply(len)
-    df["cell_types_in_asctb_ftu_column"] = df["cell_types_in_asctb_ftu_column"].apply(
-        len
     )
 
-    # Print result
+
+def generate_ftu_report():
+    """Saves a CSV with one row per FTU: its organ and how many CTs are in its illustration,
+    in the ASCT+B tables, and exclusive to it"""
+
+    df = load_ct_sets_per_ftu()
+    for column in ["illustration", "asctb", "exclusive"]:
+        df[f"cell_types_{column}"] = df.pop(column).apply(len)
+
     pprint(df)
 
-    # Export results
-    df.to_csv(f"{REPORTS_DIR}/{file_name}.csv", index=False)
+    df.to_csv(f"{REPORTS_DIR}/cell_types_in_ftu_report.csv", index=False)
     print(f"File successfully saved to {REPORTS_DIR}")
 
 
 def visualize_intersections():
-    """_summary_"""
-
-    # -----------------------------
-    # CONFIG
-    # -----------------------------
-    OUT_FILE = "upset_cell_type_overlap.png"
-
-    # os.makedirs(REPORTS_DIR, exist_ok=True)
-
-    # -----------------------------
-    # Load JSON (uploaded file)
-    # -----------------------------
-    with open(CELL_TYPES_IN_FTUS, "r") as f:
-        data = json.load(f)
-
-    def short_label_from_iri(iri):
-        if not iri:
-            return "unknown"
-        path = urlsplit(iri).path
-        tail = path.rstrip("/").split("/")[-1]
-        return tail or iri
+    """UpSet plot of which CTs are in each FTU's illustration and/or ASCT+B table"""
 
     memberships = []
-
-    # -----------------------------
-    # Build memberships
-    # -----------------------------
-    for ftu in data:
-        iri = ftu.get("iri") or "unknown_iri"
-        iri_short = short_label_from_iri(iri)
-
-        set_name_illus = f"Illustration|{iri_short}"
-        set_name_asctb = f"ASCTB|{iri_short}"
-
-        illustration_ids = {
-            ct.get("representation_of")
-            for ct in ftu.get("cell_types_in_illustration", [])
-            if ct.get("representation_of") is not None
-        }
-
-        asctb_ids = {
-            ct.get("cell_id")
-            for ct in ftu.get("cell_types_in_asctb_ftu_column", [])
-            if ct.get("cell_id") is not None
-        }
-
-        for cid in illustration_ids | asctb_ids:
+    for ftu in load_ct_sets_per_ftu().itertuples(index=False):
+        for ct in ftu.illustration | ftu.asctb:
             membership = []
-            if cid in illustration_ids:
-                membership.append(set_name_illus)
-            if cid in asctb_ids:
-                membership.append(set_name_asctb)
+            if ct in ftu.illustration:
+                membership.append(f"Illustration|{ftu.ftu}")
+            if ct in ftu.asctb:
+                membership.append(f"ASCTB|{ftu.ftu}")
             memberships.append(membership)
 
-    # -----------------------------
-    # Create UpSet data
-    # -----------------------------
     upset_data = from_memberships(memberships)
 
-    # -----------------------------
-    # Plot
-    # -----------------------------
     fig = plt.figure(figsize=(20, 10))
-    up = UpSet(upset_data, show_counts=True, subset_size="count")
-    # plt.subplots_adjust(left=0.8)
-    for ax in fig.axes:
-        ax.tick_params(axis='y', labelsize=44)
-    up.plot()
-    
+    # UpSetPlot 0.9.0's own show_counts crashes with numpy 2 / matplotlib 3.10, so label the bars ourselves
+    up = UpSet(upset_data, show_counts=False, subset_size="count")
+    axes = up.plot(fig=fig)
+    axes["intersections"].bar_label(axes["intersections"].containers[0])
 
     plt.title("UpSet: Illustration vs. ASCT+B per FTU", fontsize=44)
     plt.tight_layout()
 
-    # -----------------------------
-    # Save figure
-    # -----------------------------
-    out_path = os.path.join(REPORTS_DIR, OUT_FILE)
-    plt.savefig(out_path, dpi=300)
+    plt.savefig(os.path.join(REPORTS_DIR, "upset_cell_type_overlap.png"), dpi=300)
     plt.close()
 
 
-# print(f"Figure saved to: {out_path}")
-
-
 def visualize_bar_graph():
-    # requirements: pandas, matplotlib
-    # run with: python myscript.py
-    import json
-    import pandas as pd
-    import numpy as np
-    import matplotlib.pyplot as plt
+    """Grouped bar chart (and CSV) of CTs per FTU: in the illustration, in ASCT+B, and in both"""
 
-    # --- STEP 1: load your data ---
-    # Option A: paste your JSON into a file 'data.json' and load it:
-    with open(CELL_TYPES_IN_FTUS, "r", encoding="utf-8") as f:
-        records = json.load(f)
+    df = load_ct_sets_per_ftu()
+    df["illustration_count"] = df["illustration"].apply(len)
+    df["asctb_count"] = df["asctb"].apply(len)
+    shared = [i & a for i, a in zip(df["illustration"], df["asctb"])]
+    df["shared_count"] = [len(ids) for ids in shared]
+    df["shared_ids"] = [";".join(sorted(ids)) for ids in shared]
 
-    # Option B: if you already have the Python object 'records', skip loading.
-
-    # --- STEP 2: helper functions to extract CL: ids ---
-    def extract_cl_ids_from_illustration(items):
-        ids = set()
-        for it in items:
-            v = it.get("representation_of", "") or ""
-            if isinstance(v, str) and v.startswith("CL:"):
-                ids.add(v.strip())
-        return ids
-
-    def extract_cl_ids_from_asctb(items):
-        ids = set()
-        for it in items:
-            v = it.get("cell_id", "") or ""
-            if isinstance(v, str) and v.startswith("CL:"):
-                ids.add(v.strip())
-        return ids
-
-    # --- STEP 3: compute counts per IRI ---
-    rows = []
-    for rec in records:
-        iri = rec.get("iri", "<no-iri>")
-        illu_ids = extract_cl_ids_from_illustration(
-            rec.get("cell_types_in_illustration", [])
-        )
-        asctb_ids = extract_cl_ids_from_asctb(
-            rec.get("cell_types_in_asctb_ftu_column", [])
-        )
-        shared = illu_ids.intersection(asctb_ids)
-        rows.append(
-            {
-                "iri": iri,
-                "illustration_count": len(illu_ids),
-                "asctb_count": len(asctb_ids),
-                "shared_count": len(shared),
-                "shared_ids": ";".join(sorted(shared)),
-            }
-        )
-
-    df = pd.DataFrame(rows)
-
-    # sort rows by shared_count descending (optional)
     df = df.sort_values("shared_count", ascending=False).reset_index(drop=True)
+    columns = ["ftu", "illustration_count", "asctb_count", "shared_count", "shared_ids"]
+    print(df[columns[:-1]].to_string(index=False))
+    df[columns].to_csv(f"{REPORTS_DIR}/celltype_counts_by_ftu.csv", index=False)
 
-    # --- STEP 4: show / save the table ---
-    print(
-        df[["iri", "illustration_count", "asctb_count", "shared_count"]].to_string(
-            index=False
-        )
-    )
-    df.to_csv("celltype_counts_by_iri.csv", index=False)  # optional export
-
-    # --- STEP 5: grouped bar chart ---
     x = np.arange(len(df))
     width = 0.25
 
-    fig, ax = plt.subplots(
-        figsize=(max(8, len(df) * 0.5), 6)
-    )  # widen figure if many IRIs
+    fig, ax = plt.subplots(figsize=(max(8, len(df) * 0.5), 6))
     ax.bar(x - width, df["illustration_count"], width, label="illustration_count")
     ax.bar(x, df["asctb_count"], width, label="asctb_count")
     ax.bar(x + width, df["shared_count"], width, label="shared_count")
 
-    # create short labels by splitting on '/'
-    df['iri_short'] = df['iri'].apply(lambda s: s.rstrip('/').split('/')[-1])
-
     ax.set_xticks(x)
-    ax.set_xticklabels(df["iri_short"], rotation=45, ha="right", fontsize=9)
+    ax.set_xticklabels(df["ftu"], rotation=45, ha="right", fontsize=9)
     ax.set_ylabel("Count")
-    ax.set_title(
-        "Cell types per FTU: illustration vs. ASCT+B vs. shared (CL IDs only)"
-    )
+    ax.set_title("Cell types per FTU: illustration vs. ASCT+B vs. shared (CL IDs only)")
     ax.legend()
     plt.tight_layout()
 
-    # save file and show
     plt.savefig(f"{REPORTS_DIR}/celltype_counts_grouped_bar.png", dpi=150, bbox_inches="tight")
-    plt.show()
+    plt.close()
 
 
 def main():

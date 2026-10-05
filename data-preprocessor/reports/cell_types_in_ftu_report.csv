@@ -1,27 +1,28 @@
-iri,organ_label,cell_types_in_illustration,cell_types_in_asctb_ftu_column
-kidney-renal-corpuscle,kidney,8,4
-kidney-thick-ascending-loop-of-henle,kidney,2,3
-kidney-descending-thin-loop-of-henle,kidney,2,5
-kidney-nephron,kidney,20,25
-kidney-cortical-collecting-duct,kidney,4,2
-kidney-ascending-thin-loop-of-henle,kidney,2,1
-kidney-outer-medullary-collecting-duct,kidney,3,2
-kidney-inner-medullary-collecting-duct,kidney,2,1
-large-intestine-crypt-lieberkuhn,large intestine,5,14
-liver-liver-lobule,liver,11,30
-lung-bronchial-submucosal-gland,lung,6,6
-lung-pulmonary-alveolus,lung,6,7
-mouth-submandibular-gland,mouth,10,20
-mouth-parotid-gland,mouth,11,19
-mouth-sublingual-gland,mouth,9,16
-pancreas-pancreatic-acinus,pancreas,6,6
-pancreas-islets-langerhans,pancreas,7,12
-pancreas-intercalated-duct,pancreas,4,5
-prostate-prostate-glandular-acinus,prostate gland,8,9
-skin-dermal-papilla,skin of body,2,0
-skin-hair-follicle,skin of body,11,3
-skin-epidermal-ridge,skin of body,5,7
-small-intestine-villus,small intestine,15,19
-spleen-white-pulp,spleen,9,40
-spleen-red-pulp,spleen,9,25
-thymus-thymus-lobule,thymus,14,47
+ftu,organ_label,cell_types_illustration,cell_types_asctb,cell_types_exclusive
+liver-liver-lobule,Liver,11,11,9
+pancreas-endocrine-pancreas,Pancreas,7,6,5
+pancreas-pancreatic-acinus,Pancreas,4,3,3
+pancreas-intercalated-duct,Pancreas,2,1,0
+small-intestine-villus,Small Intestine,15,15,1
+kidney-renal-corpuscle,kidney,9,4,4
+kidney-nephron,kidney,10,7,7
+kidney-descending-thin-loop-of-henle,kidney,2,1,1
+kidney-thick-ascending-loop-of-henle,kidney,2,1,1
+kidney-ascending-thin-loop-of-henle,kidney,2,1,1
+kidney-cortical-collecting-duct,kidney,3,2,0
+kidney-outer-medullary-collecting-duct,kidney,3,2,2
+kidney-inner-medullary-collecting-duct,kidney,2,1,1
+large-intestine-crypt-lieberkuhn,large intestine,5,5,0
+lung-pulmonary-alveolus,lung,6,5,0
+lung-bronchial-submucosal-gland,lung,6,6,0
+mouth-submandibular-gland,mouth,14,0,0
+mouth-parotid-gland,mouth,15,0,0
+mouth-sublingual-gland,mouth,12,0,0
+placenta-chorionic-terminal-villus,placenta,6,6,6
+prostate-prostate-glandular-acinus,prostate gland,9,7,7
+skin-dermal-papilla,skin,2,0,0
+skin-hair-follicle,skin,5,4,4
+skin-epidermal-ridge,skin,5,5,3
+spleen-red-pulp,spleen,10,6,5
+spleen-white-pulp,spleen,10,8,2
+thymus-thymus-lobule,thoracic thymus,13,11,8

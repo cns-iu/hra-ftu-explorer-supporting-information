@@ -26,7 +26,13 @@ from colorama import Fore, Style, init
 REPO_ROOT = Path(__file__).parent.parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
-from shared_common import config, iterate_through_json_lines, iri_to_curie  # noqa: E402
+from shared_common import (  # noqa: E402
+    ANNOTATION_METHOD_PREFERENCE,
+    config,
+    iri_to_curie,
+    iterate_through_json_lines,
+    method_rank,
+)
 
 # Make folder for input data
 INPUT_DIR = Path(__file__).parent.parent / "input"
@@ -84,6 +90,40 @@ ANATOMOGRAMN_METADATA = INPUT_DIR / config["ANATOMOGRAMN_METADATA"]
 ANATOMOGRAMN_RAW_DATA = RAW_DATA_DIR / config["ANATOMOGRAMN_RAW_DATA"]
 DATASETS_OF_INTEREST = OUTPUT_DIR / config["DATASETS_OF_INTEREST"]
 FTU_TO_DATASETS = OUTPUT_DIR / config["FTU_TO_DATASETS"]
+
+# Anatomogram (EBI Single Cell Expression Atlas) inputs, committed at the repo root
+ANATOMOGRAM_DATA_DIR = REPO_ROOT / config["ANATOMOGRAM_DATA_DIR"]
+ANATOMOGRAM_CELL_SUMMARIES_FILENAME = (
+    ANATOMOGRAM_DATA_DIR / config["ANATOMOGRAM_CELL_SUMMARIES_FILENAME"]
+)
+ANATOMOGRAM_DATASET_METADATA_FILENAME = (
+    ANATOMOGRAM_DATA_DIR / config["ANATOMOGRAM_DATASET_METADATA_FILENAME"]
+)
+ANATOMOGRAM_FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME = (
+    RAW_DATA_DIR
+    / config["ANATOMOGRAM_FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME"]
+)
+ANATOMOGRAM_FILTERED_DATASET_METADATA_FILENAME = (
+    OUTPUT_DIR / config["ANATOMOGRAM_FILTERED_DATASET_METADATA_FILENAME"]
+)
+ANATOMOGRAM_DATASETS_OF_INTEREST = OUTPUT_DIR / config["ANATOMOGRAM_DATASETS_OF_INTEREST"]
+
+# Every source of cell type populations that 40/41 combine into the FTU Explorer JSON-LD files.
+# Each one is filtered to FTU-exclusive cell types by its own preprocessing stage (20, 25, ...).
+CELL_SUMMARY_SOURCES = [
+    {
+        "name": "HRApop",
+        "dataset_metadata": UNIVERSE_METADATA_FILENAME,
+        "intermediary": FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME,
+        "filtered_dataset_metadata": FILTERED_DATASET_METADATA_FILENAME,
+    },
+    {
+        "name": "Anatomogram",
+        "dataset_metadata": ANATOMOGRAM_DATASET_METADATA_FILENAME,
+        "intermediary": ANATOMOGRAM_FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME,
+        "filtered_dataset_metadata": ANATOMOGRAM_FILTERED_DATASET_METADATA_FILENAME,
+    },
+]
 
 # Commonly used HTTP Accept headers for API requests
 accept_json = {"Accept": "application/json"}
@@ -558,3 +598,212 @@ def unzip_to_folder(file_path: str, target_folder: str):
     # Otherwise, unzip
     shutil.unpack_archive(file_path, target)
     print(f"Unzipped {file_path} → {target}")
+
+
+def iterate_filtered_cell_summaries():
+    """Yields the FTU-filtered cell type populations of every source in CELL_SUMMARY_SOURCES"""
+    for source in CELL_SUMMARY_SOURCES:
+        yield from iterate_through_json_lines(source["intermediary"])
+
+
+def load_exclusive_cts_by_ftu() -> dict[str, set[str]]:
+    """ftu_purl -> CURIEs of the CTs exclusive to that FTU (exclusive_ct_in_ftu in FTU_QUERY).
+    A CT exclusive to several FTUs of one organ (e.g., the nephron and a loop of Henle inside it)
+    counts for each of them, as in analysis/cell_types_and_datasets_per_ftu.py"""
+    with open(CELL_TYPES_IN_FTUS, "r", encoding="utf-8") as f:
+        cell_types_in_ftus = json.load(f)
+    return {
+        ftu["ftu_purl"]: {get_id_from_iri(ct["ct_iri"]) for ct in ftu.get("cts_exclusive", [])}
+        for ftu in cell_types_in_ftus.values()
+    }
+
+
+def get_preferred_annotation_methods() -> dict[str, str]:
+    """dataset_id -> the annotation method to use for it: the first one in
+    ANNOTATION_METHOD_PREFERENCE among those that found FTU-exclusive cell types"""
+    methods = defaultdict(set)
+    for obj in iterate_filtered_cell_summaries():
+        methods[obj["cell_source"]].add(obj["annotation_method"])
+    return {
+        dataset_id: min(dataset_methods, key=method_rank)
+        for dataset_id, dataset_methods in methods.items()
+    }
+
+
+def iterate_preferred_cell_summaries():
+    """Like iterate_filtered_cell_summaries, but only one annotation method per dataset
+    (see get_preferred_annotation_methods), so the same cells are never counted twice"""
+    preferred = get_preferred_annotation_methods()
+    for obj in iterate_filtered_cell_summaries():
+        if obj["annotation_method"] == preferred[obj["cell_source"]]:
+            yield obj
+
+
+def load_filtered_dataset_metadata() -> dict:
+    """dataset_id -> [{ct_iri, ftu_purl}, ...], merged across CELL_SUMMARY_SOURCES"""
+    merged = {}
+    for source in CELL_SUMMARY_SOURCES:
+        with open(source["filtered_dataset_metadata"], "r", encoding="utf-8") as f:
+            merged.update(json.load(f))
+    return merged
+
+
+def load_dataset_metadata() -> pd.DataFrame:
+    """Dataset metadata CSVs (all share the HRApop column layout), concatenated across CELL_SUMMARY_SOURCES"""
+    return pd.concat(
+        [pd.read_csv(source["dataset_metadata"]) for source in CELL_SUMMARY_SOURCES],
+        ignore_index=True,
+    )
+
+
+def get_organ_from_dataset_metadata(
+    dataset_id_to_check: str, metadata: pd.DataFrame
+) -> str | None:
+    """
+    Get the organ label for a given dataset ID from the metadata.
+
+    Args:
+        check_dataset_id (str): The dataset ID to look up.
+
+    Returns:
+        str | None: The corresponding organ label, or None if not found.
+    """
+
+    match = metadata.loc[metadata["dataset_id"] == dataset_id_to_check, "organ"]
+
+    return match.iloc[0] if not match.empty else None
+
+
+def identify_datasets_of_interest(
+    cell_types_in_ftus: list, metadata: pd.DataFrame, output_path: Path
+) -> list:
+    """Lists {dataset_id: organ_id} for every dataset from an organ with FTUs and saves it to output_path"""
+
+    result = []
+
+    for dataset_id in metadata["dataset_id"].unique():
+        organ_id = get_organ_from_dataset_metadata(dataset_id, metadata)
+        organ_has_ftus = comes_from_organ_with_ftu(organ_id, cell_types_in_ftus)
+
+        if organ_has_ftus:
+            result.append({dataset_id: organ_id})
+            print(f"Of interest: {dataset_id}")
+
+    data = {"datasets_of_interest": result}
+
+    with open(output_path, "w") as f:
+        json.dump(data, f, indent=4)
+    return list(result)
+
+
+def filter_cell_summaries(
+    datasets_of_interest: list,
+    cell_types_in_ftus: list,
+    cell_summaries_path: Path,
+    intermediary_path: Path,
+    filtered_dataset_metadata_path: Path,
+):
+    """
+    Stream and filter a (possibly gzipped) JSONL file of cell type populations
+    (e.g., the ≈36 GB HRApop Universe), keeping only datasets and cell type
+    populations related to organs that have Functional Tissue Units (FTUs).
+
+    Writes the kept cell type populations to intermediary_path and
+    dataset_id -> [{ct_iri, ftu_purl}, ...] to filtered_dataset_metadata_path.
+
+    Shows a live progress bar while processing.
+    """
+
+    # Create a dictionary to hold datasets and confirmed CTs in FTUs from the run
+    datasets_with_ftus = {}
+
+    unique_dataset_ids_of_interest = set(
+        [list(d.keys())[0] for d in datasets_of_interest]
+    )
+
+    # In the future, use duckdb and https://duckdb.org/docs/stable/data/json/loading_json to read the JSON-lines file?
+
+    # Precompile one regex for all dataset IDs of interest
+    pattern = re.compile("|".join(map(re.escape, unique_dataset_ids_of_interest)))
+
+    # Numbers of characters to search in line before loading to JSON
+    N = 500
+
+    open_fn = gzip.open if is_gzipped(str(cell_summaries_path)) else open
+
+    # Stream through the JSONL file
+    with (
+        open_fn(cell_summaries_path, "rt", encoding="utf-8") as f,
+        open(
+            intermediary_path,
+            "w",
+            encoding="utf-8",
+        ) as intermediary_file,
+    ):
+        # tqdm with no total (dynamic progress)
+        for line in tqdm(f, desc="Processing JSONL lines", unit="line"):
+            # Guard clauses
+            if not line.strip():
+                continue
+            # Quick text pre-filter — skips most lines cheaply
+            if not pattern.search(line[:N]):
+                continue  # no dataset ID → skip
+
+            try:
+                cell_summary = ujson.loads(line)
+            except ujson.JSONDecodeError as e:
+                tqdm.write(f"⚠️ Skipping invalid JSON line: {e}")
+                continue
+
+            current_dataset_id = cell_summary["cell_source"]
+
+            if current_dataset_id in unique_dataset_ids_of_interest:
+                keep_summaries = []
+
+                for cell_type in cell_summary.get("summary", []):
+                    organ_id = next(
+                        (
+                            v
+                            for d in datasets_of_interest
+                            for k, v in d.items()
+                            if k == current_dataset_id
+                        ),
+                        "ORGAN NOT FOUND",  # default if not found
+                    )
+
+                    matches = is_cell_type_exclusive_to_ftu(
+                        cell_type.get("cell_id"), organ_id, cell_types_in_ftus
+                    )
+
+                    if matches:
+                        keep_summaries.append(cell_type)
+                        tqdm.write(
+                            f"{cell_type['cell_id']} is exclusive to FTU. Matches: "
+                        )
+                        tqdm.write(str(matches))
+
+                        if current_dataset_id not in datasets_with_ftus:
+                            datasets_with_ftus[current_dataset_id] = []
+                        datasets_with_ftus[current_dataset_id].extend(matches)
+
+                if keep_summaries:
+                    tqdm.write(
+                        f"Found {len(datasets_with_ftus[current_dataset_id])} CT(s) in dataset {current_dataset_id} that is exclusive to FTU."
+                    )
+
+                    keep_cell_type_population = {
+                        k: v for k, v in cell_summary.items() if k != "summary"
+                    }
+
+                    keep_cell_type_population["summary"] = keep_summaries
+
+                    intermediary_file.write(
+                        json.dumps(keep_cell_type_population) + "\n"
+                    )
+
+                    tqdm.write("Wrote to file.")
+
+                    tqdm.write("")
+
+    with open(filtered_dataset_metadata_path, "w") as f:
+        json.dump(datasets_with_ftus, f, indent=4)  # indent=4 makes it pretty
