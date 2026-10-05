@@ -1,0 +1,76 @@
+{
+    "datasets_of_interest": [
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy2": "UBERON:0002113"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4": "UBERON:0001264"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H3": "UBERON:0001264"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D1": "UBERON:0001264"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy3": "UBERON:0002113"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H2": "UBERON:0001264"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor2": "UBERON:0002107"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H6": "UBERON:0001264"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy1": "UBERON:0002113"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor3": "UBERON:0002107"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D4": "UBERON:0001264"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2": "UBERON:0001264"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc5103-main_bronchus": "UBERON:0002048"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy4": "UBERON:0002113"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor4": "UBERON:0002107"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc3843-upper_lobe_of_left_lung": "UBERON:0002048"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H5": "UBERON:0001264"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc4658-upper_lobe_of_left_lung": "UBERON:0002048"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor5": "UBERON:0002107"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D3": "UBERON:0001264"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy5": "UBERON:0002113"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor6": "UBERON:0002107"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc5104-upper_lobe_of_left_lung": "UBERON:0002048"
+        },
+        {
+            "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor1": "UBERON:0002107"
+        }
+    ]
+}

@@ -1,0 +1,2090 @@
+{
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy2": [
+        {
+            "ct_iri": "CL:1000768",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000850",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:4030009",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1001005",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000452",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000716",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-outer-medullary-collecting-duct"
+        },
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000768",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1001106",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1001106",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-thick-ascending-loop-of-henle"
+        },
+        {
+            "ct_iri": "CL:1000849",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1000452",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4": [
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002144",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002144",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H3": [
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D1": [
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002144",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002144",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy3": [
+        {
+            "ct_iri": "CL:4030009",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1000452",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000768",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000850",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1001005",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000716",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-outer-medullary-collecting-duct"
+        },
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000849",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000768",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1001106",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1001106",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-thick-ascending-loop-of-henle"
+        },
+        {
+            "ct_iri": "CL:1000452",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H2": [
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002144",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002144",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor2": [
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000413",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000413",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000091",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000091",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H6": [
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002144",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002144",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy1": [
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:4030009",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1000768",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1000850",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1000452",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1001005",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000716",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-outer-medullary-collecting-duct"
+        },
+        {
+            "ct_iri": "CL:1000717",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-outer-medullary-collecting-duct"
+        },
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1001106",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1001106",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-thick-ascending-loop-of-henle"
+        },
+        {
+            "ct_iri": "CL:1000768",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000849",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1000452",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor3": [
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000091",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000091",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D4": [
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2": [
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002144",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002144",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy4": [
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:4030009",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1000768",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1000452",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000850",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1001005",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000717",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-outer-medullary-collecting-duct"
+        },
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000849",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1001106",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1001106",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-thick-ascending-loop-of-henle"
+        },
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000768",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1000452",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor4": [
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000091",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000091",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H5": [
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0002144",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002144",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor5": [
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000091",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000091",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D3": [
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002064",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-pancreatic-acinus"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002144",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002144",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000171",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0002275",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000173",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        },
+        {
+            "ct_iri": "CL:0000169",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy5": [
+        {
+            "ct_iri": "CL:1000768",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:4030009",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1000452",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1001005",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000850",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1001107",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1001107",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-ascending-thin-loop-of-henle"
+        },
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:1000849",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1001106",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1001106",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-thick-ascending-loop-of-henle"
+        },
+        {
+            "ct_iri": "CL:1000768",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-nephron"
+        },
+        {
+            "ct_iri": "CL:1000452",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        },
+        {
+            "ct_iri": "CL:0000653",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/kidney-renal-corpuscle"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor6": [
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000091",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000091",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        }
+    ],
+    "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor1": [
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000413",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000413",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000182",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:1000398",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000091",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        },
+        {
+            "ct_iri": "CL:0000091",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/liver-liver-lobule"
+        }
+    ]
+}

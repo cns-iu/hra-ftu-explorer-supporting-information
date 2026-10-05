@@ -25,6 +25,32 @@ def load_json(file_path: str | Path):
         return json.load(f)
 
 
+# A dataset can have one cell summary per annotation method (tool). To never count
+# the same cells twice, each dataset is used with exactly one tool: the first one
+# in this order that the dataset has a cell summary for. "author" (the original
+# authors' labels, anatomogram data only) is a last resort
+ANNOTATION_METHOD_PREFERENCE = (
+    "azimuth",
+    "celltypist",
+    "popv",
+    "fr-match",
+    "pan-human-azimuth",
+    "author",
+)
+
+
+def normalize_method(method: str) -> str:
+    """Compare tool names ignoring case and separators (e.g. "FR-Match" == "fr_match")."""
+    return "".join(char for char in method.lower() if char.isalnum())
+
+
+def method_rank(method: str) -> int:
+    """Position of a tool in ANNOTATION_METHOD_PREFERENCE; unknown tools rank last."""
+    preference = [normalize_method(m) for m in ANNOTATION_METHOD_PREFERENCE]
+    method = normalize_method(method)
+    return preference.index(method) if method in preference else len(preference)
+
+
 def iri_to_curie(iri: str) -> str:
     """Replace an IRI with a compact URI (CURIE)"""
     return iri.rsplit("/", 1)[-1].replace("_", ":")

@@ -23,3 +23,18 @@ UNIVERSE_SANKEY_FILENAME : universe-ad-hoc/sankey.csv
 FTU_TO_DATASETS : "ftu_to_datasets.json"
 # Crossref title/year/authors per publication DOI, cached between runs of 40-build-ftu-datasets-jsonld.py
 DOI_METADATA_CACHE : doi-metadata-cache.json
+
+# Anatomogram (EBI Single Cell Expression Atlas) data, same format as the HRApop universe; folder is relative to the repo root
+ANATOMOGRAM_DATA_DIR : anatomogram-data
+ANATOMOGRAM_CELL_SUMMARIES_FILENAME : anatomogram-sc-transcriptomics-cell-summaries.jsonl.gz
+ANATOMOGRAM_DATASET_METADATA_FILENAME : anatomogram-sc-transcriptomics-dataset-metadata.csv
+ANATOMOGRAM_FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME : anatomogram_cell_type_populations_intermediary.jsonl
+ANATOMOGRAM_FILTERED_DATASET_METADATA_FILENAME : anatomogram-filtered-dataset-metadata.json
+ANATOMOGRAM_DATASETS_OF_INTEREST : anatomogram-datasets-of-interest.json
+
+# Publication DOIs for CellxGene collections that HRApop has none for, keyed by collection ID.
+# Applied by 40-build-ftu-datasets-jsonld.py only where a dataset's `publication` is empty.
+DOI_OVERRIDES :
+  # "An atlas of healthy and injured cell states and niches in the human kidney (Version 1.5)";
+  # HRApop has this DOI only on the Version 1.0 collection (bcb61471-2a44-4d00-a0af-ff085512674c)
+  0f528c8a-a25c-4840-8fa3-d156fa11086f : https://doi.org/10.1038/s41586-023-05769-3

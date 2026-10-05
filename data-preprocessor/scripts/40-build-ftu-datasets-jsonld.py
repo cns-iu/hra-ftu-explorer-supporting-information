@@ -15,10 +15,11 @@ ANNOTATION_TOOL_LABELS = {
     "azimuth": "Azimuth",
     "celltypist": "CellTypist",
     "popv": "popV",
+    # Only in the anatomogram data
+    "pan-human-azimuth": "Pan-Human Azimuth",
+    "author": "Author annotation",
+    "frmatch": "FR-Match",
 }
-
-# Order in which annotation tools are listed (same as the pipeline's preference order)
-ANNOTATION_TOOL_ORDER = ["azimuth", "celltypist", "popv"]
 
 # Required (non-optional) strings in hra-ui's RAW_DATASETS schema
 REQUIRED_STRING_FIELDS = {"label", "link", "description"}
@@ -95,14 +96,19 @@ def get_doi_metadata(dois):
     return cache
 
 
-def get_annotation_tools_by_dataset():
-    """dataset_id -> annotation tools that produced the cell type populations we use"""
-    tools = defaultdict(set)
-    for obj in iterate_through_json_lines(
-        FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME
-    ):
-        tools[obj["cell_source"]].add(obj["annotation_method"])
-    return tools
+def get_preferred_tool_and_cts_by_dataset():
+    """dataset_id -> (the one annotation tool used for it, the cell types that tool found),
+    matching what 41 puts into the cell summaries"""
+    tool_and_cts = {}
+    for obj in iterate_preferred_cell_summaries():
+        _, cts = tool_and_cts.setdefault(obj["cell_source"], (obj["annotation_method"], set()))
+        # Some HRApop rows have gene_expr == "[]" (a string, no genes); 41 skips those, so skip them here too
+        cts.update(
+            summary["cell_id"]
+            for summary in obj.get("summary", [])
+            if isinstance(summary.get("gene_expr"), list) and summary["gene_expr"]
+        )
+    return tool_and_cts
 
 
 def get_dataset_title(row):
@@ -113,7 +119,7 @@ def get_dataset_title(row):
     return row["id"]
 
 
-def build_data_source(row, dataset_id, ftu_suffix, annotation_tools, doi_metadata):
+def build_data_source(row, dataset_id, ftu_suffix, annotation_tool, doi_metadata):
     doi = clean(row["publication"])
     paper = doi_metadata.get(doi, {}) if doi else {}
 
@@ -131,16 +137,8 @@ def build_data_source(row, dataset_id, ftu_suffix, annotation_tools, doi_metadat
         "authors": [a for a in authors if a],
         "dataset_id": dataset_id,
         "dataset_link": clean(row["dataset_link"]),
-        "cell_type_annotation_tool": ", ".join(
-            ANNOTATION_TOOL_LABELS.get(t, t)
-            for t in sorted(
-                annotation_tools,
-                key=lambda t: (
-                    ANNOTATION_TOOL_ORDER.index(t)
-                    if t in ANNOTATION_TOOL_ORDER
-                    else len(ANNOTATION_TOOL_ORDER)
-                ),
-            )
+        "cell_type_annotation_tool": ANNOTATION_TOOL_LABELS.get(
+            annotation_tool, annotation_tool
         ),
         # health_status: not in HRApop's dataset metadata, so not emitted yet
         "sex": get_sex(row["donor_sex"]),
@@ -159,20 +157,44 @@ def build_data_source(row, dataset_id, ftu_suffix, annotation_tools, doi_metadat
     }
 
 
+def apply_doi_overrides(metadata: pd.DataFrame) -> pd.DataFrame:
+    """Fills in `publication` from config's DOI_OVERRIDES (CellxGene collection ID -> DOI)
+    for datasets that have none, so Crossref can supply their title/year/authors"""
+    metadata = metadata.copy()
+    collection_ids = metadata["dataset_id"].str.extract(
+        r"/collections/([0-9a-f-]+)", expand=False
+    )
+    override_dois = collection_ids.map(config.get("DOI_OVERRIDES") or {})
+    missing = metadata["publication"].map(clean).isna() & override_dois.notna()
+    metadata.loc[missing, "publication"] = override_dois[missing]
+    print(f"Filled in {missing.sum()} missing DOI(s) from DOI_OVERRIDES")
+    return metadata
+
+
 def build_ftu_datasets_jsonld(metadata: pd.DataFrame):
     out_json_ld = copy.deepcopy(context_template)
 
+    tool_and_cts_by_dataset = get_preferred_tool_and_cts_by_dataset()
+
+    exclusive_cts_by_ftu = load_exclusive_cts_by_ftu()
+
+    # A dataset belongs to an FTU only if its preferred annotation tool found a CT that is
+    # exclusive to that FTU in the current cell-types-in-ftus.json, i.e., exactly when 41
+    # writes a cell summary for it (so the table has no rows without expression data)
     ftu_to_datasets = defaultdict(set)
-    with open(FILTERED_DATASET_METADATA_FILENAME, "r") as f:
-        for dataset_id, cts in json.load(f).items():
-            for ct in cts:
-                ftu_to_datasets[ct["ftu_purl"]].add(dataset_id)
+    for dataset_id, matches in load_filtered_dataset_metadata().items():
+        _, preferred_cts = tool_and_cts_by_dataset.get(dataset_id, (None, set()))
+        for match in matches:
+            ftu = match["ftu_purl"]
+            ct = get_id_from_iri(match["ct_iri"])
+            if ct in preferred_cts and ct in exclusive_cts_by_ftu.get(ftu, set()):
+                ftu_to_datasets[ftu].add(dataset_id)
     ftu_to_datasets = {k: sorted(v) for k, v in ftu_to_datasets.items()}
 
     with open(FTU_TO_DATASETS, "w") as output:
         json.dump(ftu_to_datasets, output, indent=4)
 
-    annotation_tools_by_dataset = get_annotation_tools_by_dataset()
+    metadata = apply_doi_overrides(metadata)
     metadata_by_dataset = metadata.drop_duplicates("dataset_id").set_index(
         "dataset_id", drop=False
     )
@@ -181,7 +203,7 @@ def build_ftu_datasets_jsonld(metadata: pd.DataFrame):
         d
         for ids in ftu_to_datasets.values()
         for d in ids
-        if d in annotation_tools_by_dataset and d in metadata_by_dataset.index
+        if d in metadata_by_dataset.index
     }
     doi_metadata = get_doi_metadata(
         metadata_by_dataset.loc[sorted(used_dataset_ids), "publication"]
@@ -197,7 +219,7 @@ def build_ftu_datasets_jsonld(metadata: pd.DataFrame):
                 metadata_by_dataset.loc[dataset_id],
                 dataset_id,
                 suffix,
-                annotation_tools_by_dataset[dataset_id],
+                tool_and_cts_by_dataset[dataset_id][0],
                 doi_metadata,
             )
             for dataset_id in dataset_ids
@@ -219,7 +241,7 @@ def build_ftu_datasets_jsonld(metadata: pd.DataFrame):
 
 
 def main():
-    metadata = pd.read_csv(UNIVERSE_METADATA_FILENAME).reset_index(drop=True)
+    metadata = load_dataset_metadata()
     build_ftu_datasets_jsonld(metadata=metadata)
 
 

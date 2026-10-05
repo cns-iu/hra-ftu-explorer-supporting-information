@@ -7,24 +7,6 @@ import pandas as pd
 # Keys in ftu_ct_conditions[ftu_label] holding CT lists (vs. organ metadata)
 CONDITIONS = ("in_2d_ftu", "in_asctb", "exclusive_ct_in_ftu")
 
-# A dataset can have one cell summary per annotation method (tool). To never count
-# the same cells twice, each dataset is counted from exactly one tool: the first
-# one in this order that the dataset has a cell summary for
-ANNOTATION_METHOD_PREFERENCE = ("azimuth", "celltypist", "popv", "fr-match", "pan-human-azimuth")
-
-
-def normalize_method(method: str) -> str:
-    """Compare tool names ignoring case and separators (e.g. "FR-Match" == "fr_match")."""
-    return "".join(char for char in method.lower() if char.isalnum())
-
-
-def method_rank(method: str) -> int:
-    """Position of a tool in ANNOTATION_METHOD_PREFERENCE; unknown tools rank last."""
-    preference = [normalize_method(m) for m in ANNOTATION_METHOD_PREFERENCE]
-    method = normalize_method(method)
-    return preference.index(method) if method in preference else len(preference)
-
-
 def build_ct_counts_df(ftu_ct_conditions):
     """Derive per-FTU CT counts from the ftu_ct_conditions dict."""
     records = [

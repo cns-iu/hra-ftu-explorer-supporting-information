@@ -12,7 +12,14 @@ ANALYSIS_DIR = Path(__file__).parent
 REPO_ROOT = ANALYSIS_DIR.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
-from shared_common import config, load_json, iterate_through_json_lines, iri_to_curie  # noqa: E402
+from shared_common import (  # noqa: E402
+    ANNOTATION_METHOD_PREFERENCE,
+    config,
+    iri_to_curie,
+    iterate_through_json_lines,
+    load_json,
+    method_rank,
+)
 
 # Folders
 DATA_PROCESSOR = REPO_ROOT / "data-preprocessor"
