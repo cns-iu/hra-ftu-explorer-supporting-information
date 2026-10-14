@@ -1,0 +1,210 @@
+original_cl_id,annotation_count,observed_tools,observed_labels,mapping_status,mapping_method,mapped_cl_id,mapped_label
+ASCTB-TEMP:co-expression-cell,36,author,co-expression cell,REVIEW,missing_cl_id,,
+ASCTB-TEMP:cycling-cell,61,author,cycling cell,REVIEW,missing_cl_id,,
+ASCTB-TEMP:endothelial-cell-of-vascular-tree,41,author,endothelial cell of vascular tree,REVIEW,missing_cl_id,,
+ASCTB-TEMP:transformed-epithelial-cell,180,author,transformed epithelial cell,REVIEW,missing_cl_id,,
+CL:0000037,39,author|frmatch,Hematopoietic stem cells|hematopoietic stem cell,MAPPED,direct_cl_id,CL:0000037,hematopoietic stem cell
+CL:0000057,410,author|celltypist|frmatch|pan-human-azimuth|popv,C3+ fibroblast|CCL2+SFRP2+ fibroblast|CD55+SEMA3C+ fibroblast|CFD+MGP+ fibroblast|FRZB+ fibroblast|Fibroblasts|G0S2+PPP1R14A+ fibroblast|GREB1+ fibroblast|IGFBP6+APOD+ fibroblast|PCOLCE2 fibroblast|PLA2G2A+IGFBP4+APOC1+ fibroblast|PLAC9+ fibroblast|RNASE1+ fibroblast|Subpleural fibroblasts|WISP2+ fibroblast|fibroblast,MAPPED,direct_cl_id,CL:0000057,fibroblast
+CL:0000066,1,pan-human-azimuth,Luminal cell,MAPPED,direct_cl_id,CL:0000066,epithelial cell
+CL:0000068,16,frmatch,SMG duct,MAPPED,direct_cl_id,CL:0000068,duct epithelial cell
+CL:0000071,1,popv,blood vessel endothelial cell,MAPPED,direct_cl_id,CL:0000071,blood vessel endothelial cell
+CL:0000077,73,author|frmatch|pan-human-azimuth|popv,CRABP1+ mesothelial cell|GATA4+ mesothelial cell|Mesothelium|mesothelial cell,MAPPED,direct_cl_id,CL:0000077,mesothelial cell
+CL:0000083,10,pan-human-azimuth,Metallothionein+ epithelial cell,MAPPED,direct_cl_id,CL:0000083,epithelial cell of pancreas
+CL:0000084,18270,author|azimuth|celltypist|frmatch|pan-human-azimuth|popv,INF-activated T cell|T|T cell|T cells|T cells proliferating,MAPPED,direct_cl_id,CL:0000084,T cell
+CL:0000091,623,author,Kupffer cell,REVIEW,missing_cl_id,,
+CL:0000097,1068,author|azimuth|celltypist|frmatch|pan-human-azimuth|popv,Mast cell|Mast cells|mast cell,MAPPED,direct_cl_id,CL:0000097,mast cell
+CL:0000115,2464,author|azimuth|celltypist|pan-human-azimuth|popv,Cycling EC|Endothelial cells|Endothelial‑mesenchymal transition EC|endothelial|endothelial cell,MAPPED,direct_cl_id,CL:0000115,endothelial cell
+CL:0000129,17,pan-human-azimuth,Microglia,MAPPED,direct_cl_id,CL:0000129,microglial cell
+CL:0000145,4,author,professional antigen presenting cell,MAPPED,direct_cl_id,CL:0000145,professional antigen presenting cell
+CL:0000158,229,azimuth|celltypist|frmatch|pan-human-azimuth|popv,Club (nasal)|Club (non-nasal)|Club cell|club cell,MAPPED,direct_cl_id,CL:0000158,club cell
+CL:0000169,1855,author|azimuth|celltypist|pan-human-azimuth|popv,Beta cell|beta|beta_MHC/autoantigen|beta_immature|beta_mature|beta_stress I|beta_stress II|type B pancreatic cell,MAPPED,direct_cl_id,CL:0000169,type B pancreatic cell
+CL:0000171,5343,author|azimuth|celltypist|pan-human-azimuth|popv,Alpha cell|alpha|alpha_MHC II|alpha_immature|alpha_mature|alpha_stress II|pancreatic A cell,MAPPED,direct_cl_id,CL:0000171,pancreatic A cell
+CL:0000173,911,author|azimuth|celltypist,delta|pancreatic D cell,MAPPED,direct_cl_id,CL:0000173,pancreatic D cell
+CL:0000178,34,pan-human-azimuth,Leydig cell,REVIEW,missing_cl_id,,
+CL:0000182,6873,author|celltypist|pan-human-azimuth|popv,Hepatocyte|Hepatocytes|hepatocyte,MAPPED,direct_cl_id,CL:0000182,hepatocyte
+CL:0000186,35,azimuth|celltypist|frmatch|pan-human-azimuth,Myofibroblast|Myofibroblasts,MAPPED,direct_cl_id,CL:0000186,myofibroblast cell
+CL:0000192,50,azimuth|frmatch|popv,SM activated stress response|Smooth muscle|Smooth muscle FAM83D+|smooth muscle cell,MAPPED,direct_cl_id,CL:0000192,smooth muscle cell
+CL:0000216,7,pan-human-azimuth,Sertoli cell,MAPPED,direct_cl_id,CL:0000216,Sertoli cell
+CL:0000235,3642,author|celltypist|pan-human-azimuth|popv,LYVE1 macrophage|Macrophages|macrophage,MAPPED,direct_cl_id,CL:0000235,macrophage
+CL:0000236,1149,author|azimuth|celltypist|frmatch|popv,B|B cell|B cells,MAPPED,direct_cl_id,CL:0000236,B cell
+CL:0000313,12,frmatch,SMG serous (nasal),REVIEW,missing_cl_id,,
+CL:0000322,66,azimuth|celltypist,AT0|Transitional Club-AT2,MAPPED,direct_cl_id,CL:0000322,pulmonary alveolar epithelial cell
+CL:0000359,154,azimuth|pan-human-azimuth|popv,Cortical Vascular Smooth Muscle / Pericyte|Vascular Smooth Muscle / Pericyte|Vascular smooth muscle cell|vascular associated smooth muscle cell,MAPPED,direct_cl_id,CL:0000359,vascular associated smooth muscle cell
+CL:0000451,129,pan-human-azimuth|popv,dendritic cell|mregDC,MAPPED,direct_cl_id,CL:0000451,dendritic cell
+CL:0000510,2,pan-human-azimuth,Paneth cell,MAPPED,direct_cl_id,CL:0000510,paneth cell
+CL:0000542,66,author,lymphocyte,MAPPED,direct_cl_id,CL:0000542,lymphocyte
+CL:0000576,723,pan-human-azimuth|popv,CD16 monocyte|monocyte,MAPPED,direct_cl_id,CL:0000576,monocyte
+CL:0000577,1,pan-human-azimuth,Enterochromaffin cell,MAPPED,direct_cl_id,CL:0000577,type EC enteroendocrine cell
+CL:0000583,2226,azimuth|celltypist|frmatch|pan-human-azimuth,Alveolar Mph proliferating|Alveolar macrophage|Alveolar macrophages,MAPPED,direct_cl_id,CL:0000583,alveolar macrophage
+CL:0000622,181,author,acinar cell,MAPPED,direct_cl_id,CL:0000622,acinar cell
+CL:0000623,1035,author|celltypist|frmatch,NK cells|natural killer cell,MAPPED,direct_cl_id,CL:0000623,natural killer cell
+CL:0000624,396,azimuth|celltypist|frmatch|popv,"CD4 T cells|CD4-positive, alpha-beta T cell",MAPPED,direct_cl_id,CL:0000624,"CD4-positive, alpha-beta T cell"
+CL:0000625,352,azimuth|celltypist|frmatch|popv,"CD8 T cells|CD8-positive, alpha-beta T cell",MAPPED,direct_cl_id,CL:0000625,"CD8-positive, alpha-beta T cell"
+CL:0000648,16,azimuth,Renin-positive Juxtaglomerular Granular,MAPPED,direct_cl_id,CL:0000648,kidney granular cell
+CL:0000650,115,azimuth,Mesangial,MAPPED,direct_cl_id,CL:0000650,mesangial cell
+CL:0000653,1055,author|azimuth|pan-human-azimuth,Podocyte|glomerular visceral epithelial cell,MAPPED,direct_cl_id,CL:0000653,podocyte
+CL:0000669,11,pan-human-azimuth,Pericyte,MAPPED,direct_cl_id,CL:0000669,pericyte
+CL:0000738,76,author|azimuth,immune|leukocyte,MAPPED,direct_cl_id,CL:0000738,leukocyte
+CL:0000763,922,celltypist|popv,Mono+mono derived cells|myeloid cell,MAPPED,direct_cl_id,CL:0000763,myeloid cell
+CL:0000765,6,pan-human-azimuth,Intermediate EPCAM+ erythroblast|Late hemoglobin+ erythroblast,MAPPED,direct_cl_id,CL:0000765,erythroblast
+CL:0000767,314,celltypist|popv,Basophils|basophil,MAPPED,direct_cl_id,CL:0000767,basophil
+CL:0000775,1108,celltypist|pan-human-azimuth|popv,Neutrophil|Neutrophils|neutrophil,MAPPED,direct_cl_id,CL:0000775,neutrophil
+CL:0000777,239,author,mesangial cell,REVIEW,missing_cl_id,,
+CL:0000782,7,celltypist,Mig.cDCs,MAPPED,direct_cl_id,CL:0000782,myeloid dendritic cell
+CL:0000784,175,celltypist|frmatch|pan-human-azimuth|popv,Plasmacytoid DCs|pDC|pDCs|plasmacytoid dendritic cell,MAPPED,direct_cl_id,CL:0000784,plasmacytoid dendritic cell
+CL:0000786,2281,author|celltypist|frmatch|pan-human-azimuth|popv,Plasma cell|Plasma cells|plasma cell,MAPPED,direct_cl_id,CL:0000786,plasma cell
+CL:0000787,45,pan-human-azimuth,Memory B cell,MAPPED,direct_cl_id,CL:0000787,memory B cell
+CL:0000788,367,pan-human-azimuth,Naive B cell,MAPPED,direct_cl_id,CL:0000788,naive B cell
+CL:0000790,12,pan-human-azimuth,abT (entry) cell,MAPPED,direct_cl_id,CL:0000790,immature alpha-beta T cell
+CL:0000792,38,pan-human-azimuth,Treg cell,MAPPED,direct_cl_id,CL:0000792,"CD4-positive, CD25-positive, alpha-beta regulatory T cell"
+CL:0000798,1,pan-human-azimuth,gdT cell,MAPPED,direct_cl_id,CL:0000798,gamma-delta T cell
+CL:0000814,6158,azimuth|celltypist|pan-human-azimuth|popv,Circulating NK/NKT|Cycling T/NK cell|Natural Killer T|mature NK T cell,MAPPED,direct_cl_id,CL:0000814,mature NK T cell
+CL:0000817,12,pan-human-azimuth,PreB cell,MAPPED,direct_cl_id,CL:0000817,precursor B cell
+CL:0000826,10,pan-human-azimuth,ProB cell,MAPPED,direct_cl_id,CL:0000826,pro-B cell
+CL:0000837,74,pan-human-azimuth,MPP,MAPPED,direct_cl_id,CL:0000837,hematopoietic multipotent progenitor cell
+CL:0000838,1,pan-human-azimuth,Pre-ProB cell,MAPPED,direct_cl_id,CL:0000838,lymphoid lineage restricted progenitor cell
+CL:0000844,4,pan-human-azimuth,Germinal center B cell,MAPPED,direct_cl_id,CL:0000844,germinal center B cell
+CL:0000860,1012,azimuth|celltypist|frmatch|popv,Classical monocytes|classical monocyte,MAPPED,direct_cl_id,CL:0000860,classical monocyte
+CL:0000861,23,frmatch,Monocyte-derived Mph,MAPPED,direct_cl_id,CL:0000861,elicited macrophage
+CL:0000863,639,pan-human-azimuth,M1 macrophage,MAPPED,direct_cl_id,CL:0000863,M1 macrophage
+CL:0000875,346,azimuth|celltypist|frmatch|popv,Non-classical monocyte|Non-classical monocytes|non-classical monocyte,MAPPED,direct_cl_id,CL:0000875,non-classical monocyte
+CL:0000890,34,azimuth,M2 Macrophage,MAPPED,direct_cl_id,CL:0000890,M2 macrophage
+CL:0000895,775,pan-human-azimuth,Naive CD4 T cell,MAPPED,direct_cl_id,CL:0000895,"naive thymus-derived CD4-positive, alpha-beta T cell"
+CL:0000897,1338,pan-human-azimuth,Memory CD4 T cell,MAPPED,direct_cl_id,CL:0000897,"CD4-positive, alpha-beta memory T cell"
+CL:0000909,589,pan-human-azimuth,GZMB CD8 T cell|KLRB1 CD8 T cell,MAPPED,direct_cl_id,CL:0000909,"CD8-positive, alpha-beta memory T cell"
+CL:0000934,1,pan-human-azimuth,KLRB1 cytotoxic CD4 T,MAPPED,direct_cl_id,CL:0000934,"CD4-positive, alpha-beta cytotoxic T cell"
+CL:0000938,764,pan-human-azimuth,CD56 NK cell,MAPPED,direct_cl_id,CL:0000938,"CD16-negative, CD56-bright natural killer cell, human"
+CL:0000939,5375,pan-human-azimuth,CD16 NK cell,MAPPED,direct_cl_id,CL:0000939,"CD16-positive, CD56-dim natural killer cell, human"
+CL:0000940,13,pan-human-azimuth,MAIT cell,MAPPED,direct_cl_id,CL:0000940,mucosal-associated invariant T cell
+CL:0000990,37,azimuth|frmatch,Classical Dendritic|DC1,MAPPED,direct_cl_id,CL:0000990,conventional dendritic cell
+CL:0001044,9,popv,"effector CD4-positive, alpha-beta T cell",MAPPED,direct_cl_id,CL:0001044,"effector CD4-positive, alpha-beta T cell"
+CL:0001050,8,popv,"effector CD8-positive, alpha-beta T cell",MAPPED,direct_cl_id,CL:0001050,"effector CD8-positive, alpha-beta T cell"
+CL:0001054,183,pan-human-azimuth,CD14 monocyte,MAPPED,direct_cl_id,CL:0001054,CD14-positive monocyte
+CL:0001058,15,azimuth,Plasmacytoid DCs,MAPPED,direct_cl_id,CL:0001058,"plasmacytoid dendritic cell, human"
+CL:0001065,2,pan-human-azimuth,ILC,MAPPED,direct_cl_id,CL:0001065,innate lymphoid cell
+CL:0002010,1,pan-human-azimuth,Pre-cDC,MAPPED,direct_cl_id,CL:0002010,pre-conventional dendritic cell
+CL:0002038,2,pan-human-azimuth,Tfh cell,MAPPED,direct_cl_id,CL:0002038,T follicular helper cell
+CL:0002062,555,author|azimuth|celltypist|frmatch|pan-human-azimuth|popv,AT1|type I pneumocyte,MAPPED,direct_cl_id,CL:0002062,pulmonary alveolar type 1 cell
+CL:0002063,3224,author|azimuth|celltypist|frmatch|pan-human-azimuth|popv,AT2|AT2 proliferating|type II pneumocyte,MAPPED,direct_cl_id,CL:0002063,pulmonary alveolar type 2 cell
+CL:0002064,657,azimuth|pan-human-azimuth|popv,Acinar cell|acinar|pancreatic acinar cell,MAPPED,direct_cl_id,CL:0002064,pancreatic acinar cell
+CL:0002075,13,azimuth|frmatch,Tuft,MAPPED,direct_cl_id,CL:0002075,brush cell of tracheobronchial tree
+CL:0002079,1650,author|azimuth|pan-human-azimuth|popv,Pancreatic ductal cell|ductal|pancreatic ductal cell,MAPPED,direct_cl_id,CL:0002079,pancreatic ductal cell
+CL:0002138,206,azimuth|celltypist|frmatch|pan-human-azimuth,Lymphatic EC|Lymphatic EC differentiating|Lymphatic EC mature|Lymphatic EC proliferating|Lymphatic Endothelial,MAPPED,direct_cl_id,CL:0002138,endothelial cell of lymphatic vessel
+CL:0002144,1636,celltypist|frmatch|pan-human-azimuth,Capillary EC|EC aerocyte capillary|EC general capillary,MAPPED,direct_cl_id,CL:0002144,capillary endothelial cell
+CL:0002145,228,azimuth|frmatch,Multiciliated (non-nasal),MAPPED,direct_cl_id,CL:0002145,multiciliated columnar cell of tracheobronchial tree
+CL:0002179,1,pan-human-azimuth,Surface mucous cell,MAPPED,direct_cl_id,CL:0002179,foveolar cell of stomach
+CL:0002201,830,author|azimuth|pan-human-azimuth,Intercalated Type B|Type B intercalated cell|renal beta-intercalated cell,MAPPED,direct_cl_id,CL:0002201,renal beta-intercalated cell
+CL:0002241,4,celltypist,Peribronchial fibroblasts,MAPPED,direct_cl_id,CL:0002241,pulmonary interstitial fibroblast
+CL:0002267,141,pan-human-azimuth,Delta cell,MAPPED,direct_cl_id,CL:0002267,type D cell of stomach
+CL:0002275,985,author|azimuth|celltypist|pan-human-azimuth|popv,PP|PP cell|gamma|pancreatic PP cell,MAPPED,direct_cl_id,CL:0002275,pancreatic PP cell
+CL:0002305,28,pan-human-azimuth,Renal epithelial cell - distal tubules,MAPPED,direct_cl_id,CL:0002305,epithelial cell of distal tubule
+CL:0002306,5561,author|pan-human-azimuth,Renal epithelial cell - proximal tubules|epithelial cell of proximal tubule,MAPPED,direct_cl_id,CL:0002306,epithelial cell of proximal tubule
+CL:0002357,5,pan-human-azimuth,Fetal HBG+ erythrocyte,MAPPED,direct_cl_id,CL:0002357,fetal derived definitive erythrocyte
+CL:0002370,57,popv,respiratory goblet cell,MAPPED,direct_cl_id,CL:0002370,respiratory tract goblet cell
+CL:0002393,4,popv,intermediate monocyte,MAPPED,direct_cl_id,CL:0002393,intermediate monocyte
+CL:0002394,214,celltypist|pan-human-azimuth,DC1|cDC1|cDC1s,MAPPED,direct_cl_id,CL:0002394,CD141-positive myeloid dendritic cell
+CL:0002399,1046,azimuth|celltypist|frmatch|pan-human-azimuth,DC2|cDC2|cDC2s,MAPPED,direct_cl_id,CL:0002399,CD1c-positive myeloid dendritic cell
+CL:0002410,191,author|azimuth|popv,activated_stellate|pancreatic stellate cell|quiescent_stellate,MAPPED,direct_cl_id,CL:0002410,pancreatic stellate cell
+CL:0002480,39,azimuth|celltypist|frmatch,Goblet (nasal),MAPPED,direct_cl_id,CL:0002480,nasal mucosa goblet cell
+CL:0002481,1,pan-human-azimuth,Peritubular myoid cell,MAPPED,direct_cl_id,CL:0002481,peritubular myoid cell
+CL:0002538,343,popv,intrahepatic cholangiocyte,MAPPED,direct_cl_id,CL:0002538,intrahepatic cholangiocyte
+CL:0002543,248,frmatch|pan-human-azimuth|popv,EC venous systemic|Venous EC|vein endothelial cell,MAPPED,direct_cl_id,CL:0002543,vein endothelial cell
+CL:0002553,214,author|frmatch|popv,Adventitial fibroblasts|Alveolar fibroblasts|fibroblast|fibroblast of lung,MAPPED,direct_cl_id,CL:0002553,fibroblast of lung
+CL:0002573,4,azimuth,Schwann / Neural|schwann,MAPPED,direct_cl_id,CL:0002573,Schwann cell
+CL:0002586,157,pan-human-azimuth,Retinal pigment epithelial cell,MAPPED,direct_cl_id,CL:0002586,retinal pigment epithelial cell
+CL:0002598,2,popv,bronchial smooth muscle cell,MAPPED,direct_cl_id,CL:0002598,bronchial smooth muscle cell
+CL:0002632,49,frmatch,pre-TB secretory,MAPPED,direct_cl_id,CL:0002632,epithelial cell of lower respiratory tract
+CL:0002633,293,azimuth|celltypist|frmatch|pan-human-azimuth|popv,Airway basal cell|Basal resting|basal cell,MAPPED,direct_cl_id,CL:0002633,respiratory basal cell
+CL:0005006,17,frmatch,Ionocyte,MAPPED,direct_cl_id,CL:0005006,ionocyte
+CL:0005009,1022,author,renal principal cell,MAPPED,direct_cl_id,CL:0005009,renal principal cell
+CL:0005011,1128,author|pan-human-azimuth,Type A intercalated cell|renal alpha-intercalated cell,MAPPED,direct_cl_id,CL:0005011,renal alpha-intercalated cell
+CL:0005012,181,celltypist,Multiciliated (nasal)|Multiciliated (non-nasal),MAPPED,direct_cl_id,CL:0005012,multiciliated epithelial cell
+CL:0005019,15,author|azimuth|pan-human-azimuth,Epsilon cell|epsilon|pancreatic epsilon cell,MAPPED,direct_cl_id,CL:0005019,pancreatic epsilon cell
+CL:0008024,21,author|azimuth,cycling|pancreatic endocrine cell,MAPPED,direct_cl_id,CL:0008024,pancreatic endocrine cell
+CL:0009086,130,azimuth|popv,Lymphatic EC differentiating|Lymphatic EC mature|endothelial cell of lymphatic vessel,MAPPED,direct_cl_id,CL:0009086,endothelial cell of respiratory system lymphatic vessel
+CL:0009089,39,azimuth|celltypist|frmatch|popv,Pericytes|pericyte,MAPPED,direct_cl_id,CL:0009089,lung pericyte
+CL:0010003,36,frmatch,AT0,REVIEW,missing_cl_id,,
+CL:0011026,1,pan-human-azimuth,Pre-pDC,MAPPED,direct_cl_id,CL:0011026,progenitor cell
+CL:0011031,123,azimuth|pan-human-azimuth,Monocyte-derived|Monocyte/DC,MAPPED,direct_cl_id,CL:0011031,monocyte-derived dendritic cell
+CL:0017000,5,azimuth,Ionocyte,MAPPED,direct_cl_id,CL:0017000,pulmonary ionocyte
+CL:0017009,1,pan-human-azimuth,ASDC,MAPPED,direct_cl_id,CL:0017009,"Axl+ dendritic cell, human"
+CL:0019001,95,celltypist|frmatch,SMG serous (bronchial)|pre-TB secretory,REVIEW,missing_cl_id,,
+CL:0019003,39,frmatch,Goblet (subsegmental),MAPPED,direct_cl_id,CL:0019003,tracheobronchial goblet cell
+CL:0019031,115,pan-human-azimuth,Goblet cell,MAPPED,direct_cl_id,CL:0019031,intestine goblet cell
+CL:1000223,20,frmatch,Neuroendocrine,MAPPED,direct_cl_id,CL:1000223,pulmonary neuroendocrine cell
+CL:1000271,420,author|pan-human-azimuth|popv,Multiciliated cell|lung ciliated cell,MAPPED,direct_cl_id,CL:1000271,lung multiciliated epithelial cell
+CL:1000272,128,author,lung secretory cell,REVIEW,missing_cl_id,,
+CL:1000312,61,celltypist|frmatch,Goblet (bronchial)|Goblet (subsegmental),MAPPED,direct_cl_id,CL:1000312,bronchial goblet cell
+CL:1000398,4623,author|popv,endothelial cell of hepatic sinusoid,MAPPED,direct_cl_id,CL:1000398,endothelial cell of hepatic sinusoid
+CL:1000412,158,azimuth,Afferent / Efferent Arteriole Endothelial,MAPPED,direct_cl_id,CL:1000412,endothelial cell of arteriole
+CL:1000413,97,celltypist|frmatch|pan-human-azimuth|popv,Arterial EC|EC arterial|endothelial cell of artery,MAPPED,direct_cl_id,CL:1000413,endothelial cell of artery
+CL:1000452,1279,author|azimuth,Parietal Epithelial|parietal epithelial cell,MAPPED,direct_cl_id,CL:1000452,parietal epithelial cell
+CL:1000488,949,author|celltypist|pan-human-azimuth,Cholangiocytes|cholangiocyte,MAPPED,direct_cl_id,CL:1000488,cholangiocyte
+CL:1000491,49,celltypist,Mesothelium,MAPPED,direct_cl_id,CL:1000491,mesothelial cell of pleura
+CL:1000493,9,azimuth,Mesothelium,MAPPED,direct_cl_id,CL:1000493,mesothelial cell of visceral pleura
+CL:1000547,1630,azimuth,Inner Medullary Collecting Duct,MAPPED,direct_cl_id,CL:1000547,kidney inner medulla collecting duct epithelial cell
+CL:1000692,167,azimuth,Fibroblast,MAPPED,direct_cl_id,CL:1000692,kidney interstitial fibroblast
+CL:1000714,414,azimuth,Cortical Collecting Duct Principal,MAPPED,direct_cl_id,CL:1000714,kidney cortex collecting duct principal cell
+CL:1000716,71,azimuth,Outer Medullary Collecting Duct Principal,MAPPED,direct_cl_id,CL:1000716,kidney outer medulla collecting duct principal cell
+CL:1000717,2,azimuth,Outer Medullary Collecting Duct Intercalated Type A,MAPPED,direct_cl_id,CL:1000717,kidney outer medulla collecting duct intercalated cell
+CL:1000768,3911,author|azimuth,Connecting Tubule|kidney connecting tubule epithelial cell,MAPPED,direct_cl_id,CL:1000768,kidney connecting tubule epithelial cell
+CL:1000849,3249,author,kidney distal convoluted tubule epithelial cell,MAPPED,direct_cl_id,CL:1000849,kidney distal convoluted tubule epithelial cell
+CL:1000850,203,azimuth,Macula Densa,MAPPED,direct_cl_id,CL:1000850,macula densa epithelial cell
+CL:1000892,1008,author,kidney capillary endothelial cell,MAPPED,direct_cl_id,CL:1000892,kidney capillary endothelial cell
+CL:1000909,40,pan-human-azimuth,Renal epithelial cell - Loop of Henle,MAPPED,direct_cl_id,CL:1000909,kidney loop of Henle epithelial cell
+CL:1001005,303,azimuth,Glomerular Capillary Endothelial,MAPPED,direct_cl_id,CL:1001005,glomerular capillary endothelial cell
+CL:1001033,807,azimuth,Peritubular Capilary Endothelial,MAPPED,direct_cl_id,CL:1001033,peritubular capillary endothelial cell
+CL:1001106,4431,author,kidney loop of Henle thick ascending limb epithelial cell,MAPPED,direct_cl_id,CL:1001106,kidney loop of Henle thick ascending limb epithelial cell
+CL:1001107,69,azimuth,Ascending Thin Limb,MAPPED,direct_cl_id,CL:1001107,kidney loop of Henle thin ascending limb epithelial cell
+CL:1001108,83,azimuth,Medullary Thick Ascending Limb,MAPPED,direct_cl_id,CL:1001108,kidney loop of Henle medullary thick ascending limb epithelial cell
+CL:1001109,5472,azimuth,Cortical Thick Ascending Limb,MAPPED,direct_cl_id,CL:1001109,kidney loop of Henle cortical thick ascending limb epithelial cell
+CL:1001131,1,azimuth,Ascending Vasa Recta Endothelial,MAPPED,direct_cl_id,CL:1001131,vasa recta ascending limb cell
+CL:1001285,11,azimuth,Descending Vasa Recta Endothelial,MAPPED,direct_cl_id,CL:1001285,vasa recta descending limb cell
+CL:1001567,60,author,lung endothelial cell,REVIEW,missing_cl_id,,
+CL:1001568,6,azimuth,EC arterial,MAPPED,direct_cl_id,CL:1001568,pulmonary artery endothelial cell
+CL:1001601,5,pan-human-azimuth,Steroidogenic cell|Sympathoblast,MAPPED,direct_cl_id,CL:1001601,adrenal gland glandular cell
+CL:1001603,2258,author|azimuth|celltypist|frmatch|popv,Interstitial Mph perivascular|Monocyte-derived Mph|Monocyte-derived Mφ|lung macrophage|macrophage,MAPPED,direct_cl_id,CL:1001603,lung macrophage
+CL:2000016,5,popv,lung microvascular endothelial cell,MAPPED,direct_cl_id,CL:2000016,lung microvascular endothelial cell
+CL:2000055,762,popv,liver dendritic cell,MAPPED,direct_cl_id,CL:2000055,liver dendritic cell
+CL:2000093,7,frmatch,Peribronchial fibroblasts,MAPPED,direct_cl_id,CL:2000093,bronchus fibroblast of lung
+CL:3000001,185,pan-human-azimuth,Hofbauer cell,MAPPED,direct_cl_id,CL:3000001,Hofbauer cell
+CL:4028001,35,frmatch|popv,EC general capillary|capillary endothelial cell,MAPPED,direct_cl_id,CL:4028001,pulmonary capillary endothelial cell
+CL:4028002,28,azimuth,EC general capillary,MAPPED,direct_cl_id,CL:4028002,alveolar capillary type 1 endothelial cell
+CL:4028003,8,azimuth|celltypist|pan-human-azimuth,Aerocyte|EC aerocyte capillary,MAPPED,direct_cl_id,CL:4028003,alveolar capillary type 2 endothelial cell
+CL:4028004,90,azimuth|celltypist,Alveolar fibroblasts,MAPPED,direct_cl_id,CL:4028004,alveolar type 1 fibroblast cell
+CL:4028006,54,celltypist|popv,Adventitial fibroblasts|adventitial cell,MAPPED,direct_cl_id,CL:4028006,alveolar adventitial fibroblast
+CL:4030009,7693,azimuth,Proximal Tubule Epithelial Segment 1,MAPPED,direct_cl_id,CL:4030009,epithelial cell of proximal tubule segment 1
+CL:4030010,337,azimuth,Proximal Tubule Epithelial Segment 2,MAPPED,direct_cl_id,CL:4030010,epithelial cell of proximal tubule segment 2
+CL:4030011,883,azimuth,Proximal Tubule Epithelial Segment 3,MAPPED,direct_cl_id,CL:4030011,epithelial cell of proximal tubule segment 3
+CL:4030012,12,azimuth,Descending Thin Limb Type 1,MAPPED,direct_cl_id,CL:4030012,kidney loop of Henle short descending thin limb epithelial cell
+CL:4030013,691,azimuth,Descending Thin Limb Type 2,MAPPED,direct_cl_id,CL:4030013,kidney loop of Henle long descending thin limb outer medulla epithelial cell
+CL:4030014,123,azimuth,Descending Thin Limb Type 3,MAPPED,direct_cl_id,CL:4030014,kidney loop of Henle long descending thin limb inner medulla epithelial cell
+CL:4030015,1368,azimuth,Cortical Collecting Duct Intercalated Type A,MAPPED,direct_cl_id,CL:4030015,kidney collecting duct alpha-intercalated cell
+CL:4030016,4016,azimuth,Distal Convoluted Tubule Type 1,MAPPED,direct_cl_id,CL:4030016,epithelial cell of early distal convoluted tubule
+CL:4030017,254,azimuth,Distal Convoluted Tubule Type 2,MAPPED,direct_cl_id,CL:4030017,epithelial cell of late distal convoluted tubule
+CL:4030018,1354,azimuth,Connecting Tubule Principal,MAPPED,direct_cl_id,CL:4030018,kidney connecting tubule principal cell
+CL:4030020,134,azimuth,Connecting Tubule Intercalated Type A,MAPPED,direct_cl_id,CL:4030020,kidney connecting tubule alpha-intercalated cell
+CL:4030022,74,azimuth,Medullary Fibroblast,MAPPED,direct_cl_id,CL:4030022,renal medullary fibroblast
+CL:4030023,18,frmatch,Hillock-like,MAPPED,direct_cl_id,CL:4030023,respiratory tract hillock cell
+CL:4030024,10,celltypist,Hillock-like,MAPPED,direct_cl_id,CL:4030024,hillock cell
+CL:4030034,11,frmatch,Multiciliated (nasal),MAPPED,direct_cl_id,CL:4030034,respiratory tract multiciliated cell
+CL:4033005,13,celltypist,Smooth muscle,REVIEW,missing_cl_id,,
+CL:4033008,79,azimuth|celltypist|frmatch,EC venous pulmonary|EC venous systemic,MAPPED,direct_cl_id,CL:4033008,vein endothelial cell of respiratory system
+CL:4033022,35,frmatch,SMG mucous,MAPPED,direct_cl_id,CL:4033022,mucus secreting cell of bronchus submucosal gland
+CL:4033041,170,celltypist|frmatch,Alveolar Mph CCL3+,MAPPED,direct_cl_id,CL:4033041,CCL3-positive alveolar macrophage
+CL:4033042,30,frmatch,Alveolar Mph MT-positive,MAPPED,direct_cl_id,CL:4033042,metallothionein-positive alveolar macrophage
+CL:4033043,37,azimuth|celltypist,Interstitial Mph perivascular|Interstitial Mφ perivascular,MAPPED,direct_cl_id,CL:4033043,lung interstitial macrophage
+CL:4033044,19,celltypist|frmatch,Deuterosomal,MAPPED,direct_cl_id,CL:4033044,deuterosomal cell
+CL:4033045,5,celltypist|frmatch,Migratory DCs,MAPPED,direct_cl_id,CL:4033045,lung migratory dendritic cell
+CL:4033048,48,azimuth|celltypist|frmatch,Suprabasal,MAPPED,direct_cl_id,CL:4033048,respiratory tract suprabasal cell
+CL:4033058,1,pan-human-azimuth,Mammary luminal cell,MAPPED,direct_cl_id,CL:4033058,luminal hormone-sensing cell of mammary gland
+CL:4033068,1,pan-human-azimuth,Cycling B,MAPPED,direct_cl_id,CL:4033068,cycling B cell
+CL:4033069,9,azimuth|celltypist,T cells proliferating,MAPPED,direct_cl_id,CL:4033069,cycling T cell
+CL:4033077,22,azimuth|celltypist,Alveolar Mph proliferating|Alveolar Mφ proliferating,MAPPED,direct_cl_id,CL:4033077,cycling alveolar macrophage
+CL:4033079,1,celltypist,Lymphatic EC proliferating,MAPPED,direct_cl_id,CL:4033079,cycling endothelial cell of lymphatic vessel
+CL:4033080,5,celltypist,AT2 proliferating,MAPPED,direct_cl_id,CL:4033080,cycling pulmonary alveolar type 2 cell
+CL:4033081,2,pan-human-azimuth,G2/M phase myeloid cell,MAPPED,direct_cl_id,CL:4033081,cycling myeloid cell
+CL:4047101,1698,celltypist,Resident NK,MAPPED,direct_cl_id,CL:4047101,liver-resident natural killer cell
+CL:4052021,208,pan-human-azimuth,GZMK CD8 T cell,MAPPED,direct_cl_id,CL:4052021,granzyme K-associated CD8 T cell
+CL:4052029,1,celltypist,Subpleural fibroblasts,MAPPED,direct_cl_id,CL:4052029,subpleural fibroblast
+CL:4052030,62,azimuth,Adventitial fibroblasts,MAPPED,direct_cl_id,CL:4052030,adventitial fibroblast
