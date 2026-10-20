@@ -116,12 +116,21 @@ CELL_SUMMARY_SOURCES = [
         "dataset_metadata": UNIVERSE_METADATA_FILENAME,
         "intermediary": FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME,
         "filtered_dataset_metadata": FILTERED_DATASET_METADATA_FILENAME,
+        # Neither source's metadata CSV has a health/disease column, so this is set per source
+        "health_status": "Healthy",
     },
     {
         "name": "Anatomogram",
         "dataset_metadata": ANATOMOGRAM_DATASET_METADATA_FILENAME,
         "intermediary": ANATOMOGRAM_FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME,
         "filtered_dataset_metadata": ANATOMOGRAM_FILTERED_DATASET_METADATA_FILENAME,
+        "health_status": "TBD",
+        # Where the donor ID (after "#" in donor_id) names the donor's health, use that instead
+        "health_status_by_donor": [
+            (r"Healthy\d+", "Healthy"),  # E-CURD-119
+            (r"H\d+", "Healthy"),  # E-MTAB-5061
+            (r"T2D\d+", "Type 2 diabetes"),  # E-MTAB-5061
+        ],
     },
 ]
 
@@ -648,12 +657,26 @@ def load_filtered_dataset_metadata() -> dict:
     return merged
 
 
+def get_health_status(donor_id, source: dict) -> str:
+    """The source's health_status, unless its health_status_by_donor patterns match the donor ID"""
+    donor = str(donor_id).rsplit("#", 1)[-1]
+    for pattern, status in source.get("health_status_by_donor", []):
+        if re.fullmatch(pattern, donor):
+            return status
+    return source["health_status"]
+
+
 def load_dataset_metadata() -> pd.DataFrame:
-    """Dataset metadata CSVs (all share the HRApop column layout), concatenated across CELL_SUMMARY_SOURCES"""
-    return pd.concat(
-        [pd.read_csv(source["dataset_metadata"]) for source in CELL_SUMMARY_SOURCES],
-        ignore_index=True,
-    )
+    """Dataset metadata CSVs (all share the HRApop column layout), concatenated across CELL_SUMMARY_SOURCES,
+    with each donor's health_status (see get_health_status) added as a column"""
+    frames = []
+    for source in CELL_SUMMARY_SOURCES:
+        metadata = pd.read_csv(source["dataset_metadata"])
+        metadata["health_status"] = metadata["donor_id"].map(
+            lambda donor_id: get_health_status(donor_id, source)
+        )
+        frames.append(metadata)
+    return pd.concat(frames, ignore_index=True)
 
 
 def get_organ_from_dataset_metadata(
