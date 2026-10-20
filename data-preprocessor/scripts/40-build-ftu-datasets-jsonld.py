@@ -9,7 +9,8 @@ from shared import *
 #   description -> title         (Publication Title column)
 #   year        -> year          (Publication Year column; -1 when missing)
 #   cell_type_annotation_tool -> cellType, health_status -> healthStatus, sex, age, bmi, ethnicity
-#                                (donor/annotation columns; age and bmi must be numbers)
+#                                (donor/annotation columns; bmi must be a number, age a number or a
+#                                 range string like "60-69", which needs hra-ui to accept strings)
 # dataset_id, dataset_link and development_stage are not read by hra-ui.
 
 ANNOTATION_TOOL_LABELS = {
@@ -47,13 +48,28 @@ def to_number(value):
     return int(number) if number.is_integer() else round(number, 2)
 
 
+# HsapDv decade stages: the Nth decade spans ages (N-1)*10 to (N-1)*10+9, e.g., seventh = 60-69
+DECADE_ORDINALS = {
+    "first": 1, "second": 2, "third": 3, "fourth": 4, "fifth": 5,
+    "sixth": 6, "seventh": 7, "eighth": 8, "ninth": 9, "tenth": 10,
+}
+
+
 def get_age(row):
-    """Donor age in years from donor_age, else parsed from a CxG '<N>-year-old stage' development stage"""
+    """Donor age in years from donor_age, else from a CxG development stage: a number for
+    '<N>-year-old stage', or a range string like '60-69' for '<ordinal> decade stage'"""
     age = to_number(row["donor_age"])
     if age is not None:
         return age
-    match = re.fullmatch(r"(\d+)-year-old stage", str(row["donor_development_stage"]).strip())
-    return int(match.group(1)) if match else None
+    stage = str(row["donor_development_stage"]).strip()
+    match = re.fullmatch(r"(\d+)-year-old stage", stage)
+    if match:
+        return int(match.group(1))
+    match = re.fullmatch(r"(\w+) decade stage", stage)
+    if match and match.group(1) in DECADE_ORDINALS:
+        start = (DECADE_ORDINALS[match.group(1)] - 1) * 10
+        return f"{start}-{start + 9}"
+    return None
 
 
 def get_sex(value):
