@@ -9,8 +9,8 @@ from shared import *
 #   description -> title         (Publication Title column)
 #   year        -> year          (Publication Year column; -1 when missing)
 #   cell_type_annotation_tool -> cellType, health_status -> healthStatus, sex, age, bmi, ethnicity
-#                                (donor/annotation columns; bmi must be a number, age a number or a
-#                                 range string like "60-69", which needs hra-ui to accept strings)
+#                                (donor/annotation columns; age and bmi are numbers, or strings such as
+#                                 an age range "60-69" or "unknown", which need hra-ui#2334)
 # dataset_id, dataset_link and development_stage are not read by hra-ui.
 
 ANNOTATION_TOOL_LABELS = {
@@ -27,6 +27,11 @@ ANNOTATION_TOOL_LABELS = {
 REQUIRED_STRING_FIELDS = {"label", "link", "description"}
 
 MISSING_VALUES = {"", "unknown", "nan", "none", "not reported", "na"}
+
+# Donor columns that show "unknown" in the table instead of an empty cell
+# (bmi and age as strings need hubmapconsortium/hra-ui#2334)
+UNKNOWN_WHEN_MISSING = {"sex", "age", "bmi", "ethnicity"}
+UNKNOWN = "unknown"
 
 
 def clean(value):
@@ -165,6 +170,10 @@ def build_data_source(row, dataset_id, ftu_suffix, annotation_tool, doi_metadata
         "bmi": to_number(row["donor_bmi"]),
         "ethnicity": clean(row["donor_race"]),
     }
+
+    for k in UNKNOWN_WHEN_MISSING:
+        if data_source[k] is None:
+            data_source[k] = UNKNOWN
 
     # hra-ui's zod schema has optional (not nullable) fields, so drop empty values,
     # except for the strings it requires
