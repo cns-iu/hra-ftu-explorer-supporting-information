@@ -9,8 +9,8 @@ from shared import *
 #   description -> title         (Publication Title column)
 #   year        -> year          (Publication Year column; -1 when missing)
 #   cell_type_annotation_tool -> cellType, health_status -> healthStatus, sex, age, bmi, ethnicity
-#                                (donor/annotation columns; age and bmi are numbers, or strings such as
-#                                 an age range "60-69" or "unknown", which need hra-ui#2334)
+#                                (donor/annotation columns; bmi must be a number; age is a number or a
+#                                 string such as an age range "60-69" or "unknown", per hra-ui#2334)
 # dataset_id, dataset_link and development_stage are not read by hra-ui.
 
 ANNOTATION_TOOL_LABELS = {
@@ -29,8 +29,8 @@ REQUIRED_STRING_FIELDS = {"label", "link", "description"}
 MISSING_VALUES = {"", "unknown", "nan", "none", "not reported", "na"}
 
 # Donor columns that show "unknown" in the table instead of an empty cell
-# (bmi and age as strings need hubmapconsortium/hra-ui#2334)
-UNKNOWN_WHEN_MISSING = {"sex", "age", "bmi", "ethnicity"}
+# (age as a string needs hubmapconsortium/hra-ui#2334; add "bmi" once hra-ui accepts a string BMI)
+UNKNOWN_WHEN_MISSING = {"sex", "age", "ethnicity"}
 UNKNOWN = "unknown"
 
 
