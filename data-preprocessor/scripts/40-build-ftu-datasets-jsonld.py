@@ -8,8 +8,9 @@ from shared import *
 #   link        -> doi           (Publication DOI column)
 #   description -> title         (Publication Title column)
 #   year        -> year          (Publication Year column; -1 when missing)
-# The remaining columns (cellType, healthStatus, sex, age, bmi, ethnicity) are not read from the
-# file by hra-ui yet. We emit them below under snake_case keys so hra-ui only has to map them.
+#   cell_type_annotation_tool -> cellType, health_status -> healthStatus, sex, age, bmi, ethnicity
+#                                (donor/annotation columns; age and bmi must be numbers)
+# dataset_id, dataset_link and development_stage are not read by hra-ui.
 
 ANNOTATION_TOOL_LABELS = {
     "azimuth": "Azimuth",
@@ -140,7 +141,8 @@ def build_data_source(row, dataset_id, ftu_suffix, annotation_tool, doi_metadata
         "cell_type_annotation_tool": ANNOTATION_TOOL_LABELS.get(
             annotation_tool, annotation_tool
         ),
-        # health_status: not in HRApop's dataset metadata, so not emitted yet
+        # From CELL_SUMMARY_SOURCES: Healthy for HRApop; from the donor ID, else TBD, for the anatomogram
+        "health_status": row["health_status"],
         "sex": get_sex(row["donor_sex"]),
         "age": get_age(row),
         "development_stage": clean(row["donor_development_stage"]),
