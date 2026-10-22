@@ -1,0 +1,98 @@
+[
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy1",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy2",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy3",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy4",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy5",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc3843-upper_lobe_of_left_lung",
+        "donor_disease": "chronic obstructive pulmonary disease"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc4658-upper_lobe_of_left_lung",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc5103-main_bronchus",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc5104-upper_lobe_of_left_lung",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor1",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor2",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor3",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor4",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor5",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor6",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H2",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H3",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H5",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H6",
+        "donor_disease": "healthy"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D1",
+        "donor_disease": "type II diabetes mellitus"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2",
+        "donor_disease": "type II diabetes mellitus"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D3",
+        "donor_disease": "type II diabetes mellitus"
+    },
+    {
+        "dataset_id": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D4",
+        "donor_disease": "type II diabetes mellitus"
+    }
+]

@@ -31,6 +31,7 @@ from shared_common import (  # noqa: E402
     config,
     iri_to_curie,
     iterate_through_json_lines,
+    load_json,
     method_rank,
 )
 
@@ -99,6 +100,10 @@ ANATOMOGRAM_CELL_SUMMARIES_FILENAME = (
 ANATOMOGRAM_DATASET_METADATA_FILENAME = (
     ANATOMOGRAM_DATA_DIR / config["ANATOMOGRAM_DATASET_METADATA_FILENAME"]
 )
+# [{dataset_id, donor_disease}, ...], made once by scratch/fetch-anatomogram-health-status.py
+ANATOMOGRAM_HEALTH_STATUS_FILENAME = (
+    ANATOMOGRAM_DATA_DIR / config["ANATOMOGRAM_HEALTH_STATUS_OUTPUT"]
+)
 ANATOMOGRAM_FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME = (
     RAW_DATA_DIR
     / config["ANATOMOGRAM_FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME"]
@@ -124,13 +129,10 @@ CELL_SUMMARY_SOURCES = [
         "dataset_metadata": ANATOMOGRAM_DATASET_METADATA_FILENAME,
         "intermediary": ANATOMOGRAM_FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME,
         "filtered_dataset_metadata": ANATOMOGRAM_FILTERED_DATASET_METADATA_FILENAME,
+        # Fallback for datasets missing from health_status_by_dataset
         "health_status": "TBD",
-        # Where the donor ID (after "#" in donor_id) names the donor's health, use that instead
-        "health_status_by_donor": [
-            (r"Healthy\d+", "Healthy"),  # E-CURD-119
-            (r"H\d+", "Healthy"),  # E-MTAB-5061
-            (r"T2D\d+", "Type 2 diabetes"),  # E-MTAB-5061
-        ],
+        # Per-dataset donor_disease, used instead of health_status where the file has the dataset
+        "health_status_by_dataset": ANATOMOGRAM_HEALTH_STATUS_FILENAME,
     },
 ]
 
@@ -657,23 +659,28 @@ def load_filtered_dataset_metadata() -> dict:
     return merged
 
 
-def get_health_status(donor_id, source: dict) -> str:
-    """The source's health_status, unless its health_status_by_donor patterns match the donor ID"""
-    donor = str(donor_id).rsplit("#", 1)[-1]
-    for pattern, status in source.get("health_status_by_donor", []):
-        if re.fullmatch(pattern, donor):
-            return status
-    return source["health_status"]
+def load_health_status_by_dataset(source: dict) -> dict:
+    """dataset_id -> health status from the source's health_status_by_dataset file ({} if it has none),
+    with the first letter capitalized to match HRApop's "Healthy" (e.g. "healthy" -> "Healthy")"""
+    if "health_status_by_dataset" not in source:
+        return {}
+    return {
+        entry["dataset_id"]: entry["donor_disease"][:1].upper() + entry["donor_disease"][1:]
+        for entry in load_json(source["health_status_by_dataset"])
+        if entry.get("donor_disease")
+    }
 
 
 def load_dataset_metadata() -> pd.DataFrame:
     """Dataset metadata CSVs (all share the HRApop column layout), concatenated across CELL_SUMMARY_SOURCES,
-    with each donor's health_status (see get_health_status) added as a column"""
+    with a health_status column: the dataset's entry in health_status_by_dataset, else the source's health_status
+    """
     frames = []
     for source in CELL_SUMMARY_SOURCES:
         metadata = pd.read_csv(source["dataset_metadata"])
-        metadata["health_status"] = metadata["donor_id"].map(
-            lambda donor_id: get_health_status(donor_id, source)
+        health_status_by_dataset = load_health_status_by_dataset(source)
+        metadata["health_status"] = metadata["dataset_id"].map(
+            lambda dataset_id: health_status_by_dataset.get(dataset_id, source["health_status"])
         )
         frames.append(metadata)
     return pd.concat(frames, ignore_index=True)
