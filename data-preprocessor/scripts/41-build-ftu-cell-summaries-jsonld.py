@@ -23,7 +23,8 @@ def build_ftu_cell_summaries_jsonld():
         dataset_id = obj.get("cell_source")
         candidate_ftus = dataset_to_ftus.get(dataset_id, set())
 
-        for ftu in candidate_ftus:
+        # Sorted, because a set of strings iterates in a different order on every run
+        for ftu in sorted(candidate_ftus):
             suffix = ftu.rsplit("/", 1)[-1]
             cell_source = f"{dataset_id}#CellSummary_{suffix}"
             allowed_cts = exclusive_cts_by_ftu.get(ftu, set())

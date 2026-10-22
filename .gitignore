@@ -16,7 +16,7 @@ __pycache__/
 
 # VS Code workspaces
 *.code-workspace
-ftu-datasets.jsonld
 
 #Large files
 jsonl-excerpt.json
+data-preprocessor/scratch/download-dataset-json.sh

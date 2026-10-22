@@ -31,6 +31,10 @@ ANATOMOGRAM_DATASET_METADATA_FILENAME : anatomogram-sc-transcriptomics-dataset-m
 ANATOMOGRAM_FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME : anatomogram_cell_type_populations_intermediary.jsonl
 ANATOMOGRAM_FILTERED_DATASET_METADATA_FILENAME : anatomogram-filtered-dataset-metadata.json
 ANATOMOGRAM_DATASETS_OF_INTEREST : anatomogram-datasets-of-interest.json
+ANATOMOGRAM_HEALTH_STATUS_JSON_FOLDER : json-files
+# Health status per anatomogram dataset, in ANATOMOGRAM_DATA_DIR; made once by data-preprocessor/scratch/fetch-anatomogram-health-status.py
+ANATOMOGRAM_HEALTH_STATUS_OUTPUT : anatomogram-health-status-output.json
+
 
 # Publication DOIs for CellxGene collections that HRApop has none for, keyed by collection ID.
 # Applied by 40-build-ftu-datasets-jsonld.py only where a dataset's `publication` is empty.

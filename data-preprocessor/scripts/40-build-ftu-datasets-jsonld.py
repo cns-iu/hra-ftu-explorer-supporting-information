@@ -9,7 +9,8 @@ from shared import *
 #   description -> title         (Publication Title column)
 #   year        -> year          (Publication Year column; -1 when missing)
 #   cell_type_annotation_tool -> cellType, health_status -> healthStatus, sex, age, bmi, ethnicity
-#                                (donor/annotation columns; age and bmi must be numbers)
+#                                (donor/annotation columns; age and bmi are numbers, or strings such as
+#                                 an age range "60-69" or "unknown", per hra-ui#2334 and #2335)
 # dataset_id, dataset_link and development_stage are not read by hra-ui.
 
 ANNOTATION_TOOL_LABELS = {
@@ -26,6 +27,11 @@ ANNOTATION_TOOL_LABELS = {
 REQUIRED_STRING_FIELDS = {"label", "link", "description"}
 
 MISSING_VALUES = {"", "unknown", "nan", "none", "not reported", "na"}
+
+# Donor columns that show "unknown" in the table instead of an empty cell
+# (age and bmi as strings need hubmapconsortium/hra-ui#2334 and #2335)
+UNKNOWN_WHEN_MISSING = {"sex", "age", "bmi", "ethnicity"}
+UNKNOWN = "unknown"
 
 
 def clean(value):
@@ -47,13 +53,28 @@ def to_number(value):
     return int(number) if number.is_integer() else round(number, 2)
 
 
+# HsapDv decade stages: the Nth decade spans ages (N-1)*10 to (N-1)*10+9, e.g., seventh = 60-69
+DECADE_ORDINALS = {
+    "first": 1, "second": 2, "third": 3, "fourth": 4, "fifth": 5,
+    "sixth": 6, "seventh": 7, "eighth": 8, "ninth": 9, "tenth": 10,
+}
+
+
 def get_age(row):
-    """Donor age in years from donor_age, else parsed from a CxG '<N>-year-old stage' development stage"""
+    """Donor age in years from donor_age, else from a CxG development stage: a number for
+    '<N>-year-old stage', or a range string like '60-69' for '<ordinal> decade stage'"""
     age = to_number(row["donor_age"])
     if age is not None:
         return age
-    match = re.fullmatch(r"(\d+)-year-old stage", str(row["donor_development_stage"]).strip())
-    return int(match.group(1)) if match else None
+    stage = str(row["donor_development_stage"]).strip()
+    match = re.fullmatch(r"(\d+)-year-old stage", stage)
+    if match:
+        return int(match.group(1))
+    match = re.fullmatch(r"(\w+) decade stage", stage)
+    if match and match.group(1) in DECADE_ORDINALS:
+        start = (DECADE_ORDINALS[match.group(1)] - 1) * 10
+        return f"{start}-{start + 9}"
+    return None
 
 
 def get_sex(value):
@@ -149,6 +170,10 @@ def build_data_source(row, dataset_id, ftu_suffix, annotation_tool, doi_metadata
         "bmi": to_number(row["donor_bmi"]),
         "ethnicity": clean(row["donor_race"]),
     }
+
+    for k in UNKNOWN_WHEN_MISSING:
+        if data_source[k] is None:
+            data_source[k] = UNKNOWN
 
     # hra-ui's zod schema has optional (not nullable) fields, so drop empty values,
     # except for the strings it requires
