@@ -33,6 +33,14 @@ def save_to_json(json_list: list):
         json.dump(json_list, json_file_output, indent=4)
 
 
+def count_healthy_vs_diseased(json_list: list):
+    counter = 0
+    for json_dict in json_list:
+        if json_dict["donor_disease"].lower() != "healthy":
+            counter = counter + 1
+    print(f"Total disease: {counter}")
+
+
 def main():
     print(f"JSON files are in {INPUT_FOLDER}.")
     print(f"Output goes into {OUTPUT_FILE_NAME}.")
@@ -52,6 +60,8 @@ def main():
 
     save_to_json(json_list)
     pprint(f"Saved: {json_list}")
+
+    count_healthy_vs_diseased(json_list)
 
 
 if __name__ == "__main__":
