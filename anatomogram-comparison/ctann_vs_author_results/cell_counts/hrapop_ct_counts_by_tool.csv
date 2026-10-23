@@ -1,0 +1,640 @@
+annotation_method,cell_id,cell_count,hrapop_labels,is_cl_id
+azimuth,ASCTB-TEMP:alveolar-m-ccl3-,16512.0,Alveolar Mφ CCL3+,False
+azimuth,ASCTB-TEMP:alveolar-m-mt-positive,6.0,Alveolar Mφ MT-positive,False
+azimuth,ASCTB-TEMP:alveolar-m-proliferating,4776.0,Alveolar Mφ proliferating,False
+azimuth,ASCTB-TEMP:astro,91855.0,Astro,False
+azimuth,ASCTB-TEMP:cd8-effector1,23302.0,CD8 Effector_1,False
+azimuth,ASCTB-TEMP:cd8-effector2,42446.0,CD8 Effector_2,False
+azimuth,ASCTB-TEMP:cd8-effector3,825.0,CD8 Effector_3,False
+azimuth,ASCTB-TEMP:descending-vasa-recta-endothelial,127021.0,Descending Vasa Recta Endothelial,False
+azimuth,ASCTB-TEMP:doublet,131.0,Doublet,False
+azimuth,ASCTB-TEMP:endo,10126.0,Endo,False
+azimuth,ASCTB-TEMP:had1,25.0,hAd1,False
+azimuth,ASCTB-TEMP:had2,615.0,hAd2,False
+azimuth,ASCTB-TEMP:had3,10183.0,hAd3,False
+azimuth,ASCTB-TEMP:had7,1.0,hAd7,False
+azimuth,ASCTB-TEMP:haspc1,12498.0,hASPC1,False
+azimuth,ASCTB-TEMP:haspc2,4303.0,hASPC2,False
+azimuth,ASCTB-TEMP:haspc3,7.0,hASPC3,False
+azimuth,ASCTB-TEMP:haspc4,29.0,hASPC4,False
+azimuth,ASCTB-TEMP:haspc5,1.0,hASPC5,False
+azimuth,ASCTB-TEMP:hbcell,5243.0,hBcell,False
+azimuth,ASCTB-TEMP:hcdc1,1.0,hcDC1,False
+azimuth,ASCTB-TEMP:hcdc2,534.0,hcDC2,False
+azimuth,ASCTB-TEMP:hendoa1,187.0,hEndoA1,False
+azimuth,ASCTB-TEMP:hendoa2,218.0,hEndoA2,False
+azimuth,ASCTB-TEMP:hendos1,1505.0,hEndoS1,False
+azimuth,ASCTB-TEMP:hendos2,155.0,hEndoS2,False
+azimuth,ASCTB-TEMP:hendov,1780.0,hEndoV,False
+azimuth,ASCTB-TEMP:hlec1,215.0,hLEC1,False
+azimuth,ASCTB-TEMP:hmac1,2456.0,hMac1,False
+azimuth,ASCTB-TEMP:hmac2,1541.0,hMac2,False
+azimuth,ASCTB-TEMP:hmac3,1.0,hMac3,False
+azimuth,ASCTB-TEMP:hmast,121.0,hMast,False
+azimuth,ASCTB-TEMP:hmdc,16.0,hmDC,False
+azimuth,ASCTB-TEMP:hmes1,107.0,hMes1,False
+azimuth,ASCTB-TEMP:hmes2,161.0,hMes2,False
+azimuth,ASCTB-TEMP:hmono1,1816.0,hMono1,False
+azimuth,ASCTB-TEMP:hmono2,1.0,hMono2,False
+azimuth,ASCTB-TEMP:hneu,5.0,hNeu,False
+azimuth,ASCTB-TEMP:hnk,374.0,hNK,False
+azimuth,ASCTB-TEMP:hperi,320.0,hPeri,False
+azimuth,ASCTB-TEMP:hplasmablast,2.0,hPlasmablast,False
+azimuth,ASCTB-TEMP:hsmc1,424.0,hSMC1,False
+azimuth,ASCTB-TEMP:hsmc2,86.0,hSMC2,False
+azimuth,ASCTB-TEMP:htcell1,4689.0,hTcell1,False
+azimuth,ASCTB-TEMP:htcell2,2183.0,hTcell2,False
+azimuth,ASCTB-TEMP:interstitial-m-perivascular,43161.0,Interstitial Mφ perivascular,False
+azimuth,ASCTB-TEMP:l2-3-it,105747.0,L2/3 IT,False
+azimuth,ASCTB-TEMP:l5-6-np,8829.0,L5/6 NP,False
+azimuth,ASCTB-TEMP:l5-et,4082.0,L5 ET,False
+azimuth,ASCTB-TEMP:l5-it,88100.0,L5 IT,False
+azimuth,ASCTB-TEMP:l6-ct,18208.0,L6 CT,False
+azimuth,ASCTB-TEMP:l6-it,16198.0,L6 IT,False
+azimuth,ASCTB-TEMP:l6-it-car3,5384.0,L6 IT Car3,False
+azimuth,ASCTB-TEMP:l6b,9520.0,L6b,False
+azimuth,ASCTB-TEMP:lamp5,21159.0,Lamp5,False
+azimuth,ASCTB-TEMP:micro-pvm,47752.0,Micro-PVM,False
+azimuth,ASCTB-TEMP:monocyte-derived-m,227875.0,Monocyte-derived Mφ,False
+azimuth,ASCTB-TEMP:non-classical-monocytes,88991.0,Non-classical monocytes,False
+azimuth,ASCTB-TEMP:oligo,280012.0,Oligo,False
+azimuth,ASCTB-TEMP:opc,36077.0,OPC,False
+azimuth,ASCTB-TEMP:peritubular-capilary-endothelial,113235.0,Peritubular Capilary Endothelial,False
+azimuth,ASCTB-TEMP:pvalb,34790.0,Pvalb,False
+azimuth,ASCTB-TEMP:sncg,7337.0,Sncg,False
+azimuth,ASCTB-TEMP:sst,28336.0,Sst,False
+azimuth,ASCTB-TEMP:sst-chodl,533.0,Sst Chodl,False
+azimuth,ASCTB-TEMP:t-proliferating,1755.0,T Proliferating,False
+azimuth,ASCTB-TEMP:transitional-club-at2,61343.0,Transitional Club-AT2,False
+azimuth,ASCTB-TEMP:vip,42053.0,Vip,False
+azimuth,ASCTB-TEMP:vlmc,20243.0,VLMC,False
+azimuth,CL:0000050,4329.0,EMP,True
+azimuth,CL:0000051,5607.0,CLP,True
+azimuth,CL:0000057,837644.0,Fibroblast,True
+azimuth,CL:0000077,80291.0,Mesothelial,True
+azimuth,CL:0000084,173833.0,T,True
+azimuth,CL:0000097,68220.0,Mast | Mast cells,True
+azimuth,CL:0000115,27463.0,Endothelial | endothelial,True
+azimuth,CL:0000136,18723.0,Adipocyte,True
+azimuth,CL:0000158,32400.0,Club (nasal) | Club (non-nasal),True
+azimuth,CL:0000169,27449.0,beta,True
+azimuth,CL:0000171,2107.0,alpha,True
+azimuth,CL:0000173,1268.0,delta,True
+azimuth,CL:0000186,46526.0,Myofibroblasts,True
+azimuth,CL:0000192,147135.0,SM activated stress response | Smooth Muscle | Smooth muscle,True
+azimuth,CL:0000233,58373.0,Platelet,True
+azimuth,CL:0000235,119759.0,Macrophage,True
+azimuth,CL:0000236,238825.0,B | B cells,True
+azimuth,CL:0000313,654.0,SMG serous (nasal),True
+azimuth,CL:0000499,15698.0,Stromal,True
+azimuth,CL:0000553,10859.0,Prog Mk,True
+azimuth,CL:0000557,63417.0,GMP,True
+azimuth,CL:0000583,379810.0,Alveolar macrophages,True
+azimuth,CL:0000623,967029.0,NK | NK cells,True
+azimuth,CL:0000624,362539.0,CD4 T cells,True
+azimuth,CL:0000625,430182.0,CD8 T cells,True
+azimuth,CL:0000648,1761.0,Renin-positive Juxtaglomerular Granular,True
+azimuth,CL:0000650,45065.0,Mesangial,True
+azimuth,CL:0000653,60635.0,Podocyte,True
+azimuth,CL:0000669,320121.0,Pericyte,True
+azimuth,CL:0000738,9856.0,immune,True
+azimuth,CL:0000764,126833.0,Early Eryth | Eryth | Late Eryth,True
+azimuth,CL:0000775,1395.0,Neutrophil,True
+azimuth,CL:0000784,37035.0,pDC,True
+azimuth,CL:0000786,77219.0,Plasma | Plasma cells,True
+azimuth,CL:0000787,182099.0,B memory | Memory B,True
+azimuth,CL:0000788,478517.0,B naive | Naive B,True
+azimuth,CL:0000798,94966.0,gdT,True
+azimuth,CL:0000814,100021.0,Natural Killer T,True
+azimuth,CL:0000815,95428.0,Treg,True
+azimuth,CL:0000817,29274.0,pre B,True
+azimuth,CL:0000818,321683.0,B intermediate | transitional B,True
+azimuth,CL:0000826,3845.0,pro B,True
+azimuth,CL:0000837,35555.0,HSC,True
+azimuth,CL:0000860,147170.0,Classical monocytes,True
+azimuth,CL:0000875,29902.0,Non-classical monocyte,True
+azimuth,CL:0000890,53985.0,M2 Macrophage,True
+azimuth,CL:0000895,593775.0,CD4 Naive,True
+azimuth,CL:0000897,1915157.0,CD4 Memory | CD4 TCM,True
+azimuth,CL:0000900,319835.0,CD8 Naive,True
+azimuth,CL:0000909,126421.0,CD8 Memory | CD8 TCM,True
+azimuth,CL:0000934,96448.0,CD4 CTL,True
+azimuth,CL:0000935,13613.0,dnT,True
+azimuth,CL:0000936,27304.0,LMPP,True
+azimuth,CL:0000938,53859.0,NK CD56+ | NK_CD56bright,True
+azimuth,CL:0000940,116756.0,MAIT,True
+azimuth,CL:0000980,50876.0,Plasmablast,True
+azimuth,CL:0000990,18728.0,Classical Dendritic,True
+azimuth,CL:0000992,6529.0,pre-pDC,True
+azimuth,CL:0001029,8354.0,pre-mDC,True
+azimuth,CL:0001044,124593.0,CD4 Effector | CD4 TEM,True
+azimuth,CL:0001050,874766.0,CD8 TEM,True
+azimuth,CL:0001058,7191.0,Plasmacytoid DCs | Plasmacytoid Dendritic,True
+azimuth,CL:0001065,21373.0,ILC,True
+azimuth,CL:0002057,1713507.0,CD14 Mono,True
+azimuth,CL:0002062,810175.0,AT1,True
+azimuth,CL:0002063,590881.0,AT2,True
+azimuth,CL:0002064,20759.0,acinar,True
+azimuth,CL:0002075,10685.0,Tuft,True
+azimuth,CL:0002079,8724.0,ductal,True
+azimuth,CL:0002129,203959.0,Atrial Cardiomyocyte,True
+azimuth,CL:0002131,1232256.0,Ventricular Cardiomycoyte,True
+azimuth,CL:0002138,14188.0,Lymphatic Endothelial,True
+azimuth,CL:0002144,290259.0,Capillary Endothelial,True
+azimuth,CL:0002145,315371.0,Multiciliated (non-nasal),True
+azimuth,CL:0002191,4981.0,BaEoMa,True
+azimuth,CL:0002201,60502.0,Intercalated Type B,True
+azimuth,CL:0002241,26821.0,Peribronchial fibroblasts,True
+azimuth,CL:0002275,1229.0,gamma,True
+azimuth,CL:0002350,208076.0,Endocardial,True
+azimuth,CL:0002394,5155.0,DC1 | cDC1,True
+azimuth,CL:0002396,262408.0,CD16 Mono,True
+azimuth,CL:0002399,170240.0,DC2 | cDC2,True
+azimuth,CL:0002410,9133.0,activated_stellate | quiescent_stellate,True
+azimuth,CL:0002480,13065.0,Goblet (nasal),True
+azimuth,CL:0002553,1151.0,Fibromyocytes,True
+azimuth,CL:0002573,38831.0,Neuronal | Schwann / Neural | schwann,True
+azimuth,CL:0002633,54506.0,Basal resting,True
+azimuth,CL:0005012,2205.0,Multiciliated (nasal),True
+azimuth,CL:0005019,192.0,epsilon,True
+azimuth,CL:0008001,778140.0,HSPC,True
+azimuth,CL:0008024,4.0,cycling,True
+azimuth,CL:0009086,58760.0,Lymphatic EC differentiating | Lymphatic EC mature,True
+azimuth,CL:0009089,70762.0,Pericytes,True
+azimuth,CL:0011031,162652.0,Monocyte-derived | Monocyte/cDC,True
+azimuth,CL:0017000,139454.0,Ionocyte,True
+azimuth,CL:0017009,3975.0,ASDC,True
+azimuth,CL:0019003,932.0,Goblet (bronchial),True
+azimuth,CL:1000143,48.0,Goblet (subsegmental),True
+azimuth,CL:1000223,13221.0,Neuroendocrine,True
+azimuth,CL:1000412,20963.0,Afferent / Efferent Arteriole Endothelial,True
+azimuth,CL:1000413,94264.0,Arterial Endothelial,True
+azimuth,CL:1000414,56436.0,Venous Endothelial,True
+azimuth,CL:1000452,111401.0,Parietal Epithelial,True
+azimuth,CL:1000491,1274.0,Mesothelium,True
+azimuth,CL:1000597,64207.0,Papillary Tip Epithelial,True
+azimuth,CL:1000692,285343.0,Fibroblast,True
+azimuth,CL:1000714,323191.0,Cortical Collecting Duct Principal,True
+azimuth,CL:1000715,107782.0,Cortical Collecting Duct Intercalated Type A,True
+azimuth,CL:1000716,76133.0,Outer Medullary Collecting Duct Principal,True
+azimuth,CL:1000717,55081.0,Outer Medullary Collecting Duct Intercalated Type A,True
+azimuth,CL:1000718,1092532.0,Inner Medullary Collecting Duct,True
+azimuth,CL:1000768,522267.0,Connecting Tubule,True
+azimuth,CL:1000850,157197.0,Macula Densa,True
+azimuth,CL:1001005,45365.0,Glomerular Capillary Endothelial,True
+azimuth,CL:1001107,399626.0,Ascending Thin Limb,True
+azimuth,CL:1001108,424455.0,Medullary Thick Ascending Limb,True
+azimuth,CL:1001109,1240133.0,Cortical Thick Ascending Limb,True
+azimuth,CL:1001131,73042.0,Ascending Vasa Recta Endothelial,True
+azimuth,CL:1001318,104096.0,Cortical Vascular Smooth Muscle / Pericyte | Vascular Smooth Muscle / Pericyte,True
+azimuth,CL:1001568,92635.0,EC arterial,True
+azimuth,CL:4028002,783558.0,EC general capillary,True
+azimuth,CL:4028003,72549.0,EC aerocyte capillary,True
+azimuth,CL:4028004,371204.0,Alveolar fibroblasts,True
+azimuth,CL:4030009,558463.0,Proximal Tubule Epithelial Segment 1,True
+azimuth,CL:4030010,23329.0,Proximal Tubule Epithelial Segment 2,True
+azimuth,CL:4030011,319309.0,Proximal Tubule Epithelial Segment 3,True
+azimuth,CL:4030012,567096.0,Descending Thin Limb Type 1,True
+azimuth,CL:4030013,431368.0,Descending Thin Limb Type 2,True
+azimuth,CL:4030014,112477.0,Descending Thin Limb Type 3,True
+azimuth,CL:4030016,593824.0,Distal Convoluted Tubule Type 1,True
+azimuth,CL:4030017,10793.0,Distal Convoluted Tubule Type 2,True
+azimuth,CL:4030018,55438.0,Connecting Tubule Principal,True
+azimuth,CL:4030020,2879.0,Connecting Tubule Intercalated Type A,True
+azimuth,CL:4030022,311591.0,Medullary Fibroblast,True
+azimuth,CL:4033005,1441.0,SMG serous (bronchial),True
+azimuth,CL:4033008,163403.0,EC venous pulmonary | EC venous systemic,True
+azimuth,CL:4033022,1934.0,SMG mucous,True
+azimuth,CL:4033023,2628.0,SMG duct,True
+azimuth,CL:4033044,1098.0,Deuterosomal,True
+azimuth,CL:4033045,725.0,Migratory DCs,True
+azimuth,CL:4033048,65057.0,Suprabasal,True
+azimuth,CL:4033069,8844.0,T cells proliferating,True
+azimuth,CL:4033071,43383.0,NK Proliferating,True
+azimuth,CL:4033074,6406.0,CD8 Proliferating,True
+azimuth,CL:4033075,31042.0,CD4 Proliferating,True
+azimuth,CL:4033078,131.0,Cycling Mononuclear Phagocyte,True
+azimuth,CL:4033079,126.0,Lymphatic EC proliferating,True
+azimuth,CL:4033080,13237.0,AT2 proliferating,True
+azimuth,CL:4052029,835.0,Subpleural fibroblasts,True
+azimuth,CL:4052030,120721.0,Adventitial fibroblasts,True
+celltypist,ASCTB-TEMP:-cells-ins-,54.0,β cells (INS+),False
+celltypist,ASCTB-TEMP:activated-cd4-t,66407.0,Activated CD4 T,False
+celltypist,ASCTB-TEMP:activated-cd8-t,56044.0,Activated CD8 T,False
+celltypist,ASCTB-TEMP:activated-t,16041.0,Activated T,False
+celltypist,ASCTB-TEMP:adult-glia,15930.0,Adult Glia,False
+celltypist,ASCTB-TEMP:alphaimmature,54317.0,alpha_immature,False
+celltypist,ASCTB-TEMP:alphamature,62056.0,alpha_mature,False
+celltypist,ASCTB-TEMP:alphamhc-ii,10944.0,alpha_MHC II,False
+celltypist,ASCTB-TEMP:alphastress-ii,27783.0,alpha_stress II,False
+celltypist,ASCTB-TEMP:angiogenic-pericyte,1515.0,angiogenic pericyte,False
+celltypist,ASCTB-TEMP:arterial-capillary,19529.0,arterial capillary,False
+celltypist,ASCTB-TEMP:best2-goblet-cell,56692.0,BEST2+ Goblet cell,False
+celltypist,ASCTB-TEMP:best4-epithelial,22441.0,BEST4+ epithelial,False
+celltypist,ASCTB-TEMP:betaimmature,12542.0,beta_immature,False
+celltypist,ASCTB-TEMP:betamature,53910.0,beta_mature,False
+celltypist,ASCTB-TEMP:betamhc-autoantigen,31882.0,beta_MHC/autoantigen,False
+celltypist,ASCTB-TEMP:betamtdna-deficient,5026.0,beta_mtDNA deficient,False
+celltypist,ASCTB-TEMP:betastress-i,44433.0,beta_stress I,False
+celltypist,ASCTB-TEMP:betastress-ii,13428.0,beta_stress II,False
+celltypist,ASCTB-TEMP:branch-a1-imn-,2738.0,Branch A1 (iMN),False
+celltypist,ASCTB-TEMP:branch-a2-ipan-in-,1960.0,Branch A2 (IPAN/IN),False
+celltypist,ASCTB-TEMP:branch-a3-ipan-in-,700.0,Branch A3 (IPAN/IN),False
+celltypist,ASCTB-TEMP:branch-a4-in-,2646.0,Branch A4 (IN),False
+celltypist,ASCTB-TEMP:branch-b1-emn-,5587.0,Branch B1 (eMN),False
+celltypist,ASCTB-TEMP:branch-b2-emn-,1112.0,Branch B2 (eMN),False
+celltypist,ASCTB-TEMP:branch-b3-ipan-,688.0,Branch B3 (IPAN),False
+celltypist,ASCTB-TEMP:cd8-tmem,16701.0,CD8 Tmem,False
+celltypist,ASCTB-TEMP:cdc1,6978.0,cDC1,False
+celltypist,ASCTB-TEMP:cdc2,47498.0,cDC2,False
+celltypist,ASCTB-TEMP:clc-mast-cell,774.0,CLC+ Mast cell,False
+celltypist,ASCTB-TEMP:cldn10-cells,1231.0,CLDN10+ cells,False
+celltypist,ASCTB-TEMP:clp,864.0,CLP,False
+celltypist,ASCTB-TEMP:colonocyte,117764.0,Colonocyte,False
+celltypist,ASCTB-TEMP:contractile-pericyte-pln-,9292.0,Contractile pericyte (PLN+),False
+celltypist,ASCTB-TEMP:cx3cr1-cd8-tmem,898.0,CX3CR1+ CD8 Tmem,False
+celltypist,ASCTB-TEMP:cycling-b-cell,10212.0,Cycling B cell,False
+celltypist,ASCTB-TEMP:cycling-ec,3176.0,cycling EC,False
+celltypist,ASCTB-TEMP:cycling-encc-glia,3812.0,cycling ENCC/glia,False
+celltypist,ASCTB-TEMP:cycling-neuroblast,824.0,cycling neuroblast,False
+celltypist,ASCTB-TEMP:cycling-plasma-cell,40144.0,Cycling plasma cell,False
+celltypist,ASCTB-TEMP:cycling-stromal,8744.0,cycling stromal,False
+celltypist,ASCTB-TEMP:d-cells-sst-,1638.0,D cells (SST+),False
+celltypist,ASCTB-TEMP:delta,47526.0,delta,False
+celltypist,ASCTB-TEMP:differentiating-glia,948.0,Differentiating glia,False
+celltypist,ASCTB-TEMP:distal-progenitor,11203.0,Distal progenitor,False
+celltypist,ASCTB-TEMP:dz-gc-cell,2274.0,DZ GC cell,False
+celltypist,ASCTB-TEMP:ec-cells-npw-,645.0,EC cells (NPW+),False
+celltypist,ASCTB-TEMP:ec-cells-tac1-,4090.0,EC cells (TAC1+),False
+celltypist,ASCTB-TEMP:eecs,11259.0,EECs,False
+celltypist,ASCTB-TEMP:encc-glia-progenitor,3686.0,ENCC/glia Progenitor,False
+celltypist,ASCTB-TEMP:enterocyte,247996.0,Enterocyte,False
+celltypist,ASCTB-TEMP:fcrl4-memory-b,1510.0,FCRL4+ Memory B,False
+celltypist,ASCTB-TEMP:fdc,450.0,FDC,False
+celltypist,ASCTB-TEMP:fetal-arterial-ec,3066.0,Fetal arterial EC,False
+celltypist,ASCTB-TEMP:fetal-venous-ec,1736.0,Fetal venous EC,False
+celltypist,ASCTB-TEMP:gc-b-cell,2493.0,GC B cell,False
+celltypist,ASCTB-TEMP:gdt,10704.0,gdT,False
+celltypist,ASCTB-TEMP:germ,1285.0,Germ,False
+celltypist,ASCTB-TEMP:glia-1-dhh-,850.0,Glia 1 (DHH+),False
+celltypist,ASCTB-TEMP:glia-2-eln-,1588.0,Glia 2 (ELN+),False
+celltypist,ASCTB-TEMP:glia-3-bcan-,2773.0,Glia 3 (BCAN+),False
+celltypist,ASCTB-TEMP:goblet-cell,87069.0,Goblet cell,False
+celltypist,ASCTB-TEMP:i-cells-cck-,1625.0,I cells (CCK+),False
+celltypist,ASCTB-TEMP:icc,891.0,ICC,False
+celltypist,ASCTB-TEMP:iga-plasma-cell,152636.0,IgA plasma cell,False
+celltypist,ASCTB-TEMP:igg-plasma-cell,4460.0,IgG plasma cell,False
+celltypist,ASCTB-TEMP:igm-plasma-cell,357.0,IgM plasma cell,False
+celltypist,ASCTB-TEMP:ilc2,471.0,ILC2,False
+celltypist,ASCTB-TEMP:ilc3,3676.0,ILC3,False
+celltypist,ASCTB-TEMP:ilcp,659.0,ILCP,False
+celltypist,ASCTB-TEMP:immature-b,1235.0,Immature B,False
+celltypist,ASCTB-TEMP:immature-pericyte,6210.0,Immature pericyte,False
+celltypist,ASCTB-TEMP:k-cells-gip-,2669.0,K cells (GIP+),False
+celltypist,ASCTB-TEMP:l-cells-pyy-,3400.0,L cells (PYY+),False
+celltypist,ASCTB-TEMP:lec1-ackr4-,6822.0,LEC1 (ACKR4+),False
+celltypist,ASCTB-TEMP:lec2-madcam1-,182.0,LEC2 (MADCAM1+),False
+celltypist,ASCTB-TEMP:lec3-adgrg3-,3026.0,LEC3 (ADGRG3+),False
+celltypist,ASCTB-TEMP:lec4-stab2-,2804.0,LEC4 (STAB2+),False
+celltypist,ASCTB-TEMP:lec5-cldn11-,384.0,LEC5 (CLDN11+),False
+celltypist,ASCTB-TEMP:lec6-adamts4-,3189.0,LEC6 (ADAMTS4+),False
+celltypist,ASCTB-TEMP:lti-like-ncr-ilc3,5023.0,LTi-like NCR+ ILC3 | LTi-like NCR- ILC3,False
+celltypist,ASCTB-TEMP:lymphoid-dc,4119.0,Lymphoid DC,False
+celltypist,ASCTB-TEMP:lyve1-macrophage,18576.0,LYVE1+ Macrophage,False
+celltypist,ASCTB-TEMP:lz-gc-cell,1361.0,LZ GC cell,False
+celltypist,ASCTB-TEMP:m-x-cells-mln-ghrl-,1282.0,M/X cells (MLN/GHRL+),False
+celltypist,ASCTB-TEMP:macrophages,32447.0,Macrophages,False
+celltypist,ASCTB-TEMP:mait-cell,2221.0,MAIT cell,False
+celltypist,ASCTB-TEMP:mast-cell,18617.0,Mast cell,False
+celltypist,ASCTB-TEMP:mature-arterial-ec,7633.0,Mature arterial EC,False
+celltypist,ASCTB-TEMP:mature-venous-ec,15621.0,Mature venous EC,False
+celltypist,ASCTB-TEMP:megakaryocyte,3093.0,Megakaryocyte,False
+celltypist,ASCTB-TEMP:memory-b,31812.0,Memory B,False
+celltypist,ASCTB-TEMP:mesoderm-1-hand1-,41557.0,Mesoderm 1 (HAND1+),False
+celltypist,ASCTB-TEMP:mesoderm-2-zeb2-,38103.0,Mesoderm 2 (ZEB2+),False
+celltypist,ASCTB-TEMP:mesothelium,2137.0,Mesothelium,False
+celltypist,ASCTB-TEMP:mesothelium-prg4-,189.0,Mesothelium (PRG4+),False
+celltypist,ASCTB-TEMP:mesothelium-rgs5-,1852.0,Mesothelium (RGS5+),False
+celltypist,ASCTB-TEMP:microfold-cell,57731.0,Microfold cell,False
+celltypist,ASCTB-TEMP:mln-stroma-fmo2-,1246.0,mLN Stroma (FMO2+),False
+celltypist,ASCTB-TEMP:mlto,1967.0,mLTo,False
+celltypist,ASCTB-TEMP:mmp9-inflammatory-macrophage,5515.0,MMP9+ Inflammatory macrophage,False
+celltypist,ASCTB-TEMP:monocytes,15179.0,Monocytes,False
+celltypist,ASCTB-TEMP:mpo-mono-neutrophil,439.0,MPO+ mono-neutrophil,False
+celltypist,ASCTB-TEMP:myofibroblast,11906.0,myofibroblast,False
+celltypist,ASCTB-TEMP:myofibroblast-rspo2-,17565.0,myofibroblast (RSPO2+),False
+celltypist,ASCTB-TEMP:n-cells-nts-,791.0,N cells (NTS+),False
+celltypist,ASCTB-TEMP:naive-b,9674.0,Naive B,False
+celltypist,ASCTB-TEMP:neuroblast,2347.0,Neuroblast,False
+celltypist,ASCTB-TEMP:nk-cell,13284.0,NK cell,False
+celltypist,ASCTB-TEMP:nk-t-cell,7770.0,NK T cell,False
+celltypist,ASCTB-TEMP:paneth,34632.0,Paneth,False
+celltypist,ASCTB-TEMP:pdc,808.0,pDC,False
+celltypist,ASCTB-TEMP:pericyte,4633.0,Pericyte,False
+celltypist,ASCTB-TEMP:pp,5003.0,PP,False
+celltypist,ASCTB-TEMP:pre-b,1357.0,Pre-B,False
+celltypist,ASCTB-TEMP:pro-b,1119.0,Pro-B,False
+celltypist,ASCTB-TEMP:progenitor-neurog3-,2725.0,Progenitor (NEUROG3+),False
+celltypist,ASCTB-TEMP:proximal-progenitor,16930.0,Proximal progenitor,False
+celltypist,ASCTB-TEMP:rbc,2213.0,RBC,False
+celltypist,ASCTB-TEMP:sell-cd4-t,31402.0,SELL+ CD4 T,False
+celltypist,ASCTB-TEMP:sell-cd8-t,7362.0,SELL+ CD8 T,False
+celltypist,ASCTB-TEMP:smc-part1-capn3-,6354.0,SMC (PART1/CAPN3+),False
+celltypist,ASCTB-TEMP:smc-plpp2-,26046.0,SMC (PLPP2+),False
+celltypist,ASCTB-TEMP:stat1-naive-b,3157.0,STAT1+ Naive B,False
+celltypist,ASCTB-TEMP:stem-cells,50427.0,Stem cells,False
+celltypist,ASCTB-TEMP:stromal-1-adamdec1-,19896.0,Stromal 1 (ADAMDEC1+),False
+celltypist,ASCTB-TEMP:stromal-1-ccl11-,57935.0,Stromal 1 (CCL11+),False
+celltypist,ASCTB-TEMP:stromal-2-ch25h-,4575.0,Stromal 2 (CH25H+),False
+celltypist,ASCTB-TEMP:stromal-2-npy-,26177.0,Stromal 2 (NPY+),False
+celltypist,ASCTB-TEMP:stromal-3-c7-,15584.0,Stromal 3 (C7+),False
+celltypist,ASCTB-TEMP:stromal-3-kcnn3-,5757.0,Stromal 3 (KCNN3+),False
+celltypist,ASCTB-TEMP:stromal-4-mmp1-,3024.0,Stromal 4 (MMP1+),False
+celltypist,ASCTB-TEMP:t-reticular,3871.0,T reticular,False
+celltypist,ASCTB-TEMP:ta,211937.0,TA,False
+celltypist,ASCTB-TEMP:tfh,11817.0,Tfh,False
+celltypist,ASCTB-TEMP:th1,3043.0,Th1,False
+celltypist,ASCTB-TEMP:th17,12488.0,Th17,False
+celltypist,ASCTB-TEMP:transitional-stromal-3-c3-,30601.0,Transitional Stromal 3 (C3+),False
+celltypist,ASCTB-TEMP:trdv2-trgv9-gdt,1104.0,TRDV2/TRGV9 gdT,False
+celltypist,ASCTB-TEMP:treg,12728.0,Treg,False
+celltypist,ASCTB-TEMP:trgv2-gdt,8134.0,TRGV2 gdT,False
+celltypist,ASCTB-TEMP:trgv4-gdt,3811.0,TRGV4 gdT,False
+celltypist,ASCTB-TEMP:trgv5-7-gdt,2021.0,TRGV5/7 gdT,False
+celltypist,ASCTB-TEMP:tuft,14067.0,Tuft,False
+celltypist,ASCTB-TEMP:venous-capillary,5094.0,venous capillary,False
+celltypist,CL:0000037,1584.0,Hematopoietic stem cells,True
+celltypist,CL:0000057,741102.0,F1 | F2 | F3 | FB1 | FB2 | FB3 | FB4_activated | FB5 | FB6 | Fibroblasts,True
+celltypist,CL:0000065,2221.0,Ependymal,True
+celltypist,CL:0000071,33862.0,VE1 | VE2 | VE3,True
+celltypist,CL:0000077,57849.0,Meso,True
+celltypist,CL:0000084,237807.0,T cells,True
+celltypist,CL:0000097,77997.0,Mast | Mast cells | Mast_cell,True
+celltypist,CL:0000115,104842.0,EC10_CMC-like | EC4_immune | EC9_FB-like | Endothelial | Endothelial cells,True
+celltypist,CL:0000128,57782.0,mOli,True
+celltypist,CL:0000129,13675.0,Microglia,True
+celltypist,CL:0000136,19077.0,Adip1 | Adip2 | Adip3 | Adip4,True
+celltypist,CL:0000158,196040.0,Club (nasal) | Club (non-nasal) | Hillock-like,True
+celltypist,CL:0000165,63852.0,Neuroendocrine,True
+celltypist,CL:0000169,34454.0,beta_MHC/autoantigen | beta_immature | beta_mature | beta_stress I | beta_stress II,True
+celltypist,CL:0000171,9862.0,alpha_MHC II | alpha_immature | alpha_mature | alpha_stress II,True
+celltypist,CL:0000173,37917.0,delta,True
+celltypist,CL:0000182,167206.0,Hepatocytes,True
+celltypist,CL:0000186,17327.0,Myofibroblasts,True
+celltypist,CL:0000192,53427.0,Smooth muscle | Smooth muscle FAM83D+,True
+celltypist,CL:0000235,307715.0,LYVE1+IGF1+MP | LYVE1+TIMD4+MP | Macro_1 | Macro_2 | Macrophages | MoMP | Mono_mac,True
+celltypist,CL:0000236,96036.0,B | B cells,True
+celltypist,CL:0000313,7065.0,SM activated stress response | SMG serous (nasal),True
+celltypist,CL:0000322,17035.0,AT0,True
+celltypist,CL:0000359,92309.0,SMC1_basic | SMC2_art,True
+celltypist,CL:0000451,5711.0,DC,True
+celltypist,CL:0000492,527360.0,CD4 T cells | CD4+T_Tfh,True
+celltypist,CL:0000545,369.0,CD4+T_Th1,True
+celltypist,CL:0000546,468.0,CD4+T_Th2,True
+celltypist,CL:0000576,107053.0,Classical monocytes,True
+celltypist,CL:0000583,374584.0,Alveolar macrophages,True
+celltypist,CL:0000617,43242.0,GABA_neurons,True
+celltypist,CL:0000623,206592.0,ILC1_NK | NK | NK cells | Resident NK,True
+celltypist,CL:0000625,14824.0,CD8+T_trans,True
+celltypist,CL:0000669,977178.0,PC1_vent | PC2_atria | PC3_str | PC4_CMC-like | Pericyte_1 | Pericyte_2 | Pericytes,True
+celltypist,CL:0000695,15335.0,Cajal-Retzius,True
+celltypist,CL:0000706,17717.0,ChoroidPlexus,True
+celltypist,CL:0000767,14821.0,Basophils,True
+celltypist,CL:0000775,20658.0,Neut | Neutrophils,True
+celltypist,CL:0000784,11675.0,Plasmacytoid DCs | pDCs,True
+celltypist,CL:0000786,59087.0,B_plasma | Plasma | Plasma cells,True
+celltypist,CL:0000791,1998.0,MAIT-like,True
+celltypist,CL:0000792,329.0,CD4+T_reg,True
+celltypist,CL:0000794,8045.0,CD8+T_cytox,True
+celltypist,CL:0000798,899.0,gdT,True
+celltypist,CL:0000814,21088.0,Circulating NK/NKT | T/NK_cycling,True
+celltypist,CL:0000815,7574.0,Treg,True
+celltypist,CL:0000863,3798.0,Inf_mac,True
+celltypist,CL:0000875,231677.0,Non-classical monocytes,True
+celltypist,CL:0000895,15969.0,CD4+T_naive,True
+celltypist,CL:0000899,2534.0,CD4+T_Th17,True
+celltypist,CL:0000910,14883.0,Tc,True
+celltypist,CL:0000912,34659.0,Th,True
+celltypist,CL:0000913,246752.0,CD8 T cells | CD8+T_em,True
+celltypist,CL:0000938,6608.0,NK_CD56hi,True
+celltypist,CL:0000939,19518.0,NK_CD16hi,True
+celltypist,CL:0001043,7644.0,CD4+T_act,True
+celltypist,CL:0001050,5533.0,CD8+T_te,True
+celltypist,CL:0001056,7634.0,MigDC | Migratory DCs,True
+celltypist,CL:0001065,1550.0,ILC,True
+celltypist,CL:0001078,3650.0,ILC1_3,True
+celltypist,CL:0001081,1093.0,ILC2,True
+celltypist,CL:0002057,10290.0,CD14+Mo,True
+celltypist,CL:0002062,392169.0,AT1,True
+celltypist,CL:0002063,843263.0,AT2,True
+celltypist,CL:0002068,504.0,Purkinje_cell,True
+celltypist,CL:0002072,577.0,AVN_P_cell,True
+celltypist,CL:0002075,8589.0,Tuft,True
+celltypist,CL:0002129,309237.0,aCM1 | aCM2 | aCM3 | aCM4 | aCM5,True
+celltypist,CL:0002131,836943.0,vCM1 | vCM2 | vCM3_stressed | vCM4 | vCM5,True
+celltypist,CL:0002138,104174.0,EC8_ln | LE1 | LE2 | Lymphatic EC differentiating | Lymphatic EC mature,True
+celltypist,CL:0002144,656237.0,EC general capillary | EC1_cap | EC2_cap | EC3_cap,True
+celltypist,CL:0002153,150297.0,Differentiated_KC,True
+celltypist,CL:0002187,52984.0,Undifferentiated_KC,True
+celltypist,CL:0002241,64905.0,Peribronchial fibroblasts,True
+celltypist,CL:0002275,8118.0,PP,True
+celltypist,CL:0002350,199742.0,EC7_endocardial,True
+celltypist,CL:0002394,16124.0,DC1 | cDC1s,True
+celltypist,CL:0002396,21233.0,CD16+Mo,True
+celltypist,CL:0002399,140346.0,DC2 | cDC2s,True
+celltypist,CL:0002453,20708.0,OPCs,True
+celltypist,CL:0002457,13953.0,LC | migLC,True
+celltypist,CL:0002480,10734.0,Goblet (nasal),True
+celltypist,CL:0002543,71721.0,EC6_ven,True
+celltypist,CL:0002573,668.0,Schwann_1 | Schwann_2,True
+celltypist,CL:0002604,44860.0,Astrocytes,True
+celltypist,CL:0002633,476772.0,Basal resting | Suprabasal,True
+celltypist,CL:0005006,2104.0,Ionocyte,True
+celltypist,CL:0005012,275953.0,Multiciliated (nasal) | Multiciliated (non-nasal),True
+celltypist,CL:0010005,347.0,AVN_bundle_cell,True
+celltypist,CL:0010020,43583.0,NC1_glial | NC2_glial_NGF+ | NC3_glial | NC4_glial | NC6_schwann,True
+celltypist,CL:0011031,68799.0,Mono+mono derived cells | moDC,True
+celltypist,CL:0019001,101328.0,pre-TB secretory,True
+celltypist,CL:0019003,2805.0,Goblet (bronchial),True
+celltypist,CL:1000312,60582.0,Goblet (subsegmental),True
+celltypist,CL:1000413,182940.0,EC arterial | EC5_art,True
+celltypist,CL:1000414,91560.0,EC venous pulmonary | EC venous systemic,True
+celltypist,CL:1000458,13715.0,Melanocyte,True
+celltypist,CL:1000477,658.0,SAN_P_cell,True
+celltypist,CL:1000488,21752.0,Cholangiocytes,True
+celltypist,CL:1000491,4610.0,Mesothelium,True
+celltypist,CL:1001569,20110.0,Subcul_EntorCtx_neurons,True
+celltypist,CL:1001571,100586.0,CA1_neurons | CA2-4_neurons | CA_neurons,True
+celltypist,CL:1001603,265774.0,Monocyte-derived Mph,True
+celltypist,CL:2000089,67506.0,imGC | mGC,True
+celltypist,CL:4023054,2452.0,Subpleural fibroblasts,True
+celltypist,CL:4028003,86278.0,EC aerocyte capillary,True
+celltypist,CL:4028004,242655.0,Alveolar fibroblasts,True
+celltypist,CL:4028006,65669.0,Adventitial fibroblasts,True
+celltypist,CL:4033005,6114.0,SMG serous (bronchial),True
+celltypist,CL:4033022,9630.0,SMG mucous,True
+celltypist,CL:4033023,5439.0,SMG duct,True
+celltypist,CL:4033041,40172.0,Alveolar Mph CCL3+,True
+celltypist,CL:4033042,6158.0,Alveolar Mph MT-positive,True
+celltypist,CL:4033043,52267.0,Interstitial Mph perivascular,True
+celltypist,CL:4033044,4601.0,Deuterosomal,True
+celltypist,CL:4033069,8575.0,T cells proliferating,True
+celltypist,CL:4033076,7076.0,LYVE1+MP_cycling,True
+celltypist,CL:4033077,10258.0,Alveolar Mph proliferating,True
+celltypist,CL:4033079,1610.0,Lymphatic EC proliferating,True
+celltypist,CL:4033080,41950.0,AT2 proliferating,True
+popv,ASCTB-TEMP:basal-cell,18662.0,basal cell,False
+popv,ASCTB-TEMP:capillary-endothelial-cell,220.0,capillary endothelial cell,False
+popv,ASCTB-TEMP:cd4-positive-alpha-beta-t-cell,13.0,"CD4-positive, alpha-beta T cell",False
+popv,ASCTB-TEMP:cd8-positive-alpha-beta-t-cell,4.0,"CD8-positive, alpha-beta T cell",False
+popv,ASCTB-TEMP:conventional-dendritic-cell,5.0,conventional dendritic cell,False
+popv,ASCTB-TEMP:endothelial-cell-of-artery,174.0,endothelial cell of artery,False
+popv,ASCTB-TEMP:endothelial-cell-of-lymphatic-vessel,113.0,endothelial cell of lymphatic vessel,False
+popv,ASCTB-TEMP:epithelial-cell,112.0,epithelial cell,False
+popv,ASCTB-TEMP:fibroblast,1760.0,fibroblast,False
+popv,ASCTB-TEMP:keratinocyte,10350.0,keratinocyte,False
+popv,ASCTB-TEMP:leukocyte,5480.0,leukocyte,False
+popv,ASCTB-TEMP:pericyte,753.0,pericyte,False
+popv,ASCTB-TEMP:tongue-muscle-cell,202.0,tongue muscle cell,False
+popv,ASCTB-TEMP:vein-endothelial-cell,928.0,vein endothelial cell,False
+popv,CL:0000034,67097.0,stem cell,True
+popv,CL:0000037,548108.0,hematopoietic stem cell,True
+popv,CL:0000038,76082.0,erythroid progenitor cell,True
+popv,CL:0000049,12084.0,common myeloid progenitor,True
+popv,CL:0000057,1287681.0,fibroblast,True
+popv,CL:0000064,8110.0,ciliated cell,True
+popv,CL:0000066,126261.0,epithelial cell,True
+popv,CL:0000067,18482.0,ciliated epithelial cell,True
+popv,CL:0000071,4471.0,blood vessel endothelial cell,True
+popv,CL:0000077,2583.0,mesothelial cell,True
+popv,CL:0000084,184117.0,T cell,True
+popv,CL:0000094,90695.0,granulocyte,True
+popv,CL:0000097,21621.0,mast cell,True
+popv,CL:0000101,113.0,sensory neuron,True
+popv,CL:0000103,6.0,bipolar neuron,True
+popv,CL:0000114,7308.0,surface ectodermal cell,True
+popv,CL:0000115,226620.0,endothelial cell,True
+popv,CL:0000129,29019.0,microglial cell,True
+popv,CL:0000131,50274.0,gut endothelial cell,True
+popv,CL:0000134,2826.0,mesenchymal stem cell,True
+popv,CL:0000136,321.0,fat cell,True
+popv,CL:0000148,90661.0,melanocyte,True
+popv,CL:0000151,15029.0,secretory cell,True
+popv,CL:0000158,180273.0,club cell,True
+popv,CL:0000169,3148.0,type B pancreatic cell,True
+popv,CL:0000171,2522.0,pancreatic A cell,True
+popv,CL:0000182,130233.0,hepatocyte,True
+popv,CL:0000186,9322.0,myofibroblast cell,True
+popv,CL:0000187,20008.0,muscle cell,True
+popv,CL:0000192,156166.0,smooth muscle cell,True
+popv,CL:0000232,86272.0,erythrocyte,True
+popv,CL:0000233,54840.0,platelet,True
+popv,CL:0000235,974278.0,macrophage,True
+popv,CL:0000236,210189.0,B cell,True
+popv,CL:0000287,295213.0,eye photoreceptor cell,True
+popv,CL:0000319,3243.0,mucus secreting cell,True
+popv,CL:0000322,247.0,pneumocyte,True
+popv,CL:0000359,40153.0,vascular associated smooth muscle cell,True
+popv,CL:0000451,102542.0,dendritic cell,True
+popv,CL:0000453,10181.0,Langerhans cell,True
+popv,CL:0000492,73717.0,CD4-positive helper T cell,True
+popv,CL:0000499,1190790.0,stromal cell,True
+popv,CL:0000575,149974.0,corneal epithelial cell,True
+popv,CL:0000576,224535.0,monocyte,True
+popv,CL:0000624,799363.0,"CD4-positive, alpha-beta T cell",True
+popv,CL:0000625,1241751.0,"CD8-positive, alpha-beta T cell",True
+popv,CL:0000636,241280.0,Mueller cell,True
+popv,CL:0000646,238594.0,basal cell,True
+popv,CL:0000669,50384.0,pericyte,True
+popv,CL:0000681,21380.0,radial glial cell,True
+popv,CL:0000738,4494.0,leukocyte,True
+popv,CL:0000748,1442873.0,retinal bipolar neuron,True
+popv,CL:0000763,3816.0,myeloid cell,True
+popv,CL:0000764,1011.0,erythroid lineage cell,True
+popv,CL:0000767,104739.0,basophil,True
+popv,CL:0000775,410849.0,neutrophil,True
+popv,CL:0000784,13069.0,plasmacytoid dendritic cell,True
+popv,CL:0000786,421927.0,plasma cell,True
+popv,CL:0000787,645271.0,memory B cell,True
+popv,CL:0000788,724617.0,naive B cell,True
+popv,CL:0000792,2.0,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",True
+popv,CL:0000794,8167.0,"CD8-positive, alpha-beta cytotoxic T cell",True
+popv,CL:0000807,419261.0,DN3 thymocyte,True
+popv,CL:0000808,221520.0,DN4 thymocyte,True
+popv,CL:0000814,1068760.0,mature NK T cell,True
+popv,CL:0000815,14220.0,regulatory T cell,True
+popv,CL:0000841,21.0,mature conventional dendritic cell,True
+popv,CL:0000860,2057053.0,classical monocyte,True
+popv,CL:0000875,95061.0,non-classical monocyte,True
+popv,CL:0000894,7757.0,DN1 thymic pro-T cell,True
+popv,CL:0000895,589614.0,"naive thymus-derived CD4-positive, alpha-beta T cell",True
+popv,CL:0000897,2589351.0,"CD4-positive, alpha-beta memory T cell",True
+popv,CL:0000900,15542.0,"naive thymus-derived CD8-positive, alpha-beta T cell",True
+popv,CL:0000908,512326.0,"CD8-positive, alpha-beta cytokine secreting effector T cell",True
+popv,CL:0000909,75126.0,"CD8-positive, alpha-beta memory T cell",True
+popv,CL:0000921,326707.0,type I NK T cell,True
+popv,CL:0001044,26798.0,"effector CD4-positive, alpha-beta T cell",True
+popv,CL:0001050,20079.0,"effector CD8-positive, alpha-beta T cell",True
+popv,CL:0001065,14873.0,innate lymphoid cell,True
+popv,CL:0001201,83.0,"B cell, CD19-positive",True
+popv,CL:0002038,4620.0,T follicular helper cell,True
+popv,CL:0002062,311678.0,type I pneumocyte,True
+popv,CL:0002063,780140.0,type II pneumocyte,True
+popv,CL:0002064,26882.0,pancreatic acinar cell,True
+popv,CL:0002071,361107.0,enterocyte of epithelium of large intestine,True
+popv,CL:0002079,11607.0,pancreatic ductal cell,True
+popv,CL:0002138,50383.0,endothelial cell of lymphatic vessel,True
+popv,CL:0002144,381642.0,capillary endothelial cell,True
+popv,CL:0002149,136051.0,epithelial cell of uterus,True
+popv,CL:0002253,54.0,epithelial cell of large intestine,True
+popv,CL:0002254,8.0,epithelial cell of small intestine,True
+popv,CL:0002275,1348.0,pancreatic PP cell,True
+popv,CL:0002303,30319.0,pigmented ciliary epithelial cell,True
+popv,CL:0002326,21937.0,luminal epithelial cell of mammary gland,True
+popv,CL:0002328,13.0,bronchial epithelial cell,True
+popv,CL:0002340,24595.0,luminal cell of prostate epithelium,True
+popv,CL:0002341,44425.0,basal cell of prostate epithelium,True
+popv,CL:0002363,280312.0,keratocyte,True
+popv,CL:0002365,1643.0,medullary thymic epithelial cell,True
+popv,CL:0002366,47521.0,myometrial cell,True
+popv,CL:0002370,84235.0,respiratory goblet cell,True
+popv,CL:0002393,5763.0,intermediate monocyte,True
+popv,CL:0002394,32333.0,CD141-positive myeloid dendritic cell,True
+popv,CL:0002399,23462.0,CD1c-positive myeloid dendritic cell,True
+popv,CL:0002410,9358.0,pancreatic stellate cell,True
+popv,CL:0002538,10844.0,intrahepatic cholangiocyte,True
+popv,CL:0002543,123885.0,vein endothelial cell,True
+popv,CL:0002585,80417.0,retinal blood vessel endothelial cell,True
+popv,CL:0002586,2295.0,retinal pigment epithelial cell,True
+popv,CL:0002598,22801.0,bronchial smooth muscle cell,True
+popv,CL:0002677,66554.0,naive regulatory T cell,True
+popv,CL:0005006,181.0,ionocyte,True
+popv,CL:0009006,8776.0,intestinal enteroendocrine cell,True
+popv,CL:0009009,24491.0,paneth cell of colon,True
+popv,CL:0009011,12007.0,transit amplifying cell of colon,True
+popv,CL:0009012,53674.0,transit amplifying cell of small intestine,True
+popv,CL:0009016,176.0,intestinal crypt stem cell of large intestine,True
+popv,CL:0009017,64028.0,intestinal crypt stem cell of small intestine,True
+popv,CL:0009080,6764.0,intestinal tuft cell,True
+popv,CL:0011108,22.0,colon epithelial cell,True
+popv,CL:0017000,25969.0,pulmonary ionocyte,True
+popv,CL:0019032,14073.0,intestinal tuft cell,True
+popv,CL:1000271,104804.0,lung ciliated cell,True
+popv,CL:1000320,84496.0,large intestine goblet cell,True
+popv,CL:1000329,2331.0,tracheal goblet cell,True
+popv,CL:1000330,7012.0,serous cell of epithelium of trachea,True
+popv,CL:1000331,1410.0,serous cell of epithelium of bronchus,True
+popv,CL:1000334,373579.0,enterocyte of epithelium of small intestine,True
+popv,CL:1000343,22162.0,paneth cell of epithelium of small intestine,True
+popv,CL:1000398,38465.0,endothelial cell of hepatic sinusoid,True
+popv,CL:1000413,58883.0,endothelial cell of artery,True
+popv,CL:1000432,134260.0,conjunctival epithelial cell,True
+popv,CL:1000436,585.0,epithelial cell of lacrimal sac,True
+popv,CL:1000495,74618.0,small intestine goblet cell,True
+popv,CL:1001428,46236.0,bladder urothelial cell,True
+popv,CL:1001516,4850.0,intestinal enteroendocrine cell,True
+popv,CL:2000008,5.0,microvascular endothelial cell,True
+popv,CL:2000016,14873.0,lung microvascular endothelial cell,True
+popv,CL:2000055,13751.0,liver dendritic cell,True
+popv,CL:4006000,6715.0,fibroblast of breast,True
+popv,CL:4028006,30973.0,adventitial cell,True

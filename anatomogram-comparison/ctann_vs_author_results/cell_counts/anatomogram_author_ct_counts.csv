@@ -1,0 +1,49 @@
+cell_id,cell_label,cell_count
+ASCTB-TEMP:co-expression-cell,co-expression cell,36
+ASCTB-TEMP:cycling-cell,cycling cell,61
+ASCTB-TEMP:endothelial-cell-of-vascular-tree,endothelial cell of vascular tree,41
+ASCTB-TEMP:transformed-epithelial-cell,transformed epithelial cell,180
+CL:0000037,hematopoietic stem cell,27
+CL:0000057,fibroblast,206
+CL:0000077,mesothelial cell,1
+CL:0000084,T cell,7854
+CL:0000091,Kupffer cell,623
+CL:0000097,mast cell,244
+CL:0000115,endothelial cell,15
+CL:0000145,professional antigen presenting cell,4
+CL:0000169,type B pancreatic cell,257
+CL:0000171,pancreatic A cell,857
+CL:0000173,pancreatic D cell,106
+CL:0000182,hepatocyte,802
+CL:0000235,macrophage,1635
+CL:0000236,B cell,677
+CL:0000542,lymphocyte,66
+CL:0000622,acinar cell,181
+CL:0000623,natural killer cell,975
+CL:0000653,glomerular visceral epithelial cell,463
+CL:0000738,leukocyte,63
+CL:0000777,mesangial cell,239
+CL:0000786,plasma cell,164
+CL:0002062,type I pneumocyte,101
+CL:0002063,type II pneumocyte,494
+CL:0002079,pancreatic ductal cell,380
+CL:0002201,renal beta-intercalated cell,349
+CL:0002275,pancreatic PP cell,190
+CL:0002306,epithelial cell of proximal tubule,5481
+CL:0002410,pancreatic stellate cell,53
+CL:0002553,fibroblast of lung,75
+CL:0005009,renal principal cell,1022
+CL:0005011,renal alpha-intercalated cell,1107
+CL:0005019,pancreatic epsilon cell,7
+CL:0008024,pancreatic endocrine cell,16
+CL:1000271,lung ciliated cell,175
+CL:1000272,lung secretory cell,128
+CL:1000398,endothelial cell of hepatic sinusoid,2337
+CL:1000452,parietal epithelial cell,551
+CL:1000488,cholangiocyte,309
+CL:1000768,kidney connecting tubule epithelial cell,1805
+CL:1000849,kidney distal convoluted tubule epithelial cell,3249
+CL:1000892,kidney capillary endothelial cell,1008
+CL:1001106,kidney loop of Henle thick ascending limb epithelial cell,4431
+CL:1001567,lung endothelial cell,60
+CL:1001603,lung macrophage,1180

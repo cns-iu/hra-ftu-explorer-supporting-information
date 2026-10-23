@@ -1,0 +1,371 @@
+tool,cell_id,cell_label,cell_count
+author,ASCTB-TEMP:co-expression-cell,co-expression cell,36
+author,ASCTB-TEMP:cycling-cell,cycling cell,61
+author,ASCTB-TEMP:endothelial-cell-of-vascular-tree,endothelial cell of vascular tree,41
+author,ASCTB-TEMP:transformed-epithelial-cell,transformed epithelial cell,180
+author,CL:0000037,hematopoietic stem cell,27
+author,CL:0000057,fibroblast,206
+author,CL:0000077,mesothelial cell,1
+author,CL:0000084,T cell,7854
+author,CL:0000091,Kupffer cell,623
+author,CL:0000097,mast cell,244
+author,CL:0000115,endothelial cell,15
+author,CL:0000145,professional antigen presenting cell,4
+author,CL:0000169,type B pancreatic cell,257
+author,CL:0000171,pancreatic A cell,857
+author,CL:0000173,pancreatic D cell,106
+author,CL:0000182,hepatocyte,802
+author,CL:0000235,macrophage,1635
+author,CL:0000236,B cell,677
+author,CL:0000542,lymphocyte,66
+author,CL:0000622,acinar cell,181
+author,CL:0000623,natural killer cell,975
+author,CL:0000653,glomerular visceral epithelial cell,463
+author,CL:0000738,leukocyte,63
+author,CL:0000777,mesangial cell,239
+author,CL:0000786,plasma cell,164
+author,CL:0002062,type I pneumocyte,101
+author,CL:0002063,type II pneumocyte,494
+author,CL:0002079,pancreatic ductal cell,380
+author,CL:0002201,renal beta-intercalated cell,349
+author,CL:0002275,pancreatic PP cell,190
+author,CL:0002306,epithelial cell of proximal tubule,5481
+author,CL:0002410,pancreatic stellate cell,53
+author,CL:0002553,fibroblast of lung,75
+author,CL:0005009,renal principal cell,1022
+author,CL:0005011,renal alpha-intercalated cell,1107
+author,CL:0005019,pancreatic epsilon cell,7
+author,CL:0008024,pancreatic endocrine cell,16
+author,CL:1000271,lung ciliated cell,175
+author,CL:1000272,lung secretory cell,128
+author,CL:1000398,endothelial cell of hepatic sinusoid,2337
+author,CL:1000452,parietal epithelial cell,551
+author,CL:1000488,cholangiocyte,309
+author,CL:1000768,kidney connecting tubule epithelial cell,1805
+author,CL:1000849,kidney distal convoluted tubule epithelial cell,3249
+author,CL:1000892,kidney capillary endothelial cell,1008
+author,CL:1001106,kidney loop of Henle thick ascending limb epithelial cell,4431
+author,CL:1001567,lung endothelial cell,60
+author,CL:1001603,lung macrophage,1180
+azimuth,CL:0000084,T,32
+azimuth,CL:0000097,Mast cells,248
+azimuth,CL:0000115,endothelial,22
+azimuth,CL:0000158,Club (non-nasal),4
+azimuth,CL:0000169,beta,308
+azimuth,CL:0000171,alpha,1401
+azimuth,CL:0000173,delta,115
+azimuth,CL:0000186,Myofibroblasts,1
+azimuth,CL:0000192,Smooth muscle,9
+azimuth,CL:0000236,B,3
+azimuth,CL:0000236,B cells,57
+azimuth,CL:0000322,Transitional Club-AT2,53
+azimuth,CL:0000359,Cortical Vascular Smooth Muscle / Pericyte,134
+azimuth,CL:0000359,Vascular Smooth Muscle / Pericyte,14
+azimuth,CL:0000583,Alveolar macrophages,699
+azimuth,CL:0000624,CD4 T cells,133
+azimuth,CL:0000625,CD8 T cells,120
+azimuth,CL:0000648,Renin-positive Juxtaglomerular Granular,16
+azimuth,CL:0000650,Mesangial,115
+azimuth,CL:0000653,Podocyte,538
+azimuth,CL:0000738,immune,13
+azimuth,CL:0000814,Natural Killer T,3
+azimuth,CL:0000860,Classical monocytes,252
+azimuth,CL:0000875,Non-classical monocyte,7
+azimuth,CL:0000875,Non-classical monocytes,131
+azimuth,CL:0000890,M2 Macrophage,34
+azimuth,CL:0000990,Classical Dendritic,4
+azimuth,CL:0001058,Plasmacytoid DCs,15
+azimuth,CL:0002062,AT1,163
+azimuth,CL:0002063,AT2,816
+azimuth,CL:0002064,acinar,231
+azimuth,CL:0002075,Tuft,1
+azimuth,CL:0002079,ductal,451
+azimuth,CL:0002138,Lymphatic Endothelial,22
+azimuth,CL:0002145,Multiciliated (non-nasal),202
+azimuth,CL:0002201,Intercalated Type B,472
+azimuth,CL:0002275,gamma,219
+azimuth,CL:0002399,DC2,133
+azimuth,CL:0002410,activated_stellate,64
+azimuth,CL:0002410,quiescent_stellate,1
+azimuth,CL:0002480,Goblet (nasal),3
+azimuth,CL:0002573,Schwann / Neural,2
+azimuth,CL:0002573,schwann,2
+azimuth,CL:0002633,Basal resting,78
+azimuth,CL:0005019,epsilon,4
+azimuth,CL:0008024,cycling,5
+azimuth,CL:0009086,Lymphatic EC differentiating,1
+azimuth,CL:0009086,Lymphatic EC mature,63
+azimuth,CL:0009089,Pericytes,3
+azimuth,CL:0011031,Monocyte-derived,29
+azimuth,CL:0017000,Ionocyte,5
+azimuth,CL:1000412,Afferent / Efferent Arteriole Endothelial,158
+azimuth,CL:1000452,Parietal Epithelial,728
+azimuth,CL:1000493,Mesothelium,9
+azimuth,CL:1000547,Inner Medullary Collecting Duct,1630
+azimuth,CL:1000692,Fibroblast,167
+azimuth,CL:1000714,Cortical Collecting Duct Principal,414
+azimuth,CL:1000716,Outer Medullary Collecting Duct Principal,71
+azimuth,CL:1000717,Outer Medullary Collecting Duct Intercalated Type A,2
+azimuth,CL:1000768,Connecting Tubule,2106
+azimuth,CL:1000850,Macula Densa,203
+azimuth,CL:1001005,Glomerular Capillary Endothelial,303
+azimuth,CL:1001033,Peritubular Capilary Endothelial,807
+azimuth,CL:1001107,Ascending Thin Limb,69
+azimuth,CL:1001108,Medullary Thick Ascending Limb,83
+azimuth,CL:1001109,Cortical Thick Ascending Limb,5472
+azimuth,CL:1001131,Ascending Vasa Recta Endothelial,1
+azimuth,CL:1001285,Descending Vasa Recta Endothelial,11
+azimuth,CL:1001568,EC arterial,6
+azimuth,CL:1001603,Monocyte-derived Mφ,119
+azimuth,CL:4028002,EC general capillary,28
+azimuth,CL:4028003,EC aerocyte capillary,1
+azimuth,CL:4028004,Alveolar fibroblasts,70
+azimuth,CL:4030009,Proximal Tubule Epithelial Segment 1,7693
+azimuth,CL:4030010,Proximal Tubule Epithelial Segment 2,337
+azimuth,CL:4030011,Proximal Tubule Epithelial Segment 3,883
+azimuth,CL:4030012,Descending Thin Limb Type 1,12
+azimuth,CL:4030013,Descending Thin Limb Type 2,691
+azimuth,CL:4030014,Descending Thin Limb Type 3,123
+azimuth,CL:4030015,Cortical Collecting Duct Intercalated Type A,1368
+azimuth,CL:4030016,Distal Convoluted Tubule Type 1,4016
+azimuth,CL:4030017,Distal Convoluted Tubule Type 2,254
+azimuth,CL:4030018,Connecting Tubule Principal,1354
+azimuth,CL:4030020,Connecting Tubule Intercalated Type A,134
+azimuth,CL:4030022,Medullary Fibroblast,74
+azimuth,CL:4033008,EC venous pulmonary,6
+azimuth,CL:4033008,EC venous systemic,28
+azimuth,CL:4033043,Interstitial Mφ perivascular,20
+azimuth,CL:4033048,Suprabasal,11
+azimuth,CL:4033069,T cells proliferating,4
+azimuth,CL:4033077,Alveolar Mφ proliferating,12
+azimuth,CL:4052030,Adventitial fibroblasts,62
+celltypist,CL:0000057,Fibroblasts,38
+celltypist,CL:0000084,T cells,6177
+celltypist,CL:0000097,Mast cells,261
+celltypist,CL:0000115,Endothelial cells,2397
+celltypist,CL:0000158,Club (nasal),2
+celltypist,CL:0000158,Club (non-nasal),17
+celltypist,CL:0000169,beta_MHC/autoantigen,208
+celltypist,CL:0000169,beta_immature,42
+celltypist,CL:0000169,beta_mature,31
+celltypist,CL:0000169,beta_stress I,172
+celltypist,CL:0000169,beta_stress II,36
+celltypist,CL:0000171,alpha_MHC II,797
+celltypist,CL:0000171,alpha_immature,249
+celltypist,CL:0000171,alpha_mature,191
+celltypist,CL:0000171,alpha_stress II,129
+celltypist,CL:0000173,delta,690
+celltypist,CL:0000182,Hepatocytes,1901
+celltypist,CL:0000186,Myofibroblasts,1
+celltypist,CL:0000235,Macrophages,806
+celltypist,CL:0000236,B cells,363
+celltypist,CL:0000322,AT0,13
+celltypist,CL:0000583,Alveolar macrophages,738
+celltypist,CL:0000623,NK cells,43
+celltypist,CL:0000624,CD4 T cells,110
+celltypist,CL:0000625,CD8 T cells,98
+celltypist,CL:0000763,Mono+mono derived cells,918
+celltypist,CL:0000767,Basophils,45
+celltypist,CL:0000775,Neutrophils,163
+celltypist,CL:0000782,Mig.cDCs,7
+celltypist,CL:0000784,Plasmacytoid DCs,19
+celltypist,CL:0000784,pDCs,88
+celltypist,CL:0000786,Plasma cells,206
+celltypist,CL:0000814,Circulating NK/NKT,1437
+celltypist,CL:0000860,Classical monocytes,349
+celltypist,CL:0000875,Non-classical monocytes,99
+celltypist,CL:0002062,AT1,98
+celltypist,CL:0002063,AT2,809
+celltypist,CL:0002138,Lymphatic EC differentiating,5
+celltypist,CL:0002138,Lymphatic EC mature,62
+celltypist,CL:0002144,EC general capillary,16
+celltypist,CL:0002241,Peribronchial fibroblasts,4
+celltypist,CL:0002275,PP,291
+celltypist,CL:0002394,DC1,4
+celltypist,CL:0002394,cDC1s,167
+celltypist,CL:0002399,DC2,97
+celltypist,CL:0002399,cDC2s,408
+celltypist,CL:0002480,Goblet (nasal),4
+celltypist,CL:0002633,Basal resting,62
+celltypist,CL:0005012,Multiciliated (nasal),4
+celltypist,CL:0005012,Multiciliated (non-nasal),177
+celltypist,CL:0009089,Pericytes,3
+celltypist,CL:0019001,pre-TB secretory,79
+celltypist,CL:1000312,Goblet (subsegmental),2
+celltypist,CL:1000413,EC arterial,8
+celltypist,CL:1000488,Cholangiocytes,370
+celltypist,CL:1000491,Mesothelium,49
+celltypist,CL:1001603,Monocyte-derived Mph,85
+celltypist,CL:4028003,EC aerocyte capillary,6
+celltypist,CL:4028004,Alveolar fibroblasts,20
+celltypist,CL:4028006,Adventitial fibroblasts,36
+celltypist,CL:4030024,Hillock-like,10
+celltypist,CL:4033005,Smooth muscle,13
+celltypist,CL:4033008,EC venous pulmonary,14
+celltypist,CL:4033008,EC venous systemic,17
+celltypist,CL:4033041,Alveolar Mph CCL3+,6
+celltypist,CL:4033043,Interstitial Mph perivascular,17
+celltypist,CL:4033044,Deuterosomal,3
+celltypist,CL:4033045,Migratory DCs,4
+celltypist,CL:4033048,Suprabasal,14
+celltypist,CL:4033069,T cells proliferating,5
+celltypist,CL:4033077,Alveolar Mph proliferating,10
+celltypist,CL:4033079,Lymphatic EC proliferating,1
+celltypist,CL:4033080,AT2 proliferating,5
+celltypist,CL:4047101,Resident NK,1698
+celltypist,CL:4052029,Subpleural fibroblasts,1
+pan-human-azimuth,CL:0000057,C3+ fibroblast,2
+pan-human-azimuth,CL:0000057,CCL2+SFRP2+ fibroblast,6
+pan-human-azimuth,CL:0000057,CD55+SEMA3C+ fibroblast,1
+pan-human-azimuth,CL:0000057,CFD+MGP+ fibroblast,1
+pan-human-azimuth,CL:0000057,FRZB+ fibroblast,1
+pan-human-azimuth,CL:0000057,G0S2+PPP1R14A+ fibroblast,9
+pan-human-azimuth,CL:0000057,GREB1+ fibroblast,1
+pan-human-azimuth,CL:0000057,IGFBP6+APOD+ fibroblast,88
+pan-human-azimuth,CL:0000057,PCOLCE2 fibroblast,4
+pan-human-azimuth,CL:0000057,PLA2G2A+IGFBP4+APOC1+ fibroblast,3
+pan-human-azimuth,CL:0000057,PLAC9+ fibroblast,2
+pan-human-azimuth,CL:0000057,RNASE1+ fibroblast,1
+pan-human-azimuth,CL:0000057,WISP2+ fibroblast,1
+pan-human-azimuth,CL:0000066,Luminal cell,1
+pan-human-azimuth,CL:0000077,CRABP1+ mesothelial cell,16
+pan-human-azimuth,CL:0000077,GATA4+ mesothelial cell,1
+pan-human-azimuth,CL:0000083,Metallothionein+ epithelial cell,10
+pan-human-azimuth,CL:0000084,INF-activated T cell,4
+pan-human-azimuth,CL:0000097,Mast cell,290
+pan-human-azimuth,CL:0000115,Cycling EC,2
+pan-human-azimuth,CL:0000115,Endothelial‑mesenchymal transition EC,7
+pan-human-azimuth,CL:0000129,Microglia,17
+pan-human-azimuth,CL:0000158,Club cell,52
+pan-human-azimuth,CL:0000169,Beta cell,344
+pan-human-azimuth,CL:0000171,Alpha cell,463
+pan-human-azimuth,CL:0000178,Leydig cell,34
+pan-human-azimuth,CL:0000182,Hepatocyte,2404
+pan-human-azimuth,CL:0000186,Myofibroblast,18
+pan-human-azimuth,CL:0000216,Sertoli cell,7
+pan-human-azimuth,CL:0000235,LYVE1 macrophage,125
+pan-human-azimuth,CL:0000359,Vascular smooth muscle cell,2
+pan-human-azimuth,CL:0000451,mregDC,2
+pan-human-azimuth,CL:0000510,Paneth cell,2
+pan-human-azimuth,CL:0000576,CD16 monocyte,2
+pan-human-azimuth,CL:0000577,Enterochromaffin cell,1
+pan-human-azimuth,CL:0000583,Alveolar macrophage,631
+pan-human-azimuth,CL:0000653,Podocyte,54
+pan-human-azimuth,CL:0000669,Pericyte,11
+pan-human-azimuth,CL:0000765,Intermediate EPCAM+ erythroblast,2
+pan-human-azimuth,CL:0000765,Late hemoglobin+ erythroblast,4
+pan-human-azimuth,CL:0000775,Neutrophil,87
+pan-human-azimuth,CL:0000784,pDC,24
+pan-human-azimuth,CL:0000786,Plasma cell,1397
+pan-human-azimuth,CL:0000787,Memory B cell,45
+pan-human-azimuth,CL:0000788,Naive B cell,367
+pan-human-azimuth,CL:0000790,abT (entry) cell,12
+pan-human-azimuth,CL:0000792,Treg cell,38
+pan-human-azimuth,CL:0000798,gdT cell,1
+pan-human-azimuth,CL:0000814,Cycling T/NK cell,9
+pan-human-azimuth,CL:0000817,PreB cell,12
+pan-human-azimuth,CL:0000826,ProB cell,10
+pan-human-azimuth,CL:0000837,MPP,74
+pan-human-azimuth,CL:0000838,Pre-ProB cell,1
+pan-human-azimuth,CL:0000844,Germinal center B cell,4
+pan-human-azimuth,CL:0000863,M1 macrophage,639
+pan-human-azimuth,CL:0000895,Naive CD4 T cell,775
+pan-human-azimuth,CL:0000897,Memory CD4 T cell,1338
+pan-human-azimuth,CL:0000909,GZMB CD8 T cell,579
+pan-human-azimuth,CL:0000909,KLRB1 CD8 T cell,10
+pan-human-azimuth,CL:0000934,KLRB1 cytotoxic CD4 T,1
+pan-human-azimuth,CL:0000938,CD56 NK cell,764
+pan-human-azimuth,CL:0000939,CD16 NK cell,5375
+pan-human-azimuth,CL:0000940,MAIT cell,13
+pan-human-azimuth,CL:0001054,CD14 monocyte,183
+pan-human-azimuth,CL:0001065,ILC,2
+pan-human-azimuth,CL:0002010,Pre-cDC,1
+pan-human-azimuth,CL:0002038,Tfh cell,2
+pan-human-azimuth,CL:0002062,AT1,64
+pan-human-azimuth,CL:0002063,AT2,107
+pan-human-azimuth,CL:0002064,Acinar cell,243
+pan-human-azimuth,CL:0002079,Pancreatic ductal cell,262
+pan-human-azimuth,CL:0002138,Lymphatic EC,68
+pan-human-azimuth,CL:0002144,Capillary EC,1601
+pan-human-azimuth,CL:0002179,Surface mucous cell,1
+pan-human-azimuth,CL:0002201,Type B intercalated cell,9
+pan-human-azimuth,CL:0002267,Delta cell,141
+pan-human-azimuth,CL:0002275,PP cell,16
+pan-human-azimuth,CL:0002305,Renal epithelial cell - distal tubules,28
+pan-human-azimuth,CL:0002306,Renal epithelial cell - proximal tubules,80
+pan-human-azimuth,CL:0002357,Fetal HBG+ erythrocyte,5
+pan-human-azimuth,CL:0002394,cDC1,43
+pan-human-azimuth,CL:0002399,cDC2,374
+pan-human-azimuth,CL:0002481,Peritubular myoid cell,1
+pan-human-azimuth,CL:0002543,Venous EC,206
+pan-human-azimuth,CL:0002586,Retinal pigment epithelial cell,157
+pan-human-azimuth,CL:0002633,Airway basal cell,29
+pan-human-azimuth,CL:0005011,Type A intercalated cell,21
+pan-human-azimuth,CL:0005019,Epsilon cell,4
+pan-human-azimuth,CL:0011026,Pre-pDC,1
+pan-human-azimuth,CL:0011031,Monocyte/DC,94
+pan-human-azimuth,CL:0017009,ASDC,1
+pan-human-azimuth,CL:0019031,Goblet cell,115
+pan-human-azimuth,CL:1000271,Multiciliated cell,66
+pan-human-azimuth,CL:1000413,Arterial EC,54
+pan-human-azimuth,CL:1000488,cholangiocyte,270
+pan-human-azimuth,CL:1000909,Renal epithelial cell - Loop of Henle,40
+pan-human-azimuth,CL:1001601,Steroidogenic cell,3
+pan-human-azimuth,CL:1001601,Sympathoblast,2
+pan-human-azimuth,CL:3000001,Hofbauer cell,185
+pan-human-azimuth,CL:4028003,Aerocyte,1
+pan-human-azimuth,CL:4033058,Mammary luminal cell,1
+pan-human-azimuth,CL:4033068,Cycling B,1
+pan-human-azimuth,CL:4033081,G2/M phase myeloid cell,2
+pan-human-azimuth,CL:4052021,GZMK CD8 T cell,208
+popv,CL:0000057,fibroblast,29
+popv,CL:0000071,blood vessel endothelial cell,1
+popv,CL:0000077,mesothelial cell,38
+popv,CL:0000084,T cell,4184
+popv,CL:0000097,mast cell,9
+popv,CL:0000115,endothelial cell,21
+popv,CL:0000158,club cell,97
+popv,CL:0000169,type B pancreatic cell,457
+popv,CL:0000171,pancreatic A cell,1256
+popv,CL:0000182,hepatocyte,1766
+popv,CL:0000192,smooth muscle cell,1
+popv,CL:0000235,macrophage,1076
+popv,CL:0000236,B cell,27
+popv,CL:0000359,vascular associated smooth muscle cell,4
+popv,CL:0000451,dendritic cell,127
+popv,CL:0000576,monocyte,721
+popv,CL:0000624,"CD4-positive, alpha-beta T cell",110
+popv,CL:0000625,"CD8-positive, alpha-beta T cell",88
+popv,CL:0000763,myeloid cell,4
+popv,CL:0000767,basophil,269
+popv,CL:0000775,neutrophil,858
+popv,CL:0000784,plasmacytoid dendritic cell,17
+popv,CL:0000786,plasma cell,471
+popv,CL:0000814,mature NK T cell,4709
+popv,CL:0000860,classical monocyte,353
+popv,CL:0000875,non-classical monocyte,55
+popv,CL:0001044,"effector CD4-positive, alpha-beta T cell",9
+popv,CL:0001050,"effector CD8-positive, alpha-beta T cell",8
+popv,CL:0002062,type I pneumocyte,90
+popv,CL:0002063,type II pneumocyte,791
+popv,CL:0002064,pancreatic acinar cell,183
+popv,CL:0002079,pancreatic ductal cell,557
+popv,CL:0002275,pancreatic PP cell,269
+popv,CL:0002370,respiratory goblet cell,57
+popv,CL:0002393,intermediate monocyte,4
+popv,CL:0002410,pancreatic stellate cell,73
+popv,CL:0002538,intrahepatic cholangiocyte,343
+popv,CL:0002543,vein endothelial cell,24
+popv,CL:0002553,fibroblast,80
+popv,CL:0002598,bronchial smooth muscle cell,2
+popv,CL:0002633,basal cell,96
+popv,CL:0009086,endothelial cell of lymphatic vessel,66
+popv,CL:0009089,pericyte,3
+popv,CL:1000271,lung ciliated cell,179
+popv,CL:1000398,endothelial cell of hepatic sinusoid,2286
+popv,CL:1000413,endothelial cell of artery,14
+popv,CL:1001603,macrophage,837
+popv,CL:2000016,lung microvascular endothelial cell,5
+popv,CL:2000055,liver dendritic cell,762
+popv,CL:4028001,capillary endothelial cell,21
+popv,CL:4028006,adventitial cell,18
