@@ -125,6 +125,97 @@ def visualize_bar_graph():
     plt.close()
 
 
+def load_ftu_explorer_cell_counts() -> pd.DataFrame:
+    """One row per (dataset, FTU, CT) shown in the FTU Explorer, with the CT's cell count in that dataset.
+    Uses the same rules as 40/41: only datasets in FTU_TO_DATASETS, the preferred annotation tool,
+    CTs exclusive to the FTU, and CTs with expression data"""
+
+    # Written by 40: exactly the datasets listed in the FTU Explorer
+    with open(FTU_TO_DATASETS, "r", encoding="utf-8") as f:
+        ftu_to_datasets = json.load(f)
+
+    exclusive_cts_by_ftu = load_exclusive_cts_by_ftu()
+
+    dataset_to_ftus = defaultdict(set)
+    for ftu_purl, dataset_ids in ftu_to_datasets.items():
+        for dataset_id in dataset_ids:
+            dataset_to_ftus[dataset_id].add(ftu_purl)
+
+    rows = []
+    for obj in iterate_preferred_cell_summaries():
+        dataset_id = obj["cell_source"]
+        for ftu in sorted(dataset_to_ftus.get(dataset_id, set())):
+            allowed_cts = exclusive_cts_by_ftu.get(ftu, set())
+            for summary in obj.get("summary", []):
+                ct = get_id_from_iri(summary["cell_id"])
+                # Same as 40/41: skip CTs whose gene_expr is empty or the string "[]"
+                if (
+                    ct in allowed_cts
+                    and isinstance(summary.get("gene_expr"), list)
+                    and summary["gene_expr"]
+                ):
+                    rows.append(
+                        {
+                            "dataset_id": dataset_id,
+                            "annotation_method": obj["annotation_method"],
+                            "ftu": ftu.rsplit("/", 1)[-1],
+                            "cell_id": ct,
+                            "cell_label": summary["cell_label"],
+                            "count": summary["count"],
+                        }
+                    )
+    return pd.DataFrame(rows)
+
+
+def report_small_datasets(cell_counts: pd.DataFrame, threshold: int = 100):
+    """Saves a CSV of the datasets shown in the FTU Explorer with fewer than threshold cells,
+    counting only the cells 41 writes for them (see load_ftu_explorer_cell_counts). A CT exclusive
+    to several FTUs (e.g., the nephron and a loop of Henle inside it) is counted once"""
+
+    per_ct = cell_counts.drop_duplicates(["dataset_id", "cell_id"])
+    df = per_ct.groupby(["dataset_id", "annotation_method"], as_index=False).agg(
+        cell_count_in_ftu_explorer=("count", "sum"),
+        cell_types=("cell_id", lambda ids: ";".join(sorted(ids))),
+    )
+    ftus = cell_counts.groupby("dataset_id")["ftu"].agg(lambda f: ";".join(sorted(set(f))))
+    df.insert(2, "ftus", df["dataset_id"].map(ftus))
+    metadata = load_dataset_metadata().drop_duplicates("dataset_id")[
+        ["dataset_id", "organ", "consortium_name", "dataset_cell_count", "publication"]
+    ]
+    df = df.merge(metadata, on="dataset_id", how="left")
+
+    small = df[df["cell_count_in_ftu_explorer"] < threshold].sort_values(
+        "cell_count_in_ftu_explorer"
+    )
+    print(
+        f"{len(small)} of {len(df)} datasets in the FTU Explorer have fewer than {threshold} cells"
+    )
+    pprint(small[["dataset_id", "ftus", "cell_count_in_ftu_explorer"]])
+
+    small.to_csv(f"{REPORTS_DIR}/datasets_under_{threshold}_cells.csv", index=False)
+    print(f"File successfully saved to {REPORTS_DIR}")
+
+
+def report_cells_per_cell_type_per_ftu(cell_counts: pd.DataFrame):
+    """Saves a CSV with one row per FTU and CT shown in the FTU Explorer: the number of cells
+    summed over all of the FTU's datasets, and how many datasets have that CT"""
+
+    df = (
+        cell_counts.groupby(["ftu", "cell_id"], as_index=False)
+        .agg(
+            # Labels can differ in case between tools, so take the lowercased first one, like 41
+            cell_label=("cell_label", lambda labels: labels.iloc[0].lower()),
+            cell_count=("count", "sum"),
+            dataset_count=("dataset_id", "nunique"),
+        )
+        .sort_values(["ftu", "cell_count"], ascending=[True, False])
+    )
+    pprint(df)
+
+    df.to_csv(f"{REPORTS_DIR}/cells_per_cell_type_per_ftu.csv", index=False)
+    print(f"File successfully saved to {REPORTS_DIR}")
+
+
 def main():
     # Driver code
 
@@ -134,6 +225,9 @@ def main():
     generate_ftu_report()
     visualize_intersections()
     visualize_bar_graph()
+    cell_counts = load_ftu_explorer_cell_counts()
+    report_small_datasets(cell_counts)
+    report_cells_per_cell_type_per_ftu(cell_counts)
 
 
 if __name__ == "__main__":
