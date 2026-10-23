@@ -196,6 +196,24 @@ def report_small_datasets(cell_counts: pd.DataFrame, threshold: int = 100):
     print(f"File successfully saved to {REPORTS_DIR}")
 
 
+def report_rare_cell_types_per_ftu(cell_counts: pd.DataFrame, threshold: int = 10):
+    """Saves a CSV with one row per dataset, FTU and CT shown in the FTU Explorer where the
+    dataset has fewer than threshold cells of that CT"""
+
+    df = cell_counts[cell_counts["count"] < threshold].copy()
+    df["cell_label"] = df["cell_label"].str.lower()
+    df = df[["ftu", "cell_id", "cell_label", "count", "dataset_id", "annotation_method"]].sort_values(
+        ["ftu", "cell_id", "count"]
+    )
+    print(
+        f"{len(df)} of {len(cell_counts)} dataset/FTU/CT combinations in the FTU Explorer have fewer than {threshold} cells"
+    )
+    pprint(df.groupby(["ftu", "cell_label"]).size())
+
+    df.to_csv(f"{REPORTS_DIR}/cell_types_under_{threshold}_cells_per_ftu.csv", index=False)
+    print(f"File successfully saved to {REPORTS_DIR}")
+
+
 def report_cells_per_cell_type_per_ftu(cell_counts: pd.DataFrame):
     """Saves a CSV with one row per FTU and CT shown in the FTU Explorer: the number of cells
     summed over all of the FTU's datasets, and how many datasets have that CT"""
@@ -227,6 +245,7 @@ def main():
     visualize_bar_graph()
     cell_counts = load_ftu_explorer_cell_counts()
     report_small_datasets(cell_counts)
+    report_rare_cell_types_per_ftu(cell_counts)
     report_cells_per_cell_type_per_ftu(cell_counts)
 
 

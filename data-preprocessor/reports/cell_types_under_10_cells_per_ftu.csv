@@ -1,0 +1,774 @@
+ftu,cell_id,cell_label,count,dataset_id,annotation_method
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://entity.api.hubmapconsortium.org/entities/9fe24e50c8b8b77d86900ee4beecef69,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://entity.api.hubmapconsortium.org/entities/35f5b75a7e3d0711f16b0a10219586fb,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://entity.api.hubmapconsortium.org/entities/63349325056ccff582f1d095055c7e12,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://entity.api.hubmapconsortium.org/entities/37988db44acc8d0780e4e31cd057e789,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD45816$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#TxK1$renal%20medulla,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#TxK1$renal%20medulla,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/981b0c87-76d0-4edf-b201-58c52b5cd2f0#human_kidney_donor_2$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#30-10123$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10012$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10040$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#KRP462$cortex%20of%20kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#18-162$renal%20medulla,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10016$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#34-10184$cortex%20of%20kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#34-10187$cortex%20of%20kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#163-3$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#28-12263$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10154$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#TxK1$renal%20medulla,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,4,https://entity.api.hubmapconsortium.org/entities/5ee240959c96b49d960702755478b9fc,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,4,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD43824$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#33-10005$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#27-10094$cortex%20of%20kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,5,https://api.cellxgene.cziscience.com/dp/v1/collections/9b02383a-9358-4f0f-9795-a891ec523bcc#healthy_5$cortex%20of%20kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#27-10039$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#33-10006$cortex%20of%20kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10011$cortex%20of%20kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#27-10088$cortex%20of%20kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,6,https://entity.api.hubmapconsortium.org/entities/e375a44f5cf5457c8f9b1132574c2436,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#34-10184$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#27-10089$cortex%20of%20kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,6,https://api.cellxgene.cziscience.com/dp/v1/collections/b3e2c6e3-9b05-4da9-8f42-da38a664b45b#diabetic_1$cortex%20of%20kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,6,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#F17$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,7,https://api.cellxgene.cziscience.com/dp/v1/collections/981b0c87-76d0-4edf-b201-58c52b5cd2f0#human_kidney_donor_3$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,7,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3490$renal%20medulla,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10018$cortex%20of%20kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,7,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#PRECISE_023_N$cortex%20of%20kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,7,https://api.cellxgene.cziscience.com/dp/v1/collections/13d1c580-4b17-4b2e-85c4-75b36917413f#F17$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,8,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3499$renal%20medulla,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,8,https://api.cellxgene.cziscience.com/dp/v1/collections/b3e2c6e3-9b05-4da9-8f42-da38a664b45b#diabetic_2$cortex%20of%20kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,9,https://entity.api.hubmapconsortium.org/entities/524dc341a03c155b6f4140e9d72f9b1d,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,9,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor11$kidney,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,9,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3499$renal%20medulla,azimuth
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,9,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10000$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,2,https://entity.api.hubmapconsortium.org/entities/5ee240959c96b49d960702755478b9fc,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,2,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#RCC1$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,2,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#TxK3$renal%20medulla,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#TxK3$renal%20medulla,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#21_020$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10034$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,2,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#RCC1$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,2,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB21$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#RCC2$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,3,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#30-10034$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#27-10071$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,3,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#21_020$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,3,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#TxK3$renal%20medulla,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,4,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRE055-1$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,4,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#57-ref$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,4,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB19$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,4,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB23$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,5,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#Wilms1$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRE98sc$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10001$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1157-EO2$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1157-EO3$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10001$renal%20medulla,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,6,https://entity.api.hubmapconsortium.org/entities/1dc16eb0270ff73291dd45b6a96aa3c0,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,6,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD45814$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,6,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#20-649_N$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,6,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRECISE165536-000-003N$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#30-10034$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#32-10034$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#163-4$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,6,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#Wilms1$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,6,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB10$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,6,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB26$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,6,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB14$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,7,https://entity.api.hubmapconsortium.org/entities/8cdb42ed1194255c74c8462b99bbd7ef,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,7,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3499$renal%20medulla,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,7,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1157-EO1$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,7,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1157-EO3$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10034$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#33-10005$renal%20medulla,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,8,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3535$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,8,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10013$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,8,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10016$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,8,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#32-10003$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,8,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10386$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,8,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1162-EO2$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,9,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD44966$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,9,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#PRE055-1$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,9,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#KRP460$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,9,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#PRECISE165536-000-003N$cortex%20of%20kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,9,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#VHL$kidney,azimuth
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,9,https://api.cellxgene.cziscience.com/dp/v1/collections/1df8c90d-d299-4b2e-a54d-a5a80f36e780#SCS_2006$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,2,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#RCC2$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,2,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#Wilms3$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#TxK2$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#28-10051$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,2,https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F45$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,2,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#Wilms3$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,2,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB18$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,3,https://entity.api.hubmapconsortium.org/entities/fe0ded5fc0355c95239f9c040dd31e99,azimuth
+kidney-nephron,CL:1000768,connecting tubule,3,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#TxK2$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3499$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#RCC1$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#VHL_RCC$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRECISE_023_N$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3499$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,3,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#PRECISE_023_N$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,3,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#TxK2$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,3,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB10$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,3,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB24$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,4,https://entity.api.hubmapconsortium.org/entities/62efbe0a6abd0bcf53ab9ab29e7cd73f,azimuth
+kidney-nephron,CL:1000768,connecting tubule,4,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#TxK1$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,4,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#TxK1$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,4,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3499$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,4,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#PRE055-1$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#28-12510$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,4,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#PRECISE-943776$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,4,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#TxK1$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,4,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#F38$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,5,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#TxK3$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#TxK3$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#KRP446$renal%20papilla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#KRP460$renal%20papilla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,5,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#TxK3$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,5,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#F16$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,5,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB27$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,5,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB17$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,6,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD43948$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,6,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#VHL_RCC$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,6,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#TxK1$renal%20pelvis,azimuth
+kidney-nephron,CL:1000768,connecting tubule,6,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#TxK1$renal%20pelvis,azimuth
+kidney-nephron,CL:1000768,connecting tubule,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10006$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10013$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3504$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,6,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#VHL$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,6,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#TxK1$renal%20pelvis,azimuth
+kidney-nephron,CL:1000768,connecting tubule,7,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1157-EO3$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,7,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1157-EO3$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,7,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#RCC2$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,7,https://api.cellxgene.cziscience.com/dp/v1/collections/13d1c580-4b17-4b2e-85c4-75b36917413f#F16$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,8,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10013$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,8,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10401$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,8,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1157-EO3$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,9,https://entity.api.hubmapconsortium.org/entities/377df3da484d29fdde20ec020a76ba1b,azimuth
+kidney-nephron,CL:1000768,connecting tubule,9,https://entity.api.hubmapconsortium.org/entities/91cfb45f5d398e950ed65786c87f4372,azimuth
+kidney-nephron,CL:1000768,connecting tubule,9,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRE055-1$kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,9,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRECISE-943776$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000768,connecting tubule,9,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3490$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,9,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#165-9$renal%20medulla,azimuth
+kidney-nephron,CL:1000768,connecting tubule,9,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#RCC1$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://entity.api.hubmapconsortium.org/entities/0b6f63f2bd61a8c091fc7afc0f318ad1,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#KRP461$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1153-EO1$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1153-EO2$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3613$renal%20papilla,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#KRP461$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1153-EO1$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1153-EO2$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#KRP461$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10044$renal%20medulla,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#PRE062-1$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1158-EO1$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1158-EO3$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/b3e2c6e3-9b05-4da9-8f42-da38a664b45b#diabetic_1$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#F17$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/13d1c580-4b17-4b2e-85c4-75b36917413f#F17$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,2,https://api.cellxgene.cziscience.com/dp/v1/collections/13d1c580-4b17-4b2e-85c4-75b36917413f#F41$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,3,https://entity.api.hubmapconsortium.org/entities/173de2e80adf6a73ac8cff5ccce20dfc,azimuth
+kidney-nephron,CL:1000850,macula densa,3,https://entity.api.hubmapconsortium.org/entities/57054da2dbe87b93f1adb78444086963,azimuth
+kidney-nephron,CL:1000850,macula densa,3,https://entity.api.hubmapconsortium.org/entities/ec7ebe15feec075a0299979b0350dd3a,azimuth
+kidney-nephron,CL:1000850,macula densa,3,https://entity.api.hubmapconsortium.org/entities/853ab5348f619043ab2f997ac8ae14f0,azimuth
+kidney-nephron,CL:1000850,macula densa,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3499$renal%20medulla,azimuth
+kidney-nephron,CL:1000850,macula densa,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#32-10003$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,3,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#F16$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,3,https://api.cellxgene.cziscience.com/dp/v1/collections/13d1c580-4b17-4b2e-85c4-75b36917413f#F16$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,4,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRECISE_023_N$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#28-10051$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#165-10$renal%20medulla,azimuth
+kidney-nephron,CL:1000850,macula densa,4,https://api.cellxgene.cziscience.com/dp/v1/collections/b3e2c6e3-9b05-4da9-8f42-da38a664b45b#diabetic_7$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,5,https://entity.api.hubmapconsortium.org/entities/35f5b75a7e3d0711f16b0a10219586fb,azimuth
+kidney-nephron,CL:1000850,macula densa,5,https://entity.api.hubmapconsortium.org/entities/37988db44acc8d0780e4e31cd057e789,azimuth
+kidney-nephron,CL:1000850,macula densa,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3504$renal%20medulla,azimuth
+kidney-nephron,CL:1000850,macula densa,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#21_016$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3504$renal%20medulla,azimuth
+kidney-nephron,CL:1000850,macula densa,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#32-10003$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,5,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#21_016$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,5,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#F41$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,6,https://entity.api.hubmapconsortium.org/entities/377df3da484d29fdde20ec020a76ba1b,azimuth
+kidney-nephron,CL:1000850,macula densa,6,https://entity.api.hubmapconsortium.org/entities/91cfb45f5d398e950ed65786c87f4372,azimuth
+kidney-nephron,CL:1000850,macula densa,6,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1162-EO2$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3504$renal%20medulla,azimuth
+kidney-nephron,CL:1000850,macula densa,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1158-EO2$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1162-EO2$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10401$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#164-8$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,6,https://api.cellxgene.cziscience.com/dp/v1/collections/b3e2c6e3-9b05-4da9-8f42-da38a664b45b#diabetic_2$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,7,https://entity.api.hubmapconsortium.org/entities/5ee240959c96b49d960702755478b9fc,azimuth
+kidney-nephron,CL:1000850,macula densa,7,https://entity.api.hubmapconsortium.org/entities/fbfdd102ecd60d7cf9d3da8c3d83a5c4,azimuth
+kidney-nephron,CL:1000850,macula densa,7,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD43948$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#32-10333$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#28-11515$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1158-EO2$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1162-EO2$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,7,https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,8,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD45815$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,8,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#20-688_N$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,8,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#32-10003$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,8,https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F41$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,8,https://api.cellxgene.cziscience.com/dp/v1/collections/1df8c90d-d299-4b2e-a54d-a5a80f36e780#SCS_2006$kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,9,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3613$renal%20papilla,azimuth
+kidney-nephron,CL:1000850,macula densa,9,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#KRP446$renal%20papilla,azimuth
+kidney-nephron,CL:1000850,macula densa,9,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#20-688_N$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1000850,macula densa,9,https://api.cellxgene.cziscience.com/dp/v1/collections/1df8c90d-d299-4b2e-a54d-a5a80f36e780#SS_2007$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://entity.api.hubmapconsortium.org/entities/9fe24e50c8b8b77d86900ee4beecef69,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://entity.api.hubmapconsortium.org/entities/35f5b75a7e3d0711f16b0a10219586fb,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://entity.api.hubmapconsortium.org/entities/63349325056ccff582f1d095055c7e12,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://entity.api.hubmapconsortium.org/entities/37988db44acc8d0780e4e31cd057e789,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD45816$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#TxK1$renal%20medulla,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#TxK1$renal%20medulla,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/981b0c87-76d0-4edf-b201-58c52b5cd2f0#human_kidney_donor_2$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#30-10123$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10012$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10040$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#KRP462$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#18-162$renal%20medulla,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10016$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#34-10184$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#34-10187$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#163-3$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#28-12263$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10154$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#TxK1$renal%20medulla,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,4,https://entity.api.hubmapconsortium.org/entities/5ee240959c96b49d960702755478b9fc,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,4,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD43824$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#33-10005$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#27-10094$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,5,https://api.cellxgene.cziscience.com/dp/v1/collections/9b02383a-9358-4f0f-9795-a891ec523bcc#healthy_5$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#27-10039$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#33-10006$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10011$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#27-10088$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,6,https://entity.api.hubmapconsortium.org/entities/e375a44f5cf5457c8f9b1132574c2436,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#34-10184$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#27-10089$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,6,https://api.cellxgene.cziscience.com/dp/v1/collections/b3e2c6e3-9b05-4da9-8f42-da38a664b45b#diabetic_1$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,6,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#F17$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,7,https://api.cellxgene.cziscience.com/dp/v1/collections/981b0c87-76d0-4edf-b201-58c52b5cd2f0#human_kidney_donor_3$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,7,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3490$renal%20medulla,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10018$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,7,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#PRECISE_023_N$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,7,https://api.cellxgene.cziscience.com/dp/v1/collections/13d1c580-4b17-4b2e-85c4-75b36917413f#F17$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,8,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3499$renal%20medulla,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,8,https://api.cellxgene.cziscience.com/dp/v1/collections/b3e2c6e3-9b05-4da9-8f42-da38a664b45b#diabetic_2$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,9,https://entity.api.hubmapconsortium.org/entities/524dc341a03c155b6f4140e9d72f9b1d,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,9,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor11$kidney,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,9,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3499$renal%20medulla,azimuth
+kidney-nephron,CL:1001107,ascending thin limb,9,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10000$kidney,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,2,https://entity.api.hubmapconsortium.org/entities/ccf899abde825d51b03ad91028483ac1,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,2,https://entity.api.hubmapconsortium.org/entities/fd0b0c1d050010de3520492147aacef4,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1158-EO1$kidney,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#20-668_N$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3535$renal%20medulla,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,2,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#PRECISE_023_N$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,2,https://api.cellxgene.cziscience.com/dp/v1/collections/13d1c580-4b17-4b2e-85c4-75b36917413f#F17$kidney,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3613$renal%20papilla,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,3,https://api.cellxgene.cziscience.com/dp/v1/collections/b3e2c6e3-9b05-4da9-8f42-da38a664b45b#diabetic_2$cortex%20of%20kidney,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,4,https://api.cellxgene.cziscience.com/dp/v1/collections/8e880741-bf9a-4c8e-9227-934204631d2a#donor_23$renal%20medulla,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,4,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor11$kidney,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#KRP460$renal%20papilla,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#33-10006$kidney,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,5,https://entity.api.hubmapconsortium.org/entities/29596bee3f70b2bfc89d184fe38a3daa,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3593$renal%20medulla,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10125$kidney,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,6,https://entity.api.hubmapconsortium.org/entities/fee4cf0e7da557d3ef5c535b5417ed7a,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,6,https://entity.api.hubmapconsortium.org/entities/79f8c7ec1b200dfe5b46d0bcfec02bd7,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3593$renal%20medulla,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,7,https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27913$kidney,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,7,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3613$renal%20papilla,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,8,https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27948$kidney,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,8,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#KRP460$renal%20papilla,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,9,https://entity.api.hubmapconsortium.org/entities/59249f23ecdcc975c90de9a1956a5285,azimuth
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,9,https://entity.api.hubmapconsortium.org/entities/e010f7505632d7b6eeda25b349383149,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,2,https://entity.api.hubmapconsortium.org/entities/7646a8a89555a123a56446b66c183d58,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,2,https://entity.api.hubmapconsortium.org/entities/c6c0cca1d093fcdb8d72bd18053a7940,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,2,https://entity.api.hubmapconsortium.org/entities/5039cf8619f6f8b5b4a14af1037e1d1f,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,2,https://entity.api.hubmapconsortium.org/entities/b921c30d5077581c016d87d4f4c9ff19,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,2,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor11$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10008$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3535$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10013$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10013$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10010$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10401$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,2,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#F17$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,2,https://api.cellxgene.cziscience.com/dp/v1/collections/13d1c580-4b17-4b2e-85c4-75b36917413f#F17$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,3,https://api.cellxgene.cziscience.com/dp/v1/collections/8e880741-bf9a-4c8e-9227-934204631d2a#donor_23$renal%20medulla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,3,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor9$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,3,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor15$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3504$renal%20medulla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,3,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#18-142$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,3,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3504$renal%20medulla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,3,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10010$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3593$renal%20papilla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10013$renal%20medulla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10929$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10406$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10091$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#27-10119$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,4,https://entity.api.hubmapconsortium.org/entities/7017034c816444f6acb469834e53344f,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,4,https://entity.api.hubmapconsortium.org/entities/b2ab05f290c0740c3198f020cd70e78d,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,4,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#KRP460$renal%20papilla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,4,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10000$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#18-142$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10018$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10011$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#28-12178$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,4,https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy2,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,5,https://entity.api.hubmapconsortium.org/entities/42ab155ddff1d33fe1c505c067828614,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3593$renal%20papilla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10400$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,5,https://api.cellxgene.cziscience.com/dp/v1/collections/b3e2c6e3-9b05-4da9-8f42-da38a664b45b#diabetic_5$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,6,https://entity.api.hubmapconsortium.org/entities/434fbc55d458dc4e06da9ba4961f3840,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,6,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor34$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#KRP460$renal%20papilla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#KRP460$renal%20papilla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#27-10043$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10081$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#163-5$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10154$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,7,https://api.cellxgene.cziscience.com/dp/v1/collections/8e880741-bf9a-4c8e-9227-934204631d2a#donor_A$renal%20medulla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,7,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10013$renal%20medulla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,7,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10016$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10012$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,8,https://entity.api.hubmapconsortium.org/entities/e65175561b4b17da5352e3837aa0e497,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,8,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#KRP461$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,8,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10016$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,8,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#28-10109$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,8,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#34-10187$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,9,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3535$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,9,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10040$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,2,https://entity.api.hubmapconsortium.org/entities/898138b7f45a67c574e9955fb400e9be,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,2,https://entity.api.hubmapconsortium.org/entities/dc4f4778dd04263c0660addcc93b3807,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,2,https://api.cellxgene.cziscience.com/dp/v1/collections/8e880741-bf9a-4c8e-9227-934204631d2a#donor_19$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,2,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#Wilms3$renal%20medulla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10001$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1153-EO1$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1153-EO3$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#KRP460$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10000$renal%20medulla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10929$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10280$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1158-EO3$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,3,https://entity.api.hubmapconsortium.org/entities/56742ee7dcbe8b03d964f519009db12d,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,3,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD47172$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,3,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#TxK1$renal%20pelvis,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,3,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor8$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,3,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#30-10018$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,3,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10013$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10012$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10123$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,3,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#TxK1$renal%20pelvis,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,4,https://entity.api.hubmapconsortium.org/entities/7646a8a89555a123a56446b66c183d58,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,4,https://entity.api.hubmapconsortium.org/entities/ccbad4ffd323265937b842ea36ada4ad,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,4,https://entity.api.hubmapconsortium.org/entities/5039cf8619f6f8b5b4a14af1037e1d1f,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,4,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRE055-1$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,4,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#TxK1$renal%20pelvis,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,4,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10042$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10013$renal%20medulla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10631$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10380$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#163-5$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#165-9$renal%20medulla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10125$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,5,https://entity.api.hubmapconsortium.org/entities/4b5dc6d04aa30a6eb0b224a7ab7d03b3,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,5,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD45816$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,5,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor9$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3593$renal%20medulla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#VHL_RCC$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10000$renal%20medulla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#KRP460$renal%20papilla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10012$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10018$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,5,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#VHL$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,6,https://entity.api.hubmapconsortium.org/entities/5a5ca03fa623602d9a859224aa40ace4,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,6,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#VHL_RCC$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10040$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3535$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#32-10003$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#28-12510$renal%20medulla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,7,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#TxK2$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,7,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#TxK2$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,7,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#TxK2$cortex%20of%20kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,8,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#KRP460$renal%20papilla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,8,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#TxK1$renal%20medulla,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,8,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10006$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,8,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#32-10003$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,8,https://api.cellxgene.cziscience.com/dp/v1/collections/1df8c90d-d299-4b2e-a54d-a5a80f36e780#SS_2014$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,9,https://entity.api.hubmapconsortium.org/entities/52ec5e111357f8fdd4ab2a3c5790cf4e,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,9,https://entity.api.hubmapconsortium.org/entities/0a21f3fa27109790483f2a0729be53de,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,9,https://entity.api.hubmapconsortium.org/entities/c1a0c043d0a986d71552091cc1b09742,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,9,https://entity.api.hubmapconsortium.org/entities/524dc341a03c155b6f4140e9d72f9b1d,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,9,https://entity.api.hubmapconsortium.org/entities/3bb5f743b039cb620d7ef234e0876f7a,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,9,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#34-10050$kidney,azimuth
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,9,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#KRP460$renal%20papilla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://entity.api.hubmapconsortium.org/entities/d482512016a61ef479960e2cb58552f2,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://entity.api.hubmapconsortium.org/entities/6cd657565c709c832300336899a1e1ec,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://entity.api.hubmapconsortium.org/entities/41dab04d801d21bfc99328c9e249cc68,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://entity.api.hubmapconsortium.org/entities/2c84a86ab51ec3a1168d8ba573d32c0a,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://entity.api.hubmapconsortium.org/entities/a39f501df340b605a58dc492f51c05db,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD45814$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#VHL_RCC$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor36$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#KRP460$renal%20papilla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRE038$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#VHL_RCC$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#20-687_N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#20-668_N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#32-2$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3593$renal%20papilla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3490$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10011$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10013$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#PRE038$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3593$renal%20papilla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#KRP460$renal%20papilla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#32-2$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10400$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#27-10041$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10401$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10398$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10404$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10236$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#PRE038$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#20-687_N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#20-668_N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#PRECISE165536-000-003N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#VHL$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#F16$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/13d1c580-4b17-4b2e-85c4-75b36917413f#F16$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/1df8c90d-d299-4b2e-a54d-a5a80f36e780#SCS_2006$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB10$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,2,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB11$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://entity.api.hubmapconsortium.org/entities/a6bfa5ab516fcc24137cdd3ce3971e2c,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://entity.api.hubmapconsortium.org/entities/1197c73d127193dd493ff542890a3d3d,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://entity.api.hubmapconsortium.org/entities/08c1aa2e74700e1170fc9218ae255992,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://entity.api.hubmapconsortium.org/entities/97c65df1d8fdc8d67c34a55e386fd430,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#RCC1$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#Wilms1$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#Wilms3$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3593$renal%20papilla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#HCA_54_ref$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRECISE165536-000-003N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#21_019$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#KRP460$renal%20papilla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#32-10074$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10000$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10013$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10011$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#165-9$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10078$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1162-EO1$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#HCA_54_ref$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#21_019$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#RCC1$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#Wilms1$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#Wilms3$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,3,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB14$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://entity.api.hubmapconsortium.org/entities/dc535e26fd17b8286a57d6dcd734c648,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://entity.api.hubmapconsortium.org/entities/0bcea0ab24e8bc5b0529b6f4d899ddad,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD43948$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD47512$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#RCC1$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#HCA_51_ref$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#32-10003$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#KRP461$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10012$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#28-12178$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10210$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#164-10$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#163-6$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#32-10074$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#HCA_51_ref$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://entity.api.hubmapconsortium.org/entities/c81b0dc9d16eb825a7d6bce6e1b3678f,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://entity.api.hubmapconsortium.org/entities/4b62d9d2c248323ce029859f953fdc57,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD45815$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#KRP461$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1153-EO1$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1162-EO1$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#KRP461$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#34-10050$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10016$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1153-EO1$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1162-EO1$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3490$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3593$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#32-10003$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#34-10050$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10280$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#27-10071$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10410$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#PRE027$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1158-EO3$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/1df8c90d-d299-4b2e-a54d-a5a80f36e780#SS_2007$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB15$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://entity.api.hubmapconsortium.org/entities/35f5b75a7e3d0711f16b0a10219586fb,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://entity.api.hubmapconsortium.org/entities/37988db44acc8d0780e4e31cd057e789,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://entity.api.hubmapconsortium.org/entities/1ea6c0ac5ba60fe35bf63af8699b6fbe,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/8e880741-bf9a-4c8e-9227-934204631d2a#donor_16$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor34$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRE018-1$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1157-EO2$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1158-EO3$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3593$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#30-10125$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#PRE018-1$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1157-EO2$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1158-EO3$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10016$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10929$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10125$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#PRE018-1$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1153-EO1$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1157-EO2$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,7,https://entity.api.hubmapconsortium.org/entities/1b5c7d45cb0e475b73f9280d092d34a5,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,7,https://entity.api.hubmapconsortium.org/entities/206d669d243f6dab04cc126a52cdab8d,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,7,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3593$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10013$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#34-10050$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,7,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#TTx$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,7,https://api.cellxgene.cziscience.com/dp/v1/collections/1df8c90d-d299-4b2e-a54d-a5a80f36e780#SS_2022$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,8,https://entity.api.hubmapconsortium.org/entities/ccf899abde825d51b03ad91028483ac1,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,8,https://entity.api.hubmapconsortium.org/entities/fd0b0c1d050010de3520492147aacef4,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,8,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#Teen%20Tx$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,8,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor37$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,8,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#HCA_55_ref$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,8,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10013$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,8,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#34-10184$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,8,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#28-12381$kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,8,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#HCA_55_ref$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,9,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#56-ref$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,9,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10000$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:0000653,podocyte,9,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#56-ref$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,2,https://entity.api.hubmapconsortium.org/entities/3c1b10bc912c60c9afc36b7423695236,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,2,https://entity.api.hubmapconsortium.org/entities/6e1db473492095ccc2f1393d7259b9c0,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD47171$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3613$renal%20papilla,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3490$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#33-10005$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10042$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3490$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3613$renal%20papilla,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1157-EO3$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1162-EO1$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#HCA_29_ref$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#Wilms1$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB33$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,3,https://entity.api.hubmapconsortium.org/entities/42ab155ddff1d33fe1c505c067828614,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,3,https://entity.api.hubmapconsortium.org/entities/b99fc30c4195958fbef217fa9ed9ec8f,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3613$renal%20papilla,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#KRP462$renal%20papilla,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRE062-1$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1158-EO3$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1162-EO2$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#VHL_RCC$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/981b0c87-76d0-4edf-b201-58c52b5cd2f0#human_kidney_donor_4$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10001$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#PRE018-1$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1153-EO1$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#32-2$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/1df8c90d-d299-4b2e-a54d-a5a80f36e780#SCS_2006$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://entity.api.hubmapconsortium.org/entities/9fe24e50c8b8b77d86900ee4beecef69,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://entity.api.hubmapconsortium.org/entities/b05c21f9c94ce1a22a9694cd0fe0291e,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://entity.api.hubmapconsortium.org/entities/0b6f63f2bd61a8c091fc7afc0f318ad1,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://entity.api.hubmapconsortium.org/entities/63349325056ccff582f1d095055c7e12,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://entity.api.hubmapconsortium.org/entities/ec7ebe15feec075a0299979b0350dd3a,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD45814$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#VHL_RCC$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1153-EO1$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#PRE062-1$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10010$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-11051$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1153-EO3$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1157-EO1$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#VHL$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,4,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB23$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRE018-1$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRE027$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#32-2$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3504$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3593$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1158-EO3$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/b3e2c6e3-9b05-4da9-8f42-da38a664b45b#diabetic_6$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,6,https://entity.api.hubmapconsortium.org/entities/7017034c816444f6acb469834e53344f,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,6,https://entity.api.hubmapconsortium.org/entities/b2ab05f290c0740c3198f020cd70e78d,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD44967$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3504$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1157-EO2$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10010$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1157-EO2$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10000$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#33-10005$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#20-687_N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#57-ref$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#21_016$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1153-EO3$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3504$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10034$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#28-12263$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#PRE062-1$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#57-ref$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#20-668_N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,8,https://entity.api.hubmapconsortium.org/entities/1197c73d127193dd493ff542890a3d3d,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,8,https://entity.api.hubmapconsortium.org/entities/434fbc55d458dc4e06da9ba4961f3840,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,8,https://entity.api.hubmapconsortium.org/entities/59249f23ecdcc975c90de9a1956a5285,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,8,https://entity.api.hubmapconsortium.org/entities/08c1aa2e74700e1170fc9218ae255992,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,8,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#HCA_29_ref$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,8,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRECISE165536-000-003N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,8,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3593$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,8,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#34-10184$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,8,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#165-9$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,8,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#PRECISE165536-000-003N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,8,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#21_019$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,8,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#21_016$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,9,https://entity.api.hubmapconsortium.org/entities/af5741dad7aecf7960a129c3d2ae642a,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3593$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#20-668_N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#21_019$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10000$kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#34-10050$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#Sample1153-EO1$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,2,https://entity.api.hubmapconsortium.org/entities/1197c73d127193dd493ff542890a3d3d,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,2,https://entity.api.hubmapconsortium.org/entities/08c1aa2e74700e1170fc9218ae255992,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27913$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor11$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#KRP461$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#KRP461$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10001$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/b3e2c6e3-9b05-4da9-8f42-da38a664b45b#diabetic_1$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#PRECISE_023_N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F38$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,2,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#F17$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,3,https://entity.api.hubmapconsortium.org/entities/4b62d9d2c248323ce029859f953fdc57,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#PRECISE_023_N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3490$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3490$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10034$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#28-12263$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#27-10071$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10404$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/13d1c580-4b17-4b2e-85c4-75b36917413f#F17$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB28$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,3,https://api.cellxgene.cziscience.com/dp/v1/collections/dc3a5256-5c39-4a21-ac0c-4ede3e7b2323#HKB18$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,4,https://entity.api.hubmapconsortium.org/entities/8cdb42ed1194255c74c8462b99bbd7ef,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,4,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#TxK1$renal%20pelvis,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,4,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#TxK1$renal%20pelvis,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,4,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#3593$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,4,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#TxK1$renal%20pelvis,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,5,https://entity.api.hubmapconsortium.org/entities/d1af36911148fdd7001fd4eebe7222f1,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,5,https://entity.api.hubmapconsortium.org/entities/2d8b8b5f4cf8b1f955b1b823ae9a9441,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,5,https://entity.api.hubmapconsortium.org/entities/2cd4eabca0b653af7f3b79534b2d641f,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27870$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD43824$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#Sample1158-EO2$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#57-ref$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#33-10006$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#Sample1158-EO2$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10210$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#30-10123$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,5,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#57-ref$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,6,https://entity.api.hubmapconsortium.org/entities/9fe24e50c8b8b77d86900ee4beecef69,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,6,https://entity.api.hubmapconsortium.org/entities/aece0d5303d9ce959cdab34a9e9f3003,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,6,https://entity.api.hubmapconsortium.org/entities/7f1e932a91a86ef58ed61ee19c175c18,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,6,https://entity.api.hubmapconsortium.org/entities/63349325056ccff582f1d095055c7e12,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#RCC3$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#Wilms1$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#RCC3$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#33-10006$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#34-10050$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#34-10184$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F45$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#RCC3$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,6,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#Wilms1$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#20-687_N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#29-10006$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#31-10035$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10006$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10078$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#27-10112$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,7,https://api.cellxgene.cziscience.com/dp/v1/collections/b3e2c6e3-9b05-4da9-8f42-da38a664b45b#diabetic_4$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,8,https://entity.api.hubmapconsortium.org/entities/c81b0dc9d16eb825a7d6bce6e1b3678f,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,8,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD47171$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,8,https://api.cellxgene.cziscience.com/dp/v1/collections/f7cecffa-00b4-4560-a29a-8ad626b8ee08#PD47512$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,8,https://api.cellxgene.cziscience.com/dp/v1/collections/bcb61471-2a44-4d00-a0af-ff085512674c#3593$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,8,https://api.cellxgene.cziscience.com/dp/v1/collections/a98b828a-622a-483a-80e0-15703678befd#20-687_N$cortex%20of%20kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,8,https://api.cellxgene.cziscience.com/dp/v1/collections/1df8c90d-d299-4b2e-a54d-a5a80f36e780#SS_2014$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27909$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#Teen%20Tx$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#3593$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#29-10013$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#31-10035$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#28-12381$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#PRE055-1$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#TTx$renal%20medulla,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/120e86b4-1195-48c5-845b-b98054105eec#F45$kidney,azimuth
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,9,https://api.cellxgene.cziscience.com/dp/v1/collections/13d1c580-4b17-4b2e-85c4-75b36917413f#F45$kidney,azimuth
+liver-liver-lobule,CL:0000182,hepatocytes,2,https://entity.api.hubmapconsortium.org/entities/4706e0339d507e7bd878458e2e9e7460,celltypist
+liver-liver-lobule,CL:0000182,hepatocytes,2,https://api.cellxgene.cziscience.com/dp/v1/collections/62e8f058-9c37-48bc-9200-e767f318a8ec#RU779$liver,celltypist
+liver-liver-lobule,CL:0000182,hepatocytes,2,https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F19$liver,celltypist
+liver-liver-lobule,CL:0000182,hepatocytes,3,https://api.cellxgene.cziscience.com/dp/v1/collections/edb893ee-4066-4128-9aec-5eb2b03f8287#Maynard_Bivona_2020_TH266$liver,celltypist
+liver-liver-lobule,CL:0000182,hepatocytes,3,https://api.cellxgene.cziscience.com/dp/v1/collections/793fdaec-5067-428a-a9db-ecefe135c945#RBG33508_F90_F103_F107$liver,celltypist
+liver-liver-lobule,CL:0000182,hepatocytes,4,https://api.cellxgene.cziscience.com/dp/v1/collections/74e10dc4-cbb2-4605-a189-8a1cd8e44d8c#H02$liver,celltypist
+liver-liver-lobule,CL:0000182,hepatocytes,6,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor12$liver,celltypist
+liver-liver-lobule,CL:0000182,hepatocytes,7,https://api.cellxgene.cziscience.com/dp/v1/collections/62e8f058-9c37-48bc-9200-e767f318a8ec#RU1138$liver,celltypist
+liver-liver-lobule,CL:0000182,hepatocytes,7,https://api.cellxgene.cziscience.com/dp/v1/collections/793fdaec-5067-428a-a9db-ecefe135c945#RBG33507_F90_F103_F107$liver,celltypist
+liver-liver-lobule,CL:1000398,endothelial cell of hepatic sinusoid,8,https://api.cellxgene.cziscience.com/dp/v1/collections/74e10dc4-cbb2-4605-a189-8a1cd8e44d8c#H14$liver,popv
+liver-liver-lobule,CL:1000398,endothelial cell of hepatic sinusoid,8,https://api.cellxgene.cziscience.com/dp/v1/collections/edb893ee-4066-4128-9aec-5eb2b03f8287#Maynard_Bivona_2020_TH067$liver,popv
+pancreas-endocrine-pancreas,CL:0000173,delta,2,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor44$pancreas,azimuth
+pancreas-endocrine-pancreas,CL:0000173,delta,3,https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP1$exocrine%20pancreas,azimuth
+pancreas-endocrine-pancreas,CL:0000173,delta,5,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D3,azimuth
+pancreas-endocrine-pancreas,CL:0000173,delta,6,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2,azimuth
+pancreas-endocrine-pancreas,CL:0000173,delta,7,https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D28$pancreas,azimuth
+pancreas-endocrine-pancreas,CL:0000173,delta,8,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4,azimuth
+pancreas-endocrine-pancreas,CL:0002275,gamma,4,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H5,azimuth
+pancreas-endocrine-pancreas,CL:0002275,gamma,5,https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D30$pancreas,azimuth
+pancreas-endocrine-pancreas,CL:0002275,gamma,5,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4,azimuth
+pancreas-endocrine-pancreas,CL:0002275,gamma,6,https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27948$pancreas,azimuth
+pancreas-endocrine-pancreas,CL:0002275,gamma,7,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2,azimuth
+pancreas-endocrine-pancreas,CL:0002275,gamma,9,https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D28$pancreas,azimuth
+pancreas-pancreatic-acinus,CL:0002064,acinar,5,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4,azimuth
+pancreas-pancreatic-acinus,CL:0002064,acinar,6,https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D29$pancreas,azimuth
+prostate-prostate-glandular-acinus,CL:0002340,luminal cell of prostate epithelium,3,https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D27$transition%20zone%20of%20prostate,popv
+prostate-prostate-glandular-acinus,CL:0002340,luminal cell of prostate epithelium,7,https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D27$transition%20zone%20of%20prostate,popv
+skin-epidermal-ridge,CL:1000458,melanocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_temple_B$skin%20of%20temple,celltypist
+skin-epidermal-ridge,CL:1000458,melanocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/c353707f-09a4-4f12-92a0-cb741e57e5f0#S4$zone%20of%20skin,celltypist
+skin-epidermal-ridge,CL:1000458,melanocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/73f82ac8-15cc-4fcd-87f8-5683723fce7f#S3$dermis,celltypist
+skin-epidermal-ridge,CL:1000458,melanocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#body_back_A$skin%20of%20back,celltypist
+skin-epidermal-ridge,CL:1000458,melanocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_forehead_A$skin%20of%20forehead,celltypist
+skin-epidermal-ridge,CL:1000458,melanocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$skin%20of%20abdomen,celltypist
+skin-epidermal-ridge,CL:1000458,melanocyte,6,https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20abdomen,celltypist
+skin-epidermal-ridge,CL:1000458,melanocyte,7,https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$skin%20of%20chest,celltypist
+skin-epidermal-ridge,CL:1000458,melanocyte,8,https://api.cellxgene.cziscience.com/dp/v1/collections/73f82ac8-15cc-4fcd-87f8-5683723fce7f#S2$dermis,celltypist
+skin-epidermal-ridge,CL:1000458,melanocyte,9,https://api.cellxgene.cziscience.com/dp/v1/collections/c353707f-09a4-4f12-92a0-cb741e57e5f0#S1$zone%20of%20skin,celltypist
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,2,https://entity.api.hubmapconsortium.org/entities/d48b7990d638dbede870ae9c1976e475,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,2,https://entity.api.hubmapconsortium.org/entities/046251c94ea0e79ee935dd3de57e093c,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,2,https://entity.api.hubmapconsortium.org/entities/f412e76986c1012ea9589d545ed8f043,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,2,https://entity.api.hubmapconsortium.org/entities/9a36e5319429ec6aca5a8a9fef401929,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,2,https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27464$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,2,https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27431$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,2,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#637C$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,2,https://api.cellxgene.cziscience.com/dp/v1/collections/62ef75e4-cbea-454e-a0ce-998ec40223d3#582C$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,2,https://api.cellxgene.cziscience.com/dp/v1/collections/62ef75e4-cbea-454e-a0ce-998ec40223d3#637C$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,3,https://entity.api.hubmapconsortium.org/entities/f71249f6e349fb9a99a3d4f08541cab4,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#A37$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#582C$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,3,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#15organ$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,3,https://api.cellxgene.cziscience.com/dp/v1/collections/62ef75e4-cbea-454e-a0ce-998ec40223d3#A37$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,4,https://entity.api.hubmapconsortium.org/entities/7b99b447ffc977a3f6f890d32c7238b3,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,4,https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#337C$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,5,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#D496$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,5,https://api.cellxgene.cziscience.com/dp/v1/collections/62ef75e4-cbea-454e-a0ce-998ec40223d3#D496$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,6,https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27552$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,6,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#640C$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,7,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#337C$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,8,https://api.cellxgene.cziscience.com/dp/v1/collections/62ef75e4-cbea-454e-a0ce-998ec40223d3#640C$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,9,https://api.cellxgene.cziscience.com/dp/v1/collections/854c0855-23ad-4362-8b77-6b1639e7a9fc#TSP2$spleen,popv
+spleen-red-pulp,CL:0000037,hematopoietic stem cell,9,https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP25$spleen,popv
