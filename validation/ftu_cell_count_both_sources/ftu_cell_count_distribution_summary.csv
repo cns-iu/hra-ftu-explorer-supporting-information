@@ -1,0 +1,17 @@
+data_source,organ,ftu,ftu_representation_status,datasets,median_cells,min_cells,max_cells
+Anatomogram,Liver,liver lobule,Both,6,640.5,306.0,1020.0
+Anatomogram,Pancreas,islet of Langerhans,Anatomogram only,9,168.0,65.0,230.0
+Anatomogram,kidney,nephron,Both,5,2046.0,1092.0,2440.0
+Anatomogram,kidney,renal corpuscle,Both,5,1292.0,820.0,1944.0
+Anatomogram,kidney,thick ascending limb of loop of Henle,Anatomogram only,5,626.0,393.0,1994.0
+Anatomogram,lung,alveolus of lung,Anatomogram only,4,134.5,11.0,315.0
+HRApop,Liver,liver lobule,Both,62,283.5,2.0,17949.0
+HRApop,Pancreas,pancreatic acinus,HRApop only,13,120.0,6.0,5874.0
+HRApop,kidney,inner medullary collecting duct,HRApop only,535,222.0,1.0,48742.0
+HRApop,kidney,loop of Henle ascending limb thin segment,HRApop only,371,265.0,1.0,39010.0
+HRApop,kidney,nephron,Both,668,987.0,11.0,64175.0
+HRApop,kidney,outer medullary collecting duct,HRApop only,455,115.0,1.0,3244.0
+HRApop,kidney,renal corpuscle,Both,619,219.0,1.0,14839.0
+HRApop,prostate gland,prostate glandular acinus,HRApop only,39,1402.0,277.0,7035.0
+HRApop,skin,epidermal ridge of digit,HRApop only,64,72.0,2.0,5662.0
+HRApop,spleen,red pulp of spleen,HRApop only,62,20.0,1.0,6048.0
