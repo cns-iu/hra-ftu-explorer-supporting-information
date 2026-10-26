@@ -10,7 +10,7 @@ from shared import *
 #   year        -> year          (Publication Year column; -1 when missing)
 #   cell_type_annotation_tool -> cellType, health_status -> healthStatus, sex, age, bmi, ethnicity
 #                                (donor/annotation columns; age and bmi are numbers, or strings such as
-#                                 an age range "60-69", "unknown" or "none" for bmi, per hra-ui#2334 and #2335)
+#                                 an age range "60-69" or "none", per hra-ui#2334 and #2335)
 # dataset_id, dataset_link and development_stage are not read by hra-ui.
 
 ANNOTATION_TOOL_LABELS = {
@@ -30,7 +30,8 @@ MISSING_VALUES = {"", "unknown", "nan", "none", "not reported", "na"}
 
 # Donor columns that show a placeholder in the table instead of an empty cell
 # (age and bmi as strings need hubmapconsortium/hra-ui#2334 and #2335)
-UNKNOWN_WHEN_MISSING = {"sex": "unknown", "age": "unknown", "bmi": "none", "ethnicity": "unknown"}
+UNKNOWN_WHEN_MISSING = {"sex", "age", "bmi", "ethnicity"}
+NONE = "none"
 
 
 def clean(value):
@@ -54,8 +55,16 @@ def to_number(value):
 
 # HsapDv decade stages: the Nth decade spans ages (N-1)*10 to (N-1)*10+9, e.g., seventh = 60-69
 DECADE_ORDINALS = {
-    "first": 1, "second": 2, "third": 3, "fourth": 4, "fifth": 5,
-    "sixth": 6, "seventh": 7, "eighth": 8, "ninth": 9, "tenth": 10,
+    "first": 1,
+    "second": 2,
+    "third": 3,
+    "fourth": 4,
+    "fifth": 5,
+    "sixth": 6,
+    "seventh": 7,
+    "eighth": 8,
+    "ninth": 9,
+    "tenth": 10,
 }
 
 
@@ -122,7 +131,9 @@ def get_preferred_tool_and_cts_by_dataset():
     matching what 41 puts into the cell summaries"""
     tool_and_cts = {}
     for obj in iterate_preferred_cell_summaries():
-        _, cts = tool_and_cts.setdefault(obj["cell_source"], (obj["annotation_method"], set()))
+        _, cts = tool_and_cts.setdefault(
+            obj["cell_source"], (obj["annotation_method"], set())
+        )
         # Some HRApop rows have gene_expr == "[]" (a string, no genes); 41 skips those, so skip them here too
         cts.update(
             summary["cell_id"]
@@ -170,9 +181,9 @@ def build_data_source(row, dataset_id, ftu_suffix, annotation_tool, doi_metadata
         "ethnicity": clean(row["donor_race"]),
     }
 
-    for k, placeholder in UNKNOWN_WHEN_MISSING.items():
+    for k in UNKNOWN_WHEN_MISSING:
         if data_source[k] is None:
-            data_source[k] = placeholder
+            data_source[k] = NONE
 
     # hra-ui's zod schema has optional (not nullable) fields, so drop empty values,
     # except for the strings it requires
