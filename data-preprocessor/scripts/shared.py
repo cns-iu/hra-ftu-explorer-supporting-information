@@ -655,12 +655,17 @@ def get_preferred_annotation_methods() -> dict[str, str]:
     }
 
 
-def iterate_preferred_cell_summaries():
+def iterate_preferred_cell_summaries(min_cells: int | None = None):
     """Like iterate_filtered_cell_summaries, but only one annotation method per dataset
-    (see get_preferred_annotation_methods), so the same cells are never counted twice"""
+    (see get_preferred_annotation_methods), so the same cells are never counted twice.
+    Cell types with fewer than min_cells (default MIN_CELLS_PER_CELL_TYPE) cells are dropped after
+    the tool is picked; pass 0 to keep them all"""
     preferred = get_preferred_annotation_methods()
+    if min_cells is None:
+        min_cells = config["MIN_CELLS_PER_CELL_TYPE"]
     for obj in iterate_filtered_cell_summaries():
         if obj["annotation_method"] == preferred[obj["cell_source"]]:
+            obj["summary"] = [s for s in obj.get("summary", []) if s["count"] >= min_cells]
             yield obj
 
 

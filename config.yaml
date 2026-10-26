@@ -50,6 +50,9 @@ EXCLUDED_CELLXGENE_COLLECTIONS :
   # all of its donors are in Version 1.5 (0f528c8a-a25c-4840-8fa3-d156fa11086f)
   - bcb61471-2a44-4d00-a0af-ff085512674c
 
+# Cell types with fewer cells than this in a dataset are left out of the FTU Explorer (40, 41 and 50)
+MIN_CELLS_PER_CELL_TYPE : 10
+
 # Single datasets left out of the FTU Explorer (40, 41 and 50), because the same donor's data is already in
 # a CellxGene collection. HuBMAP doesn't publish lab donor IDs, so these HuBMAP UCSD kidney RNAseq [Salmon]
 # datasets were matched to kidney atlas Version 1.5 donors by sex and exact age, and only those HuBMAP links to
