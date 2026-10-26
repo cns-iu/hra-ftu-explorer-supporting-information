@@ -10,7 +10,7 @@ from shared import *
 #   year        -> year          (Publication Year column; -1 when missing)
 #   cell_type_annotation_tool -> cellType, health_status -> healthStatus, sex, age, bmi, ethnicity
 #                                (donor/annotation columns; age and bmi are numbers, or strings such as
-#                                 an age range "60-69", "unknown" or "none" for bmi, per hra-ui#2334 and #2335)
+#                                 an age range "60-69" or "None", per hra-ui#2334 and #2335)
 # dataset_id, dataset_link and development_stage are not read by hra-ui.
 
 ANNOTATION_TOOL_LABELS = {
@@ -30,7 +30,8 @@ MISSING_VALUES = {"", "unknown", "nan", "none", "not reported", "na"}
 
 # Donor columns that show a placeholder in the table instead of an empty cell
 # (age and bmi as strings need hubmapconsortium/hra-ui#2334 and #2335)
-UNKNOWN_WHEN_MISSING = {"sex": "unknown", "age": "unknown", "bmi": "none", "ethnicity": "unknown"}
+UNKNOWN_WHEN_MISSING = {"sex", "age", "bmi", "ethnicity"}
+NONE = "None"
 
 
 def clean(value):
@@ -54,8 +55,16 @@ def to_number(value):
 
 # HsapDv decade stages: the Nth decade spans ages (N-1)*10 to (N-1)*10+9, e.g., seventh = 60-69
 DECADE_ORDINALS = {
-    "first": 1, "second": 2, "third": 3, "fourth": 4, "fifth": 5,
-    "sixth": 6, "seventh": 7, "eighth": 8, "ninth": 9, "tenth": 10,
+    "first": 1,
+    "second": 2,
+    "third": 3,
+    "fourth": 4,
+    "fifth": 5,
+    "sixth": 6,
+    "seventh": 7,
+    "eighth": 8,
+    "ninth": 9,
+    "tenth": 10,
 }
 
 
@@ -89,10 +98,9 @@ def get_doi_metadata(dois):
             cache = json.load(f)
 
     for doi in tqdm(sorted(set(dois) - set(cache)), desc="Fetching DOI metadata"):
-        bare_doi = re.sub(r"^https?://(dx\.)?doi\.org/", "", doi)
         try:
             response = requests.get(
-                f"https://api.crossref.org/works/{bare_doi}", timeout=30
+                f"https://api.crossref.org/works/{bare_doi(doi)}", timeout=30
             )
             response.raise_for_status()
         except requests.RequestException as e:
@@ -122,7 +130,9 @@ def get_preferred_tool_and_cts_by_dataset():
     matching what 41 puts into the cell summaries"""
     tool_and_cts = {}
     for obj in iterate_preferred_cell_summaries():
-        _, cts = tool_and_cts.setdefault(obj["cell_source"], (obj["annotation_method"], set()))
+        _, cts = tool_and_cts.setdefault(
+            obj["cell_source"], (obj["annotation_method"], set())
+        )
         # Some HRApop rows have gene_expr == "[]" (a string, no genes); 41 skips those, so skip them here too
         cts.update(
             summary["cell_id"]
@@ -170,9 +180,9 @@ def build_data_source(row, dataset_id, ftu_suffix, annotation_tool, doi_metadata
         "ethnicity": clean(row["donor_race"]),
     }
 
-    for k, placeholder in UNKNOWN_WHEN_MISSING.items():
+    for k in UNKNOWN_WHEN_MISSING:
         if data_source[k] is None:
-            data_source[k] = placeholder
+            data_source[k] = NONE
 
     # hra-ui's zod schema has optional (not nullable) fields, so drop empty values,
     # except for the strings it requires
@@ -194,6 +204,99 @@ def apply_doi_overrides(metadata: pd.DataFrame) -> pd.DataFrame:
     missing = metadata["publication"].map(clean).isna() & override_dois.notna()
     metadata.loc[missing, "publication"] = override_dois[missing]
     print(f"Filled in {missing.sum()} missing DOI(s) from DOI_OVERRIDES")
+    return metadata
+
+
+HUBMAP_ENTITY_PREFIX = "https://entity.api.hubmapconsortium.org/entities/"
+
+
+def bare_doi(doi):
+    return re.sub(r"^https?://(dx\.)?doi\.org/", "", doi.strip())
+
+
+def search_hubmap(query, source_fields, size):
+    response = requests.post(
+        config["HUBMAP_SEARCH_API"],
+        json={"size": size, "query": query, "_source": source_fields},
+        timeout=60,
+    )
+    response.raise_for_status()
+    return [hit["_source"] for hit in response.json()["hits"]["hits"]]
+
+
+def get_hubmap_publications(dataset_ids):
+    """HuBMAP dataset ID -> DOI of its source publication (None if it has none), cached in raw-data/.
+    Candidates are the Publication entities that list the dataset or one of its raw (parent) datasets
+    as an ancestor, minus HUBMAP_EXCLUDED_PUBLICATION_DOIS; the most specific one (fewest datasets) wins
+    """
+    cache = {}
+    if HUBMAP_PUBLICATIONS_CACHE.exists():
+        with open(HUBMAP_PUBLICATIONS_CACHE, "r", encoding="utf-8") as f:
+            cache = json.load(f)
+
+    uuid_by_dataset = {
+        d: d.removeprefix(HUBMAP_ENTITY_PREFIX)
+        for d in dataset_ids
+        if d.startswith(HUBMAP_ENTITY_PREFIX) and d not in cache
+    }
+    if uuid_by_dataset:
+        datasets = search_hubmap(
+            {"terms": {"uuid": sorted(uuid_by_dataset.values())}},
+            ["uuid", "ancestors.uuid", "ancestors.entity_type"],
+            len(uuid_by_dataset),
+        )
+        raw_datasets_by_uuid = {
+            d["uuid"]: {
+                a["uuid"]
+                for a in d.get("ancestors", [])
+                if a.get("entity_type") == "Dataset"
+            }
+            for d in datasets
+        }
+
+        excluded = {bare_doi(doi) for doi in config["HUBMAP_EXCLUDED_PUBLICATION_DOIS"]}
+        publications = [
+            p
+            for p in search_hubmap(
+                {"term": {"entity_type.keyword": "Publication"}},
+                ["publication_doi", "ancestor_ids", "ancestors.entity_type"],
+                10000,
+            )
+            if p.get("publication_doi")
+            and bare_doi(p["publication_doi"]) not in excluded
+        ]
+        # Fewest linked datasets first, so a paper about a few datasets beats a whole-organ atlas
+        publications.sort(
+            key=lambda p: (
+                sum(a.get("entity_type") == "Dataset" for a in p.get("ancestors", [])),
+                bare_doi(p["publication_doi"]),
+            )
+        )
+
+        for dataset_id, uuid in uuid_by_dataset.items():
+            linked = {uuid} | raw_datasets_by_uuid.get(uuid, set())
+            cache[dataset_id] = next(
+                (
+                    f"https://doi.org/{bare_doi(p['publication_doi'])}"
+                    for p in publications
+                    if linked & set(p.get("ancestor_ids", []))
+                ),
+                None,
+            )
+
+        with open(HUBMAP_PUBLICATIONS_CACHE, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False, indent=4)
+
+    return {d: cache[d] for d in dataset_ids if d in cache}
+
+
+def apply_hubmap_publications(metadata: pd.DataFrame, dataset_ids) -> pd.DataFrame:
+    """Fills in `publication` from HuBMAP's Publication entities for HuBMAP datasets that have none"""
+    metadata = metadata.copy()
+    hubmap_dois = metadata["dataset_id"].map(get_hubmap_publications(dataset_ids))
+    missing = metadata["publication"].map(clean).isna() & hubmap_dois.notna()
+    metadata.loc[missing, "publication"] = hubmap_dois[missing]
+    print(f"Filled in {missing.sum()} missing DOI(s) from HuBMAP publications")
     return metadata
 
 
@@ -221,6 +324,9 @@ def build_ftu_datasets_jsonld(metadata: pd.DataFrame):
         json.dump(ftu_to_datasets, output, indent=4)
 
     metadata = apply_doi_overrides(metadata)
+    metadata = apply_hubmap_publications(
+        metadata, sorted({d for ids in ftu_to_datasets.values() for d in ids})
+    )
     metadata_by_dataset = metadata.drop_duplicates("dataset_id").set_index(
         "dataset_id", drop=False
     )

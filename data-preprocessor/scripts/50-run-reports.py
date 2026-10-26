@@ -196,17 +196,71 @@ def report_small_datasets(cell_counts: pd.DataFrame, threshold: int = 100):
     print(f"File successfully saved to {REPORTS_DIR}")
 
 
-def report_rare_cell_types_per_ftu(cell_counts: pd.DataFrame, threshold: int = 10):
-    """Saves a CSV with one row per dataset, FTU and CT shown in the FTU Explorer where the
-    dataset has fewer than threshold cells of that CT"""
+def load_cell_counts_without_min_cells_filter() -> pd.DataFrame:
+    """Like load_ftu_explorer_cell_counts, but before MIN_CELLS_PER_CELL_TYPE is applied: the datasets
+    and CTs 40/41 would show without that rule. Rebuilds the dataset -> FTU mapping as 40 does, because
+    FTU_TO_DATASETS no longer lists datasets whose CTs were all too small. Keeps CTs with an empty
+    gene list, because 41 wrote those (they all have 1 cell, so the rule now drops them)"""
 
-    df = cell_counts[cell_counts["count"] < threshold].copy()
+    exclusive_cts_by_ftu = load_exclusive_cts_by_ftu()
+    objs = list(iterate_preferred_cell_summaries(min_cells=0))
+    cts_by_dataset = defaultdict(set)
+    for obj in objs:
+        cts_by_dataset[obj["cell_source"]].update(
+            get_id_from_iri(s["cell_id"])
+            for s in obj.get("summary", [])
+            if isinstance(s.get("gene_expr"), list) and s["gene_expr"]
+        )
+
+    dataset_to_ftus = defaultdict(set)
+    for dataset_id, matches in load_filtered_dataset_metadata().items():
+        for match in matches:
+            ct = get_id_from_iri(match["ct_iri"])
+            if ct in cts_by_dataset[dataset_id] and ct in exclusive_cts_by_ftu.get(match["ftu_purl"], set()):
+                dataset_to_ftus[dataset_id].add(match["ftu_purl"])
+
+    rows = []
+    for obj in objs:
+        dataset_id = obj["cell_source"]
+        for ftu in sorted(dataset_to_ftus.get(dataset_id, set())):
+            allowed_cts = exclusive_cts_by_ftu.get(ftu, set())
+            for summary in obj.get("summary", []):
+                ct = get_id_from_iri(summary["cell_id"])
+                if ct in allowed_cts and isinstance(summary.get("gene_expr"), list):
+                    rows.append(
+                        {
+                            "dataset_id": dataset_id,
+                            "annotation_method": obj["annotation_method"],
+                            "ftu": ftu.rsplit("/", 1)[-1],
+                            "cell_id": ct,
+                            "cell_label": summary["cell_label"],
+                            "count": summary["count"],
+                        }
+                    )
+    return pd.DataFrame(rows)
+
+
+def report_rare_cell_types_per_ftu(cell_counts: pd.DataFrame):
+    """Saves a CSV with one row per dataset, FTU and CT removed from the FTU Explorer because the
+    dataset has fewer than MIN_CELLS_PER_CELL_TYPE cells of that CT. dataset_removed_from_ftu is True
+    when none of the dataset's CTs for that FTU are left, so the dataset isn't listed for that FTU"""
+
+    threshold = config["MIN_CELLS_PER_CELL_TYPE"]
+    all_counts = load_cell_counts_without_min_cells_filter()
+    df = all_counts[all_counts["count"] < threshold].copy()
+    shown = set(zip(cell_counts["dataset_id"], cell_counts["ftu"]))
+    df["dataset_removed_from_ftu"] = [
+        (d, f) not in shown for d, f in zip(df["dataset_id"], df["ftu"])
+    ]
     df["cell_label"] = df["cell_label"].str.lower()
-    df = df[["ftu", "cell_id", "cell_label", "count", "dataset_id", "annotation_method"]].sort_values(
-        ["ftu", "cell_id", "count"]
-    )
+    df = df[
+        ["ftu", "cell_id", "cell_label", "count", "dataset_id", "annotation_method", "dataset_removed_from_ftu"]
+    ].sort_values(["ftu", "cell_id", "count", "dataset_id"])
+    removed = df.loc[df["dataset_removed_from_ftu"], "dataset_id"]
     print(
-        f"{len(df)} of {len(cell_counts)} dataset/FTU/CT combinations in the FTU Explorer have fewer than {threshold} cells"
+        f"{len(df)} of {len(all_counts)} dataset/FTU/CT combinations were removed for having fewer than {threshold} cells; "
+        f"{removed.nunique()} datasets lost at least one FTU, "
+        f"{len(set(removed) - set(cell_counts['dataset_id']))} are gone from the FTU Explorer"
     )
     pprint(df.groupby(["ftu", "cell_label"]).size())
 
