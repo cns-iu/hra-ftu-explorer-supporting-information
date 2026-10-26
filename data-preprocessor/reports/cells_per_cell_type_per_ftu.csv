@@ -1,15 +1,15 @@
 ftu,cell_id,cell_label,cell_count,dataset_count
-kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,399654,331
-kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,1092515,518
-kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,566140,565
-kidney-nephron,CL:1000768,connecting tubule,524362,631
-kidney-nephron,CL:1001107,ascending thin limb,399654,331
-kidney-nephron,CL:1000850,macula densa,157369,509
-kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,76174,339
-kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,55051,337
-kidney-renal-corpuscle,CL:1000452,parietal epithelial,112096,502
-kidney-renal-corpuscle,CL:0000653,podocyte,61134,496
-kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,45641,519
+kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,259376,268
+kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,683979,426
+kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,502767,466
+kidney-nephron,CL:1000768,connecting tubule,354647,515
+kidney-nephron,CL:1001107,ascending thin limb,259376,268
+kidney-nephron,CL:1000850,macula densa,116189,413
+kidney-outer-medullary-collecting-duct,CL:1000716,outer medullary collecting duct principal,44998,277
+kidney-outer-medullary-collecting-duct,CL:1000717,outer medullary collecting duct intercalated type a,43249,266
+kidney-renal-corpuscle,CL:1000452,parietal epithelial,70507,412
+kidney-renal-corpuscle,CL:0000653,podocyte,53238,410
+kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,40749,426
 liver-liver-lobule,CL:0000182,hepatocytes,169107,68
 liver-liver-lobule,CL:1000398,endothelial cell of hepatic sinusoid,905,11
 pancreas-endocrine-pancreas,CL:0000169,beta,27757,22

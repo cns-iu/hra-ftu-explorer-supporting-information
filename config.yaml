@@ -42,3 +42,79 @@ DOI_OVERRIDES :
   # "An atlas of healthy and injured cell states and niches in the human kidney (Version 1.5)";
   # HRApop has this DOI only on the Version 1.0 collection (bcb61471-2a44-4d00-a0af-ff085512674c)
   0f528c8a-a25c-4840-8fa3-d156fa11086f : https://doi.org/10.1038/s41586-023-05769-3
+
+# CellxGene collections left out of the FTU Explorer (40, 41 and 50), e.g. an older version of a collection
+# whose donors are all in a newer one, so the same cells aren't shown twice
+EXCLUDED_CELLXGENE_COLLECTIONS :
+  # "An atlas of healthy and injured cell states and niches in the human kidney" (Version 1.0, 2022);
+  # all of its donors are in Version 1.5 (0f528c8a-a25c-4840-8fa3-d156fa11086f)
+  - bcb61471-2a44-4d00-a0af-ff085512674c
+
+# Single datasets left out of the FTU Explorer (40, 41 and 50), because the same donor's data is already in
+# a CellxGene collection. HuBMAP doesn't publish lab donor IDs, so these HuBMAP UCSD kidney RNAseq [Salmon]
+# datasets were matched to kidney atlas Version 1.5 donors by sex and exact age, and only those HuBMAP links to
+# that atlas (10.1038/s41586-023-05769-3) are listed. HBM295.GHMR.582 and HBM477.DBJN.952 (both male, 54) are
+# kept: they both match the one CellxGene donor KRP461, so at least one match is wrong.
+EXCLUDED_DATASETS :
+  # HBM277.XCLT.589 (Female, 63), CellxGene donor KRP460
+  - https://entity.api.hubmapconsortium.org/entities/524dc341a03c155b6f4140e9d72f9b1d
+  - https://entity.api.hubmapconsortium.org/entities/e375a44f5cf5457c8f9b1132574c2436
+  # HBM289.BLHF.363 (Female, 57), CellxGene donor 3499 or PRE98sc
+  - https://entity.api.hubmapconsortium.org/entities/0804a7a9e430e6adfbc56f339d787211
+  - https://entity.api.hubmapconsortium.org/entities/2639e9e8488edddde275491cdbaae662
+  - https://entity.api.hubmapconsortium.org/entities/33c0ce043ae331ea23fc80023428e534
+  - https://entity.api.hubmapconsortium.org/entities/615462a0e4aa133d8b19644c404e3eeb
+  - https://entity.api.hubmapconsortium.org/entities/704d16116f29994ab0e714f4afdb5516
+  - https://entity.api.hubmapconsortium.org/entities/739184f7ec84d93a35360cde81cc026c
+  - https://entity.api.hubmapconsortium.org/entities/8c5e705001d5cc1c40dbd963ad848486
+  - https://entity.api.hubmapconsortium.org/entities/a95f2c79bb637141f7e6874eddc8e274
+  - https://entity.api.hubmapconsortium.org/entities/c14b104f9e44511ddf82697bce0d1901
+  - https://entity.api.hubmapconsortium.org/entities/ccbad4ffd323265937b842ea36ada4ad
+  - https://entity.api.hubmapconsortium.org/entities/dd3e6da115fd13eee62d9a4fba2324ae
+  - https://entity.api.hubmapconsortium.org/entities/e010f7505632d7b6eeda25b349383149
+  # HBM485.KRGM.628 (Male, 76), CellxGene donor 3535
+  - https://entity.api.hubmapconsortium.org/entities/044b28971204366347e7ed0b7ef0c279
+  - https://entity.api.hubmapconsortium.org/entities/0d1eb3d774a694b79e844987f771b183
+  - https://entity.api.hubmapconsortium.org/entities/12de9dcdb62640f1687b832f69648a55
+  - https://entity.api.hubmapconsortium.org/entities/6cd63d0ee2c67c3be41e4be1522d9c07
+  - https://entity.api.hubmapconsortium.org/entities/6efd19dc32f820a0e6be6a34973359b6
+  - https://entity.api.hubmapconsortium.org/entities/9457860c1b69f7ec3e51a6b648eabf13
+  - https://entity.api.hubmapconsortium.org/entities/949827f25f423d54663f09596351795d
+  - https://entity.api.hubmapconsortium.org/entities/c05a38c5210b870281b5aea01e290339
+  - https://entity.api.hubmapconsortium.org/entities/d1e9f509063984326570cf603c5654f2
+  - https://entity.api.hubmapconsortium.org/entities/fbb43e7c05d88c8700af94a32cb4e21d
+  # HBM584.TVKC.257 (Female, 45), CellxGene donor 3504
+  - https://entity.api.hubmapconsortium.org/entities/254801a318687281ba3e473569d89a45
+  - https://entity.api.hubmapconsortium.org/entities/434fbc55d458dc4e06da9ba4961f3840
+  - https://entity.api.hubmapconsortium.org/entities/9b99c75de2347b9567e33065108488e8
+  - https://entity.api.hubmapconsortium.org/entities/aa93e53df10842c13348a334c8fe423f
+  - https://entity.api.hubmapconsortium.org/entities/ac1d4544ab4886b851f74b2c21952378
+  - https://entity.api.hubmapconsortium.org/entities/e7bdf34c4da9f1d880f2615226e9713d
+  - https://entity.api.hubmapconsortium.org/entities/eb961e5dc50239d35f5398903c64e2b9
+  - https://entity.api.hubmapconsortium.org/entities/fbfdd102ecd60d7cf9d3da8c3d83a5c4
+  # HBM773.MKPP.732 (Female, 69), CellxGene donor KRP462
+  - https://entity.api.hubmapconsortium.org/entities/5039cf8619f6f8b5b4a14af1037e1d1f
+  - https://entity.api.hubmapconsortium.org/entities/7646a8a89555a123a56446b66c183d58
+  # HBM796.VGTX.823 (Female, 14), CellxGene donor 3490
+  - https://entity.api.hubmapconsortium.org/entities/08c1aa2e74700e1170fc9218ae255992
+  - https://entity.api.hubmapconsortium.org/entities/1197c73d127193dd493ff542890a3d3d
+  # HBM833.LBTG.876 (Male, 29), CellxGene donor KRP446
+  - https://entity.api.hubmapconsortium.org/entities/3bb5f743b039cb620d7ef234e0876f7a
+  - https://entity.api.hubmapconsortium.org/entities/52ec5e111357f8fdd4ab2a3c5790cf4e
+  # HBM984.MHHN.738 (Male, 66), CellxGene donor 3593 or PRE055-1
+  - https://entity.api.hubmapconsortium.org/entities/63349325056ccff582f1d095055c7e12
+  - https://entity.api.hubmapconsortium.org/entities/9fe24e50c8b8b77d86900ee4beecef69
+
+# HuBMAP Publication entities list the datasets they used as ancestors; 40-build-ftu-datasets-jsonld.py
+# searches them for each HuBMAP dataset and its raw (parent) datasets, where `publication` is empty
+HUBMAP_SEARCH_API : https://search.api.hubmapconsortium.org/v3/portal/search
+# Publication DOI per HuBMAP dataset ID (null if none), cached between runs; delete it to look up again
+HUBMAP_PUBLICATIONS_CACHE : hubmap-publications-cache.json
+# HuBMAP publications that reuse or describe the data but aren't its source, never used as a dataset's publication
+HUBMAP_EXCLUDED_PUBLICATION_DOIS :
+  # Construction, Deployment, and Usage of the Human Reference Atlas Knowledge Graph
+  - 10.1038/s41597-025-05183-6
+  # Cell type populations for 3D anatomical structures of the Human Reference Atlas
+  - 10.1038/s41597-026-06642-4
+  # HuBMAP Data Portal: A Resource for Multimodal Spatial and Single-Cell Data of Healthy Human Tissues
+  - 10.48550/arXiv.2511.05708

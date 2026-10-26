@@ -86,6 +86,7 @@ FTU_CELL_SUMMARIES = OUTPUT_DIR / config["FTU_CELL_SUMMARIES"]
 
 FTU_DATASETS_OUTPUT = TEMP_DIR / config["FTU_DATASETS"]
 DOI_METADATA_CACHE = RAW_DATA_DIR / config["DOI_METADATA_CACHE"]
+HUBMAP_PUBLICATIONS_CACHE = RAW_DATA_DIR / config["HUBMAP_PUBLICATIONS_CACHE"]
 FTU_CELL_SUMMARIES_OUTPUT = TEMP_DIR / config["FTU_CELL_SUMMARIES"]
 ANATOMOGRAMN_METADATA = INPUT_DIR / config["ANATOMOGRAMN_METADATA"]
 ANATOMOGRAMN_RAW_DATA = RAW_DATA_DIR / config["ANATOMOGRAMN_RAW_DATA"]
@@ -611,10 +612,23 @@ def unzip_to_folder(file_path: str, target_folder: str):
     print(f"Unzipped {file_path} → {target}")
 
 
+def is_excluded_dataset(dataset_id: str) -> bool:
+    """True for datasets in config's EXCLUDED_DATASETS or from a collection in EXCLUDED_CELLXGENE_COLLECTIONS"""
+    if dataset_id in (config.get("EXCLUDED_DATASETS") or []):
+        return True
+    collection_id = re.search(r"/collections/([0-9a-f-]+)", dataset_id)
+    return bool(collection_id) and collection_id.group(1) in (
+        config.get("EXCLUDED_CELLXGENE_COLLECTIONS") or []
+    )
+
+
 def iterate_filtered_cell_summaries():
-    """Yields the FTU-filtered cell type populations of every source in CELL_SUMMARY_SOURCES"""
+    """Yields the FTU-filtered cell type populations of every source in CELL_SUMMARY_SOURCES,
+    minus excluded datasets (see is_excluded_dataset)"""
     for source in CELL_SUMMARY_SOURCES:
-        yield from iterate_through_json_lines(source["intermediary"])
+        for obj in iterate_through_json_lines(source["intermediary"]):
+            if not is_excluded_dataset(obj["cell_source"]):
+                yield obj
 
 
 def load_exclusive_cts_by_ftu() -> dict[str, set[str]]:
@@ -651,12 +665,12 @@ def iterate_preferred_cell_summaries():
 
 
 def load_filtered_dataset_metadata() -> dict:
-    """dataset_id -> [{ct_iri, ftu_purl}, ...], merged across CELL_SUMMARY_SOURCES"""
+    """dataset_id -> [{ct_iri, ftu_purl}, ...], merged across CELL_SUMMARY_SOURCES, minus excluded datasets"""
     merged = {}
     for source in CELL_SUMMARY_SOURCES:
         with open(source["filtered_dataset_metadata"], "r", encoding="utf-8") as f:
             merged.update(json.load(f))
-    return merged
+    return {k: v for k, v in merged.items() if not is_excluded_dataset(k)}
 
 
 def load_health_status_by_dataset(source: dict) -> dict:
