@@ -7,7 +7,7 @@
             "count": 29997,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "salivary gland glandular cell",
@@ -16,7 +16,7 @@
             "count": 3846,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "fibroblast",
@@ -24,7 +24,8 @@
             "cl_id": "CL:0000057",
             "count": 3630,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "plasma cell",
@@ -32,7 +33,8 @@
             "cl_id": "CL:0000786",
             "count": 2979,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "blood vessel endothelial cell",
@@ -40,7 +42,8 @@
             "cl_id": "CL:0000071",
             "count": 2205,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": "CL:0000115"
         },
         {
             "cl_label": "CD8-positive, alpha-beta T cell",
@@ -49,7 +52,7 @@
             "count": 2063,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "macrophage",
@@ -73,7 +76,8 @@
             "cl_id": "CL:0000775",
             "count": 665,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "CD4-positive helper T cell",
@@ -82,7 +86,7 @@
             "count": 657,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "keratinocyte",
@@ -91,7 +95,7 @@
             "count": 586,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "Schwann cell",
@@ -100,7 +104,7 @@
             "count": 529,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "dendritic cell",
@@ -132,7 +136,8 @@
             "cl_id": "CL:0000623",
             "count": 155,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "endothelial cell of lymphatic vessel",
@@ -141,7 +146,7 @@
             "count": 81,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": "CL:0000115"
+            "ancestor_class_in_supertree": "CL:0000115"
         },
         {
             "cl_label": "adult skeletal muscle myoblast",
@@ -157,7 +162,8 @@
             "cl_id": "CL:0000236",
             "count": 55,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         }
     ],
     "8a95341f-f023-4bff-a1d5-52c7003ab65a.h5ad": [
@@ -168,7 +174,7 @@
             "count": 6617,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "CD4-positive helper T cell",
@@ -177,7 +183,7 @@
             "count": 6151,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "innate lymphoid cell",
@@ -185,7 +191,8 @@
             "cl_id": "CL:0001065",
             "count": 2149,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "mast cell",
@@ -217,7 +224,8 @@
             "cl_id": "CL:0000236",
             "count": 1516,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "neutrophil",
@@ -225,7 +233,8 @@
             "cl_id": "CL:0000775",
             "count": 533,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "plasma cell",
@@ -233,7 +242,8 @@
             "cl_id": "CL:0000786",
             "count": 310,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         }
     ],
     "93325b5c-19bb-4481-aeda-738209650945.h5ad": [
@@ -243,7 +253,8 @@
             "cl_id": "CL:0000071",
             "count": 9788,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": "CL:0000115"
         },
         {
             "cl_label": "fibroblast",
@@ -251,7 +262,8 @@
             "cl_id": "CL:0000057",
             "count": 6524,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "mural cell",
@@ -268,7 +280,7 @@
             "count": 2167,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "CD8-positive, alpha-beta T cell",
@@ -277,7 +289,7 @@
             "count": 1932,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "keratinocyte",
@@ -286,7 +298,7 @@
             "count": 1738,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "endothelial cell of lymphatic vessel",
@@ -295,7 +307,7 @@
             "count": 877,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": "CL:0000115"
+            "ancestor_class_in_supertree": "CL:0000115"
         },
         {
             "cl_label": "dendritic cell",
@@ -319,7 +331,8 @@
             "cl_id": "CL:0000623",
             "count": 603,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "acinar cell of salivary gland",
@@ -328,7 +341,7 @@
             "count": 451,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "Langerhans cell",
@@ -337,7 +350,7 @@
             "count": 365,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": "CL:0000451"
+            "ancestor_class_in_supertree": "CL:0000451"
         },
         {
             "cl_label": "plasma cell",
@@ -345,7 +358,8 @@
             "cl_id": "CL:0000786",
             "count": 203,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "melanocyte",
@@ -354,7 +368,7 @@
             "count": 202,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "salivary gland glandular cell",
@@ -363,7 +377,7 @@
             "count": 176,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "neutrophil",
@@ -371,7 +385,8 @@
             "cl_id": "CL:0000775",
             "count": 171,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "mast cell",
@@ -388,7 +403,7 @@
             "count": 70,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "myoepithelial cell",
@@ -406,7 +421,8 @@
             "cl_id": "CL:0000786",
             "count": 2892,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "CD8-positive, alpha-beta T cell",
@@ -415,7 +431,7 @@
             "count": 1325,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "macrophage",
@@ -432,7 +448,7 @@
             "count": 587,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "neutrophil",
@@ -440,7 +456,8 @@
             "cl_id": "CL:0000775",
             "count": 370,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "innate lymphoid cell",
@@ -448,7 +465,8 @@
             "cl_id": "CL:0001065",
             "count": 146,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "dendritic cell",
@@ -464,7 +482,8 @@
             "cl_id": "CL:0000236",
             "count": 90,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         }
     ],
     "a22a3aeb-5e68-4084-8a45-94b42015adf8.h5ad": [
@@ -474,7 +493,8 @@
             "cl_id": "CL:0000071",
             "count": 23920,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": "CL:0000115"
         },
         {
             "cl_label": "fibroblast",
@@ -482,7 +502,8 @@
             "cl_id": "CL:0000057",
             "count": 19235,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "CD4-positive helper T cell",
@@ -491,7 +512,7 @@
             "count": 7644,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "mural cell",
@@ -508,7 +529,7 @@
             "count": 6802,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "CD8-positive, alpha-beta T cell",
@@ -517,7 +538,7 @@
             "count": 5367,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "plasma cell",
@@ -525,7 +546,8 @@
             "cl_id": "CL:0000786",
             "count": 2768,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "endothelial cell of lymphatic vessel",
@@ -534,7 +556,7 @@
             "count": 2278,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": "CL:0000115"
+            "ancestor_class_in_supertree": "CL:0000115"
         },
         {
             "cl_label": "mast cell",
@@ -558,7 +580,8 @@
             "cl_id": "CL:0000623",
             "count": 1604,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "B cell",
@@ -566,7 +589,8 @@
             "cl_id": "CL:0000236",
             "count": 1544,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "dendritic cell",
@@ -582,7 +606,8 @@
             "cl_id": "CL:0000775",
             "count": 814,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "Langerhans cell",
@@ -591,7 +616,7 @@
             "count": 618,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": "CL:0000451"
+            "ancestor_class_in_supertree": "CL:0000451"
         },
         {
             "cl_label": "acinar cell of salivary gland",
@@ -600,7 +625,7 @@
             "count": 558,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "melanocyte",
@@ -609,7 +634,7 @@
             "count": 374,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "Schwann cell",
@@ -618,7 +643,7 @@
             "count": 323,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "salivary gland glandular cell",
@@ -627,7 +652,7 @@
             "count": 265,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "Merkel cell",
@@ -635,7 +660,8 @@
             "cl_id": "CL:0000242",
             "count": 52,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "adult skeletal muscle myoblast",
@@ -661,7 +687,8 @@
             "cl_id": "CL:0000057",
             "count": 23077,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "blood vessel endothelial cell",
@@ -669,7 +696,8 @@
             "cl_id": "CL:0000071",
             "count": 10658,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": "CL:0000115"
         },
         {
             "cl_label": "mural cell",
@@ -686,7 +714,7 @@
             "count": 6166,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "macrophage",
@@ -703,7 +731,7 @@
             "count": 1060,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "CD8-positive, alpha-beta T cell",
@@ -712,7 +740,7 @@
             "count": 1053,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "odontoblast",
@@ -728,7 +756,8 @@
             "cl_id": "CL:0000623",
             "count": 217,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "neutrophil",
@@ -736,7 +765,8 @@
             "cl_id": "CL:0000775",
             "count": 89,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "dendritic cell",
@@ -760,7 +790,8 @@
             "cl_id": "CL:0000236",
             "count": 19,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         }
     ],
     "b4f2c50e-080f-4d37-aa21-911d2273b0da.h5ad": [
@@ -770,7 +801,8 @@
             "cl_id": "CL:0000057",
             "count": 2814,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "mural cell",
@@ -786,7 +818,8 @@
             "cl_id": "CL:0000071",
             "count": 1057,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": "CL:0000115"
         },
         {
             "cl_label": "keratinocyte",
@@ -795,7 +828,7 @@
             "count": 889,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "CD4-positive helper T cell",
@@ -804,7 +837,7 @@
             "count": 858,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "CD8-positive, alpha-beta T cell",
@@ -813,7 +846,7 @@
             "count": 412,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "dendritic cell",
@@ -829,7 +862,8 @@
             "cl_id": "CL:0000786",
             "count": 241,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "neutrophil",
@@ -837,7 +871,8 @@
             "cl_id": "CL:0000775",
             "count": 209,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "macrophage",
@@ -854,7 +889,7 @@
             "count": 190,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": "CL:0000115"
+            "ancestor_class_in_supertree": "CL:0000115"
         },
         {
             "cl_label": "Schwann cell",
@@ -863,7 +898,7 @@
             "count": 175,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "natural killer cell",
@@ -871,7 +906,8 @@
             "cl_id": "CL:0000623",
             "count": 154,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "B cell",
@@ -879,7 +915,8 @@
             "cl_id": "CL:0000236",
             "count": 75,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "Merkel cell",
@@ -887,7 +924,8 @@
             "cl_id": "CL:0000242",
             "count": 71,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "Langerhans cell",
@@ -896,7 +934,7 @@
             "count": 64,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": "CL:0000451"
+            "ancestor_class_in_supertree": "CL:0000451"
         },
         {
             "cl_label": "melanocyte",
@@ -905,7 +943,7 @@
             "count": 29,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "mast cell",
@@ -924,7 +962,7 @@
             "count": 11211,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "salivary gland glandular cell",
@@ -933,7 +971,7 @@
             "count": 1485,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "CD8-positive, alpha-beta T cell",
@@ -942,7 +980,7 @@
             "count": 1038,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "fibroblast",
@@ -950,7 +988,8 @@
             "cl_id": "CL:0000057",
             "count": 830,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "blood vessel endothelial cell",
@@ -958,7 +997,8 @@
             "cl_id": "CL:0000071",
             "count": 741,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": "CL:0000115"
         },
         {
             "cl_label": "macrophage",
@@ -974,7 +1014,8 @@
             "cl_id": "CL:0000775",
             "count": 572,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "plasma cell",
@@ -982,7 +1023,8 @@
             "cl_id": "CL:0000786",
             "count": 523,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "myoepithelial cell",
@@ -999,7 +1041,7 @@
             "count": 357,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "keratinocyte",
@@ -1008,7 +1050,7 @@
             "count": 274,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "ionocyte",
@@ -1040,7 +1082,8 @@
             "cl_id": "CL:0000623",
             "count": 124,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "B cell",
@@ -1048,7 +1091,8 @@
             "cl_id": "CL:0000236",
             "count": 20,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         }
     ],
     "cb252df6-6e49-4553-abd1-495a00006fb1.h5ad": [
@@ -1059,7 +1103,7 @@
             "count": 62303,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "lymphocyte",
@@ -1068,7 +1112,7 @@
             "count": 49863,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "fibroblast",
@@ -1076,7 +1120,8 @@
             "cl_id": "CL:0000057",
             "count": 46247,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "endothelial cell of vascular tree",
@@ -1085,7 +1130,7 @@
             "count": 43549,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": "CL:0000115"
+            "ancestor_class_in_supertree": "CL:0000115"
         },
         {
             "cl_label": "myeloid cell",
@@ -1094,7 +1139,7 @@
             "count": 19492,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "mural cell",
@@ -1111,7 +1156,7 @@
             "count": 9366,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "odontoblast",
@@ -1128,7 +1173,7 @@
             "count": 298,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "muscle cell",
@@ -1137,7 +1182,7 @@
             "count": 26,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         }
     ],
     "e0549fbf-cf9c-401a-b85f-6ba00d916e43.h5ad": [
@@ -1148,7 +1193,7 @@
             "count": 18786,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "fibroblast",
@@ -1156,7 +1201,8 @@
             "cl_id": "CL:0000057",
             "count": 2800,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "plasma cell",
@@ -1164,7 +1210,8 @@
             "cl_id": "CL:0000786",
             "count": 2455,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "salivary gland glandular cell",
@@ -1173,7 +1220,7 @@
             "count": 2361,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "blood vessel endothelial cell",
@@ -1181,7 +1228,8 @@
             "cl_id": "CL:0000071",
             "count": 1513,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": "CL:0000115"
         },
         {
             "cl_label": "CD8-positive, alpha-beta T cell",
@@ -1190,7 +1238,7 @@
             "count": 1025,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "mural cell",
@@ -1223,7 +1271,7 @@
             "count": 300,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "keratinocyte",
@@ -1232,7 +1280,7 @@
             "count": 214,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": null
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "dendritic cell",
@@ -1256,7 +1304,8 @@
             "cl_id": "CL:0000775",
             "count": 92,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "endothelial cell of lymphatic vessel",
@@ -1265,7 +1314,7 @@
             "count": 78,
             "is_in_supertree": true,
             "is_in_illustration": false,
-            "parent_class_in_supertree": "CL:0000115"
+            "ancestor_class_in_supertree": "CL:0000115"
         },
         {
             "cl_label": "adult skeletal muscle myoblast",
@@ -1281,7 +1330,8 @@
             "cl_id": "CL:0000236",
             "count": 35,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         },
         {
             "cl_label": "natural killer cell",
@@ -1289,7 +1339,8 @@
             "cl_id": "CL:0000623",
             "count": 31,
             "is_in_supertree": true,
-            "is_in_illustration": true
+            "is_in_illustration": false,
+            "ancestor_class_in_supertree": null
         }
     ]
 }

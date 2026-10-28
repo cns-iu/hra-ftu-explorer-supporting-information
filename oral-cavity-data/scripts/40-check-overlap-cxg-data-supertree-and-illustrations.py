@@ -6,11 +6,13 @@ def get_unique_cl_ids(cell_types: list):
     return list(unique_cl_ids)
 
 
-def check_if_supertree_or_illustration(cell_id: str, supertree, crosswalk):
+def check_if_supertree_or_illustration(cell_id: str):
     return {
         cell_id: {
             "is_in_supertree": check_if_cell_id_in_df(cell_id, df_supertree),
-            "is_in_illustration": check_if_cell_id_in_df(cell_id, df_illustration),
+            "is_in_illustration": check_if_cell_id_in_df(
+                cell_id, df_illustrations_mouth
+            ),
         }
     }
 
@@ -30,9 +32,7 @@ def main():
             print()
 
             for cl_id in unique_cl_ids:
-                dict_is_in_both = check_if_supertree_or_illustration(
-                    cl_id, df_supertree, df_illustration
-                )
+                dict_is_in_both = check_if_supertree_or_illustration(cl_id)
 
                 for cell_type_dict in data_json[dataset]:
                     if cell_type_dict["cl_id"] == cl_id:

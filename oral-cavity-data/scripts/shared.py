@@ -26,10 +26,10 @@ CROSSWALK_CSV_URL = "https://cdn.humanatlas.io/digital-objects/2d-ftu/asct-b-2d-
 SUPERTREE_URL = "https://raw.githubusercontent.com/cns-iu/hra-ctann-supporting-information/refs/heads/main/data/CTann-Supertree-v10.csv"
 MOUTH_ID = "UBERON:0000165"
 
-df_illustration = pd.read_csv(CROSSWALK_CSV_URL, skiprows=11)
+df_illustrations_mouth = pd.read_csv(CROSSWALK_CSV_URL, skiprows=11)
 df_supertree = pd.read_csv(SUPERTREE_URL)
 df_illustrations_mouth = (
-    df_illustration[df_illustration["organ_id"] == MOUTH_ID][
+    df_illustrations_mouth[df_illustrations_mouth["organ_id"] == MOUTH_ID][
         [
             "organ_label",
             "organ_id",
