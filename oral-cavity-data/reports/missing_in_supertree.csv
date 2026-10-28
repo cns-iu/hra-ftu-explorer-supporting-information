@@ -1,0 +1,42 @@
+organ_label,organ_id,anatomical_structure_of,label,OntologyID,is_in_supertree
+Mouth,UBERON:0000165,#FTUSublingualGland,macrophage,CL:0000235,True
+Mouth,UBERON:0000165,#FTUSublingualGland,mast cell,CL:0000097,True
+Mouth,UBERON:0000165,#FTUSublingualGland,endothelial cell,CL:0000115,True
+Mouth,UBERON:0000165,#FTUSublingualGland,intercalated cell of salivary gland,CL:4052048,False
+Mouth,UBERON:0000165,#FTUSublingualGland,ionocyte,CL:0005006,True
+Mouth,UBERON:0000165,#FTUSublingualGland,myoepithelial cell,CL:0000185,True
+Mouth,UBERON:0000165,#FTUSublingualGland,smooth muscle cell,CL:0000192,True
+Mouth,UBERON:0000165,#FTUSublingualGland,pericyte,CL:0000669,True
+Mouth,UBERON:0000165,#FTUSublingualGland,seromucous acinar cell of salivary gland,CL:4052067,False
+Mouth,UBERON:0000165,#FTUSublingualGland,dendritic cell,CL:0000451,True
+Mouth,UBERON:0000165,#FTUSublingualGland,helper T cell,CL:0000912,True
+Mouth,UBERON:0000165,#FTUSublingualGland,IgA plasma cell,CL:0000987,True
+Mouth,UBERON:0000165,#FTUParotidGland,macrophage,CL:0000235,True
+Mouth,UBERON:0000165,#FTUParotidGland,mast cell,CL:0000097,True
+Mouth,UBERON:0000165,#FTUParotidGland,endothelial cell,CL:0000115,True
+Mouth,UBERON:0000165,#FTUParotidGland,intercalated cell of salivary gland,CL:4052048,False
+Mouth,UBERON:0000165,#FTUParotidGland,ionocyte,CL:0005006,True
+Mouth,UBERON:0000165,#FTUParotidGland,myoepithelial cell,CL:0000185,True
+Mouth,UBERON:0000165,#FTUParotidGland,smooth muscle cell,CL:0000192,True
+Mouth,UBERON:0000165,#FTUParotidGland,pericyte,CL:0000669,True
+Mouth,UBERON:0000165,#FTUParotidGland,dendritic cell,CL:0000451,True
+Mouth,UBERON:0000165,#FTUParotidGland,helper T cell,CL:0000912,True
+Mouth,UBERON:0000165,#FTUParotidGland,IgA plasma cell,CL:0000987,True
+Mouth,UBERON:0000165,#FTUParotidGland,serous acinar cell of salivary gland,CL:4052065,False
+Mouth,UBERON:0000165,#FTUParotidGland,adipocyte,CL:0000136,True
+Mouth,UBERON:0000165,#FTUParotidGland,tuft cell,CL:0002204,True
+Mouth,UBERON:0000165,#FTUParotidGland,striated cell of salivary gland,CL:4052049,False
+Mouth,UBERON:0000165,#FTUSubmandibularGland,macrophage,CL:0000235,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,mast cell,CL:0000097,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,endothelial cell,CL:0000115,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,intercalated cell of salivary gland,CL:4052048,False
+Mouth,UBERON:0000165,#FTUSubmandibularGland,ionocyte,CL:0005006,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,myoepithelial cell,CL:0000185,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,smooth muscle cell,CL:0000192,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,pericyte,CL:0000669,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,seromucous acinar cell of salivary gland,CL:4052067,False
+Mouth,UBERON:0000165,#FTUSubmandibularGland,dendritic cell,CL:0000451,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,helper T cell,CL:0000912,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,IgA plasma cell,CL:0000987,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,tuft cell,CL:0002204,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,striated cell of salivary gland,CL:4052049,False
