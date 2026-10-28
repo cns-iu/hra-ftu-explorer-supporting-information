@@ -2,11 +2,8 @@ from shared import *
 
 # Each supertree row is one path from the root (cell, CL:0000000) down to a leaf; ancestors are to the left
 SUPERTREE_ID_COLUMNS = [c for c in df_supertree.columns if c.endswith("/ID")]
-MOUTH_ID = "UBERON:0000165"
 # Only CL IDs in the mouth (oral cavity) illustration count, not those of other organs' illustrations
-ILLUSTRATION_IDS = set(
-    df_illustration.loc[df_illustration["organ_id"] == MOUTH_ID, "OntologyID"].dropna()
-)
+ILLUSTRATION_IDS = set(df_illustrations_mouth["OntologyID"])
 
 
 def get_parent_class_in_illustration(cell_id: str):
@@ -34,7 +31,7 @@ def main():
                 cell_type_dict["is_in_supertree"]
                 and not cell_type_dict["is_in_illustration"]
             ):
-                cell_type_dict["parent_class_in_supertree"] = (
+                cell_type_dict["has_ancestor_in_supertree_that_is_in_illustration"] = (
                     get_parent_class_in_illustration(cell_type_dict["cl_id"])
                 )
 
