@@ -31,7 +31,7 @@ def main():
                 cell_type_dict["is_in_supertree"]
                 and not cell_type_dict["is_in_illustration"]
             ):
-                cell_type_dict["ancestor_class_in_supertree"] = (
+                cell_type_dict["has_ancestor_in_supertree_that_is_in_illustration"] = (
                     get_parent_class_in_illustration(cell_type_dict["cl_id"])
                 )
 
