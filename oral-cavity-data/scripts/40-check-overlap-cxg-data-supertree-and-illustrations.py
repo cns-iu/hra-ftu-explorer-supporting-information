@@ -10,7 +10,7 @@ def check_if_supertree_or_illustration(cell_id: str, supertree, crosswalk):
     return {
         cell_id: {
             "is_in_supertree": check_if_cell_id_in_df(cell_id, df_supertree),
-            "is_in_crosswalk": check_if_cell_id_in_df(cell_id, df_crosswalk),
+            "is_in_illustration": check_if_cell_id_in_df(cell_id, df_illustration),
         }
     }
 
@@ -31,7 +31,7 @@ def main():
 
             for cl_id in unique_cl_ids:
                 dict_is_in_both = check_if_supertree_or_illustration(
-                    cl_id, df_supertree, df_crosswalk
+                    cl_id, df_supertree, df_illustration
                 )
 
                 for cell_type_dict in data_json[dataset]:

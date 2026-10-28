@@ -19,6 +19,9 @@ def open_h5ad_file(id: str) -> tuple:
             ].value_counts()
         )
 
+    # value_counts() on categorical columns also lists every combination that never occurs, with count 0
+    df = df[df["count"] > 0]
+
     return (df, id)
 
 

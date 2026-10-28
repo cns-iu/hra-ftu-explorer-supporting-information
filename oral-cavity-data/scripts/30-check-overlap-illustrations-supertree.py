@@ -5,7 +5,7 @@ mouth_id = "UBERON:0000165"
 
 def main():
     df_crosswalk_mouth = (
-        df_crosswalk[df_crosswalk["organ_id"] == mouth_id][
+        df_illustration[df_illustration["organ_id"] == mouth_id][
             [
                 "organ_label",
                 "organ_id",
