@@ -1,0 +1,203 @@
+organ_label,organ_id,anatomical_structure_of,label,OntologyID,is_in_supertree
+Kidney,UBERON:0002113,#FTUCorticalCollectingDuct,kidney cortex collecting duct principal cell,CL:1000714,True
+Kidney,UBERON:0002113,#FTUCorticalCollectingDuct,kidney cortex collecting duct intercalated cell,CL:1000715,False
+Kidney,UBERON:0002113,#FTUCorticalCollectingDuct,peritubular capillary endothelial cell,CL:1001033,True
+Kidney,UBERON:0002113,#FTUOuterMedullaryCollectingDuct,kidney outer medulla collecting duct intercalated cell,CL:1000717,True
+Kidney,UBERON:0002113,#FTUOuterMedullaryCollectingDuct,kidney outer medulla collecting duct principal cell,CL:1000716,True
+Kidney,UBERON:0002113,#FTUOuterMedullaryCollectingDuct,peritubular capillary endothelial cell,CL:1001033,True
+Kidney,UBERON:0002113,#FTUInnerMedullaryCollectingDuct,kidney inner medulla collecting duct principal cell,CL:1000718,False
+Kidney,UBERON:0002113,#FTUInnerMedullaryCollectingDuct,peritubular capillary endothelial cell,CL:1001033,True
+Kidney,UBERON:0002113,#FTUThickAscendingLimb,kidney loop of Henle thick ascending limb epithelial cell,CL:1001106,True
+Kidney,UBERON:0002113,#FTUThickAscendingLimb,peritubular capillary endothelial cell,CL:1001033,True
+Kidney,UBERON:0002113,#FTUDescendingThinLimb,kidney loop of Henle thin descending limb epithelial cell,CL:1001111,True
+Kidney,UBERON:0002113,#FTUDescendingThinLimb,vasa recta ascending limb cell,CL:1001131,True
+Kidney,UBERON:0002113,#FTUAscendingThinLimb,kidney loop of Henle thin ascending limb epithelial cell,CL:1001107,True
+Kidney,UBERON:0002113,#FTUAscendingThinLimb,vasa recta descending limb cell,CL:1001285,True
+Kidney,UBERON:0002113,#FTUNephron,kidney cortex collecting duct principal cell,CL:1000714,True
+Kidney,UBERON:0002113,#FTUNephron,epithelial cell of proximal tubule segment 1,CL:4030009,True
+Kidney,UBERON:0002113,#FTUNephron,kidney distal convoluted tubule epithelial cell,CL:1000849,True
+Kidney,UBERON:0002113,#FTUNephron,kidney connecting tubule epithelial cell,CL:1000768,True
+Kidney,UBERON:0002113,#FTUNephron,macula densa epithelial cell,CL:1000850,True
+Kidney,UBERON:0002113,#FTUNephron,kidney loop of Henle thick ascending limb epithelial cell,CL:1001106,True
+Kidney,UBERON:0002113,#FTUNephron,kidney loop of Henle thin ascending limb epithelial cell,CL:1001107,True
+Kidney,UBERON:0002113,#FTUNephron,kidney loop of Henle thin descending limb epithelial cell,CL:1001111,True
+Kidney,UBERON:0002113,#FTUNephron,kidney outer medulla collecting duct principal cell,CL:1000716,True
+Kidney,UBERON:0002113,#FTUNephron,kidney inner medulla collecting duct principal cell,CL:1000718,False
+Kidney,UBERON:0002113,#FTURenalCorpuscle,glomerular mesangial cell,CL:1000742,False
+Kidney,UBERON:0002113,#FTURenalCorpuscle,macula densa epithelial cell,CL:1000850,True
+Kidney,UBERON:0002113,#FTURenalCorpuscle,kidney granular cell,CL:0000648,True
+Kidney,UBERON:0002113,#FTURenalCorpuscle,podocyte,CL:0000653,True
+Kidney,UBERON:0002113,#FTURenalCorpuscle,epithelial cell of proximal tubule,CL:0002306,True
+Kidney,UBERON:0002113,#FTURenalCorpuscle,glomerular capillary endothelial cell,CL:1001005,True
+Kidney,UBERON:0002113,#FTURenalCorpuscle,efferent arteriole endothelial cell,CL:1001099,False
+Kidney,UBERON:0002113,#FTURenalCorpuscle,parietal epithelial cell,CL:1000452,True
+Kidney,UBERON:0002113,#FTURenalCorpuscle,afferent arteriole endothelial cell,CL:1001096,False
+Large Intestine,UBERON:0000059,#FTUCryptOfLieberkuhn,large intestine crypt goblet cell,CL:1000321,False
+Large Intestine,UBERON:0000059,#FTUCryptOfLieberkuhn,enterocyte of epithelium of large intestine,CL:0002071,True
+Large Intestine,UBERON:0000059,#FTUCryptOfLieberkuhn,neuroendocrine cell,CL:0000165,True
+Large Intestine,UBERON:0000059,#FTUCryptOfLieberkuhn,intestinal crypt stem cell of large intestine,CL:0009016,True
+Large Intestine,UBERON:0000059,#FTUCryptOfLieberkuhn,intestinal tuft cell,CL:0019032,True
+Liver,UBERON:0002107,#FTULiverLobule_Inset1,hepatic portal fibroblast,CL:0009100,True
+Liver,UBERON:0002107,#FTULiverLobule_Inset1,blood vessel smooth muscle cell,CL:0019018,False
+Liver,UBERON:0002107,#FTULiverLobule_Inset1,endothelial cell of artery,CL:1000413,True
+Liver,UBERON:0002107,#FTULiverLobule_Inset1,stratified cuboidal epithelial cell,CL:0000241,False
+Liver,UBERON:0002107,#FTULiverLobule_Inset1,columnar/cuboidal epithelial cell,CL:0000075,True
+Liver,UBERON:0002107,#FTULiverLobule_Inset1,vein endothelial cell,CL:0002543,True
+Liver,UBERON:0002107,#FTULiverLobule_Inset1,Hepatic oval stem cell,CL:0002196,False
+Liver,UBERON:0002107,#FTULiverLobule_Inset2,endothelial cell of hepatic sinusoid,CL:1000398,True
+Liver,UBERON:0002107,#FTULiverLobule_Inset2,hepatic stellate cell,CL:0000632,True
+Liver,UBERON:0002107,#FTULiverLobule_Inset2,Kupffer Cell,CL:0000091,False
+Liver,UBERON:0002107,#FTULiverLobule_Inset2,hepatocyte,CL:0000182,True
+Lung,UBERON:0002048,#FTUBronchialSubmucosalGland,airway submucosal gland duct multiciliated cell,CL:4033055,False
+Lung,UBERON:0002048,#FTUBronchialSubmucosalGland,airway submucosal gland duct basal cell,CL:4033024,True
+Lung,UBERON:0002048,#FTUBronchialSubmucosalGland,mucus secreting cell of bronchus submucosal gland,CL:4033022,True
+Lung,UBERON:0002048,#FTUBronchialSubmucosalGland,serous secreting cell of bronchus submucosal gland,CL:4033005,False
+Lung,UBERON:0002048,#FTUBronchialSubmucosalGland,airway submucosal gland collecting duct epithelial cell,CL:4033023,True
+Lung,UBERON:0002048,#FTUBronchialSubmucosalGland,myoepithelial cell of bronchus submucosal gland,CL:4033003,False
+Lung,UBERON:0002048,#FTUAlveoli,pulmonary alveolar type 2 cell,CL:0002063,True
+Lung,UBERON:0002048,#FTUAlveoli,lung pericyte,CL:0009089,True
+Lung,UBERON:0002048,#FTUAlveoli,pulmonary alveolar type 1 cell,CL:0002062,True
+Lung,UBERON:0002048,#FTUAlveoli,alveolar type 1 fibroblast cell,CL:4028004,True
+Lung,UBERON:0002048,#FTUAlveoli,secondary crest myofibroblast,CL:4033016,False
+Lung,UBERON:0002048,#FTUAlveoli,alveolar capillary type 1 endothelial cell,CL:4028002,True
+Mouth,UBERON:0000165,#FTUSublingualGland,macrophage,CL:0000235,True
+Mouth,UBERON:0000165,#FTUSublingualGland,mast cell,CL:0000097,True
+Mouth,UBERON:0000165,#FTUSublingualGland,endothelial cell,CL:0000115,True
+Mouth,UBERON:0000165,#FTUSublingualGland,intercalated cell of salivary gland,CL:4052048,False
+Mouth,UBERON:0000165,#FTUSublingualGland,ionocyte,CL:0005006,True
+Mouth,UBERON:0000165,#FTUSublingualGland,myoepithelial cell,CL:0000185,True
+Mouth,UBERON:0000165,#FTUSublingualGland,smooth muscle cell,CL:0000192,True
+Mouth,UBERON:0000165,#FTUSublingualGland,pericyte,CL:0000669,True
+Mouth,UBERON:0000165,#FTUSublingualGland,seromucous acinar cell of salivary gland,CL:4052067,False
+Mouth,UBERON:0000165,#FTUSublingualGland,dendritic cell,CL:0000451,True
+Mouth,UBERON:0000165,#FTUSublingualGland,helper T cell,CL:0000912,True
+Mouth,UBERON:0000165,#FTUSublingualGland,IgA plasma cell,CL:0000987,True
+Mouth,UBERON:0000165,#FTUParotidGland,macrophage,CL:0000235,True
+Mouth,UBERON:0000165,#FTUParotidGland,mast cell,CL:0000097,True
+Mouth,UBERON:0000165,#FTUParotidGland,endothelial cell,CL:0000115,True
+Mouth,UBERON:0000165,#FTUParotidGland,intercalated cell of salivary gland,CL:4052048,False
+Mouth,UBERON:0000165,#FTUParotidGland,ionocyte,CL:0005006,True
+Mouth,UBERON:0000165,#FTUParotidGland,myoepithelial cell,CL:0000185,True
+Mouth,UBERON:0000165,#FTUParotidGland,smooth muscle cell,CL:0000192,True
+Mouth,UBERON:0000165,#FTUParotidGland,pericyte,CL:0000669,True
+Mouth,UBERON:0000165,#FTUParotidGland,dendritic cell,CL:0000451,True
+Mouth,UBERON:0000165,#FTUParotidGland,helper T cell,CL:0000912,True
+Mouth,UBERON:0000165,#FTUParotidGland,IgA plasma cell,CL:0000987,True
+Mouth,UBERON:0000165,#FTUParotidGland,serous acinar cell of salivary gland,CL:4052065,False
+Mouth,UBERON:0000165,#FTUParotidGland,adipocyte,CL:0000136,True
+Mouth,UBERON:0000165,#FTUParotidGland,tuft cell,CL:0002204,True
+Mouth,UBERON:0000165,#FTUParotidGland,striated cell of salivary gland,CL:4052049,False
+Mouth,UBERON:0000165,#FTUSubmandibularGland,macrophage,CL:0000235,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,mast cell,CL:0000097,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,endothelial cell,CL:0000115,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,intercalated cell of salivary gland,CL:4052048,False
+Mouth,UBERON:0000165,#FTUSubmandibularGland,ionocyte,CL:0005006,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,myoepithelial cell,CL:0000185,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,smooth muscle cell,CL:0000192,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,pericyte,CL:0000669,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,seromucous acinar cell of salivary gland,CL:4052067,False
+Mouth,UBERON:0000165,#FTUSubmandibularGland,dendritic cell,CL:0000451,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,helper T cell,CL:0000912,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,IgA plasma cell,CL:0000987,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,tuft cell,CL:0002204,True
+Mouth,UBERON:0000165,#FTUSubmandibularGland,striated cell of salivary gland,CL:4052049,False
+Pancreas,UBERON:0001264,#FTUExocrinePancreas,epithelial cell of exocrine pancreas,CL:1001433,False
+Pancreas,UBERON:0001264,#FTUExocrinePancreas,pancreatic centro-acinar cell,CL:0002080,False
+Pancreas,UBERON:0001264,#FTUExocrinePancreas,pancreatic acinar cell,CL:0002064,True
+Pancreas,UBERON:0001264,#FTUExocrinePancreas,pancreatic goblet cell,CL:1000322,False
+Pancreas,UBERON:0001264,#FTUEndocrineGland,pancreatic A cell,CL:0000171,True
+Pancreas,UBERON:0001264,#FTUEndocrineGland,type B pancreatic cell,CL:0000169,True
+Pancreas,UBERON:0001264,#FTUEndocrineGland,pancreatic D cell,CL:0000173,True
+Pancreas,UBERON:0001264,#FTUEndocrineGland,pancreatic PP cell,CL:0002275,True
+Pancreas,UBERON:0001264,#FTUEndocrineGland,capillary endothelial cell,CL:0002144,True
+Pancreas,UBERON:0001264,#FTUEndocrineGland,macrophage,CL:0000235,True
+Pancreas,UBERON:0001264,#FTUIntercalatedDuct,epithelial cell of exocrine pancreas,CL:1001433,False
+Pancreas,UBERON:0001264,#FTUIntercalatedDuct,pancreatic centro-acinar cell,CL:0002080,False
+Pancreas,UBERON:0001264,#FTUAcinus,epithelial cell of exocrine pancreas,CL:1001433,False
+Pancreas,UBERON:0001264,#FTUAcinus,pancreatic acinar cell,CL:0002064,True
+Pancreas,UBERON:0001264,#FTUAcinus,pancreatic centro-acinar cell,CL:0002080,False
+Pancreas,UBERON:0001264,#FTUAcinus,pancreatic goblet cell,CL:1000322,False
+Placenta,UBERON:0001987,#FTUChorionicTerminalVillus,fibroblast of villous mesenchyme,CL:0002558,False
+Placenta,UBERON:0001987,#FTUChorionicTerminalVillus,placental villus capillary endothelial cell,CL:2000062,False
+Placenta,UBERON:0001987,#FTUChorionicTerminalVillus,Hofbauer cell,CL:3000001,True
+Placenta,UBERON:0001987,#FTUChorionicTerminalVillus,mononuclear cytotrophoblast cell,CL:0000523,False
+Placenta,UBERON:0001987,#FTUChorionicTerminalVillus,syncytiotrophoblast cell,CL:0000525,False
+Placenta,UBERON:0001987,#FTUChorionicTerminalVillus,pericyte,CL:0000669,True
+Prostate Gland,UBERON:0002367,#FTUProstateGlandularAcinus,fibroblast of subepithelial connective tissue of prostatic gland,CL:1000301,False
+Prostate Gland,UBERON:0002367,#FTUProstateGlandularAcinus,pericyte,CL:0000669,True
+Prostate Gland,UBERON:0002367,#FTUProstateGlandularAcinus,smooth muscle cell of prostate,CL:1000487,False
+Prostate Gland,UBERON:0002367,#FTUProstateGlandularAcinus,fibroblast of connective tissue of prostate,CL:1000299,False
+Prostate Gland,UBERON:0002367,#FTUProstateGlandularAcinus,prostate gland microvascular endothelial cell,CL:2000059,False
+Prostate Gland,UBERON:0002367,#FTUProstateGlandularAcinus,luminal cell of prostate epithelium,CL:0002340,True
+Prostate Gland,UBERON:0002367,#FTUProstateGlandularAcinus,basal cell of prostate epithelium,CL:0002341,True
+Prostate Gland,UBERON:0002367,#FTUProstateGlandularAcinus,vascular associated smooth muscle cell,CL:0000359,True
+Prostate Gland,UBERON:0002367,#FTUProstateGlandularAcinus,prostate neuroendocrine cell,CL:0017002,False
+Skin,UBERON:0002097,#FTUDermalPapilla,skin fibroblast,CL:0002620,False
+Skin,UBERON:0002097,#FTUDermalPapilla,endothelial cell,CL:0000115,True
+Skin,UBERON:0002097,#FTUEpidermalRidge,prickle cell,CL:0000649,True
+Skin,UBERON:0002097,#FTUEpidermalRidge,epidermal Langerhans cell,CL:0002457,True
+Skin,UBERON:0002097,#FTUEpidermalRidge,basal cell,CL:0000646,True
+Skin,UBERON:0002097,#FTUEpidermalRidge,Merkel cell,CL:0000242,True
+Skin,UBERON:0002097,#FTUEpidermalRidge,melanocyte of skin,CL:1000458,True
+Skin,UBERON:0002097,#FTUHairFollicle,myoepithelial cell of sweat gland,CL:1000417,False
+Skin,UBERON:0002097,#FTUHairFollicle,hair follicle melanocyte,CL:0002483,False
+Skin,UBERON:0002097,#FTUHairFollicle,keratinocyte stem cell,CL:0002337,False
+Skin,UBERON:0002097,#FTUHairFollicle,sebum secreting cell,CL:0000317,False
+Skin,UBERON:0002097,#FTUHairFollicle,hair germinal matrix cell,CL:0002562,False
+Small Intestine,UBERON:0002108,#FTUVillus,natural killer cell,CL:0000623,True
+Small Intestine,UBERON:0002108,#FTUVillus,fibroblast,CL:0000057,True
+Small Intestine,UBERON:0002108,#FTUVillus,tuft cell of small intestine,CL:0009080,True
+Small Intestine,UBERON:0002108,#FTUVillus,enterocyte,CL:0000584,True
+Small Intestine,UBERON:0002108,#FTUVillus,mast cell,CL:0000097,True
+Small Intestine,UBERON:0002108,#FTUVillus,duodenal goblet cell,CL:1000324,False
+Small Intestine,UBERON:0002108,#FTUVillus,myofibroblast,CL:0000186,True
+Small Intestine,UBERON:0002108,#FTUVillus,plasma cell,CL:0000786,True
+Small Intestine,UBERON:0002108,#FTUVillus,dendritic cell,CL:0000451,True
+Small Intestine,UBERON:0002108,#FTUVillus,B cell,CL:0000236,True
+Small Intestine,UBERON:0002108,#FTUVillus,eosinophil,CL:0000771,False
+Small Intestine,UBERON:0002108,#FTUVillus,neutrophil,CL:0000775,True
+Small Intestine,UBERON:0002108,#FTUVillus,macrophage,CL:0000235,True
+Small Intestine,UBERON:0002108,#FTUVillus,innate lymphoid cell,CL:0001065,True
+Small Intestine,UBERON:0002108,#FTUVillus,endocrine cell,CL:0000163,False
+Spleen,UBERON:0002106,#FTURedPulp_Inset2,follicular dendritic cell,CL:0000442,True
+Spleen,UBERON:0002106,#FTURedPulp_Inset2,plasmablast,CL:0000980,True
+Spleen,UBERON:0002106,#FTURedPulp_Inset1,neutrophil,CL:0000775,True
+Spleen,UBERON:0002106,#FTURedPulp_Inset2,splenic tingible body macrophage,CL:0000877,False
+Spleen,UBERON:0002106,#FTURedPulp_Inset2,splenic marginal zone macrophage,CL:0000872,False
+Spleen,UBERON:0002106,#FTURedPulp_Inset1,splenic red pulp macrophage,CL:0000874,False
+Spleen,UBERON:0002106,#FTURedPulp_Inset1,"dendritic cell, human",CL:0001056,True
+Spleen,UBERON:0002106,#FTURedPulp_Inset1,"CD14-positive, CD16-low monocyte",CL:0001055,False
+Spleen,UBERON:0002106,#FTURedPulp_Inset1,hematopoetic stem cell,CL:0000037,True
+Spleen,UBERON:0002106,#FTURedPulp_Inset1,B cell,CL:0000236,True
+Spleen,UBERON:0002106,#FTUWhitePulp_Inset2,"CD14-positive, CD16-low monocyte",CL:0001055,False
+Spleen,UBERON:0002106,#FTUWhitePulp_Inset2,follicular dendritic cell,CL:0000442,True
+Spleen,UBERON:0002106,#FTUWhitePulp_Inset2,plasmablast,CL:0000980,True
+Spleen,UBERON:0002106,#FTUWhitePulp_Inset2,neutrophil,CL:0000775,True
+Spleen,UBERON:0002106,#FTUWhitePulp_Inset2,splenic tingible body macrophage,CL:0000877,False
+Spleen,UBERON:0002106,#FTUWhitePulp_Inset2,splenic white pulp macrophage,CL:0000876,False
+Spleen,UBERON:0002106,#FTUWhitePulp_Inset1,smooth muscle cell,CL:0000192,True
+Spleen,UBERON:0002106,#FTUWhitePulp_Inset1,splenic white pulp macrophage,CL:0000876,False
+Spleen,UBERON:0002106,#FTUWhitePulp_Inset1,splenic endothelial cell,CL:2000053,False
+Spleen,UBERON:0002106,#FTUWhitePulp_Inset1,stromal cell,CL:0000499,True
+Spleen,UBERON:0002106,#FTUWhitePulp_Inset1,reticular cell of splenic cord,CL:1000489,False
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset1,"double-positive, alpha-beta thymocyte",CL:0000809,True
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset1,T cell,CL:0000084,True
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset1,thymic plasmacytoid dendritic cell,CL:0000942,False
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset1,blood vessel endothelial cell,CL:0000071,True
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset1,thymic cortical macrophage,CL:0000883,False
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset1,subcapsular thymic epithelial cell,CL:0009077,False
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset1,beige adipocyte,CL:0001070,False
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset1,cortical thymic epithelial cell,CL:0002364,True
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset2,medullary thymic epithelial cell type 3,CL:0009073,True
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset2,blood vessel endothelial cell,CL:0000071,True
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset2,corticomedullary thymic epithelial cell,CL:0009070,False
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset2,thymic plasmacytoid dendritic cell,CL:0000942,False
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset2,leukocyte,CL:0000738,True
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset2,medullary thymic epithelial cell type 1,CL:0009071,False
+Thymus,UBERON:0002370,#FTUThymusLobule_Inset2,naive B cell,CL:0000788,True
+Pancreas,UBERON:0001264,#FTUIsletOfLangerhans,pancreatic A cell,CL:0000171,True
+Pancreas,UBERON:0001264,#FTUIsletOfLangerhans,type B pancreatic cell,CL:0000169,True
+Pancreas,UBERON:0001264,#FTUIsletOfLangerhans,pancreatic D cell,CL:0000173,True
+Pancreas,UBERON:0001264,#FTUIsletOfLangerhans,pancreatic PP cell,CL:0002275,True
+Pancreas,UBERON:0001264,#FTUIsletOfLangerhans,capillary endothelial cell,CL:0002144,True
+Pancreas,UBERON:0001264,#FTUIsletOfLangerhans,macrophage,CL:0000235,True
