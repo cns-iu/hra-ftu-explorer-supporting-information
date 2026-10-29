@@ -12,12 +12,17 @@ kidney-renal-corpuscle,CL:0000653,podocyte,52756,295
 kidney-renal-corpuscle,CL:1001005,glomerular capillary endothelial,40404,363
 liver-liver-lobule,CL:0000182,hepatocytes,169071,59
 liver-liver-lobule,CL:1000398,endothelial cell of hepatic sinusoid,889,9
-pancreas-endocrine-pancreas,CL:0000169,beta,27757,22
-pancreas-endocrine-pancreas,CL:0000171,alpha,3508,20
-pancreas-endocrine-pancreas,CL:0002275,gamma,1412,12
-pancreas-endocrine-pancreas,CL:0000173,delta,1352,14
+mouth-parotid-gland,CL:0000235,macrophage,561,2
+mouth-parotid-gland,CL:0000451,dendritic cell,118,2
+mouth-submandibular-gland,CL:0000235,macrophage,131,2
+mouth-submandibular-gland,CL:0000451,dendritic cell,48,2
+pancreas-islets-langerhans,CL:0000169,beta,27757,22
+pancreas-islets-langerhans,CL:0000171,alpha,3508,20
+pancreas-islets-langerhans,CL:0002275,gamma,1412,12
+pancreas-islets-langerhans,CL:0000173,delta,1352,14
 pancreas-pancreatic-acinus,CL:0002064,acinar,20978,18
 prostate-prostate-glandular-acinus,CL:0002341,basal cell of prostate epithelium,44425,39
 prostate-prostate-glandular-acinus,CL:0002340,luminal cell of prostate epithelium,24585,37
+skin-dermal-papilla,CL:0000115,endothelial cell,114,5
 skin-epidermal-ridge,CL:1000458,melanocyte,13651,50
 spleen-red-pulp,CL:0000037,hematopoietic stem cell,5814,32

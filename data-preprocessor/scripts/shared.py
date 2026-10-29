@@ -159,7 +159,7 @@ CELL_SUMMARY_SOURCES = [
         "intermediary": ORAL_CAVITY_FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME,
         "filtered_dataset_metadata": ORAL_CAVITY_FILTERED_DATASET_METADATA_FILENAME,
         # The metadata CSV has no health/disease column
-        "health_status": "TBD",
+        "health_status": "Healthy",
         # Only the authors' cell type annotations are used, never pan-human Azimuth's. Sources without this key
         # use every annotation method (one per dataset, by ANNOTATION_METHOD_PREFERENCE)
         "annotation_methods": ["author"],

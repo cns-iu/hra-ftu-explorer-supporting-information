@@ -1,6 +1,6 @@
 ftu,organ_label,cell_types_illustration,cell_types_asctb,cell_types_exclusive
 liver-liver-lobule,Liver,11,11,9
-pancreas-endocrine-pancreas,Pancreas,7,6,5
+pancreas-islets-langerhans,Pancreas,7,6,5
 pancreas-pancreatic-acinus,Pancreas,4,3,3
 pancreas-intercalated-duct,Pancreas,2,1,0
 small-intestine-villus,Small Intestine,15,15,1
@@ -15,13 +15,13 @@ kidney-inner-medullary-collecting-duct,kidney,2,1,1
 large-intestine-crypt-lieberkuhn,large intestine,5,5,0
 lung-pulmonary-alveolus,lung,6,5,0
 lung-bronchial-submucosal-gland,lung,6,6,0
-mouth-submandibular-gland,mouth,14,0,0
-mouth-parotid-gland,mouth,15,0,0
-mouth-sublingual-gland,mouth,12,0,0
+mouth-submandibular-gland,mouth,14,11,11
+mouth-parotid-gland,mouth,15,12,12
+mouth-sublingual-gland,mouth,12,10,10
 placenta-chorionic-terminal-villus,placenta,6,6,6
 prostate-prostate-glandular-acinus,prostate gland,9,7,7
-skin-dermal-papilla,skin,2,0,0
-skin-hair-follicle,skin,5,4,4
+skin-dermal-papilla,skin,2,2,2
+skin-hair-follicle,skin,5,5,5
 skin-epidermal-ridge,skin,5,5,3
 spleen-red-pulp,spleen,10,6,5
 spleen-white-pulp,spleen,10,8,2

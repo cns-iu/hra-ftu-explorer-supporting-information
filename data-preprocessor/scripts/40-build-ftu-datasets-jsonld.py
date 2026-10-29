@@ -19,7 +19,7 @@ ANNOTATION_TOOL_LABELS = {
     "popv": "popV",
     # Only in the anatomogram data
     "pan-human-azimuth": "Pan-Human Azimuth",
-    "author": "Author annotation",
+    "author": "Authors",
     "frmatch": "FR-Match",
 }
 

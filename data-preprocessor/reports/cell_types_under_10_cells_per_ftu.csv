@@ -587,22 +587,23 @@ liver-liver-lobule,CL:0000182,hepatocytes,7,https://api.cellxgene.cziscience.com
 liver-liver-lobule,CL:0000182,hepatocytes,7,https://api.cellxgene.cziscience.com/dp/v1/collections/793fdaec-5067-428a-a9db-ecefe135c945#RBG33507_F90_F103_F107$liver,celltypist,True
 liver-liver-lobule,CL:1000398,endothelial cell of hepatic sinusoid,8,https://api.cellxgene.cziscience.com/dp/v1/collections/74e10dc4-cbb2-4605-a189-8a1cd8e44d8c#H14$liver,popv,True
 liver-liver-lobule,CL:1000398,endothelial cell of hepatic sinusoid,8,https://api.cellxgene.cziscience.com/dp/v1/collections/edb893ee-4066-4128-9aec-5eb2b03f8287#Maynard_Bivona_2020_TH067$liver,popv,True
-pancreas-endocrine-pancreas,CL:0000173,delta,2,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor44$pancreas,azimuth,False
-pancreas-endocrine-pancreas,CL:0000173,delta,3,https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP1$exocrine%20pancreas,azimuth,False
-pancreas-endocrine-pancreas,CL:0000173,delta,5,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D3,azimuth,False
-pancreas-endocrine-pancreas,CL:0000173,delta,6,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2,azimuth,False
-pancreas-endocrine-pancreas,CL:0000173,delta,7,https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D28$pancreas,azimuth,False
-pancreas-endocrine-pancreas,CL:0000173,delta,8,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4,azimuth,False
-pancreas-endocrine-pancreas,CL:0002275,gamma,4,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H5,azimuth,False
-pancreas-endocrine-pancreas,CL:0002275,gamma,5,https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D30$pancreas,azimuth,False
-pancreas-endocrine-pancreas,CL:0002275,gamma,5,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4,azimuth,False
-pancreas-endocrine-pancreas,CL:0002275,gamma,6,https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27948$pancreas,azimuth,False
-pancreas-endocrine-pancreas,CL:0002275,gamma,7,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2,azimuth,False
-pancreas-endocrine-pancreas,CL:0002275,gamma,9,https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D28$pancreas,azimuth,False
+pancreas-islets-langerhans,CL:0000173,delta,2,https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor44$pancreas,azimuth,False
+pancreas-islets-langerhans,CL:0000173,delta,3,https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP1$exocrine%20pancreas,azimuth,False
+pancreas-islets-langerhans,CL:0000173,delta,5,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D3,azimuth,False
+pancreas-islets-langerhans,CL:0000173,delta,6,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2,azimuth,False
+pancreas-islets-langerhans,CL:0000173,delta,7,https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D28$pancreas,azimuth,False
+pancreas-islets-langerhans,CL:0000173,delta,8,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4,azimuth,False
+pancreas-islets-langerhans,CL:0002275,gamma,4,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H5,azimuth,False
+pancreas-islets-langerhans,CL:0002275,gamma,5,https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D30$pancreas,azimuth,False
+pancreas-islets-langerhans,CL:0002275,gamma,5,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4,azimuth,False
+pancreas-islets-langerhans,CL:0002275,gamma,6,https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27948$pancreas,azimuth,False
+pancreas-islets-langerhans,CL:0002275,gamma,7,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2,azimuth,False
+pancreas-islets-langerhans,CL:0002275,gamma,9,https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D28$pancreas,azimuth,False
 pancreas-pancreatic-acinus,CL:0002064,acinar,5,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4,azimuth,True
 pancreas-pancreatic-acinus,CL:0002064,acinar,6,https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D29$pancreas,azimuth,True
 prostate-prostate-glandular-acinus,CL:0002340,luminal cell of prostate epithelium,3,https://api.cellxgene.cziscience.com/dp/v1/collections/fbc5881f-1ee3-4ffe-8095-35e15e1a08fc#D27$transition%20zone%20of%20prostate,popv,False
 prostate-prostate-glandular-acinus,CL:0002340,luminal cell of prostate epithelium,7,https://api.cellxgene.cziscience.com/dp/v1/collections/4b54248f-2165-477c-a027-dd55082e8818#D27$transition%20zone%20of%20prostate,popv,False
+skin-dermal-papilla,CL:0000115,endothelial cell,6,https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_temple_A$skin%20of%20temple,popv,True
 skin-epidermal-ridge,CL:1000458,melanocyte,4,https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_temple_B$skin%20of%20temple,celltypist,True
 skin-epidermal-ridge,CL:1000458,melanocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#body_back_A$skin%20of%20back,celltypist,True
 skin-epidermal-ridge,CL:1000458,melanocyte,5,https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_forehead_A$skin%20of%20forehead,celltypist,True
