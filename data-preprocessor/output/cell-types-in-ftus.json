@@ -259,7 +259,7 @@
     "organ_label": "Liver"
   },
   "islet of Langerhans": {
-    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas",
+    "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans",
     "cts_in_2d_ftu": [
       {
         "ct_label": "type B pancreatic cell",
@@ -1202,8 +1202,98 @@
         "ct_iri": "CL:4052067"
       }
     ],
-    "cts_in_asctb": [],
-    "cts_exclusive": [],
+    "cts_in_asctb": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "helper T cell",
+        "ct_iri": "CL:0000912"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      },
+      {
+        "ct_label": "striated cell of salivary gland",
+        "ct_iri": "CL:4052049"
+      },
+      {
+        "ct_label": "seromucous acinar cell of salivary gland",
+        "ct_iri": "CL:4052067"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "helper T cell",
+        "ct_iri": "CL:0000912"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      },
+      {
+        "ct_label": "striated cell of salivary gland",
+        "ct_iri": "CL:4052049"
+      },
+      {
+        "ct_label": "seromucous acinar cell of salivary gland",
+        "ct_iri": "CL:4052067"
+      }
+    ],
     "organ_id_short": "UBERON:0000165",
     "organ_label": "mouth"
   },
@@ -1271,8 +1361,106 @@
         "ct_iri": "CL:4052065"
       }
     ],
-    "cts_in_asctb": [],
-    "cts_exclusive": [],
+    "cts_in_asctb": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "adipocyte",
+        "ct_iri": "CL:0000136"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "helper T cell",
+        "ct_iri": "CL:0000912"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      },
+      {
+        "ct_label": "striated cell of salivary gland",
+        "ct_iri": "CL:4052049"
+      },
+      {
+        "ct_label": "serous acinar cell of salivary gland",
+        "ct_iri": "CL:4052065"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "adipocyte",
+        "ct_iri": "CL:0000136"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "helper T cell",
+        "ct_iri": "CL:0000912"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      },
+      {
+        "ct_label": "striated cell of salivary gland",
+        "ct_iri": "CL:4052049"
+      },
+      {
+        "ct_label": "serous acinar cell of salivary gland",
+        "ct_iri": "CL:4052065"
+      }
+    ],
     "organ_id_short": "UBERON:0000165",
     "organ_label": "mouth"
   },
@@ -1328,8 +1516,90 @@
         "ct_iri": "CL:4052067"
       }
     ],
-    "cts_in_asctb": [],
-    "cts_exclusive": [],
+    "cts_in_asctb": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "helper T cell",
+        "ct_iri": "CL:0000912"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      },
+      {
+        "ct_label": "seromucous acinar cell of salivary gland",
+        "ct_iri": "CL:4052067"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "mast cell",
+        "ct_iri": "CL:0000097"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "smooth muscle cell",
+        "ct_iri": "CL:0000192"
+      },
+      {
+        "ct_label": "macrophage",
+        "ct_iri": "CL:0000235"
+      },
+      {
+        "ct_label": "dendritic cell",
+        "ct_iri": "CL:0000451"
+      },
+      {
+        "ct_label": "pericyte",
+        "ct_iri": "CL:0000669"
+      },
+      {
+        "ct_label": "helper T cell",
+        "ct_iri": "CL:0000912"
+      },
+      {
+        "ct_label": "IgA plasma cell",
+        "ct_iri": "CL:0000987"
+      },
+      {
+        "ct_label": "intercalated cell of salivary gland",
+        "ct_iri": "CL:4052048"
+      },
+      {
+        "ct_label": "seromucous acinar cell of salivary gland",
+        "ct_iri": "CL:4052067"
+      }
+    ],
     "organ_id_short": "UBERON:0000165",
     "organ_label": "mouth"
   },
@@ -1539,8 +1809,42 @@
         "ct_iri": "CL:0002620"
       }
     ],
-    "cts_in_asctb": [],
-    "cts_exclusive": [],
+    "cts_in_asctb": [
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "skin fibroblast",
+        "ct_iri": "CL:0002620"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "skin fibroblast",
+        "ct_iri": "CL:0002620"
+      }
+    ],
+    "cts_exclusive": [
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "skin fibroblast",
+        "ct_iri": "CL:0002620"
+      },
+      {
+        "ct_label": "endothelial cell",
+        "ct_iri": "CL:0000115"
+      },
+      {
+        "ct_label": "skin fibroblast",
+        "ct_iri": "CL:0002620"
+      }
+    ],
     "organ_id_short": "UBERON:0002097",
     "organ_label": "skin"
   },
@@ -1606,6 +1910,10 @@
         "ct_iri": "CL:0002562"
       },
       {
+        "ct_label": "myoepithelial cell of sweat gland",
+        "ct_iri": "CL:1000417"
+      },
+      {
         "ct_label": "sebocyte",
         "ct_iri": "CL:0000317"
       },
@@ -1620,6 +1928,10 @@
       {
         "ct_label": "hair germinal matrix cell",
         "ct_iri": "CL:0002562"
+      },
+      {
+        "ct_label": "myoepithelial cell of sweat gland",
+        "ct_iri": "CL:1000417"
       }
     ],
     "cts_exclusive": [
@@ -1640,6 +1952,10 @@
         "ct_iri": "CL:0002562"
       },
       {
+        "ct_label": "myoepithelial cell of sweat gland",
+        "ct_iri": "CL:1000417"
+      },
+      {
         "ct_label": "sebocyte",
         "ct_iri": "CL:0000317"
       },
@@ -1654,6 +1970,10 @@
       {
         "ct_label": "hair germinal matrix cell",
         "ct_iri": "CL:0002562"
+      },
+      {
+        "ct_label": "myoepithelial cell of sweat gland",
+        "ct_iri": "CL:1000417"
       }
     ],
     "organ_id_short": "UBERON:0002097",

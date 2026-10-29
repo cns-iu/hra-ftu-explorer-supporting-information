@@ -26,8 +26,6 @@ ANNOTATION_TOOL_LABELS = {
 # Required (non-optional) strings in hra-ui's RAW_DATASETS schema
 REQUIRED_STRING_FIELDS = {"label", "link", "description"}
 
-MISSING_VALUES = {"", "unknown", "nan", "none", "not reported", "na"}
-
 # Donor columns that show a placeholder in the table instead of an empty cell
 # (age and bmi as strings need hubmapconsortium/hra-ui#2334 and #2335)
 UNKNOWN_WHEN_MISSING = {"sex", "age", "bmi", "ethnicity"}

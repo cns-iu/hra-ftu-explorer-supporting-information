@@ -114,6 +114,24 @@ ANATOMOGRAM_FILTERED_DATASET_METADATA_FILENAME = (
 )
 ANATOMOGRAM_DATASETS_OF_INTEREST = OUTPUT_DIR / config["ANATOMOGRAM_DATASETS_OF_INTEREST"]
 
+# Oral cavity (CellxGene Human Oral and Craniofacial Cell Atlas) inputs, committed at the repo root
+ORAL_CAVITY_DATA_DIR = REPO_ROOT / config["ORAL_CAVITY_DATA_DIR"]
+ORAL_CAVITY_CELL_SUMMARIES_FILENAME = (
+    ORAL_CAVITY_DATA_DIR / config["ORAL_CAVITY_CELL_SUMMARIES_FILENAME"]
+)
+ORAL_CAVITY_DATASET_METADATA_FILENAME = (
+    ORAL_CAVITY_DATA_DIR / config["ORAL_CAVITY_DATASET_METADATA_FILENAME"]
+)
+ORAL_CAVITY_FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME = (
+    RAW_DATA_DIR
+    / config["ORAL_CAVITY_FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME"]
+)
+ORAL_CAVITY_FILTERED_DATASET_METADATA_FILENAME = (
+    OUTPUT_DIR / config["ORAL_CAVITY_FILTERED_DATASET_METADATA_FILENAME"]
+)
+ORAL_CAVITY_DATASETS_OF_INTEREST = OUTPUT_DIR / config["ORAL_CAVITY_DATASETS_OF_INTEREST"]
+ORAL_CAVITY_TISSUE_TO_FTU = config["ORAL_CAVITY_TISSUE_TO_FTU"]
+
 # Every source of cell type populations that 40/41 combine into the FTU Explorer JSON-LD files.
 # Each one is filtered to FTU-exclusive cell types by its own preprocessing stage (20, 25, ...).
 CELL_SUMMARY_SOURCES = [
@@ -134,6 +152,17 @@ CELL_SUMMARY_SOURCES = [
         "health_status": "TBD",
         # Per-dataset donor_disease, used instead of health_status where the file has the dataset
         "health_status_by_dataset": ANATOMOGRAM_HEALTH_STATUS_FILENAME,
+    },
+    {
+        "name": "Oral cavity",
+        "dataset_metadata": ORAL_CAVITY_DATASET_METADATA_FILENAME,
+        "intermediary": ORAL_CAVITY_FILTERED_FTU_CELL_TYPE_POPULATIONS_INTERMEDIARY_FILENAME,
+        "filtered_dataset_metadata": ORAL_CAVITY_FILTERED_DATASET_METADATA_FILENAME,
+        # The metadata CSV has no health/disease column
+        "health_status": "TBD",
+        # Only the authors' cell type annotations are used, never pan-human Azimuth's. Sources without this key
+        # use every annotation method (one per dataset, by ANNOTATION_METHOD_PREFERENCE)
+        "annotation_methods": ["author"],
     },
 ]
 
@@ -624,11 +653,15 @@ def is_excluded_dataset(dataset_id: str) -> bool:
 
 def iterate_filtered_cell_summaries():
     """Yields the FTU-filtered cell type populations of every source in CELL_SUMMARY_SOURCES,
-    minus excluded datasets (see is_excluded_dataset)"""
+    minus excluded datasets (see is_excluded_dataset) and annotation methods the source doesn't allow"""
     for source in CELL_SUMMARY_SOURCES:
+        allowed_methods = source.get("annotation_methods")
         for obj in iterate_through_json_lines(source["intermediary"]):
-            if not is_excluded_dataset(obj["cell_source"]):
-                yield obj
+            if is_excluded_dataset(obj["cell_source"]):
+                continue
+            if allowed_methods and obj["annotation_method"] not in allowed_methods:
+                continue
+            yield obj
 
 
 def load_exclusive_cts_by_ftu() -> dict[str, set[str]]:
@@ -690,9 +723,18 @@ def load_health_status_by_dataset(source: dict) -> dict:
     }
 
 
+# Metadata values that count as missing (compared lowercased and stripped)
+MISSING_VALUES = {"", "unknown", "nan", "none", "not reported", "na"}
+
+
 def load_dataset_metadata() -> pd.DataFrame:
-    """Dataset metadata CSVs (all share the HRApop column layout), concatenated across CELL_SUMMARY_SOURCES,
-    with a health_status column: the dataset's entry in health_status_by_dataset, else the source's health_status
+    """Dataset metadata CSVs (all share the HRApop column layout), merged across CELL_SUMMARY_SOURCES into one row
+    per dataset_id, with a health_status column: the dataset's entry in health_status_by_dataset, else the
+    source's health_status.
+
+    A dataset can be in more than one source's CSV, e.g., the oral cavity datasets are also in HRApop's (without
+    an organ, so HRApop never contributes their cells). Its row then comes from the source whose cells are used
+    (its filtered_dataset_metadata has the dataset), and missing values in that row are filled from the others.
     """
     frames = []
     for source in CELL_SUMMARY_SOURCES:
@@ -701,8 +743,22 @@ def load_dataset_metadata() -> pd.DataFrame:
         metadata["health_status"] = metadata["dataset_id"].map(
             lambda dataset_id: health_status_by_dataset.get(dataset_id, source["health_status"])
         )
+        with open(source["filtered_dataset_metadata"], "r", encoding="utf-8") as f:
+            metadata["contributes_cells"] = metadata["dataset_id"].isin(json.load(f))
         frames.append(metadata)
-    return pd.concat(frames, ignore_index=True)
+    metadata = pd.concat(frames, ignore_index=True)
+
+    # Rows of the source that contributes the cells first, then first non-missing value per column
+    metadata = metadata.sort_values("contributes_cells", ascending=False, kind="stable")
+    is_missing = metadata.apply(
+        lambda column: column.astype(str).str.strip().str.lower().isin(MISSING_VALUES)
+    )
+    metadata = metadata.mask(is_missing)
+    return (
+        metadata.groupby("dataset_id", sort=False, as_index=False)
+        .first()
+        .drop(columns="contributes_cells")
+    )
 
 
 def get_organ_from_dataset_metadata(
