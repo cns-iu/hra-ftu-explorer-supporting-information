@@ -4,11 +4,11 @@ from pprint import pprint
 import anndata as ad
 import pandas as pd
 
-# Helpers/config shared with data-preprocessor/ and analysis/, kept at the repo root
+# Helpers/config shared with data-preprocessor/ and analysis/general-analysis/, kept at the repo root
 ORAL_CAVITY_DIR = Path(
     __file__
-).parent.parent  # this file is in oral-cavity-data/scripts/
-REPO_ROOT = ORAL_CAVITY_DIR.parent
+).parent.parent  # this file is in analysis/oral-cavity-data-analysis/scripts/
+REPO_ROOT = ORAL_CAVITY_DIR.parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 from shared_common import *  # noqa: E402,F403

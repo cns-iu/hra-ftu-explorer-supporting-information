@@ -29,15 +29,15 @@ There is no lint/test suite in this repo currently.
 
 ## Architecture
 
-### `shared_common.py` — repo root, shared by both `data-preprocessor/` and `analysis/`
+### `shared_common.py` — repo root, shared by both `data-preprocessor/` and `analysis/general-analysis/`
 
-Deliberately kept free of heavy/optional dependencies (no `scanpy`/`anndata`/`matplotlib`/`upsetplot`) so it's safe to import from the lightweight `analysis/` venv as well as the full pipeline venv. Both `data-preprocessor/scripts/shared.py` and `analysis/shared.py` add the repo root to `sys.path` and `from shared_common import ...` rather than defining their own copies — do the same for any new helper both sides would otherwise duplicate. It holds:
+Deliberately kept free of heavy/optional dependencies (no `scanpy`/`anndata`/`matplotlib`/`upsetplot`) so it's safe to import from the lightweight `analysis/general-analysis/` venv as well as the full pipeline venv. Both `data-preprocessor/scripts/shared.py` and `analysis/general-analysis/shared.py` add the repo root to `sys.path` and `from shared_common import ...` rather than defining their own copies — do the same for any new helper both sides would otherwise duplicate. It holds:
 - Loading `config.yaml` (repo root) into `config` — the single source of truth for every input/output filename and the FTU-exclusivity SPARQL query URL. Add new filenames there, not as string literals in a script.
   - `HRA_POP_VERSION` must be `v1.1` (not `v1.0`). Build every HRApop URL (`input-data/<version>/…`, `output-data/<version>/reports/…`) from `config['HRA_POP_BRANCH']`/`config['HRA_POP_VERSION']` rather than hardcoding a version. `ftu2-pseudo-code.md` still has outdated v1.0 links; don't copy them.
-- `ANNOTATION_METHOD_PREFERENCE` / `method_rank`: the single order (azimuth, celltypist, popv, fr-match, pan-human-azimuth, author) for picking one annotation tool per dataset so cells are never counted twice. Both the pipeline (40/41) and `analysis/cell_types_and_datasets_per_ftu.py` use it.
+- `ANNOTATION_METHOD_PREFERENCE` / `method_rank`: the single order (azimuth, celltypist, popv, fr-match, pan-human-azimuth, author) for picking one annotation tool per dataset so cells are never counted twice. Both the pipeline (40/41) and `analysis/general-analysis/cell_types_and_datasets_per_ftu.py` use it.
 - `load_json` and `iterate_through_json_lines` (JSONL reader; transparently handles gzipped `.jsonl.gz`, and intentionally does not pre-count lines before iterating — some inputs are tens of GB gzipped, so a full decompress-to-count pass before the real read would double the work).
 
-Before this existed, both `shared.py` files had their own copy of `iterate_through_json_lines`, which drifted (only `analysis/`'s handled gzip and skipped the line pre-count) — don't reintroduce that by re-duplicating a function here instead of importing it.
+Before this existed, both `shared.py` files had their own copy of `iterate_through_json_lines`, which drifted (only the analysis scripts' copy handled gzip and skipped the line pre-count) — don't reintroduce that by re-duplicating a function here instead of importing it.
 
 ### `data-preprocessor/` — the active pipeline
 
@@ -60,7 +60,7 @@ There is no `30-*` or `60-*` script — `data-preprocessor/ftu2-pseudo-code.md` 
 ### More guidance in nested CLAUDE.md files
 
 - `data-preprocessor/CLAUDE.md`: the output JSON-LD contract hra-ui expects, the minimum-cells rule, and duplicate-dataset exclusions.
-- `analysis/CLAUDE.md`: setup and conventions for the standalone paper-analysis scripts.
+- `analysis/general-analysis/CLAUDE.md`: setup and conventions for the standalone paper-analysis scripts.
 
 ## Domain notes worth knowing before editing the pipeline
 

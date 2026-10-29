@@ -1,11 +1,11 @@
-# `analysis`
+# `analysis/general-analysis`
 
 Standalone scripts that compute counts and tables for the FTU2 paper. Unlike `data-preprocessor/`, this is not a pipeline that runs in order: you run each script on its own, when you need it.
 
 ## Setup
 
 ```bash
-cd analysis
+cd analysis/general-analysis
 python setup_env.py        # creates .venv and installs requirements.txt (doesn't run any script)
 source .venv/bin/activate  # on Windows: .venv\Scripts\activate
 python <script>.py
@@ -14,8 +14,8 @@ deactivate
 
 ### Inputs
 
-- `../data-preprocessor/raw-data/sc-transcriptomics-cell-summaries.top10k.jsonl.gz`: the HRApop universe cell summaries. This file isn't committed, so put it there by hand. The scripts here only read from `data-preprocessor/` and never write to it.
-- These are downloaded at run time. Their URLs are built from `HRA_POP_BRANCH` / `HRA_POP_VERSION` (currently `v1.1`) in `../config.yaml`:
+- `../../data-preprocessor/raw-data/sc-transcriptomics-cell-summaries.top10k.jsonl.gz`: the HRApop universe cell summaries. This file isn't committed, so put it there by hand. The scripts here only read from `data-preprocessor/` and never write to it.
+- These are downloaded at run time. Their URLs are built from `HRA_POP_BRANCH` / `HRA_POP_VERSION` (currently `v1.1`) in `../../config.yaml`:
   - `FTU_QUERY`: CTs per FTU illustration and ASCT+B table, with an FTU-exclusivity flag
   - `UNIVERSE_METADATA_URL`: HRApop universe dataset metadata (`dataset_id` → organ)
   - `UNIVERSE_SANKEY_URL`: HRApop `universe-ad-hoc/sankey.csv` report (`dataset_id` → paper DOI)
@@ -53,6 +53,6 @@ Outputs (in `output/`):
 
 - Give it a descriptive name, with no numeric prefix.
 - Start it with `from shared import *` to get `config`, the path/URL constants, `iterate_through_json_lines`, `save_df` and `save_json`.
-- Add new filenames and URLs to `../config.yaml` rather than writing them into the script.
+- Add new filenames and URLs to `../../config.yaml` rather than writing them into the script.
 - Save results to `output/` (committed, for reproducibility).
 - Add new dependencies to `requirements.txt`.

@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 from copy import deepcopy
 from colorama import Fore, Style, init
 
-# Helpers/config shared with analysis/shared.py, kept dependency-light at the repo root
+# Helpers/config shared with analysis/general-analysis/shared.py, kept dependency-light at the repo root
 REPO_ROOT = Path(__file__).parent.parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
@@ -667,7 +667,7 @@ def iterate_filtered_cell_summaries():
 def load_exclusive_cts_by_ftu() -> dict[str, set[str]]:
     """ftu_purl -> CURIEs of the CTs exclusive to that FTU (exclusive_ct_in_ftu in FTU_QUERY).
     A CT exclusive to several FTUs of one organ (e.g., the nephron and a loop of Henle inside it)
-    counts for each of them, as in analysis/cell_types_and_datasets_per_ftu.py"""
+    counts for each of them, as in analysis/general-analysis/cell_types_and_datasets_per_ftu.py"""
     with open(CELL_TYPES_IN_FTUS, "r", encoding="utf-8") as f:
         cell_types_in_ftus = json.load(f)
     return {
