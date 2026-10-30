@@ -288,6 +288,48 @@ def report_cells_per_cell_type_per_ftu(cell_counts: pd.DataFrame):
     print(f"File successfully saved to {REPORTS_DIR}")
 
 
+def report_totals_per_ftu(cell_counts: pd.DataFrame):
+    """Saves a CSV with one row per FTU and a total row: the number of datasets, their full cell count
+    (cells_in_datasets) and the cells 41 writes for them (cells_in_ftu_explorer, see
+    load_ftu_explorer_cell_counts), overall and per source in CELL_SUMMARY_SOURCES. A dataset can be in
+    several FTUs and a CT exclusive to several FTUs (e.g., the nephron and a loop of Henle inside it), so
+    the total row counts each dataset and each dataset's CT once and is less than the sum of the FTU rows"""
+
+    # A dataset can be in several sources' metadata CSVs, but only one source contributes its cells
+    source_by_dataset = {}
+    for source in CELL_SUMMARY_SOURCES:
+        with open(source["filtered_dataset_metadata"], "r", encoding="utf-8") as f:
+            for dataset_id in json.load(f):
+                source_by_dataset.setdefault(dataset_id, source["name"])
+
+    metadata = load_dataset_metadata()[["dataset_id", "dataset_cell_count"]]
+    df = cell_counts.merge(metadata, on="dataset_id", how="left")
+    df["dataset_cell_count"] = pd.to_numeric(df["dataset_cell_count"], errors="coerce")
+    df["source"] = df["dataset_id"].map(source_by_dataset)
+
+    def totals(df, suffix=""):
+        return {
+            f"datasets{suffix}": df["dataset_id"].nunique(),
+            f"cells_in_datasets{suffix}": int(df.drop_duplicates("dataset_id")["dataset_cell_count"].sum()),
+            f"cells_in_ftu_explorer{suffix}": int(df.drop_duplicates(["dataset_id", "cell_id"])["count"].sum()),
+        }
+
+    def row(ftu, df):
+        result = {"ftu": ftu, **totals(df)}
+        for source in CELL_SUMMARY_SOURCES:
+            suffix = "_" + source["name"].lower().replace(" ", "_")
+            result.update(totals(df[df["source"] == source["name"]], suffix))
+        return result
+
+    report = pd.DataFrame(
+        [row(ftu, group) for ftu, group in df.groupby("ftu")] + [row("Total", df)]
+    )
+    print(report.to_string(index=False))
+
+    report.to_csv(f"{REPORTS_DIR}/ftu_explorer_totals_per_ftu.csv", index=False)
+    print(f"File successfully saved to {REPORTS_DIR}")
+
+
 def main():
     # Driver code
 
@@ -301,6 +343,7 @@ def main():
     report_small_datasets(cell_counts)
     report_rare_cell_types_per_ftu(cell_counts)
     report_cells_per_cell_type_per_ftu(cell_counts)
+    report_totals_per_ftu(cell_counts)
 
 
 if __name__ == "__main__":

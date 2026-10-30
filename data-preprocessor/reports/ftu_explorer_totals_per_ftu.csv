@@ -1,0 +1,16 @@
+ftu,datasets,cells_in_datasets,cells_in_ftu_explorer,datasets_hrapop,cells_in_datasets_hrapop,cells_in_ftu_explorer_hrapop,datasets_anatomogram,cells_in_datasets_anatomogram,cells_in_ftu_explorer_anatomogram,datasets_oral_cavity,cells_in_datasets_oral_cavity,cells_in_ftu_explorer_oral_cavity
+kidney-ascending-thin-loop-of-henle,233,5343226,259223,232,5336122,259154,1,7104,69,0,0,0
+kidney-inner-medullary-collecting-duct,382,6078345,683741,382,6078345,683741,0,0,0,0,0,0
+kidney-nephron,539,6557629,1232219,534,6527040,1222148,5,30589,10071,0,0,0
+kidney-outer-medullary-collecting-duct,282,5616139,87834,280,5602427,87767,2,13712,67,0,0,0
+kidney-renal-corpuscle,436,6101143,163319,431,6070554,161750,5,30589,1569,0,0,0
+liver-liver-lobule,68,679734,169960,62,662611,168059,6,17123,1901,0,0,0
+mouth-parotid-gland,2,4539,679,0,0,0,0,0,0,2,4539,679
+mouth-submandibular-gland,2,14159,179,0,0,0,0,0,0,2,14159,179
+pancreas-islets-langerhans,22,91966,34029,13,89130,32021,9,2836,2008,0,0,0
+pancreas-pancreatic-acinus,18,82750,20978,12,80800,20753,6,1950,225,0,0,0
+prostate-prostate-glandular-acinus,39,224231,69010,39,224231,69010,0,0,0,0,0,0
+skin-dermal-papilla,5,24960,114,5,24960,114,0,0,0,0,0,0
+skin-epidermal-ridge,50,481954,13651,50,481954,13651,0,0,0,0,0,0
+spleen-red-pulp,32,433380,5814,32,433380,5814,0,0,0,0,0,0
+Total,781,8575996,2481527,757,8506750,2464828,20,50548,15841,4,18698,858
