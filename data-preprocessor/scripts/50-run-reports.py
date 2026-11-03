@@ -289,11 +289,13 @@ def report_cells_per_cell_type_per_ftu(cell_counts: pd.DataFrame):
 
 
 def report_totals_per_ftu(cell_counts: pd.DataFrame):
-    """Saves a CSV with one row per FTU and a total row: the number of datasets, their full cell count
-    (cells_in_datasets) and the cells 41 writes for them (cells_in_ftu_explorer, see
-    load_ftu_explorer_cell_counts), overall and per source in CELL_SUMMARY_SOURCES. A dataset can be in
-    several FTUs and a CT exclusive to several FTUs (e.g., the nephron and a loop of Henle inside it), so
-    the total row counts each dataset and each dataset's CT once and is less than the sum of the FTU rows"""
+    """Saves ftu_explorer_totals_per_ftu.csv (all sources, with overall and per-source columns) and one CSV
+    per source in CELL_SUMMARY_SOURCES (ftu_explorer_totals_per_ftu_<source>.csv, only FTUs with datasets
+    from that source). Each has one row per FTU and a total row: the number of datasets, their full cell
+    count (Cells in datasets) and the cells 41 writes for them (Cells in FTU Explorer, see
+    load_ftu_explorer_cell_counts). A dataset can be in several FTUs and a CT exclusive to several FTUs
+    (e.g., the nephron and a loop of Henle inside it), so the total row counts each dataset and each
+    dataset's CT once and is less than the sum of the FTU rows"""
 
     # A dataset can be in several sources' metadata CSVs, but only one source contributes its cells
     source_by_dataset = {}
@@ -307,27 +309,51 @@ def report_totals_per_ftu(cell_counts: pd.DataFrame):
     df["dataset_cell_count"] = pd.to_numeric(df["dataset_cell_count"], errors="coerce")
     df["source"] = df["dataset_id"].map(source_by_dataset)
 
-    def totals(df, suffix=""):
+    # Sentence-case headers for the manuscript; per-source columns get the source name in parentheses
+    def totals(df, source_name=None):
+        suffix = f" ({source_name})" if source_name else ""
         return {
-            f"datasets{suffix}": df["dataset_id"].nunique(),
-            f"cells_in_datasets{suffix}": int(df.drop_duplicates("dataset_id")["dataset_cell_count"].sum()),
-            f"cells_in_ftu_explorer{suffix}": int(df.drop_duplicates(["dataset_id", "cell_id"])["count"].sum()),
+            f"Datasets{suffix}": df["dataset_id"].nunique(),
+            f"Cells in datasets{suffix}": int(df.drop_duplicates("dataset_id")["dataset_cell_count"].sum()),
+            f"Cells in FTU Explorer{suffix}": int(df.drop_duplicates(["dataset_id", "cell_id"])["count"].sum()),
         }
 
-    def row(ftu, df):
-        result = {"ftu": ftu, **totals(df)}
+    def save(report, filename, title):
+        # Thousands separators for the manuscript (pandas quotes these cells in the CSV)
+        for column in report.columns[1:]:
+            report[column] = report[column].map("{:,}".format)
+        print(f"\n{title}")
+        print(report.to_string(index=False))
+        report.to_csv(f"{REPORTS_DIR}/{filename}", index=False)
+        print(f"{filename} successfully saved to {REPORTS_DIR}")
+
+    # All sources in one table: overall and per-source columns
+    def row_all_sources(ftu, df):
+        result = {"FTU": ftu, **totals(df)}
         for source in CELL_SUMMARY_SOURCES:
-            suffix = "_" + source["name"].lower().replace(" ", "_")
-            result.update(totals(df[df["source"] == source["name"]], suffix))
+            result.update(totals(df[df["source"] == source["name"]], source["name"]))
         return result
 
-    report = pd.DataFrame(
-        [row(ftu, group) for ftu, group in df.groupby("ftu")] + [row("Total", df)]
+    save(
+        pd.DataFrame(
+            [row_all_sources(ftu, group) for ftu, group in df.groupby("ftu")]
+            + [row_all_sources("Total", df)]
+        ),
+        "ftu_explorer_totals_per_ftu.csv",
+        "All sources",
     )
-    print(report.to_string(index=False))
 
-    report.to_csv(f"{REPORTS_DIR}/ftu_explorer_totals_per_ftu.csv", index=False)
-    print(f"File successfully saved to {REPORTS_DIR}")
+    # One table per source, only FTUs with datasets from that source
+    for source in CELL_SUMMARY_SOURCES:
+        source_df = df[df["source"] == source["name"]]
+        save(
+            pd.DataFrame(
+                [{"FTU": ftu, **totals(group)} for ftu, group in source_df.groupby("ftu")]
+                + [{"FTU": "Total", **totals(source_df)}]
+            ),
+            "ftu_explorer_totals_per_ftu_" + source["name"].lower().replace(" ", "_") + ".csv",
+            source["name"],
+        )
 
 
 def main():
