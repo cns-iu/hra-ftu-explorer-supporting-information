@@ -19,14 +19,12 @@ ANNOTATION_TOOL_LABELS = {
     "popv": "popV",
     # Only in the anatomogram data
     "pan-human-azimuth": "Pan-Human Azimuth",
-    "author": "Author annotation",
+    "author": "Authors",
     "frmatch": "FR-Match",
 }
 
 # Required (non-optional) strings in hra-ui's RAW_DATASETS schema
 REQUIRED_STRING_FIELDS = {"label", "link", "description"}
-
-MISSING_VALUES = {"", "unknown", "nan", "none", "not reported", "na"}
 
 # Donor columns that show a placeholder in the table instead of an empty cell
 # (age and bmi as strings need hubmapconsortium/hra-ui#2334 and #2335)

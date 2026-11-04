@@ -2078,7 +2078,7 @@
         "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP27$spleen",
         "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP7$spleen"
     ],
-    "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas": [
+    "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans": [
         "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor11$pancreas",
         "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor12$pancreas",
         "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor44$pancreas",
@@ -2121,5 +2121,20 @@
         "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2",
         "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D3",
         "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D4"
+    ],
+    "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla": [
+        "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#body_breast_A$skin%20of%20breast",
+        "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#body_thigh_A$upper%20leg%20skin",
+        "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_cheek_B$skin%20of%20cheek",
+        "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_forehead_B$skin%20of%20forehead",
+        "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_scalp_A$skin%20of%20scalp"
+    ],
+    "https://purl.humanatlas.io/2d-ftu/mouth-parotid-gland": [
+        "https://api.cellxgene.cziscience.com/dp/v1/collections/065ad318-59fd-4f8c-b4b1-66caa7665409#Pringle_1$parotid%20gland",
+        "https://api.cellxgene.cziscience.com/dp/v1/collections/065ad318-59fd-4f8c-b4b1-66caa7665409#Pringle_2$parotid%20gland"
+    ],
+    "https://purl.humanatlas.io/2d-ftu/mouth-submandibular-gland": [
+        "https://api.cellxgene.cziscience.com/dp/v1/collections/065ad318-59fd-4f8c-b4b1-66caa7665409#Horeth_Submandibular%20Gland%2012$submandibular%20gland",
+        "https://api.cellxgene.cziscience.com/dp/v1/collections/065ad318-59fd-4f8c-b4b1-66caa7665409#Horeth_Submandibular%20Gland%2015$submandibular%20gland"
     ]
 }

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Create a virtual environment for the analysis/ scripts and install requirements.txt.
+"""Create a virtual environment for the analysis/general-analysis/ scripts and install requirements.txt.
 
 Unlike data-preprocessor/set_up_and_run.py, this does NOT run any scripts —
-analysis scripts are independent, run on demand (`python analysis/<script>.py`),
+analysis scripts are independent, run on demand (`python analysis/general-analysis/<script>.py`),
 not a sequential pipeline.
 """
 import platform

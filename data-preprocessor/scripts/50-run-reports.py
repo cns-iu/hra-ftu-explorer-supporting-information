@@ -3,6 +3,37 @@ import numpy as np
 from shared import *
 
 
+# Sentence-case column headers for the manuscript, applied by save_report to every report CSV
+REPORT_COLUMN_NAMES = {
+    "ftu": "FTU",
+    "ftus": "FTUs",
+    "cell_id": "Cell ID",
+    "cell_label": "Cell label",
+    "cell_types": "Cell types",
+    "count": "Cell count",
+    "cell_count": "Cell count",
+    "dataset_count": "Dataset count",
+    "dataset_id": "Dataset ID",
+    "annotation_method": "Annotation method",
+    "dataset_removed_from_ftu": "Dataset removed from FTU",
+    "cell_count_in_ftu_explorer": "Cells in FTU Explorer",
+    "dataset_cell_count": "Cells in dataset",
+    "organ": "Organ",
+    "consortium_name": "Consortium",
+    "publication": "Publication",
+    "illustration_count": "Cell types in illustration",
+    "asctb_count": "Cell types in ASCT+B",
+    "shared_count": "Cell types in both",
+    "shared_ids": "Cell IDs in both",
+}
+
+
+def save_report(df: pd.DataFrame, filename: str):
+    """Saves df to REPORTS_DIR/filename with REPORT_COLUMN_NAMES headers"""
+    df.rename(columns=REPORT_COLUMN_NAMES).to_csv(f"{REPORTS_DIR}/{filename}", index=False)
+    print(f"{filename} successfully saved to {REPORTS_DIR}")
+
+
 def get_unique_cts_for_colliding_as():
     """_summary_"""
 
@@ -57,6 +88,18 @@ def generate_ftu_report():
     for column in ["illustration", "asctb", "exclusive"]:
         df[f"cell_types_{column}"] = df.pop(column).apply(len)
 
+    # Organ labels come in mixed case from the source data (e.g., "kidney", "Small Intestine")
+    df["organ_label"] = df["organ_label"].str.title()
+    df = df.rename(
+        columns={
+            "ftu": "FTU",
+            "organ_label": "Organ label",
+            "cell_types_illustration": "Cell types in illustration",
+            "cell_types_asctb": "Cell types in ASCT+B",
+            "cell_types_exclusive": "Cell types exclusive",
+        }
+    )
+
     pprint(df)
 
     df.to_csv(f"{REPORTS_DIR}/cell_types_in_ftu_report.csv", index=False)
@@ -104,15 +147,15 @@ def visualize_bar_graph():
     df = df.sort_values("shared_count", ascending=False).reset_index(drop=True)
     columns = ["ftu", "illustration_count", "asctb_count", "shared_count", "shared_ids"]
     print(df[columns[:-1]].to_string(index=False))
-    df[columns].to_csv(f"{REPORTS_DIR}/celltype_counts_by_ftu.csv", index=False)
+    save_report(df[columns], "celltype_counts_by_ftu.csv")
 
     x = np.arange(len(df))
     width = 0.25
 
     fig, ax = plt.subplots(figsize=(max(8, len(df) * 0.5), 6))
-    ax.bar(x - width, df["illustration_count"], width, label="illustration_count")
-    ax.bar(x, df["asctb_count"], width, label="asctb_count")
-    ax.bar(x + width, df["shared_count"], width, label="shared_count")
+    ax.bar(x - width, df["illustration_count"], width, label="In illustration")
+    ax.bar(x, df["asctb_count"], width, label="In ASCT+B")
+    ax.bar(x + width, df["shared_count"], width, label="In both")
 
     ax.set_xticks(x)
     ax.set_xticklabels(df["ftu"], rotation=45, ha="right", fontsize=9)
@@ -192,8 +235,7 @@ def report_small_datasets(cell_counts: pd.DataFrame, threshold: int = 100):
     )
     pprint(small[["dataset_id", "ftus", "cell_count_in_ftu_explorer"]])
 
-    small.to_csv(f"{REPORTS_DIR}/datasets_under_{threshold}_cells.csv", index=False)
-    print(f"File successfully saved to {REPORTS_DIR}")
+    save_report(small, f"datasets_under_{threshold}_cells.csv")
 
 
 def load_cell_counts_without_min_cells_filter() -> pd.DataFrame:
@@ -264,8 +306,7 @@ def report_rare_cell_types_per_ftu(cell_counts: pd.DataFrame):
     )
     pprint(df.groupby(["ftu", "cell_label"]).size())
 
-    df.to_csv(f"{REPORTS_DIR}/cell_types_under_{threshold}_cells_per_ftu.csv", index=False)
-    print(f"File successfully saved to {REPORTS_DIR}")
+    save_report(df, f"cell_types_under_{threshold}_cells_per_ftu.csv")
 
 
 def report_cells_per_cell_type_per_ftu(cell_counts: pd.DataFrame):
@@ -284,7 +325,152 @@ def report_cells_per_cell_type_per_ftu(cell_counts: pd.DataFrame):
     )
     pprint(df)
 
-    df.to_csv(f"{REPORTS_DIR}/cells_per_cell_type_per_ftu.csv", index=False)
+    save_report(df, "cells_per_cell_type_per_ftu.csv")
+
+
+def report_totals_per_ftu(cell_counts: pd.DataFrame):
+    """Saves ftu_explorer_totals_per_ftu.csv (all sources, with overall and per-source columns) and one CSV
+    per source in CELL_SUMMARY_SOURCES (ftu_explorer_totals_per_ftu_<source>.csv, only FTUs with datasets
+    from that source). Each has one row per FTU and a total row: the number of datasets, their full cell
+    count (Cells in datasets) and the cells 41 writes for them (Cells in FTU Explorer, see
+    load_ftu_explorer_cell_counts). A dataset can be in several FTUs and a CT exclusive to several FTUs
+    (e.g., the nephron and a loop of Henle inside it), so the total row counts each dataset and each
+    dataset's CT once and is less than the sum of the FTU rows"""
+
+    # A dataset can be in several sources' metadata CSVs, but only one source contributes its cells
+    source_by_dataset = {}
+    for source in CELL_SUMMARY_SOURCES:
+        with open(source["filtered_dataset_metadata"], "r", encoding="utf-8") as f:
+            for dataset_id in json.load(f):
+                source_by_dataset.setdefault(dataset_id, source["name"])
+
+    metadata = load_dataset_metadata()[["dataset_id", "dataset_cell_count"]]
+    df = cell_counts.merge(metadata, on="dataset_id", how="left")
+    df["dataset_cell_count"] = pd.to_numeric(df["dataset_cell_count"], errors="coerce")
+    df["source"] = df["dataset_id"].map(source_by_dataset)
+
+    # Sentence-case headers for the manuscript; per-source columns get the source name in parentheses
+    def totals(df, source_name=None):
+        suffix = f" ({source_name})" if source_name else ""
+        return {
+            f"Datasets{suffix}": df["dataset_id"].nunique(),
+            f"Cells in datasets{suffix}": int(df.drop_duplicates("dataset_id")["dataset_cell_count"].sum()),
+            f"Cells in FTU Explorer{suffix}": int(df.drop_duplicates(["dataset_id", "cell_id"])["count"].sum()),
+        }
+
+    def save(report, filename, title):
+        # Thousands separators for the manuscript (pandas quotes these cells in the CSV)
+        for column in report.columns[1:]:
+            report[column] = report[column].map("{:,}".format)
+        print(f"\n{title}")
+        print(report.to_string(index=False))
+        report.to_csv(f"{REPORTS_DIR}/{filename}", index=False)
+        print(f"{filename} successfully saved to {REPORTS_DIR}")
+
+    # All sources in one table: overall and per-source columns
+    def row_all_sources(ftu, df):
+        result = {"FTU": ftu, **totals(df)}
+        for source in CELL_SUMMARY_SOURCES:
+            result.update(totals(df[df["source"] == source["name"]], source["name"]))
+        return result
+
+    save(
+        pd.DataFrame(
+            [row_all_sources(ftu, group) for ftu, group in df.groupby("ftu")]
+            + [row_all_sources("Total", df)]
+        ),
+        "ftu_explorer_totals_per_ftu.csv",
+        "All sources",
+    )
+
+    # One table per source, only FTUs with datasets from that source
+    for source in CELL_SUMMARY_SOURCES:
+        source_df = df[df["source"] == source["name"]]
+        save(
+            pd.DataFrame(
+                [{"FTU": ftu, **totals(group)} for ftu, group in source_df.groupby("ftu")]
+                + [{"FTU": "Total", **totals(source_df)}]
+            ),
+            "ftu_explorer_totals_per_ftu_" + source["name"].lower().replace(" ", "_") + ".csv",
+            source["name"],
+        )
+
+
+def report_ftu_funnel(cell_counts: pd.DataFrame):
+    """Saves ftu_funnel_per_ftu.csv: one row per FTU (and a total row) going from all datasets of the FTU's
+    organ to what the FTU Explorer shows: datasets from the organ (every source's datasets of interest, minus
+    excluded datasets) and their cells, CTs in the illustration, CTs exclusive to the FTU, and the datasets and
+    cells shown in the FTU Explorer (see load_ftu_explorer_cell_counts). The oral cavity datasets count for
+    every mouth FTU, because their organ is mouth. The total row counts each dataset and CT once"""
+
+    datasets_of_interest_files = [
+        DATASETS_OF_INTEREST,
+        ANATOMOGRAM_DATASETS_OF_INTEREST,
+        ORAL_CAVITY_DATASETS_OF_INTEREST,
+    ]
+    datasets_by_organ = defaultdict(set)
+    for path in datasets_of_interest_files:
+        for entry in load_json(path)["datasets_of_interest"]:
+            for dataset_id, organ_id in entry.items():
+                if not is_excluded_dataset(dataset_id):
+                    datasets_by_organ[organ_id].add(dataset_id)
+
+    metadata = load_dataset_metadata()
+    cells_by_dataset = (
+        pd.to_numeric(metadata["dataset_cell_count"], errors="coerce")
+        .fillna(0)
+        .astype(int)
+        .set_axis(metadata["dataset_id"])
+        .to_dict()
+    )
+    missing = set().union(*datasets_by_organ.values()) - set(cells_by_dataset)
+    if missing:
+        print(f"⚠️ {len(missing)} datasets of interest have no cell count in the metadata")
+
+    with open(CELL_TYPES_IN_FTUS, "r", encoding="utf-8") as f:
+        organ_by_ftu = {
+            ftu["ftu_purl"].rstrip("/").split("/")[-1]: ftu["organ_id_short"]
+            for ftu in json.load(f).values()
+        }
+    ct_sets = load_ct_sets_per_ftu()
+
+    def row(ftu, organ_datasets, illustration, exclusive, shown):
+        return {
+            "FTU": ftu,
+            "Datasets from organ": len(organ_datasets),
+            "Cells in datasets from organ": sum(cells_by_dataset.get(d, 0) for d in organ_datasets),
+            "Cell types in illustration": len(illustration),
+            "Cell types exclusive": len(exclusive),
+            "Datasets in FTU Explorer": shown["dataset_id"].nunique(),
+            "Cells in FTU Explorer": int(shown.drop_duplicates(["dataset_id", "cell_id"])["count"].sum()),
+        }
+
+    rows = [
+        row(
+            ftu.ftu,
+            datasets_by_organ.get(organ_by_ftu[ftu.ftu], set()),
+            ftu.illustration,
+            ftu.exclusive,
+            cell_counts[cell_counts["ftu"] == ftu.ftu],
+        )
+        for ftu in ct_sets.itertuples(index=False)
+    ]
+    rows.append(
+        row(
+            "Total",
+            set().union(*(datasets_by_organ.get(o, set()) for o in set(organ_by_ftu.values()))),
+            set().union(*ct_sets["illustration"]),
+            set().union(*ct_sets["exclusive"]),
+            cell_counts,
+        )
+    )
+    report = pd.DataFrame(rows)
+    print(report.to_string(index=False))
+
+    # Thousands separators for the manuscript (pandas quotes these cells in the CSV)
+    for column in report.columns[1:]:
+        report[column] = report[column].map("{:,}".format)
+    report.to_csv(f"{REPORTS_DIR}/ftu_funnel_per_ftu.csv", index=False)
     print(f"File successfully saved to {REPORTS_DIR}")
 
 
@@ -301,6 +487,8 @@ def main():
     report_small_datasets(cell_counts)
     report_rare_cell_types_per_ftu(cell_counts)
     report_cells_per_cell_type_per_ftu(cell_counts)
+    report_totals_per_ftu(cell_counts)
+    report_ftu_funnel(cell_counts)
 
 
 if __name__ == "__main__":

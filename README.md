@@ -31,13 +31,13 @@ source .venv/bin/activate
 deactivate
 ```
 
-## Instructions for running the `analysis` scripts
+## Instructions for running the `analysis/general-analysis` scripts
 
-The `analysis` folder holds standalone scripts used to compute counts/tables for the paper. They read from `data-preprocessor`'s `output`/`input`/`raw-data` folders, so run the `data-preprocessor` workflow above first.
+The `analysis/general-analysis` folder holds standalone scripts used to compute counts/tables for the paper. They read from `data-preprocessor`'s `output`/`input`/`raw-data` folders, so run the `data-preprocessor` workflow above first.
 
-1. Navigate to the `analysis` folder:
+1. Navigate to the `analysis/general-analysis` folder:
 ```bash
-cd analysis
+cd analysis/general-analysis
 ```
 
 2. Create the virtual environment and install dependencies (this does not run any script)
@@ -55,7 +55,7 @@ source .venv/bin/activate
 ```bash
 python SCRIPT_NAME.py
 ```
-Results are written as CSVs to `analysis/output`.
+Results are written as CSVs to `analysis/general-analysis/output`.
 
 5. Deactivate when finished
 ```bash

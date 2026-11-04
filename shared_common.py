@@ -1,7 +1,7 @@
-"""Helpers shared between data-preprocessor/scripts/shared.py and analysis/shared.py.
+"""Helpers shared between data-preprocessor/scripts/shared.py and analysis/general-analysis/shared.py.
 
 Keep this free of heavy/optional dependencies (scanpy, anndata, matplotlib, upsetplot,
-ujson, ...) so it stays safe to import from the lightweight analysis/ venv.
+ujson, ...) so it stays safe to import from the lightweight analysis/general-analysis/ venv.
 """
 
 import gzip

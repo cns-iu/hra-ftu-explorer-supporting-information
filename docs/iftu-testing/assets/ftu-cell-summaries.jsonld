@@ -145370,7 +145370,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27876$pancreas#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27876$pancreas#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -150058,7 +150058,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27948$pancreas#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27948$pancreas#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -151232,7 +151232,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27870$pancreas#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27870$pancreas#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -188692,7 +188692,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor44$pancreas#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor44$pancreas#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -190578,7 +190578,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor9$pancreas#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor9$pancreas#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -191024,7 +191024,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor12$pancreas#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor12$pancreas#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -193200,7 +193200,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor11$pancreas#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor11$pancreas#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -226254,7 +226254,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D28$pancreas#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D28$pancreas#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -226528,7 +226528,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D29$pancreas#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D29$pancreas#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -226880,7 +226880,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D31$pancreas#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D31$pancreas#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -227326,7 +227326,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D30$pancreas#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D30$pancreas#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -322712,6 +322712,382 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_scalp_A$skin%20of%20scalp#CellSummary_skin-dermal-papilla",
+            "biomarker_type": "gene",
+            "summary": [
+                {
+                    "cell_id": "http://purl.obolibrary.org/obo/CL_0000115",
+                    "cell_label": "endothelial cell",
+                    "count": 11,
+                    "@type": "CellSummaryRow",
+                    "percentage": 0.0030286343612334803,
+                    "genes": [
+                        {
+                            "gene_id": "ASCTB-TEMP:plvap",
+                            "gene_label": "PLVAP",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "PLVAP",
+                            "mean_expression": 3.1666043569578837
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:sparcl1",
+                            "gene_label": "SPARCL1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "SPARCL1",
+                            "mean_expression": 3.4540171152784085
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:igfbp7",
+                            "gene_label": "IGFBP7",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "IGFBP7",
+                            "mean_expression": 3.5801247995980905
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:shank3",
+                            "gene_label": "SHANK3",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "SHANK3",
+                            "mean_expression": 1.8310594516150376
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:nnmt",
+                            "gene_label": "NNMT",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "NNMT",
+                            "mean_expression": 3.0224193404320423
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:vwf",
+                            "gene_label": "VWF",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "VWF",
+                            "mean_expression": 2.8564285288416413
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:adirf",
+                            "gene_label": "ADIRF",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ADIRF",
+                            "mean_expression": 3.5738334089495627
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:lamb2",
+                            "gene_label": "LAMB2",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "LAMB2",
+                            "mean_expression": 2.5687509609597843
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:pdlim1",
+                            "gene_label": "PDLIM1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "PDLIM1",
+                            "mean_expression": 2.5454355922755285
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:epas1",
+                            "gene_label": "EPAS1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "EPAS1",
+                            "mean_expression": 2.949873462266847
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:npdc1",
+                            "gene_label": "NPDC1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "NPDC1",
+                            "mean_expression": 2.0858461773825647
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "CellSummary",
+            "annotation_method": "Aggregation",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_forehead_B$skin%20of%20forehead#CellSummary_skin-dermal-papilla",
+            "biomarker_type": "gene",
+            "summary": [
+                {
+                    "cell_id": "http://purl.obolibrary.org/obo/CL_0000115",
+                    "cell_label": "endothelial cell",
+                    "count": 19,
+                    "@type": "CellSummaryRow",
+                    "percentage": 0.006783291681542306,
+                    "genes": [
+                        {
+                            "gene_id": "ASCTB-TEMP:igfbp7",
+                            "gene_label": "IGFBP7",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "IGFBP7",
+                            "mean_expression": 3.409001853263391
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:krt17",
+                            "gene_label": "KRT17",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "KRT17",
+                            "mean_expression": 4.950404419348302
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:ahnak",
+                            "gene_label": "AHNAK",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "AHNAK",
+                            "mean_expression": 3.7443745850267547
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:vwf",
+                            "gene_label": "VWF",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "VWF",
+                            "mean_expression": 2.3815490501734655
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:cxcl12",
+                            "gene_label": "CXCL12",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "CXCL12",
+                            "mean_expression": 2.369581135610494
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:hla-b",
+                            "gene_label": "HLA-B",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "HLA-B",
+                            "mean_expression": 4.753519048307868
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:cldn5",
+                            "gene_label": "CLDN5",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "CLDN5",
+                            "mean_expression": 2.2549559922562836
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:eng",
+                            "gene_label": "ENG",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENG",
+                            "mean_expression": 1.8393905293985413
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:a2m",
+                            "gene_label": "A2M",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "A2M",
+                            "mean_expression": 2.393642598496825
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:epas1",
+                            "gene_label": "EPAS1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "EPAS1",
+                            "mean_expression": 1.803247482346375
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:pecam1",
+                            "gene_label": "PECAM1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "PECAM1",
+                            "mean_expression": 1.897542247621973
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "CellSummary",
+            "annotation_method": "Aggregation",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_cheek_B$skin%20of%20cheek#CellSummary_skin-dermal-papilla",
+            "biomarker_type": "gene",
+            "summary": [
+                {
+                    "cell_id": "http://purl.obolibrary.org/obo/CL_0000115",
+                    "cell_label": "endothelial cell",
+                    "count": 12,
+                    "@type": "CellSummaryRow",
+                    "percentage": 0.002926829268292683,
+                    "genes": [
+                        {
+                            "gene_id": "ASCTB-TEMP:a2m",
+                            "gene_label": "A2M",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "A2M",
+                            "mean_expression": 3.1907784670750945
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:sparcl1",
+                            "gene_label": "SPARCL1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "SPARCL1",
+                            "mean_expression": 2.986928391829185
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:hla-drb1",
+                            "gene_label": "HLA-DRB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "HLA-DRB1",
+                            "mean_expression": 3.115301344322677
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:igfbp4",
+                            "gene_label": "IGFBP4",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "IGFBP4",
+                            "mean_expression": 3.257778818408816
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:sparc",
+                            "gene_label": "SPARC",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "SPARC",
+                            "mean_expression": 3.298726477889929
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:cldn5",
+                            "gene_label": "CLDN5",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "CLDN5",
+                            "mean_expression": 3.0992596244109807
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:vim",
+                            "gene_label": "VIM",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "VIM",
+                            "mean_expression": 3.8708851818981795
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:epas1",
+                            "gene_label": "EPAS1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "EPAS1",
+                            "mean_expression": 2.925691668373471
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:plvap",
+                            "gene_label": "PLVAP",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "PLVAP",
+                            "mean_expression": 2.539949850025234
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:myl9",
+                            "gene_label": "MYL9",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "MYL9",
+                            "mean_expression": 3.2695131204893677
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:egfl7",
+                            "gene_label": "EGFL7",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "EGFL7",
+                            "mean_expression": 2.7260723050684335
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "CellSummary",
+            "annotation_method": "Aggregation",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#body_breast_A$skin%20of%20breast#CellSummary_skin-dermal-papilla",
+            "biomarker_type": "gene",
+            "summary": [
+                {
+                    "cell_id": "http://purl.obolibrary.org/obo/CL_0000115",
+                    "cell_label": "endothelial cell",
+                    "count": 25,
+                    "@type": "CellSummaryRow",
+                    "percentage": 0.007768800497203232,
+                    "genes": [
+                        {
+                            "gene_id": "ASCTB-TEMP:hla-a",
+                            "gene_label": "HLA-A",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "HLA-A",
+                            "mean_expression": 4.11976092502742
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:apoe",
+                            "gene_label": "APOE",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "APOE",
+                            "mean_expression": 4.01667430633883
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:cst3",
+                            "gene_label": "CST3",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "CST3",
+                            "mean_expression": 4.624045078717259
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:gnai2",
+                            "gene_label": "GNAI2",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "GNAI2",
+                            "mean_expression": 2.635190328676641
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:actg1",
+                            "gene_label": "ACTG1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ACTG1",
+                            "mean_expression": 3.8372957755657664
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:s100a6",
+                            "gene_label": "S100A6",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "S100A6",
+                            "mean_expression": 4.418765199837274
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:pecam1",
+                            "gene_label": "PECAM1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "PECAM1",
+                            "mean_expression": 3.1013514670882993
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:vwf",
+                            "gene_label": "VWF",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "VWF",
+                            "mean_expression": 3.4488547502909204
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:zfp36",
+                            "gene_label": "ZFP36",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ZFP36",
+                            "mean_expression": 3.523784652486615
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:hla-drb1",
+                            "gene_label": "HLA-DRB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "HLA-DRB1",
+                            "mean_expression": 3.516241746671559
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:igfbp7",
+                            "gene_label": "IGFBP7",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "IGFBP7",
+                            "mean_expression": 3.6527800587107655
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "CellSummary",
+            "annotation_method": "Aggregation",
             "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#body_abdomen_A$skin%20of%20abdomen#CellSummary_skin-epidermal-ridge",
             "biomarker_type": "gene",
             "summary": [
@@ -322798,6 +323174,100 @@
                             "@type": "GeneExpression",
                             "ensemble_id": "ENSG00000163682",
                             "mean_expression": 3.2729291915893555
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "CellSummary",
+            "annotation_method": "Aggregation",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#body_thigh_A$upper%20leg%20skin#CellSummary_skin-dermal-papilla",
+            "biomarker_type": "gene",
+            "summary": [
+                {
+                    "cell_id": "http://purl.obolibrary.org/obo/CL_0000115",
+                    "cell_label": "endothelial cell",
+                    "count": 47,
+                    "@type": "CellSummaryRow",
+                    "percentage": 0.012490034546904066,
+                    "genes": [
+                        {
+                            "gene_id": "ASCTB-TEMP:igfbp7",
+                            "gene_label": "IGFBP7",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "IGFBP7",
+                            "mean_expression": 3.7592709640800543
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:ifi27",
+                            "gene_label": "IFI27",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "IFI27",
+                            "mean_expression": 2.8208037902371443
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:a2m",
+                            "gene_label": "A2M",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "A2M",
+                            "mean_expression": 3.504283068587374
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:vwf",
+                            "gene_label": "VWF",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "VWF",
+                            "mean_expression": 3.520804414411575
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:actb",
+                            "gene_label": "ACTB",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ACTB",
+                            "mean_expression": 4.61818006433971
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:adirf",
+                            "gene_label": "ADIRF",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ADIRF",
+                            "mean_expression": 3.823845145264388
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:tmsb4x",
+                            "gene_label": "TMSB4X",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "TMSB4X",
+                            "mean_expression": 4.124879761722551
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:actg1",
+                            "gene_label": "ACTG1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ACTG1",
+                            "mean_expression": 3.850183061650074
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:vim",
+                            "gene_label": "VIM",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "VIM",
+                            "mean_expression": 4.325859309364955
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:tmsb10",
+                            "gene_label": "TMSB10",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "TMSB10",
+                            "mean_expression": 4.508946545542999
+                        },
+                        {
+                            "gene_id": "ASCTB-TEMP:aqp1",
+                            "gene_label": "AQP1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "AQP1",
+                            "mean_expression": 3.242664310194786
                         }
                     ]
                 }
@@ -324004,7 +324474,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP1$exocrine%20pancreas#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP1$exocrine%20pancreas#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -325390,7 +325860,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP9$exocrine%20pancreas#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP9$exocrine%20pancreas#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -344620,7 +345090,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -344808,7 +345278,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H3#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H3#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -345190,7 +345660,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D1#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D1#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -346322,7 +346792,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H2#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H2#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -346886,7 +347356,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H6#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H6#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -348014,7 +348484,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D4#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D4#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -348471,7 +348941,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -349459,7 +349929,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H5#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H5#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -349859,7 +350329,7 @@
         {
             "@type": "CellSummary",
             "annotation_method": "Aggregation",
-            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D3#CellSummary_pancreas-endocrine-pancreas",
+            "cell_source": "https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D3#CellSummary_pancreas-islets-langerhans",
             "biomarker_type": "gene",
             "summary": [
                 {
@@ -351221,6 +351691,794 @@
                             "@type": "GeneExpression",
                             "ensemble_id": "ENSG00000197249",
                             "mean_expression": 4.398655891418457
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "CellSummary",
+            "annotation_method": "Aggregation",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/065ad318-59fd-4f8c-b4b1-66caa7665409#Pringle_2$parotid%20gland#CellSummary_mouth-parotid-gland",
+            "biomarker_type": "gene",
+            "summary": [
+                {
+                    "cell_id": "http://purl.obolibrary.org/obo/CL_0000451",
+                    "cell_label": "dendritic cell",
+                    "count": 32,
+                    "@type": "CellSummaryRow",
+                    "percentage": 0.01608848667672197,
+                    "nsforest_gene_expr": [
+                        {
+                            "gene_id": "HGNC:6735",
+                            "gene_label": "LYN",
+                            "ensembl_id": "ENSG00000254087",
+                            "mean_gene_expr_value": 1.1478298902511597
+                        },
+                        {
+                            "gene_id": "HGNC:11429",
+                            "gene_label": "STX11",
+                            "ensembl_id": "ENSG00000135604",
+                            "mean_gene_expr_value": 1.19996976852417
+                        }
+                    ],
+                    "genes": [
+                        {
+                            "gene_id": "HGNC:10540",
+                            "gene_label": "SAT1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000130066",
+                            "mean_expression": 3.5843679904937744
+                        },
+                        {
+                            "gene_id": "HGNC:3976",
+                            "gene_label": "FTH1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000167996",
+                            "mean_expression": 4.945194244384766
+                        },
+                        {
+                            "gene_id": "HGNC:9361",
+                            "gene_label": "SRGN",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000122862",
+                            "mean_expression": 3.3986520767211914
+                        },
+                        {
+                            "gene_id": "HGNC:9666",
+                            "gene_label": "PTPRC",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000081237",
+                            "mean_expression": 2.7166848182678223
+                        },
+                        {
+                            "gene_id": "HGNC:352",
+                            "gene_label": "AIF1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000204472",
+                            "mean_expression": 2.8531060218811035
+                        },
+                        {
+                            "gene_id": "HGNC:3999",
+                            "gene_label": "FTL",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000087086",
+                            "mean_expression": 4.517340660095215
+                        },
+                        {
+                            "gene_id": "HGNC:4947",
+                            "gene_label": "HLA-DRA",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000204287",
+                            "mean_expression": 3.527230739593506
+                        },
+                        {
+                            "gene_id": "HGNC:11881",
+                            "gene_label": "TMSB4X",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000205542",
+                            "mean_expression": 4.397289752960205
+                        },
+                        {
+                            "gene_id": "HGNC:4932",
+                            "gene_label": "HLA-B",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000234745",
+                            "mean_expression": 3.1369471549987793
+                        },
+                        {
+                            "gene_id": "HGNC:2545",
+                            "gene_label": "CTSS",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000163131",
+                            "mean_expression": 3.219099283218384
+                        }
+                    ]
+                },
+                {
+                    "cell_id": "http://purl.obolibrary.org/obo/CL_0000235",
+                    "cell_label": "macrophage",
+                    "count": 88,
+                    "@type": "CellSummaryRow",
+                    "percentage": 0.04424333836098542,
+                    "nsforest_gene_expr": [
+                        {
+                            "gene_id": "HGNC:1245",
+                            "gene_label": "C1QC",
+                            "ensembl_id": "ENSG00000159189",
+                            "mean_gene_expr_value": 1.7557148933410645
+                        }
+                    ],
+                    "genes": [
+                        {
+                            "gene_id": "HGNC:1697",
+                            "gene_label": "CD74",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000019582",
+                            "mean_expression": 4.465902328491211
+                        },
+                        {
+                            "gene_id": "HGNC:4948",
+                            "gene_label": "HLA-DRB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000196126",
+                            "mean_expression": 4.175432205200195
+                        },
+                        {
+                            "gene_id": "HGNC:4947",
+                            "gene_label": "HLA-DRA",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000204287",
+                            "mean_expression": 4.594687461853027
+                        },
+                        {
+                            "gene_id": "HGNC:4938",
+                            "gene_label": "HLA-DPA1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000231389",
+                            "mean_expression": 4.019709587097168
+                        },
+                        {
+                            "gene_id": "HGNC:4940",
+                            "gene_label": "HLA-DPB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000223865",
+                            "mean_expression": 3.539555549621582
+                        },
+                        {
+                            "gene_id": "HGNC:4942",
+                            "gene_label": "HLA-DQA1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000196735",
+                            "mean_expression": 2.9556307792663574
+                        },
+                        {
+                            "gene_id": "HGNC:6174",
+                            "gene_label": "ITM2B",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000136156",
+                            "mean_expression": 3.2465710639953613
+                        },
+                        {
+                            "gene_id": "HGNC:10810",
+                            "gene_label": "SGK1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000118515",
+                            "mean_expression": 2.8933310508728027
+                        },
+                        {
+                            "gene_id": "HGNC:2475",
+                            "gene_label": "CST3",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000101439",
+                            "mean_expression": 3.143009662628174
+                        },
+                        {
+                            "gene_id": "HGNC:10627",
+                            "gene_label": "CCL3",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000277632",
+                            "mean_expression": 3.638174295425415
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "CellSummary",
+            "annotation_method": "Aggregation",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/065ad318-59fd-4f8c-b4b1-66caa7665409#Horeth_Submandibular%20Gland%2015$submandibular%20gland#CellSummary_mouth-submandibular-gland",
+            "biomarker_type": "gene",
+            "summary": [
+                {
+                    "cell_id": "http://purl.obolibrary.org/obo/CL_0000451",
+                    "cell_label": "dendritic cell",
+                    "count": 23,
+                    "@type": "CellSummaryRow",
+                    "percentage": 0.004422226494904826,
+                    "nsforest_gene_expr": [
+                        {
+                            "gene_id": "HGNC:18304",
+                            "gene_label": "COTL1",
+                            "ensembl_id": "ENSG00000103187",
+                            "mean_gene_expr_value": 1.2120788097381592
+                        },
+                        {
+                            "gene_id": "HGNC:4947",
+                            "gene_label": "HLA-DRA",
+                            "ensembl_id": "ENSG00000204287",
+                            "mean_gene_expr_value": 2.6193692684173584
+                        },
+                        {
+                            "gene_id": "HGNC:4940",
+                            "gene_label": "HLA-DPB1",
+                            "ensembl_id": "ENSG00000223865",
+                            "mean_gene_expr_value": 2.4320380687713623
+                        }
+                    ],
+                    "genes": [
+                        {
+                            "gene_id": "HGNC:4940",
+                            "gene_label": "HLA-DPB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000223865",
+                            "mean_expression": 2.4320380687713623
+                        },
+                        {
+                            "gene_id": "HGNC:1697",
+                            "gene_label": "CD74",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000019582",
+                            "mean_expression": 3.0554263591766357
+                        },
+                        {
+                            "gene_id": "HGNC:4947",
+                            "gene_label": "HLA-DRA",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000204287",
+                            "mean_expression": 2.6193692684173584
+                        },
+                        {
+                            "gene_id": "HGNC:11881",
+                            "gene_label": "TMSB4X",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000205542",
+                            "mean_expression": 3.2986488342285156
+                        },
+                        {
+                            "gene_id": "HGNC:10440",
+                            "gene_label": "RPS7",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000171863",
+                            "mean_expression": 2.710474729537964
+                        },
+                        {
+                            "gene_id": "HGNC:4938",
+                            "gene_label": "HLA-DPA1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000231389",
+                            "mean_expression": 2.153562068939209
+                        },
+                        {
+                            "gene_id": "HGNC:3999",
+                            "gene_label": "FTL",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000087086",
+                            "mean_expression": 3.018306255340576
+                        },
+                        {
+                            "gene_id": "HGNC:3976",
+                            "gene_label": "FTH1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000167996",
+                            "mean_expression": 3.052682876586914
+                        },
+                        {
+                            "gene_id": "HGNC:12449",
+                            "gene_label": "TYROBP",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000011600",
+                            "mean_expression": 1.429508924484253
+                        },
+                        {
+                            "gene_id": "HGNC:132",
+                            "gene_label": "ACTB",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000075624",
+                            "mean_expression": 2.581941843032837
+                        }
+                    ]
+                },
+                {
+                    "cell_id": "http://purl.obolibrary.org/obo/CL_0000235",
+                    "cell_label": "macrophage",
+                    "count": 53,
+                    "@type": "CellSummaryRow",
+                    "percentage": 0.010190348009998077,
+                    "nsforest_gene_expr": [
+                        {
+                            "gene_id": "HGNC:1245",
+                            "gene_label": "C1QC",
+                            "ensembl_id": "ENSG00000159189",
+                            "mean_gene_expr_value": 2.0528602600097656
+                        },
+                        {
+                            "gene_id": "HGNC:1241",
+                            "gene_label": "C1QA",
+                            "ensembl_id": "ENSG00000173372",
+                            "mean_gene_expr_value": 2.194230318069458
+                        }
+                    ],
+                    "genes": [
+                        {
+                            "gene_id": "HGNC:1697",
+                            "gene_label": "CD74",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000019582",
+                            "mean_expression": 3.8772132396698
+                        },
+                        {
+                            "gene_id": "HGNC:4938",
+                            "gene_label": "HLA-DPA1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000231389",
+                            "mean_expression": 3.1166412830352783
+                        },
+                        {
+                            "gene_id": "HGNC:4948",
+                            "gene_label": "HLA-DRB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000196126",
+                            "mean_expression": 2.855921745300293
+                        },
+                        {
+                            "gene_id": "HGNC:4947",
+                            "gene_label": "HLA-DRA",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000204287",
+                            "mean_expression": 3.257131814956665
+                        },
+                        {
+                            "gene_id": "HGNC:11881",
+                            "gene_label": "TMSB4X",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000205542",
+                            "mean_expression": 3.4685628414154053
+                        },
+                        {
+                            "gene_id": "HGNC:1241",
+                            "gene_label": "C1QA",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000173372",
+                            "mean_expression": 2.194230318069458
+                        },
+                        {
+                            "gene_id": "HGNC:3999",
+                            "gene_label": "FTL",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000087086",
+                            "mean_expression": 3.6999921798706055
+                        },
+                        {
+                            "gene_id": "HGNC:4940",
+                            "gene_label": "HLA-DPB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000223865",
+                            "mean_expression": 2.7186875343322754
+                        },
+                        {
+                            "gene_id": "HGNC:1245",
+                            "gene_label": "C1QC",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000159189",
+                            "mean_expression": 2.0528602600097656
+                        },
+                        {
+                            "gene_id": "HGNC:12449",
+                            "gene_label": "TYROBP",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000011600",
+                            "mean_expression": 2.024061918258667
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "CellSummary",
+            "annotation_method": "Aggregation",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/065ad318-59fd-4f8c-b4b1-66caa7665409#Horeth_Submandibular%20Gland%2012$submandibular%20gland#CellSummary_mouth-submandibular-gland",
+            "biomarker_type": "gene",
+            "summary": [
+                {
+                    "cell_id": "http://purl.obolibrary.org/obo/CL_0000451",
+                    "cell_label": "dendritic cell",
+                    "count": 25,
+                    "@type": "CellSummaryRow",
+                    "percentage": 0.002790801518196026,
+                    "nsforest_gene_expr": [
+                        {
+                            "gene_id": "HGNC:18304",
+                            "gene_label": "COTL1",
+                            "ensembl_id": "ENSG00000103187",
+                            "mean_gene_expr_value": 1.2526569366455078
+                        },
+                        {
+                            "gene_id": "HGNC:3611",
+                            "gene_label": "FCER1G",
+                            "ensembl_id": "ENSG00000158869",
+                            "mean_gene_expr_value": 1.59227454662323
+                        }
+                    ],
+                    "genes": [
+                        {
+                            "gene_id": "HGNC:1697",
+                            "gene_label": "CD74",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000019582",
+                            "mean_expression": 4.4406962394714355
+                        },
+                        {
+                            "gene_id": "HGNC:4947",
+                            "gene_label": "HLA-DRA",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000204287",
+                            "mean_expression": 3.734342336654663
+                        },
+                        {
+                            "gene_id": "HGNC:4948",
+                            "gene_label": "HLA-DRB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000196126",
+                            "mean_expression": 2.877225637435913
+                        },
+                        {
+                            "gene_id": "HGNC:4938",
+                            "gene_label": "HLA-DPA1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000231389",
+                            "mean_expression": 3.4834063053131104
+                        },
+                        {
+                            "gene_id": "HGNC:11879",
+                            "gene_label": "TMSB10",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000034510",
+                            "mean_expression": 3.111841917037964
+                        },
+                        {
+                            "gene_id": "HGNC:4940",
+                            "gene_label": "HLA-DPB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000223865",
+                            "mean_expression": 3.2063093185424805
+                        },
+                        {
+                            "gene_id": "HGNC:10411",
+                            "gene_label": "RPS24",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000138326",
+                            "mean_expression": 3.255493402481079
+                        },
+                        {
+                            "gene_id": "HGNC:3597",
+                            "gene_label": "FAU",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000149806",
+                            "mean_expression": 2.6961472034454346
+                        },
+                        {
+                            "gene_id": "HGNC:10330",
+                            "gene_label": "RPL28",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000108107",
+                            "mean_expression": 3.215085029602051
+                        },
+                        {
+                            "gene_id": "HGNC:132",
+                            "gene_label": "ACTB",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000075624",
+                            "mean_expression": 3.5026967525482178
+                        }
+                    ]
+                },
+                {
+                    "cell_id": "http://purl.obolibrary.org/obo/CL_0000235",
+                    "cell_label": "macrophage",
+                    "count": 78,
+                    "@type": "CellSummaryRow",
+                    "percentage": 0.008707300736771601,
+                    "nsforest_gene_expr": [
+                        {
+                            "gene_id": "HGNC:1245",
+                            "gene_label": "C1QC",
+                            "ensembl_id": "ENSG00000159189",
+                            "mean_gene_expr_value": 2.4117515087127686
+                        },
+                        {
+                            "gene_id": "HGNC:1242",
+                            "gene_label": "C1QB",
+                            "ensembl_id": "ENSG00000173369",
+                            "mean_gene_expr_value": 2.276337146759033
+                        },
+                        {
+                            "gene_id": "HGNC:1241",
+                            "gene_label": "C1QA",
+                            "ensembl_id": "ENSG00000173372",
+                            "mean_gene_expr_value": 2.3778553009033203
+                        }
+                    ],
+                    "genes": [
+                        {
+                            "gene_id": "HGNC:1697",
+                            "gene_label": "CD74",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000019582",
+                            "mean_expression": 4.4610161781311035
+                        },
+                        {
+                            "gene_id": "HGNC:4947",
+                            "gene_label": "HLA-DRA",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000204287",
+                            "mean_expression": 3.6533799171447754
+                        },
+                        {
+                            "gene_id": "HGNC:4938",
+                            "gene_label": "HLA-DPA1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000231389",
+                            "mean_expression": 3.4453232288360596
+                        },
+                        {
+                            "gene_id": "HGNC:4948",
+                            "gene_label": "HLA-DRB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000196126",
+                            "mean_expression": 3.0442278385162354
+                        },
+                        {
+                            "gene_id": "HGNC:1241",
+                            "gene_label": "C1QA",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000173372",
+                            "mean_expression": 2.3778553009033203
+                        },
+                        {
+                            "gene_id": "HGNC:4953",
+                            "gene_label": "HLA-DRB5",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000198502",
+                            "mean_expression": 2.8596951961517334
+                        },
+                        {
+                            "gene_id": "HGNC:4940",
+                            "gene_label": "HLA-DPB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000223865",
+                            "mean_expression": 3.001312732696533
+                        },
+                        {
+                            "gene_id": "HGNC:1245",
+                            "gene_label": "C1QC",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000159189",
+                            "mean_expression": 2.4117515087127686
+                        },
+                        {
+                            "gene_id": "HGNC:1242",
+                            "gene_label": "C1QB",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000173369",
+                            "mean_expression": 2.276337146759033
+                        },
+                        {
+                            "gene_id": "HGNC:4944",
+                            "gene_label": "HLA-DQB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000179344",
+                            "mean_expression": 1.9926317930221558
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "CellSummary",
+            "annotation_method": "Aggregation",
+            "cell_source": "https://api.cellxgene.cziscience.com/dp/v1/collections/065ad318-59fd-4f8c-b4b1-66caa7665409#Pringle_1$parotid%20gland#CellSummary_mouth-parotid-gland",
+            "biomarker_type": "gene",
+            "summary": [
+                {
+                    "cell_id": "http://purl.obolibrary.org/obo/CL_0000451",
+                    "cell_label": "dendritic cell",
+                    "count": 86,
+                    "@type": "CellSummaryRow",
+                    "percentage": 0.03372549019607843,
+                    "nsforest_gene_expr": [
+                        {
+                            "gene_id": "HGNC:5398",
+                            "gene_label": "IFI30",
+                            "ensembl_id": "ENSG00000216490",
+                            "mean_gene_expr_value": 2.9257659912109375
+                        },
+                        {
+                            "gene_id": "HGNC:4940",
+                            "gene_label": "HLA-DPB1",
+                            "ensembl_id": "ENSG00000223865",
+                            "mean_gene_expr_value": 2.2454986572265625
+                        },
+                        {
+                            "gene_id": "HGNC:10487",
+                            "gene_label": "S100A10",
+                            "ensembl_id": "ENSG00000197747",
+                            "mean_gene_expr_value": 2.049746513366699
+                        }
+                    ],
+                    "genes": [
+                        {
+                            "gene_id": "HGNC:3976",
+                            "gene_label": "FTH1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000167996",
+                            "mean_expression": 5.0201592445373535
+                        },
+                        {
+                            "gene_id": "HGNC:132",
+                            "gene_label": "ACTB",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000075624",
+                            "mean_expression": 3.8899621963500977
+                        },
+                        {
+                            "gene_id": "HGNC:914",
+                            "gene_label": "B2M",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000166710",
+                            "mean_expression": 4.132573127746582
+                        },
+                        {
+                            "gene_id": "HGNC:11879",
+                            "gene_label": "TMSB10",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000034510",
+                            "mean_expression": 3.8098700046539307
+                        },
+                        {
+                            "gene_id": "HGNC:9361",
+                            "gene_label": "SRGN",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000122862",
+                            "mean_expression": 3.4691848754882812
+                        },
+                        {
+                            "gene_id": "HGNC:3999",
+                            "gene_label": "FTL",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000087086",
+                            "mean_expression": 4.5179762840271
+                        },
+                        {
+                            "gene_id": "HGNC:10330",
+                            "gene_label": "RPL28",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000108107",
+                            "mean_expression": 3.7172441482543945
+                        },
+                        {
+                            "gene_id": "HGNC:5398",
+                            "gene_label": "IFI30",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000216490",
+                            "mean_expression": 2.9257659912109375
+                        },
+                        {
+                            "gene_id": "HGNC:2475",
+                            "gene_label": "CST3",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000101439",
+                            "mean_expression": 3.9040441513061523
+                        },
+                        {
+                            "gene_id": "HGNC:10496",
+                            "gene_label": "S100A6",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000197956",
+                            "mean_expression": 3.2185635566711426
+                        }
+                    ]
+                },
+                {
+                    "cell_id": "http://purl.obolibrary.org/obo/CL_0000235",
+                    "cell_label": "macrophage",
+                    "count": 473,
+                    "@type": "CellSummaryRow",
+                    "percentage": 0.18549019607843137,
+                    "nsforest_gene_expr": [
+                        {
+                            "gene_id": "HGNC:4942",
+                            "gene_label": "HLA-DQA1",
+                            "ensembl_id": "ENSG00000196735",
+                            "mean_gene_expr_value": 2.623589038848877
+                        },
+                        {
+                            "gene_id": "HGNC:4944",
+                            "gene_label": "HLA-DQB1",
+                            "ensembl_id": "ENSG00000179344",
+                            "mean_gene_expr_value": 2.6876702308654785
+                        }
+                    ],
+                    "genes": [
+                        {
+                            "gene_id": "HGNC:4947",
+                            "gene_label": "HLA-DRA",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000204287",
+                            "mean_expression": 4.6156325340271
+                        },
+                        {
+                            "gene_id": "HGNC:1697",
+                            "gene_label": "CD74",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000019582",
+                            "mean_expression": 4.5345869064331055
+                        },
+                        {
+                            "gene_id": "HGNC:4948",
+                            "gene_label": "HLA-DRB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000196126",
+                            "mean_expression": 4.257315635681152
+                        },
+                        {
+                            "gene_id": "HGNC:4938",
+                            "gene_label": "HLA-DPA1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000231389",
+                            "mean_expression": 3.85223388671875
+                        },
+                        {
+                            "gene_id": "HGNC:4940",
+                            "gene_label": "HLA-DPB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000223865",
+                            "mean_expression": 3.4446256160736084
+                        },
+                        {
+                            "gene_id": "HGNC:3999",
+                            "gene_label": "FTL",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000087086",
+                            "mean_expression": 4.4784650802612305
+                        },
+                        {
+                            "gene_id": "HGNC:4942",
+                            "gene_label": "HLA-DQA1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000196735",
+                            "mean_expression": 2.623589038848877
+                        },
+                        {
+                            "gene_id": "HGNC:4944",
+                            "gene_label": "HLA-DQB1",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000179344",
+                            "mean_expression": 2.6876702308654785
+                        },
+                        {
+                            "gene_id": "HGNC:11881",
+                            "gene_label": "TMSB4X",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000205542",
+                            "mean_expression": 3.7550597190856934
+                        },
+                        {
+                            "gene_id": "HGNC:6174",
+                            "gene_label": "ITM2B",
+                            "@type": "GeneExpression",
+                            "ensemble_id": "ENSG00000136156",
+                            "mean_expression": 2.9893484115600586
                         }
                     ]
                 }

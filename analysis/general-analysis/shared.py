@@ -8,8 +8,8 @@ import pandas as pd
 # Helpers/config shared with data-preprocessor/scripts/shared.py, kept at the repo root
 import sys
 
-ANALYSIS_DIR = Path(__file__).parent
-REPO_ROOT = ANALYSIS_DIR.parent
+ANALYSIS_DIR = Path(__file__).parent  # analysis/general-analysis/
+REPO_ROOT = ANALYSIS_DIR.parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 from shared_common import (  # noqa: E402

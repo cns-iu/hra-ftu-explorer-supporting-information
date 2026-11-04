@@ -1,0 +1,22 @@
+{
+    "datasets_of_interest": [
+        {
+            "https://api.cellxgene.cziscience.com/dp/v1/collections/065ad318-59fd-4f8c-b4b1-66caa7665409#Pringle_2$parotid%20gland": "UBERON:0000165"
+        },
+        {
+            "https://api.cellxgene.cziscience.com/dp/v1/collections/065ad318-59fd-4f8c-b4b1-66caa7665409#Horeth_Submandibular%20Gland%2015$submandibular%20gland": "UBERON:0000165"
+        },
+        {
+            "https://api.cellxgene.cziscience.com/dp/v1/collections/065ad318-59fd-4f8c-b4b1-66caa7665409#Horeth_Submandibular%20Gland%2012$submandibular%20gland": "UBERON:0000165"
+        },
+        {
+            "https://api.cellxgene.cziscience.com/dp/v1/collections/065ad318-59fd-4f8c-b4b1-66caa7665409#Pringle_1$parotid%20gland": "UBERON:0000165"
+        },
+        {
+            "https://api.cellxgene.cziscience.com/dp/v1/collections/065ad318-59fd-4f8c-b4b1-66caa7665409#Tabula%20Sapiens_TSP7$parotid%20gland": "UBERON:0000165"
+        },
+        {
+            "https://api.cellxgene.cziscience.com/dp/v1/collections/065ad318-59fd-4f8c-b4b1-66caa7665409#Tabula%20Sapiens_TSP14$parotid%20gland": "UBERON:0000165"
+        }
+    ]
+}

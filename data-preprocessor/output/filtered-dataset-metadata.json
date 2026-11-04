@@ -9055,6 +9055,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://doi.org/10.1126/science.abl4290#GTEX-15EOM-5003-SM-G64IH": [
@@ -9065,6 +9073,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/74e10dc4-cbb2-4605-a189-8a1cd8e44d8c#H02$liver": [
@@ -9658,11 +9674,11 @@
     "https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27876$pancreas": [
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -9670,59 +9686,59 @@
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -9730,27 +9746,27 @@
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27772$kidney": [
@@ -9974,11 +9990,11 @@
     "https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27948$pancreas": [
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -9986,59 +10002,59 @@
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -10046,27 +10062,27 @@
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/c114c20f-1ef4-49a5-9c2e-d965787fb90c#H27870$kidney": [
@@ -10118,67 +10134,67 @@
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -10186,27 +10202,27 @@
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/edb893ee-4066-4128-9aec-5eb2b03f8287#Maynard_Bivona_2020_TH266$liver": [
@@ -10289,6 +10305,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/43d4bb39-21af-4d05-b973-4c1fed7b916c#fore9$skin%20of%20prepuce%20of%20penis": [
@@ -10299,6 +10323,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/43d4bb39-21af-4d05-b973-4c1fed7b916c#fore12$skin%20of%20prepuce%20of%20penis": [
@@ -10309,6 +10341,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/43d4bb39-21af-4d05-b973-4c1fed7b916c#abd4$skin%20of%20trunk": [
@@ -10319,6 +10359,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/43d4bb39-21af-4d05-b973-4c1fed7b916c#br41epi$skin%20of%20trunk": [
@@ -10329,6 +10377,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/43d4bb39-21af-4d05-b973-4c1fed7b916c#br53epi$skin%20of%20trunk": [
@@ -10339,6 +10395,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/43d4bb39-21af-4d05-b973-4c1fed7b916c#s11$skin%20of%20scalp": [
@@ -10349,6 +10413,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/43d4bb39-21af-4d05-b973-4c1fed7b916c#scalp26$skin%20of%20scalp": [
@@ -10359,6 +10431,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/43d4bb39-21af-4d05-b973-4c1fed7b916c#scalp32$skin%20of%20scalp": [
@@ -10369,6 +10449,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/8e880741-bf9a-4c8e-9227-934204631d2a#donor_11$cortex%20of%20kidney": [
@@ -11953,6 +12041,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/a3ffde6c-7ad2-498a-903c-d58e732f7470#GTEX-15CHR$prostate%20gland": [
@@ -11993,6 +12089,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/a261413d-835b-4f1e-ab0c-dada55ea6afd#hb17$liver": [
@@ -12081,6 +12185,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/6d203948-a779-4b69-9b3f-1ee1dadc3980#subject_3$skin%20epidermis": [
@@ -12091,6 +12203,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/6d203948-a779-4b69-9b3f-1ee1dadc3980#subject_4$dermis": [
@@ -12101,6 +12221,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/6d203948-a779-4b69-9b3f-1ee1dadc3980#subject_4$skin%20epidermis": [
@@ -12111,6 +12239,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/6d203948-a779-4b69-9b3f-1ee1dadc3980#subject_2$skin%20of%20body": [
@@ -12121,6 +12257,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/6d203948-a779-4b69-9b3f-1ee1dadc3980#subject_1$skin%20of%20body": [
@@ -12131,6 +12275,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/125eef58-0f61-4963-9b08-53e851ab65fb#TxK4$cortex%20of%20kidney": [
@@ -12495,6 +12647,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/c353707f-09a4-4f12-92a0-cb741e57e5f0#S2$zone%20of%20skin": [
@@ -12505,6 +12665,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/c353707f-09a4-4f12-92a0-cb741e57e5f0#S3$zone%20of%20skin": [
@@ -12515,6 +12683,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/c353707f-09a4-4f12-92a0-cb741e57e5f0#S4$zone%20of%20skin": [
@@ -12525,6 +12701,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/c353707f-09a4-4f12-92a0-cb741e57e5f0#S5$zone%20of%20skin": [
@@ -12535,6 +12719,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor49$spleen": [
@@ -12730,59 +12922,59 @@
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -12790,27 +12982,27 @@
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor8$kidney": [
@@ -12908,35 +13100,35 @@
     "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor9$pancreas": [
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -12944,35 +13136,35 @@
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -12980,27 +13172,27 @@
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor12$liver": [
@@ -13032,43 +13224,43 @@
     "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor12$pancreas": [
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -13129,6 +13321,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor37$kidney": [
@@ -13214,19 +13414,19 @@
     "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor11$pancreas": [
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -13234,51 +13434,51 @@
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -13286,19 +13486,19 @@
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/38833785-fac5-48fd-944a-0f62a4c23ed1#Donor11$skin%20of%20body": [
@@ -13309,6 +13509,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/73f82ac8-15cc-4fcd-87f8-5683723fce7f#S4$dermis": [
@@ -13319,6 +13527,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/73f82ac8-15cc-4fcd-87f8-5683723fce7f#S4$skin%20epidermis": [
@@ -13329,6 +13545,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/73f82ac8-15cc-4fcd-87f8-5683723fce7f#S5$dermis": [
@@ -13339,6 +13563,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/73f82ac8-15cc-4fcd-87f8-5683723fce7f#S5$skin%20epidermis": [
@@ -13349,6 +13581,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/73f82ac8-15cc-4fcd-87f8-5683723fce7f#S1$dermis": [
@@ -13359,6 +13599,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/73f82ac8-15cc-4fcd-87f8-5683723fce7f#S1$skin%20epidermis": [
@@ -13369,6 +13617,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/73f82ac8-15cc-4fcd-87f8-5683723fce7f#S2$dermis": [
@@ -13379,6 +13635,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/73f82ac8-15cc-4fcd-87f8-5683723fce7f#S2$skin%20epidermis": [
@@ -13389,6 +13653,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/73f82ac8-15cc-4fcd-87f8-5683723fce7f#S3$dermis": [
@@ -13399,6 +13671,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/73f82ac8-15cc-4fcd-87f8-5683723fce7f#S3$skin%20epidermis": [
@@ -13409,6 +13689,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/62e8f058-9c37-48bc-9200-e767f318a8ec#RU779$liver": [
@@ -15646,27 +15934,27 @@
     "https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D28$pancreas": [
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -15674,59 +15962,59 @@
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -15734,45 +16022,45 @@
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D29$pancreas": [
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -15780,59 +16068,59 @@
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -15842,19 +16130,19 @@
     "https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D31$pancreas": [
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -15862,67 +16150,67 @@
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -15930,11 +16218,11 @@
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/6e8c5415-302c-492a-a5f9-f29c57ff18fb#D30$pancreas": [
@@ -15944,83 +16232,83 @@
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -16028,11 +16316,11 @@
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/e2a4a67f-6a18-431a-ab9c-6e77dd31cc80#D17$peripheral%20zone%20of%20prostate": [
@@ -24743,6 +25031,34 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        }
+    ],
+    "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_temple_A$skin%20of%20temple": [
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        }
+    ],
+    "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_scalp_A$skin%20of%20scalp": [
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_temple_B$skin%20of%20temple": [
@@ -24753,6 +25069,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_glabella_A$glabella%20skin": [
@@ -24763,6 +25087,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_cheek_A$skin%20of%20cheek": [
@@ -24773,6 +25105,24 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        }
+    ],
+    "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_forehead_B$skin%20of%20forehead": [
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#body_back_A$skin%20of%20back": [
@@ -24783,6 +25133,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_forehead_A$skin%20of%20forehead": [
@@ -24793,6 +25151,34 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        }
+    ],
+    "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#face_cheek_B$skin%20of%20cheek": [
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        }
+    ],
+    "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#body_breast_A$skin%20of%20breast": [
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#body_abdomen_A$skin%20of%20abdomen": [
@@ -24803,6 +25189,24 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        }
+    ],
+    "https://api.cellxgene.cziscience.com/dp/v1/collections/34f12de7-c5e5-4813-a136-832677f98ac8#body_thigh_A$upper%20leg%20skin": [
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$kidney": [
@@ -24843,6 +25247,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$skin%20of%20chest": [
@@ -24853,6 +25265,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP2$spleen": [
@@ -24905,6 +25325,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$skin%20of%20chest": [
@@ -24915,6 +25343,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP14$spleen": [
@@ -24956,35 +25392,35 @@
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -24992,11 +25428,11 @@
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP1$exocrine%20pancreas": [
@@ -25006,59 +25442,59 @@
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -25066,27 +25502,27 @@
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20abdomen": [
@@ -25097,6 +25533,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20body": [
@@ -25107,6 +25551,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP10$skin%20of%20chest": [
@@ -25117,6 +25569,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP7$spleen": [
@@ -25155,6 +25615,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP21$spleen": [
@@ -25228,11 +25696,11 @@
     "https://api.cellxgene.cziscience.com/dp/v1/collections/e5f58829-1a66-40b5-a624-9046778e74f5#TSP9$exocrine%20pancreas": [
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -25240,43 +25708,43 @@
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000173",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000171",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002064",
@@ -25284,19 +25752,19 @@
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0000169",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         },
         {
             "ct_iri": "CL:0002275",
-            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-endocrine-pancreas"
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/pancreas-islets-langerhans"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F45$kidney": [
@@ -25355,6 +25823,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F45$spleen": [
@@ -25371,6 +25847,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F51$spleen": [
@@ -25499,6 +25983,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F38$spleen": [
@@ -25563,6 +26055,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F29$liver": [
@@ -25605,6 +26105,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F69$spleen": [
@@ -25647,6 +26155,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F61$liver": [
@@ -25683,6 +26199,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F22$liver": [
@@ -25725,6 +26249,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F34$liver": [
@@ -25761,6 +26293,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F35$kidney": [
@@ -25815,6 +26355,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F19$liver": [
@@ -25843,6 +26391,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F50$skin%20of%20body": [
@@ -25853,6 +26409,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/b1a879f6-5638-48d3-8f64-f6592c1b1561#F50$spleen": [
@@ -25927,6 +26491,14 @@
         {
             "ct_iri": "CL:1000458",
             "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-epidermal-ridge"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
+        },
+        {
+            "ct_iri": "CL:0000115",
+            "ftu_purl": "https://purl.humanatlas.io/2d-ftu/skin-dermal-papilla"
         }
     ],
     "https://api.cellxgene.cziscience.com/dp/v1/collections/4d74781b-8186-4c9a-b659-ff4dc4601d91#337C$spleen": [
