@@ -57,6 +57,18 @@ def generate_ftu_report():
     for column in ["illustration", "asctb", "exclusive"]:
         df[f"cell_types_{column}"] = df.pop(column).apply(len)
 
+    # Organ labels come in mixed case from the source data (e.g., "kidney", "Small Intestine")
+    df["organ_label"] = df["organ_label"].str.title()
+    df = df.rename(
+        columns={
+            "ftu": "FTU",
+            "organ_label": "Organ label",
+            "cell_types_illustration": "Cell types in illustration",
+            "cell_types_asctb": "Cell types in ASCT+B",
+            "cell_types_exclusive": "Cell types exclusive",
+        }
+    )
+
     pprint(df)
 
     df.to_csv(f"{REPORTS_DIR}/cell_types_in_ftu_report.csv", index=False)

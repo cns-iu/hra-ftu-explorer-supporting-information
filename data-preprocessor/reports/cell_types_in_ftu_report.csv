@@ -1,28 +1,28 @@
-ftu,organ_label,cell_types_illustration,cell_types_asctb,cell_types_exclusive
+FTU,Organ label,Cell types in illustration,Cell types in ASCT+B,Cell types exclusive
 liver-liver-lobule,Liver,11,11,9
 pancreas-islets-langerhans,Pancreas,7,6,5
 pancreas-pancreatic-acinus,Pancreas,4,3,3
 pancreas-intercalated-duct,Pancreas,2,1,0
 small-intestine-villus,Small Intestine,15,15,1
-kidney-renal-corpuscle,kidney,9,4,4
-kidney-nephron,kidney,10,7,7
-kidney-descending-thin-loop-of-henle,kidney,2,1,1
-kidney-thick-ascending-loop-of-henle,kidney,2,1,1
-kidney-ascending-thin-loop-of-henle,kidney,2,1,1
-kidney-cortical-collecting-duct,kidney,3,2,0
-kidney-outer-medullary-collecting-duct,kidney,3,2,2
-kidney-inner-medullary-collecting-duct,kidney,2,1,1
-large-intestine-crypt-lieberkuhn,large intestine,5,5,0
-lung-pulmonary-alveolus,lung,6,5,0
-lung-bronchial-submucosal-gland,lung,6,6,0
-mouth-submandibular-gland,mouth,14,11,11
-mouth-parotid-gland,mouth,15,12,12
-mouth-sublingual-gland,mouth,12,10,10
-placenta-chorionic-terminal-villus,placenta,6,6,6
-prostate-prostate-glandular-acinus,prostate gland,9,7,7
-skin-dermal-papilla,skin,2,2,2
-skin-hair-follicle,skin,5,5,5
-skin-epidermal-ridge,skin,5,5,3
-spleen-red-pulp,spleen,10,6,5
-spleen-white-pulp,spleen,10,8,2
-thymus-thymus-lobule,thoracic thymus,13,11,8
+kidney-renal-corpuscle,Kidney,9,4,4
+kidney-nephron,Kidney,10,7,7
+kidney-descending-thin-loop-of-henle,Kidney,2,1,1
+kidney-thick-ascending-loop-of-henle,Kidney,2,1,1
+kidney-ascending-thin-loop-of-henle,Kidney,2,1,1
+kidney-cortical-collecting-duct,Kidney,3,2,0
+kidney-outer-medullary-collecting-duct,Kidney,3,2,2
+kidney-inner-medullary-collecting-duct,Kidney,2,1,1
+large-intestine-crypt-lieberkuhn,Large Intestine,5,5,0
+lung-pulmonary-alveolus,Lung,6,5,0
+lung-bronchial-submucosal-gland,Lung,6,6,0
+mouth-submandibular-gland,Mouth,14,11,11
+mouth-parotid-gland,Mouth,15,12,12
+mouth-sublingual-gland,Mouth,12,10,10
+placenta-chorionic-terminal-villus,Placenta,6,6,6
+prostate-prostate-glandular-acinus,Prostate Gland,9,7,7
+skin-dermal-papilla,Skin,2,2,2
+skin-hair-follicle,Skin,5,5,5
+skin-epidermal-ridge,Skin,5,5,3
+spleen-red-pulp,Spleen,10,6,5
+spleen-white-pulp,Spleen,10,8,2
+thymus-thymus-lobule,Thoracic Thymus,13,11,8
