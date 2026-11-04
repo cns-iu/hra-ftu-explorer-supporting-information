@@ -1,4 +1,4 @@
-ftu,cell_id,cell_label,cell_count,dataset_count
+FTU,Cell ID,Cell label,Cell count,Dataset count
 kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,259223,233
 kidney-inner-medullary-collecting-duct,CL:1000718,inner medullary collecting duct,683741,382
 kidney-nephron,CL:4030009,proximal tubule epithelial segment 1,502682,446

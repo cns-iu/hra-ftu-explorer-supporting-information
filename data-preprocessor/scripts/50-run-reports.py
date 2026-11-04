@@ -3,6 +3,37 @@ import numpy as np
 from shared import *
 
 
+# Sentence-case column headers for the manuscript, applied by save_report to every report CSV
+REPORT_COLUMN_NAMES = {
+    "ftu": "FTU",
+    "ftus": "FTUs",
+    "cell_id": "Cell ID",
+    "cell_label": "Cell label",
+    "cell_types": "Cell types",
+    "count": "Cell count",
+    "cell_count": "Cell count",
+    "dataset_count": "Dataset count",
+    "dataset_id": "Dataset ID",
+    "annotation_method": "Annotation method",
+    "dataset_removed_from_ftu": "Dataset removed from FTU",
+    "cell_count_in_ftu_explorer": "Cells in FTU Explorer",
+    "dataset_cell_count": "Cells in dataset",
+    "organ": "Organ",
+    "consortium_name": "Consortium",
+    "publication": "Publication",
+    "illustration_count": "Cell types in illustration",
+    "asctb_count": "Cell types in ASCT+B",
+    "shared_count": "Cell types in both",
+    "shared_ids": "Cell IDs in both",
+}
+
+
+def save_report(df: pd.DataFrame, filename: str):
+    """Saves df to REPORTS_DIR/filename with REPORT_COLUMN_NAMES headers"""
+    df.rename(columns=REPORT_COLUMN_NAMES).to_csv(f"{REPORTS_DIR}/{filename}", index=False)
+    print(f"{filename} successfully saved to {REPORTS_DIR}")
+
+
 def get_unique_cts_for_colliding_as():
     """_summary_"""
 
@@ -116,15 +147,15 @@ def visualize_bar_graph():
     df = df.sort_values("shared_count", ascending=False).reset_index(drop=True)
     columns = ["ftu", "illustration_count", "asctb_count", "shared_count", "shared_ids"]
     print(df[columns[:-1]].to_string(index=False))
-    df[columns].to_csv(f"{REPORTS_DIR}/celltype_counts_by_ftu.csv", index=False)
+    save_report(df[columns], "celltype_counts_by_ftu.csv")
 
     x = np.arange(len(df))
     width = 0.25
 
     fig, ax = plt.subplots(figsize=(max(8, len(df) * 0.5), 6))
-    ax.bar(x - width, df["illustration_count"], width, label="illustration_count")
-    ax.bar(x, df["asctb_count"], width, label="asctb_count")
-    ax.bar(x + width, df["shared_count"], width, label="shared_count")
+    ax.bar(x - width, df["illustration_count"], width, label="In illustration")
+    ax.bar(x, df["asctb_count"], width, label="In ASCT+B")
+    ax.bar(x + width, df["shared_count"], width, label="In both")
 
     ax.set_xticks(x)
     ax.set_xticklabels(df["ftu"], rotation=45, ha="right", fontsize=9)
@@ -204,8 +235,7 @@ def report_small_datasets(cell_counts: pd.DataFrame, threshold: int = 100):
     )
     pprint(small[["dataset_id", "ftus", "cell_count_in_ftu_explorer"]])
 
-    small.to_csv(f"{REPORTS_DIR}/datasets_under_{threshold}_cells.csv", index=False)
-    print(f"File successfully saved to {REPORTS_DIR}")
+    save_report(small, f"datasets_under_{threshold}_cells.csv")
 
 
 def load_cell_counts_without_min_cells_filter() -> pd.DataFrame:
@@ -276,8 +306,7 @@ def report_rare_cell_types_per_ftu(cell_counts: pd.DataFrame):
     )
     pprint(df.groupby(["ftu", "cell_label"]).size())
 
-    df.to_csv(f"{REPORTS_DIR}/cell_types_under_{threshold}_cells_per_ftu.csv", index=False)
-    print(f"File successfully saved to {REPORTS_DIR}")
+    save_report(df, f"cell_types_under_{threshold}_cells_per_ftu.csv")
 
 
 def report_cells_per_cell_type_per_ftu(cell_counts: pd.DataFrame):
@@ -296,8 +325,7 @@ def report_cells_per_cell_type_per_ftu(cell_counts: pd.DataFrame):
     )
     pprint(df)
 
-    df.to_csv(f"{REPORTS_DIR}/cells_per_cell_type_per_ftu.csv", index=False)
-    print(f"File successfully saved to {REPORTS_DIR}")
+    save_report(df, "cells_per_cell_type_per_ftu.csv")
 
 
 def report_totals_per_ftu(cell_counts: pd.DataFrame):

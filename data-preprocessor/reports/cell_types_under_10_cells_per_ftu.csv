@@ -1,4 +1,4 @@
-ftu,cell_id,cell_label,count,dataset_id,annotation_method,dataset_removed_from_ftu
+FTU,Cell ID,Cell label,Cell count,Dataset ID,Annotation method,Dataset removed from FTU
 kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#163-3$kidney,azimuth,True
 kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#18-162$renal%20medulla,azimuth,True
 kidney-ascending-thin-loop-of-henle,CL:1001107,ascending thin limb,2,https://api.cellxgene.cziscience.com/dp/v1/collections/0f528c8a-a25c-4840-8fa3-d156fa11086f#28-12263$kidney,azimuth,True
