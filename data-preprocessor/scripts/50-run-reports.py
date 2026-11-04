@@ -368,6 +368,84 @@ def report_totals_per_ftu(cell_counts: pd.DataFrame):
         )
 
 
+def report_ftu_funnel(cell_counts: pd.DataFrame):
+    """Saves ftu_funnel_per_ftu.csv: one row per FTU (and a total row) going from all datasets of the FTU's
+    organ to what the FTU Explorer shows: datasets from the organ (every source's datasets of interest, minus
+    excluded datasets) and their cells, CTs in the illustration, CTs exclusive to the FTU, and the datasets and
+    cells shown in the FTU Explorer (see load_ftu_explorer_cell_counts). The oral cavity datasets count for
+    every mouth FTU, because their organ is mouth. The total row counts each dataset and CT once"""
+
+    datasets_of_interest_files = [
+        DATASETS_OF_INTEREST,
+        ANATOMOGRAM_DATASETS_OF_INTEREST,
+        ORAL_CAVITY_DATASETS_OF_INTEREST,
+    ]
+    datasets_by_organ = defaultdict(set)
+    for path in datasets_of_interest_files:
+        for entry in load_json(path)["datasets_of_interest"]:
+            for dataset_id, organ_id in entry.items():
+                if not is_excluded_dataset(dataset_id):
+                    datasets_by_organ[organ_id].add(dataset_id)
+
+    metadata = load_dataset_metadata()
+    cells_by_dataset = (
+        pd.to_numeric(metadata["dataset_cell_count"], errors="coerce")
+        .fillna(0)
+        .astype(int)
+        .set_axis(metadata["dataset_id"])
+        .to_dict()
+    )
+    missing = set().union(*datasets_by_organ.values()) - set(cells_by_dataset)
+    if missing:
+        print(f"⚠️ {len(missing)} datasets of interest have no cell count in the metadata")
+
+    with open(CELL_TYPES_IN_FTUS, "r", encoding="utf-8") as f:
+        organ_by_ftu = {
+            ftu["ftu_purl"].rstrip("/").split("/")[-1]: ftu["organ_id_short"]
+            for ftu in json.load(f).values()
+        }
+    ct_sets = load_ct_sets_per_ftu()
+
+    def row(ftu, organ_datasets, illustration, exclusive, shown):
+        return {
+            "FTU": ftu,
+            "Datasets from organ": len(organ_datasets),
+            "Cells in datasets from organ": sum(cells_by_dataset.get(d, 0) for d in organ_datasets),
+            "Cell types in illustration": len(illustration),
+            "Cell types exclusive": len(exclusive),
+            "Datasets in FTU Explorer": shown["dataset_id"].nunique(),
+            "Cells in FTU Explorer": int(shown.drop_duplicates(["dataset_id", "cell_id"])["count"].sum()),
+        }
+
+    rows = [
+        row(
+            ftu.ftu,
+            datasets_by_organ.get(organ_by_ftu[ftu.ftu], set()),
+            ftu.illustration,
+            ftu.exclusive,
+            cell_counts[cell_counts["ftu"] == ftu.ftu],
+        )
+        for ftu in ct_sets.itertuples(index=False)
+    ]
+    rows.append(
+        row(
+            "Total",
+            set().union(*(datasets_by_organ.get(o, set()) for o in set(organ_by_ftu.values()))),
+            set().union(*ct_sets["illustration"]),
+            set().union(*ct_sets["exclusive"]),
+            cell_counts,
+        )
+    )
+    report = pd.DataFrame(rows)
+    print(report.to_string(index=False))
+
+    # Thousands separators for the manuscript (pandas quotes these cells in the CSV)
+    for column in report.columns[1:]:
+        report[column] = report[column].map("{:,}".format)
+    report.to_csv(f"{REPORTS_DIR}/ftu_funnel_per_ftu.csv", index=False)
+    print(f"File successfully saved to {REPORTS_DIR}")
+
+
 def main():
     # Driver code
 
@@ -382,6 +460,7 @@ def main():
     report_rare_cell_types_per_ftu(cell_counts)
     report_cells_per_cell_type_per_ftu(cell_counts)
     report_totals_per_ftu(cell_counts)
+    report_ftu_funnel(cell_counts)
 
 
 if __name__ == "__main__":
