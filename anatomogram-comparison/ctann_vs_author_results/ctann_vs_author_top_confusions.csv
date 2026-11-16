@@ -1,0 +1,101 @@
+tool,rank,count,author_cell_id,author_cell_label,pred_cell_id,pred_cell_label
+celltypist,1,2251,CL:1000398,endothelial cell of hepatic sinusoid,CL:0000115,Endothelial cells
+celltypist,2,1418,CL:0000084,T cell,CL:4047101,Resident NK
+celltypist,3,1148,CL:0000084,T cell,CL:0000814,Circulating NK/NKT
+celltypist,4,859,CL:0000235,macrophage,CL:0000763,Mono+mono derived cells
+celltypist,5,706,CL:1001603,lung macrophage,CL:0000583,Alveolar macrophages
+celltypist,6,615,CL:0000091,Kupffer cell,CL:0000235,Macrophages
+celltypist,7,481,CL:0000623,natural killer cell,CL:0000084,T cells
+celltypist,8,379,CL:0000235,macrophage,CL:0002399,cDC2s
+celltypist,9,250,CL:0000623,natural killer cell,CL:0000814,Circulating NK/NKT
+celltypist,10,235,CL:0002079,pancreatic ductal cell,CL:0000173,delta
+celltypist,11,187,CL:0000623,natural killer cell,CL:4047101,Resident NK
+celltypist,12,185,CL:1001603,lung macrophage,CL:0000860,Classical monocytes
+celltypist,13,159,CL:1000271,lung ciliated cell,CL:0005012,Multiciliated (non-nasal)
+celltypist,14,134,CL:0000235,macrophage,CL:0000775,Neutrophils
+celltypist,15,133,CL:0000182,hepatocyte,CL:0000084,T cells
+celltypist,16,130,CL:0002079,pancreatic ductal cell,CL:0000171,alpha_immature
+celltypist,17,130,CL:0000235,macrophage,CL:0002394,cDC1s
+celltypist,18,94,CL:0000084,T cell,CL:0000624,CD4 T cells
+celltypist,19,93,CL:0000236,B cell,CL:0000860,Classical monocytes
+celltypist,20,88,CL:0000236,B cell,CL:0000784,pDCs
+celltypist,21,75,CL:0000622,acinar cell,CL:0000173,delta
+celltypist,22,73,CL:1001603,lung macrophage,CL:0000875,Non-classical monocytes
+celltypist,23,73,CL:0000622,acinar cell,CL:0000171,alpha_immature
+celltypist,24,71,CL:1001603,lung macrophage,CL:0002399,DC2
+celltypist,25,68,CL:0000236,B cell,CL:0002063,AT2
+azimuth,1,4493,CL:0002306,epithelial cell of proximal tubule,CL:4030009,Proximal Tubule Epithelial Segment 1
+azimuth,2,4121,CL:1001106,kidney loop of Henle thick ascending limb epithelial cell,CL:1001109,Cortical Thick Ascending Limb
+azimuth,3,2944,CL:1000849,kidney distal convoluted tubule epithelial cell,CL:4030016,Distal Convoluted Tubule Type 1
+azimuth,4,1046,CL:0005011,renal alpha-intercalated cell,CL:4030015,Cortical Collecting Duct Intercalated Type A
+azimuth,5,664,CL:1001603,lung macrophage,CL:0000583,Alveolar macrophages
+azimuth,6,604,CL:0005009,renal principal cell,CL:4030018,Connecting Tubule Principal
+azimuth,7,502,CL:1000892,kidney capillary endothelial cell,CL:1001033,Peritubular Capilary Endothelial
+azimuth,8,462,CL:1000768,kidney connecting tubule epithelial cell,CL:4030018,Connecting Tubule Principal
+azimuth,9,375,CL:0002306,epithelial cell of proximal tubule,CL:4030013,Descending Thin Limb Type 2
+azimuth,10,289,CL:0002306,epithelial cell of proximal tubule,CL:4030011,Proximal Tubule Epithelial Segment 3
+azimuth,11,283,CL:0005009,renal principal cell,CL:1000714,Cortical Collecting Duct Principal
+azimuth,12,267,CL:1000892,kidney capillary endothelial cell,CL:1001005,Glomerular Capillary Endothelial
+azimuth,13,248,CL:0002306,epithelial cell of proximal tubule,CL:4030010,Proximal Tubule Epithelial Segment 2
+azimuth,14,195,CL:1000849,kidney distal convoluted tubule epithelial cell,CL:4030017,Distal Convoluted Tubule Type 2
+azimuth,15,183,CL:1001603,lung macrophage,CL:0000860,Classical monocytes
+azimuth,16,173,CL:0000622,acinar cell,CL:0002064,acinar
+azimuth,17,170,CL:1000271,lung ciliated cell,CL:0002145,Multiciliated (non-nasal)
+azimuth,18,154,CL:1001106,kidney loop of Henle thick ascending limb epithelial cell,CL:1000850,Macula Densa
+azimuth,19,132,CL:1000892,kidney capillary endothelial cell,CL:1000412,Afferent / Efferent Arteriole Endothelial
+azimuth,20,116,CL:0000777,mesangial cell,CL:0000359,Cortical Vascular Smooth Muscle / Pericyte
+azimuth,21,114,CL:0000057,fibroblast,CL:1000692,Fibroblast
+azimuth,22,108,CL:0000084,T cell,CL:0000624,CD4 T cells
+azimuth,23,96,CL:0000777,mesangial cell,CL:0000650,Mesangial
+azimuth,24,90,CL:1001603,lung macrophage,CL:0002399,DC2
+azimuth,25,87,CL:1001603,lung macrophage,CL:0000875,Non-classical monocytes
+pan-human-azimuth,1,1825,CL:0002306,epithelial cell of proximal tubule,CL:0000939,CD16 NK cell
+pan-human-azimuth,2,1482,CL:1000398,endothelial cell of hepatic sinusoid,CL:0002144,Capillary EC
+pan-human-azimuth,3,1137,CL:0000084,T cell,CL:0000939,CD16 NK cell
+pan-human-azimuth,4,1116,CL:0000084,T cell,CL:0000897,Memory CD4 T cell
+pan-human-azimuth,5,694,CL:1001106,kidney loop of Henle thick ascending limb epithelial cell,CL:0000939,CD16 NK cell
+pan-human-azimuth,6,674,CL:0000084,T cell,CL:0000938,CD56 NK cell
+pan-human-azimuth,7,573,CL:0000084,T cell,CL:0000895,Naive CD4 T cell
+pan-human-azimuth,8,448,CL:1001603,lung macrophage,CL:0000583,Alveolar macrophage
+pan-human-azimuth,9,305,CL:1000452,parietal epithelial cell,CL:0000939,CD16 NK cell
+pan-human-azimuth,10,281,CL:0000084,T cell,CL:0000909,GZMB CD8 T cell
+pan-human-azimuth,11,277,CL:0000091,Kupffer cell,CL:0000863,M1 macrophage
+pan-human-azimuth,12,239,CL:0000623,natural killer cell,CL:0000939,CD16 NK cell
+pan-human-azimuth,13,238,CL:0000235,macrophage,CL:0002399,cDC2
+pan-human-azimuth,14,226,CL:0002306,epithelial cell of proximal tubule,CL:0000786,Plasma cell
+pan-human-azimuth,15,197,CL:0000235,macrophage,CL:0000863,M1 macrophage
+pan-human-azimuth,16,175,CL:0000622,acinar cell,CL:0002064,Acinar cell
+pan-human-azimuth,17,167,CL:0000236,B cell,CL:0000788,Naive B cell
+pan-human-azimuth,18,147,CL:0000623,natural killer cell,CL:0000897,Memory CD4 T cell
+pan-human-azimuth,19,140,CL:1000398,endothelial cell of hepatic sinusoid,CL:0002543,Venous EC
+pan-human-azimuth,20,139,CL:1001106,kidney loop of Henle thick ascending limb epithelial cell,CL:0000786,Plasma cell
+pan-human-azimuth,21,137,CL:0000084,T cell,CL:4052021,GZMK CD8 T cell
+pan-human-azimuth,22,108,CL:0000171,pancreatic A cell,CL:0002586,Retinal pigment epithelial cell
+pan-human-azimuth,23,106,CL:0000173,pancreatic D cell,CL:0002267,Delta cell
+pan-human-azimuth,24,96,CL:1000849,kidney distal convoluted tubule epithelial cell,CL:0000939,CD16 NK cell
+pan-human-azimuth,25,96,CL:0000235,macrophage,CL:0001054,CD14 monocyte
+popv,1,3794,CL:0000084,T cell,CL:0000814,mature NK T cell
+popv,2,668,CL:0000235,macrophage,CL:0000576,monocyte
+popv,3,667,CL:0000623,natural killer cell,CL:0000814,mature NK T cell
+popv,4,623,CL:0000235,macrophage,CL:2000055,liver dendritic cell
+popv,5,614,CL:0000091,Kupffer cell,CL:0000235,macrophage
+popv,6,310,CL:0000236,B cell,CL:0000786,plasma cell
+popv,7,301,CL:1000488,cholangiocyte,CL:0002538,intrahepatic cholangiocyte
+popv,8,280,CL:0000623,natural killer cell,CL:0000084,T cell
+popv,9,235,CL:0000097,mast cell,CL:0000767,basophil
+popv,10,220,CL:1001603,lung macrophage,CL:0000860,classical monocyte
+popv,11,141,CL:0000182,hepatocyte,CL:0000775,neutrophil
+popv,12,135,CL:0000622,acinar cell,CL:0002064,pancreatic acinar cell
+popv,13,97,CL:0000084,T cell,CL:0000624,"CD4-positive, alpha-beta T cell"
+popv,14,87,CL:1001603,lung macrophage,CL:0000451,dendritic cell
+popv,15,87,CL:0000236,B cell,CL:2000055,liver dendritic cell
+popv,16,84,CL:0000236,B cell,CL:0000860,classical monocyte
+popv,17,70,CL:0000236,B cell,CL:0002063,type II pneumocyte
+popv,18,66,CL:0000084,T cell,CL:0000775,neutrophil
+popv,19,64,CL:0000542,lymphocyte,CL:0009086,endothelial cell of lymphatic vessel
+popv,20,64,CL:0000173,pancreatic D cell,CL:0000169,type B pancreatic cell
+popv,21,62,CL:0000084,T cell,CL:0000625,"CD8-positive, alpha-beta T cell"
+popv,22,57,CL:1000398,endothelial cell of hepatic sinusoid,CL:0000814,mature NK T cell
+popv,23,55,CL:1000398,endothelial cell of hepatic sinusoid,CL:0000235,macrophage
+popv,24,54,ASCTB-TEMP:cycling-cell,cycling cell,CL:0000814,mature NK T cell
+popv,25,46,CL:0000622,acinar cell,CL:0002079,pancreatic ductal cell
