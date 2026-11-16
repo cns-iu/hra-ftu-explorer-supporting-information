@@ -61,6 +61,7 @@ There is no `30-*` or `60-*` script — `data-preprocessor/ftu2-pseudo-code.md` 
 
 - `data-preprocessor/CLAUDE.md`: the output JSON-LD contract hra-ui expects, the minimum-cells rule, and duplicate-dataset exclusions.
 - `analysis/general-analysis/CLAUDE.md`: setup and conventions for the standalone paper-analysis scripts.
+- `analysis/overlap-analysis/CLAUDE.md`: the CL ID overlap pipeline (2D FTU crosswalk vs. the Azimuth/CellTypist/popV/FR-Match CTann crosswalks). Covers the input file formats and the UpSetPlot/pandas 3 incompatibility.
 
 ## Domain notes worth knowing before editing the pipeline
 
