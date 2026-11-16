@@ -1,0 +1,21 @@
+cell_id,cell_label,Anatomogram author,HRApop - CellTypist,HRApop - Azimuth,HRApop - popV
+CL:0000084,T cell,7854,237807.0,173833.0,184117.0
+CL:0002306,epithelial cell of proximal tubule,5481,0.0,0.0,0.0
+CL:1001106,kidney loop of Henle thick ascending limb epithelial cell,4431,0.0,0.0,0.0
+CL:1000849,kidney distal convoluted tubule epithelial cell,3249,0.0,0.0,0.0
+CL:1000398,endothelial cell of hepatic sinusoid,2337,0.0,0.0,38465.0
+CL:1000768,kidney connecting tubule epithelial cell,1805,0.0,522267.0,0.0
+CL:0000235,macrophage,1635,307715.0,119759.0,974278.0
+CL:1001603,lung macrophage,1180,265774.0,0.0,0.0
+CL:0005011,renal alpha-intercalated cell,1107,0.0,0.0,0.0
+CL:0005009,renal principal cell,1022,0.0,0.0,0.0
+CL:1000892,kidney capillary endothelial cell,1008,0.0,0.0,0.0
+CL:0000623,natural killer cell,975,206592.0,967029.0,0.0
+CL:0000171,pancreatic A cell,857,9862.0,2107.0,2522.0
+CL:0000182,hepatocyte,802,167206.0,0.0,130233.0
+CL:0000236,B cell,677,96036.0,238825.0,210189.0
+CL:0000091,Kupffer cell,623,0.0,0.0,0.0
+CL:1000452,parietal epithelial cell,551,0.0,111401.0,0.0
+CL:0002063,type II pneumocyte,494,843263.0,590881.0,780140.0
+CL:0000653,glomerular visceral epithelial cell,463,0.0,60635.0,0.0
+CL:0002079,pancreatic ductal cell,380,0.0,8724.0,11607.0

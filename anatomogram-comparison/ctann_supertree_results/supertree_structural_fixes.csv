@@ -1,0 +1,7 @@
+row_index,column,old_value,new_value,reason
+269,AS/9,CL:0002404,fetal thymocyte,detected shifted label/ID
+269,AS/9/ID,fetal thymocyte,CL:0002404,detected shifted label/ID
+269,AS/9/LABEL,,fetal thymocyte,aligned duplicate label after shift
+878,AS/4/ID,,CL:0000499,unique ID inferred within supertree
+7,AS/5/ID,epithelial cell of lower respiratory tract,CL:0002632,unique ID inferred within supertree
+122,AS/6/ID,,CL:0000169,unique ID inferred within supertree
