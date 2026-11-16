@@ -20,6 +20,11 @@ from upsetplot import UpSet, from_contents
 from shared import DOWNLOADS, REPORTS_DIR, download_path
 
 plt.rcParams["font.family"] = "Arial"
+# Title: 2x matplotlib's default figure title ("large" = 12 pt at the default 10 pt base size).
+# Computed before scaling the base size below, so the title stays 2x the original default
+TITLE_PT = 2 * FontProperties(size=plt.rcParams["figure.titlesize"]).get_size_in_points()
+# All other text (axis labels, tick labels, file names, bar counts): 1.5x the default base size
+plt.rcParams["font.size"] = 1.5 * plt.rcParams["font.size"]
 
 # The 2D FTU crosswalk CSV has 11 metadata lines (title, authors, DOI, ...) before the header row
 FTU_CROSSWALK_METADATA_ROWS = 11
@@ -93,9 +98,7 @@ upset = UpSet(
 axes = upset.plot(fig=fig)
 axes["intersections"].bar_label(axes["intersections"].containers[0])
 axes["totals"].bar_label(axes["totals"].containers[0], padding=2)
-# Default figure title size is "large" (12 pt at the default 10 pt base size); double it
-default_title_pt = FontProperties(size=plt.rcParams["figure.titlesize"]).get_size_in_points()
-fig.suptitle(f"Overlap in unique CL IDs ({len(all_ids)} in total)", fontsize=2 * default_title_pt)
+fig.suptitle(f"Overlap in unique CL IDs ({len(all_ids)} in total)", fontsize=TITLE_PT)
 out_png = REPORTS_DIR / "upset-cl-id-overlap.png"
 fig.savefig(out_png, dpi=600, bbox_inches="tight")
 plt.close(fig)
