@@ -1,0 +1,27 @@
+files,2D FTU crosswalk,Azimuth crosswalk,CellTypist crosswalk,popV crosswalk,FR-Match crosswalk,cl_id_count
+Azimuth crosswalk,False,True,False,False,False,114
+CellTypist crosswalk,False,False,True,False,False,85
+Azimuth crosswalk & CellTypist crosswalk,False,True,True,False,False,67
+2D FTU crosswalk,True,False,False,False,False,60
+popV crosswalk,False,False,False,True,False,60
+2D FTU crosswalk & Azimuth crosswalk & CellTypist crosswalk,True,True,True,False,False,21
+Azimuth crosswalk & CellTypist crosswalk & popV crosswalk,False,True,True,True,False,21
+2D FTU crosswalk & Azimuth crosswalk & CellTypist crosswalk & popV crosswalk,True,True,True,True,False,17
+2D FTU crosswalk & Azimuth crosswalk & CellTypist crosswalk & popV crosswalk & FR-Match crosswalk,True,True,True,True,True,14
+Azimuth crosswalk & CellTypist crosswalk & popV crosswalk & FR-Match crosswalk,False,True,True,True,True,12
+Azimuth crosswalk & popV crosswalk,False,True,False,True,False,12
+Azimuth crosswalk & CellTypist crosswalk & FR-Match crosswalk,False,True,True,False,True,11
+CellTypist crosswalk & popV crosswalk,False,False,True,True,False,10
+2D FTU crosswalk & Azimuth crosswalk,True,True,False,False,False,9
+FR-Match crosswalk,False,False,False,False,True,7
+2D FTU crosswalk & CellTypist crosswalk,True,False,True,False,False,5
+2D FTU crosswalk & popV crosswalk,True,False,False,True,False,4
+Azimuth crosswalk & FR-Match crosswalk,False,True,False,False,True,2
+2D FTU crosswalk & CellTypist crosswalk & popV crosswalk,True,False,True,True,False,2
+2D FTU crosswalk & Azimuth crosswalk & popV crosswalk,True,True,False,True,False,2
+CellTypist crosswalk & FR-Match crosswalk,False,False,True,False,True,2
+Azimuth crosswalk & popV crosswalk & FR-Match crosswalk,False,True,False,True,True,1
+2D FTU crosswalk & Azimuth crosswalk & FR-Match crosswalk,True,True,False,False,True,1
+2D FTU crosswalk & Azimuth crosswalk & popV crosswalk & FR-Match crosswalk,True,True,False,True,True,1
+2D FTU crosswalk & Azimuth crosswalk & CellTypist crosswalk & FR-Match crosswalk,True,True,True,False,True,1
+popV crosswalk & FR-Match crosswalk,False,False,False,True,True,1

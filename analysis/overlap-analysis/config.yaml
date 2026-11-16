@@ -1,0 +1,35 @@
+# Inputs for the overlap analysis. scripts/10-download-files.py saves each one to raw-data/<filename>
+# format: how later stages read CL IDs from the file (ftu-crosswalk-csv: OntologyID column; ctann-json: data.mappings[].object_id)
+# accept: the HTTP Accept header to send; the CTann PURLs return the processed digital object as JSON only when asked for application/json
+
+downloads:
+  ftu-2d-crosswalk:
+    label: 2D FTU crosswalk
+    url: https://cdn.humanatlas.io/digital-objects/2d-ftu/asct-b-2d-models-crosswalk/v1.6/assets/asct-b-2d-models-crosswalk.csv
+    accept: text/csv
+    format: ftu-crosswalk-csv
+    filename: asct-b-2d-models-crosswalk.csv
+  azimuth-crosswalk:
+    label: Azimuth crosswalk
+    url: https://purl.humanatlas.io/ctann/azimuth
+    accept: application/json
+    format: ctann-json
+    filename: ctann-azimuth.json
+  celltypist-crosswalk:
+    label: CellTypist crosswalk
+    url: https://purl.humanatlas.io/ctann/celltypist
+    accept: application/json
+    format: ctann-json
+    filename: ctann-celltypist.json
+  popv-crosswalk:
+    label: popV crosswalk
+    url: https://purl.humanatlas.io/ctann/popv
+    accept: application/json
+    format: ctann-json
+    filename: ctann-popv.json
+  frmatch-crosswalk:
+    label: FR-Match crosswalk
+    url: https://purl.humanatlas.io/ctann/frmatch
+    accept: application/json
+    format: ctann-json
+    filename: ctann-frmatch.json

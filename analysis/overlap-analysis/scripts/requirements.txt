@@ -1,0 +1,7 @@
+requests
+pyyaml
+tqdm
+# UpSetPlot 0.9.0 uses chained inplace fillna, which pandas 3 (copy-on-write) silently ignores, crashing the plot
+pandas<3
+matplotlib
+upsetplot
