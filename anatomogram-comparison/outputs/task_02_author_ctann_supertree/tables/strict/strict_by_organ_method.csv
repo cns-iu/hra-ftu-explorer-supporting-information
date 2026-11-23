@@ -1,0 +1,17 @@
+annotation_method,method_label,organ_label,status,applicable_author_cells,paired_cells,pairing_coverage,strict_eligible_cells,exact_cl_id_matches,exact_agreement,provisional_author_cells_in_pairs
+celltypist,CellTypist,Kidney,not_run,0,0,,0,0,,0
+celltypist,CellTypist,Liver,available,15000,15000,1.0,14898,6523,0.43784400590683314,102
+celltypist,CellTypist,Lung,available,3202,3202,1.0,3022,928,0.3070814030443415,180
+celltypist,CellTypist,Pancreas,available,2109,2109,1.0,2073,1388,0.6695610226724554,36
+azimuth,Azimuth,Kidney,available,19974,19974,1.0,19974,2634,0.13187143286272154,0
+azimuth,Azimuth,Liver,not_run,0,0,,0,0,,0
+azimuth,Azimuth,Lung,available,3202,3202,1.0,3022,946,0.3130377233620119,180
+azimuth,Azimuth,Pancreas,available,2109,2109,1.0,2073,1847,0.8909792571152918,36
+popv,popV,Kidney,not_run,0,0,,0,0,,0
+popv,popV,Liver,available,15000,15000,1.0,14898,7065,0.47422472815142974,102
+popv,popV,Lung,available,3202,3202,1.0,3022,1567,0.5185307743216413,180
+popv,popV,Pancreas,available,2109,2109,1.0,2073,1752,0.8451519536903039,36
+frmatch,FR-Match,Kidney,not_run,0,0,,0,0,,0
+frmatch,FR-Match,Liver,not_run,0,0,,0,0,,0
+frmatch,FR-Match,Lung,unavailable_identifier_crosswalk,3202,0,,0,0,,0
+frmatch,FR-Match,Pancreas,not_run,0,0,,0,0,,0

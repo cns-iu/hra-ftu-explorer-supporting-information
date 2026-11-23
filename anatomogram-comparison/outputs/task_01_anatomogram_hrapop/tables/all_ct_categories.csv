@@ -1,0 +1,188 @@
+accession,organ_label,cell_id,cell_label,category,total_cell_count,max_source_cell_count,number_of_sources
+E-CURD-119,Kidney,CL:1000768,kidney connecting tubule epithelial cell,Shared,3911,2106,2
+E-CURD-119,Kidney,CL:1000452,parietal epithelial cell,Shared,1279,728,2
+E-CURD-119,Kidney,CL:0000653,glomerular visceral epithelial cell,Shared,1001,538,2
+E-CURD-119,Kidney,CL:0002201,renal beta-intercalated cell,Shared,821,472,2
+E-CURD-119,Kidney,CL:0002306,epithelial cell of proximal tubule,Anatomogram only,5481,5481,1
+E-CURD-119,Kidney,CL:1001106,kidney loop of Henle thick ascending limb epithelial cell,Anatomogram only,4431,4431,1
+E-CURD-119,Kidney,CL:1000849,kidney distal convoluted tubule epithelial cell,Anatomogram only,3249,3249,1
+E-CURD-119,Kidney,CL:0005011,renal alpha-intercalated cell,Anatomogram only,1107,1107,1
+E-CURD-119,Kidney,CL:0005009,renal principal cell,Anatomogram only,1022,1022,1
+E-CURD-119,Kidney,CL:1000892,kidney capillary endothelial cell,Anatomogram only,1008,1008,1
+E-CURD-119,Kidney,CL:0000777,mesangial cell,Anatomogram only,239,239,1
+E-CURD-119,Kidney,CL:0000057,fibroblast,Anatomogram only,206,206,1
+E-CURD-119,Kidney,CL:0000738,leukocyte,Anatomogram only,63,63,1
+E-CURD-119,Kidney,CL:4030009,Proximal Tubule Epithelial Segment 1,HRApop only,7693,7693,1
+E-CURD-119,Kidney,CL:1001109,Cortical Thick Ascending Limb,HRApop only,5472,5472,1
+E-CURD-119,Kidney,CL:4030016,Distal Convoluted Tubule Type 1,HRApop only,4016,4016,1
+E-CURD-119,Kidney,CL:1000547,Inner Medullary Collecting Duct,HRApop only,1630,1630,1
+E-CURD-119,Kidney,CL:4030015,Cortical Collecting Duct Intercalated Type A,HRApop only,1368,1368,1
+E-CURD-119,Kidney,CL:4030018,Connecting Tubule Principal,HRApop only,1354,1354,1
+E-CURD-119,Kidney,CL:4030011,Proximal Tubule Epithelial Segment 3,HRApop only,883,883,1
+E-CURD-119,Kidney,CL:1001033,Peritubular Capilary Endothelial,HRApop only,807,807,1
+E-CURD-119,Kidney,CL:4030013,Descending Thin Limb Type 2,HRApop only,691,691,1
+E-CURD-119,Kidney,CL:1000714,Cortical Collecting Duct Principal,HRApop only,414,414,1
+E-CURD-119,Kidney,CL:4030010,Proximal Tubule Epithelial Segment 2,HRApop only,337,337,1
+E-CURD-119,Kidney,CL:1001005,Glomerular Capillary Endothelial,HRApop only,303,303,1
+E-CURD-119,Kidney,CL:4030017,Distal Convoluted Tubule Type 2,HRApop only,254,254,1
+E-CURD-119,Kidney,CL:1000850,Macula Densa,HRApop only,203,203,1
+E-CURD-119,Kidney,CL:1000692,Fibroblast,HRApop only,167,167,1
+E-CURD-119,Kidney,CL:1000412,Afferent / Efferent Arteriole Endothelial,HRApop only,158,158,1
+E-CURD-119,Kidney,CL:0000359,Cortical Vascular Smooth Muscle / Pericyte,HRApop only,148,148,1
+E-CURD-119,Kidney,CL:4030020,Connecting Tubule Intercalated Type A,HRApop only,134,134,1
+E-CURD-119,Kidney,CL:4030014,Descending Thin Limb Type 3,HRApop only,123,123,1
+E-CURD-119,Kidney,CL:0000650,Mesangial,HRApop only,115,115,1
+E-CURD-119,Kidney,CL:1001108,Medullary Thick Ascending Limb,HRApop only,83,83,1
+E-CURD-119,Kidney,CL:4030022,Medullary Fibroblast,HRApop only,74,74,1
+E-CURD-119,Kidney,CL:1000716,Outer Medullary Collecting Duct Principal,HRApop only,71,71,1
+E-CURD-119,Kidney,CL:1001107,Ascending Thin Limb,HRApop only,69,69,1
+E-CURD-119,Kidney,CL:0000890,M2 Macrophage,HRApop only,34,34,1
+E-CURD-119,Kidney,CL:0000084,T,HRApop only,32,32,1
+E-CURD-119,Kidney,CL:0011031,Monocyte-derived,HRApop only,29,29,1
+E-CURD-119,Kidney,CL:0002138,Lymphatic Endothelial,HRApop only,22,22,1
+E-CURD-119,Kidney,CL:0000648,Renin-positive Juxtaglomerular Granular,HRApop only,16,16,1
+E-CURD-119,Kidney,CL:4030012,Descending Thin Limb Type 1,HRApop only,12,12,1
+E-CURD-119,Kidney,CL:1001285,Descending Vasa Recta Endothelial,HRApop only,11,11,1
+E-CURD-119,Kidney,CL:0000875,Non-classical monocyte,HRApop only,7,7,1
+E-CURD-119,Kidney,CL:0000990,Classical Dendritic,HRApop only,4,4,1
+E-CURD-119,Kidney,CL:0000236,B,HRApop only,3,3,1
+E-CURD-119,Kidney,CL:0000814,Natural Killer T,HRApop only,3,3,1
+E-CURD-119,Kidney,CL:0002573,Schwann / Neural,HRApop only,2,2,1
+E-CURD-119,Kidney,CL:1000717,Outer Medullary Collecting Duct Intercalated Type A,HRApop only,2,2,1
+E-CURD-119,Kidney,CL:1001131,Ascending Vasa Recta Endothelial,HRApop only,1,1,1
+E-MTAB-10553,Liver,CL:0000084,T cell,Shared,18036,7676,3
+E-MTAB-10553,Liver,CL:1000398,endothelial cell of hepatic sinusoid,Shared,4623,2337,2
+E-MTAB-10553,Liver,CL:0000182,hepatocyte,Shared,4469,1901,3
+E-MTAB-10553,Liver,CL:0000235,macrophage,Shared,3517,1635,3
+E-MTAB-10553,Liver,CL:0000786,plasma cell,Shared,769,441,3
+E-MTAB-10553,Liver,CL:0000236,B cell,Shared,744,405,2
+E-MTAB-10553,Liver,CL:1000488,cholangiocyte,Shared,679,370,2
+E-MTAB-10553,Liver,CL:0000623,natural killer cell,Anatomogram only,919,919,1
+E-MTAB-10553,Liver,CL:0000091,Kupffer cell,Anatomogram only,623,623,1
+E-MTAB-10553,Liver,CL:0000037,hematopoietic stem cell,Anatomogram only,27,27,1
+E-MTAB-10553,Liver,CL:0000077,mesothelial cell,Anatomogram only,1,1,1
+E-MTAB-10553,Liver,CL:0000814,Circulating NK/NKT,HRApop only,6110,4673,2
+E-MTAB-10553,Liver,CL:0000115,Endothelial cells,HRApop only,2397,2397,1
+E-MTAB-10553,Liver,CL:4047101,Resident NK,HRApop only,1698,1698,1
+E-MTAB-10553,Liver,CL:0000763,Mono+mono derived cells,HRApop only,918,918,1
+E-MTAB-10553,Liver,CL:0000775,Neutrophils,HRApop only,1007,844,2
+E-MTAB-10553,Liver,CL:2000055,liver dendritic cell,HRApop only,762,762,1
+E-MTAB-10553,Liver,CL:0000576,monocyte,HRApop only,721,721,1
+E-MTAB-10553,Liver,CL:0002399,cDC2s,HRApop only,408,408,1
+E-MTAB-10553,Liver,CL:0002538,intrahepatic cholangiocyte,HRApop only,343,343,1
+E-MTAB-10553,Liver,CL:0002394,cDC1s,HRApop only,167,167,1
+E-MTAB-10553,Liver,CL:0000784,pDCs,HRApop only,88,88,1
+E-MTAB-10553,Liver,CL:0000767,Basophils,HRApop only,45,45,1
+E-MTAB-10553,Liver,CL:0000057,Fibroblasts,HRApop only,66,38,2
+E-MTAB-10553,Liver,CL:0000782,Mig.cDCs,HRApop only,7,7,1
+E-GEOD-130148,Lung,CL:1001603,lung macrophage,Shared,2258,1180,5
+E-GEOD-130148,Lung,CL:0002063,AT2,Shared,3117,816,5
+E-GEOD-130148,Lung,CL:0000236,B cells,Shared,397,272,5
+E-GEOD-130148,Lung,CL:0000097,Mast cells,Shared,762,261,4
+E-GEOD-130148,Lung,CL:1000271,lung ciliated cell,Shared,354,179,2
+E-GEOD-130148,Lung,CL:0000084,T cell,Shared,197,178,2
+E-GEOD-130148,Lung,CL:0002062,AT1,Shared,491,163,5
+E-GEOD-130148,Lung,CL:0002553,fibroblast of lung,Shared,214,80,3
+E-GEOD-130148,Lung,CL:0000623,NK cells,Shared,116,56,3
+E-GEOD-130148,Lung,CL:1000272,lung secretory cell,Anatomogram only,128,128,1
+E-GEOD-130148,Lung,CL:0000542,lymphocyte,Anatomogram only,66,66,1
+E-GEOD-130148,Lung,CL:1001567,lung endothelial cell,Anatomogram only,60,60,1
+E-GEOD-130148,Lung,CL:0000583,Alveolar macrophages,HRApop only,1595,738,3
+E-GEOD-130148,Lung,CL:0000860,Classical monocytes,HRApop only,1012,353,4
+E-GEOD-130148,Lung,CL:0000767,basophil,HRApop only,269,269,1
+E-GEOD-130148,Lung,CL:0002145,Multiciliated (non-nasal),HRApop only,228,202,2
+E-GEOD-130148,Lung,CL:0005012,Multiciliated (non-nasal),HRApop only,181,181,1
+E-GEOD-130148,Lung,CL:4033041,Alveolar Mph CCL3+,HRApop only,170,164,2
+E-GEOD-130148,Lung,CL:0000624,CD4 T cells,HRApop only,396,133,4
+E-GEOD-130148,Lung,CL:0002399,DC2,HRApop only,264,133,3
+E-GEOD-130148,Lung,CL:0000875,Non-classical monocytes,HRApop only,339,131,4
+E-GEOD-130148,Lung,CL:0000451,dendritic cell,HRApop only,127,127,1
+E-GEOD-130148,Lung,CL:0000625,CD8 T cells,HRApop only,352,120,4
+E-GEOD-130148,Lung,CL:0000158,Club (non-nasal),HRApop only,177,97,4
+E-GEOD-130148,Lung,CL:0002633,Basal resting,HRApop only,264,96,4
+E-GEOD-130148,Lung,CL:0019001,pre-TB secretory,HRApop only,95,79,2
+E-GEOD-130148,Lung,CL:4028004,Alveolar fibroblasts,HRApop only,90,70,2
+E-GEOD-130148,Lung,CL:0002138,Lymphatic EC differentiating,HRApop only,116,67,2
+E-GEOD-130148,Lung,CL:0009086,Lymphatic EC mature,HRApop only,130,66,2
+E-GEOD-130148,Lung,CL:4052030,Adventitial fibroblasts,HRApop only,62,62,1
+E-GEOD-130148,Lung,CL:1000312,Goblet (subsegmental),HRApop only,61,59,2
+E-GEOD-130148,Lung,CL:0002370,respiratory goblet cell,HRApop only,57,57,1
+E-GEOD-130148,Lung,CL:0000322,Transitional Club-AT2,HRApop only,66,53,2
+E-GEOD-130148,Lung,CL:0002632,pre-TB secretory,HRApop only,49,49,1
+E-GEOD-130148,Lung,CL:1000491,Mesothelium,HRApop only,49,49,1
+E-GEOD-130148,Lung,CL:0000786,Plasma cells,HRApop only,115,43,3
+E-GEOD-130148,Lung,CL:0000192,Smooth muscle,HRApop only,50,40,3
+E-GEOD-130148,Lung,CL:0019003,Goblet (subsegmental),HRApop only,39,39,1
+E-GEOD-130148,Lung,CL:0000077,Mesothelium,HRApop only,55,38,2
+E-GEOD-130148,Lung,CL:0000814,mature NK T cell,HRApop only,36,36,1
+E-GEOD-130148,Lung,CL:0010003,AT0,HRApop only,36,36,1
+E-GEOD-130148,Lung,CL:4028006,Adventitial fibroblasts,HRApop only,54,36,2
+E-GEOD-130148,Lung,CL:4033022,SMG mucous,HRApop only,35,35,1
+E-GEOD-130148,Lung,CL:4033008,EC venous systemic,HRApop only,79,34,3
+E-GEOD-130148,Lung,CL:0000990,DC1,HRApop only,33,33,1
+E-GEOD-130148,Lung,CL:0002480,Goblet (nasal),HRApop only,39,32,3
+E-GEOD-130148,Lung,CL:0009089,Pericytes,HRApop only,39,30,4
+E-GEOD-130148,Lung,CL:4033042,Alveolar Mph MT-positive,HRApop only,30,30,1
+E-GEOD-130148,Lung,CL:4028002,EC general capillary,HRApop only,28,28,1
+E-GEOD-130148,Lung,CL:0000784,Plasmacytoid DCs,HRApop only,63,27,3
+E-GEOD-130148,Lung,CL:0002543,EC venous systemic,HRApop only,42,24,2
+E-GEOD-130148,Lung,CL:0000861,Monocyte-derived Mph,HRApop only,23,23,1
+E-GEOD-130148,Lung,CL:4033048,Suprabasal,HRApop only,48,23,3
+E-GEOD-130148,Lung,CL:1000413,EC arterial,HRApop only,43,21,3
+E-GEOD-130148,Lung,CL:4028001,EC general capillary,HRApop only,35,21,2
+E-GEOD-130148,Lung,CL:1000223,Neuroendocrine,HRApop only,20,20,1
+E-GEOD-130148,Lung,CL:4033043,Interstitial Mφ perivascular,HRApop only,37,20,2
+E-GEOD-130148,Lung,CL:0002144,EC general capillary,HRApop only,35,19,2
+E-GEOD-130148,Lung,CL:4030023,Hillock-like,HRApop only,18,18,1
+E-GEOD-130148,Lung,CL:0000057,Subpleural fibroblasts,HRApop only,17,17,1
+E-GEOD-130148,Lung,CL:0005006,Ionocyte,HRApop only,17,17,1
+E-GEOD-130148,Lung,CL:0000068,SMG duct,HRApop only,16,16,1
+E-GEOD-130148,Lung,CL:4033044,Deuterosomal,HRApop only,19,16,2
+E-GEOD-130148,Lung,CL:0000186,Myofibroblasts,HRApop only,17,15,3
+E-GEOD-130148,Lung,CL:0001058,Plasmacytoid DCs,HRApop only,15,15,1
+E-GEOD-130148,Lung,CL:0000775,neutrophil,HRApop only,14,14,1
+E-GEOD-130148,Lung,CL:4033005,Smooth muscle,HRApop only,13,13,1
+E-GEOD-130148,Lung,CL:0000037,Hematopoietic stem cells,HRApop only,12,12,1
+E-GEOD-130148,Lung,CL:0000313,SMG serous (nasal),HRApop only,12,12,1
+E-GEOD-130148,Lung,CL:0002075,Tuft,HRApop only,13,12,2
+E-GEOD-130148,Lung,CL:4033077,Alveolar Mφ proliferating,HRApop only,22,12,2
+E-GEOD-130148,Lung,CL:4030034,Multiciliated (nasal),HRApop only,11,11,1
+E-GEOD-130148,Lung,CL:4030024,Hillock-like,HRApop only,10,10,1
+E-GEOD-130148,Lung,CL:0001044,"effector CD4-positive, alpha-beta T cell",HRApop only,9,9,1
+E-GEOD-130148,Lung,CL:1000493,Mesothelium,HRApop only,9,9,1
+E-GEOD-130148,Lung,CL:0001050,"effector CD8-positive, alpha-beta T cell",HRApop only,8,8,1
+E-GEOD-130148,Lung,CL:2000093,Peribronchial fibroblasts,HRApop only,7,7,1
+E-GEOD-130148,Lung,CL:1001568,EC arterial,HRApop only,6,6,1
+E-GEOD-130148,Lung,CL:4028003,EC aerocyte capillary,HRApop only,7,6,2
+E-GEOD-130148,Lung,CL:0017000,Ionocyte,HRApop only,5,5,1
+E-GEOD-130148,Lung,CL:2000016,lung microvascular endothelial cell,HRApop only,5,5,1
+E-GEOD-130148,Lung,CL:4033069,T cells proliferating,HRApop only,9,5,2
+E-GEOD-130148,Lung,CL:4033080,AT2 proliferating,HRApop only,5,5,1
+E-GEOD-130148,Lung,CL:0000359,vascular associated smooth muscle cell,HRApop only,4,4,1
+E-GEOD-130148,Lung,CL:0002241,Peribronchial fibroblasts,HRApop only,4,4,1
+E-GEOD-130148,Lung,CL:0002393,intermediate monocyte,HRApop only,4,4,1
+E-GEOD-130148,Lung,CL:0002394,DC1,HRApop only,4,4,1
+E-GEOD-130148,Lung,CL:4033045,Migratory DCs,HRApop only,5,4,2
+E-GEOD-130148,Lung,CL:0002598,bronchial smooth muscle cell,HRApop only,2,2,1
+E-GEOD-130148,Lung,CL:0000071,blood vessel endothelial cell,HRApop only,1,1,1
+E-GEOD-130148,Lung,CL:4033079,Lymphatic EC proliferating,HRApop only,1,1,1
+E-GEOD-130148,Lung,CL:4052029,Subpleural fibroblasts,HRApop only,1,1,1
+E-MTAB-5061,Pancreas,CL:0000171,pancreatic A cell,Shared,4880,1401,4
+E-MTAB-5061,Pancreas,CL:0000173,delta,Shared,911,690,3
+E-MTAB-5061,Pancreas,CL:0002079,pancreatic ductal cell,Shared,1388,557,3
+E-MTAB-5061,Pancreas,CL:0000169,type B pancreatic cell,Shared,1511,489,4
+E-MTAB-5061,Pancreas,CL:0002275,pancreatic PP cell,Shared,969,291,4
+E-MTAB-5061,Pancreas,CL:0002410,pancreatic stellate cell,Shared,191,73,3
+E-MTAB-5061,Pancreas,CL:0000115,endothelial cell,Shared,58,22,3
+E-MTAB-5061,Pancreas,CL:0008024,pancreatic endocrine cell,Shared,21,16,2
+E-MTAB-5061,Pancreas,CL:0000097,mast cell,Shared,16,9,2
+E-MTAB-5061,Pancreas,CL:0005019,pancreatic epsilon cell,Shared,11,7,2
+E-MTAB-5061,Pancreas,CL:0000622,acinar cell,Anatomogram only,181,181,1
+E-MTAB-5061,Pancreas,CL:0000145,professional antigen presenting cell,Anatomogram only,4,4,1
+E-MTAB-5061,Pancreas,CL:0002064,acinar,HRApop only,414,231,2
+E-MTAB-5061,Pancreas,CL:0000738,immune,HRApop only,13,13,1
+E-MTAB-5061,Pancreas,CL:0000236,B cell,HRApop only,5,5,1
+E-MTAB-5061,Pancreas,CL:0000763,myeloid cell,HRApop only,4,4,1
+E-MTAB-5061,Pancreas,CL:0002573,schwann,HRApop only,2,2,1
+E-MTAB-5061,Pancreas,CL:0000057,fibroblast,HRApop only,1,1,1
+E-MTAB-5061,Pancreas,CL:0000084,T cell,HRApop only,1,1,1

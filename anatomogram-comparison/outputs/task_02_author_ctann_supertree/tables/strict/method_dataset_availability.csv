@@ -1,0 +1,61 @@
+annotation_method,method_label,dataset,organ_label,author_cells,tool_annotation_rows,shared_cell_identifiers,identifier_type_note
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc3843-upper_lobe_of_left_lung,Lung,768,872,768,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc4658-upper_lobe_of_left_lung,Lung,1200,1251,1200,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc5103-main_bronchus,Lung,701,753,701,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc5104-upper_lobe_of_left_lung,Lung,533,690,533,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor1,Liver,4776,5056,4776,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor2,Liver,2802,3846,2802,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor3,Liver,1448,1658,1448,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor4,Liver,1612,1942,1612,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor5,Liver,1766,1855,1766,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor6,Liver,2596,2766,2596,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H2,Pancreas,259,320,259,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H3,Pancreas,233,313,233,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4,Pancreas,203,326,203,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H5,Pancreas,98,243,98,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H6,Pancreas,213,317,213,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D1,Pancreas,248,305,248,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2,Pancreas,275,326,275,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D3,Pancreas,279,322,279,cell barcodes
+celltypist,CellTypist,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D4,Pancreas,301,364,301,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy1,Kidney,4114,7140,4114,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy2,Kidney,2919,4726,2919,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy3,Kidney,5456,6572,5456,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy4,Kidney,3682,5047,3682,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-CURD-119#ANATOMOGRAM-E-CURD-119-Healthy5,Kidney,3803,7104,3803,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc3843-upper_lobe_of_left_lung,Lung,768,872,768,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc4658-upper_lobe_of_left_lung,Lung,1200,1251,1200,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc5103-main_bronchus,Lung,701,753,701,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc5104-upper_lobe_of_left_lung,Lung,533,690,533,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H2,Pancreas,259,320,259,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H3,Pancreas,233,313,233,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4,Pancreas,203,326,203,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H5,Pancreas,98,243,98,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H6,Pancreas,213,317,213,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D1,Pancreas,248,305,248,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2,Pancreas,275,326,275,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D3,Pancreas,279,322,279,cell barcodes
+azimuth,Azimuth,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D4,Pancreas,301,364,301,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc3843-upper_lobe_of_left_lung,Lung,768,872,768,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc4658-upper_lobe_of_left_lung,Lung,1200,1251,1200,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc5103-main_bronchus,Lung,701,753,701,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc5104-upper_lobe_of_left_lung,Lung,533,690,533,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor1,Liver,4776,5056,4776,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor2,Liver,2802,3846,2802,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor3,Liver,1448,1658,1448,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor4,Liver,1612,1942,1612,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor5,Liver,1766,1855,1766,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-10553#ANATOMOGRAM-E-MTAB-10553-donor6,Liver,2596,2766,2596,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H2,Pancreas,259,320,259,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H3,Pancreas,233,313,233,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H4,Pancreas,203,326,203,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H5,Pancreas,98,243,98,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-H6,Pancreas,213,317,213,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D1,Pancreas,248,305,248,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D2,Pancreas,275,326,275,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D3,Pancreas,279,322,279,cell barcodes
+popv,popV,https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-5061#ANATOMOGRAM-E-MTAB-5061-T2D4,Pancreas,301,364,301,cell barcodes
+frmatch,FR-Match,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc3843-upper_lobe_of_left_lung,Lung,768,469,0,numeric identifiers; barcode crosswalk unavailable
+frmatch,FR-Match,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc4658-upper_lobe_of_left_lung,Lung,1200,507,0,numeric identifiers; barcode crosswalk unavailable
+frmatch,FR-Match,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc5103-main_bronchus,Lung,701,646,0,numeric identifiers; barcode crosswalk unavailable
+frmatch,FR-Match,https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-130148#ANATOMOGRAM-E-GEOD-130148-muc5104-upper_lobe_of_left_lung,Lung,533,303,0,numeric identifiers; barcode crosswalk unavailable

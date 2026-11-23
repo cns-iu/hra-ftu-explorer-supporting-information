@@ -1,0 +1,17 @@
+{
+  "input_sha256": "2677ef7b280166503dabe453291bb08c125552761d95154780e427a5ca20b932",
+  "selected_methods": [
+    "celltypist",
+    "azimuth",
+    "popv",
+    "frmatch"
+  ],
+  "excluded_method": "pan-human-azimuth",
+  "exact_denominator": "paired cells with valid CL identifiers on both sides",
+  "author_cells": 40285,
+  "valid_author_cells": 39967,
+  "provisional_author_cells": 318,
+  "paired_rows": 65907,
+  "duplicate_dataset_cell_tool_groups": 0,
+  "conflicting_author_annotations": 0
+}

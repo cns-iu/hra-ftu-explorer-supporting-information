@@ -1,0 +1,43 @@
+{
+  "hrapop_methods": [
+    "celltypist",
+    "azimuth",
+    "popv",
+    "frmatch"
+  ],
+  "excluded_methods": [
+    "pan-human-azimuth"
+  ],
+  "input_sha256": {
+    "instances": "2677ef7b280166503dabe453291bb08c125552761d95154780e427a5ca20b932",
+    "summaries": "4dc00883a3744d3f89c41f3de506e293c2d112faec746d948eb58580cda66ea7"
+  },
+  "rows": {
+    "instances": 147144,
+    "author": 40285,
+    "valid_author": 39967,
+    "provisional_author": 318
+  },
+  "summary_count_reconciliation": {
+    "celltypist": {
+      "summary_count": 23525,
+      "instance_rows": 23525,
+      "matches": true
+    },
+    "azimuth": {
+      "summary_count": 36991,
+      "instance_rows": 36991,
+      "matches": true
+    },
+    "popv": {
+      "summary_count": 23525,
+      "instance_rows": 23525,
+      "matches": true
+    },
+    "frmatch": {
+      "summary_count": 1925,
+      "instance_rows": 1925,
+      "matches": true
+    }
+  }
+}
