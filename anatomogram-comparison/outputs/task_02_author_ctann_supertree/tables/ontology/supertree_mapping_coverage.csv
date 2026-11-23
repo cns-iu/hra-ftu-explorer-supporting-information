@@ -1,0 +1,5 @@
+annotation_role,annotation_method,method_label,annotation_rows,mapped_rows,mapped_row_fraction,unique_cl_ids,mapped_unique_cl_ids
+author,all,Author,65055,64252,0.9876565982630082,44,41
+ctann,azimuth,Azimuth,25069,25069,1.0,81,81
+ctann,celltypist,CellTypist,19993,19993,1.0,59,59
+ctann,popv,popV,19993,19993,1.0,50,50

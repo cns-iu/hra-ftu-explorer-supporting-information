@@ -1,0 +1,19 @@
+{
+  "input_sha256": {
+    "paired_annotations": "fb4c8c76b79f13bc9eba1bcc4c8598b9d364e1b42e8c2ae0e830462183fb5e24",
+    "supertree": "dc20857d6fd707fbd311b47ac5b0cc303265055f16f7474b2c1f85636e064bc4"
+  },
+  "graph": {
+    "valid_cl_nodes": 761,
+    "edges": 763,
+    "weak_components": 1,
+    "roots": [
+      "CL:0000000"
+    ],
+    "is_directed_acyclic_graph": true,
+    "normalization_events": 15
+  },
+  "eligible_paired_rows": 65055,
+  "classification_denominator": "paired cells with valid CL identifiers on both sides",
+  "valid_ids_absent_from_tree_policy": "retained as Unmapped"
+}

@@ -1,0 +1,313 @@
+accession,organ,organ_label,cell_id,cell_label,cell_count,annotation_method,source_label
+E-CURD-119,UBERON:0002113,Kidney,CL:0000057,fibroblast,206,author,Anatomogram author
+E-CURD-119,UBERON:0002113,Kidney,CL:0000653,glomerular visceral epithelial cell,463,author,Anatomogram author
+E-CURD-119,UBERON:0002113,Kidney,CL:0000738,leukocyte,63,author,Anatomogram author
+E-CURD-119,UBERON:0002113,Kidney,CL:0000777,mesangial cell,239,author,Anatomogram author
+E-CURD-119,UBERON:0002113,Kidney,CL:0002201,renal beta-intercalated cell,349,author,Anatomogram author
+E-CURD-119,UBERON:0002113,Kidney,CL:0002306,epithelial cell of proximal tubule,5481,author,Anatomogram author
+E-CURD-119,UBERON:0002113,Kidney,CL:0005009,renal principal cell,1022,author,Anatomogram author
+E-CURD-119,UBERON:0002113,Kidney,CL:0005011,renal alpha-intercalated cell,1107,author,Anatomogram author
+E-CURD-119,UBERON:0002113,Kidney,CL:1000452,parietal epithelial cell,551,author,Anatomogram author
+E-CURD-119,UBERON:0002113,Kidney,CL:1000768,kidney connecting tubule epithelial cell,1805,author,Anatomogram author
+E-CURD-119,UBERON:0002113,Kidney,CL:1000849,kidney distal convoluted tubule epithelial cell,3249,author,Anatomogram author
+E-CURD-119,UBERON:0002113,Kidney,CL:1000892,kidney capillary endothelial cell,1008,author,Anatomogram author
+E-CURD-119,UBERON:0002113,Kidney,CL:1001106,kidney loop of Henle thick ascending limb epithelial cell,4431,author,Anatomogram author
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000084,T cell,178,author,Anatomogram author
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000097,mast cell,237,author,Anatomogram author
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000236,B cell,272,author,Anatomogram author
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000542,lymphocyte,66,author,Anatomogram author
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000623,natural killer cell,56,author,Anatomogram author
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002062,type I pneumocyte,101,author,Anatomogram author
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002063,type II pneumocyte,494,author,Anatomogram author
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002553,fibroblast of lung,75,author,Anatomogram author
+E-GEOD-130148,UBERON:0002048,Lung,CL:1000271,lung ciliated cell,175,author,Anatomogram author
+E-GEOD-130148,UBERON:0002048,Lung,CL:1000272,lung secretory cell,128,author,Anatomogram author
+E-GEOD-130148,UBERON:0002048,Lung,CL:1001567,lung endothelial cell,60,author,Anatomogram author
+E-GEOD-130148,UBERON:0002048,Lung,CL:1001603,lung macrophage,1180,author,Anatomogram author
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000037,hematopoietic stem cell,27,author,Anatomogram author
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000077,mesothelial cell,1,author,Anatomogram author
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000084,T cell,7676,author,Anatomogram author
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000091,Kupffer cell,623,author,Anatomogram author
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000182,hepatocyte,802,author,Anatomogram author
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000235,macrophage,1635,author,Anatomogram author
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000236,B cell,405,author,Anatomogram author
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000623,natural killer cell,919,author,Anatomogram author
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000786,plasma cell,164,author,Anatomogram author
+E-MTAB-10553,UBERON:0002107,Liver,CL:1000398,endothelial cell of hepatic sinusoid,2337,author,Anatomogram author
+E-MTAB-10553,UBERON:0002107,Liver,CL:1000488,cholangiocyte,309,author,Anatomogram author
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000097,mast cell,7,author,Anatomogram author
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000115,endothelial cell,15,author,Anatomogram author
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000145,professional antigen presenting cell,4,author,Anatomogram author
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000169,type B pancreatic cell,257,author,Anatomogram author
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000171,pancreatic A cell,857,author,Anatomogram author
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000173,pancreatic D cell,106,author,Anatomogram author
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000622,acinar cell,181,author,Anatomogram author
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002079,pancreatic ductal cell,380,author,Anatomogram author
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002275,pancreatic PP cell,190,author,Anatomogram author
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002410,pancreatic stellate cell,53,author,Anatomogram author
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0005019,pancreatic epsilon cell,7,author,Anatomogram author
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0008024,pancreatic endocrine cell,16,author,Anatomogram author
+E-CURD-119,UBERON:0002113,Kidney,CL:0000084,T,32,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:0000236,B,3,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:0000359,Cortical Vascular Smooth Muscle / Pericyte,148,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:0000648,Renin-positive Juxtaglomerular Granular,16,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:0000650,Mesangial,115,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:0000653,Podocyte,538,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:0000814,Natural Killer T,3,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:0000875,Non-classical monocyte,7,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:0000890,M2 Macrophage,34,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:0000990,Classical Dendritic,4,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:0002138,Lymphatic Endothelial,22,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:0002201,Intercalated Type B,472,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:0002573,Schwann / Neural,2,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:0011031,Monocyte-derived,29,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1000412,Afferent / Efferent Arteriole Endothelial,158,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1000452,Parietal Epithelial,728,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1000547,Inner Medullary Collecting Duct,1630,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1000692,Fibroblast,167,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1000714,Cortical Collecting Duct Principal,414,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1000716,Outer Medullary Collecting Duct Principal,71,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1000717,Outer Medullary Collecting Duct Intercalated Type A,2,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1000768,Connecting Tubule,2106,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1000850,Macula Densa,203,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1001005,Glomerular Capillary Endothelial,303,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1001033,Peritubular Capilary Endothelial,807,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1001107,Ascending Thin Limb,69,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1001108,Medullary Thick Ascending Limb,83,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1001109,Cortical Thick Ascending Limb,5472,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1001131,Ascending Vasa Recta Endothelial,1,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:1001285,Descending Vasa Recta Endothelial,11,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:4030009,Proximal Tubule Epithelial Segment 1,7693,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:4030010,Proximal Tubule Epithelial Segment 2,337,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:4030011,Proximal Tubule Epithelial Segment 3,883,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:4030012,Descending Thin Limb Type 1,12,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:4030013,Descending Thin Limb Type 2,691,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:4030014,Descending Thin Limb Type 3,123,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:4030015,Cortical Collecting Duct Intercalated Type A,1368,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:4030016,Distal Convoluted Tubule Type 1,4016,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:4030017,Distal Convoluted Tubule Type 2,254,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:4030018,Connecting Tubule Principal,1354,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:4030020,Connecting Tubule Intercalated Type A,134,azimuth,HRApop - Azimuth
+E-CURD-119,UBERON:0002113,Kidney,CL:4030022,Medullary Fibroblast,74,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000037,Hematopoietic stem cells,12,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000057,Subpleural fibroblasts,17,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000068,SMG duct,16,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000071,blood vessel endothelial cell,1,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000077,Mesothelium,17,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000077,mesothelial cell,38,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000084,T cells proliferating,19,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000097,Mast cells,248,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000097,Mast cells,261,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000097,Mast cells,16,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000158,Club (non-nasal),4,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000158,Club (non-nasal),19,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000158,Club (nasal),57,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000158,club cell,97,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000186,Myofibroblasts,1,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000186,Myofibroblasts,1,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000186,Myofibroblasts,15,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000192,Smooth muscle,9,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000192,SM activated stress response,40,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000192,smooth muscle cell,1,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000236,B cells,57,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000236,B cells,24,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000236,B cells,22,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000236,B cell,22,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000313,SMG serous (nasal),12,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000322,Transitional Club-AT2,53,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000322,AT0,13,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000359,vascular associated smooth muscle cell,4,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000451,dendritic cell,127,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000583,Alveolar macrophages,699,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000583,Alveolar macrophages,738,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000583,Alveolar macrophages,158,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000623,NK cells,43,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000623,NK cells,17,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000624,CD4 T cells,133,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000624,CD4 T cells,110,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000624,CD4 T cells,43,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000624,"CD4-positive, alpha-beta T cell",110,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000625,CD8 T cells,120,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000625,CD8 T cells,98,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000625,CD8 T cells,46,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000625,"CD8-positive, alpha-beta T cell",88,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000767,basophil,269,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000775,neutrophil,14,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000784,Plasmacytoid DCs,19,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000784,Plasmacytoid DCs,27,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000784,plasmacytoid dendritic cell,17,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000786,Plasma cells,42,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000786,Plasma cells,43,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000786,plasma cell,30,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000814,mature NK T cell,36,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000860,Classical monocytes,252,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000860,Classical monocytes,349,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000860,Classical monocytes,58,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000860,classical monocyte,353,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000861,Monocyte-derived Mph,23,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000875,Non-classical monocytes,131,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000875,Non-classical monocytes,99,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000875,Non-classical monocytes,54,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000875,non-classical monocyte,55,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000990,DC1,33,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0001044,"effector CD4-positive, alpha-beta T cell",9,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0001050,"effector CD8-positive, alpha-beta T cell",8,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0001058,Plasmacytoid DCs,15,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002062,AT1,163,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002062,AT1,98,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002062,AT1,39,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002062,type I pneumocyte,90,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002063,AT2,816,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002063,AT2,809,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002063,AT2,207,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002063,type II pneumocyte,791,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002075,Tuft,1,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002075,Tuft,12,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002138,Lymphatic EC differentiating,67,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002138,Lymphatic EC mature,49,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002144,EC general capillary,16,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002144,EC aerocyte capillary,19,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002145,Multiciliated (non-nasal),202,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002145,Multiciliated (non-nasal),26,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002241,Peribronchial fibroblasts,4,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002370,respiratory goblet cell,57,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002393,intermediate monocyte,4,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002394,DC1,4,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002399,DC2,133,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002399,DC2,97,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002399,DC2,34,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002480,Goblet (nasal),3,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002480,Goblet (nasal),4,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002480,Goblet (nasal),32,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002543,EC venous systemic,18,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002543,vein endothelial cell,24,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002553,Adventitial fibroblasts,59,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002553,fibroblast,80,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002598,bronchial smooth muscle cell,2,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002632,pre-TB secretory,49,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002633,Basal resting,78,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002633,Basal resting,62,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002633,Basal resting,28,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002633,basal cell,96,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0005006,Ionocyte,17,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0005012,Multiciliated (non-nasal),181,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0009086,Lymphatic EC mature,64,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0009086,endothelial cell of lymphatic vessel,66,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0009089,Pericytes,3,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0009089,Pericytes,3,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0009089,Pericytes,30,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0009089,pericyte,3,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:0010003,AT0,36,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0017000,Ionocyte,5,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:0019001,pre-TB secretory,79,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:0019001,SMG serous (bronchial),16,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:0019003,Goblet (subsegmental),39,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:1000223,Neuroendocrine,20,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:1000271,lung ciliated cell,179,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:1000312,Goblet (subsegmental),2,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:1000312,Goblet (bronchial),59,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:1000413,EC arterial,8,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:1000413,EC arterial,21,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:1000413,endothelial cell of artery,14,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:1000491,Mesothelium,49,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:1000493,Mesothelium,9,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:1001568,EC arterial,6,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:1001603,Monocyte-derived Mφ,119,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:1001603,Monocyte-derived Mph,85,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:1001603,Interstitial Mph perivascular,37,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:1001603,macrophage,837,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:2000016,lung microvascular endothelial cell,5,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:2000093,Peribronchial fibroblasts,7,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:4028001,EC general capillary,14,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:4028001,capillary endothelial cell,21,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:4028002,EC general capillary,28,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:4028003,EC aerocyte capillary,1,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:4028003,EC aerocyte capillary,6,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4028004,Alveolar fibroblasts,70,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:4028004,Alveolar fibroblasts,20,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4028006,Adventitial fibroblasts,36,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4028006,adventitial cell,18,popv,HRApop - popV
+E-GEOD-130148,UBERON:0002048,Lung,CL:4030023,Hillock-like,18,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:4030024,Hillock-like,10,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4030034,Multiciliated (nasal),11,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033005,Smooth muscle,13,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033008,EC venous systemic,34,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033008,EC venous systemic,31,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033008,EC venous pulmonary,14,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033022,SMG mucous,35,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033041,Alveolar Mph CCL3+,6,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033041,Alveolar Mph CCL3+,164,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033042,Alveolar Mph MT-positive,30,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033043,Interstitial Mφ perivascular,20,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033043,Interstitial Mph perivascular,17,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033044,Deuterosomal,3,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033044,Deuterosomal,16,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033045,Migratory DCs,4,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033045,Migratory DCs,1,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033048,Suprabasal,11,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033048,Suprabasal,14,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033048,Suprabasal,23,frmatch,HRApop - FR-Match
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033069,T cells proliferating,4,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033069,T cells proliferating,5,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033077,Alveolar Mφ proliferating,12,azimuth,HRApop - Azimuth
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033077,Alveolar Mph proliferating,10,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033079,Lymphatic EC proliferating,1,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4033080,AT2 proliferating,5,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4052029,Subpleural fibroblasts,1,celltypist,HRApop - CellTypist
+E-GEOD-130148,UBERON:0002048,Lung,CL:4052030,Adventitial fibroblasts,62,azimuth,HRApop - Azimuth
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000057,Fibroblasts,38,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000057,fibroblast,28,popv,HRApop - popV
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000084,T cells,6177,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000084,T cell,4183,popv,HRApop - popV
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000115,Endothelial cells,2397,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000182,Hepatocytes,1901,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000182,hepatocyte,1766,popv,HRApop - popV
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000235,Macrophages,806,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000235,macrophage,1076,popv,HRApop - popV
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000236,B cells,339,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000576,monocyte,721,popv,HRApop - popV
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000763,Mono+mono derived cells,918,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000767,Basophils,45,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000775,Neutrophils,163,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000775,neutrophil,844,popv,HRApop - popV
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000782,Mig.cDCs,7,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000784,pDCs,88,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000786,Plasma cells,164,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000786,plasma cell,441,popv,HRApop - popV
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000814,Circulating NK/NKT,1437,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000814,mature NK T cell,4673,popv,HRApop - popV
+E-MTAB-10553,UBERON:0002107,Liver,CL:0002394,cDC1s,167,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0002399,cDC2s,408,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:0002538,intrahepatic cholangiocyte,343,popv,HRApop - popV
+E-MTAB-10553,UBERON:0002107,Liver,CL:1000398,endothelial cell of hepatic sinusoid,2286,popv,HRApop - popV
+E-MTAB-10553,UBERON:0002107,Liver,CL:1000488,Cholangiocytes,370,celltypist,HRApop - CellTypist
+E-MTAB-10553,UBERON:0002107,Liver,CL:2000055,liver dendritic cell,762,popv,HRApop - popV
+E-MTAB-10553,UBERON:0002107,Liver,CL:4047101,Resident NK,1698,celltypist,HRApop - CellTypist
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000057,fibroblast,1,popv,HRApop - popV
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000084,T cell,1,popv,HRApop - popV
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000097,mast cell,9,popv,HRApop - popV
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000115,endothelial,22,azimuth,HRApop - Azimuth
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000115,endothelial cell,21,popv,HRApop - popV
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000169,beta,308,azimuth,HRApop - Azimuth
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000169,beta_stress I,489,celltypist,HRApop - CellTypist
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000169,type B pancreatic cell,457,popv,HRApop - popV
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000171,alpha,1401,azimuth,HRApop - Azimuth
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000171,alpha_stress II,1366,celltypist,HRApop - CellTypist
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000171,pancreatic A cell,1256,popv,HRApop - popV
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000173,delta,115,azimuth,HRApop - Azimuth
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000173,delta,690,celltypist,HRApop - CellTypist
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000236,B cell,5,popv,HRApop - popV
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000738,immune,13,azimuth,HRApop - Azimuth
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000763,myeloid cell,4,popv,HRApop - popV
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002064,acinar,231,azimuth,HRApop - Azimuth
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002064,pancreatic acinar cell,183,popv,HRApop - popV
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002079,ductal,451,azimuth,HRApop - Azimuth
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002079,pancreatic ductal cell,557,popv,HRApop - popV
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002275,gamma,219,azimuth,HRApop - Azimuth
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002275,PP,291,celltypist,HRApop - CellTypist
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002275,pancreatic PP cell,269,popv,HRApop - popV
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002410,activated_stellate,65,azimuth,HRApop - Azimuth
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002410,pancreatic stellate cell,73,popv,HRApop - popV
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002573,schwann,2,azimuth,HRApop - Azimuth
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0005019,epsilon,4,azimuth,HRApop - Azimuth
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0008024,cycling,5,azimuth,HRApop - Azimuth

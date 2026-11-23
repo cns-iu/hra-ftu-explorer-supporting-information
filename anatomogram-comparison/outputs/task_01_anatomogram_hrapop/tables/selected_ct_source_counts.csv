@@ -1,0 +1,90 @@
+accession,organ,organ_label,cell_id,cell_label,cell_count,annotation_method,source_label,category,category_rank
+E-CURD-119,UBERON:0002113,Kidney,CL:0000653,glomerular visceral epithelial cell,463,author,Anatomogram author,Shared,3
+E-CURD-119,UBERON:0002113,Kidney,CL:0002201,renal beta-intercalated cell,349,author,Anatomogram author,Shared,4
+E-CURD-119,UBERON:0002113,Kidney,CL:0002306,epithelial cell of proximal tubule,5481,author,Anatomogram author,Anatomogram only,1
+E-CURD-119,UBERON:0002113,Kidney,CL:0005011,renal alpha-intercalated cell,1107,author,Anatomogram author,Anatomogram only,4
+E-CURD-119,UBERON:0002113,Kidney,CL:1000452,parietal epithelial cell,551,author,Anatomogram author,Shared,2
+E-CURD-119,UBERON:0002113,Kidney,CL:1000768,kidney connecting tubule epithelial cell,1805,author,Anatomogram author,Shared,1
+E-CURD-119,UBERON:0002113,Kidney,CL:1000849,kidney distal convoluted tubule epithelial cell,3249,author,Anatomogram author,Anatomogram only,3
+E-CURD-119,UBERON:0002113,Kidney,CL:1001106,kidney loop of Henle thick ascending limb epithelial cell,4431,author,Anatomogram author,Anatomogram only,2
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000097,mast cell,237,author,Anatomogram author,Shared,4
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000236,B cell,272,author,Anatomogram author,Shared,3
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000542,lymphocyte,66,author,Anatomogram author,Anatomogram only,2
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002063,type II pneumocyte,494,author,Anatomogram author,Shared,2
+E-GEOD-130148,UBERON:0002048,Lung,CL:1000272,lung secretory cell,128,author,Anatomogram author,Anatomogram only,1
+E-GEOD-130148,UBERON:0002048,Lung,CL:1001567,lung endothelial cell,60,author,Anatomogram author,Anatomogram only,3
+E-GEOD-130148,UBERON:0002048,Lung,CL:1001603,lung macrophage,1180,author,Anatomogram author,Shared,1
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000037,hematopoietic stem cell,27,author,Anatomogram author,Anatomogram only,3
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000077,mesothelial cell,1,author,Anatomogram author,Anatomogram only,4
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000084,T cell,7676,author,Anatomogram author,Shared,1
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000091,Kupffer cell,623,author,Anatomogram author,Anatomogram only,2
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000182,hepatocyte,802,author,Anatomogram author,Shared,3
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000235,macrophage,1635,author,Anatomogram author,Shared,4
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000623,natural killer cell,919,author,Anatomogram author,Anatomogram only,1
+E-MTAB-10553,UBERON:0002107,Liver,CL:1000398,endothelial cell of hepatic sinusoid,2337,author,Anatomogram author,Shared,2
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000145,professional antigen presenting cell,4,author,Anatomogram author,Anatomogram only,2
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000169,type B pancreatic cell,257,author,Anatomogram author,Shared,4
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000171,pancreatic A cell,857,author,Anatomogram author,Shared,1
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000173,pancreatic D cell,106,author,Anatomogram author,Shared,2
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000622,acinar cell,181,author,Anatomogram author,Anatomogram only,1
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002079,pancreatic ductal cell,380,author,Anatomogram author,Shared,3
+E-CURD-119,UBERON:0002113,Kidney,CL:0000653,Podocyte,538,azimuth,HRApop - Azimuth,Shared,3
+E-CURD-119,UBERON:0002113,Kidney,CL:0002201,Intercalated Type B,472,azimuth,HRApop - Azimuth,Shared,4
+E-CURD-119,UBERON:0002113,Kidney,CL:1000452,Parietal Epithelial,728,azimuth,HRApop - Azimuth,Shared,2
+E-CURD-119,UBERON:0002113,Kidney,CL:1000547,Inner Medullary Collecting Duct,1630,azimuth,HRApop - Azimuth,HRApop only,4
+E-CURD-119,UBERON:0002113,Kidney,CL:1000768,Connecting Tubule,2106,azimuth,HRApop - Azimuth,Shared,1
+E-CURD-119,UBERON:0002113,Kidney,CL:1001109,Cortical Thick Ascending Limb,5472,azimuth,HRApop - Azimuth,HRApop only,2
+E-CURD-119,UBERON:0002113,Kidney,CL:4030009,Proximal Tubule Epithelial Segment 1,7693,azimuth,HRApop - Azimuth,HRApop only,1
+E-CURD-119,UBERON:0002113,Kidney,CL:4030016,Distal Convoluted Tubule Type 1,4016,azimuth,HRApop - Azimuth,HRApop only,3
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000097,Mast cells,248,azimuth,HRApop - Azimuth,Shared,4
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000097,Mast cells,261,celltypist,HRApop - CellTypist,Shared,4
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000097,Mast cells,16,frmatch,HRApop - FR-Match,Shared,4
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000236,B cells,57,azimuth,HRApop - Azimuth,Shared,3
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000236,B cells,24,celltypist,HRApop - CellTypist,Shared,3
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000236,B cells,22,frmatch,HRApop - FR-Match,Shared,3
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000236,B cell,22,popv,HRApop - popV,Shared,3
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000583,Alveolar macrophages,699,azimuth,HRApop - Azimuth,HRApop only,1
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000583,Alveolar macrophages,738,celltypist,HRApop - CellTypist,HRApop only,1
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000583,Alveolar macrophages,158,frmatch,HRApop - FR-Match,HRApop only,1
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000767,basophil,269,popv,HRApop - popV,HRApop only,3
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000860,Classical monocytes,252,azimuth,HRApop - Azimuth,HRApop only,2
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000860,Classical monocytes,349,celltypist,HRApop - CellTypist,HRApop only,2
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000860,Classical monocytes,58,frmatch,HRApop - FR-Match,HRApop only,2
+E-GEOD-130148,UBERON:0002048,Lung,CL:0000860,classical monocyte,353,popv,HRApop - popV,HRApop only,2
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002063,AT2,816,azimuth,HRApop - Azimuth,Shared,2
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002063,AT2,809,celltypist,HRApop - CellTypist,Shared,2
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002063,AT2,207,frmatch,HRApop - FR-Match,Shared,2
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002063,type II pneumocyte,791,popv,HRApop - popV,Shared,2
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002145,Multiciliated (non-nasal),202,azimuth,HRApop - Azimuth,HRApop only,4
+E-GEOD-130148,UBERON:0002048,Lung,CL:0002145,Multiciliated (non-nasal),26,frmatch,HRApop - FR-Match,HRApop only,4
+E-GEOD-130148,UBERON:0002048,Lung,CL:1001603,Monocyte-derived Mφ,119,azimuth,HRApop - Azimuth,Shared,1
+E-GEOD-130148,UBERON:0002048,Lung,CL:1001603,Monocyte-derived Mph,85,celltypist,HRApop - CellTypist,Shared,1
+E-GEOD-130148,UBERON:0002048,Lung,CL:1001603,Interstitial Mph perivascular,37,frmatch,HRApop - FR-Match,Shared,1
+E-GEOD-130148,UBERON:0002048,Lung,CL:1001603,macrophage,837,popv,HRApop - popV,Shared,1
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000084,T cells,6177,celltypist,HRApop - CellTypist,Shared,1
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000084,T cell,4183,popv,HRApop - popV,Shared,1
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000115,Endothelial cells,2397,celltypist,HRApop - CellTypist,HRApop only,2
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000182,Hepatocytes,1901,celltypist,HRApop - CellTypist,Shared,3
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000182,hepatocyte,1766,popv,HRApop - popV,Shared,3
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000235,Macrophages,806,celltypist,HRApop - CellTypist,Shared,4
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000235,macrophage,1076,popv,HRApop - popV,Shared,4
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000763,Mono+mono derived cells,918,celltypist,HRApop - CellTypist,HRApop only,4
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000814,Circulating NK/NKT,1437,celltypist,HRApop - CellTypist,HRApop only,1
+E-MTAB-10553,UBERON:0002107,Liver,CL:0000814,mature NK T cell,4673,popv,HRApop - popV,HRApop only,1
+E-MTAB-10553,UBERON:0002107,Liver,CL:1000398,endothelial cell of hepatic sinusoid,2286,popv,HRApop - popV,Shared,2
+E-MTAB-10553,UBERON:0002107,Liver,CL:4047101,Resident NK,1698,celltypist,HRApop - CellTypist,HRApop only,3
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000169,beta,308,azimuth,HRApop - Azimuth,Shared,4
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000169,beta_stress I,489,celltypist,HRApop - CellTypist,Shared,4
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000169,type B pancreatic cell,457,popv,HRApop - popV,Shared,4
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000171,alpha,1401,azimuth,HRApop - Azimuth,Shared,1
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000171,alpha_stress II,1366,celltypist,HRApop - CellTypist,Shared,1
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000171,pancreatic A cell,1256,popv,HRApop - popV,Shared,1
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000173,delta,115,azimuth,HRApop - Azimuth,Shared,2
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000173,delta,690,celltypist,HRApop - CellTypist,Shared,2
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000236,B cell,5,popv,HRApop - popV,HRApop only,3
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000738,immune,13,azimuth,HRApop - Azimuth,HRApop only,2
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0000763,myeloid cell,4,popv,HRApop - popV,HRApop only,4
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002064,acinar,231,azimuth,HRApop - Azimuth,HRApop only,1
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002064,pancreatic acinar cell,183,popv,HRApop - popV,HRApop only,1
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002079,ductal,451,azimuth,HRApop - Azimuth,Shared,3
+E-MTAB-5061,UBERON:0001264,Pancreas,CL:0002079,pancreatic ductal cell,557,popv,HRApop - popV,Shared,3

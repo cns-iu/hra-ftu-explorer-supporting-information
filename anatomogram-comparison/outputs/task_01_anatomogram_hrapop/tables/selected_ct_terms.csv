@@ -1,0 +1,46 @@
+accession,organ_label,cell_id,cell_label,category,total_cell_count,max_source_cell_count,number_of_sources,category_rank
+E-CURD-119,Kidney,CL:1000768,kidney connecting tubule epithelial cell,Shared,3911,2106,2,1
+E-CURD-119,Kidney,CL:1000452,parietal epithelial cell,Shared,1279,728,2,2
+E-CURD-119,Kidney,CL:0000653,glomerular visceral epithelial cell,Shared,1001,538,2,3
+E-CURD-119,Kidney,CL:0002201,renal beta-intercalated cell,Shared,821,472,2,4
+E-CURD-119,Kidney,CL:0002306,epithelial cell of proximal tubule,Anatomogram only,5481,5481,1,1
+E-CURD-119,Kidney,CL:1001106,kidney loop of Henle thick ascending limb epithelial cell,Anatomogram only,4431,4431,1,2
+E-CURD-119,Kidney,CL:1000849,kidney distal convoluted tubule epithelial cell,Anatomogram only,3249,3249,1,3
+E-CURD-119,Kidney,CL:0005011,renal alpha-intercalated cell,Anatomogram only,1107,1107,1,4
+E-CURD-119,Kidney,CL:4030009,Proximal Tubule Epithelial Segment 1,HRApop only,7693,7693,1,1
+E-CURD-119,Kidney,CL:1001109,Cortical Thick Ascending Limb,HRApop only,5472,5472,1,2
+E-CURD-119,Kidney,CL:4030016,Distal Convoluted Tubule Type 1,HRApop only,4016,4016,1,3
+E-CURD-119,Kidney,CL:1000547,Inner Medullary Collecting Duct,HRApop only,1630,1630,1,4
+E-MTAB-10553,Liver,CL:0000084,T cell,Shared,18036,7676,3,1
+E-MTAB-10553,Liver,CL:1000398,endothelial cell of hepatic sinusoid,Shared,4623,2337,2,2
+E-MTAB-10553,Liver,CL:0000182,hepatocyte,Shared,4469,1901,3,3
+E-MTAB-10553,Liver,CL:0000235,macrophage,Shared,3517,1635,3,4
+E-MTAB-10553,Liver,CL:0000623,natural killer cell,Anatomogram only,919,919,1,1
+E-MTAB-10553,Liver,CL:0000091,Kupffer cell,Anatomogram only,623,623,1,2
+E-MTAB-10553,Liver,CL:0000037,hematopoietic stem cell,Anatomogram only,27,27,1,3
+E-MTAB-10553,Liver,CL:0000077,mesothelial cell,Anatomogram only,1,1,1,4
+E-MTAB-10553,Liver,CL:0000814,Circulating NK/NKT,HRApop only,6110,4673,2,1
+E-MTAB-10553,Liver,CL:0000115,Endothelial cells,HRApop only,2397,2397,1,2
+E-MTAB-10553,Liver,CL:4047101,Resident NK,HRApop only,1698,1698,1,3
+E-MTAB-10553,Liver,CL:0000763,Mono+mono derived cells,HRApop only,918,918,1,4
+E-GEOD-130148,Lung,CL:1001603,lung macrophage,Shared,2258,1180,5,1
+E-GEOD-130148,Lung,CL:0002063,AT2,Shared,3117,816,5,2
+E-GEOD-130148,Lung,CL:0000236,B cells,Shared,397,272,5,3
+E-GEOD-130148,Lung,CL:0000097,Mast cells,Shared,762,261,4,4
+E-GEOD-130148,Lung,CL:1000272,lung secretory cell,Anatomogram only,128,128,1,1
+E-GEOD-130148,Lung,CL:0000542,lymphocyte,Anatomogram only,66,66,1,2
+E-GEOD-130148,Lung,CL:1001567,lung endothelial cell,Anatomogram only,60,60,1,3
+E-GEOD-130148,Lung,CL:0000583,Alveolar macrophages,HRApop only,1595,738,3,1
+E-GEOD-130148,Lung,CL:0000860,Classical monocytes,HRApop only,1012,353,4,2
+E-GEOD-130148,Lung,CL:0000767,basophil,HRApop only,269,269,1,3
+E-GEOD-130148,Lung,CL:0002145,Multiciliated (non-nasal),HRApop only,228,202,2,4
+E-MTAB-5061,Pancreas,CL:0000171,pancreatic A cell,Shared,4880,1401,4,1
+E-MTAB-5061,Pancreas,CL:0000173,delta,Shared,911,690,3,2
+E-MTAB-5061,Pancreas,CL:0002079,pancreatic ductal cell,Shared,1388,557,3,3
+E-MTAB-5061,Pancreas,CL:0000169,type B pancreatic cell,Shared,1511,489,4,4
+E-MTAB-5061,Pancreas,CL:0000622,acinar cell,Anatomogram only,181,181,1,1
+E-MTAB-5061,Pancreas,CL:0000145,professional antigen presenting cell,Anatomogram only,4,4,1,2
+E-MTAB-5061,Pancreas,CL:0002064,acinar,HRApop only,414,231,2,1
+E-MTAB-5061,Pancreas,CL:0000738,immune,HRApop only,13,13,1,2
+E-MTAB-5061,Pancreas,CL:0000236,B cell,HRApop only,5,5,1,3
+E-MTAB-5061,Pancreas,CL:0000763,myeloid cell,HRApop only,4,4,1,4

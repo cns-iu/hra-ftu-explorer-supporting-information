@@ -1,0 +1,13 @@
+accession,organ_label,category,unique_ct_count
+E-CURD-119,Kidney,Shared,4
+E-CURD-119,Kidney,Anatomogram only,9
+E-CURD-119,Kidney,HRApop only,38
+E-GEOD-130148,Lung,Shared,9
+E-GEOD-130148,Lung,Anatomogram only,3
+E-GEOD-130148,Lung,HRApop only,80
+E-MTAB-10553,Liver,Shared,7
+E-MTAB-10553,Liver,Anatomogram only,4
+E-MTAB-10553,Liver,HRApop only,14
+E-MTAB-5061,Pancreas,Shared,10
+E-MTAB-5061,Pancreas,Anatomogram only,2
+E-MTAB-5061,Pancreas,HRApop only,7

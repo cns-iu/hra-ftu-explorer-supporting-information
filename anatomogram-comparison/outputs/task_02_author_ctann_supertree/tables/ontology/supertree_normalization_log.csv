@@ -1,0 +1,16 @@
+csv_line,level,issue,raw_id,raw_label,resolved_id,resolved_label
+124,6,label_without_cl_identifier_skipped,,type B pancreatic cell,,
+296,6,adjacent_repeated_node_removed,CL:0000134,mesenchymal stem cell,CL:0000134,mesenchymal stem cell
+670,6,adjacent_repeated_node_removed,CL:0002563,intestinal epithelial cell,CL:0002563,intestinal epithelial cell
+671,6,adjacent_repeated_node_removed,CL:0002563,intestinal epithelial cell,CL:0002563,intestinal epithelial cell
+732,5,adjacent_repeated_node_removed,CL:0002138,endothelial cell of lymphatic vessel,CL:0002138,endothelial cell of lymphatic vessel
+1098,2,adjacent_repeated_node_removed,CL:0000000,cell,CL:0000000,cell
+1414,2,label_without_cl_identifier_skipped,,other-organ-specific,,
+1527,6,adjacent_repeated_node_removed,CL:1001433,epithelial cell of exocrine pancreas,CL:1001433,epithelial cell of exocrine pancreas
+1529,6,adjacent_repeated_node_removed,CL:1001433,epithelial cell of exocrine pancreas,CL:1001433,epithelial cell of exocrine pancreas
+1533,7,swapped_id_and_label_recovered,seromucous acinar cell of salivary gland,CL:4052067,CL:4052067,seromucous acinar cell of salivary gland
+1533,8,label_without_cl_identifier_skipped,,seromucous acinar cell of salivary gland,,
+1535,7,swapped_id_and_label_recovered,serous acinar cell of salivary gland,CL:4052065,CL:4052065,serous acinar cell of salivary gland
+1535,8,label_without_cl_identifier_skipped,,serous acinar cell of salivary gland,,
+1538,7,swapped_id_and_label_recovered,seromucous acinar cell of salivary gland,CL:4052067,CL:4052067,seromucous acinar cell of salivary gland
+1538,8,label_without_cl_identifier_skipped,,seromucous acinar cell of salivary gland,,

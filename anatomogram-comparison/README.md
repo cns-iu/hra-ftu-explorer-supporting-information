@@ -1,0 +1,72 @@
+# Anatomogram and CTann cell-type comparison
+
+This directory contains two manuscript analyses. Each task has exactly three scripts.
+
+## Method definitions
+
+- HRApop/CTann methods: CellTypist, Azimuth, popV, and FR-Match.
+- Pan-Human Azimuth is excluded.
+- FR-Match is included in the Task 1 CL-term union.
+- FR-Match is reported as unavailable in Task 2 until a numeric-ID-to-cell-barcode crosswalk is supplied.
+- Strict and ontology-aware denominators use paired cells with valid CL identifiers on both sides.
+- Valid CL identifiers absent from the supplied supertree remain in the denominator as `Unmapped`.
+- Provisional non-CL author identifiers are reported separately.
+
+## Task 1: Anatomogram versus HRApop
+
+1. `scripts/task_01_anatomogram_hrapop/01_cell_counts_per_ct.py`
+   - Command-line Python conversion of the analyst-supplied cell-count notebook.
+   - It retains the notebook's original comparison definition.
+   - The approved figure is stored in `outputs/task_01_anatomogram_hrapop/figures/` as
+     `task_01_cell_counts_per_ct_anatomogram_vs_hrapop` in PNG, PDF, and SVG formats.
+2. `scripts/task_01_anatomogram_hrapop/02_compare_cell_type_sets.py`
+   - Creates source-specific CL counts, shared/Anatomogram-only/HRApop-only categories, QC records, and figure-source tables.
+3. `scripts/task_01_anatomogram_hrapop/03_plot_cell_type_comparison.py`
+   - Generates the Task 1 overlap figure in PNG, PDF, and SVG formats.
+
+Example:
+
+```bash
+python scripts/task_01_anatomogram_hrapop/01_cell_counts_per_ct.py \
+  --instances ../upload/anatomogram-sc-transcriptomics-cell-instances.csv\(3\).gz \
+  --summaries ../upload/anatomogram-sc-transcriptomics-cell-summaries.jsonl \
+  --output-dir outputs/task_01_anatomogram_hrapop
+
+python scripts/task_01_anatomogram_hrapop/02_compare_cell_type_sets.py \
+  --instances ../upload/anatomogram-sc-transcriptomics-cell-instances.csv\(3\).gz \
+  --summaries ../upload/anatomogram-sc-transcriptomics-cell-summaries.jsonl \
+  --output-dir outputs/task_01_anatomogram_hrapop/tables
+
+python scripts/task_01_anatomogram_hrapop/03_plot_cell_type_comparison.py \
+  --tables-dir outputs/task_01_anatomogram_hrapop/tables \
+  --output-dir outputs/task_01_anatomogram_hrapop/figures
+```
+
+## Task 2: Author versus CTann using the supertree
+
+1. `scripts/task_02_author_ctann_supertree/01_prepare_author_ctann_pairs.py`
+   - Validates annotations, records method applicability, constructs cell pairs, and calculates strict agreement.
+2. `scripts/task_02_author_ctann_supertree/02_classify_supertree_relationships.py`
+   - Normalizes the supplied supertree, validates its graph, and classifies paired annotations as Exact, CTann narrower, CTann broader, Different branch, or Unmapped.
+3. `scripts/task_02_author_ctann_supertree/03_plot_author_ctann_comparison.py`
+   - Generates the main and supplementary Task 2 figures in PNG, PDF, and SVG formats.
+
+Example:
+
+```bash
+python scripts/task_02_author_ctann_supertree/01_prepare_author_ctann_pairs.py \
+  --instances ../upload/anatomogram-sc-transcriptomics-cell-instances.csv\(3\).gz \
+  --output-dir outputs/task_02_author_ctann_supertree/tables/strict
+
+python scripts/task_02_author_ctann_supertree/02_classify_supertree_relationships.py \
+  --paired-annotations outputs/task_02_author_ctann_supertree/tables/strict/paired_annotations.csv.gz \
+  --supertree "../upload/merged-ctann-level-mapping-table-vccf-expert-slim-hierarchy- NV - ctann-level-mapping-table-NV revisions_v11.csv" \
+  --output-dir outputs/task_02_author_ctann_supertree/tables/ontology
+
+python scripts/task_02_author_ctann_supertree/03_plot_author_ctann_comparison.py \
+  --strict-dir outputs/task_02_author_ctann_supertree/tables/strict \
+  --ontology-dir outputs/task_02_author_ctann_supertree/tables/ontology \
+  --output-dir outputs/task_02_author_ctann_supertree/figures
+```
+
+The commands are run from this directory. The output tables are the numerical source of truth for manuscript text and figure labels.
