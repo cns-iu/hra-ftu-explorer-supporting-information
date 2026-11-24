@@ -15,6 +15,7 @@ import gzip
 import json
 import re
 from pathlib import Path
+from unittest import result
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -22,18 +23,21 @@ import pandas as pd
 from matplotlib import font_manager
 
 
-HRAPOP_METHODS = ("celltypist", "azimuth", "popv")
+HRAPOP_METHODS = ("celltypist", "azimuth", "popv", "frmatch")
 METHOD_LABELS = {
     "author": "Anatomogram author",
     "celltypist": "HRApop - CellTypist",
     "azimuth": "HRApop - Azimuth",
     "popv": "HRApop - popV",
+    "frmatch": "HRApop - FR-Match",
+    
 }
 COLORS = {
     "author": "#4D4D4D",
     "celltypist": "#0072B2",
     "azimuth": "#56B4E9",
     "popv": "#D55E00",
+    "frmatch": "#009E73",
 }
 CL_PATTERN = re.compile(r"^CL:\d+$")
 FIGURE_STEM = "task_01_cell_counts_per_ct_anatomogram_vs_hrapop"
@@ -159,16 +163,26 @@ def build_comparison(
     hrapop_counts: pd.DataFrame,
     top_n: int,
 ) -> pd.DataFrame:
-    top_author = author_counts.sort_values("cell_count", ascending=False).head(top_n).copy()
+    top_author = (
+        author_counts
+        .sort_values("cell_count", ascending=False)
+        .head(top_n)
+        .copy()
+    )
+
     top_ids = top_author["cell_id"].tolist()
     labels = top_author.set_index("cell_id")["cell_label"].to_dict()
+
     author = (
         top_author[["cell_id", "cell_count"]]
         .rename(columns={"cell_count": METHOD_LABELS["author"]})
         .set_index("cell_id")
     )
+
     hrapop = (
-        hrapop_counts.loc[hrapop_counts["cell_id"].isin(top_ids)]
+        hrapop_counts.loc[
+            hrapop_counts["cell_id"].isin(top_ids)
+        ]
         .pivot_table(
             index="cell_id",
             columns="annotation_method",
@@ -176,22 +190,33 @@ def build_comparison(
             aggfunc="sum",
             fill_value=0,
         )
-        .reindex(index=top_ids, columns=HRAPOP_METHODS, fill_value=0)
-        .rename(columns={method: METHOD_LABELS[method] for method in HRAPOP_METHODS})
+        .reindex(
+            index=top_ids,
+            columns=HRAPOP_METHODS,
+            fill_value=0,
+        )
+        .rename(
+            columns={
+                method: METHOD_LABELS[method]
+                for method in HRAPOP_METHODS
+            }
+        )
     )
+
     result = author.join(hrapop, how="left").fillna(0)
     result["cell_label"] = result.index.map(labels)
     result = result.reset_index()
-    return result[
-        [
-            "cell_id",
-            "cell_label",
-            METHOD_LABELS["author"],
-            METHOD_LABELS["celltypist"],
-            METHOD_LABELS["azimuth"],
-            METHOD_LABELS["popv"],
-        ]
+
+    comparison_columns = [
+        "cell_id",
+        "cell_label",
+        *[
+            METHOD_LABELS[method]
+            for method in ("author", *HRAPOP_METHODS)
+        ],
     ]
+
+    return result[comparison_columns]
 
 
 def plot_comparison(comparison: pd.DataFrame, figure_dir: Path, dpi: int) -> None:

@@ -1,0 +1,251 @@
+annotation_method,cell_id,cell_count,hrapop_labels,is_cl_id
+azimuth,CL:0000084,32.0,T,True
+azimuth,CL:0000097,248.0,Mast cells,True
+azimuth,CL:0000115,22.0,endothelial,True
+azimuth,CL:0000158,4.0,Club (non-nasal),True
+azimuth,CL:0000169,308.0,beta,True
+azimuth,CL:0000171,1401.0,alpha,True
+azimuth,CL:0000173,115.0,delta,True
+azimuth,CL:0000186,1.0,Myofibroblasts,True
+azimuth,CL:0000192,9.0,Smooth muscle,True
+azimuth,CL:0000236,60.0,B | B cells,True
+azimuth,CL:0000322,53.0,Transitional Club-AT2,True
+azimuth,CL:0000359,148.0,Cortical Vascular Smooth Muscle / Pericyte,True
+azimuth,CL:0000583,699.0,Alveolar macrophages,True
+azimuth,CL:0000624,133.0,CD4 T cells,True
+azimuth,CL:0000625,120.0,CD8 T cells,True
+azimuth,CL:0000648,16.0,Renin-positive Juxtaglomerular Granular,True
+azimuth,CL:0000650,115.0,Mesangial,True
+azimuth,CL:0000653,538.0,Podocyte,True
+azimuth,CL:0000738,13.0,immune,True
+azimuth,CL:0000814,3.0,Natural Killer T,True
+azimuth,CL:0000860,252.0,Classical monocytes,True
+azimuth,CL:0000875,138.0,Non-classical monocyte | Non-classical monocytes,True
+azimuth,CL:0000890,34.0,M2 Macrophage,True
+azimuth,CL:0000990,4.0,Classical Dendritic,True
+azimuth,CL:0001058,15.0,Plasmacytoid DCs,True
+azimuth,CL:0002062,163.0,AT1,True
+azimuth,CL:0002063,816.0,AT2,True
+azimuth,CL:0002064,231.0,acinar,True
+azimuth,CL:0002075,1.0,Tuft,True
+azimuth,CL:0002079,451.0,ductal,True
+azimuth,CL:0002138,22.0,Lymphatic Endothelial,True
+azimuth,CL:0002145,202.0,Multiciliated (non-nasal),True
+azimuth,CL:0002201,472.0,Intercalated Type B,True
+azimuth,CL:0002275,219.0,gamma,True
+azimuth,CL:0002399,133.0,DC2,True
+azimuth,CL:0002410,65.0,activated_stellate,True
+azimuth,CL:0002480,3.0,Goblet (nasal),True
+azimuth,CL:0002573,4.0,Schwann / Neural | schwann,True
+azimuth,CL:0002633,78.0,Basal resting,True
+azimuth,CL:0005019,4.0,epsilon,True
+azimuth,CL:0008024,5.0,cycling,True
+azimuth,CL:0009086,64.0,Lymphatic EC mature,True
+azimuth,CL:0009089,3.0,Pericytes,True
+azimuth,CL:0011031,29.0,Monocyte-derived,True
+azimuth,CL:0017000,5.0,Ionocyte,True
+azimuth,CL:1000412,158.0,Afferent / Efferent Arteriole Endothelial,True
+azimuth,CL:1000452,728.0,Parietal Epithelial,True
+azimuth,CL:1000493,9.0,Mesothelium,True
+azimuth,CL:1000547,1630.0,Inner Medullary Collecting Duct,True
+azimuth,CL:1000692,167.0,Fibroblast,True
+azimuth,CL:1000714,414.0,Cortical Collecting Duct Principal,True
+azimuth,CL:1000716,71.0,Outer Medullary Collecting Duct Principal,True
+azimuth,CL:1000717,2.0,Outer Medullary Collecting Duct Intercalated Type A,True
+azimuth,CL:1000768,2106.0,Connecting Tubule,True
+azimuth,CL:1000850,203.0,Macula Densa,True
+azimuth,CL:1001005,303.0,Glomerular Capillary Endothelial,True
+azimuth,CL:1001033,807.0,Peritubular Capilary Endothelial,True
+azimuth,CL:1001107,69.0,Ascending Thin Limb,True
+azimuth,CL:1001108,83.0,Medullary Thick Ascending Limb,True
+azimuth,CL:1001109,5472.0,Cortical Thick Ascending Limb,True
+azimuth,CL:1001131,1.0,Ascending Vasa Recta Endothelial,True
+azimuth,CL:1001285,11.0,Descending Vasa Recta Endothelial,True
+azimuth,CL:1001568,6.0,EC arterial,True
+azimuth,CL:1001603,119.0,Monocyte-derived Mφ,True
+azimuth,CL:4028002,28.0,EC general capillary,True
+azimuth,CL:4028003,1.0,EC aerocyte capillary,True
+azimuth,CL:4028004,70.0,Alveolar fibroblasts,True
+azimuth,CL:4030009,7693.0,Proximal Tubule Epithelial Segment 1,True
+azimuth,CL:4030010,337.0,Proximal Tubule Epithelial Segment 2,True
+azimuth,CL:4030011,883.0,Proximal Tubule Epithelial Segment 3,True
+azimuth,CL:4030012,12.0,Descending Thin Limb Type 1,True
+azimuth,CL:4030013,691.0,Descending Thin Limb Type 2,True
+azimuth,CL:4030014,123.0,Descending Thin Limb Type 3,True
+azimuth,CL:4030015,1368.0,Cortical Collecting Duct Intercalated Type A,True
+azimuth,CL:4030016,4016.0,Distal Convoluted Tubule Type 1,True
+azimuth,CL:4030017,254.0,Distal Convoluted Tubule Type 2,True
+azimuth,CL:4030018,1354.0,Connecting Tubule Principal,True
+azimuth,CL:4030020,134.0,Connecting Tubule Intercalated Type A,True
+azimuth,CL:4030022,74.0,Medullary Fibroblast,True
+azimuth,CL:4033008,34.0,EC venous pulmonary | EC venous systemic,True
+azimuth,CL:4033043,20.0,Interstitial Mφ perivascular,True
+azimuth,CL:4033048,11.0,Suprabasal,True
+azimuth,CL:4033069,4.0,T cells proliferating,True
+azimuth,CL:4033077,12.0,Alveolar Mφ proliferating,True
+azimuth,CL:4052030,62.0,Adventitial fibroblasts,True
+celltypist,CL:0000057,38.0,Fibroblasts,True
+celltypist,CL:0000084,6177.0,T cells,True
+celltypist,CL:0000097,261.0,Mast cells,True
+celltypist,CL:0000115,2397.0,Endothelial cells,True
+celltypist,CL:0000158,19.0,Club (non-nasal),True
+celltypist,CL:0000169,489.0,beta_MHC/autoantigen | beta_stress I,True
+celltypist,CL:0000171,1366.0,alpha_MHC II | alpha_immature | alpha_stress II,True
+celltypist,CL:0000173,690.0,delta,True
+celltypist,CL:0000182,1901.0,Hepatocytes,True
+celltypist,CL:0000186,1.0,Myofibroblasts,True
+celltypist,CL:0000235,806.0,Macrophages,True
+celltypist,CL:0000236,363.0,B cells,True
+celltypist,CL:0000322,13.0,AT0,True
+celltypist,CL:0000583,738.0,Alveolar macrophages,True
+celltypist,CL:0000623,43.0,NK cells,True
+celltypist,CL:0000624,110.0,CD4 T cells,True
+celltypist,CL:0000625,98.0,CD8 T cells,True
+celltypist,CL:0000763,918.0,Mono+mono derived cells,True
+celltypist,CL:0000767,45.0,Basophils,True
+celltypist,CL:0000775,163.0,Neutrophils,True
+celltypist,CL:0000782,7.0,Mig.cDCs,True
+celltypist,CL:0000784,107.0,Plasmacytoid DCs | pDCs,True
+celltypist,CL:0000786,206.0,Plasma cells,True
+celltypist,CL:0000814,1437.0,Circulating NK/NKT,True
+celltypist,CL:0000860,349.0,Classical monocytes,True
+celltypist,CL:0000875,99.0,Non-classical monocytes,True
+celltypist,CL:0002062,98.0,AT1,True
+celltypist,CL:0002063,809.0,AT2,True
+celltypist,CL:0002138,67.0,Lymphatic EC differentiating | Lymphatic EC mature,True
+celltypist,CL:0002144,16.0,EC general capillary,True
+celltypist,CL:0002241,4.0,Peribronchial fibroblasts,True
+celltypist,CL:0002275,291.0,PP,True
+celltypist,CL:0002394,171.0,DC1 | cDC1s,True
+celltypist,CL:0002399,505.0,DC2 | cDC2s,True
+celltypist,CL:0002480,4.0,Goblet (nasal),True
+celltypist,CL:0002633,62.0,Basal resting,True
+celltypist,CL:0005012,181.0,Multiciliated (non-nasal),True
+celltypist,CL:0009089,3.0,Pericytes,True
+celltypist,CL:0019001,79.0,pre-TB secretory,True
+celltypist,CL:1000312,2.0,Goblet (subsegmental),True
+celltypist,CL:1000413,8.0,EC arterial,True
+celltypist,CL:1000488,370.0,Cholangiocytes,True
+celltypist,CL:1000491,49.0,Mesothelium,True
+celltypist,CL:1001603,85.0,Monocyte-derived Mph,True
+celltypist,CL:4028003,6.0,EC aerocyte capillary,True
+celltypist,CL:4028004,20.0,Alveolar fibroblasts,True
+celltypist,CL:4028006,36.0,Adventitial fibroblasts,True
+celltypist,CL:4030024,10.0,Hillock-like,True
+celltypist,CL:4033005,13.0,Smooth muscle,True
+celltypist,CL:4033008,31.0,EC venous pulmonary | EC venous systemic,True
+celltypist,CL:4033041,6.0,Alveolar Mph CCL3+,True
+celltypist,CL:4033043,17.0,Interstitial Mph perivascular,True
+celltypist,CL:4033044,3.0,Deuterosomal,True
+celltypist,CL:4033045,4.0,Migratory DCs,True
+celltypist,CL:4033048,14.0,Suprabasal,True
+celltypist,CL:4033069,5.0,T cells proliferating,True
+celltypist,CL:4033077,10.0,Alveolar Mph proliferating,True
+celltypist,CL:4033079,1.0,Lymphatic EC proliferating,True
+celltypist,CL:4033080,5.0,AT2 proliferating,True
+celltypist,CL:4047101,1698.0,Resident NK,True
+celltypist,CL:4052029,1.0,Subpleural fibroblasts,True
+frmatch,CL:0000037,12.0,Hematopoietic stem cells,True
+frmatch,CL:0000057,17.0,Subpleural fibroblasts,True
+frmatch,CL:0000068,16.0,SMG duct,True
+frmatch,CL:0000077,17.0,Mesothelium,True
+frmatch,CL:0000084,19.0,T cells proliferating,True
+frmatch,CL:0000097,16.0,Mast cells,True
+frmatch,CL:0000158,57.0,Club (nasal) | Club (non-nasal),True
+frmatch,CL:0000186,15.0,Myofibroblasts,True
+frmatch,CL:0000192,40.0,SM activated stress response | Smooth muscle | Smooth muscle FAM83D+,True
+frmatch,CL:0000236,22.0,B cells,True
+frmatch,CL:0000313,12.0,SMG serous (nasal),True
+frmatch,CL:0000583,158.0,Alveolar Mph proliferating | Alveolar macrophages,True
+frmatch,CL:0000623,17.0,NK cells,True
+frmatch,CL:0000624,43.0,CD4 T cells,True
+frmatch,CL:0000625,46.0,CD8 T cells,True
+frmatch,CL:0000784,27.0,Plasmacytoid DCs,True
+frmatch,CL:0000786,43.0,Plasma cells,True
+frmatch,CL:0000860,58.0,Classical monocytes,True
+frmatch,CL:0000861,23.0,Monocyte-derived Mph,True
+frmatch,CL:0000875,54.0,Non-classical monocytes,True
+frmatch,CL:0000990,33.0,DC1,True
+frmatch,CL:0002062,39.0,AT1,True
+frmatch,CL:0002063,207.0,AT2 | AT2 proliferating,True
+frmatch,CL:0002075,12.0,Tuft,True
+frmatch,CL:0002138,49.0,Lymphatic EC differentiating | Lymphatic EC mature | Lymphatic EC proliferating,True
+frmatch,CL:0002144,19.0,EC aerocyte capillary,True
+frmatch,CL:0002145,26.0,Multiciliated (non-nasal),True
+frmatch,CL:0002399,34.0,DC2,True
+frmatch,CL:0002480,32.0,Goblet (nasal),True
+frmatch,CL:0002543,18.0,EC venous systemic,True
+frmatch,CL:0002553,59.0,Adventitial fibroblasts | Alveolar fibroblasts,True
+frmatch,CL:0002632,49.0,pre-TB secretory,True
+frmatch,CL:0002633,28.0,Basal resting,True
+frmatch,CL:0005006,17.0,Ionocyte,True
+frmatch,CL:0009089,30.0,Pericytes,True
+frmatch,CL:0010003,36.0,AT0,True
+frmatch,CL:0019001,16.0,SMG serous (bronchial),True
+frmatch,CL:0019003,39.0,Goblet (subsegmental),True
+frmatch,CL:1000223,20.0,Neuroendocrine,True
+frmatch,CL:1000312,59.0,Goblet (bronchial),True
+frmatch,CL:1000413,21.0,EC arterial,True
+frmatch,CL:1001603,37.0,Interstitial Mph perivascular,True
+frmatch,CL:2000093,7.0,Peribronchial fibroblasts,True
+frmatch,CL:4028001,14.0,EC general capillary,True
+frmatch,CL:4030023,18.0,Hillock-like,True
+frmatch,CL:4030034,11.0,Multiciliated (nasal),True
+frmatch,CL:4033008,14.0,EC venous pulmonary,True
+frmatch,CL:4033022,35.0,SMG mucous,True
+frmatch,CL:4033041,164.0,Alveolar Mph CCL3+,True
+frmatch,CL:4033042,30.0,Alveolar Mph MT-positive,True
+frmatch,CL:4033044,16.0,Deuterosomal,True
+frmatch,CL:4033045,1.0,Migratory DCs,True
+frmatch,CL:4033048,23.0,Suprabasal,True
+popv,CL:0000057,29.0,fibroblast,True
+popv,CL:0000071,1.0,blood vessel endothelial cell,True
+popv,CL:0000077,38.0,mesothelial cell,True
+popv,CL:0000084,4184.0,T cell,True
+popv,CL:0000097,9.0,mast cell,True
+popv,CL:0000115,21.0,endothelial cell,True
+popv,CL:0000158,97.0,club cell,True
+popv,CL:0000169,457.0,type B pancreatic cell,True
+popv,CL:0000171,1256.0,pancreatic A cell,True
+popv,CL:0000182,1766.0,hepatocyte,True
+popv,CL:0000192,1.0,smooth muscle cell,True
+popv,CL:0000235,1076.0,macrophage,True
+popv,CL:0000236,27.0,B cell,True
+popv,CL:0000359,4.0,vascular associated smooth muscle cell,True
+popv,CL:0000451,127.0,dendritic cell,True
+popv,CL:0000576,721.0,monocyte,True
+popv,CL:0000624,110.0,"CD4-positive, alpha-beta T cell",True
+popv,CL:0000625,88.0,"CD8-positive, alpha-beta T cell",True
+popv,CL:0000763,4.0,myeloid cell,True
+popv,CL:0000767,269.0,basophil,True
+popv,CL:0000775,858.0,neutrophil,True
+popv,CL:0000784,17.0,plasmacytoid dendritic cell,True
+popv,CL:0000786,471.0,plasma cell,True
+popv,CL:0000814,4709.0,mature NK T cell,True
+popv,CL:0000860,353.0,classical monocyte,True
+popv,CL:0000875,55.0,non-classical monocyte,True
+popv,CL:0001044,9.0,"effector CD4-positive, alpha-beta T cell",True
+popv,CL:0001050,8.0,"effector CD8-positive, alpha-beta T cell",True
+popv,CL:0002062,90.0,type I pneumocyte,True
+popv,CL:0002063,791.0,type II pneumocyte,True
+popv,CL:0002064,183.0,pancreatic acinar cell,True
+popv,CL:0002079,557.0,pancreatic ductal cell,True
+popv,CL:0002275,269.0,pancreatic PP cell,True
+popv,CL:0002370,57.0,respiratory goblet cell,True
+popv,CL:0002393,4.0,intermediate monocyte,True
+popv,CL:0002410,73.0,pancreatic stellate cell,True
+popv,CL:0002538,343.0,intrahepatic cholangiocyte,True
+popv,CL:0002543,24.0,vein endothelial cell,True
+popv,CL:0002553,80.0,fibroblast,True
+popv,CL:0002598,2.0,bronchial smooth muscle cell,True
+popv,CL:0002633,96.0,basal cell,True
+popv,CL:0009086,66.0,endothelial cell of lymphatic vessel,True
+popv,CL:0009089,3.0,pericyte,True
+popv,CL:1000271,179.0,lung ciliated cell,True
+popv,CL:1000398,2286.0,endothelial cell of hepatic sinusoid,True
+popv,CL:1000413,14.0,endothelial cell of artery,True
+popv,CL:1001603,837.0,macrophage,True
+popv,CL:2000016,5.0,lung microvascular endothelial cell,True
+popv,CL:2000055,762.0,liver dendritic cell,True
+popv,CL:4028001,21.0,capillary endothelial cell,True
+popv,CL:4028006,18.0,adventitial cell,True
